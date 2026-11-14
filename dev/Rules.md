@@ -1049,7 +1049,11 @@ that isn't in the game.
   same). A migration that is superseded refuses to run. A builder that takes over a script an earlier one wrote is
   named in `story_kit.TAKES_OVER`, so the earlier one run again leaves it be. When a later builder moves or changes
   what an earlier one made, the earlier one is brought up to date too (`build_heir_isle.py` builds Edwin's house on
-  0,-2 since `move_lawyers_house.py`). `story_kit.quest()` keeps the keys other builders add to a quest (the rewards).
+  0,-2 since `move_lawyers_house.py`). `story_kit.quest()` keeps the keys other builders add to a quest (the rewards),
+  and `story_kit.own_section()` an entity's (a builder writes its own keys; `build_senses.py`'s sight, hearing and
+  chase keep the values it gave them). A thing a builder puts on a map is put back on its own line, where it stood.
+- There are no players yet: nothing is written for a save from before a change (no step kept for one already part
+  way through a quest, no branch for one who did things in an older order). Change the quest; old saves don't count.
   `build_stealth.py` sets Valuables down only once in a map (`dev/migrate/valuables_done.txt`), so one taken out
   stays out.
 

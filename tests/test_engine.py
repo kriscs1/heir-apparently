@@ -9247,7 +9247,7 @@ def test_a_step_done_says_quest_objective_met_once_with_its_sound(world):
     world.now += 5000
     s.out = []
     s.update_attribute("RangerQuest", "=2")                          # (a step on, short of Done)
-    s.update_attribute("RangerQuest", "=3")                          # (and another at once: said once)
+    s.update_attribute("WatchStones", "=3")                          # (and its count met at once: said once)
     assert len(said()) == 1 and len(heard()) == 1
     world.now += 5000
     s.out = []
@@ -9262,7 +9262,7 @@ def test_a_step_done_says_quest_objective_met_once_with_its_sound(world):
     world.now += 5000
     s.out = []
     s.update_attribute("WildSpidersSlain", "+1")                     # (more than wanted: nothing more)
-    s.update_attribute("RangerQuest", "=4")                          # (done: Quest_Done, not an objective)
+    s.update_attribute("RangerQuest", "=3")                          # (done: Quest_Done, not an objective)
     assert not said()
     leave(world, s)
 
@@ -9568,7 +9568,7 @@ def test_the_last_watch_stone_sends_you_on_to_the_spiders_nest(world):
         assert s.get_attribute("RangerQuest") == "1"
         s.start_script("Watch Stone %d" % k, False)
         run_for(world, 5)
-    assert s.get_attribute("RangerQuest") == "3"                     # (no walk back to Ash between: the webs say it)
+    assert s.get_attribute("RangerQuest") == "2"                     # (no walk back to Ash between: the webs say it)
     leave(world, s)
 
 
@@ -10087,7 +10087,7 @@ def test_the_old_grove_felled_or_kept(world):
     ash = next(e for e in world.ents if e.name == "Ranger" and e.map == "8,11,0" and not e.npc_id)
     s = join(world, "Feller", "8,11,0", 300, 300)
     s.connected = True
-    s.update_attribute("RangerQuest", "=4")
+    s.update_attribute("RangerQuest", "=3")
     choice_talk(world, s, "Timber_Merchant", 1)                     # "I'll cut your mark: fell the grove."
     assert s.get_attribute("GroveQuest") == "2"
     oak = world.placed_entity("Old_Grove_Oak", s)
@@ -10107,7 +10107,7 @@ def test_the_old_grove_felled_or_kept(world):
     leave(world, s)
     k = join(world, "Keeper", "8,11,0", 300, 300)
     k.connected = True
-    k.update_attribute("RangerQuest", "=4")
+    k.update_attribute("RangerQuest", "=3")
     choice_talk(world, k, ash, 1)                                   # "I'll stand with you: the grove stays."
     assert k.get_attribute("GroveQuest") == "3"
     k.teleport("9,12,0", 16 * 32, 10 * 32)

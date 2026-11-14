@@ -240,7 +240,7 @@ def data():
                               ("Kill.Sound", "Undead"), ("Level", "16"), ("Freeze.Immune", "1"), ("Light", "50"),
                               ("Drops", "Remnant_Core,1-1,100 Shard,8-12,100")])):
         for k, v in keys:
-            ents.set(name, k, v)
+            ents.set(name, k, v, overwrite=k not in SK.SENSES)   # (its sight and chase: build_senses.py's)
     ents.save(p("data", "Entities.ini"))
     sh = Ini(p("data", "Shards.ini"))
     if sh.get("Shards", "Shardgate") is None:
@@ -403,7 +403,6 @@ def scripts():
                                       "vast and warm, where something huge lies sleeping: every splinter of "
                                       "magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. "
                                       "Tell Bert.", "-"),
-        (">Conditional", "$Attr.GalaithQuest=0", "@seen"),           # (the dragon dead already: nothing to see)
         ("Wait", "3"),                                               # (seen from here: no second walk to the pass)
         ("Play.Sound", "Shard_Voice"),
         ("Display.Message", "Cyan", "Through the hole where the anchor stood you see the pass, small and far, as if "
@@ -413,7 +412,6 @@ def scripts():
         ("Display.Message", "Red", "A voice like a landslide, inside your head: 'The little heir, in my own cellar. "
                                    "Break what you like. My faithful Hand has fed me Shards through that wall, crumb "
                                    "by crumb, since the day it went up, and the sword you won is fast asleep.'", "-"),
-        ("@seen",),
         ("Toggle.User.Input", "ON"),
         ("End",),
         ("@nostaff",), ("Display.Message", "DarkRed", "Your bare hands won't break it: it needs the Staff of "
@@ -449,13 +447,11 @@ def scripts():
         (">Conditional", "$Variable.1=4", "@s1"),
         SK.say("Bert", "Broken? You broke the anchor? In the Shardrealm? Ha! I said you were good. Did I say that? "
                        "I meant to.\\But you've a face like a wet week. What did you see down there?",
-               ("The dragon. It laughed at my sword. [if $Attr.GalaithQuest=0]", "@done"),
-               ("Something huge, asleep under the anchor. [if $Attr.GalaithQuest>=1]", "@done")),
+               ("The dragon. It laughed at my sword.", "@done")),
         ("@done",),
         ("Update.Attribute", "ShardgateQuest", "=5"),
         ("Display.Message", "Yellow", "Quest complete: The Shardgate! The barrier's anchor is broken; the Shardgate "
                                       "stays open to you.", "Quest"),
-        (">Conditional", "$Attr.GalaithQuest=0", "@end"),
         (">Quest.Can.Start", "WakeQuest", "@notyet"),                 # (The Sleeping Sword: build_middle_quests.py)
         ("Update.Attribute", "WakeQuest", "=1"),
         ("Goto.Script", "Bert's Errands"),                            # (he says why, in the same breath)

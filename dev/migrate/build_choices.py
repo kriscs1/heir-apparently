@@ -570,7 +570,7 @@ def treasury():
 def ash():
     say = lambda text, *a: K.say("Ranger", text, *a)
     return [
-        get("RangerQuest", 1), (">Conditional", "$Variable.1>=4", "@watch"),
+        get("RangerQuest", 1), (">Conditional", "$Variable.1>=3", "@watch"),
         get("GroveQuest", 3), get("GroveWay", 4),
         (">Conditional", "$Variable.3<=1", "@grove2"),
         (">Quest.Can.Start", "GroveQuest", "@quiet"),
@@ -616,17 +616,8 @@ def ash():
         ("@w1",), (">Conditional", "$Variable.1=1", "@w2"),
         say("One stone by the north road, one in the western woods, one by the river. Touch each one.",
             ("I'm on it.", "@end")), ("End",),
-        ("@w2",), (">Conditional", "$Variable.1=2", "@w3"),
-        say("All three stones? Then my fears are true: their moss is torn, webs everywhere.\\Spiders. A nest of them "
-            "in the deep woods to the west. Clear it out: five of them, at least.", ("I'll deal with them.", "@nest"),
-            ("Later.", "@end")),
-        ("End",),
-        ("@nest",), ("Update.Attribute", "RangerQuest", "=3"),
-        ("Quest.Note", "RangerQuest", "The spider nest is in the deep woods west of Oakhollow."),
-        ("Quest.Note", "RangerQuest", "Slay five giant spiders there."),
-        msg("The Wildwood Watch: slay five giant spiders in the deep woods."), ("End",),
-        ("@w3",), (">Conditional", "$Variable.1=3", "@quiet"), get("WildSpidersSlain", 2), (">Conditional", "$Variable.2>=5", "@five"),
-        ("Update.Attribute", "RangerQuest", "=4"), ("Quest.Note.Done", "RangerQuest", "*"),
+        ("@w2",), (">Conditional", "$Variable.1=2", "@quiet"), get("WildSpidersSlain", 2), (">Conditional", "$Variable.2>=5", "@five"),
+        ("Update.Attribute", "RangerQuest", "=3"), ("Quest.Note.Done", "RangerQuest", "*"),
         ("Give.Item", "Gold_Coin(s)", "120"), ("Give.Item", "Yew_Staff", "1"), ("Update.Skill", "Woodcutting", "+2"),
         ("Update.Skill", "Attack", "+1"),
         say("The nest is gone? The woods will breathe easier. Take my old yew staff, and this gold. You've earned "
@@ -649,7 +640,7 @@ STONE_NOTES = ("Watch stone by the north road, between King Rupert's Keep and Oa
 
 def watch_stone(k):
     """A watch stone of the Wildwood. The last one touched shows the webs and sends you on to the nest: no walk back
-    to Ash between (one who'd reported to him before this still hears it from him: RangerQuest 2)."""
+    to Ash between."""
     return [
         get("RangerQuest", 1), (">Conditional", "$Variable.1=1", "@end"),
         get("Watch%d" % k, 2), (">Conditional", "$Variable.2=0", "@end"),
@@ -657,8 +648,7 @@ def watch_stone(k):
         ("Quest.Note.Done", "RangerQuest", STONE_NOTES[k - 1]),
         ("Update.Attribute", "WatchStones", "+1"),
         get("WatchStones", 3), (">Conditional", "$Variable.3>=3", "@more"),
-        ("Update.Attribute", "RangerQuest", "=2"),                    # (the stones done: where an older save waits
-        ("Update.Attribute", "RangerQuest", "=3"),                    # for Ash's word; now it's straight on)
+        ("Update.Attribute", "RangerQuest", "=2"),
         ("Quest.Note", "RangerQuest", "The spider nest is in the deep woods west of Oakhollow."),
         ("Quest.Note", "RangerQuest", "Slay five giant spiders there."),
         msg("The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods "
@@ -668,6 +658,38 @@ def watch_stone(k):
         ("@more",), msg("You touch the old watch stone. Watch stones visited: $Variable.3 of 3."),
         ("@end",), ("End",),
     ]
+
+
+def kill_spider():
+    """A giant spider for Ranger Ash: counted while the nest's to clear (RangerQuest 2)."""
+    return [
+        get("RangerQuest", 1), (">Conditional", "$Variable.1=2", "@end"),
+        get("WildSpidersSlain", 2), (">Conditional", "$Variable.2<5", "@end"),
+        ("Update.Attribute", "WildSpidersSlain", "+1"),
+        ("Get.Value", "CALCULATION", "$Variable.2+1", V(2)),
+        (">Conditional", "$Variable.2<5", "@five"),
+        msg("Giant spiders slain for Ranger Ash: $Variable.2 of 5."), ("End",),
+        ("@five",), ("Quest.Note.Done", "RangerQuest", "Slay five giant spiders there."),
+        ("Quest.Note", "RangerQuest", "Return to Ranger Ash in Oakhollow."),
+        msg("Five spiders! Return to Ranger Ash in Oakhollow."),
+        ("@end",), ("End",),
+    ]
+
+
+WATCH_Q = [("Stage1", "Visit the three old watch stones of the Wildwood ($WatchStones of 3): one by the north road, "
+                      "one in the western woods and one by the river."),
+           ("Stage2", "Clear the spider nest in the deep woods west of Oakhollow: slay five giant spiders "
+                      "($WildSpidersSlain of 5), then return to Ranger Ash."),
+           ("Done", "3"), ("Marker2", "Spider_Nest")]
+
+
+def watch_quest():
+    """The Wildwood Watch's steps as they are now (build_regions.py wrote four, with a walk back to Ash between)."""
+    K.section(K.QUESTS, "The Wildwood Watch", WATCH_Q)
+    head = "[The Wildwood Watch]\n"                                   # (its Stage3 and Marker3 gone with the step)
+    K._write_blocks(K.QUESTS, [b if not b.startswith(head) else
+                               "".join(ln for ln in b.splitlines(True) if not ln.startswith(("Stage3=", "Marker3=")))
+                               for b in K._blocks(K.QUESTS)])
 
 
 def bramble():
@@ -768,6 +790,8 @@ def scripts():
     K.write_script("Talk to Ranger", ash(), MAKER)
     for k in (1, 2, 3):
         K.write_script("Watch Stone %d" % k, watch_stone(k), MAKER)
+    K.write_script("Kill Giant_Spider", kill_spider(), MAKER)
+    watch_quest()
     K.write_script("Talk to Timber_Merchant", bramble(), MAKER)
     K.write_script(GROVE, grove_entry(), MAKER)
     K.write_script("Kill Woodcutter", kill_woodcutter(), MAKER)

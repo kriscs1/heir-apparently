@@ -148,6 +148,23 @@ def set_section(path, name, lines, after=None):
     _write_blocks(path, blocks)
 
 
+SENSES = ("Sight.Cone", "Aggro.Range", "Hearing", "Chase.Radius")   # (build_senses.py's, by each monster's kind)
+
+
+def own_section(path, name, lines, theirs=SENSES):
+    """[name] with lines ("Key=Value") written, where it was (or at the end), and every other key it has kept: what
+    builders after this one add (build_hover.py's Hover.Info, a voice, a shadow...). A key in theirs keeps the value
+    it has: the builder that owns it set it. Safe to run again."""
+    have = []
+    for b in _blocks(path):
+        if b.startswith("[%s]\n" % name):
+            have = [ln for ln in b.split("\n")[1:] if "=" in ln and not ln.startswith(";")]
+    old = {ln.split("=", 1)[0]: ln for ln in have}
+    mine = {ln.split("=", 1)[0] for ln in lines}
+    out = [old[k] if k in theirs and k in old else ln for ln in lines for k in [ln.split("=", 1)[0]]]
+    set_section(path, name, out + [ln for ln in have if ln.split("=", 1)[0] not in mine])
+
+
 def quest(name, giver, attribute, stages, done, markers=None, kind="Main", chapter=None, requires=None,
           level=None, after=None, marker0=None):
     """Quests.ini [name]: stages {n: text} (n = the attribute's value), markers {n: place IDs ';'-joined}. Keys it

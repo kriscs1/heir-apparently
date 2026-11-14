@@ -391,14 +391,14 @@ def entities():
             else ["Weapon.Range=0"]
         tuned = TUNED.get(name, {})
         lines = [k + "=" + tuned[k] if k in tuned else ln for ln in lines for k in [ln.split("=", 1)[0]]]
-        K.set_section(K.ENTS, name, lines)
+        K.own_section(K.ENTS, name, lines)
     for name, (base, col, alpha, level, words, light) in PEOPLE.items():
         lines = ["Type=NPC", "Attitude=Good", "Use.Words=Talk to,Examine", "Examine.Info=%s" % words, "Roam.Radius=0",
                  "Chase.Radius=0", "Walk.Speed=0.5", "Pause=4-10", "Respawn=300", "Level=%d" % level]
-        K.set_section(K.ENTS, name, lines + (["Light=%d" % light] if light else []))
+        K.own_section(K.ENTS, name, lines + (["Light=%d" % light] if light else []))
 
     def obj(name, verbs, words, *more):
-        K.set_section(K.ENTS, name, ["Type=StaticObject", "Use.Words=%s" % verbs, "Solid=1", "Examine.Info=%s" % words]
+        K.own_section(K.ENTS, name, ["Type=StaticObject", "Use.Words=%s" % verbs, "Solid=1", "Examine.Info=%s" % words]
                       + list(more))
 
     obj("Lodestar_Altar", "Reach In,Examine", "An altar of grey stone, rimed white. Its bowl is full of ice.", "Light=80")
@@ -415,7 +415,7 @@ def entities():
     obj("Rat_Race_Track", "Bet,Examine", "Three lanes of planking and a chalk line. It smells strongly of rat.")
 
     def item(name, words, *more):
-        K.set_section(K.ENTS, name, ["Type=MapItem", "Examine.Info=%s" % words] + list(more))
+        K.own_section(K.ENTS, name, ["Type=MapItem", "Examine.Info=%s" % words] + list(more))
 
     item("Valour_Chart", "Orrin's chart of the waters round Dragon Island: every reef and current, and every mark set "
          "by a star.", "Stackable=1", "Droppable=0", "Value=0")
@@ -611,8 +611,10 @@ def put(mapname, etype, kind, pid, at, opts="", exact=False, roofed=False, zone=
     """One entity with Id=pid on mapname (any line with that Id there first goes): at the tile at if exact (a spot
     worked out by hand, its back wall too), else the nearest free tile to it. zone: (r, chase) about it."""
     m = map_of(mapname)
-    m.ents = [ln for ln in m.ents if not {"Id=%s" % pid, "Id=%s" % kind} & set(ln.split("\t")[-1].split())]
+    ours = lambda ln: bool({"Id=%s" % pid, "Id=%s" % kind} & set(ln.split("\t")[-1].split()))
     # (and one with its kind's own name for an Id, as they had at first: an Id is never a sprite's name)
+    where = next((i for i, ln in enumerate(m.ents) if ours(ln)), len(m.ents))    # (put back where it stood: a map
+    m.ents = [ln for ln in m.ents if not ours(ln)]                                #  run again is the same map)
     x, y = at if exact else near_free(m, at[0], at[1], roofed)
     extra = "Id=%s" % pid + (" " + opts if opts else "")
     if zone:
@@ -620,7 +622,7 @@ def put(mapname, etype, kind, pid, at, opts="", exact=False, roofed=False, zone=
         extra += " Zone=%d,%d,%d,%d Chase=%d,%d,%d,%d" % (max(2, x - r), max(2, y - r), min(XT - 1, x + r),
                                                           min(YT - 1, y + r), max(1, x - c), max(1, y - c),
                                                           min(XT, x + c), min(YT, y + c))
-    m.ents.append(obj_line(etype, kind, x, y, extra, -8 if etype == "NPC" else 0))
+    m.ents.insert(min(where, len(m.ents)), obj_line(etype, kind, x, y, extra, -8 if etype == "NPC" else 0))
     return x, y
 
 
