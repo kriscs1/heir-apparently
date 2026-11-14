@@ -1122,7 +1122,7 @@ class Project:
         if key not in self._sprites and kind == "Entities" and self.is_decor_object(name):
             self._sprites[key] = self.sprite("Tiles", name)        # (a decor tile placed as an object)
         if key not in self._sprites:
-            folder = ("dev", "Sprites") if kind == "Dev" else ("sprites", kind)
+            folder = ("sprites", kind)
             path = self.p(*folder, name + ".png")       # a PNG (with its transparency), or an old two-half BMP
             if not os.path.exists(path):
                 path = self.p(*folder, name + ".bmp")

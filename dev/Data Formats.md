@@ -11,16 +11,8 @@ All paths are relative to `DefaultDir$` (the `New (converted)` folder).
 
 ## Language and checking
 
-* The game: Python 3 with aiohttp (the server), and pygame and numpy to make its pictures (tools\export_web_assets.py). The editor: Liberty BASIC 4.04
-  (`C:\Program Files (x86)\Liberty BASIC v4.04\liberty.exe`).
-  The command line can't syntax-check, so run `python dev\lblint.py <file.bas> --locals`
-  after every edit. It reports unbalanced blocks, bad goto/gosub targets, unknown
-  subs, wrong argument counts and sub-local variables that are never set.
-* Liberty BASIC gotchas: no `else if` (nest instead); there's no include, so each
-  program is one file; variables inside a sub/function are local unless declared
-  `global`; arrays are always global; a sub can't `goto` a label outside itself;
-  `dim` of an existing array clears it; `word$(s$, n, delim$)`; and string
-  comparisons are case-sensitive.
+* The game: Python 3 with aiohttp (the server), and pygame and numpy to make its pictures (tools\export_web_assets.py). The editor:
+  Python too (dsedit\, started by `Shards of Ashen Editor.py`).
 
 ## Folder layout
 
@@ -41,7 +33,7 @@ All paths are relative to `DefaultDir$` (the `New (converted)` folder).
 | `sprites\Effects` | Combat and spell effects, made by `dev\migrate\build_effects.py` and loaded the first time each is needed: `Hit<N>`, `Crit<N>`, `Heal<N>` (N = 1..99) and `Miss` splats; four-frame animations `<Name>1..4` (Puff, Slash, Fire_Burst, Ice_Burst, Spark, Heal_Glow, Stone_Glow, Teleport_Glow); missiles; `Hurt_Top/Bottom/Left/Right` (the hurt flash, as wide/high as the map). The combat sounds in `sounds\` are made by `dev\migrate\build_sounds.py`. |
 | `sprites\Worn` | What the player wears, drawn over them: `Worn_<Item><Dir><Frame>.png` (the 12 player frames) for every item with a Slot except rings, made by `dev\migrate\build_worn.py` from the player's body (re-run it after adding equipment; the look comes from the item's name: material + kind). Loaded the first time an item is worn; an item without frames just isn't shown. |
 | `sprites\Walk` | NPC walking frames, made from the sprites\Entities sprite by `dev\migrate\build_walk.py` (re-run it after changing an NPC sprite). `<Name><Dir><Frame>.png`: Dir 1 = north, 2 = east, 4 = south, 8 = west; Frame a = standing, b/c = steps. All 12 = the NPC faces all four ways; only 2a-2c and 8a-8c = side-on (animals face east or west). Loaded by the game the first time that NPC is shown; an NPC without frames keeps its single sprite. |
-| `dev\` | Tool files: `Log.txt` (game log; NOT `Debug\Log.txt`), `Minimap Colours.txt`, `Open Script.txt`, `Undo List.txt`, `Redo List.txt`, `sprites\` (editor-only sprites), `lblint.py` |
+| `dev\` | Tool files: `Minimap Colours.txt`, `migrate\` (the builders), `Archive\` (originals the builders read), `Renders\` (their previews) |
 
 ## Names
 
