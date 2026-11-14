@@ -1317,9 +1317,9 @@ class NPCMixin:
             tent = self.nearest_shelter(e) if sched == "Day" and person and self.nearest_door(e) is None else None
             if sched == "Day" and not far:
                 door = self.bed_of(e)                                # (a cat to its bed: Sleeping_Jimmy is it, abed)
-                if door is None and person:
-                    door = self.nearest_door(e) or (tent and tent[1])   # (a person with no home of its own here;
-                if door is None:                                     #  no door at all: a tent's front)
+                if door is None and person:                          # (a person with no home of its own here; no door
+                    door = self.nearest_door(e) or (tent and tent[1]) or self.nearest_door(e, round_about=True)
+                if door is None:                                     #  on its map: a tent's front, or a door round it)
                     return False                                     # (an animal: it slips away once nobody's near)
                 d = distance(e.cx, e.cy, door[0], door[1])
                 if door is not None and d > 14:
@@ -1563,10 +1563,20 @@ class NPCMixin:
             return None
         return min(spots, key=lambda sp: distance(e.cx, e.cy, sp[1][0], sp[1][1]))
 
-    def nearest_door(self, e):
+    def nearest_door(self, e, round_about=False):
+        """The nearest door (or gate) on e's map; round_about: on the maps round it too, if its own has none."""
         m = self.maps.get(e.map) or self.map_at(e.z, e.x, e.y)
         if m is None:
             return None
+        doors = self.door_spots(m)
+        if not doors and round_about:
+            doors = [d for n in self.neighbours(m) for d in self.door_spots(n)]
+        if not doors:
+            return None
+        return min(doors, key=lambda dd: distance(e.cx, e.cy, dd[0], dd[1]))
+
+    def door_spots(self, m):
+        """The middle of each door and gate tile on map m."""
         cache = self.data.cache("door_spots")
         key = (m.name, m.version)
         doors = cache.get(key)
@@ -1578,9 +1588,7 @@ class NPCMixin:
                     if "1" in (self.data.door_kind(m.tile[c]), self.data.door_kind(m.decor[c])):   # (a gate too)
                         doors.append((m.ox + (x - 0.5) * self.tw, m.oy + (y - 0.5) * self.th))
             cache[key] = doors
-        if not doors:
-            return None
-        return min(doors, key=lambda dd: distance(e.cx, e.cy, dd[0], dd[1]))
+        return doors
 
     def bed_side(self, e, a):
         """Where it gets into its bed from: the walkable spot nearest it beside the bed's head or foot."""

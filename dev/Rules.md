@@ -450,7 +450,8 @@ that isn't in the game.
   their house at night, hens in their coop - and its `Bed=x,y` the bed it sleeps in at night (`<Name>_Sleep4`, made
   by `build_sleepers.py`; Talk gets "fast asleep"). Townsfolk have a house each (`assign_homes.py`: never a building
   someone else lives or works in). Without either, a person goes out of the nearest door (no door on its map: into the
-  nearest tent, `Shelter=1` in Tiles.ini: `dev/migrate/houseless_tents.py`), an animal slips away once nobody's near.
+  nearest tent, `Shelter=1` in Tiles.ini: `dev/migrate/houseless_tents.py`; no tent either: the nearest door on the
+  maps round it), an animal slips away once nobody's near.
   A zzz rises over whoever's asleep, in bed or in a tent. `Schedule=Night` is a night owl (home by day, asleep if it
   has a bed, out after dark: one plain townsperson a town, `night_folk.py`); `Schedule=Always` never goes home or to
   bed (guards and tavern keepers have no bed: up all night already). `Roost=` is the old name of `Home=` (still read).
