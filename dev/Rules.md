@@ -954,6 +954,14 @@ that isn't in the game.
   account has an email, confirmed before it can join a game (no ticket till then; the app's own game needs none), and a
   forgotten password goes only to a confirmed one. The logo is pixel art made by
   `dev/migrate/build_logo.py` (web/img/logo.png, web/home/logo.png).
+- **A player deletes their own account** (the stores ask for it, in the app and on the web): the account chip's Delete
+  my account (`/api/account/delete`), proved by its password, or its name typed for one made with Google; the same as
+  the admin page's Delete (the name kept back), never an admin's. The privacy policy and the **terms**
+  (`central/pages/terms.html`, with refunds: the store's own policy) are both ticked at sign-up and linked at the foot of
+  the start screen; whatever changes what they say is changed there in the same commit, with the date.
+- **Nothing is fetched from anywhere else** (the owner's rule): no Google Fonts, web fonts, CDNs, analytics or outside
+  scripts on any page. Text is in the system's own fonts (`FONT` in `util.js`, `--font`); a font of our own would be a
+  file served with the page, CC0 and in CREDITS.md. The start screen is never in another site's frame (`index`).
 - **A new name has no spaces** (the owner's rule): a Hallisium account or a character is letters, digits, `_` and `-`
   (`auth.new_name_refused`, which suggests the name joined with `_`). A name made before that keeps its space and still
   signs in, so `clean_name` (every lookup) keeps spaces; a character copied to a device that needs a new name gets a

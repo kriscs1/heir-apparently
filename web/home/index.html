@@ -50,6 +50,7 @@ button { font: inherit; font-size: 16px; font-weight: bold; padding: 10px 16px; 
   cursor: pointer; transition: transform 0.08s, filter 0.15s; text-shadow: 1px 1px 0 rgba(0,0,0,0.5); }
 button:hover { filter: brightness(1.12); } button:active { transform: translateY(1px); }
 button.go { background: linear-gradient(180deg, #2a9a52, #1b6b37); border-color: var(--ok-edge); }
+button.bad { background: linear-gradient(180deg, #a3402f, #6e2519); border-color: var(--bad); }
 button.link { background: none; border: none; min-height: 0; padding: 4px 2px; color: var(--ink); text-decoration: underline;
   font-weight: normal; font-size: 14px; text-shadow: none; }
 button:disabled { opacity: 0.5; cursor: default; filter: none; }
@@ -178,8 +179,8 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
         <label class="field">Email (the only way back in if you forget your password; we'll send a link to confirm it)<input id="new-email" type="email" maxlength="254" autocomplete="email" required></label>
         <label class="field">Password<input id="new-password" name="password" type="password" maxlength="200" autocomplete="new-password" required></label>
         <label class="field" id="claim-row" hidden>Admin code (from the server's log)<input id="new-claim" maxlength="40" autocomplete="off"></label>
-        <label class="agree"><input id="new-agree" type="checkbox" required><span>I've read and agree to the
-          <a href="#" class="privacy-link">privacy policy</a>.</span></label>
+        <label class="agree"><input id="new-agree" type="checkbox" required><span>I'm 13 or older, and I agree to the
+          <a href="#" class="terms-link">terms</a> and the <a href="#" class="privacy-link">privacy policy</a>.</span></label>
         <button type="submit" class="go">Create my account</button>
       </form>
       <form id="form-lost" class="stack" hidden>
@@ -260,7 +261,7 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
   </section>
 </section>
 
-<footer><a href="#" class="privacy-link">Privacy policy</a><button id="central-link" class="link" type="button">Central server</button>
+<footer><a href="#" class="privacy-link">Privacy policy</a><a href="#" class="terms-link">Terms</a><button id="central-link" class="link" type="button">Central server</button>
   <span>&copy; 2026 Hallisium. All rights reserved.</span><span id="version"></span></footer>
 </div>
 
@@ -476,13 +477,14 @@ function chooseName(code, r, name) {
     ${r.text ? `<p class="small" style="color:var(--bad)">${esc(r.text)}</p>` : ""}
     <label class="field">Name (what everyone sees)<input id="google-name" maxlength="20" autocomplete="username" value="${esc(name || "")}"></label>
     <label class="field" ${r.claim ? "" : "hidden"}>Admin code (from the server's log)<input id="google-claim" maxlength="40" autocomplete="off"></label>
-    <label class="agree"><input id="google-agree" type="checkbox"><span>I've read and agree to the
-      <a href="#" id="google-privacy">privacy policy</a>.</span></label>`,
+    <label class="agree"><input id="google-agree" type="checkbox"><span>I'm 13 or older, and I agree to the
+      <a href="#" id="google-terms">terms</a> and the <a href="#" id="google-privacy">privacy policy</a>.</span></label>`,
     [["Cancel", ""], ["Create my account", "go", () => {
-      if (!$("google-agree").checked) { toast("Tick that you've read the privacy policy first.", true); return false; }
+      if (!$("google-agree").checked) { toast("Tick that you agree to the terms and the privacy policy first.", true); return false; }
       googleIn(code, $("google-name").value, $("google-claim").value);
     }]]);
   $("google-privacy").onclick = (ev) => { ev.preventDefault(); openOut(CENTRAL + "/privacy"); };
+  $("google-terms").onclick = (ev) => { ev.preventDefault(); openOut(CENTRAL + "/terms"); };
   setTimeout(() => $("google-name").focus(), 50);
 }
 $("skip").onclick = () => { skipped = true; signedIn(""); };
@@ -562,14 +564,8 @@ $("chip").onclick = async () => {
       <input id="acct-itch" autocomplete="off" autocapitalize="off" spellcheck="false"></label>` : ""}`,
     [...(pending && canMail ? [["Send the link again", "", () => {
        account("/api/email/again", { token }, (r) => toast(r.text)); return false; }]] : []),
-     ["Sign out", "", () => {
-       api("/api/logout", { token }).catch(() => {});
-       token = ""; store.set("token", ""); myName = "";
-       store.set("devices", "");                  // (the games knew this device as yours: a new key for each from now on)
-       store.set("devicesAt", "");
-       if (app) app.stopHosting();                // (your game: saved, and shut to whoever you'd let in)
-       showWelcome();
-     }],
+     ...(me.ok && !me.admin ? [["Delete my account", "", () => { deleteAccount(me); return false; }]] : []),
+     ["Sign out", "", signOut],
      ["Save", "go", () => {
        const typed = $("acct-email").value.trim();
        if (typed !== (pending || email)) account("/api/email", { token, email: typed }, (r) => toast(r.text || "Saved."));
@@ -578,6 +574,28 @@ $("chip").onclick = async () => {
          toast("Thank you! The full game is yours, on every device."); checkOwning(); });
      }]]);
 };
+
+function signOut() {
+  api("/api/logout", { token }).catch(() => {});
+  token = ""; store.set("token", ""); myName = "";
+  store.set("devices", "");                       // (the games knew this device as yours: a new key for each from now on)
+  store.set("devicesAt", "");
+  if (app) app.stopHosting();                     // (your game: saved, and shut to whoever you'd let in)
+  showWelcome();
+}
+function deleteAccount(me) {                      // (the stores ask that a player can, in the app and on the web)
+  const prove = me.password ? `<label class="field">Your password<input id="del-password" type="password" maxlength="200"
+    autocomplete="current-password"></label>` : `<label class="field">Type your account's name, ${esc(myName)}<input
+    id="del-name" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false"></label>`;
+  dialog(`<h2>Delete ${esc(myName)}?</h2><p class="small">Your email, password, friends${me.bought ? ", the full game" : ""}
+    and what the central server knows of your characters go at once, and can't be brought back. The name stays taken, so
+    nobody else gets your characters; to have those removed from a game, ask its owner.</p>${prove}`,
+    [["Keep it", ""], ["Delete my account", "bad", () => {
+      const body = me.password ? { token, password: $("del-password").value } : { token, name: $("del-name").value };
+      account("/api/account/delete", body, () => { signOut(); toast("Your account has been deleted."); });
+    }]]);
+  setTimeout(() => ($("del-password") || $("del-name")).focus(), 50);
+}
 
 window.onBought = (what) => {                             // (Google Play's answer, in the Android app)
   if (what === "full") { toast("Thank you! The full game is yours."); checkOwning(); }
@@ -931,13 +949,14 @@ function refresh() {
 }
 
 // ----- the footer
-for (const a of document.querySelectorAll(".privacy-link")) a.onclick = (ev) => {
-  ev.preventDefault();
-  if (!CENTRAL) { toast("The privacy policy is on the central server, which isn't set.", true); return; }
-  // (over the start screen, in every version: what's typed into the sign-up stays, and the apps have no way back from a page)
-  dialog(`<iframe title="Privacy policy" src="${esc(CENTRAL)}/privacy"></iframe>`, [["Close", "", () => { $("dialog").classList.remove("wide"); }]]);
-  $("dialog").classList.add("wide");
-};
+for (const [cls, page, title] of [["privacy-link", "privacy", "Privacy policy"], ["terms-link", "terms", "Terms of use"]])
+  for (const a of document.querySelectorAll("." + cls)) a.onclick = (ev) => {
+    ev.preventDefault();
+    if (!CENTRAL) { toast(title + ": that's on the central server, which isn't set.", true); return; }
+    // (over the start screen, in every version: what's typed into the sign-up stays, and the apps have no way back from a page)
+    dialog(`<iframe title="${title}" src="${esc(CENTRAL)}/${page}"></iframe>`, [["Close", "", () => { $("dialog").classList.remove("wide"); }]]);
+    $("dialog").classList.add("wide");
+  };
 $("central-link").onclick = () => {
   if (fromCentral) { toast("This is the central server: " + CENTRAL); return; }
   dialog(`<h2>Central server</h2><p class="small dim">Where accounts and the list of games are kept. Leave it empty for

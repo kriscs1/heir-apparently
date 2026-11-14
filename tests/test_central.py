@@ -279,6 +279,86 @@ def test_a_bans_reason_shows_where_they_have_proved_who_they_are(tmp_path, monke
     asyncio.run(go())
 
 
+def test_a_player_deletes_their_own_account(tmp_path, monkeypatch, confirmed):
+    """Proved by its password (or its name typed, made with Google): all that's theirs goes, the name kept back. Wrong
+    tries are counted like a log-in's, and an admin's account isn't deleted this way."""
+    async def go():
+        monkeypatch.setenv("DS_CENTRAL_ADMINS", "Boss")
+        capp = make_central(str(tmp_path / "central.db"))
+        runner, port = await run(capp)
+        c = "http://127.0.0.1:%d" % port
+        cen = capp[CENTRAL]
+        store = cen.store
+        try:
+            async with aiohttp.ClientSession() as http:
+                boss = (await post(http, c + "/api/register", {"name": "Boss", **SIGNUP,
+                                                               "claim": cen.claims.get("boss", "")}))["token"]
+                cen.signups.clear()
+                tok = (await post(http, c + "/api/register", {"name": "Leaver", **SIGNUP,
+                                                              "email": "leaver@example.com"}))["token"]
+                assert (await post(http, c + "/api/account", {"token": tok}))["password"] is True
+                assert not (await post(http, c + "/api/account/delete", {"token": "nonsense", "password": "longpassword"}))["ok"]
+                m = await post(http, c + "/api/account/delete", {"token": tok, "password": "wrongpassword"})
+                assert not m["ok"] and "password" in m["text"] and (await post(http, c + "/api/me", {"token": tok}))["ok"]
+                m = await post(http, c + "/api/account/delete", {"token": boss, "password": "longpassword"})
+                assert not m["ok"] and "admin" in m["text"] and store.account("Boss")
+
+                assert (await post(http, c + "/api/account/delete", {"token": tok, "password": "longpassword"}))["ok"]
+                assert not (await post(http, c + "/api/me", {"token": tok}))["ok"]
+                acct = store.account("Leaver")
+                assert acct and acct[6] and not acct[1] and not acct[4]     # (the name kept back, nothing else)
+                assert not (await post(http, c + "/api/login", {"name": "Leaver", "password": "longpassword"}))["ok"]
+                cen.signups.clear()
+                assert not (await post(http, c + "/api/register", {"name": "Leaver", **SIGNUP,
+                                                                    "email": "new@example.com"}))["ok"]
+
+                # (made with Google: no password, so its name typed out)
+                cen.signups.clear()
+                tok = (await post(http, c + "/api/register", {"name": "Googler", **SIGNUP,
+                                                              "email": "g@example.com"}))["token"]
+                store.db.execute("UPDATE accounts SET password = '' WHERE name = 'Googler'")
+                assert (await post(http, c + "/api/account", {"token": tok}))["password"] is False
+                assert not (await post(http, c + "/api/account/delete", {"token": tok, "name": "Someone"}))["ok"]
+                assert (await post(http, c + "/api/account/delete", {"token": tok, "name": "googler"}))["ok"]
+                assert store.account("Googler")[6]
+
+                # (wrong passwords run out, as a log-in's do)
+                cen.signups.clear()
+                tok = (await post(http, c + "/api/register", {"name": "Guesser", **SIGNUP,
+                                                              "email": "x@example.com"}))["token"]
+                for _ in range(12):
+                    m = await post(http, c + "/api/account/delete", {"token": tok, "password": "nope-nope"})
+                assert not m["ok"] and "wait" in m["text"]
+        finally:
+            await runner.cleanup()
+    asyncio.run(go())
+
+
+def test_the_start_screen_has_the_terms_and_cant_be_framed(tmp_path):
+    """The terms (with refunds) beside the privacy policy, both asked for at sign-up; the start screen in nobody's frame."""
+    page = open(os.path.join(ROOT, "web", "home", "index.html"), encoding="utf-8").read()
+    form = re.search(r'<form id="form-new".*?</form>', page, re.S).group(0)
+    assert "terms-link" in form and "privacy-link" in form and "13 or older" in form
+    assert 'class="terms-link">Terms</a>' in page and "/api/account/delete" in page
+
+    async def go():
+        runner, port = await run(make_central(str(tmp_path / "central.db")))
+        c = "http://127.0.0.1:%d" % port
+        try:
+            async with aiohttp.ClientSession() as http:
+                async with http.get(c + "/terms") as r:
+                    terms = await r.text()
+                    assert r.status == 200 and "Refunds" in terms and "Delete my account" in terms and "{{" not in terms
+                async with http.get(c + "/privacy") as r:
+                    assert "Cookies" in await r.text() and "X-Frame-Options" not in r.headers   # (shown in a frame)
+                async with http.get(c + "/") as r:
+                    assert r.headers["X-Frame-Options"] == "DENY" and "frame-ancestors 'none'" in r.headers[
+                        "Content-Security-Policy"]
+        finally:
+            await runner.cleanup()
+    asyncio.run(go())
+
+
 def test_an_admin_deletes_an_account_keeping_its_name_or_freeing_it(tmp_path, monkeypatch, confirmed):
     """Either way all that's theirs goes and they're turned away from a game. Delete keeps the name back; the other
     frees it. An admin can't be deleted (a name in DS_CENTRAL_ADMINS left free would make whoever took it an admin)."""

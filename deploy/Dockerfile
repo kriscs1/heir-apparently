@@ -14,7 +14,7 @@ COPY tools tools
 RUN mkdir -p web && python tools/export_web_assets.py
 
 FROM python:3.11-slim
-RUN pip install --no-cache-dir "aiohttp>=3.9" && useradd --create-home --uid 1000 dragon
+RUN pip install --no-cache-dir "aiohttp>=3.12.14" && useradd --create-home --uid 1000 dragon
 WORKDIR /game
 # The version on the login screen: VERSION's number, and the build (the commit count), its commit and date, given by
 # whoever builds the image (GitHub's build, Test Locally.bat)

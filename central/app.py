@@ -23,6 +23,7 @@ its own accounts too, for a network with no way to reach here.
   POST /api/reset     {name, code, password}      -> {ok, name}          (code: the emailed one)
   POST /api/me        {token}                     -> {ok, name, needs_email}
   POST /api/logout    {token}
+  POST /api/account/delete {token, password | name}  -> {ok}   (the player's own account, gone: its name kept back)
   POST /api/ticket    {token, server, url?}       -> {ok, ticket}        (server: the game server's id; refused: banned,
                                                   or no confirmed email: the join stops there and says why)
   POST /api/buy       {token, where, proof}       -> {ok, full, bought}  (where: play, steam or itch; proof: what that
@@ -43,7 +44,7 @@ its own accounts too, for a network with no way to reach here.
   POST /api/admin/... {token, ...}                the admin page's (servers, approving, accounts, bans, deleting, stats)
   GET  /confirm?code=, POST /confirm {code}       a link's page, and its button (a mail scanner opens links: only the
                                                   button confirms)
-  GET  /admin, /privacy                          the admin page, the privacy policy
+  GET  /admin, /privacy, /terms                  the admin page, the privacy policy, the terms (with refunds)
   GET  /api/hello                                 -> {name, motd, players, servers}
   GET  /health                                    -> {ok, servers, version, commit, date}
   GET  /                                          the start screen (a browser's: join a game, local or remote)"""
@@ -441,7 +442,35 @@ class Central:
             return no("Not logged in.")
         acct = self.store.account(name)
         return yes(name=name, email=acct[4] if acct else "", pending=self.store.pending_email(name),
-                   admin=self.is_admin(name), mail=mail.ready(), **self.owns(name))
+                   admin=self.is_admin(name), mail=mail.ready(), password=bool(acct and acct[1]), **self.owns(name))
+
+    async def delete_mine(self, request):
+        """The player deleting their own account (the stores ask that they can, in the app and on the web): proved by
+        its password, or by its name typed out for one made with Google (it has none). The name's kept back, as the
+        admin page's Delete does, so nobody gets its characters."""
+        d, addr = await self.body(request), self.addr(request)
+        name = self.store.token_name(d.get("token", ""))
+        if not name:
+            return no("Not logged in.")
+        acct = self.store.account(name)
+        if acct is None or acct[6]:
+            return no("Not logged in.")
+        if self.is_admin(name):
+            return no("An admin's account is deleted by another admin, from the admin page.")
+        w = self.wait(name, addr)
+        if w:
+            return no("Too many tries: wait %d seconds." % w)
+        at = self.failed(name, addr)
+        if acct[1]:
+            if not await self.matches(str(d.get("password", ""))[:200], acct[1]):
+                return no("That isn't your password.")
+        elif str(d.get("name", "")).strip().lower() != name.lower():
+            return no("Type your account's name to delete it.")
+        self.forgiven(name, addr, at)
+        self.store.delete_account(name, True)
+        await self.relays.stop_hosting(name)
+        log.info("%s deleted their own account", name)
+        return yes()
 
     async def buy(self, request):
         """A purchase of the full game, checked with its store (bought.py), made the account's: one purchase is only
@@ -1133,7 +1162,10 @@ def make_central(db_path):
         return resp
 
     async def index(request):
-        return web.FileResponse(os.path.join(home, "index.html"), headers={"Cache-Control": "no-cache"})
+        # (where the sign-in is: never inside another site's frame, where a click could be steered)
+        return web.FileResponse(os.path.join(home, "index.html"), headers={
+            "Cache-Control": "no-cache", "X-Frame-Options": "DENY", "Content-Security-Policy": "frame-ancestors 'none'",
+            "X-Content-Type-Options": "nosniff", "Referrer-Policy": "no-referrer"})
 
     pages = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pages")
 
@@ -1144,13 +1176,17 @@ def make_central(db_path):
                                        "connect-src 'self'; img-src data:; base-uri 'none'; form-action 'none'; "
                                        "frame-ancestors 'none'"})
 
-    async def privacy(request):
-        with open(os.path.join(pages, "privacy.html"), encoding="utf-8") as f:
-            text = f.read()
-        for key, value in (("{{NAME}}", c.name), ("{{OPERATOR}}", os.environ.get("DS_CENTRAL_OPERATOR", c.name)),
-                           ("{{CONTACT}}", os.environ.get("DS_CENTRAL_CONTACT", "the address on the game's page"))):
-            text = text.replace(key, value.replace("<", "&lt;"))
-        return web.Response(text=text, content_type="text/html", headers={"Cache-Control": "public, max-age=3600"})
+    def policy(page):
+        """The privacy policy or the terms: shown over the start screen in a frame, so never kept from one."""
+        async def send(request):
+            with open(os.path.join(pages, page), encoding="utf-8") as f:
+                text = f.read()
+            for key, value in (("{{NAME}}", c.name), ("{{OPERATOR}}", os.environ.get("DS_CENTRAL_OPERATOR", c.name)),
+                               ("{{CONTACT}}", os.environ.get("DS_CENTRAL_CONTACT", "the address on the game's page"))):
+                text = text.replace(key, value.replace("<", "&lt;"))
+            return web.Response(text=text, content_type="text/html", headers={
+                "Cache-Control": "public, max-age=3600", "X-Content-Type-Options": "nosniff"})
+        return send
 
     def confirm_page(title, words, code="", way_back=True):
         """The page a link in an email opens: its words, and its button (only that confirms) or the way back."""
@@ -1255,6 +1291,7 @@ def make_central(db_path):
                      ("logout", c.logout), ("ticket", c.ticket), ("verify", c.verify), ("buy", c.buy),
                      ("game/owns", c.game_owns),
                      ("announce", c.announce), ("goodbye", c.goodbye), ("account", c.account),
+                     ("account/delete", c.delete_mine),
                      ("email", c.set_email), ("email/again", c.email_again), ("forgot", c.forgot),
                      ("friends", c.friends), ("friend", c.friend),
                      ("game/friends", c.game_friends), ("game/standing", c.game_standing),
@@ -1272,7 +1309,8 @@ def make_central(db_path):
     app.router.add_get("/admin", admin_page)
     app.router.add_get("/auth/google", google_off)
     app.router.add_get("/auth/google/done", google_back)
-    app.router.add_get("/privacy", privacy)
+    app.router.add_get("/privacy", policy("privacy.html"))
+    app.router.add_get("/terms", policy("terms.html"))
     app.router.add_get("/confirm", confirm_ask)
     app.router.add_post("/confirm", confirm_done)
     app.router.add_get("/api/hello", c.hello)

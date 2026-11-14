@@ -1,5 +1,5 @@
 # The server
-aiohttp>=3.9
+aiohttp>=3.12.14
 # Building web/assets (tools/export_web_assets.py)
 pygame>=2.5
 numpy>=1.24

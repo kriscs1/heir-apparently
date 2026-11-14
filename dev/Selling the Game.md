@@ -80,6 +80,10 @@ On the VM, in `/opt/shards-of-ashen-central`:
 2. Put it on an **internal testing** track, and add yourself under Play Console > Setup > **License testing** (test
    purchases cost nothing).
 3. On your phone, from the track: buy the full game. The admin page's Accounts then shows the account's full game.
+4. Play Console > App content: the **privacy policy** is `https://shardsofashen.hallisium.com/privacy`. **Data
+   safety** > Data deletion: accounts can be deleted in the app and on the web (`https://shardsofashen.hallisium.com`:
+   sign in, the account chip, Delete my account); the terms (with refunds) are `/terms`. Steam and itch.io take the same
+   two links.
 
 ## 7. Turn the demo on: last
 
