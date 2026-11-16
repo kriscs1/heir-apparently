@@ -179,7 +179,13 @@ export function verbLabel(verb, e) {
   if (verb === "Use with") return `Use ${pretty(itemInUseName())} with ${name}`;
   if (verb === "Attack") return `Attack ${name} (${lbstr(e.hp)}/${lbstr(e.mh)})`;
   if ((verb === "Buy 1" || verb === "Buy 5") && S.box.mode === "Market") return `${verb} ${name} (${e.price} gold each, from ${e.seller})`;
-  if (verb === "Buy 1" || verb === "Buy 5") return `${verb} ${name} (${itemPrice(e.n, S.box.buy_rate || 1.2)} gold)`;
+  if (verb === "Buy 1" || verb === "Buy 5") {
+    // (the price of all of them: a shop with fewer than 5 left sells what it has)
+    let n = verb === "Buy 1" ? 1 : 5;
+    if (e.q !== "+" && Number.isFinite(+e.q)) n = Math.max(1, Math.min(n, +e.q));
+    const what = verb === "Buy 5" && n < 5 ? `Buy the last ${n}` : verb;
+    return `${what} ${name} (${itemPrice(e.n, S.box.buy_rate || 1.2) * n} gold)`;
+  }
   if (verb === "Sell on the market") return `Sell ${name} on the market...`;
   if (verb === "Set price") return `Set the price of ${name} (now ${e.price} gold)...`;
   if (verb === "Sell 1" || verb === "Sell All") {

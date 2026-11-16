@@ -9,6 +9,7 @@ import { playVoice } from "./audio.js";
 const R = { key: "", n: 0, len: 0, next: 0 };
 const greeted = new Map();                             // (who greeted you when: not again on every answer)
 let talk = null;                                       // (the talk you started, who's in it: their goodbye at its end)
+let bye = 0;                                           // (the goodbye waiting a moment, in case a shop opens)
 
 function pageKey(b) { return `${b.fresh || 0}|${b.tpage || 0}`; }
 
@@ -16,9 +17,12 @@ function pageKey(b) { return `${b.fresh || 0}|${b.tpage || 0}`; }
 // moment ago; the box closing on a talk you started, they say goodbye
 export function greet(prev, b) {
   const now = performance.now();
+  clearTimeout(bye);
   if (!b.mode) {
-    if (talk && now - talk.at > 1500) playVoice(talk.voice, talk.pitch, "Bye_");   // (not over a hello still going)
-    talk = null;
+    // (a moment's wait first: a talk that opens a shop closes before the shop opens, and the goodbye is the shop's)
+    const t = talk;
+    if (t && now - t.at > 1500) bye = setTimeout(() => { if (talk === t) { playVoice(t.voice, t.pitch, "Bye_"); talk = null; } }, 600);
+    else talk = null;
     return;
   }
   if (b.mode !== "Conversation" || !b.voice) return;

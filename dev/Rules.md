@@ -776,7 +776,7 @@ that isn't in the game.
   greetings are cut from CC0 recordings by `build_voices.py`, which also gives each speaker its `Voice=` (a new
   speaker gets one there too). Each person placed has a pitch of their own, the same every time (`npc_voice`: never above the
   recording's, which plays it faster; the greetings are a little slower than recorded, `SPOKEN_PACE`), and
-  greets you again only after a while. As a talk you started closes (or the shop it opened), they say goodbye in the same voice (`Bye_`: `build_voices.py` FAREWELLS), never another speaker's: a kind whose speaker recorded no goodbye says none. Notices, signs and letters are silent. Options can turn the voices off.
+  greets you again only after a while. As a talk you started closes (or the shop it opened: never as the talk gives way to the shop), they say goodbye in the same voice (`Bye_`: `build_voices.py` FAREWELLS), never another speaker's: a kind whose speaker recorded no goodbye says none. Notices, signs and letters are silent. Options can turn the voices off.
   A greeting suits who says it: a mourner at a funeral only sighs (`Sigh`); an old man or an old woman is
   a real old person's voice (Mozilla Common Voice, CC0), never a younger one's made old; every take of a kind is
   one person's voice. No added noise for a breathy voice: it sounds like static.
@@ -973,6 +973,8 @@ that isn't in the game.
 
 - **Prices show the game's coin, never a "g"**: `COIN` in `util.js` (drawText draws it, and writes "12 gold" so);
   `coinHTML` for page text. The same coin everywhere a price or a sum of gold is shown.
+- **A menu's price is what that choice costs**: Buy 5 shows five times Buy 1's (`verbLabel`), or what's left ("Buy the
+  last 3") when a shop has fewer, as Sell All shows the sum for all you hold.
 - **Every finished quest has its screen** (`reward_tick`, `showReward`), apart from the chat, its name and what it gave,
   even when it gave nothing but thanks.
 - **A click is answered at once**: what's clicked is marked the moment it's clicked (registered: a gold ring; a foe a
