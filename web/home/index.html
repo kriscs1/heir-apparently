@@ -147,6 +147,9 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
   padding: 12px 18px; border-radius: 12px; background: rgba(36,23,15,0.97); border: 2px solid var(--edge-light);
   box-shadow: 0 8px 24px rgba(0,0,0,0.6); font-size: 15px; transition: opacity 0.3s; }
 .toast.bad { border-color: var(--bad); }
+.loadbar { height: 10px; background: #241510; border-radius: 6px; overflow: hidden; margin-top: 4px; }
+#load-bar { height: 100%; width: 0; background: #e2b04a; transition: width 0.4s ease-out; }
+.saying { min-height: 2.6em; margin: 10px 0 0; font-style: italic; opacity: 0.8; text-align: center; }
 .spinner { width: 44px; height: 44px; border-radius: 50%; border: 4px solid rgba(243,232,136,0.2); border-top-color: var(--ink);
   animation: spin 0.9s linear infinite; margin: 0 auto 12px; }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -315,8 +318,67 @@ function dialog(html, buttons) {
   $("dialog").append(row);
   $("veil").hidden = false;
 }
-function busy(text) { $("dialog").innerHTML = `<div class="spinner"></div><p style="text-align:center">${esc(text)}</p>`; $("veil").hidden = false; }
-function done() { $("veil").hidden = true; }
+function busy(text, long) {
+  stopLoading();
+  $("dialog").innerHTML = `<div class="spinner"></div><p style="text-align:center">${esc(text)}</p>` + (long ?
+    '<div class="loadbar"><div id="load-bar"></div></div><p class="saying" id="load-saying" aria-live="polite"></p>' : "");
+  $("veil").hidden = false;
+  if (long) startLoading();
+}
+function done() { stopLoading(); $("veil").hidden = true; }
+
+// ----- a world on its way: a bar and a saying. (nothing tells us how far a game is in starting, so the bar creeps
+// towards how far its stage goes - loading.to - slower the nearer it gets, and fills when the game's page opens)
+// The sayings are web/js/sayings.js's (tests/test_central.py keeps the two the same)
+const SAYINGS = [
+  "Herding the sheep back into their pens...",
+  "Teaching the chickens to cross the road...",
+  "Sweeping the tavern floor...",
+  "Waking the blacksmith (gently)...",
+  "Reminding the goblins to look menacing...",
+  "Hiding the good loot at the bottom of the chest...",
+  "Persuading the rats to stay in the cellar...",
+  "Tuning the bard's lute (it won't help)...",
+  "Laying the map down, one tile at a time...",
+  "Putting the ore back in the rocks...",
+  "Telling the skeletons to lie still a moment longer...",
+  "Fluffing the pillows at the inn...",
+  "Feeding the fish so they'll bite later...",
+  "Lighting the lanterns...",
+  "Checking under the bridges...",
+  "Sharpening swords nobody asked to have sharpened...",
+  "Settling an argument between two shopkeepers...",
+  "Asking the weather what it fancies today...",
+  "Rounding up the cows that wandered off...",
+  "Convincing the wolves it isn't feeding time...",
+  "Stacking the firewood...",
+  "Oiling the doors that creak (most of them)...",
+  "Counting the coins in the bank, twice...",
+  "Untangling the fishing nets...",
+  "Asking the guards to stand a little straighter...",
+  "Shooing the crows off the crops...",
+  "Growing the trees back...",
+  "Unrolling the roads...",
+  "Sorting the herbs from the weeds...",
+  "Dusting the bookshelves nobody reads..."
+];
+const loading = { at: 0, to: 0.6, timer: 0 };
+function startLoading() {
+  const order = SAYINGS.map((x) => [Math.random(), x]).sort((a, b) => a[0] - b[0]).map((x) => x[1]);
+  let n = 0, ticks = 0;
+  Object.assign(loading, { at: 0.03, to: 0.6 });
+  const tick = () => {
+    if (!$("load-bar")) { stopLoading(); return; }
+    loading.at += (loading.to - loading.at) * 0.02;
+    $("load-bar").style.width = Math.round(loading.at * 100) + "%";
+    if (ticks++ % 28 === 0) $("load-saying").textContent = order[n++ % order.length];
+  };
+  tick();
+  loading.timer = setInterval(tick, 100);
+}
+function stopLoading() { clearInterval(loading.timer); loading.timer = 0; }
+function loadingTo(f) { loading.to = Math.max(loading.to, f); }
+function loadingDone() { if ($("load-bar")) { loading.at = loading.to = 1; $("load-bar").style.width = "100%"; } }
 
 // ----- the central server
 async function api(path, body) {
@@ -713,7 +775,8 @@ async function join(address, id, name, mine, given) {
   let u;
   try { u = gameUrl(address); } catch (e) { u = null; }
   if (!u) { toast("That isn't an address.", true); return; }
-  busy(`Joining ${name || u.host}...`);
+  if (!loading.timer) busy(`Joining ${name || u.host}...`, true);
+  else { $("dialog").querySelector(".spinner + p").textContent = `Joining ${name || u.host}...`; loadingTo(0.9); }
   if (!id) {                                       // (by address: ask it who it is, for the ticket)
     const link = /\/play\/([^/]+)\/?$/.exec(u.pathname);    // (a friend's link: its id is in it)
     if (link) {
@@ -745,6 +808,7 @@ async function join(address, id, name, mine, given) {
   if (!appFull && pageFull()) h.set("screen", "full");               // (a browser's full screen ends with this page)
   u.search = q.toString();
   u.hash = h.toString();                           // (never sent to the server's log: the page reads it)
+  loadingDone();
   if (app) app.play(u.toString()); else location.href = u.toString();
 }
 
@@ -858,7 +922,7 @@ function serverCard(g, badge, action) {
 
 // (the list has no addresses: the ticket, asked for by a signed-in player, brings the one they join)
 async function joinListed(g) {
-  busy(`Joining ${g.name}...`);
+  busy(`Joining ${g.name}...`, true);
   let t = null;
   try { t = await api("/api/ticket", { token, server: g.key }); } catch (e) { t = null; }
   if (!t || !t.ok || !t.url) { done(); toast((t && t.text) || "The central server didn't answer.", true); return; }
@@ -904,7 +968,7 @@ let wantPlay = false, lastErr = "";
 function startGame() {
   wantPlay = true;
   app.hostAs(myName ? `${myName}'s game` : "", "solo", CENTRAL, hostKey());
-  busy("Starting your world...");
+  busy("Starting your world...", true);
 }
 $("alone").onclick = () => {
   if (!store.get("toldProgress")) {                // (once: what a game alone tells us)
@@ -943,6 +1007,7 @@ function refresh() {
   $("running-name").textContent = busyNow ? doing : st.name;
   const said = $("dialog").querySelector(".spinner + p");
   if (wantPlay && st.status === "unpacking" && said && said.textContent !== doing) said.textContent = doing;
+  if (wantPlay) loadingTo(st.status === "unpacking" ? 0.4 : 0.85);      // (unpacking, then starting: most of the wait)
   $("running-what").textContent = on ? "is running on this device." : "";
   if (st.status === "error" && st.error && st.error !== lastErr) { lastErr = st.error; done(); toast("The game couldn't start: " + st.error, true); }
   if (on && wantPlay) { wantPlay = false; join("127.0.0.1:" + (st.port || 8484), "", st.name, true); }

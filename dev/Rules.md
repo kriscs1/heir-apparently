@@ -846,6 +846,7 @@ that isn't in the game.
   browser's own F11 full screen is left alone: only F11 leaves it, and the button's tip says so. The start screen's
   Options has it too, before you're in a game: a browser's ends with that page, so the game takes it up again at your
   first click or key (`screen=full` in the join).
+- **A world loading shows a bar and a funny saying** (the owner's wish), a new one every few seconds: the start screen's Starting your world and Joining (the bar creeps towards each stage's end: nothing says how far a game is in starting), and the game's own panel, which stays up till the first view's pictures are in (20 seconds at most) and fills as they come. The sayings are `web/js/sayings.js`'s, copied into `web/home/index.html` (a test keeps them the same): never a hint.
 - **The start screen has Options** (the owner's wish): full screen, the ground effects, smooth scaling and the sounds'
   and their volumes, what every game you join starts with. They go with the join (`opts`), and a game takes them only
   when they've changed there since it last had them (`ds.menuOpts`), so one changed in a game's own Options stays.

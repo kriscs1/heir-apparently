@@ -696,6 +696,18 @@ def test_every_version_has_the_same_start_screen():
         assert a == b, "run tools/sync_home.py"
 
 
+def test_the_loading_sayings_are_the_same_on_the_start_screen_and_in_the_game():
+    """web/js/sayings.js's list, word for word in web/home/index.html (which can't load the game's files)."""
+    import os
+    import re
+    said = []
+    for f, start in ((("web", "js", "sayings.js"), "export const SAYINGS = ["), (("web", "home", "index.html"), "const SAYINGS = [")):
+        text = open(os.path.join(ROOT, *f), encoding="utf-8").read()
+        body = text[text.index(start) + len(start):]
+        said.append(re.findall(r'^\s*"(.*)",?\s*$', body[:body.index("\n]")], re.M))
+    assert said[0] and said[0] == said[1], "the sayings differ: copy web/js/sayings.js's into web/home/index.html"
+
+
 def test_making_an_account_asks_for_the_privacy_policy():
     """The sign-up can't go ahead without its tick, and the policy opens over the form, whatever's typed kept."""
     import os

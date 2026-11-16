@@ -135,13 +135,17 @@ export function texture(name) {
   return e.ok ? e.img : null;
 }
 
-export function preload(names) {
-  // Starts loading these sprites; resolves when they've all arrived (or failed)
-  return Promise.all(names.filter(has).map((n) => new Promise((resolve) => {
+export function preload(names, progress) {
+  // Starts loading these sprites; resolves when they've all arrived (or failed). progress(done, of) as each one does
+  const want = names.filter(has);
+  let got = 0;
+  const one = () => { got++; if (progress) progress(got, want.length); };
+  return Promise.all(want.map((n) => new Promise((resolve) => {
     const e = image("s:" + n, "assets/sprites/" + encodeURIComponent(n) + ".png");
-    if (e.ok || e.bad) return resolve();
-    e.img.addEventListener("load", resolve, { once: true });
-    e.img.addEventListener("error", resolve, { once: true });
+    const done = () => { one(); resolve(); };
+    if (e.ok || e.bad) return done();
+    e.img.addEventListener("load", done, { once: true });
+    e.img.addEventListener("error", done, { once: true });
   })));
 }
 

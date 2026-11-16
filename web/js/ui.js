@@ -127,11 +127,11 @@ export const INTERFACE = ["SideBar", "SideBarBorder", "StatBox", "ChatBar", "Inf
   "AB_Craft", "ResponseBox", "MinimapMarker", "Mana", "Heart", "Placeholder", "Hurt_Top", "Hurt_Bottom", "Hurt_Left",
   "Hurt_Right", "Player4a"];
 
-export function preloadInterface() {
+export function preloadInterface(progress) {
   const names = [...INTERFACE];
   for (let i = 0; i <= 100; i += 10) names.push(i + "PCHealth");
   for (const c of "0123456789+") names.push("InterfaceNumber" + c);
-  return preload(names);
+  return preload(names, progress);
 }
 
 function blit(ctx, name, x, y) {

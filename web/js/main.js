@@ -21,6 +21,7 @@ import { buildPicker, DEFAULT_LOOK, lookImage, bodyFrame } from "./look.js";
 import { preload, entityIni, sprite } from "./assets.js";
 import { onGame } from "./games.js";
 import { greet } from "./voice.js";
+import { tellSayings } from "./sayings.js";
 import { B, onBuildables, updateBuild, toggleBuild, setBuild, initBuildUI, buildMouseDown, buildMouseMove, drawBuild } from "./build.js";
 
 const $ = (id) => document.getElementById(id);
@@ -1325,13 +1326,32 @@ async function startGame(m) {
   $("login").hidden = true;
   $("loading").hidden = false;
   $("loading-text").textContent = `Loading ${m.name}...`;
-  $("loading-bar").style.width = "30%";
-  await preloadInterface();
-  $("loading-bar").style.width = "100%";
-  $("loading").hidden = true;
-  running = true;
+  const bar = (f) => { $("loading-bar").style.width = Math.round(Math.min(1, f) * 100) + "%"; };
+  bar(0.05);
+  const hush = tellSayings($("loading-saying"));
+  await preloadInterface((n, of) => bar(0.05 + 0.3 * n / of));
+  running = true;                                  // (the world's drawn behind the panel: what it asks for is still to come)
   canvas.focus();
   keepAwake();
+  await worldDrawn((f) => bar(0.35 + 0.65 * f));
+  bar(1);
+  hush();
+  $("loading").hidden = true;
+}
+
+// Resolves once the map's in and every picture the first view asked for has arrived (20 seconds at most: a slow
+// picture is drawn when it comes). onPart(0..1): how many of those pictures are in
+function worldDrawn(onPart) {
+  const t0 = performance.now();
+  let most = 0, still = 0;
+  return new Promise((resolve) => {
+    const look = setInterval(() => {
+      most = Math.max(most, A.pending);
+      if (most) onPart(1 - A.pending / most);
+      still = S.mapName && S.me && A.pending === 0 ? still + 1 : 0;
+      if (still >= 3 || performance.now() - t0 > 20000) { clearInterval(look); resolve(); }   // (3: a few frames' asking)
+    }, 100);
+  });
 }
 
 // ================================================================================================================

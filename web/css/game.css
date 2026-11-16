@@ -287,7 +287,8 @@ button:disabled { opacity: 0.5; cursor: default; }
 .row input[type=checkbox] { width: 20px; height: 20px; accent-color: var(--ok); }
 
 .bar { height: 10px; background: #241510; border-radius: 6px; overflow: hidden; margin-top: 12px; }
-#loading-bar { height: 100%; width: 0; background: #e2b04a; transition: width 0.2s; }
+#loading-bar { height: 100%; width: 0; background: #e2b04a; transition: width 0.4s ease-out; }
+#loading .saying { min-height: 2.6em; margin: 12px 0 0; font-style: italic; opacity: 0.8; text-align: center; }   /* (room for two lines: the panel never jumps) */
 
 /* the item rack's search, over its title bar (placed by main.js placeRackSearch) */
 #rack-search {
