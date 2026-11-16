@@ -771,14 +771,19 @@ that isn't in the game.
   `Fail_3`) is played at random among them.
 - **People greet you as you talk to them**: a real person's "Hello!", "Well met." or "How can I help?" as a
   conversation you started opens (its first page only, a `Talk to` you clicked: never someone calling out to you
-  or a script opening one), never a made-up voice (synthesised sounded like a machine, mumbling sounded awful) and never
+  or a script opening one), never a robotic voice (the old synthesised ones sounded like a machine, mumbling sounded awful) and never
   the words of the text; its words come a few at a time, silently (a click shows the rest; `web/js/voice.js`). The
-  greetings are cut from CC0 recordings by `build_voices.py`, which also gives each speaker its `Voice=` (a new
-  speaker gets one there too). Each person placed has a pitch of their own, the same every time (`npc_voice`: never above the
+  voices are ElevenLabs text to speech (the owner liked none of the CC0 recordings but the old man's: the rest
+  sounded fake or down a phone): `fetch_elevenlabs.py` designs one voice per kind (Man, Young_Man, Woman,
+  Young_Woman, Old_Woman, Deep, Gruff, Guard, Noble_Man, Noble_Woman, Ghost, Girl, Boy) and downloads its lines into
+  `dev/elevenlabs/<Kind>/`, noting each line and when it was downloaded in `dev/elevenlabs/Downloaded.md`; only lines
+  not yet there are fetched, so a new line costs only itself. `build_voices.py` makes the sounds from them and gives
+  each speaker its `Voice=` (a new speaker gets one there too): guards a guard's, kings, lords and mayors a noble's,
+  the young a young voice, children a child's. Each person placed has a pitch of their own, the same every time (`npc_voice`: never above the
   recording's, which plays it faster; the greetings are a little slower than recorded, `SPOKEN_PACE`), and
-  greets you again only after a while. As a talk you started closes (or the shop it opened: never as the talk gives way to the shop), they say goodbye in the same voice (`Bye_`: `build_voices.py` FAREWELLS), never another speaker's: a kind whose speaker recorded no goodbye says none. Notices, signs and letters are silent. Options can turn the voices off.
+  greets you again only after a while. As a talk you started closes (or the shop it opened: never as the talk gives way to the shop), they say goodbye in the same voice (`Bye_`: `build_voices.py` FAREWELLS), never another speaker's: every kind has its goodbyes. Notices, signs and letters are silent. Options can turn the voices off.
   A greeting suits who says it: a mourner at a funeral only sighs (`Sigh`); an old man or an old woman is
-  a real old person's voice (Mozilla Common Voice, CC0), never a younger one's made old; every take of a kind is
+  an old voice (the old man's a real one: Mozilla Common Voice, CC0), never a younger one's made old; every take of a kind is
   one person's voice. No added noise for a breathy voice: it sounds like static.
 - **A monster growls as it comes for you** (`Growl=`, from a creature's recorded mutterings: `build_voices.py`
   GROWLERS): the one that saw you, heard from close by; people, animals and things of stone or glass don't.

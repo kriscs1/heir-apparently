@@ -1,0 +1,956 @@
+[
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "Hello there!",
+  "file": "Man/hello_01_hello_there.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "Good day to you.",
+  "file": "Man/hello_02_good_day_to_you.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "Well met, friend.",
+  "file": "Man/hello_03_well_met_friend.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "Morning! What can I do for you?",
+  "file": "Man/hello_04_morning_what_can_i_do_for_you.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "Ah, welcome, welcome.",
+  "file": "Man/hello_05_ah_welcome_welcome.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "hello",
+  "text": "How can I help?",
+  "file": "Man/hello_06_how_can_i_help.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "bye",
+  "text": "Safe travels.",
+  "file": "Man/bye_01_safe_travels.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "bye",
+  "text": "Mind how you go.",
+  "file": "Man/bye_02_mind_how_you_go.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "bye",
+  "text": "Good day, then.",
+  "file": "Man/bye_03_good_day_then.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Man",
+  "said": "bye",
+  "text": "Come back any time.",
+  "file": "Man/bye_04_come_back_any_time.mp3",
+  "voice_id": "hbJHjOY5R7qkUfb8KXya",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:03 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "hello",
+  "text": "Oh! Hello!",
+  "file": "Young_Man/hello_01_oh_hello.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "hello",
+  "text": "Hey there.",
+  "file": "Young_Man/hello_02_hey_there.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "hello",
+  "text": "Hi! Need something?",
+  "file": "Young_Man/hello_03_hi_need_something.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "hello",
+  "text": "Good day!",
+  "file": "Young_Man/hello_04_good_day.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "hello",
+  "text": "Welcome!",
+  "file": "Young_Man/hello_05_welcome.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "bye",
+  "text": "See you around!",
+  "file": "Young_Man/bye_01_see_you_around.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "bye",
+  "text": "Take care!",
+  "file": "Young_Man/bye_02_take_care.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "bye",
+  "text": "Good luck out there!",
+  "file": "Young_Man/bye_03_good_luck_out_there.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Man",
+  "said": "bye",
+  "text": "Bye now!",
+  "file": "Young_Man/bye_04_bye_now.mp3",
+  "voice_id": "ve0F0MtoThJf7jD4aUkL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "Hello, love.",
+  "file": "Woman/hello_01_hello_love.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "Good day to you.",
+  "file": "Woman/hello_02_good_day_to_you.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "Oh, hello there!",
+  "file": "Woman/hello_03_oh_hello_there.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "Welcome! What can I get you?",
+  "file": "Woman/hello_04_welcome_what_can_i_get_you.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "Morning!",
+  "file": "Woman/hello_05_morning.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "hello",
+  "text": "How can I help you?",
+  "file": "Woman/hello_06_how_can_i_help_you.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "bye",
+  "text": "Take care now.",
+  "file": "Woman/bye_01_take_care_now.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "bye",
+  "text": "Safe travels.",
+  "file": "Woman/bye_02_safe_travels.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "bye",
+  "text": "Mind how you go.",
+  "file": "Woman/bye_03_mind_how_you_go.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Woman",
+  "said": "bye",
+  "text": "Come again!",
+  "file": "Woman/bye_04_come_again.mp3",
+  "voice_id": "zyMGjXQhVefuESRXdRhQ",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:04 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "hello",
+  "text": "Hi there!",
+  "file": "Young_Woman/hello_01_hi_there.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "hello",
+  "text": "Oh, hello!",
+  "file": "Young_Woman/hello_02_oh_hello.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "hello",
+  "text": "Good morning!",
+  "file": "Young_Woman/hello_03_good_morning.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "hello",
+  "text": "Welcome in!",
+  "file": "Young_Woman/hello_04_welcome_in.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "hello",
+  "text": "Hey! What can I do for you?",
+  "file": "Young_Woman/hello_05_hey_what_can_i_do_for_you.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "bye",
+  "text": "Bye now!",
+  "file": "Young_Woman/bye_01_bye_now.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "bye",
+  "text": "See you soon!",
+  "file": "Young_Woman/bye_02_see_you_soon.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "bye",
+  "text": "Good luck!",
+  "file": "Young_Woman/bye_03_good_luck.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Young_Woman",
+  "said": "bye",
+  "text": "Take care of yourself!",
+  "file": "Young_Woman/bye_04_take_care_of_yourself.mp3",
+  "voice_id": "4PbWcHA7rAZFIyurYF0A",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "hello",
+  "text": "Ah, hello, dearie.",
+  "file": "Old_Woman/hello_01_ah_hello_dearie.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "hello",
+  "text": "Good day to you.",
+  "file": "Old_Woman/hello_02_good_day_to_you.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "hello",
+  "text": "Well now, who's this?",
+  "file": "Old_Woman/hello_03_well_now_who_s_this.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "hello",
+  "text": "Come in, come in.",
+  "file": "Old_Woman/hello_04_come_in_come_in.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "hello",
+  "text": "Hello, pet.",
+  "file": "Old_Woman/hello_05_hello_pet.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "bye",
+  "text": "Off you go, then.",
+  "file": "Old_Woman/bye_01_off_you_go_then.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "bye",
+  "text": "Mind yourself out there.",
+  "file": "Old_Woman/bye_02_mind_yourself_out_there.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "bye",
+  "text": "Take care, dearie.",
+  "file": "Old_Woman/bye_03_take_care_dearie.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Old_Woman",
+  "said": "bye",
+  "text": "Wrap up warm.",
+  "file": "Old_Woman/bye_04_wrap_up_warm.mp3",
+  "voice_id": "Om7NWRmyEsNg5f6mkcUd",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "Aye?",
+  "file": "Deep/hello_01_aye.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "Well met.",
+  "file": "Deep/hello_02_well_met.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:05 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "What'll it be?",
+  "file": "Deep/hello_03_what_ll_it_be.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "Greetings.",
+  "file": "Deep/hello_04_greetings.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "Good day.",
+  "file": "Deep/hello_05_good_day.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "hello",
+  "text": "Need something?",
+  "file": "Deep/hello_06_need_something.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "bye",
+  "text": "Fare well.",
+  "file": "Deep/bye_01_fare_well.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "bye",
+  "text": "Off with you, then.",
+  "file": "Deep/bye_02_off_with_you_then.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "bye",
+  "text": "Good luck.",
+  "file": "Deep/bye_03_good_luck.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Deep",
+  "said": "bye",
+  "text": "Aye. Take care.",
+  "file": "Deep/bye_04_aye_take_care.mp3",
+  "voice_id": "PmjJAmaUasLXN61FDamV",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "hello",
+  "text": "Halt.",
+  "file": "Guard/hello_01_halt.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "hello",
+  "text": "Citizen.",
+  "file": "Guard/hello_02_citizen.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "hello",
+  "text": "What is it?",
+  "file": "Guard/hello_03_what_is_it.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "hello",
+  "text": "Speak up.",
+  "file": "Guard/hello_04_speak_up.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "hello",
+  "text": "Keep the peace.",
+  "file": "Guard/hello_05_keep_the_peace.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "bye",
+  "text": "Move along.",
+  "file": "Guard/bye_01_move_along.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "bye",
+  "text": "On your way.",
+  "file": "Guard/bye_02_on_your_way.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "bye",
+  "text": "Stay out of trouble.",
+  "file": "Guard/bye_03_stay_out_of_trouble.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Guard",
+  "said": "bye",
+  "text": "Keep your nose clean.",
+  "file": "Guard/bye_04_keep_your_nose_clean.mp3",
+  "voice_id": "zuUtk6vMoqT2yuujmUsj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "hello",
+  "text": "Ah. You may speak.",
+  "file": "Noble_Man/hello_01_ah_you_may_speak.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "hello",
+  "text": "Greetings.",
+  "file": "Noble_Man/hello_02_greetings.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "hello",
+  "text": "Welcome.",
+  "file": "Noble_Man/hello_03_welcome.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "hello",
+  "text": "Well? What is it?",
+  "file": "Noble_Man/hello_04_well_what_is_it.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "hello",
+  "text": "Good day to you.",
+  "file": "Noble_Man/hello_05_good_day_to_you.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "bye",
+  "text": "You may go.",
+  "file": "Noble_Man/bye_01_you_may_go.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "bye",
+  "text": "That will be all.",
+  "file": "Noble_Man/bye_02_that_will_be_all.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "bye",
+  "text": "Farewell.",
+  "file": "Noble_Man/bye_03_farewell.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Man",
+  "said": "bye",
+  "text": "Go well.",
+  "file": "Noble_Man/bye_04_go_well.mp3",
+  "voice_id": "firbkyrtWzwrt1qsswKa",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:06 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "hello",
+  "text": "Ah, welcome.",
+  "file": "Noble_Woman/hello_01_ah_welcome.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "hello",
+  "text": "Good day.",
+  "file": "Noble_Woman/hello_02_good_day.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "hello",
+  "text": "You may approach.",
+  "file": "Noble_Woman/hello_03_you_may_approach.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "hello",
+  "text": "Greetings, traveller.",
+  "file": "Noble_Woman/hello_04_greetings_traveller.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "bye",
+  "text": "That will be all.",
+  "file": "Noble_Woman/bye_01_that_will_be_all.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "bye",
+  "text": "Farewell.",
+  "file": "Noble_Woman/bye_02_farewell.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "bye",
+  "text": "You may go.",
+  "file": "Noble_Woman/bye_03_you_may_go.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Noble_Woman",
+  "said": "bye",
+  "text": "Go safely.",
+  "file": "Noble_Woman/bye_04_go_safely.mp3",
+  "voice_id": "Ps6QLCBaWpvuTdHJx5og",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "hello",
+  "text": "What d'you want?",
+  "file": "Gruff/hello_01_what_d_you_want.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "hello",
+  "text": "Hmph. Yeah?",
+  "file": "Gruff/hello_02_hmph_yeah.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "hello",
+  "text": "Oi.",
+  "file": "Gruff/hello_03_oi.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "hello",
+  "text": "Well? Spit it out.",
+  "file": "Gruff/hello_04_well_spit_it_out.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "hello",
+  "text": "Eh?",
+  "file": "Gruff/hello_05_eh.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "bye",
+  "text": "Get lost.",
+  "file": "Gruff/bye_01_get_lost.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "bye",
+  "text": "Clear off.",
+  "file": "Gruff/bye_02_clear_off.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "bye",
+  "text": "Hmph. Go on, then.",
+  "file": "Gruff/bye_03_hmph_go_on_then.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Gruff",
+  "said": "bye",
+  "text": "Watch yourself.",
+  "file": "Gruff/bye_04_watch_yourself.mp3",
+  "voice_id": "M1fgKdEgAdjNvkB8VXKj",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:07 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "hello",
+  "text": "[whispers] Hello...?",
+  "file": "Ghost/hello_01_whispers_hello.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "hello",
+  "text": "[whispers] Who comes...?",
+  "file": "Ghost/hello_02_whispers_who_comes.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "hello",
+  "text": "[whispers] Ah... one of the living...",
+  "file": "Ghost/hello_03_whispers_ah_one_of_the_living.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "hello",
+  "text": "[whispers] Closer...",
+  "file": "Ghost/hello_04_whispers_closer.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "bye",
+  "text": "[whispers] Go...",
+  "file": "Ghost/bye_01_whispers_go.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "bye",
+  "text": "[whispers] Farewell...",
+  "file": "Ghost/bye_02_whispers_farewell.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Ghost",
+  "said": "bye",
+  "text": "[whispers] Remember...",
+  "file": "Ghost/bye_03_whispers_remember.mp3",
+  "voice_id": "EXAVITQu4vr4xnSDxMaL",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "hello",
+  "text": "Hello!",
+  "file": "Girl/hello_01_hello.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "hello",
+  "text": "Hi! Who are you?",
+  "file": "Girl/hello_02_hi_who_are_you.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "hello",
+  "text": "Oh! Hello there!",
+  "file": "Girl/hello_03_oh_hello_there.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "hello",
+  "text": "Hiya!",
+  "file": "Girl/hello_04_hiya.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "bye",
+  "text": "Bye!",
+  "file": "Girl/bye_01_bye.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "bye",
+  "text": "See you later!",
+  "file": "Girl/bye_02_see_you_later.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ },
+ {
+  "kind": "Girl",
+  "said": "bye",
+  "text": "Bye bye!",
+  "file": "Girl/bye_03_bye_bye.mp3",
+  "voice_id": "nDJIICjR9zfJExIFeSCN",
+  "model": "eleven_v4",
+  "downloaded": "2026-11-16 12:08 UTC"
+ }
+]

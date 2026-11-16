@@ -1,5 +1,6 @@
-"""People's greetings, monsters' growls and the quest-taken jingle, all cut from CC0 recordings (freesound.org; each is
-in SOURCES and CREDITS.md):
+"""People's greetings, monsters' growls and the quest-taken jingle: most people's from ElevenLabs (dev\\elevenlabs, as
+fetch_elevenlabs.py downloaded them: ELEVEN), the rest cut from CC0 recordings (freesound.org, Common Voice; each is in
+SOURCES and CREDITS.md):
 
   sounds\\Voice_<Kind>.wav, _2 ...   what someone says as you start talking to them ("Hello", "Well met", "How can
                                      I help?"): one of their kind's, at the speaker's own pitch (web/js/voice.js)
@@ -11,13 +12,14 @@ in SOURCES and CREDITS.md):
   sounds\\Moo.wav, Baa, Cluck ...     an animal's noise (CALLS): now and then on its own, and as you do something
                                      with it (stroke it, feed it, milk it, talk to it in an animal's body)
 
-Real people's words, never made up from tones (that sounded like a machine) or mumbled (that sounded awful). The
-deeper voices are the same recordings made lower (the pitch moved, the pace kept: stretch); the old are real old
-people (Common Voice), never a younger voice made old; a mourner only sighs; a ghost's echo; the beasts are a
-creature's mutterings slowed, with a rattle for a troll's or a frog's throat.
+Spoken words, never made up from tones (that sounded like a machine) or mumbled (that sounded awful): a voice of its
+own for each kind of speaker (ElevenLabs), never one recording made higher or lower (that sounded fake). The old man
+is a real old man (Common Voice); a mourner only sighs; a ghost whispers, with an echo; the beasts are a creature's
+mutterings slowed, with a rattle for a troll's or a frog's throat.
 
 The recordings are fetched the first time (freesound's previews; a Common Voice clip out of its parquet file, which
-needs pyarrow just then; ffmpeg makes them WAVs) and kept in dev\\Voices (not in git).
+needs pyarrow just then; ffmpeg makes them WAVs) and kept in dev\\Voices (not in git); ElevenLabs' are in git, and
+ffmpeg makes them WAVs too (kept in dev\\Voices\\elevenlabs).
 
 Also gives each speaker in data\\Entities.ini its Voice= (one of GREETINGS), each monster its Growl= (one of
 GROWLS) and each animal its Calls= (CALLERS), unless it has one already: the owner's choice stands. A notice, a
@@ -45,17 +47,6 @@ RATE = 22050
 
 # the recordings (all CC0): freesound id -> its preview (cdn.freesound.org/previews/...), who made it, its title
 SOURCES = {
-    431176: ("431176_3082984", "envirOmaniac2", "Thirty-Eight Greetings."),
-    351611: ("351611_6325950", "bectec", "Female greetings.wav"),
-    352220: ("352220_6325950", "bectec", "female alto goodby.wav"),
-    429038: ("429038_6492957", "theuncertainman", "Greetings (NPC, British Male)"),
-    429037: ("429037_6492957", "theuncertainman", "How can I help? (NPC, British Male)"),
-    458074: ("458074_6492957", "theuncertainman", "What can I do for you? (NPC, British Male)"),
-    429036: ("429036_6492957", "theuncertainman", "Thank you (NPC, British Male)"),
-    501882: ("501882_7076647", "Nchamp13", "Welcome Traveler.mp3"),
-    449481: ("449481_9288538", "12125065", "hello"),
-    447392: ("447392_6253486", "florianreichelt", "man saying hello"),
-    50940: ("50940_71257", "qubodup", "Fearing Hello"),
     677407: ("677407_12064174", "SnowFightStudios", "Monster or Creature Mutterings and Gibberish"),
     669913: ("669913_12064174", "SnowFightStudios", "Creature Gibberish Language\\Dialogue - Monster\\Alien"),
     490831: ("490831_10350281", "PhonosUPF", "harp glissando"),
@@ -95,10 +86,9 @@ SOURCES = {
     362652: ("362652_5966858", "TRNGLE", "Cat meow"),
 }
 
-# real old people's voices, never a younger one's made old, and a man who said his goodbyes as well as his hellos:
-# Mozilla Common Voice 17.0 (CC0), its clip -> the parquet
+# a real old man's voice, never a younger one's made old: Mozilla Common Voice 17.0 (CC0), its clip -> the parquet
 # file of the en "validated" split it's in (fixie-ai/common_voice_17_0 on Hugging Face), the row group and the row,
-# the speaker (each kind is one person's every take) and what they read out
+# the speaker (one person's every take) and what he read out
 CV_BASE = "https://huggingface.co/datasets/fixie-ai/common_voice_17_0/resolve/main/en/validated-%s-of-00138.parquet"
 CV_SOURCES = {
     "common_voice_en_18078830": ("00004", 2, 7, "a man in his seventies",
@@ -107,74 +97,21 @@ CV_SOURCES = {
     "common_voice_en_18105147": ("00058", 85, 58, "a man in his seventies", "Hello! It is great to see you!"),
     "common_voice_en_18105271": ("00087", 3, 4, "a man in his seventies", "Good evening."),
     "common_voice_en_18090744": ("00126", 33, 70, "a man in his seventies", "Good morning."),
-    "common_voice_en_21913523": ("00019", 30, 2, "a woman in her sixties",
-                                 "\"Good Morning, Mister Echo\" was a popular song."),
-    "common_voice_en_21901890": ("00045", 102, 25, "a woman in her sixties", "Hey"),
-    "common_voice_en_147943": ("00055", 119, 8, "a woman in her sixties", "Good evening"),
-    "common_voice_en_480414": ("00009", 69, 4, "a man in his thirties", "Good morning"),
-    "common_voice_en_17835199": ("00035", 43, 91, "a man in his thirties", "What can I do for you?"),
-    "common_voice_en_481241": ("00031", 57, 22, "a man in his thirties", "It's good to see you."),
-    "common_voice_en_480778": ("00048", 70, 71, "a man in his thirties", "Hello! It is great to see you!"),
-    "common_voice_en_17847095": ("00011", 108, 98, "a man in his thirties", "How can I help you madam?"),
-    "common_voice_en_18487132": ("00136", 24, 53, "a man in his thirties", "Welcome, dear friends."),
-    "common_voice_en_21903213": ("00098", 34, 21, "a man in his thirties", "Hey"),
-    "common_voice_en_480944": ("00037", 125, 20, "a man in his thirties", "Bye for now!"),
-    "common_voice_en_481575": ("00040", 15, 10, "a man in his thirties", "Good luck !"),
-    "common_voice_en_18500291": ("00039", 97, 69, "a man in his thirties", "Have a good trip back."),
-    "common_voice_en_17803281": ("00023", 31, 30, "a man in his thirties", "Good luck on the way."),
-    "common_voice_en_18409840": ("00026", 99, 50, "a man in his thirties", "Thank you very much, sir."),
     "common_voice_en_18144228": ("00115", 91, 35, "a man in his seventies", "Take care of yourself."),
     "common_voice_en_18094841": ("00077", 90, 98, "a man in his seventies", "Good luck!"),
     "common_voice_en_18094826": ("00063", 9, 42, "a man in his seventies", "Bye for now!"),
     "common_voice_en_18129643": ("00046", 105, 46, "a man in his seventies", "See you later!"),
-    "common_voice_en_22956524": ("00005", 19, 89, "a woman in her sixties", "But it will turn out well."),
-    "common_voice_en_147977": ("00136", 43, 72, "a woman in her sixties", "I have no more to say."),
 }
 
 # what each kind of speaker says: (recording, from s, to s) each, what it says in the comment; then how it's made:
 # pitch (below 1: lower), pace (below 1: slower), an echo (a ghost's), a rattle (times a
 # second: a frog's throat)
-MAN = 431176
 GREETINGS = {
-    "Man": dict(clips=[("common_voice_en_480778", 0.65, 1.02),     # Hello!   (one man in his thirties, who said his
-                       ("common_voice_en_21903213", 0.47, 0.82),   # Hey.      goodbyes too: Common Voice)
-                       ("common_voice_en_480414", 0.43, 1.00),     # Good morning.
-                       ("common_voice_en_18487132", 0.45, 0.92),   # Welcome.
-                       ("common_voice_en_481241", 0.76, 1.72),     # It's good to see you.
-                       ("common_voice_en_480778", 0.65, 2.42),     # Hello! It is great to see you!
-                       ("common_voice_en_17835199", 0.84, 1.85),   # What can I do for you?
-                       ("common_voice_en_17847095", 0.64, 1.22)]), # How can I help you?
-    "Deep": dict(clips=[(429038, 0.15, 0.77),      # Greetings.
-                        (429037, 0.16, 0.88),      # How can I help?
-                        (458074, 0.31, 1.15),      # What can I do for you?
-                        (501882, 0.22, 1.19),      # Welcome, traveller.
-                        (449481, 0.11, 1.48)],     # Hello.
-                 pitch=0.88),
-    "Woman": dict(clips=[(351611, 0.26, 1.09),     # Hello!
-                         (351611, 1.65, 2.24),     # Hello.
-                         (351611, 2.59, 2.88),     # Hey!
-                         (351611, 5.94, 6.56),     # Oh, hi!
-                         (351611, 7.07, 7.58),     # Good morning.
-                         (351611, 9.80, 10.55),    # Hey, how are you?
-                         (351611, 18.68, 19.48)]), # Hey, how are you?
     "Old_Man": dict(clips=[("common_voice_en_18078830", 0.33, 0.88),   # Good afternoon.   (one man in his seventies,
                            ("common_voice_en_18139265", 0.33, 0.81),   # Hello.             as he is: Common Voice)
                            ("common_voice_en_18105147", 0.24, 1.65),   # Hello! It's great to see you!
                            ("common_voice_en_18105271", 0.57, 1.23),   # Good evening.
                            ("common_voice_en_18090744", 0.60, 1.23)]), # Good morning.
-    "Old_Woman": dict(clips=[("common_voice_en_21913523", 0.84, 1.43),  # Good morning.   (one woman in her sixties)
-                             ("common_voice_en_21901890", 0.60, 0.99),  # Hey.
-                             ("common_voice_en_147943", 1.23, 1.89)]),  # Good evening.
-    "Gruff": dict(clips=[(449481, 0.11, 1.48),      # Hello.
-                         (447392, 1.05, 1.48),      # Hello.
-                         (MAN, 23.54, 24.01),       # Hey there.
-                         (MAN, 0.77, 1.64)],        # Well met.
-                  pitch=0.78),
-    "Ghost": dict(clips=[(50940, 5.82, 6.12),       # Hello?
-                         (50940, 11.24, 11.71),     # Hello?
-                         (50940, 12.54, 13.18),     # Hello...
-                         (351611, 0.26, 1.09)],     # Hello...
-                  pace=0.85, echo=0.45),
     # (the Frog King and the dragon don't say "hello": they mutter, as their monsters growl)
     "Croak": dict(clips=[(677407, a, b) for a, b in ((95.80, 97.07), (98.54, 99.37), (100.85, 102.15),
                                                      (104.54, 105.23), (110.60, 111.56))],
@@ -187,27 +124,13 @@ GREETINGS = {
                  rms=0.06),
 }
 
-# what each kind says as you part (Bye_: voice.js), the same speaker as its greeting and made the same way: the
-# man's, the woman's and the old people's goodbyes, the deep voice's thank-you; the mourner sighs again and the beasts
-# mutter. The gruff's and the ghost's speakers recorded no goodbye, so they say none (another's voice would jar)
-BYE = 352220
+# what each kind says as you part (Bye_: voice.js), the same speaker as its greeting and made the same way: the old
+# man's goodbyes; the mourner sighs again and the beasts mutter (ElevenLabs' kinds: their own, ELEVEN)
 FAREWELLS = {
-    "Man": dict(clips=[("common_voice_en_480944", 0.45, 1.28),     # Bye for now!
-                       ("common_voice_en_481575", 0.62, 1.02),     # Good luck!
-                       ("common_voice_en_18500291", 0.48, 1.62),   # Have a good trip back.
-                       ("common_voice_en_17803281", 0.82, 1.83),   # Good luck on the way.
-                       ("common_voice_en_18409840", 0.53, 1.23)]), # Thank you very much.
     "Old_Man": dict(clips=[("common_voice_en_18144228", 0.78, 1.72),   # Take care of yourself.
                            ("common_voice_en_18094841", 0.40, 0.99),   # Good luck!
                            ("common_voice_en_18094826", 0.40, 1.15),   # Bye for now!
                            ("common_voice_en_18129643", 0.50, 1.62)]), # See you later!
-    "Old_Woman": dict(clips=[("common_voice_en_22956524", 1.15, 2.52),  # It will turn out well.
-                             ("common_voice_en_147977", 2.45, 3.93)]),  # I have no more to say.
-    "Woman": dict(clips=[(BYE, a, b) for a, b in ((1.02, 1.42), (1.87, 2.31), (2.67, 3.19), (3.47, 4.25),
-                                                  (4.62, 5.37), (6.74, 7.26), (10.02, 10.53), (12.45, 12.89),
-                                                  (13.53, 14.08), (14.42, 14.99))]),
-    "Deep": dict(clips=[(429036, 0.37, 0.81)],      # Thank you.
-                 pitch=0.88),
     "Sigh": GREETINGS["Sigh"],
     "Croak": GREETINGS["Croak"],
     "Beast": GREETINGS["Beast"],
@@ -236,24 +159,39 @@ JINGLES = {
 
 # who speaks how (Entities.ini sections); anyone who speaks and isn't here gets none until it's given one
 VOICES = {
-    "Man": "Villager Trader Greengrocer Fishmonger Carter Clerk Cobbler Hotelier Beekeeper Courier Constable Druid "
-           "Ranger Chancellor Mayor Merchant Man Barkeep Baker Doctor Edwin Banker Shopkeeper Farmer Shepherd Scholar "
-           "Sheriff Quartermaster Jester Travelling_Salesman Night_Smuggler Ashen_Acolyte Penitent Collier "
-           "Mending_Wayfarer Ferryman Bert Pip",
-    "Deep": "Guard Port_Guard Guard_Captain Royal_Guard Captain Butcher Armourer Frank Dwarf Forgemaster Sea_Captain "
-            "King_Rupert King_Tyron",
-    "Woman": "Woman Settler Painter Barmaid Blacksmith Herbalist Maren Milkmaid Nurse Tailor Scout Warden "
-             "Wyrmsmith Ice_Fisher Mending_Sister Mending_Cantor Duchess",
+    "Man": "Villager Trader Greengrocer Fishmonger Carter Clerk Cobbler Hotelier Beekeeper Druid Ranger Merchant Man "
+           "Barkeep Baker Doctor Edwin Banker Shopkeeper Farmer Shepherd Scholar Quartermaster Travelling_Salesman "
+           "Ashen_Acolyte Penitent Collier Mending_Wayfarer Ferryman Bert",
+    "Young_Man": "Courier Pip Jester",
+    "Guard": "Guard Port_Guard Guard_Captain Royal_Guard Constable Sheriff",
+    "Noble_Man": "King_Rupert King_Tyron Chancellor Mayor",
+    "Noble_Woman": "Duchess",
+    "Deep": "Captain Butcher Armourer Frank Dwarf Forgemaster Sea_Captain",
+    "Woman": "Woman Settler Blacksmith Herbalist Maren Nurse Tailor Warden Wyrmsmith Ice_Fisher Mending_Sister "
+             "Mending_Cantor",
+    "Young_Woman": "Barmaid Milkmaid Scout Painter",
     "Old_Man": "Beggar Elder Eldest_of_the_Mending Fisherman Gravekeeper Hermit Manor_Steward Miner Tobias Wizard "
                "Steward Speaker Archivist",
     "Old_Woman": "Old_Woman Beachcomber Marsh_Witch Witch Stone_Ringer",
-    "Gruff": "Hob Bandit Talking_Scarecrow",
+    "Gruff": "Hob Bandit Talking_Scarecrow Night_Smuggler",
     "Sigh": "Mourner",
     "Ghost": "Delver_Ghost Ghost_Warden Orrin_Ghost Toll_Keeper Valour_Guardian Wandering_Echo Ysolde Singing_Remnant "
              "The_Voice Great_Shard Echo_Pool",
     "Croak": "Frog_King",
     "Beast": "Galaith_Dragon",
 }
+# (Boy and Girl are spoken too, for the children to come: nobody yet)
+
+# who spoke another way before they had voices of their own (each with what the builder gave it then): moved to their
+# new one, unless the owner has chosen another since
+REVOICED = {"Deep": "Guard Port_Guard Guard_Captain Royal_Guard King_Rupert King_Tyron",
+            "Man": "Courier Pip Jester Constable Sheriff Chancellor Mayor Night_Smuggler",
+            "Woman": "Duchess Barmaid Milkmaid Scout Painter"}
+
+# the kinds ElevenLabs speaks (fetch_elevenlabs.py KINDS): their greetings and goodbyes, each as it came with its
+# silence trimmed, as takes.json lists them; how one's made (a ghost's echo: it whispers already)
+ELEVEN = os.path.join(ROOT, "dev", "elevenlabs")
+ELEVEN_MADE = {"Ghost": dict(echo=0.3)}
 
 # an animal's noise, the same as it makes now and then and as you do something with it (its Calls=: npcs.py,
 # player_actions.py animal_noise); a field recording's background hushed between its sounds (gate)
@@ -391,6 +329,38 @@ def recording(sid):
         return np.frombuffer(w.readframes(w.getnframes()), "<i2").astype(float) / 32768
 
 
+def eleven(path):
+    """An ElevenLabs take as mono 22050 Hz (ffmpeg, the first time: kept in dev\\Voices\\elevenlabs), and where its words
+    start and end (s: the silence before and after left out)."""
+    wav = os.path.join(CACHE, "elevenlabs", os.path.splitext(path)[0] + ".wav")
+    if not os.path.exists(wav):
+        os.makedirs(os.path.dirname(wav), exist_ok=True)
+        ffmpeg = shutil.which("ffmpeg")
+        if not ffmpeg:
+            raise SystemExit("ffmpeg isn't on the PATH: it's needed once, to make %s a WAV" % path)
+        subprocess.run([ffmpeg, "-loglevel", "error", "-y", "-i", os.path.join(ELEVEN, path), "-ac", "1", "-ar",
+                        str(RATE), wav], check=True)
+    with wave.open(wav, "rb") as w:
+        y = np.frombuffer(w.readframes(w.getnframes()), "<i2").astype(float) / 32768
+    hop = 220
+    env = np.array([np.sqrt(np.mean(y[i:i + hop] ** 2)) for i in range(0, len(y), hop)])
+    on = np.nonzero(env > env.max() * 0.03)[0]                    # (a whisper's breath counts: 3% of its loudest)
+    a, b = (on[0] * hop / RATE, (on[-1] + 1) * hop / RATE) if len(on) else (0, len(y) / RATE)
+    return y, a, b
+
+
+def eleven_takes():
+    """{(kind, "Voice_" or "Bye_"): [file, ...]} from dev\\elevenlabs\\takes.json, in the order downloaded."""
+    import json
+    path = os.path.join(ELEVEN, "takes.json")
+    out = {}
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            for tk in json.load(f):
+                out.setdefault((tk["kind"], "Voice_" if tk["said"] == "hello" else "Bye_"), []).append(tk["file"])
+    return out
+
+
 def resample(y, speed):
     """Faster and higher (speed above 1) or slower and lower, as a tape would."""
     return np.interp(np.arange(0, len(y) - 1, speed), np.arange(len(y)), y) if speed != 1.0 else y
@@ -498,12 +468,15 @@ def write(name, data):
     return True
 
 
-def give(key, table):
-    """key= (Voice or Growl) for each in table that has a section and none yet (written cp1252, CRLF, in place)."""
+def give(key, table, moved=None):
+    """key= (Voice or Growl) for each in table that has a section and none yet (written cp1252, CRLF, in place); and
+    moved ({old: names}): one that still has the old (the builder's choice once) is given its new one."""
     path = os.path.join(ROOT, "data", "Entities.ini")
     with open(path, "rb") as f:
         lines = f.read().decode("cp1252").split("\r\n")
     who = {name: kind for kind, names in table.items() for name in names.split()}
+    was = {name: old for old, names in (moved or {}).items() for name in names.split()}
+    changed = []
     sections = {}
     sec = None
     for i, ln in enumerate(lines):
@@ -516,28 +489,43 @@ def give(key, table):
                 sections[sec][1] = i
             if ln.lower().startswith(key.lower() + "="):
                 sections[sec][2] = True
+                if was.get(sec) == ln.split("=", 1)[1].strip() and who.get(sec, was[sec]) != was[sec]:
+                    lines[i] = "%s=%s" % (key, who[sec])
+                    changed.append(sec)
     added = []
     for name, (first, last, has) in sorted(sections.items(), key=lambda kv: -kv[1][1]):   # (from the end up)
         if name in who and not has:
             lines.insert(last + 1, "%s=%s" % (key, who[name]))
             added.append(name)
-    if added:
+    if added or changed:
         with open(path, "wb") as f:
             f.write("\r\n".join(lines).encode("cp1252"))
     missing = sorted(n for n in who if n not in sections)
-    return added, missing
+    return added + changed, missing
 
 
 def take_name(prefix, kind, n):
     return prefix + kind + ("" if n == 1 else "_%d" % n)
 
 
-SPOKEN = ("Man", "Deep", "Woman", "Old_Man", "Old_Woman", "Gruff")
+SPOKEN = ("Old_Man",)
 SPOKEN_PACE = 0.9                       # (people's greetings a little slower than recorded: they sounded hurried)
 
 
 def build(prefix, table):
     made = total = 0
+    spoken = eleven_takes() if prefix in ("Voice_", "Bye_") else {}
+    for (kind, said), files in sorted(spoken.items()):            # (ElevenLabs': each take as it came)
+        if said != prefix:
+            continue
+        for n, path in enumerate(files, 1):
+            y, a, b = eleven(path)
+            made += write(take_name(prefix, kind, n), make(y, a, b, ELEVEN_MADE.get(kind, {})))
+        total += len(files)
+        n = len(files) + 1
+        while os.path.exists(sound_file(take_name(prefix, kind, n))):
+            os.remove(sound_file(take_name(prefix, kind, n)))
+            n += 1
     for kind, k in table.items():
         if prefix in ("Voice_", "Bye_") and kind in SPOKEN:
             k = dict(k, pace=k.get("pace", SPOKEN_PACE))
@@ -567,7 +555,7 @@ def main():
     made, total = build("", CALLS)
     print("Animals' noises: %d of %d sounds made or redrawn" % (made, total))
     for key, table in (("Voice", VOICES), ("Growl", GROWLERS), ("Calls", CALLERS)):
-        added, missing = give(key, table)
+        added, missing = give(key, table, REVOICED if key == "Voice" else None)
         print("%s= given to %d: %s" % (key, len(added), ", ".join(sorted(added)) or "-"))
         if missing:
             print("(no section for %s: left be)" % ", ".join(missing))
