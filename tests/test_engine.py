@@ -741,12 +741,14 @@ def test_world_loads(world):
 
 def test_walking_moves_the_player(world):
     s = join(world, "Walker")
-    x0 = s.player.x
-    s.keyboard_direction = 2
+    p = s.player
+    x0 = p.x
+    east = world.entity_can_stand(p, p.fx + 12, p.fy, p.fx, p.fy, s)     # (the village's folk wander by: walk
+    s.keyboard_direction = 2 if east else 8                                # the way nobody's standing)
     for _ in range(10):
         world.tick(0.05)
     s.keyboard_direction = 0
-    assert s.player.x > x0
+    assert (p.x - x0) * (1 if east else -1) > 0
     leave(world, s)
 
 

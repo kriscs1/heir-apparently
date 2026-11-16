@@ -296,39 +296,64 @@ def mushroom_patch(picked=False):
 
 
 # ---------------------------------------------------------------- rocks to mine
-def ore_rock(with_ore=True, flecks=None, seed=505, boulder_col=None):
-    """flecks: (base, light, dark) colours of the ore; with_ore=False = mined out (no ore)."""
+def ore_rock(with_ore=True, flecks=None, seed=505, boulder_col=None, marks=None):
+    """A mound to mine: a low, wide heap of broken rock (never one round boulder), the ore showing in its faces.
+    flecks: (base, light, dark) colours of the ore; with_ore=False = mined out (no ore, a hollow dug in it).
+    marks: told which pixels are the mound ("rock") and its shadow ("shadow"), for its see-through decor picture."""
+    import rock_art
     img = cave_floor()
-    rng = random.Random(seed if with_ore else 606)
-    for y in range(25, 30):                                           # shadow
-        for x in range(6, 31):
-            dx, dy = (x - 19) / 12.0, (y - 27.0) / 2.4
-            if dx * dx + dy * dy <= 1:
-                img[y][x] = K.mix(img[y][x], (30, 26, 22), 0.55)
+    rng = random.Random(seed)
     if boulder_col is None:
-        boulder_col = ((112, 106, 100), (148, 142, 134), (70, 66, 62)) if with_ore else \
-            ((92, 88, 84), (118, 112, 106), (58, 54, 50))
+        boulder_col = ((112, 106, 100), (148, 142, 134), (70, 66, 62))
     b, l, d = boulder_col
-    K.shaded_ellipse(img, 16, 17, 12, 10, b, l, d, rng=rng, noise=0.12, outline=(46, 42, 38))
+    if not with_ore:
+        b, l, d = K.mul(b, 0.86), K.mul(l, 0.86), K.mul(d, 0.86)       # (spent: duller)
+    line = K.mul(d, 0.6)
+    marks = {} if marks is None else marks
+    # the mound itself: wide and low, its foot flat on the ground, then the slabs broken on its top, back to front
+    rock_art.faceted_rock(img, rng, 16, 22, 14.5, 7, l, b, d, line, faces=9, marks=marks)
+    for cx, cy, rx, ry in ((16, 11.5, 6, 5), (10.5, 16.5, 6.5, 5), (21.5, 16, 6.5, 5), (16, 21, 7, 3.5)):
+        piece = {}
+        top = K.copy(img)
+        rock_art.faceted_rock(top, rng, cx + rng.uniform(-0.8, 0.8), cy, rx, ry, l, b, d, line, faces=4, marks=piece)
+        for (x, y), what in piece.items():
+            if what == "rock":
+                img[y][x] = top[y][x]
+                marks[(x, y)] = "rock"
+    rock_art.chips(img, rng, 16, 22, 14.5, 7, (b, d, l), n=4, marks=marks)
+    rock = [xy for xy, what in marks.items() if what == "rock"]
     if with_ore:
         fb, fl, fd = flecks or ((178, 100, 52), (214, 140, 80), (128, 66, 34))
         n = 0
-        while n < 9:
-            x, y = 16 + rng.randrange(-8, 9), 17 + rng.randrange(-6, 7)
-            if ((x - 16) / 9.5) ** 2 + ((y - 17) / 7.5) ** 2 > 1:
+        while n < 11:                                                   # (ore: angular nuggets in the faces)
+            x, y = rng.choice(rock)
+            if not all((x + a, y + c) in marks and marks[(x + a, y + c)] == "rock" for a in (-1, 0, 1) for c in (-1, 0, 1)):
                 continue
-            r = rng.choice((1.2, 1.6, 2.0))
-            K.shaded_ellipse(img, x, y, r, r * 0.9, fb, fl, fd, rng=rng)
+            img[y][x] = fb
+            K.put(img, x + 1, y, fd)
+            if rng.random() < 0.6:
+                K.put(img, x, y - 1, fl)
+            if rng.random() < 0.5:
+                K.put(img, x - 1, y, fb)
+                K.put(img, x - 1, y + 1, fd)
             n += 1
+        for _ in range(3):                                              # (a glint or two)
+            x, y = rng.choice(rock)
+            if 10 < y < 20:
+                img[y][x] = K.mix(fl, (255, 255, 255), 0.5)
     else:
-        for x, y in ((12, 13), (13, 14), (14, 15), (15, 15), (16, 16), (19, 18), (20, 19), (21, 21)):
-            img[y][x] = (44, 40, 36)
+        for x0, y0, w in ((13, 15, 6), (14, 16, 5), (15, 17, 3)):       # (the hollow where the ore was dug)
+            for x in range(x0, x0 + w):
+                img[y0][x] = K.mul(d, 0.55)
+        for x in range(13, 19):
+            img[14][x] = K.mul(l, 0.95)
     return img
 
 
-def gem_rock():
+def gem_rock(marks=None):
+    marks = {} if marks is None else marks
     img = ore_rock(True, flecks=((150, 110, 190), (200, 170, 240), (90, 60, 130)), seed=515,
-                   boulder_col=((100, 98, 104), (136, 134, 142), (62, 60, 66)))
+                   boulder_col=((100, 98, 104), (136, 134, 142), (62, 60, 66)), marks=marks)
     crystals = [  # base x, base y, height, lean, colours (light, mid, dark)
         (11, 21, 11, -3, ((190, 245, 255), (90, 190, 230), (40, 110, 160))),
         (17, 19, 15, 1, ((236, 200, 255), (160, 110, 220), (90, 50, 150))),
@@ -345,8 +370,10 @@ def gem_rock():
                 if i >= h - 1:
                     c = (255, 255, 255)
                 K.put(img, int(round(cx + dx)), by - i, c)
+                marks[(int(round(cx + dx)), by - i)] = "rock"
             K.put(img, int(round(cx - w - 1)), by - i, (40, 36, 50))
             K.put(img, int(round(cx + w + 1)), by - i, (30, 26, 40))
+            marks[(int(round(cx - w - 1)), by - i)] = marks[(int(round(cx + w + 1)), by - i)] = "rock"
         K.put(img, bx - 1, by - h // 2, (255, 255, 255))
     return img
 
@@ -925,6 +952,36 @@ DECOR = {
 
 
 # ---------------------------------------------------------------- table
+# The rocks to mine (decor: see-through, laid over whatever ground they're on; write_mining_decor)
+MINING = {
+    "Ore_Rock001": lambda m=None: ore_rock(marks=m),
+    "Ore_Rock002": lambda m=None: ore_rock(False, marks=m),
+    "Copper_Rock001": lambda m=None: ore_rock(True, ((64, 168, 126), (130, 226, 176), (196, 112, 60)), seed=525, marks=m),
+    "Coal_Rock001": lambda m=None: ore_rock(True, ((30, 30, 34), (100, 100, 112), (10, 10, 12)), seed=535, marks=m),
+    "Gold_Rock001": lambda m=None: ore_rock(True, ((226, 184, 50), (255, 238, 136), (150, 110, 20)), seed=545, marks=m),
+    "Gem_Rock001": lambda m=None: gem_rock(marks=m),
+    "Tin_Rock001": lambda m=None: ore_rock(True, ((150, 156, 150), (206, 212, 204), (86, 92, 88)), seed=555,
+                                           boulder_col=((104, 98, 92), (140, 134, 126), (64, 60, 56)), marks=m),
+    "Silver_Rock001": lambda m=None: ore_rock(True, ((214, 220, 232), (255, 255, 255), (130, 138, 156)), seed=565,
+                                              boulder_col=((86, 82, 80), (118, 112, 108), (52, 48, 46)), marks=m),
+    "Mithril_Rock001": lambda m=None: ore_rock(True, ((56, 170, 176), (150, 240, 236), (26, 92, 120)), seed=575,
+                                               boulder_col=((70, 70, 88), (100, 100, 122), (40, 40, 54)), marks=m),
+}
+
+
+def write_mining_decor():
+    """Writes the rocks to mine as see-through decor (rock_art.py's way). Returns the names written."""
+    import rock_art
+    from common import write_image
+    return [n for n, draw in MINING.items() if write_image(p("sprites", "Tiles", n + ".png"),
+                                                            rock_art.decor_image(lambda img, marks: _onto(img, draw(marks))),
+                                                            decor=True)]
+
+
+def _onto(img, drawn):
+    img[:] = drawn
+
+
 TILES = {
     "Cave_Floor001": cave_floor,
     "Cave_Floor002": cave_floor_gravel,
@@ -938,18 +995,6 @@ TILES = {
     "Cave_Puddle001": cave_puddle,
     "Mushroom_Patch001": mushroom_patch,
     "Mushroom_Patch002": lambda: mushroom_patch(True),
-    "Ore_Rock001": ore_rock,
-    "Ore_Rock002": lambda: ore_rock(False),
-    "Copper_Rock001": lambda: ore_rock(True, ((64, 168, 126), (130, 226, 176), (196, 112, 60)), seed=525),
-    "Coal_Rock001": lambda: ore_rock(True, ((30, 30, 34), (100, 100, 112), (10, 10, 12)), seed=535),
-    "Gold_Rock001": lambda: ore_rock(True, ((226, 184, 50), (255, 238, 136), (150, 110, 20)), seed=545),
-    "Gem_Rock001": gem_rock,
-    "Tin_Rock001": lambda: ore_rock(True, ((150, 156, 150), (206, 212, 204), (86, 92, 88)), seed=555,
-                                    boulder_col=((104, 98, 92), (140, 134, 126), (64, 60, 56))),
-    "Silver_Rock001": lambda: ore_rock(True, ((214, 220, 232), (255, 255, 255), (130, 138, 156)), seed=565,
-                                       boulder_col=((86, 82, 80), (118, 112, 108), (52, 48, 46))),
-    "Mithril_Rock001": lambda: ore_rock(True, ((56, 170, 176), (150, 240, 236), (26, 92, 120)), seed=575,
-                                        boulder_col=((70, 70, 88), (100, 100, 122), (40, 40, 54))),
     "Mine_Track001": track,
     "Mine_Track002": lambda: track(True),
     "Mine_Support001": mine_support,
@@ -969,6 +1014,7 @@ TILES = {
 }
 
 TILES.update(DECOR)
+TILES.update(MINING)
 # The wheat field, stubble, haystack and cliffs: redrawn in farm_tiles.py
 from farm_tiles import TILES as FARM_TILES  # noqa: E402
 TILES.update(FARM_TILES)

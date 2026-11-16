@@ -728,6 +728,10 @@ that isn't in the game.
 - Art and sounds are made in code by `dev/migrate/build_*.py` (pygame drawing; synthesized 22050 Hz mono WAVs).
   Change the builder and run it again; don't hand-edit its output. Nothing from another game or a commercial
   library: anything not made here is CC0 (or as free) and listed in `CREDITS.md`.
+- **A rock you mine is a mound**, a low, wide heap of broken rock with its ore glinting in the faces, never one round
+  boulder (the owner's correction): `cave_tiles.py` MINING, written as see-through decor. The ores, coal and bars are
+  drawn by `build_ore_art.py` (the old pictures weren't ours to use): an ore a chipped lump or two with its nuggets,
+  a bar an ingot, lit on top.
 - Keep things in proportion to a 32 px person: cats and butterflies small (a cat about a third of a person's height:
   `build_cats.py` draws every pose, then makes it `SCALE` as big on the same ground line), beds 1.5 tiles, a horse a
   little taller and half again as long as a person (40 x 34, `build_towns.py`; drawn facing east, its cart behind it).
