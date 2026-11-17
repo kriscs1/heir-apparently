@@ -5161,8 +5161,8 @@ def test_the_isles_creatures_are_a_level_or_two_under_their_kinds(world):
         if kind and inside(at):
             isle.append((e, kind))
     assert {e.name for e, _ in isle} >= {"Goblin", "Wolf"}
-    hard = {("Skeleton", "3,1,0"): 4}                  # (the Isle's hard fights: the graveyard's Skeleton, at a level
-    for e, kind in isle:                                # that keeps it so; the lair's four come by script, at 2)
+    hard = {("Skeleton", "3,1,0"): 4, ("Hobgoblin", "2,2,-2"): 2}  # (the Isle's hard fights, the graveyard's
+    for e, kind in isle:                                # Skeleton and the lair's four, at levels that keep them so)
         want = hard.get((e.name, e.map), max(1, kind - (2 if kind >= 4 else 1)))
         assert e.npc_level == want, (e.name, e.map)
         assert e.max_hp >= 1
