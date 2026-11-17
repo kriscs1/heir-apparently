@@ -106,6 +106,7 @@ fi
 
 echo "== Starting"
 docker compose up -d
+docker image prune -f > /dev/null    # (the images updates left behind)
 domain=$(grep "^DS_CENTRAL_DOMAIN=" .env | cut -d= -f2)
 echo
 echo "Done. In a minute or two (while Caddy gets its certificate) it's at https://$domain"

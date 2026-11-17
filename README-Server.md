@@ -516,6 +516,10 @@ and it lists the remote game servers (each announces itself to it). There are no
     'cp /restore/central-YYYYMMDD-HHMM.db /data/central.db && rm -f /data/central.db-wal /data/central.db-shm'
   docker compose start central
   ```
+- **Disk space**: each update pulls a whole new image, so the updater deletes the ones left behind (`docker image
+  prune`) and each container's log is kept to 30 MB. A server set up before 17 November 2026 kept every old image: run
+  its setup script again (or `docker image prune -af` and `docker compose up -d` in its folder) to clear them and
+  take the new compose file. `df -h /` and `docker system df` show what's using the disk.
 - **Its settings**: `DS_CENTRAL_DB`, `DS_CENTRAL_BACKUPS`, `DS_CENTRAL_PORT` (8490), `DS_CENTRAL_NAME`, `DS_CENTRAL_MOTD`,
   `DS_REGISTRATION`, `DS_PASSWORD_MIN` (8), `DS_REGISTER_PER_DAY` (3), `DS_TRUST_PROXY`.
 

@@ -134,6 +134,7 @@ fi
 
 echo "== Starting"
 docker compose up -d
+docker image prune -f > /dev/null    # (the images updates left behind)
 echo
 if [ -n "$WORLDS" ]; then
     echo "Done. In a minute or two (while Caddy gets their certificates) the worlds are at:"

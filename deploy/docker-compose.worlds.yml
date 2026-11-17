@@ -15,6 +15,7 @@ name: shards-of-ashen-worlds
 x-game: &game
   image: ${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}
   restart: unless-stopped
+  logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
   stop_grace_period: 30s
 
 x-env: &env                         # (the same in every world)
@@ -76,6 +77,7 @@ services:
   caddy:
     image: caddy:2
     restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     ports:
       - "80:80"
       - "443:443"
@@ -92,6 +94,7 @@ services:
   updater:
     image: docker:28-cli
     restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./:/deploy:ro
@@ -109,7 +112,7 @@ services:
         while true; do
           sleep "$$DS_UPDATE_SECONDS";
           games=$$(docker compose -p shards-of-ashen-worlds config --services | grep '^game');
-          if [ -n "$$games" ] && docker compose -p shards-of-ashen-worlds pull -q $$games; then docker compose -p shards-of-ashen-worlds up -d $$games; fi;
+          if [ -n "$$games" ] && docker compose -p shards-of-ashen-worlds pull -q $$games; then docker compose -p shards-of-ashen-worlds up -d $$games; fi; docker image prune -f > /dev/null;
         done
 
 volumes:

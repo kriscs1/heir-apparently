@@ -13,6 +13,7 @@ services:
   central:
     image: ${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}
     restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     command: ["python", "-m", "central"]
     environment:
       DS_CENTRAL_DB: /data/central.db
@@ -57,6 +58,7 @@ services:
   caddy:
     image: caddy:2
     restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     depends_on: [central]
     ports:
       - "80:80"
@@ -72,6 +74,7 @@ services:
   updater:
     image: docker:28-cli
     restart: unless-stopped
+    logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     depends_on: [central]
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -88,7 +91,7 @@ services:
         echo "Checking for updates every $$DS_UPDATE_SECONDS seconds";
         while true; do
           sleep "$$DS_UPDATE_SECONDS";
-          if docker compose -p shards-of-ashen-central pull -q central; then docker compose -p shards-of-ashen-central up -d central; fi;
+          if docker compose -p shards-of-ashen-central pull -q central; then docker compose -p shards-of-ashen-central up -d central; fi; docker image prune -f > /dev/null;
         done
 
 volumes:
