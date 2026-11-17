@@ -318,11 +318,13 @@ that isn't in the game.
   own grave** (`player_items.py` graves: up to `GRAVES_MOST`, 5, the oldest crumbling for a sixth), each with its own
   time and things.
 - **The Isle's hard fights stay as they are** (the owner's choice): the Skeleton walking the chapel graveyard (3,1,0)
-  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're marked
-  `Hard=1`; **every other foe on the Isle is gentler** (the owner's wish: its everyday fights were too hard): its
-  blows `[Demo] Blows` (0.5) as hard and its health `Health` (0.7) of its kind's (`set_npc_level`; Config.ini). A
-  fresh character with a wooden sword and shield loses a third to a half of their health to a goblin, wolf, spider or
-  camp hobgoblin, over some 5 seconds.
+  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're hard by their
+  level alone (the Skeleton 4, the lair's four 2), never by a flag or a setting of the Isle's own.
+- **A monster's level is how hard it is, and level 1 is gentle** (the owner's wish: no Isle-only easing): at level 1
+  its blows are `Monster.Ease.Blows` (0.5) as hard and its health `Monster.Ease.Health` (0.7) of its kind's, easing
+  less each level to the whole at `Monster.Ease.Until` (5) (Config.ini [Gameplay]; `set_npc_level`). A fresh
+  character with a wooden sword and shield loses a third to a half of their health to a level 1 or 2 goblin, wolf,
+  spider or hobgoblin, over some 5 seconds.
 - A skill can be **drained or boosted for a while** (status effects Weaken, Daze, Frailty on monsters' blows; a script's
   `Boost.Skill`): what asks for a level goes by it as it is now, the Stats tab always shows it out of its usual level
   (20/20; drained 18/20, red; boosted 23/20, green, a potion's or spell's boost to your blows counted in), and hitpoints and your level go by the usual one.
@@ -1178,7 +1180,7 @@ that isn't in the game.
   (`build_nicer_floors.py`: four boards a tile, nails and knots; polished veined marble and a big slab texture for the streets).
   **The palace's inner walls are one thin strip like every house's** (`lay_rooms` draws a shared wall once).
 
-- **A weed is decor** (`dev/migrate/build_weed.py`): `Weed001`, dock leaves drawn see-through, stands on grass as
+- **A weed is decor** (`dev/migrate/build_weed.py`): `Weed001`, a small clump of dock leaves (half a tile, the owner's wish) drawn see-through, stands on grass as
   `Grass001+Decor(Weed001)`, never a tile of its own with its own green square.
 - **Cliffs and loose stones are decor** (`dev/migrate/cliff_decor.py`, the owner's wish): `Cliff001-005` (drawn
   see-through by `farm_tiles.py` write_cliff_decor, no grass lip) and `Stone001/002` (a stone or two) stand on any

@@ -181,6 +181,4 @@ def read_demo(c):
     back = c("Demo", "Return", "").split()
     return {"area": area, "level": max(1, int(val(c("Demo", "Level", "5")) or 5)),
             "back": (back[0], val(back[1]), val(back[2])) if len(back) == 3 else (c("Gameplay", "Start.Map", ""), 0, 0),
-            "grace": max(0, int(val(c("Demo", "FriendGrace", "60")))),
-            "blows": max(0.1, min(1.0, val(c("Demo", "Blows", "1")) or 1)),
-            "health": max(0.1, min(1.0, val(c("Demo", "Health", "1")) or 1))}
+            "grace": max(0, int(val(c("Demo", "FriendGrace", "60"))))}

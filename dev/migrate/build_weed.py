@@ -33,20 +33,20 @@ RIB = (96, 150, 58)
 def weed():
     img = K.new()
     rng = random.Random(7)
-    leaves = [(-1.95, 12), (-1.2, 12), (-2.55, 13), (-0.6, 13), (-3.0, 11), (-0.15, 11), (-1.6, 10)]
+    leaves = [(-1.95, 7.5), (-1.2, 7.5), (-2.55, 8), (-0.6, 8), (-3.0, 6.5), (-0.15, 6.5), (-1.6, 6)]   # (small: a weed, no bush)
     edge = K.mul(LEAF[2], 0.75)
     for ang, ln in leaves:                              # (back leaves first: the ones further round sit over them)
         ang += rng.uniform(-0.08, 0.08)
-        H.leaf(img, 16, 22, ang, ln + 0.8, 2.9, edge, edge, edge)      # (its dark edge: each leaf reads as one)
-        H.leaf(img, 16, 22, ang, ln, 2.2, *LEAF, rib=RIB)
-    for _ in range(14):                                 # (ragged edges: a nibble out here and there)
-        x, y = rng.randrange(4, 28), rng.randrange(8, 24)
+        H.leaf(img, 16, 26, ang, ln + 0.7, 2.1, edge, edge, edge)      # (its dark edge: each leaf reads as one)
+        H.leaf(img, 16, 26, ang, ln, 1.6, *LEAF, rib=RIB)
+    for _ in range(6):                                 # (ragged edges: a nibble out here and there)
+        x, y = rng.randrange(8, 25), rng.randrange(17, 27)
         if img[y][x] is not None and (img[y][x - 1] is None or img[y][x + 1] is None):
             img[y][x] = None
-    for x in range(12, 21):                             # (the heart of the clump, dark against the ground)
-        K.put(img, x, 22, LEAF[2])
-        if 13 < x < 19:
-            K.put(img, x, 23, K.mul(LEAF[2], 0.8))
+    for x in range(14, 19):                             # (the heart of the clump, dark against the ground)
+        K.put(img, x, 26, LEAF[2])
+        if 14 < x < 18:
+            K.put(img, x, 27, K.mul(LEAF[2], 0.8))
     return K.outline_img(img, (22, 48, 18))
 
 

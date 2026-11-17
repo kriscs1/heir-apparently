@@ -14,7 +14,6 @@ from ashen.lb import (val, word, field, trim, lbstr, distance, strip_digits, par
                             clock_ms, clock_seconds, rnd, random_number)
 
 from .data import GameData
-from .demo import in_area
 from .entity import (Entity, NPCAI, PLAYER, TILE, MAPITEM, STATICOBJECT, NPC, MISSILE, TEMPORARY, INFRONTTILE,
                      TYPE_NAMES, normalise_type, attitude_of_type, parse_attitude, is_passive)
 from .maps import MapData
@@ -404,12 +403,14 @@ class World(NPCMixin):
             # never under half its kind's, so a bat a level down still takes a blow or two)
             e.strength = max(1, round(e.strength + k * num("Mob.Strength.Per.Level", 0.5)))
             e.defence = max(1, round(e.defence + k * num("Mob.Defence.Per.Level", 0.5)))
-        # (on the Isle, where you learn to fight, a foe's blows are softer and it falls sooner: [Demo] Blows, Health.
-        # Not a fight kept hard, Hard=1)
-        soft = e.hostile and not val(self.option_value(options, "Hard")) and in_area(d.demo["area"], e.map)
-        e.blows = d.demo["blows"] if soft else 1.0
-        if soft:
-            e.hp = e.max_hp = max(1, round(e.max_hp * d.demo["health"]))
+        # (the lowest levels are the gentlest, the owner's wish: a foe's blows and health eased at level 1 and less
+        # each level up to Monster.Ease.Until, Config.ini)
+        blows, health, until = d.monster_ease
+        k = 1.0 if level >= until else (level - 1) / (until - 1)
+        e.blows = 1.0
+        if e.hostile and k < 1:
+            e.blows = blows + (1 - blows) * k
+            e.hp = e.max_hp = max(1, round(e.max_hp * (health + (1 - health) * k)))
 
     def set_npc_hostile(self, e, hostile):
         """Turns an NPC into a foe (for everyone) or a friend."""

@@ -1294,8 +1294,8 @@ def lair_scripts():
     rows = [("Display.Message", "Red", "Torchlight, bones and the stink of hobgoblin: their lair!", "-")]
     zones = ("6,6,14,12", "12,11,19,16", "4,10,11,16", "15,5,21,10")
     for (x, y), z in zip(LAIR_HOBS, zones):                       # (the ones killed come back when someone comes in)
-        rows.append(("Add.Entity", at(x, y, -8), "Hobgoblin", "NPC", "Attitude=Bad Level=1 Hard=1 Zone=" + z))   # (the Isle's: a level
-        # under their kind's, isle_levels.py)
+        rows.append(("Add.Entity", at(x, y, -8), "Hobgoblin", "NPC", "Attitude=Bad Level=2 Zone=" + z))   # (their kind's level: the
+        # lair is one of the Isle's hard fights, and stays so)
     rows += [
         ("Get.Value", "ATTRIBUTE", "FatherFreed", V1),
         (">Conditional", "$Variable.1=0", "@freed"),

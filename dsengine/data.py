@@ -160,6 +160,9 @@ class GameData:
         self.xp_scale = max(0.0, val(c("Gameplay", "XP.Scale", "1") or "1"))
         self.xp_skill = {n.upper(): max(0.0, val(c("Skills", "XP." + n, "1") or "1")) for n in names}
         self.monster_damage = max(0.1, val(c("Gameplay", "Monster.Damage", "2")))
+        self.monster_ease = (min(1.0, max(0.1, val(c("Gameplay", "Monster.Ease.Blows", "1") or "1"))),
+                             min(1.0, max(0.1, val(c("Gameplay", "Monster.Ease.Health", "1") or "1"))),
+                             max(1, int(val(c("Gameplay", "Monster.Ease.Until", "1") or "1"))))
         self.death_gold_loss = min(100, max(0, val(c("Gameplay", "Death.Gold.Loss", "25"))))
         self.player_attack_speed = max(0.1, val(c("Gameplay", "Player.Attack.Speed", "0.8")))
         self.player_move_speed = self.speed_to_pixels(val(c("Gameplay", "Player.Movement.Speed", "4")))

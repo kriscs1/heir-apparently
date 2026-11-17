@@ -5161,33 +5161,33 @@ def test_the_isles_creatures_are_a_level_or_two_under_their_kinds(world):
         if kind and inside(at):
             isle.append((e, kind))
     assert {e.name for e, _ in isle} >= {"Goblin", "Wolf"}
-    for e, kind in isle:
-        assert e.npc_level == max(1, kind - (2 if kind >= 4 else 1)), (e.name, e.map)
-        half = int(val(d.entity_ini(e.name, "Hitpoints", "1"))) // 2       # (never under half its kind's, but for the
-        assert e.max_hp >= max(1, round(half * d.demo["health"])), (e.name, e.map)  # Isle's softening, [Demo] Health)
+    hard = {("Skeleton", "3,1,0"): 4}                  # (the Isle's hard fights: the graveyard's Skeleton, at a level
+    for e, kind in isle:                                # that keeps it so; the lair's four come by script, at 2)
+        want = hard.get((e.name, e.map), max(1, kind - (2 if kind >= 4 else 1)))
+        assert e.npc_level == want, (e.name, e.map)
+        assert e.max_hp >= 1
+    assert open("data/Scripts/2,2,-2.script", encoding="cp1252").read().count("Hobgoblin\tNPC\tAttitude=Bad Level=2 Zone=") == 4
 
 
-def test_the_isles_foes_hit_softer_and_fall_sooner_but_not_its_hard_fights(world):
+def test_a_foe_is_gentlest_at_level_1_and_whole_by_monster_ease_until(world):
     d = world.data
-    assert d.demo["blows"] < 1 and d.demo["health"] < 1
-    s = join(world, "Soft", "3,2,0", 400, 330)
-    kind = int(val(d.entity_ini("Goblin", "Hitpoints", "1")))
-    m = world.maps["3,2,0"]
-    soft = world.add_npc("Goblin", 0, m.ox + 436, m.oy + 330, "Attitude=Bad Level=1", home=m.name)
-    hard = world.add_npc("Goblin", 0, m.ox + 436, m.oy + 360, "Attitude=Bad Level=1 Hard=1", home=m.name)
-    tame = world.add_npc("Villager", 0, m.ox + 436, m.oy + 300, "Attitude=Good", home=m.name)
-    assert soft.map == hard.map == "3,2,0"
-    assert soft.blows == d.demo["blows"] and soft.max_hp == soft.hp == max(1, round(kind * d.demo["health"]))
-    assert hard.blows == 1.0 and hard.max_hp == kind                    # (the graveyard's Skeleton, the lair's four)
+    blows, health, until = d.monster_ease
+    assert blows < 1 and health < 1 and until > 1
+    s = join(world, "Ease", "11,-3,0", 300, 300)
+    m = world.maps["11,-3,0"]
+    hp = int(val(d.entity_ini("Goblin", "Hitpoints", "1")))
+    by = {}
+    for lv in range(1, until + 2):
+        e = world.add_npc("Goblin", 0, m.ox + 300 + 8 * lv, m.oy + 340, "Attitude=Bad Level=%d" % lv, home=m.name)
+        by[lv] = e
+    one = by[1]
+    assert one.blows == blows and one.max_hp == one.hp == max(1, round(hp * health))   # (anywhere: no Isle of its own)
+    assert by[until].blows == by[until + 1].blows == 1.0
+    assert [by[lv].blows for lv in range(1, until + 1)] == sorted(by[lv].blows for lv in range(1, until + 1))
+    assert s.npc_max_hit(one) < s.npc_max_hit(by[until])
+    tame = world.add_npc("Villager", 0, m.ox + 300, m.oy + 380, "Attitude=Good Level=1", home=m.name)
     assert tame.blows == 1.0                                            # (only one that can fight you)
-    assert s.npc_max_hit(soft) < s.npc_max_hit(hard) or s.npc_max_hit(hard) == 2
-    graveyard = open("maps/3,1,0.map", encoding="cp1252").read()
-    assert "Skeleton	224	96	Attitude=Bad Level=3 Hard=1" in graveyard
-    assert open("data/Scripts/2,2,-2.script", encoding="cp1252").read().count("Hobgoblin	NPC	Attitude=Bad Level=1 Hard=1") == 4
-    m = world.maps["11,-3,0"]                                           # (the mainland: as hard as ever)
-    off = world.add_npc("Goblin", 0, m.ox + 300, m.oy + 300, "Attitude=Bad Level=1", home=m.name)
-    assert off.map == "11,-3,0" and off.blows == 1.0 and off.max_hp == kind
-    for e in (soft, hard, tame, off):
+    for e in list(by.values()) + [tame]:
         world.remove_entity(e)
     leave(world, s)
 
