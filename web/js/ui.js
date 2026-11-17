@@ -1575,11 +1575,12 @@ function vitalBar(ctx, y, frac, fill, icon_, text) {
   drawTextMid(ctx, text, barX + barW - 6 - tw, y, barH, 8, true, [255, 246, 222]);
 }
 
-// ----- Shards picked up off the ground (remnants.py gather_shards): each flies from where it lay to the Shard bar,
-// which counts it as it lands, with its sound. A pickup of many sends a few, each carrying its share. A Shard
-// Remnant rising (remnant_rise, "back"): its Shards set off for the bar, then turn and fly back into it, uncounted.
-const FLY_MS = 700, FLY_GAP = 90;
-const SF = { flights: [], base: 0, landed: 0, glowUntil: 0, backs: [] };
+// ----- Shards picked up off the ground (remnants.py gather_shards): each flies straight from where it lay to the
+// Shard bar, quickening as it's drawn in, and the bar counts it and fills as it lands, with its sound. A pickup of many
+// sends a few, each carrying its share. A Shard Remnant rising (remnant_rise, "back"): its Shards set off for the bar,
+// then turn and fly back into it, uncounted.
+const FLY_MS = 420, FLY_GAP = 60;
+const SF = { flights: [], base: 0, landed: 0, glowUntil: 0, backs: [], fill: -1 };
 
 export function shardFly(m, now) {
   if (m.back) {
@@ -1602,6 +1603,18 @@ function shownShards() {
 
 function bez(a, c, b, e) { return (1 - e) * (1 - e) * a + 2 * (1 - e) * e * c + e * e * b; }
 
+function shardTrail(ctx, im, at, s) {
+  // (a flying Shard and its trail: at(dt) is where it was dt of the way back)
+  for (let j = 3; j >= 1; j--) {
+    const [x, y] = at(j * 0.05);
+    ctx.globalAlpha = 0.5 / j; ctx.fillStyle = "rgb(206,178,255)";
+    ctx.beginPath(); ctx.arc(x, y, Math.max(1.5, s / 5 - j * 0.6), 0, 6.283); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  const [x, y] = at(0);
+  ctx.drawImage(im, x - s / 2, y - s / 2, s, s);
+}
+
 function drawShardBacks(ctx, now, im, tx, ty) {
   // (out towards the bar for the first part, then a turn, and back down into where the Remnant forms)
   const OUT = 0.42;
@@ -1612,15 +1625,16 @@ function drawShardBacks(ctx, now, im, tx, ty) {
     const sx = (f.x - V.cam.x) * V.zoom, sy = (f.y - V.cam.y) * V.zoom;
     const bx = (f.bx - V.cam.x) * V.zoom, by = (f.by - V.cam.y) * V.zoom;
     const px = sx + (tx - sx) * 0.38, py = Math.min(sy, ty) - 30 + (ty - sy) * 0.2;      // (the turn: a way to the bar)
-    let x, y, s;
-    if (t < OUT) {
-      const e = t / OUT, k = e * (2 - e);                                                 // (eased out: slowing to turn)
-      x = bez(sx, (sx + px) / 2, px, k); y = bez(sy, Math.min(sy, py) - 40, py, k); s = 20;
-    } else {
-      const e = (t - OUT) / (1 - OUT), k = e * e;                                         // (and falling back, faster)
-      x = bez(px, px + (tx - sx) * 0.12, bx, k); y = bez(py, py - 30, by, k); s = 20 - 6 * k;
-    }
-    ctx.drawImage(im, x - s / 2, y - s / 2, s, s);
+    const at = (back) => {
+      const u = Math.max(0, t - back);
+      if (u < OUT) {
+        const e = u / OUT, k = e * (2 - e);                                               // (eased out: slowing to turn)
+        return [bez(sx, (sx + px) / 2, px, k), bez(sy, Math.min(sy, py) - 40, py, k)];
+      }
+      const e = (u - OUT) / (1 - OUT), k = e * e;                                         // (and falling back, faster)
+      return [bez(px, px + (tx - sx) * 0.12, bx, k), bez(py, py - 30, by, k)];
+    };
+    shardTrail(ctx, im, at, t < OUT ? 22 : 22 - 8 * ((t - OUT) / (1 - OUT)) ** 2);
     return true;
   });
 }
@@ -1639,24 +1653,39 @@ function drawShardFlights(ctx, now, rowY) {
     }
     if (t < 0) return true;
     const sx = (f.x - V.cam.x) * V.zoom, sy = (f.y - V.cam.y) * V.zoom;
-    const e = t * t * (3 - 2 * t), cx = (sx + tx) / 2, cy = Math.min(sy, ty) - 60;   // (an arc, up and over)
-    const x = (1 - e) * (1 - e) * sx + 2 * (1 - e) * e * cx + e * e * tx;
-    const y = (1 - e) * (1 - e) * sy + 2 * (1 - e) * e * cy + e * e * ty;
-    const s = 22 - 8 * e;
-    if (im) ctx.drawImage(im, x - s / 2, y - s / 2, s, s);
+    const at = (back) => {                        // (straight there, quickening: drawn in)
+      const u = Math.max(0, t - back), e = u * (0.35 + 0.65 * u);
+      return [sx + (tx - sx) * e, sy + (ty - sy) * e];
+    };
+    if (im) shardTrail(ctx, im, at, 22 - 8 * t);
     return true;
   });
 }
 
+function shardScale(n) {
+  // (what the Shard bar fills towards: the next of 10, 25, 50, 100, 250... past n - they've no most, so it fills
+  // against the next round number and starts again, part full, past it)
+  for (let m = 1; ; m *= 10) for (const k of [10, 25, 50]) if (n < k * m) return k * m;
+}
+
 function shardRow(ctx, y, n) {
-  // (your Shards: what magic is spent from - a count, not a bar: they don't come back by themselves)
+  // (your Shards: what magic is spent from. They don't come back by themselves; the bar fills as they land, towards
+  // the next round number, shardScale)
   const { barX, barW, barH } = VITALS;
   const glow = performance.now() < SF.glowUntil;
   roundBox(ctx, barX, y, barW, barH, "rgba(24,14,8,0.85)", glow ? [214, 190, 255] : [126, 77, 63], 1, 6);
+  const want = n / shardScale(n);
+  SF.fill = SF.fill < 0 ? want : SF.fill + (want - SF.fill) * 0.18;     // (it slides there, never jumps)
+  const w = Math.floor((barW - 4) * clamp(SF.fill, 0, 1));
+  if (w > 0) {
+    ctx.fillStyle = glow ? "rgb(150,112,232)" : "rgb(106,72,186)";
+    ctx.fillRect(barX + 2, y + 2, w, barH - 4);
+    ctx.fillStyle = "rgba(220,200,255,0.35)"; ctx.fillRect(barX + 2, y + 2, w, 2);      // (a sheen along its top)
+  }
   const im = sprite("Shard");
   if (im) ctx.drawImage(im, barX - 10, y - 4, 20, 20);
   const text = `${n} Shard${n === 1 ? "" : "s"}`;
-  drawTextMid(ctx, text, barX + barW - 6 - textWidth(ctx, text, 8, true), y, barH, 8, true, [214, 200, 255]);
+  drawTextMid(ctx, text, barX + barW - 6 - textWidth(ctx, text, 8, true), y, barH, 8, true, [236, 228, 255]);
 }
 
 function drawVitals(ctx) {

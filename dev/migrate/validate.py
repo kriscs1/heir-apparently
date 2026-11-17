@@ -404,7 +404,7 @@ def check_map(path, entities_ini, tiles_ini, report):
 TRAP_KINDS = ("Darts", "Gas", "Weakness", "Pit", "Alarm", "Bucket", "Pie")
 OPTION_KEYS = {"Zone", "Chase", "Patrol", "PatrolMode", "Pause", "Stand", "Attitude", "Id", "Name",
                "Face", "Turn", "Cone", "Group", "Friendly.If", "Schedule", "Home", "Bed", "Bed.Level", "Home.Level", "Zone.Levels",
-               "State", "Nap", "Level", "Look", "Gone.After", "Here.After", "Side", "Spotted.Script"}   # (Here.After=, Gone.After=Attr:N: there only for some; Side=: its side, Set.Side.Attitude; Home=: where it is while its hours keep it in; Bed=x,y: its bed; Bed.Level, Home.Level: the level they're on, up or down the stairs; Zone.Levels=0,1: its Zone on those levels too; Level=: a Shard Remnant's strength; State=Sit: how it rests; Nap=x,y: a spot it curls up on; Name=: its own name; Face, Cone, Group, Friendly.If: stealth; Look=N: which of its trade's colourings)
+               "State", "Nap", "Level", "Look", "Gone.After", "Here.After", "Side", "Spotted.Script", "Hard"}   # (Here.After=, Gone.After=Attr:N: there only for some; Side=: its side, Set.Side.Attitude; Home=: where it is while its hours keep it in; Bed=x,y: its bed; Bed.Level, Home.Level: the level they're on, up or down the stairs; Zone.Levels=0,1: its Zone on those levels too; Level=: a Shard Remnant's strength; State=Sit: how it rests; Nap=x,y: a spot it curls up on; Name=: its own name; Face, Cone, Group, Friendly.If: stealth; Look=N: which of its trade's colourings; Hard=1: on the Isle, its blows and health not softened, [Demo] Blows, Health)
 _npc_ids = None
 
 
@@ -1373,7 +1373,7 @@ CONFIG_REQUIRED = {
 }
 
 
-DEMO_KEYS = {"Area", "Level", "Return", "FriendGrace"}
+DEMO_KEYS = {"Area", "Level", "Return", "FriendGrace", "Blows", "Health"}
 
 
 def check_demo(ini, r, tiles_ini):
@@ -1397,6 +1397,10 @@ def check_demo(ini, r, tiles_ini):
     for k in ("Level", "FriendGrace"):
         if not (ini.get("Demo", k, "") or "").strip().isdigit():
             err(where, "%s should be a whole number" % k)
+    for k, what in (("Blows", "how hard the Isle's foes hit"), ("Health", "how much health the Isle's foes have")):
+        v = (ini.get("Demo", k, "") or "").strip()
+        if v and not re.fullmatch(r"(0?\.\d+|1(\.0*)?)", v):
+            err(where, "%s should be a number from 0.1 to 1 (%s)" % (k, what))
     back = (ini.get("Demo", "Return", "") or "").split()
     if len(back) != 3 or not exists(p("maps", back[0] + ".map")):
         err(where, "Return should be a map there is and a pixel x and y")

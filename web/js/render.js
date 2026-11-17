@@ -144,6 +144,8 @@ export function addFx(ev, nowMs) {
     V.fx = V.fx.filter((o) => !(o.t === "skillpop" && o.uid === ev.uid));
   } else if (ev.t === "burst") {
     f.end = nowMs + 1400;
+  } else if (ev.t === "form") {                   // (Shards gathering into a creature: world.shard_form)
+    f.end = nowMs + ev.ms;
   } else if (ev.t === "mark") {                   // (stealth: a ! over one that's seen you, a ? over one that heard)
     f.end = nowMs + (ev.kind === "spotted" ? 1400 : ev.kind === "shard" ? 2800 : 1700);   // (shard: Listening)
   } else if (ev.t === "bubble") {                 // (a townsperson's word over their head: together.py greetings)
@@ -440,6 +442,7 @@ export function drawWorld(ctx, viewW, viewH, now, dt, smoothing) {
       }
     } else if (f.t === "skillpop") drawSkillPop(ctx, f, now, cam);
     else if (f.t === "burst") drawBurst(ctx, f, now, cam);
+    else if (f.t === "form") drawForm(ctx, f, now, cam);
     else if (f.t === "mark") drawMark(ctx, f, now, cam);
     else if (f.t === "bubble") drawBubble(ctx, f, now, cam, pc);
   }
@@ -902,6 +905,35 @@ function drawSkillPop(ctx, f, now, cam) {
     const s = Math.min(20 / im.width, 20 / im.height);
     ctx.drawImage(im, x + 4 + (20 - im.width * s) / 2, y + 4 + (20 - im.height * s) / 2, im.width * s, im.height * s);
   }
+}
+
+function drawForm(ctx, f, now, cam) {
+  // (a creature drawn together out of Shard essence, unseen till it's done: Shards stream in from round about, each
+  // with a trail, faster and thicker as it nears its time, into a glow that grows where it will stand)
+  const p = clamp((now - f.start) / Math.max(1, f.end - f.start), 0, 1);
+  const cx = f.x - cam.x, cy = f.y - cam.y, im = sprite("Shard");
+  const glow = 6 + 20 * p * p, pulse = 0.8 + 0.2 * Math.sin(now / 90);
+  const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, glow * 1.8);
+  g.addColorStop(0, `rgba(236,220,255,${(0.25 + 0.6 * p) * pulse})`);
+  g.addColorStop(0.45, `rgba(170,120,255,${(0.15 + 0.4 * p) * pulse})`);
+  g.addColorStop(1, "rgba(120,70,220,0)");
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.arc(cx, cy, glow * 1.8, 0, 6.283); ctx.fill();
+  for (let k = 0; k < 14; k++) {
+    const at = 0.8 * (1 - Math.pow(1 - k / 14, 0.7)), fly = 0.42 - 0.18 * (k / 14);   // (each sets off a little later)
+    const a0 = k * 2.39996, r0 = 64 + 22 * ((k * 37) % 5) / 4;
+    for (let j = 3; j >= 0; j--) {                // (its trail: where it was a moment ago, fainter)
+      const q = (p - at - j * 0.025) / fly;
+      if (q <= 0 || q >= 1) continue;
+      const e = q * q, ang = a0 + 1.4 * e, r = r0 * (1 - e);
+      const x = cx + Math.cos(ang) * r, y = cy + Math.sin(ang) * r * 0.75 - 18 * Math.sin(Math.PI * q);
+      const s = (j ? 7 : 11) - 3 * e;
+      ctx.globalAlpha = j ? 0.45 / j : 1;
+      if (im && !j) ctx.drawImage(im, x - s / 2, y - s / 2, s, s);
+      else { ctx.fillStyle = "rgb(200,170,255)"; ctx.beginPath(); ctx.arc(x, y, s / 4, 0, 6.283); ctx.fill(); }
+    }
+  }
+  ctx.globalAlpha = 1;
 }
 
 function drawBurst(ctx, f, now, cam) {

@@ -10,7 +10,8 @@ from .shards import SHARD
 
 REMNANT = SHARD                     # (what's left on the ground: Shards, picked up straight onto the balance)
 LIVING = "Living_Remnant"           # (the monster: "Shard Remnant" over its head)
-RISE_MS = 1100                      # (risen, it's unseen this long: its Shards fly off for the bar, and turn back to it)
+RISE_MS = 2400                      # (risen, it's unseen this long: its Shards fly off for the bar, and turn back to it.
+                                    # world.FORM_MS: it forms as one that comes back does)
 
 
 def make_remnant(data, e, level):
@@ -71,9 +72,8 @@ class RemnantMixin:
             return
         make_remnant(self.data, e, level)
         e.fades_at = w.now + int(self.remnant_num("Mob.Lasts", 120) * 1000)
-        e.rises_at = w.now + RISE_MS                             # (view.py "rz": the page shows it once it's formed)
         w.sound("Remnant_Rise", e.z, e.cx, e.cy)
-        w.fx_anim("Shard_Form", e.z, e.cx, e.fy - 20, 700, delay=RISE_MS - 300)
+        w.shard_form(e)                                          # (view.py "rz": the page shows it once it's formed)
         # (to its killer, its Shards set off for the Shard bar as if picked up, then turn and fly back into it)
         self.emit({"t": "shardfly", "x": int(dead.cx), "y": int(dead.cy), "n": 5, "back": [int(e.cx), int(e.fy - 20)],
                    "ms": RISE_MS})

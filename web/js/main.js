@@ -1239,7 +1239,7 @@ N.onMessage = (m) => {
       workBeats.clear();
       stopWorkFx(now);
       break;
-    case "splat": case "anim": case "shot": case "nudge": case "swing": case "skillpop": case "burst": case "mark": case "bubble":
+    case "splat": case "anim": case "shot": case "nudge": case "swing": case "skillpop": case "burst": case "mark": case "bubble": case "form":
       if (!behind()) addFx(m, now);
       break;
     case "hurt": S.hurtUntil = now + 240; break;
@@ -1336,6 +1336,7 @@ async function startGame(m) {
   await worldDrawn((f) => bar(0.35 + 0.65 * f));
   bar(1);
   hush();
+  tpFade = { start: performance.now() - TP_OUT, shot: null };     // (in from black: a breath of it, then in, as a shardstone's)
   $("loading").hidden = true;
 }
 

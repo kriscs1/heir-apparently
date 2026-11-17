@@ -37,4 +37,4 @@ Id	Grave_Will_Hollis	11	3
 Id	Grave_Tam_Thatcher	7	5
 Id	Grave_Brother_Edric	9	5
 Id	Grave_Hester_Bell	13	5
-NPC	Skeleton	224	96	Attitude=Bad Level=3
+NPC	Skeleton	224	96	Attitude=Bad Level=3 Hard=1

@@ -3403,6 +3403,11 @@ def test_a_seal_swims_comes_ashore_barks_and_leaves_its_pelt(world):
     s.out = []
     world.tick(0.05, now=world.now + 50)
     assert any(ev.get("t") == "sound" and ev.get("name") == "Seal_Bark" for ev in s.out)   # (near: it barks)
+    a.call_at = world.now - 120000                    # (its map slept: the call long overdue)
+    s.out = []
+    world.tick(0.05, now=world.now + 50)
+    assert not any(ev.get("t") == "sound" and ev.get("name") == "Seal_Bark" for ev in s.out)   # (not all at once as you come)
+    assert world.now + 2000 <= a.call_at <= world.now + 40000      # (but soon)
     x, y = seal.cx, seal.cy
     s.damage_npc(seal, 999)
     left = {e.name for e in world.ents if e.type == MAPITEM and distance(e.cx, e.cy, x, y) < 48}
@@ -4603,6 +4608,25 @@ def test_drains_and_boosts_show_a_skill_as_it_is_now(world):
     leave(world, s)
 
 
+def test_drinking_sounds_like_drinking(world):
+    """A potion, a cure, an ale and a scripted potion each gulp (Drink); a herb that cures is still eaten (EatFood)."""
+    s = join(world, "Gulper", "11,-3,0", 384, 300)
+    s.connected = True
+    s.player.hp = 1
+    stock(s, Minor_Healing_Draught=1, Antidote=1, Ale=1, Basic_Potion=1)
+    for item in ("Minor_Healing_Draught", "Antidote", "Ale", "Basic_Potion"):
+        s.out = []
+        s.player.hp = 1
+        s.do_action("Drink", next(e for e in s.inv if e.name == item))
+        for _ in range(4):
+            world.tick(0.05, now=world.now + 50)
+        heard = [ev.get("name") for ev in s.out if ev.get("t") == "sound"]
+        assert "Drink" in heard and "EatFood" not in heard, (item, heard)
+        if item == "Ale":
+            assert any("you drink the ale" in str(ev).lower() for ev in s.out)          # (not "You eat the ale")
+    leave(world, s)
+
+
 def test_an_invisibility_potion_hides_you_till_you_strike(world):
     s = join(world, "Ghost", "11,-3,0", 384, 300)
     s.connected = True
@@ -5139,7 +5163,33 @@ def test_the_isles_creatures_are_a_level_or_two_under_their_kinds(world):
     assert {e.name for e, _ in isle} >= {"Goblin", "Wolf"}
     for e, kind in isle:
         assert e.npc_level == max(1, kind - (2 if kind >= 4 else 1)), (e.name, e.map)
-        assert e.max_hp >= int(val(d.entity_ini(e.name, "Hitpoints", "1"))) // 2      # (never under half its kind's)
+        half = int(val(d.entity_ini(e.name, "Hitpoints", "1"))) // 2       # (never under half its kind's, but for the
+        assert e.max_hp >= max(1, round(half * d.demo["health"])), (e.name, e.map)  # Isle's softening, [Demo] Health)
+
+
+def test_the_isles_foes_hit_softer_and_fall_sooner_but_not_its_hard_fights(world):
+    d = world.data
+    assert d.demo["blows"] < 1 and d.demo["health"] < 1
+    s = join(world, "Soft", "3,2,0", 400, 330)
+    kind = int(val(d.entity_ini("Goblin", "Hitpoints", "1")))
+    m = world.maps["3,2,0"]
+    soft = world.add_npc("Goblin", 0, m.ox + 436, m.oy + 330, "Attitude=Bad Level=1", home=m.name)
+    hard = world.add_npc("Goblin", 0, m.ox + 436, m.oy + 360, "Attitude=Bad Level=1 Hard=1", home=m.name)
+    tame = world.add_npc("Villager", 0, m.ox + 436, m.oy + 300, "Attitude=Good", home=m.name)
+    assert soft.map == hard.map == "3,2,0"
+    assert soft.blows == d.demo["blows"] and soft.max_hp == soft.hp == max(1, round(kind * d.demo["health"]))
+    assert hard.blows == 1.0 and hard.max_hp == kind                    # (the graveyard's Skeleton, the lair's four)
+    assert tame.blows == 1.0                                            # (only one that can fight you)
+    assert s.npc_max_hit(soft) < s.npc_max_hit(hard) or s.npc_max_hit(hard) == 2
+    graveyard = open("maps/3,1,0.map", encoding="cp1252").read()
+    assert "Skeleton	224	96	Attitude=Bad Level=3 Hard=1" in graveyard
+    assert open("data/Scripts/2,2,-2.script", encoding="cp1252").read().count("Hobgoblin	NPC	Attitude=Bad Level=1 Hard=1") == 4
+    m = world.maps["11,-3,0"]                                           # (the mainland: as hard as ever)
+    off = world.add_npc("Goblin", 0, m.ox + 300, m.oy + 300, "Attitude=Bad Level=1", home=m.name)
+    assert off.map == "11,-3,0" and off.blows == 1.0 and off.max_hp == kind
+    for e in (soft, hard, tame, off):
+        world.remove_entity(e)
+    leave(world, s)
 
 
 def test_channeling_makes_spells_cheaper_but_never_free(world):
@@ -6086,6 +6136,20 @@ def test_a_creature_comes_back_out_of_shard_essence(world):
     world.run_action_queue()
     assert any(ev.get("t") == "anim" and ev.get("base") == "Shard_Form" for ev in s.out)
     rabbit = next(e for e in world.ents if e.name == "Seal" and id(e) not in before)
+    # (at least 2 s drawing together, unseen and still, its Shards streaming in, with a sound; then it stands)
+    from dsengine.view import shared_state
+    from dsengine.world import FORM_MS
+    assert FORM_MS >= 2000
+    assert any(ev.get("t") == "form" and ev["ms"] == FORM_MS for ev in s.out)
+    assert any(ev.get("t") == "sound" and ev["name"] == "Shard_Form" for ev in s.out)
+    assert 0 < shared_state(world, rabbit)["rz"] <= FORM_MS
+    stood = (rabbit.x, rabbit.y)
+    rabbit.ai.goal_x, rabbit.ai.goal_y = rabbit.cx + 200, rabbit.cy
+    for _ in range(FORM_MS // 50 - 4):
+        world.tick(0.05, now=world.now + 50)
+    assert (rabbit.x, rabbit.y) == stood                # (nothing yet: still forming)
+    world.now += 300
+    assert "rz" not in shared_state(world, rabbit)
     s.out = []
     world.npc_killed_by_npc(rabbit)
     assert any(ev.get("t") == "anim" and ev.get("base") == "Shard_Fade" for ev in s.out)

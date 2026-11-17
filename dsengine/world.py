@@ -14,6 +14,7 @@ from ashen.lb import (val, word, field, trim, lbstr, distance, strip_digits, par
                             clock_ms, clock_seconds, rnd, random_number)
 
 from .data import GameData
+from .demo import in_area
 from .entity import (Entity, NPCAI, PLAYER, TILE, MAPITEM, STATICOBJECT, NPC, MISSILE, TEMPORARY, INFRONTTILE,
                      TYPE_NAMES, normalise_type, attitude_of_type, parse_attitude, is_passive)
 from .maps import MapData
@@ -42,6 +43,8 @@ SHOP_QUEUE_MOST = 3000                  # (shops' restocks waiting at most: past
 DOOR_SHUT_MS = 1500
 HEAR_NEAR, HEAR_FAR = 96.0, 600.0
 HEAR_DOOR, HEAR_CALL = 192.0, 256.0             # (a door, an animal's call: only heard from close by)
+FORM_MS = 2400                                  # (a creature drawn together out of Shard essence: unseen and still
+                                                # this long, while its Shards gather into it: world.shard_form)
 
 
 class World(NPCMixin):
@@ -401,6 +404,12 @@ class World(NPCMixin):
             # never under half its kind's, so a bat a level down still takes a blow or two)
             e.strength = max(1, round(e.strength + k * num("Mob.Strength.Per.Level", 0.5)))
             e.defence = max(1, round(e.defence + k * num("Mob.Defence.Per.Level", 0.5)))
+        # (on the Isle, where you learn to fight, a foe's blows are softer and it falls sooner: [Demo] Blows, Health.
+        # Not a fight kept hard, Hard=1)
+        soft = e.hostile and not val(self.option_value(options, "Hard")) and in_area(d.demo["area"], e.map)
+        e.blows = d.demo["blows"] if soft else 1.0
+        if soft:
+            e.hp = e.max_hp = max(1, round(e.max_hp * d.demo["health"]))
 
     def set_npc_hostile(self, e, hostile):
         """Turns an NPC into a foe (for everyone) or a friend."""
@@ -1332,9 +1341,13 @@ class World(NPCMixin):
         self.fx(ev, z, x, y, owner)
 
     def shard_form(self, e):
-        """A creature drawn together out of Shard essence (come back after it was killed, or risen): motes and a sound."""
-        self.fx_anim("Shard_Form", e.z, e.cx, e.fy - 20, 900)
-        self.sound("Shard_Form", e.z, e.cx, e.cy, radius=HEAR_CALL)
+        """A creature drawn together out of Shard essence (come back after it was killed, or risen): for FORM_MS it's
+        unseen and does nothing (view.py "rz", npcs.update_npc) while Shards stream in to where it stands and glow
+        there (render.js drawForm), with a sound that swells as they gather; then it stands, in a flash of motes."""
+        e.rises_at = self.now + FORM_MS
+        self.fx({"t": "form", "x": int(e.cx), "y": int(e.fy - 20), "ms": FORM_MS}, e.z, e.cx, e.cy)
+        self.fx_anim("Shard_Form", e.z, e.cx, e.fy - 20, 900, delay=FORM_MS - 300)
+        self.sound("Shard_Form", e.z, e.cx, e.cy, radius=400.0)
 
     def shard_fade(self, e):
         """A creature's Shard essence let go as it dies: motes lifting off where it fell."""

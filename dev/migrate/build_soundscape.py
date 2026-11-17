@@ -272,11 +272,15 @@ SOUNDS = {
     "Step_Snow": (lambda: mix((shaped(crackle(179, 0.14, 0.06), 0.01, 18), 0.6), (shaped(noise(180, n(0.12), 0.08), 0.01, 18), 0.5)), 0.3),
     "Step_Snow_2": (lambda: mix((shaped(crackle(181, 0.14, 0.06), 0.01, 18), 0.6), (shaped(noise(182, n(0.12), 0.08), 0.01, 18), 0.5)), 0.3),
     # ----- creatures and traps
-    # (a creature drawn together out of Shard essence: air gathering, a low harp rising, a soft bell as it stands;
-    # and the essence let go as one dies, falling away)
-    "Shard_Form": (lambda: room(mix((breath(190, 0.9, 0.05, 0.75), 0.6),
-                                    (delay(harp_run((196, 262, 330, 392), 0.11, 0.9), 0.1), 0.45),
-                                    (delay(bell(262, 1.0, 4), 0.62), 0.35)), 0.3), 0.45),
+    # (a creature drawn together out of Shard essence, 2.4 s (world.FORM_MS): air gathering and swelling, glints of
+    # the Shards coming in thicker and faster, a low harp climbing slowly, and a bell and a thump as it stands; and
+    # the essence let go as one dies, falling away)
+    "Shard_Form": (lambda: room(mix((breath(190, 2.3, 0.05, 0.9), 0.7),
+                                    *[(delay(bell(523 * (1.0, 1.25, 1.5, 2.0)[k % 4], 0.5, 6), 1.9 * (1 - (1 - k / 11) ** 0.6)),
+                                       0.12 + 0.02 * k) for k in range(12)],
+                                    (delay(harp_run((196, 262, 330, 392, 523), 0.38, 1.0), 0.15), 0.45),
+                                    (delay(bell(262, 1.4, 3), 2.25), 0.5), (delay(knock(110, 0.18, 192, 0.6), 2.25), 0.5)),
+                                0.3), 0.6),
     "Shard_Fade": (lambda: room(mix((breath(191, 0.7, 0.04, 0.2), 0.5),
                                     (delay(harp_run((392, 330, 262), 0.1, 0.7), 0.05), 0.35)), 0.3), 0.35),
     "Kill_Small": (lambda: lowpass(mix((voice(1150, 0.2, glide=-0.4, vibrato=0.06, rate=28, rough=0.05, seed=122,

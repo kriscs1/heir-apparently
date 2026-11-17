@@ -304,7 +304,7 @@ class CombatMixin:
                           self.stance_num("Damage")))
 
     def npc_max_hit(self, e):
-        return 1 + max(0, int(self.w.stat_for(e, self, "strength") * self.data.monster_damage))
+        return 1 + max(0, int(self.w.stat_for(e, self, "strength") * self.data.monster_damage * getattr(e, "blows", 1.0)))
 
     def start_attack(self, e):
         self.stand_up()                       # (no fighting from a bench)
@@ -810,6 +810,7 @@ class CombatMixin:
         if leaves:
             self.add_inventory_item(leaves, 1)
         if potion:
+            self.play_sound("Drink")
             effect = self.spell_ini(spell, "Effect", "").upper()
             if effect not in ("BOOST", "SHIELD"):                   # (a boost says what it does itself)
                 self.display_message("You drink the %s." % pretty(scroll), "SUCCESS")
@@ -1337,7 +1338,7 @@ class CombatMixin:
                 self.item_in_use = None
         else:
             self.remove_inventory_item(e.name, 1)
-        self.play_sound("EatFood")
+        self.play_sound("Drink" if "Drink" in self.entity_ini(e.name, "Use.Words", "") else "EatFood")   # (a herb's eaten)
         ended = [c for c in cures if c in self.status]
         for c in ended:
             self.status_end(c, quiet=True)

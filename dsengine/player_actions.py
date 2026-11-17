@@ -530,7 +530,7 @@ class ActionsMixin:
         elif verb == "Drink" and t == INVENTORYITEM and self.entity_ini(name, "Cures", ""):
             self.drink_cure(e)
         elif verb == "Drink" and t == INVENTORYITEM and val(self.entity_ini(name, "Food.Value", "0")) > 0:
-            self.eat_inventory_item(e)
+            self.eat_inventory_item(e, drink=True)
         elif verb == "Dismantle" and t == INVENTORYITEM:
             self.dismantle(e)
         elif verb == "Write" and name == "Spellwright_Lectern":
@@ -796,7 +796,7 @@ class ActionsMixin:
         else:
             self.display_message("You drop the %s." % pretty(name), "SUCCESS")
 
-    def eat_inventory_item(self, e):
+    def eat_inventory_item(self, e, drink=False):
         name = e.name
         food = val(self.entity_ini(name, "Food.Value", "0"))
         if food <= 0:
@@ -806,8 +806,8 @@ class ActionsMixin:
             self.display_message("You already have full health!", "FAIL")
             return
         self.remove_inventory_item(name, 1)
-        self.play_sound("EatFood")
-        self.display_message("You eat the %s." % pretty(name), "SUCCESS")
+        self.play_sound("Drink" if drink else "EatFood")
+        self.display_message("You %s the %s." % ("drink" if drink else "eat", pretty(name)), "SUCCESS")
         self.update_skill("Hitpoints", "+" + lbstr(food))
 
     def climb_ladder(self, dz):

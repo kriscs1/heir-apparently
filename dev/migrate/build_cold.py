@@ -102,7 +102,7 @@ def scripts():
     minutes = float(Ini(p("data", "Cold.ini")).get("Cold", "Draught.Minutes") or 10)   # (written in: from Cold.ini)
     SK.write_script("Drink Warming_Draught", [
         ("Take.Item", "Warming_Draught", "1"),
-        ("Play.Sound", "EatFood"),
+        ("Play.Sound", "Drink"),
         ("Get.Value", "CALCULATION", "$Clock+%d" % int(minutes * 60), "Variable.1$"),
         ("Update.Attribute", "WarmUntil", "=$Variable.1"),
         ("Display.Message", "Cyan", "It burns all the way down, and the warmth spreads out to your toes.", "-"),

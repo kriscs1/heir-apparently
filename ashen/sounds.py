@@ -12,7 +12,7 @@ EXTS = (".wav", ".mid", ".ogg", ".mp3")
 # (a name's kind: its first word, or the whole name; anything else is the world's: doors, bells, boats, steps...)
 _PREFIX = {
     "ui": ("Chat", "Click", "Coins", "Denied", "Empty", "Fail", "LevelUp", "Learn", "Pickup", "Drop", "Quest",
-           "Success", "Swap", "Paper", "EatFood"),
+           "Success", "Swap", "Paper", "EatFood", "Drink"),
     "creatures": ("Abomination", "Baa", "Bleat", "Buzz", "Cat", "Cluck", "Croak", "Dog", "Growl", "Honk", "Meow",
                   "Moo", "Otter", "Purr", "Quack", "Rabbit", "Seal_Bark", "Snort", "Squeak", "Kill", "Remnant_Rise",
                   "Hooves"),

@@ -309,13 +309,20 @@ that isn't in the game.
   all round comes for it; Sneaking only narrows them, and shows them (cones, and a dashed ring for hearing).
 - **Creatures come and go as Shard essence**: one that comes back (a respawn, a raider, a risen remnant) is drawn
   together out of motes (`Shard_Form`, and its sound), and one that dies lets them go (`Shard_Fade`): `world.shard_form`
-  and `shard_fade`, never a puff of smoke.
+  and `shard_fade`, never a puff of smoke. **Coming back takes at least 2 seconds** (the owner's wish: `FORM_MS`,
+  2.4 s): unseen and doing nothing meanwhile (view.py `rz`, `update_npc`), Shards stream in to where it will stand,
+  each with a trail, into a glow that grows (the page's `form`, render.js `drawForm`), and `Shard_Form` swells as they
+  gather and rings as it stands.
 - Buffs and debuffs end on death (a disease doesn't: below). Dying keeps what's in your hands first (weapon, shield), then the dearest things
   (`Death.Keep.Items`); the grave's time starts once you're up again, not on the death screen. **Each death leaves its
   own grave** (`player_items.py` graves: up to `GRAVES_MOST`, 5, the oldest crumbling for a sixth), each with its own
   time and things.
 - **The Isle's hard fights stay as they are** (the owner's choice): the Skeleton walking the chapel graveyard (3,1,0)
-  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier.
+  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're marked
+  `Hard=1`; **every other foe on the Isle is gentler** (the owner's wish: its everyday fights were too hard): its
+  blows `[Demo] Blows` (0.5) as hard and its health `Health` (0.7) of its kind's (`set_npc_level`; Config.ini). A
+  fresh character with a wooden sword and shield loses a third to a half of their health to a goblin, wolf, spider or
+  camp hobgoblin, over some 5 seconds.
 - A skill can be **drained or boosted for a while** (status effects Weaken, Daze, Frailty on monsters' blows; a script's
   `Boost.Skill`): what asks for a level goes by it as it is now, the Stats tab always shows it out of its usual level
   (20/20; drained 18/20, red; boosted 23/20, green, a potion's or spell's boost to your blows counted in), and hitpoints and your level go by the usual one.
@@ -476,13 +483,17 @@ that isn't in the game.
   Shards when it's killed (`dsengine/remnants.py`; the numbers: Shards.ini `[Remnants]`).
 - **A Shard on the ground, picked up, flies to the Shard bar** (`gather_shards`: the page's `shardfly`, the bar
   counting each as it lands, with `Shard_Land`), never the bag, and no line in the chat. A flying Shard is just its
-  picture, no circle round it. When a kill's magic rises as a Shard Remnant instead, its Shards set off for your bar,
-  turn, and fly back into where the Remnant forms (`remnant_rise`: `shardfly` with `back`; the Remnant is hidden till
-  they land, `RISE_MS`, and its `Shard_Form` waits for them). It counts towards
+  picture and a short trail, no circle round it, and **it flies straight to the bar, quickly** (the owner's wish:
+  never an arc or a dog-leg; `FLY_MS`). **The Shard bar fills** as they land: Shards have no most, so it fills
+  towards the next of 10, 25, 50, 100, 250... (`shardScale`), sliding there, and starts again part full past it. When a kill's magic rises as a Shard Remnant instead, its Shards set off for your bar,
+  turn, and fly back into where the Remnant forms (`remnant_rise`: `shardfly` with `back`; the Remnant forms as any
+  creature does, `shard_form`, over `RISE_MS`, as long as the Shards take to come back). It counts towards
   `RemnantsAbsorbed` (Wim's check, the Spellwright). There's no Shard Remnant item any more (an old save's are Shards
   as it loads: `renames.py RENAMED_WHOLE`).
 
 ### Magic and Shards
+- **Drinking sounds like drinking** (`Drink`, `build_drink_sound.py`): a potion, a draught, a cure, an ale or milk,
+  whether by the engine (`drink_cure`, the Drink verb) or a script's message (its sound `Drink`); eating is `EatFood`.
 - **What a potion is and what a spell is.** A potion is herbs: it works only inside whoever drinks it (mends,
   strengthens, sharpens the senses, cures), needs no Shards and is used up. A spell is Shard magic: it reaches out of
   you into the world (strikes, freezes, carries things, carries you) or binds Shards round you as a ward. Shards can't
@@ -792,7 +803,8 @@ that isn't in the game.
 - **A monster growls as it comes for you** (`Growl=`, from a creature's recorded mutterings: `build_voices.py`
   GROWLERS): the one that saw you, heard from close by; people, animals and things of stone or glass don't.
 - **An animal makes its own noise** (`Calls=`: a cow's moo, a hen's cluck, a cat's meow, recorded, CC0:
-  `build_voices.py` CALLS), now and then on its own and, the same noise, as you do something with it (stroke it,
+  `build_voices.py` CALLS), now and then on its own (a call long overdue, its map asleep with nobody near, is put off
+  a while, not made: never every animal at once as you arrive) and, the same noise, as you do something with it (stroke it,
   feed it, milk it: `animal_noise`), unless its script starts with a sound of its own (a cat's purr). Never a made-up
   one. In an animal's body (the Swap scroll) an animal that talks to you greets you in a human voice, one that
   suits it (a cow a woman's, a goose a gruff one, a frog the Frog King's croak: tricks.py `ANIMAL_VOICE`), not its
@@ -817,7 +829,8 @@ that isn't in the game.
 
 - The camera stays on the player: past the last map there's only black (never held back at the edge of the maps).
 - Going somewhere else at once (a shardstone, a script, dying; not a ladder or a stair) fades the view out and in, over
-  at least 2 seconds. A stair or a ladder is heard first, then you move (`>Map.Exists`, the sound, `Wait 0.4`, the
+  at least 2 seconds. **Starting the game fades in from black** too (the owner's wish), once the first view's pictures
+  are in, roofs and all, so nothing pops in. A stair or a ladder is heard first, then you move (`>Map.Exists`, the sound, `Wait 0.4`, the
   `Teleport`: `dev/migrate/climb_sound_first.py`).
 - Walking keeps to the walk masks: a fence thinner than a path cell stops the path (`maps.py` cross_r/cross_d) and
   the feet (a step never skips over it).
@@ -1165,6 +1178,8 @@ that isn't in the game.
   (`build_nicer_floors.py`: four boards a tile, nails and knots; polished veined marble and a big slab texture for the streets).
   **The palace's inner walls are one thin strip like every house's** (`lay_rooms` draws a shared wall once).
 
+- **A weed is decor** (`dev/migrate/build_weed.py`): `Weed001`, dock leaves drawn see-through, stands on grass as
+  `Grass001+Decor(Weed001)`, never a tile of its own with its own green square.
 - **Cliffs and loose stones are decor** (`dev/migrate/cliff_decor.py`, the owner's wish): `Cliff001-005` (drawn
   see-through by `farm_tiles.py` write_cliff_decor, no grass lip) and `Stone001/002` (a stone or two) stand on any
   ground, grass, sand or snow, as `Ground+Decor(Cliff004)`; their Walkable.Data still stops you. A floor of stone is

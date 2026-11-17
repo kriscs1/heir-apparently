@@ -50,12 +50,7 @@ class DemoMixin:
 
     def demo_map(self, name):
         """Whether a map (its X,Y,Z name) is in the demo."""
-        area = self.data.demo["area"]
-        try:
-            x, y, z = (int(v) for v in str(name).split(","))
-        except ValueError:
-            return False
-        return any(a[0] <= x <= b[0] and a[1] <= y <= b[1] and a[2] <= z <= b[2] for a, b in area)
+        return in_area(self.data.demo["area"], name)
 
     def demo_cap(self):
         """The most a skill's level can be just now (the demo's, or the game's)."""
@@ -162,6 +157,15 @@ class DemoMixin:
         self.emit({"t": "demo", "why": "friend", "on": False})
 
 
+def in_area(area, name):
+    """Whether a map (its X,Y,Z name) is in area ([((x, y, z), (x, y, z))]: read_demo's)."""
+    try:
+        x, y, z = (int(v) for v in str(name).split(","))
+    except ValueError:
+        return False
+    return any(a[0] <= x <= b[0] and a[1] <= y <= b[1] and a[2] <= z <= b[2] for a, b in area)
+
+
 def read_demo(c):
     """Config.ini [Demo]: (area: [((x, y, z), (x, y, z))], level, back: (map, x, y)). No Area: no demo."""
     area = []
@@ -177,4 +181,6 @@ def read_demo(c):
     back = c("Demo", "Return", "").split()
     return {"area": area, "level": max(1, int(val(c("Demo", "Level", "5")) or 5)),
             "back": (back[0], val(back[1]), val(back[2])) if len(back) == 3 else (c("Gameplay", "Start.Map", ""), 0, 0),
-            "grace": max(0, int(val(c("Demo", "FriendGrace", "60"))))}
+            "grace": max(0, int(val(c("Demo", "FriendGrace", "60")))),
+            "blows": max(0.1, min(1.0, val(c("Demo", "Blows", "1")) or 1)),
+            "health": max(0.1, min(1.0, val(c("Demo", "Health", "1")) or 1))}

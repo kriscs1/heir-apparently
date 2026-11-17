@@ -455,9 +455,15 @@ class NPCMixin:
 
     def update_npc(self, e, players, near):
         a = e.ai
+        if getattr(e, "rises_at", 0) > self.now:
+            return                                      # (still forming out of its Shards: world.shard_form)
         if a.call and not e.in_combat and (self.now >= a.call_at or self.now < a.call_at - 600000):
+            late = self.now - a.call_at
             a.call_at = self.now + random_number(15000, 60000)
-            self.sound(a.call, e.z, e.cx, e.cy, radius=256.0)   # (a croak from the reeds, a bark off the rocks)
+            if 0 <= late < 3000:
+                self.sound(a.call, e.z, e.cx, e.cy, radius=256.0)   # (a croak from the reeds, a bark off the rocks)
+            else:          # (long overdue: its map slept with nobody near. Not every animal at once as you come)
+                a.call_at = self.now + random_number(2000, 40000)
         if e.follow is not None:
             self.npc_follow(e, a)
             return
@@ -1064,7 +1070,7 @@ class NPCMixin:
         make_remnant(self.data, e, level)
         e.fades_at = self.now + int(val(trim(self.data.shards_ini("Remnants", "Mob.Lasts", "")) or "120") * 1000)
         self.sound("Remnant_Rise", e.z, e.cx, e.cy)
-        self.fx_anim("Teleport_Glow", e.z, e.cx, e.cy, 600)
+        self.shard_form(e)
         if killer is not None and killer.alive and e.ai is not None:
             self.npc_set_foe(e, killer)
 
