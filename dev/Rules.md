@@ -1010,6 +1010,11 @@ that isn't in the game.
 
 ### The central server
 
+- **Players are warned before a server goes down for maintenance** (the owner's wish): an admin's `/maintenance
+  minutes why` (`GameServer.maintenance_command`) shows everyone a countdown banner (`drawMaintenance`), a line and the
+  bell as it nears, and the Public servers list the time (the announce's `maint`); at the time all but admins are saved
+  and sent off with the reason, and kept out till the server starts again or it's called off. Anyone sent off is told
+  why before the connection closes (`send_off`: a closed one sends nothing).
 - **Every character's progress is on the central server** (`server/progress.py`, `central/store.py`, the admin page's
   Characters, Quests and Skills): every game with `DS_CENTRAL` tells it level, skills, quests' stages, Shards, gold and
   map, from the saves, only what's changed. Never a device's key, the look, what's carried or what's said. **An app's own

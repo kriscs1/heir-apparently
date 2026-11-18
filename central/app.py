@@ -132,6 +132,7 @@ class Central:
         self.confirms = {}              # account or email -> how many confirmation emails today
         self.confirm_day = ""
         self.announces = {}             # address -> [times] a game server called
+        self.maint = {}                 # server key -> when it goes down for maintenance (its announce: the list says so)
         self.reports = {}               # address -> [times] a game server reported
         self.new_reporters = {}         # address -> [days] a new game server reported
         self.logs_from = {}             # a game server's key -> [times] it sent its log
@@ -819,6 +820,11 @@ class Central:
         key, secret = self.store.announce(str(d.get("key", ""))[:32], str(d.get("secret", ""))[:64], name, url,
                                           whole(d.get("online"), 0, most), most, str(d.get("version", ""))[:40],
                                           str(d.get("proof", ""))[:128])
+        at = whole(d.get("maint"), 0, 2 ** 40)
+        if at:
+            self.maint[key] = at
+        else:
+            self.maint.pop(key, None)
         pre = {k.strip() for k in os.environ.get("DS_CENTRAL_APPROVED", "").split(",") if k.strip()}
         if key in pre and not self.store.approved(key):
             self.store.set_approved(key, True)          # (approved in the settings, before it ever called)
@@ -832,7 +838,9 @@ class Central:
     async def servers(self, request):
         # (the list as a browser has it already: said in a few bytes)
         # (no addresses: a signed-in player's ticket brings the one they join)
-        text = compact([{k: v for k, v in s.items() if k != "url"} for s in self.store.servers()])
+        text = compact([dict({k: v for k, v in s.items() if k != "url"}, **({"maint": self.maint[s["key"]]}
+                                                                             if s["key"] in self.maint else {}))
+                        for s in self.store.servers()])
         tag = '"%s"' % hashlib.md5(text.encode("utf-8")).hexdigest()[:16]
         if request.headers.get("If-None-Match") == tag:
             return web.Response(status=304, headers={"ETag": tag, "Cache-Control": "no-cache"})

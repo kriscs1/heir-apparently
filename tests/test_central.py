@@ -804,6 +804,11 @@ def test_a_listed_game_is_approved_again_when_it_changes_and_calls_are_limited(t
                 assert (await post(http, c + "/api/announce", same))["approved"]
                 listed = await (await http.get(c + "/api/servers")).json()
                 assert listed[0]["online"] <= listed[0]["max"]           # (no 99999 of 5)
+                assert "maint" not in listed[0]
+                await post(http, c + "/api/announce", dict(same, maint=1900000000))    # (its admin's /maintenance)
+                assert (await (await http.get(c + "/api/servers")).json())[0]["maint"] == 1900000000
+                await post(http, c + "/api/announce", same)                          # (called off, or started again)
+                assert "maint" not in (await (await http.get(c + "/api/servers")).json())[0]
                 moved = dict(same, name="FREE GOLD", url="https://phish.example")
                 assert not (await post(http, c + "/api/announce", moved))["approved"]   # (approved again first)
                 said = [await post(http, c + "/api/announce", {"name": "Spam %d" % k, "url": "https://x.example"})

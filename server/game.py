@@ -34,6 +34,8 @@ WHERE_EVERY = 1.0           # (seconds between the minimap's dots for the other 
 LINGER = 30                 # (seconds a player marked in open PvP stays in the world once they've gone: pvp.py)
 CHAT_MAX = 200
 CHAT_LINES, CHAT_SECONDS = 6, 5.0   # (the most lines anyone can say in those seconds: no flooding everyone's chat)
+MAINT_MARKS = (600, 300, 120, 60, 30, 10)     # (seconds before maintenance: a line in everyone's chat, and the bell)
+MAINT_MOST = 24 * 60                          # (minutes: the longest warning /maintenance gives)
 TALKING = ("/p ", "/party ", "/r ", "/reply ", "/w ", "/whisper ", "/tell ", "/msg ", "/letter ")  # (commands that talk)
 
 
@@ -176,6 +178,8 @@ class GameServer:
         self.tick_failed = set()            # (the tick's parts that have gone wrong: logged once)
         self.last_where = 0.0
         self.last_where_sent = None     # (the minimap's dots as last sent: again only when they move)
+        self.maint = None               # (an admin's /maintenance: {"at": when it goes down, "why", "said": marks told})
+        self.maint_down = False         # (gone down for it: nobody but an admin comes in till it starts again)
         self.last_backup_day = None
         self.tick_ms = 0.0
         self.up_since = time.time()
@@ -287,6 +291,8 @@ class GameServer:
                 self.lingered()
             except Exception:
                 self.failed_once("Lingering")
+            if self.maint and not self.maint_down:
+                self.maintenance_tick()
             wanted = self.world.save_soon or any(s.save_requested for s in self.world.sessions.values())
             if wanted and time.time() - self.last_save >= SAVE_SOON:
                 self.save_all()
@@ -445,6 +451,90 @@ class GameServer:
                 o.display_message("Players can no longer fight each other outside the arena.", "INFO")
                 if o.pvp_mark_until:
                     o.pvp_mark_until = o.now                # (no mark lasts: it fades next tick)
+
+    # ----- maintenance: an admin warns everyone it's going down, and when; at the time, all are saved and sent off
+    def maintenance_message(self):
+        if not self.maint:
+            return {"t": "maintenance"}
+        return {"t": "maintenance", "secs": max(0, round(self.maint["at"] - time.time())), "why": self.maint["why"],
+                "down": self.maint_down}
+
+    @staticmethod
+    def maint_words(secs):
+        mins = round(secs / 60)
+        return ("%d seconds" % secs if secs < 60 else "1 minute" if mins == 1 else
+                "%d minutes" % mins if mins < 120 else "%d hours" % round(mins / 60))
+
+    def maintenance_command(self, s, text):
+        """/maintenance <minutes> [why] (an admin or the host): everyone's warned, a countdown on screen and a line in
+        the chat as it nears; at 0 all are saved and sent off, and only an admin comes in till the server starts again.
+        /maintenance off: not now. /maintenance: when it is."""
+        words = text.split(None, 2)
+        c = self.clients.get(s)
+        say = lambda words: s.emit({"t": "chat", "from": "", "text": words})     # noqa: E731
+        arg = words[1].lower() if len(words) > 1 else ""
+        if not arg:
+            say(("Maintenance in %s." % self.maint_words(max(0, round(self.maint["at"] - time.time())))
+                 if self.maint and not self.maint_down else "Down for maintenance: only admins can come in."
+                 if self.maint_down else "No maintenance planned.") + " (/maintenance minutes [why], or off)")
+            return
+        if not (s.admin_enabled or (c is not None and (c.host or self.is_local(c.addr)))):
+            say("Only an admin or the host can do that.")
+            return
+        if arg in ("off", "cancel", "stop"):
+            if not self.maint:
+                say("No maintenance planned.")
+                return
+            self.maint, self.maint_down = None, False
+            log.info("%s called off the maintenance", s.player_name)
+            self.broadcast(self.maintenance_message())
+            for o in list(self.world.sessions.values()):
+                o.display_message("The maintenance is called off.", "SUCCESS", "-")
+            return
+        if not arg.isdigit() or int(arg) > MAINT_MOST:
+            say("/maintenance minutes [why] (0 to %d), or /maintenance off" % MAINT_MOST)
+            return
+        why = " ".join((words[2] if len(words) > 2 else "").split())[:80]
+        mins = int(arg)
+        self.maint = {"at": time.time() + mins * 60, "why": why, "said": {m for m in MAINT_MARKS if m >= mins * 60}}
+        self.maint_down = False
+        log.info("%s set maintenance in %d minutes%s", s.player_name, mins, (": " + why) if why else "")
+        self.broadcast(self.maintenance_message())
+        if mins:
+            line = "The server goes down for maintenance in %s%s." % (self.maint_words(mins * 60),
+                                                                      (": " + why) if why else "")
+            for o in list(self.world.sessions.values()):
+                o.display_message(line, "WARNING", "Bell")
+        asyncio.ensure_future(self.announce())          # (the start screen's list says so at once, not in a minute)
+
+    def maintenance_tick(self):
+        """The countdown: a line and the bell at each of MAINT_MARKS, and at 0 everyone but an admin saved and sent off."""
+        left = self.maint["at"] - time.time()
+        if left > 0:
+            for mark in MAINT_MARKS:
+                if left <= mark and mark not in self.maint["said"]:
+                    self.maint["said"].update(m for m in MAINT_MARKS if m >= mark)
+                    line = "The server goes down for maintenance in %s." % self.maint_words(mark)
+                    for o in list(self.world.sessions.values()):
+                        o.display_message(line, "WARNING", "Bell")
+                    break
+            return
+        self.maint_down = True
+        log.info("Down for maintenance")
+        self.save_all()
+        reason = self.maint_reason()
+        for o, c in list(self.clients.items()):
+            if o.admin_enabled:
+                o.emit(self.maintenance_message())
+                o.display_message("The server is down for maintenance: only admins are in. (/maintenance off)",
+                                  "WARNING", "-")
+                continue
+            asyncio.ensure_future(self.send_off(c, reason))
+        asyncio.ensure_future(self.announce())
+
+    def maint_reason(self):
+        why = self.maint["why"] if self.maint else ""
+        return "The server is down for maintenance%s. Your game is saved: try again soon." % ((": " + why) if why else "")
 
     @property
     def lan_open(self):
@@ -792,14 +882,19 @@ class GameServer:
         if c is None or c.host:
             return
         self.save_session(s)
-        await self.send(c, {"t": "kicked", "reason": "Your Hallisium account is banned."})
-        await c.flush()                                 # (said before it's closed: a closed one sends nothing)
-        c.closed = c.sent_away = True
+        await self.send_off(c, "Your Hallisium account is banned.")
+        log.info("%s's account is banned on the central server: turned away", s.player_name)
+
+    async def send_off(self, c, reason):
+        """Told why, then closed (said first: a closed one sends nothing)."""
+        c.sent_away = True
+        await self.send(c, {"t": "kicked", "reason": reason})
+        await c.flush()
+        c.closed = True
         try:
             await c.ws.close()
         except Exception:
             pass
-        log.info("%s's account is banned on the central server: turned away", s.player_name)
 
     def hosted_by(self, account, grant):
         self.host_account, self.host_grant = account, grant
@@ -829,7 +924,8 @@ class GameServer:
             "key": key, "secret": secret, "proof": self.id_proof(), "name": self.server_name(), "url": os.environ.get("DS_PUBLIC_URL", ""),
             "port": int(os.environ.get("DS_PUBLIC_PORT", os.environ.get("DS_PORT", "8484"))),
             "online": len([s for s in self.world.sessions.values() if s.ready]), "max": self.max_players,
-            "version": self.version.get("version", "")})
+            "version": self.version.get("version", ""),
+            "maint": int(self.maint["at"]) if self.maint else 0})     # (the start screen's list: when it goes down)
         if got and got.get("ok"):
             if got.get("secret") and got.get("secret") != secret:
                 self.store.set_setting("central_secret", got["secret"])
@@ -1150,6 +1246,9 @@ class GameServer:
         name, _, admin = acct
         w = self.world
         old = w.sessions.get(name)
+        if self.maint_down and not (bool(admin) or c.account.lower() in self.admins):
+            await self.send(c, {"t": "login_fail", "reason": self.maint_reason()})
+            return
         if old is None and len([s for s in w.sessions.values() if s.ready]) >= self.max_players:
             await self.send(c, {"t": "login_fail", "reason": "The server is full (%d players). Try again soon." %
                                 self.max_players})
@@ -1213,6 +1312,8 @@ class GameServer:
                             "logs": bool(self.central_url()),
                             "reach": self.reach_of(c),
                             "explored": s.explored_for_client(), "time": w.clock_event(), "labels": s.my_labels()})
+        if self.maint:
+            await self.send(c, self.maintenance_message())
         self.broadcast(self.players_message())
 
     WHISPER = ("/w ", "/whisper ", "/tell ", "/msg ")
@@ -1271,10 +1372,9 @@ class GameServer:
             c = self.clients.get(o) if o is not None else None
             if c is not None:
                 self.save_session(o)
-                asyncio.ensure_future(self.send(c, {"t": "kicked", "reason": "An admin has %s you." %
-                                                    ("banned" if cmd == "/ban" else "removed")}))
-                c.closed = c.sent_away = True                   # (gone at once, marked or not)
-                asyncio.ensure_future(c.ws.close())
+                c.sent_away = True                              # (gone at once, marked or not)
+                asyncio.ensure_future(self.send_off(c, "An admin has %s you." %
+                                                    ("banned" if cmd == "/ban" else "removed")))
             say("%s is %s." % (name, "banned" if cmd == "/ban" else "kicked"))
             log.info("%s %sed %s", s.player_name, cmd[1:], name)
         return True
@@ -1297,6 +1397,9 @@ class GameServer:
             return
         if low.split(" ", 1)[0] == "/pvp":
             self.pvp_command(s, text)
+            return
+        if low.split(" ", 1)[0] == "/maintenance":
+            self.maintenance_command(s, text)
             return
         if low.strip() == "/records":
             s.records_menu()
@@ -1466,7 +1569,8 @@ class GameServer:
     async def shutdown(self):
         self.running = False
         for s, c in list(self.clients.items()):
-            await self.send(c, {"t": "kicked", "reason": "The server is stopping (your game is saved)."})
+            await self.send(c, {"t": "kicked", "reason": self.maint_reason() if self.maint else
+                                "The server is stopping (your game is saved)."})
         self.save_all()
         for c in list(self.clients.values()):
             await c.flush()

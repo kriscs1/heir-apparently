@@ -833,6 +833,71 @@ def test_an_admin_can_ban_kick_and_mute(tmp_path, monkeypatch):
     served(go())
 
 
+def test_an_admin_warns_of_maintenance_and_everyone_else_is_sent_off_at_the_time(tmp_path, monkeypatch):
+    """/maintenance 5 why: everyone's told (a countdown, a line and the bell), anyone coming in too; at the time all
+    but admins are saved and sent off with the reason, and only admins come in till it's called off."""
+    monkeypatch.setenv("DS_HOST_KEY", "the-hosts-own-key")
+
+    held = {}                                           # (every message read, by connection: a batch has several)
+
+    async def seen(ws, test):
+        box = held.setdefault(id(ws), [])
+        for _ in range(500):
+            for m in box:
+                if test(m):
+                    box.remove(m)
+                    return m
+            try:
+                msg = await asyncio.wait_for(ws.receive(), 5)
+            except asyncio.TimeoutError:
+                return None
+            if msg.type != aiohttp.WSMsgType.TEXT:
+                return None
+            data = json.loads(msg.data)
+            box += data if isinstance(data, list) else [data]
+
+    def said(ws, words):
+        return seen(ws, lambda m: m["t"] == "msg" and words in m["text"])
+
+    def kind(ws, t):
+        return seen(ws, lambda m: m["t"] == t)
+
+    async def go():
+        runner, app, url = await start(str(tmp_path / "t.db"), admins="Boss")
+        game = app[GAME]
+        try:
+            async with aiohttp.ClientSession() as http:
+                boss, _ = await login(http, url, "Bossy", auth_with={"host": "the-hosts-own-key", "account": "Boss"})
+                pal, _ = await login(http, url, "Pal")
+                await boss.send_json({"t": "chat", "text": "/maintenance 5 new quests"})
+                m = await kind(pal, "maintenance")
+                assert m["why"] == "new quests" and 290 <= m["secs"] <= 300 and not m["down"]
+                assert await said(pal, "maintenance in 5 minutes: new quests")
+                late, _ = await login(http, url, "Late")                    # (come in after: told as well)
+                assert (await kind(late, "maintenance"))["why"] == "new quests"
+                game.maint["at"] = time.time() + 55                          # (the last minute: its line)
+                assert await said(pal, "maintenance in 1 minute.")
+                saved, real = [], game.save_all
+                game.save_all = lambda *a, **k: (saved.append(1), real(*a, **k))
+                game.maint["at"] = time.time() - 1                           # (the time)
+                gone = await kind(pal, "kicked")
+                assert gone["reason"] == "The server is down for maintenance: new quests. Your game is saved: try again soon."
+                assert saved and game.maint_down
+                await until(lambda: "Pal" not in game.world.sessions and "Late" not in game.world.sessions)
+                assert "Bossy" in game.world.sessions                       # (an admin stays)
+                _, m = await login(http, url, "Pal", mode="login")
+                assert m["t"] == "login_fail" and "maintenance" in m["reason"]
+                await boss.send_json({"t": "chat", "text": "/maintenance off"})
+                await until(lambda: game.maint is None and not game.maint_down)
+                back, m = await login(http, url, "Pal", mode="login")
+                assert m["t"] == "welcome"
+                for ws in (boss, back, late):
+                    await ws.close()
+        finally:
+            await runner.cleanup()
+    served(go())
+
+
 def test_open_pvp_is_the_servers_setting_and_an_admin_turns_it(tmp_path, monkeypatch):
     """DS_PVP=1 opens it; an admin's /pvp off closes it, and that's kept with the world (over DS_PVP)."""
     monkeypatch.setenv("DS_HOST_KEY", "the-hosts-own-key")

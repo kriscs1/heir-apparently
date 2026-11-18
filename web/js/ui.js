@@ -182,6 +182,7 @@ function drawViewOverlays(ctx, now) {
   drawHoverTop(ctx);
   drawArena(ctx, now);
   drawWave(ctx, now);
+  drawMaintenance(ctx, now);
   drawSleep(ctx, now);
 }
 
@@ -2082,6 +2083,24 @@ function drawWave(ctx, now) {
   roundBox(ctx, x, y, w, 40, `rgba(60,12,6,${0.85 * pulse})`, [230, 120, 40], 2, 10);
   centreText(ctx, x + w / 2, y + 4, v.name.toUpperCase(), 11, true, [255, 200, 120]);
   centreText(ctx, x + w / 2, y + 21, line2, 9, true, [255, 235, 200]);
+}
+
+function drawMaintenance(ctx, now) {
+  // The server going down for maintenance (an admin's /maintenance: server/game.py): the time left, and why
+  const v = S.maint;
+  if (!v) return;
+  const secs = Math.max(0, v.secs - Math.floor((now - v.at) / 1000));
+  const clock = secs >= 3600 ? `${Math.floor(secs / 3600)}:${String(Math.floor(secs / 60) % 60).padStart(2, "0")}:${String(secs % 60).padStart(2, "0")}`
+    : `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
+  const line1 = v.down ? "DOWN FOR MAINTENANCE  -  only admins are in" : `SERVER MAINTENANCE IN ${clock}`;
+  const line2 = v.why || (v.down ? "" : "Your game is saved before it goes down.");
+  const h = line2 ? 40 : 24;
+  const w = Math.min(L.VW - 8, Math.max(textWidth(ctx, line1, 10, true), textWidth(ctx, line2, 9, true)) + 32);
+  const x = Math.floor((L.VW - w) / 2), y = U.topY + 30 * bannersAbove(now) + (S.wave?.name ? 46 : 0);
+  const pulse = secs <= 60 && !v.down ? 0.8 + 0.2 * Math.sin(now / 200) : 1;     // (the last minute: it pulses)
+  roundBox(ctx, x, y, w, h, `rgba(20,28,52,${0.86 * pulse})`, [220, 180, 80], 2, 10);
+  centreText(ctx, x + w / 2, y + 4, line1, 10, true, [255, 220, 130]);
+  if (line2) centreText(ctx, x + w / 2, y + 21, line2, 9, true, [225, 230, 245]);
 }
 
 // ----- what potions and spells are doing for you now: an icon each, the time left, and what it does (hover)

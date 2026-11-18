@@ -914,8 +914,17 @@ function serverCard(g, badge, action) {
       g.mine.map(([n, lv]) => `${n} (level ${Math.max(1, Math.floor(Number(lv)) || 1)})`).join(", ");
   }
   card.querySelector(".where").textContent = g.where || "";
+  const maint = Math.floor(Number(g.maint)) || 0, down = maint && maint * 1000 <= Date.now();
+  if (maint) {                                      // (its admin's /maintenance: when it goes down, or that it has)
+    const note = document.createElement("div");
+    note.className = "small"; note.style.cssText = "margin-top:3px;color:var(--bad)";
+    note.textContent = down ? "Down for maintenance: try again soon." :
+      `Going down for maintenance at ${new Date(maint * 1000).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}.`;
+    card.querySelector(".what").append(note);
+  }
   const b = document.createElement("button");
-  b.className = "go"; b.textContent = online >= most ? "Full" : "Join"; b.disabled = online >= most; b.onclick = action;
+  b.className = "go"; b.textContent = online >= most ? "Full" : "Join";   // (down: still Join, for its admins)
+  b.disabled = online >= most; b.onclick = action;
   card.append(b);
   return card;
 }

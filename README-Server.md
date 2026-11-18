@@ -562,6 +562,11 @@ above.
   that folder.
 - Moderating, in the game's chat, as an admin: `/kick Name`, `/ban Name why`, `/unban Name`, `/bans`,
   `/mute Name minutes`, `/unmute Name`. A ban is on the character and on whose it is (the account, or the device).
+- Warning of maintenance: `/maintenance 15 why` (an admin, or the host). Everyone in the game sees a countdown at the
+  top of the view, with a line and a bell at 10, 5, 2 and 1 minutes and 30 and 10 seconds; the Public servers list
+  says when it goes down. At the time, everyone but the admins is saved and sent off with the reason, and only admins
+  can come in until the server starts again (do your restart or update then) or `/maintenance off`. `/maintenance`
+  alone says when it is.
 - Characters: `docker compose exec game python tools/admin.py list` (and `owner <Name> <Account>`, `admin <Name> on`).
 - Logs: `docker compose logs -f game`. Health: `https://play.example.com/health` (who's on, the tick time).
 - Backups: one a day in the `gamedata` volume's `backups` folder (14 kept). Send them off the VM: `DS_BACKUP_S3` in
