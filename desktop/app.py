@@ -252,6 +252,9 @@ def home_page(bridge):
         config = f.read()
     shim = SHIM % (json.dumps(bridge._prefs.values), json.dumps(bridge.state()), json.dumps(bridge._full))
     page = page.replace('<script src="config.js"></script>', "<script>%s</script>%s" % (config, shim), 1)
+    for js in ("translate.js", "lang.js"):              # (the other languages: in it too)
+        with open(os.path.join(ROOT, "web", "home", js), encoding="utf-8") as f:
+            page = page.replace('<script src="%s"></script>' % js, "<script>%s</script>" % f.read(), 1)
     import base64
     for pic, kind in (("logo.png", "image/png"), ("bg.jpg", "image/jpeg"), ("favicon.png", "image/png")):    # (no folder behind the page: in it)
         with open(os.path.join(ROOT, "web", "home", pic), "rb") as f:

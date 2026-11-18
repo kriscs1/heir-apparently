@@ -3118,6 +3118,25 @@ def check_old_extensions():
         warn("data/Homestead.txt", "is a .txt: the homestead template is data/Homestead.map now")
 
 
+def check_languages():
+    """data/Lang/<code>.txt (tools/lang.py): CRLF, and every translation keeps its English line's holes ({1},
+    $Player.Name), its | and \\ (what splits it into lines) and its .. (what joins it to the next message). How much
+    of each there is goes in the report: a line not translated is said in English."""
+    from tools import lang as languages
+    for code in languages.codes():
+        path = p("data", "Lang", code + ".txt")
+        with open(path, "rb") as f:
+            b = f.read()
+        if b.count(b"\n") != b.count(b"\r\n") or b.count(b"\r") != b.count(b"\r\n"):
+            err(rel(path), "has non-CRLF line endings")
+    for line in languages.check():
+        err("data/Lang", line)
+    every = [en for _, en in languages.gather().all()]
+    for code in languages.codes():
+        words, name = languages.load(code)
+        REPORT.append("%s (%s): %d of the game's %d lines" % (code, name, sum(1 for en in every if en in words), len(every)))
+
+
 def check_sounds():
     """The sounds' folders (sounds\\<kind>, ashen/sounds.py): no two sounds share a name, none loose in sounds\\
     itself; and data\\Music.ini: each theme's tunes are there, and each map's theme is one of them."""
@@ -3195,6 +3214,7 @@ def main():
     check_rack_use(racks)
     check_world(tiles_ini, entities_ini, skills)
     check_sounds()
+    check_languages()
     save_kept()
     if not quiet:
         for line in REPORT:

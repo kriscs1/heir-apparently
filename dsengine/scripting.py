@@ -30,6 +30,9 @@ COMMITS = frozenset(("Give.Item", "Take.Item", "Replace.Item", "Remove.Entity", 
                      "Set.Side.Attitude", "Set.NPC.Attitude", "Tax.Pay", "Take.Letters", "Mimic.Caught",
                      "Add.Line.To.File", "Remove.Line.From.File", "Quest.Note", "Quest.Note.Done", "Edit.Entity",
                      ">Pay.Shards", "Boost.Skill", "Catch.Disease"))
+# The arguments a player reads, said in their language (lang.py; tools/lang.py gathers them by this): a message, a
+# refusal, a conversation's words and its answers (Quest.Note's are kept in English and said when shown: quests.py)
+SAID_ARGS = {"Display.Message": (2,), "Display.Refusal": (1,), "Display.Conversation": (2,) + tuple(range(3, 34, 2))}
 PERSONAL_FIELDS = {"STRENGTH": "strength", "DEFENCE": "defence", "AGGRESSIVE": "aggressive",
                    "AGGRO.RANGE": "aggro_range"}
 
@@ -646,7 +649,11 @@ class ScriptMixin:
         if command in COMMITS:
             self.script_committed = True
         arg = [""] * 34
+        said = SAID_ARGS.get(command, ()) if self.language != "en" else ()
         for i, a in enumerate(parts[2:34], 1):
+            if i in said:                               # (in the player's language, before its $variables: lang.py)
+                a = self.data.languages.say_answer(self.language, a) if command == "Display.Conversation" and i > 2 \
+                    else self.data.languages.say(self.language, a.strip())
             arg[i] = trim(self.parse_script_variables(a))
         named = self.place_args(command, arg)
         pid = named.name if named is not None else ""
@@ -671,7 +678,8 @@ class ScriptMixin:
             if not self.script_hurry:
                 self.play_work(arg[1], arg[2], arg[3])
         elif c == "Display.Message":
-            self.display_message(arg[2], arg[1], sound=trim(arg[3]))   # (the script says what's heard: maybe nothing)
+            self.display_message(arg[2], arg[1], sound=trim(arg[3]),   # (the script says what's heard: maybe nothing)
+                                 english=parts[3] if len(parts) > 3 else None)
         elif c == "Mimic.Caught":
             self.w.wonders.mimic_caught(self, getattr(self, "clicked_ent", None))
         elif c == "Tax.Pay":

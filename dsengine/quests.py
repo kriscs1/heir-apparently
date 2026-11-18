@@ -160,7 +160,8 @@ class QuestMixin:
                 return
             self.quest_notes.append([quest, 1 if done else 0, text])
             if not done:
-                self.display_message("Journal (%s): %s" % (quest, text), "darkgreen")
+                said = self.data.languages.say(self.language, text)        # (kept in English, said in theirs)
+                self.display_message("Journal (%s): %s" % (quest, said), "darkgreen")
         self.dirty_quests = True
 
     def help_attributes(self, text):
@@ -242,6 +243,8 @@ class QuestMixin:
     # ----- the quest list (the sidebar's Quests tab and the journal)
     def quest_list(self):
         quests = []
+        said = self.data.languages.words(self.language) or {}    # (stages and notes in their language: lang.py)
+        say = lambda t: said.get(t, t)
         for name, d in self.data.quest_table():
             attribute = help_clean(d.get("ATTRIBUTE", ""))
             done = val(help_clean(d.get("DONE", "")))
@@ -267,13 +270,13 @@ class QuestMixin:
             for n in range(0, last + 1):
                 t = help_text(d.get("STAGE%d" % n, ""))
                 if t:
-                    steps.append([self.help_attributes(t), 1 if status == 2 or n < value else 0])
+                    steps.append([self.help_attributes(say(t)), 1 if status == 2 or n < value else 0])
             if ending:
-                steps.append([self.help_attributes(ending), 1])            # (the way it went, last)
+                steps.append([self.help_attributes(say(ending)), 1])       # (the way it went, last)
             if status >= 0 and len(quests) < 300:
                 quests.append({"title": name, "giver": help_clean(d.get("GIVER", "")), "status": status,
-                               "text": self.help_attributes(text), "steps": steps,
-                               "notes": [[self.help_attributes(t), x] for t, x in notes],
+                               "text": self.help_attributes(say(text)), "steps": steps,
+                               "notes": [[self.help_attributes(say(t)), x] for t, x in notes],
                                "main": help_clean(d.get("TYPE", "")).lower() == "main",
                                "chapter": val(help_clean(d.get("CHAPTER", "0"))),
                                "shards": int(val(help_clean(d.get("REWARD.SHARDS", "0")))),

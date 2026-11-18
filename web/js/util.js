@@ -93,7 +93,8 @@ export function setFont(ctx, size, bold = false) {
 // ----- the game's coin, for every price: COIN in text drawn on a canvas is drawn as a little gold coin, the
 // font's size (12¤: twelve gold); "12 gold" and "12 gold coins" are written so too (coined)
 export const COIN = "¤";
-export const coined = (text) => String(text).replace(/(\d[\d,]*) gold( coins?)?/g, "$1" + COIN);
+// (and every word drawn is said in the player's language here, first: web/home/translate.js)
+export const coined = (text) => window.DSLang.tr(String(text)).replace(/(\d[\d,]*) gold( coins?)?/g, "$1" + COIN);
 const coinD = (size) => Math.max(5, Math.round(fontPx(size) * 0.78));
 const coins = new Map();
 function coinImage(d) {
@@ -183,6 +184,7 @@ export function centreText(ctx, xm, y, text, size, bold, col) {
 
 export function fitText(ctx, text, maxW, size, bold = false) {
   if (maxW <= 0 || !text) return "";
+  text = window.DSLang.tr(String(text));          // (cut short in their language, not in English)
   if (textWidth(ctx, text, size, bold) <= maxW) return text;
   let n = text.length;
   while (n > 0 && textWidth(ctx, text.slice(0, n).trim() + "...", size, bold) > maxW) n--;

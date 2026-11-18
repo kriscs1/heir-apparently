@@ -37,6 +37,7 @@ def test_the_desktop_app_hosts_finds_and_stops(tmp_path, monkeypatch):
     b = desktop.Bridge()
     page = desktop.home_page(b)
     assert "window.DSApp" in page and "DS_CENTRAL_DEFAULT" in page and 'src="config.js"' not in page
+    assert "window.DSLang" in page and "DS_HOME_WORDS" in page and 'src="lang.js"' not in page
     b.hostAs("Desk World", "solo", "", "the-hosts-own-key")
     for _ in range(600):
         if json.loads(b.state())["status"] in ("on", "error"):

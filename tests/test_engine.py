@@ -12028,3 +12028,50 @@ def test_every_entity_has_a_one_line_hover_line_of_its_own(world):
         if hover:
             assert len(hover) <= 60 and "\\" not in hover and hover != d.get("EXAMINE.INFO"), name
             assert not re.search(r"\bblows?\b", hover, re.I), name          # (the owner's rule: no "blow")
+
+
+def test_scripts_speak_each_players_own_language(world, tmp_path, monkeypatch):
+    """data/Lang (lang.py): a script's words, its answers (their [if] kept) and a quest's notes in the player's
+    language, before $Player.Name is filled in; a quest's "complete" still sounds; another player hears English."""
+    from dsengine.lang import Languages
+    folder = tmp_path / "data" / "Lang"
+    folder.mkdir(parents=True)
+    quest = world.data.quest_table()[0][0]
+    (folder / "xx.txt").write_bytes((
+        "[Language]\r\nName=Test\r\n[Scripts]\r\nHello, $Player.Name.\tHola, $Player.Name.\r\nWho are you?\tQuien eres?\r\n"
+        "Goodbye\tAdios\r\nAbout the key...\tSobre la llave...\r\nQuest complete: the key!\tMision cumplida!\r\n"
+        "Find the key.\tBusca la llave.\r\n").encode("cp1252"))
+    monkeypatch.setattr(world.data, "languages", Languages(str(tmp_path)))
+    s, en = join(world, "Lingo"), join(world, "Plain")
+    s.handle({"t": "lang", "lang": "xx"})
+    en.handle({"t": "lang", "lang": "zz"})                  # (one there's no catalogue for: English)
+    assert (s.language, en.language) == ("xx", "en")
+    lines = ["01\tDisplay.Message\tWhite\tHello, $Player.Name.", "02\tDisplay.Message\tGreen\tQuest complete: the key!\t-",
+             "03\tQuest.Note\t%s\tFind the key." % quest,
+             "04\tDisplay.Conversation\tGuard\tWho are you?\tGoodbye\t05\tAbout the key... [if $Attr.LingoKey>=1]\t05",
+             "05\tEnd"]
+    for who, said in ((s, ["Hola, Lingo.", "Mision cumplida!", "Busca la llave.", "Adios"]),
+                      (en, ["Hello, Plain.", "Quest complete: the key!", "Find the key.", "Goodbye"])):
+        who.out.clear()
+        who.jingle_last = ("", 0)                           # (not the one they joined to, a moment ago)
+        assert who.run_script_lines("(test)", lines)
+        who.run_scripts()
+        msgs = [e["text"] for e in who.out if e.get("t") == "msg"]
+        assert msgs[:2] == said[:2] and any(m.endswith(said[2]) for m in msgs)
+        assert {"t": "sound", "name": "Quest_Done"} in who.out
+        box = next(e for e in who.out if e.get("t") == "box")
+        assert box["responses"] == [said[3]]                # (the answer whose [if] fails isn't there)
+        who.close_action_box(1)
+        who.run_scripts()
+    s.update_attribute("LingoKey", "=1")
+    s.out.clear()
+    assert s.run_script_lines("(test)", lines[3:])
+    s.run_scripts()
+    box = next(e for e in s.out if e.get("t") == "box")
+    assert box["text"] == "Quien eres?" and box["responses"] == ["Adios", "Sobre la llave..."]
+    s.close_action_box(1)
+    s.run_scripts()
+    q = next(q for q in s.quest_list() if q["title"] == quest)
+    assert ["Busca la llave.", 0] in q["notes"]
+    leave(world, s)
+    leave(world, en)

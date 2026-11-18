@@ -256,6 +256,7 @@ class Session(ItemsMixin, CombatMixin, ActionsMixin, ScriptMixin, QuestMixin, Pv
         self.rack_fence = False                     # (the shop's a fence: it buys what's stolen, for less)
         self.rack_skill = ""
         self.message_log_last = ("", 0)
+        self.language = "en"               # (the player's, from their Options: lang.py; the browser says it)
         self.msg_seq = 0                    # (each message's id: a line that ends .. stays open for its outcome)
         self.msg_open = None                # (id, when) of the last line that ended ..
         self.dirty_me = True                # inventory, skills... changed: the browser is sent them again
@@ -338,14 +339,15 @@ class Session(ItemsMixin, CombatMixin, ActionsMixin, ScriptMixin, QuestMixin, Pv
         if self.connected:
             self.out.append(ev)
 
-    def display_message(self, message, mtype, sound=None):
+    def display_message(self, message, mtype, sound=None, english=None):
         """A line in the chat. sound: what's heard with it. A script's Display.Message says ("": nothing); the
-        engine's own messages leave it None, and a no among them brings the Denied tell (take_out)."""
+        engine's own messages leave it None, and a no among them brings the Denied tell (take_out). english: the
+        script's own words, when the message is in the player's language (lang.py)."""
         last, at = self.message_log_last
         if message == last and 0 <= self.now - at < 500:
             return
         self.message_log_last = (message, self.now)
-        if "QUEST COMPLETE" in message.upper():
+        if "QUEST COMPLETE" in (english or message).upper():
             self.quest_jingle("Quest_Done")             # (its own, not the script's Quest as well)
             if sound == "Quest":
                 sound = "-"

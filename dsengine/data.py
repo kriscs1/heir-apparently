@@ -12,6 +12,7 @@ from ashen.places import read_places
 
 from .demo import read_demo
 from .imgsize import sprite_size
+from .lang import Languages
 
 # The order the desktop game loaded its sprite folders in (the first one loaded keeps a name)
 SPRITE_FOLDERS = ("Interface", "Tiles", "Entities", "Walk", "Worn", "Effects")
@@ -32,6 +33,7 @@ class GameData:
         self.sprites = {}           # name -> (folder, path); sizes read when first wanted
         self._sizes = {}
         self._caches = {}
+        self.languages = Languages(root)    # (data/Lang: the other languages, lang.py)
         self.index_sprites()
         self.read_config()
         self.read_display_names()

@@ -767,7 +767,7 @@ def test_the_central_server_keeps_a_copy_of_itself_each_day(tmp_path, monkeypatc
 def test_every_version_has_the_same_start_screen():
     """The Android app's start screen is web/home's (tools/sync_home.py copies it)."""
     import os
-    for f in ("index.html", "config.js"):
+    for f in ("index.html", "config.js", "translate.js", "lang.js"):
         a = open(os.path.join(ROOT, "web", "home", f), "rb").read()
         b = open(os.path.join(ROOT, "android", "app", "src", "main", "assets", "home", f), "rb").read()
         assert a == b, "run tools/sync_home.py"

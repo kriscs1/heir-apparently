@@ -4,7 +4,11 @@ came, in dev\\elevenlabs\\<Kind>\\ (in git: a voice made again is never quite th
 dev\\elevenlabs\\takes.json for each (what it says, which voice, when it was downloaded) and Downloaded.md, the same
 for reading. build_voices.py makes the game's Voice_/Bye_ sounds from them.
 
-  python -I "dev\\migrate\\fetch_elevenlabs.py" [--env <file with ELEVENLABS_API_KEY=...>] [Kind ...]
+The other languages (LANGS: the game's own, data/Lang) have voices of their own, each kind designed again as one of
+their own people (its description said so: native), with greetings and goodbyes in their words (LINES), kept in
+dev\\elevenlabs\\<lang>\\<Kind>\\; and an old man, who in English is a real one (build_voices.py).
+
+  python -I "dev\\migrate\\fetch_elevenlabs.py" [--env <file with ELEVENLABS_API_KEY=...>] [Kind or lang ...]
 
 Needs the elevenlabs package (pip install elevenlabs) and an API key, from ELEVENLABS_API_KEY or the --env file (never
 in git). Safe to run again: only the lines not yet downloaded are fetched (a new line in KINDS, or a new kind). A kind's
@@ -97,6 +101,160 @@ KINDS = {
         bye=["Bye!", "See you later!", "Bye bye!"]),
 }
 
+# ----- the other languages: who their people are (each kind's description made theirs: native) and what they say
+LANGS = {
+    "es": dict(name="Spanish", man="Spaniard", woman="Spanish woman", adj="Spanish",
+               accent="a natural accent from Castile, speaking Castilian Spanish"),
+    "de": dict(name="German", man="German man", woman="German woman", adj="German",
+               accent="a natural German accent, speaking standard German"),
+    "fr": dict(name="French", man="Frenchman", woman="Frenchwoman", adj="French",
+               accent="a natural accent from France, speaking French"),
+    "pt": dict(name="Brazilian Portuguese", man="Brazilian man", woman="Brazilian woman", adj="Brazilian",
+               accent="a natural Brazilian accent, speaking Brazilian Portuguese"),
+}
+# (the old man, a real one's recording in English, is one of ElevenLabs' in the others)
+OLD_MAN = ("A kindly old Englishman in his late seventies, slow, warm and a little hoarse, with a country accent; a "
+           "village elder or a hermit. Natural, clear, close, dry recording.")
+
+# each language's greetings and goodbyes, kind by kind: (hello, bye)
+LINES = {
+    "es": {
+        "Man": (["¡Hola!", "Buenos días.", "Bienvenido, amigo.", "¿En qué puedo ayudarle?", "¡Ah, bienvenido!"],
+                ["Buen viaje.", "Cuídese.", "Vuelva cuando quiera.", "Que le vaya bien."]),
+        "Young_Man": (["¡Oh! ¡Hola!", "¡Buenas!", "¿Necesitas algo?", "¡Bienvenido!"],
+                      ["¡Hasta luego!", "¡Cuídate!", "¡Suerte ahí fuera!"]),
+        "Woman": (["Hola, cariño.", "Buenos días.", "¡Oh, hola!", "¡Bienvenido! ¿Qué le pongo?",
+                   "¿En qué puedo ayudarle?"], ["Cuídese.", "Buen viaje.", "¡Vuelva pronto!"]),
+        "Young_Woman": (["¡Hola!", "¡Ay, hola!", "¡Buenos días!", "¡Pasa, pasa!", "¿Qué te pongo?"],
+                        ["¡Adiós!", "¡Hasta pronto!", "¡Suerte!", "¡Cuídate mucho!"]),
+        "Old_Woman": (["Ay, hola, hijo.", "Buenos días.", "Vaya, ¿quién eres tú?", "Pasa, pasa."],
+                      ["Anda, ve con Dios.", "Cuídate ahí fuera.", "Abrígate bien."]),
+        "Deep": (["¿Sí?", "Bien hallado.", "¿Qué va a ser?", "Saludos.", "¿Necesitas algo?"],
+                 ["Que te vaya bien.", "Suerte.", "Venga. Cuídate."]),
+        "Guard": (["¡Alto!", "Ciudadano.", "¿Qué pasa?", "Hable claro.", "Mantenga el orden."],
+                  ["Circule.", "Siga su camino.", "No se meta en líos."]),
+        "Noble_Man": (["Ah. Podéis hablar.", "Saludos.", "Bienvenido.", "¿Y bien? ¿Qué ocurre?"],
+                      ["Podéis retiraros.", "Eso es todo.", "Id con Dios."]),
+        "Noble_Woman": (["Ah, bienvenido.", "Buenos días.", "Podéis acercaros.", "Saludos, viajero."],
+                        ["Eso es todo.", "Adiós.", "Id con cuidado."]),
+        "Gruff": (["¿Qué quieres?", "Hmph. ¿Sí?", "Eh, tú.", "¿Y bien? Suéltalo."],
+                  ["Lárgate.", "Fuera de aquí.", "Ándate con ojo."]),
+        "Ghost": (["[whispers] ¿Hola...?", "[whispers] ¿Quién viene...?", "[whispers] Ah... uno de los vivos...",
+                   "[whispers] Acércate..."], ["[whispers] Vete...", "[whispers] Adiós...", "[whispers] Recuerda..."]),
+        "Boy": (["¡Hola!", "¡Hola! ¿Quién eres?", "¡Anda! ¡Hola!"], ["¡Adiós!", "¡Hasta luego!", "¡Chao!"]),
+        "Girl": (["¡Hola!", "¡Hola! ¿Quién eres?", "¡Oh! ¡Hola!"], ["¡Adiós!", "¡Hasta luego!", "¡Chao, chao!"]),
+        "Old_Man": (["Buenas tardes.", "Hola.", "¡Hola! ¡Qué alegría verte!", "Buenas noches.", "Buenos días."],
+                    ["Ve con Dios.", "Cuídate, muchacho.", "Hasta otra."]),
+    },
+    "de": {
+        "Man": (["Hallo!", "Guten Tag.", "Sei gegrüßt, Freund.", "Morgen! Was kann ich für Euch tun?",
+                 "Ah, willkommen, willkommen."], ["Gute Reise.", "Passt auf Euch auf.", "Kommt jederzeit wieder."]),
+        "Young_Man": (["Oh! Hallo!", "Na, du?", "Hallo! Brauchst du was?", "Willkommen!"],
+                      ["Bis bald!", "Mach's gut!", "Viel Glück da draußen!"]),
+        "Woman": (["Hallo, Schätzchen.", "Guten Tag.", "Oh, hallo!", "Willkommen! Was darf's sein?",
+                   "Wie kann ich helfen?"], ["Pass auf dich auf.", "Gute Reise.", "Komm bald wieder!"]),
+        "Young_Woman": (["Hallo!", "Oh, hallo!", "Guten Morgen!", "Komm rein!", "Was darf's sein?"],
+                        ["Tschüss!", "Bis bald!", "Viel Glück!"]),
+        "Old_Woman": (["Ach, hallo, Kindchen.", "Guten Tag.", "Na, wer bist denn du?", "Komm rein, komm rein."],
+                      ["Na, dann geh mal.", "Pass gut auf dich auf.", "Zieh dich warm an."]),
+        "Deep": (["Ja?", "Sei gegrüßt.", "Was darf's sein?", "Grüß dich.", "Brauchst du was?"],
+                 ["Leb wohl.", "Viel Glück.", "Ja. Mach's gut."]),
+        "Guard": (["Halt!", "Bürger.", "Was gibt's?", "Sprich lauter.", "Ruhe bewahren."],
+                  ["Weitergehen.", "Geht Eures Weges.", "Keinen Ärger machen."]),
+        "Noble_Man": (["Ah. Ihr dürft sprechen.", "Seid gegrüßt.", "Willkommen.", "Nun? Was gibt es?"],
+                      ["Ihr dürft gehen.", "Das wäre alles.", "Lebt wohl."]),
+        "Noble_Woman": (["Ah, willkommen.", "Guten Tag.", "Ihr dürft näher treten.", "Seid gegrüßt, Reisender."],
+                        ["Das wäre alles.", "Lebt wohl.", "Geht mit Gott."]),
+        "Gruff": (["Was willst du?", "Hmpf. Ja?", "He, du.", "Na? Raus damit."],
+                  ["Verschwinde.", "Hau ab.", "Pass bloß auf."]),
+        "Ghost": (["[whispers] Hallo...?", "[whispers] Wer kommt da...?", "[whispers] Ah... einer der Lebenden...",
+                   "[whispers] Näher..."], ["[whispers] Geh...", "[whispers] Lebe wohl...", "[whispers] Erinnere dich..."]),
+        "Boy": (["Hallo!", "Hallo! Wer bist du?", "Oh! Hallo!"], ["Tschüss!", "Bis dann!", "Tschüssi!"]),
+        "Girl": (["Hallo!", "Hallo! Wer bist du?", "Oh! Hallo du!"], ["Tschüss!", "Bis später!", "Tschüssi!"]),
+        "Old_Man": (["Guten Tag.", "Hallo.", "Hallo! Schön, dich zu sehen!", "Guten Abend.", "Guten Morgen."],
+                    ["Geh mit Gott.", "Pass auf dich auf, Junge.", "Bis zum nächsten Mal."]),
+    },
+    "fr": {
+        "Man": (["Bonjour !", "Bien le bonjour.", "Salut, l'ami.", "Bonjour ! Que puis-je pour vous ?",
+                 "Ah, bienvenue, bienvenue."], ["Bon voyage.", "Prenez garde à vous.", "Revenez quand vous voulez."]),
+        "Young_Man": (["Oh ! Bonjour !", "Salut !", "Salut ! Besoin de quelque chose ?", "Bienvenue !"],
+                      ["À plus !", "Prends soin de toi !", "Bonne chance !"]),
+        "Woman": (["Bonjour, mon petit.", "Bien le bonjour.", "Oh, bonjour !", "Bienvenue ! Qu'est-ce que je vous sers ?",
+                   "Que puis-je faire pour vous ?"], ["Prenez soin de vous.", "Bon voyage.", "Revenez vite !"]),
+        "Young_Woman": (["Salut !", "Oh, bonjour !", "Bonjour !", "Entrez, entrez !", "Qu'est-ce que je te sers ?"],
+                        ["Au revoir !", "À bientôt !", "Bonne chance !"]),
+        "Old_Woman": (["Ah, bonjour, mon petit.", "Bien le bonjour.", "Eh bien, qui voilà ?", "Entre, entre."],
+                      ["Allez, file.", "Fais bien attention.", "Couvre-toi bien."]),
+        "Deep": (["Oui ?", "Salut à toi.", "Qu'est-ce que ce sera ?", "Salutations.", "Besoin de quelque chose ?"],
+                 ["Adieu.", "Bonne chance.", "Bon. Prends soin de toi."]),
+        "Guard": (["Halte !", "Citoyen.", "Qu'y a-t-il ?", "Parlez plus fort.", "Pas de grabuge."],
+                  ["Circulez.", "Passez votre chemin.", "Pas d'ennuis, hein."]),
+        "Noble_Man": (["Ah. Vous pouvez parler.", "Salutations.", "Bienvenue.", "Eh bien ? Qu'y a-t-il ?"],
+                      ["Vous pouvez disposer.", "Ce sera tout.", "Adieu."]),
+        "Noble_Woman": (["Ah, bienvenue.", "Bonjour.", "Approchez.", "Salutations, voyageur."],
+                        ["Ce sera tout.", "Adieu.", "Allez en paix."]),
+        "Gruff": (["Qu'est-ce que tu veux ?", "Hmph. Ouais ?", "Hé, toi.", "Alors ? Crache le morceau."],
+                  ["Dégage.", "Fiche le camp.", "Fais gaffe à toi."]),
+        "Ghost": (["[whispers] Bonjour... ?", "[whispers] Qui vient... ?", "[whispers] Ah... un vivant...",
+                   "[whispers] Approche..."], ["[whispers] Va-t'en...", "[whispers] Adieu...", "[whispers] Souviens-toi..."]),
+        "Boy": (["Bonjour !", "Salut ! T'es qui ?", "Oh ! Salut !"], ["Au revoir !", "À plus !", "Salut salut !"]),
+        "Girl": (["Bonjour !", "Salut ! T'es qui ?", "Oh ! Bonjour !"], ["Au revoir !", "À tout à l'heure !", "Salut salut !"]),
+        "Old_Man": (["Bon après-midi.", "Bonjour.", "Bonjour ! Ça fait plaisir de te voir !", "Bonsoir.",
+                     "Bien le bonjour."], ["Va en paix.", "Prends soin de toi, petit.", "À la prochaine."]),
+    },
+    "pt": {
+        "Man": (["Olá!", "Bom dia.", "Salve, amigo.", "Bom dia! Em que posso ajudar?", "Ah, seja bem-vindo."],
+                ["Boa viagem.", "Vai com cuidado.", "Volte sempre."]),
+        "Young_Man": (["Opa! Olá!", "E aí?", "Oi! Precisa de alguma coisa?", "Bem-vindo!"],
+                      ["Até mais!", "Se cuida!", "Boa sorte por aí!"]),
+        "Woman": (["Olá, querido.", "Bom dia.", "Ah, olá!", "Bem-vindo! O que vai querer?", "Como posso ajudar?"],
+                  ["Se cuida.", "Boa viagem.", "Volte logo!"]),
+        "Young_Woman": (["Oi!", "Ah, oi!", "Bom dia!", "Entra, entra!", "O que vai ser?"],
+                        ["Tchau!", "Até logo!", "Boa sorte!"]),
+        "Old_Woman": (["Ah, olá, meu filho.", "Bom dia.", "Ora, quem é você?", "Entra, entra."],
+                      ["Vai com Deus.", "Toma cuidado lá fora.", "Se agasalha bem."]),
+        "Deep": (["Sim?", "Salve.", "O que vai ser?", "Saudações.", "Precisa de algo?"],
+                 ["Passar bem.", "Boa sorte.", "Certo. Se cuida."]),
+        "Guard": (["Alto!", "Cidadão.", "O que foi?", "Fale mais alto.", "Mantenha a ordem."],
+                  ["Circulando.", "Siga seu caminho.", "Nada de confusão."]),
+        "Noble_Man": (["Ah. Pode falar.", "Saudações.", "Seja bem-vindo.", "E então? O que é?"],
+                      ["Pode ir.", "Isso é tudo.", "Adeus."]),
+        "Noble_Woman": (["Ah, bem-vindo.", "Bom dia.", "Pode se aproximar.", "Saudações, viajante."],
+                        ["Isso é tudo.", "Adeus.", "Vá em paz."]),
+        "Gruff": (["O que você quer?", "Hmpf. Que é?", "Ei, você.", "E aí? Desembucha."],
+                  ["Some daqui.", "Cai fora.", "Fica esperto."]),
+        "Ghost": (["[whispers] Olá...?", "[whispers] Quem vem lá...?", "[whispers] Ah... um dos vivos...",
+                   "[whispers] Chegue mais perto..."], ["[whispers] Vá...", "[whispers] Adeus...", "[whispers] Lembre-se..."]),
+        "Boy": (["Oi!", "Oi! Quem é você?", "Opa! Oi!"], ["Tchau!", "Até mais!", "Tchau tchau!"]),
+        "Girl": (["Oi!", "Oi! Quem é você?", "Ah! Olá!"], ["Tchau!", "Até depois!", "Tchau tchau!"]),
+        "Old_Man": (["Boa tarde.", "Olá.", "Olá! Que bom te ver!", "Boa noite.", "Bom dia."],
+                    ["Vai com Deus.", "Se cuida, rapaz.", "Até a próxima."]),
+    },
+}
+
+
+def native(description, lang):
+    """A kind's description made one of lang's people: its nation, its accent, and its words in their tongue."""
+    L = LANGS[lang]
+    d = description.replace("Englishwoman", L["woman"]).replace("Englishman", L["man"])
+    d = d.replace("English", L["adj"])
+    d = re.sub(r"\b(with|and) an? [^;,.]*?accent", lambda m: m.group(1) + " " + L["accent"], d)
+    if L["accent"] not in d:
+        d = d.rstrip(".") + ", with " + L["accent"] + "."
+    return d + " A native %s speaker." % L["name"]
+
+
+def jobs():
+    """(lang, kind, key in voices.json, its voice, hello, bye) for every voice: English's, then the others'."""
+    out = [("en", kind, kind, k, k["hello"], k["bye"]) for kind, k in KINDS.items()]
+    for lang in LANGS:
+        for kind, (hello, bye) in LINES[lang].items():
+            k = KINDS.get(kind, {"voice": OLD_MAN})
+            v = dict(voice_id=k["voice_id"], voice=k["voice"] + ", speaking " + LANGS[lang]["name"]) \
+                if k.get("voice_id") else dict(voice=native(k["voice"], lang))
+            out.append((lang, kind, "%s/%s" % (lang, kind), dict(v, hello=hello, bye=bye), hello, bye))
+    return out
+
 
 def load(path, empty):
     if not os.path.exists(path):
@@ -112,6 +270,8 @@ def save(path, data):
 
 
 def slug(text):
+    import unicodedata
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")[:40]
 
 
@@ -140,7 +300,7 @@ def design(client, kind, k, voices):
     r = client.text_to_voice.design(voice_description=k["voice"], model_id=DESIGN_MODEL, text=sample.strip(),
                                     seed=SEED, output_format="mp3_44100_128")
     pv = r.previews[0]
-    os.makedirs(os.path.join(DIR, kind), exist_ok=True)
+    os.makedirs(os.path.join(DIR, kind), exist_ok=True)               # (kind: its key, es/Man for another language's)
     with open(os.path.join(DIR, kind, "_voice_preview.mp3"), "wb") as f:
         f.write(base64.b64decode(pv.audio_base_64))
     made = client.text_to_voice.create(voice_name="Shards of Ashen - " + kind, voice_description=k["voice"],
@@ -161,12 +321,13 @@ def write_md(takes, voices):
              "Every line downloaded from ElevenLabs (elevenlabs.io, the owner's Starter plan: commercial use allowed), "
              "as it came. `dev/migrate/fetch_elevenlabs.py` downloads them and writes this file; "
              "`dev/migrate/build_voices.py` makes the game's sounds from them.", ""]
-    for kind in KINDS:
-        mine = [t for t in takes if t["kind"] == kind]
+    for lang, kind, key, _, _, _ in jobs():
+        mine = [t for t in takes if t["kind"] == kind and t.get("lang", "en") == lang]
         if not mine:
             continue
-        v = voices.get(kind, {})
-        lines += ["## %s" % kind, "", "Voice designed %s from: *%s* (%s, seed %s)" %
+        v = voices.get(key, {})
+        lines += ["## %s" % (kind if lang == "en" else "%s (%s)" % (kind, LANGS[lang]["name"])), "",
+                  "Voice designed %s from: *%s* (%s, seed %s)" %
                   (v.get("designed", "?"), v.get("description", "?"), v.get("design_model", "?"), v.get("seed", "?")),
                   "", "| File | Says | Downloaded | Model |", "|---|---|---|---|"]
         for t in mine:
@@ -185,29 +346,33 @@ def main(argv):
     client = ElevenLabs(api_key=key)
     os.makedirs(DIR, exist_ok=True)
     takes, voices = load(TAKES, []), load(VOICES, {})
-    have = {(t["kind"], t["said"], t["text"]) for t in takes}
-    only = [a for a in argv if a in KINDS]
-    for kind, k in KINDS.items():
-        if only and kind not in only:
+    have = {(t.get("lang", "en"), t["kind"], t["said"], t["text"]) for t in takes}
+    only = [a for a in argv if a in KINDS or a in LANGS or a == "Old_Man"]
+    for lang, kind, key, k, hello, bye in jobs():
+        if only and not (kind in only or lang in only):
             continue
-        want = [(said, text) for said in ("hello", "bye") for text in k[said] if (kind, said, text) not in have]
+        want = [(said, text) for said, texts in (("hello", hello), ("bye", bye)) for text in texts
+                if (lang, kind, said, text) not in have]
         if not want:
             continue
-        voice_id = design(client, kind, k, voices)
+        voice_id = design(client, key, k, voices)
         for said, text in want:
-            n = sum(1 for t in takes if t["kind"] == kind and t["said"] == said) + 1
-            name = "%s/%s_%02d_%s.mp3" % (kind, said, n, slug(text))
+            n = sum(1 for t in takes if t["kind"] == kind and t.get("lang", "en") == lang and t["said"] == said) + 1
+            name = "%s/%s_%02d_%s.mp3" % (key, said, n, slug(text))
             audio = client.text_to_speech.convert(voice_id, text=text, model_id=MODEL, output_format="mp3_44100_128",
                                                   voice_settings=VoiceSettings(stability=0.5, similarity_boost=0.75))
-            os.makedirs(os.path.join(DIR, kind), exist_ok=True)
+            os.makedirs(os.path.join(DIR, key), exist_ok=True)
             with open(os.path.join(DIR, name), "wb") as f:
                 for chunk in audio:
                     f.write(chunk)
-            takes.append({"kind": kind, "said": said, "text": text, "file": name, "voice_id": voice_id,
-                          "model": MODEL, "downloaded": now()})
+            take = {"kind": kind, "said": said, "text": text, "file": name, "voice_id": voice_id, "model": MODEL,
+                    "downloaded": now()}
+            if lang != "en":
+                take["lang"] = lang
+            takes.append(take)
             save(TAKES, takes)
-            print("  %s %s: %s" % (kind, said, text))
-        if voices[kind].get("own"):
+            print("  %s %s: %s" % (key, said, text))
+        if voices[key].get("own"):
             save(VOICES, voices)
             continue
         try:
@@ -215,8 +380,8 @@ def main(argv):
         except Exception as e:                                    # (a key without voices_write: it stays, and is used
             print("  (%s's voice kept in the account: %s)" % (kind, str(e)[-120:]))   # again for new lines)
             continue
-        voices[kind]["voice_id"] = ""
-        voices[kind]["deleted"] = now()
+        voices[key]["voice_id"] = ""
+        voices[key]["deleted"] = now()
         save(VOICES, voices)
     write_md(takes, voices)
     print("%d lines in all, in dev\\elevenlabs" % len(takes))

@@ -237,6 +237,15 @@ that isn't in the game.
   you carry on; a kick or a ban takes you at once.
 
 ### Writing
+- **Every word is written in English and said in the player's language** (English, Spanish, German, French,
+  Brazilian Portuguese: their choice in Options, on the start screen and in the game, else their device's). English
+  is the key: `data/Lang/<code>.txt` has each line, a tab, then the same in that language (cp1252, CRLF; a line not
+  there is said in English). The server says a script's words and a quest's stages and notes before `$variables` are
+  filled in (`dsengine/lang.py`); the page says everything else as it's drawn (`web/home/translate.js`, `coined`).
+  New or changed text: `python -I tools/lang.py` counts what's missing, `todo <code> <file>` lists it, `fill <code>
+  <file> <answers>` takes the answers line for line, and `export_web_assets.py` sends them to the page. A translation
+  keeps its holes (`{1}`, `$Player.Name`), its `|`, `\` and leading or trailing `..`, and "N gold" stays "N gold" (the
+  page draws the coin); `validate.py` checks them.
 - **Notices and signs never give hints or instructions.** They name or describe a place (and a signpost says which
   way places lie), nothing about quests, keys, secrets, who sells what or what you need to get in.
 - **No hint text on the world map.**
@@ -318,13 +327,13 @@ that isn't in the game.
   own grave** (`player_items.py` graves: up to `GRAVES_MOST`, 5, the oldest crumbling for a sixth), each with its own
   time and things.
 - **The Isle's hard fights stay as they are** (the owner's choice): the Skeleton walking the chapel graveyard (3,1,0)
-  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're hard by their
-  level alone (the Skeleton 4, the lair's four 2), never by a flag or a setting of the Isle's own.
-- **A monster's level is how hard it is, and level 1 is gentle** (the owner's wish: no Isle-only easing): at level 1
-  its blows are `Monster.Ease.Blows` (0.5) as hard and its health `Monster.Ease.Health` (0.7) of its kind's, easing
-  less each level to the whole at `Monster.Ease.Until` (5) (Config.ini [Gameplay]; `set_npc_level`). A fresh
-  character with a wooden sword and shield loses a third to a half of their health to a level 1 or 2 goblin, wolf,
-  spider or hobgoblin, over some 5 seconds.
+  and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're hard by their
+  level alone (the Skeleton 4, the lair's four 2), never by a flag or a setting of the Isle's own.
+- **A monster's level is how hard it is, and level 1 is gentle** (the owner's wish: no Isle-only easing): at level 1
+  its blows are `Monster.Ease.Blows` (0.5) as hard and its health `Monster.Ease.Health` (0.7) of its kind's, easing
+  less each level to the whole at `Monster.Ease.Until` (5) (Config.ini [Gameplay]; `set_npc_level`). A fresh
+  character with a wooden sword and shield loses a third to a half of their health to a level 1 or 2 goblin, wolf,
+  spider or hobgoblin, over some 5 seconds.
 - A skill can be **drained or boosted for a while** (status effects Weaken, Daze, Frailty on monsters' blows; a script's
   `Boost.Skill`): what asks for a level goes by it as it is now, the Stats tab always shows it out of its usual level
   (20/20; drained 18/20, red; boosted 23/20, green, a potion's or spell's boost to your blows counted in), and hitpoints and your level go by the usual one.
@@ -802,6 +811,11 @@ that isn't in the game.
   A greeting suits who says it: a mourner at a funeral only sighs (`Sigh`); an old man or an old woman is
   an old voice (the old man's a real one: Mozilla Common Voice, CC0), never a younger one's made old; every take of a kind is
   one person's voice. No added noise for a breathy voice: it sounds like static.
+  **Each language has voices of its own**: every kind designed again as one of its people (`fetch_elevenlabs.py`
+  LANGS: the description made native, never an English voice speaking it) with greetings and goodbyes in its words
+  (LINES), and an old man of ElevenLabs' (only English has the real one); `build_voices.py` makes `Voice_es_Man`,
+  `Bye_de_Guard`... and a player hears their language's, else English (the sighs, croaks and beasts have no words).
+  A new kind or line gets every language's too.
 - **A monster growls as it comes for you** (`Growl=`, from a creature's recorded mutterings: `build_voices.py`
   GROWLERS): the one that saw you, heard from close by; people, animals and things of stone or glass don't.
 - **An animal makes its own noise** (`Calls=`: a cow's moo, a hen's cluck, a cat's meow, recorded, CC0:

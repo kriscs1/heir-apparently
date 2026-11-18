@@ -831,7 +831,7 @@ class ActionsMixin:
         if self.dead_wait:                  # (dead: nothing but waking up again, and looking at things)
             if t == "respawn":
                 self.respawn()
-            if t not in ("journal", "explored", "look", "close"):
+            if t not in ("journal", "explored", "look", "close", "lang"):
                 return
         if t == "move":
             d = int(msg.get("dir", 0)) & 15
@@ -930,6 +930,9 @@ class ActionsMixin:
                 self.note_explored(str(msg.get("map", "")), cells)
         elif t == "journal":
             self.journal_wanted = True                  # (sent from the tick, at most once a JOURNAL_GAP)
+        elif t == "lang":                               # (their Options' language: what scripts say to them, lang.py)
+            self.language = self.data.languages.known(msg.get("lang"))
+            self.journal_wanted = True
         elif t == "stop":
             self.stop_player_walk()
             self.player_attack_target = None

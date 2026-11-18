@@ -107,12 +107,15 @@ export async function playSound(name, at = null, loud = 1) {
 }
 
 // (a speaker's greeting - Voice_Man, Voice_Man_2 ... _10: build_voices.py - never the one just said, at their own
-// pitch; or, said "Bye_", their goodbye)
+// pitch; or, said "Bye_", their goodbye. In the player's language if their kind speaks it: Voice_es_Man; else English)
 let lastVoice = "";
 export async function playVoice(kind, pitch = 1, said = "Voice_") {
   if (!O.sound || !O.voices || !AU.ctx || !kind) return;
   const s = A.m.sounds || {};
-  const takes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `${said}${kind}${n > 1 ? "_" + n : ""}.wav`).filter((t) => s[t]);
+  const of = (k) => [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => `${said}${k}${n > 1 ? "_" + n : ""}.wav`).filter((t) => s[t]);
+  const lang = window.DSLang.code;
+  let takes = lang !== "en" ? of(`${lang}_${kind}`) : [];
+  if (!takes.length) takes = of(kind);
   if (!takes.length) return;
   const others = takes.length > 1 ? takes.filter((t) => t !== lastVoice) : takes;
   const take = others[Math.floor(Math.random() * others.length)];

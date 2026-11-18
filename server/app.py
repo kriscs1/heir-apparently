@@ -81,7 +81,7 @@ def make_app(root, db_path, max_players=5, registration="open", invite_code="", 
             resp.headers.setdefault("Cache-Control", "public, max-age=31536000, immutable")   # (a new version: new address)
         elif request.path.startswith(("/assets/", "/img/")):
             resp.headers.setdefault("Cache-Control", "public, max-age=3600")
-        elif request.path.startswith(("/js/", "/css/")):
+        elif request.path.startswith(("/js/", "/css/", "/home/")):
             resp.headers.setdefault("Cache-Control", "no-cache")
         return resp
 
@@ -98,6 +98,10 @@ def make_app(root, db_path, max_players=5, registration="open", invite_code="", 
     app.router.add_static("/js/", os.path.join(web_dir, "js"))
     app.router.add_static("/css/", os.path.join(web_dir, "css"))
     app.router.add_static("/img/", os.path.join(web_dir, "img"))
+
+    async def translate_js(request):                    # (the start screen's and the game's: other languages)
+        return web.FileResponse(os.path.join(web_dir, "home", "translate.js"))
+    app.router.add_get("/home/translate.js", translate_js)
 
     def about():
         # (the answer to "who's there?" on the network: nothing while it's closed to the network)

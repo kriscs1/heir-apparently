@@ -11,6 +11,10 @@ COPY sounds sounds
 COPY ashen ashen
 COPY dsengine dsengine
 COPY tools tools
+# (the words of every page and the server's, for the other languages' catalogues: tools/lang.py)
+COPY server server
+COPY central central
+COPY web web
 RUN mkdir -p web && python tools/export_web_assets.py
 
 FROM python:3.11-slim

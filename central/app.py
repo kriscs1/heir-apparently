@@ -1371,6 +1371,13 @@ def make_central(db_path):
         return web.FileResponse(os.path.join(home, "config.js"), headers={"Cache-Control": "no-cache"})
     app.router.add_get("/config.js", config_js)
 
+    def script(name):                                   # (the start screen's other languages, beside it)
+        async def send(request):
+            return web.FileResponse(os.path.join(home, name), headers={"Cache-Control": "no-cache"})
+        return send
+    for name in ("translate.js", "lang.js"):
+        app.router.add_get("/" + name, script(name))
+
     def picture(pic):
         async def send(request):                        # (not asked for again each time the start screen opens)
             return web.FileResponse(os.path.join(home, pic), headers={"Cache-Control": "public, max-age=86400"})

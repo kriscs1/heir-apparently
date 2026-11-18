@@ -14,6 +14,8 @@
 <title>Shards of Ashen</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <script src="config.js"></script>
+<script src="translate.js"></script>
+<script src="lang.js"></script>
 <style>
 :root {
   --bg: #120a07; --wood: #3a261d; --wood-dark: #24170f; --edge: #7e4d3f; --edge-light: #b07a60; --ink: #f3e888;
@@ -607,6 +609,9 @@ $("options-open").onclick = () => {
   const slide = (key, words) => `<label class="opt"><span>${words}</span><input type="range" min="0" max="100" step="5" data-key="${key}" value="${+o[key]}"></label>`;
   dialog(`<h2>Options</h2><p class="small dim">What every game you join starts with. A game's own Options change them there.</p>
     <div class="opts stack">
+      <h3>Language</h3>
+      <label class="opt"><span>Language</span><select id="opt-lang" translate="no">${DSLang.LANGS.map(([c, n]) =>
+        `<option value="${c}"${c === DSLang.code ? " selected" : ""}>${n}</option>`).join("")}</select></label>
       <h3>Screen</h3>
       ${canFull ? `<label class="opt"><span>Full screen</span><input type="checkbox" id="opt-full"${isFull() ? " checked" : ""}></label>` : ""}
       ${box("effects", "Shadows, footprints, ripples and sparks")}
@@ -624,7 +629,22 @@ $("options-open").onclick = () => {
     });
   }
   if (canFull) $("opt-full").onchange = toggleFull;
+  $("opt-lang").onchange = (ev) => {
+    const now = myOptions();
+    now.lang = ev.target.value;
+    store.set("options", JSON.stringify(now));
+    useLanguage(now.lang);
+  };
 };
+
+// ----- the language: the one chosen in Options, else the device's if the game has it, else English. The start
+// screen in it now (translate.js, its words in lang.js), and every game joined (it goes with the Options)
+function useLanguage(code) {
+  code = DSLang.pick(code);
+  DSLang.use(code, (window.DS_HOME_WORDS || {})[code]);
+}
+useLanguage(myOptions().lang);
+DSLang.watch(document.body);
 
 // ----- the account chip
 $("chip").onclick = async () => {

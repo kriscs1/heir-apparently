@@ -2,7 +2,7 @@
 // out 768 high and scaled to fit, drawn at the screen's own resolution so text stays sharp; a phone's is laid out
 // lower, so everything's bigger: mobile.js) and the frame loop.
 import { CL, note, clientText } from "./clientlog.js";
-import { A, loadManifest, configRead, onLoaded, OWN } from "./assets.js";
+import { A, loadManifest, configRead, onLoaded, OWN, at } from "./assets.js";
 import { G, S, setGeometry, resetWorld, addMap, applySnap, glide, addMessage, myPlayer, unpackCells } from "./state.js";
 import { N, connect, send } from "./net.js";
 import { V, drawWorld, addFx, stopWorkFx, setZoom, changeZoom, markOutcome, markSwing } from "./render.js";
@@ -256,6 +256,7 @@ function openOptions() {
   $("opt-camera").value = V.smooth;
   $("opt-cursor").value = String(U.cursorSize || 22);
   $("opt-hotbar").value = String((S.me && S.me.hotbar || []).length || 5);
+  $("opt-lang").value = window.DSLang.code;
   $("options").hidden = false;
 }
 for (const [id, key, num] of [["opt-sound", "sound"], ["opt-volume", "volume", 1], ["opt-music", "music"], ["opt-chat-sound", "chatSound"], ["opt-voices", "voices"],
@@ -378,6 +379,26 @@ $("opt-smooth").addEventListener("input", (ev) => { smoothing = ev.target.checke
 $("opt-camera").addEventListener("input", (ev) => { V.smooth = +ev.target.value; saveView(); });
 $("opt-cursor").addEventListener("input", (ev) => { U.cursorSize = +ev.target.value; saveView(); });
 $("opt-hotbar").addEventListener("input", (ev) => send({ t: "hotbar_slots", n: +ev.target.value }));   // (kept with the character)
+$("opt-lang").addEventListener("input", (ev) => setLanguage(ev.target.value, true));
+
+// The language: the one chosen here or on the start screen, else the device's if the game has it (web/home/
+// translate.js). The page says its own words and what it draws; the server, the scripts' (lang.py), once told.
+for (const [c, name] of window.DSLang.LANGS) $("opt-lang").add(new Option(name, c));
+function chosenLanguage() {
+  try { return localStorage.getItem("ds.lang") || ""; } catch (e) { return ""; }
+}
+async function setLanguage(code, keep) {
+  code = window.DSLang.pick(code);
+  if (keep) try { localStorage.setItem("ds.lang", code); } catch (e) { /* (a private window: this visit) */ }
+  let words = {};
+  if (code !== "en") {
+    try { words = (await (await fetch(at(`assets/lang/${code}.json`))).json()).words || {}; }
+    catch (e) { note(`The ${code} words didn't load: ${e.message}`); code = "en"; }
+  }
+  window.DSLang.use(code, words);
+  window.DSLang.watch(document.body);
+  if (S.name) send({ t: "lang", lang: code });
+}
 $("opt-fullscreen").onchange = () => {
   toggleFullscreen();
   setTimeout(() => { $("opt-fullscreen").checked = isFull(); }, 400);     // (the browser's F11 one only F11 leaves)
@@ -877,6 +898,7 @@ function menuOptions() {
   try { o = JSON.parse(t) || {}; } catch (e) { return; }
   for (const k of ["sound", "music", "ambient"]) if (k in o) O[k] = !!o[k];
   for (const k of ["volume", "musicVolume", "ambientVolume"]) if (k in o) O[k] = clamp(+o[k] || 0, 0, 100);
+  if (o.lang) try { localStorage.setItem("ds.lang", String(o.lang)); } catch (e) { /* */ }
   if ("musicVolume" in o) O.musicChosen = true;
   saveOptions();
   if ("effects" in o) setEffects(!!o.effects);
@@ -1115,7 +1137,7 @@ N.onMessage = (m) => {
       if (m.version) {
         const day = m.date ? new Date(m.date + "T12:00:00").toLocaleDateString(undefined,
           { day: "numeric", month: "short", year: "numeric" }) : "";
-        $("login-version").textContent = "Version " + m.version + (day ? "  ·  " + day : "");
+        $("login-version").textContent = window.DSLang.tr(`Version ${m.version}`) + (day ? "  ·  " + day : "");
         $("login-version").title = m.commit ? "Build " + m.commit : "";
       }
       if (!running) authenticate();
@@ -1314,6 +1336,7 @@ async function startGame(m) {
   S.name = m.name;
   S.uid = m.uid;
   S.admin = m.admin;
+  send({ t: "lang", lang: window.DSLang.code });  // (what the scripts say to them)
   note(`In the game as ${m.name}${m.host ? " (the host)" : ""}${m.admin ? " (an admin)" : ""}`);
   $("opt-name-row").hidden = !m.host;              // (the game's name: the host's say, or an admin's)
   $("opt-log-row").hidden = !(m.host && m.logs);   // (Send log: only where there's a central server to send it through)
@@ -1624,7 +1647,7 @@ document.addEventListener("fullscreenchange", resize);
 // The login screen's music: browsers only let sound start after a click or a key, so the first one starts it
 function loginMusicButton() {
   const b = $("login-music");
-  b.textContent = O.music && O.sound ? "♫ Music on" : "♫ Music off";
+  b.textContent = "♫ " + window.DSLang.tr(O.music && O.sound ? "Music on" : "Music off");   // (the note isn't a word)
   b.classList.toggle("off", !(O.music && O.sound));
 }
 for (const ev of ["pointerdown", "keydown"]) document.addEventListener(ev, () => unlock(), true);
@@ -1652,6 +1675,7 @@ async function boot() {
   loadOptions();
   loadView();
   menuOptions();
+  await setLanguage(chosenLanguage(), false);
   loginMusicButton();
   initBuildUI();
   onLoaded(() => {});

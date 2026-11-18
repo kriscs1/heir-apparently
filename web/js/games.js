@@ -335,7 +335,7 @@ function label(x, text, cx, y, colour = "#f3e888") {
   x.textAlign = "center";
   x.textBaseline = "top";
   x.fillStyle = colour;
-  x.fillText(text, cx, y);
+  x.fillText(window.DSLang.tr(text), cx, y);
 }
 
 function drawDragonDice(x, m, now) {

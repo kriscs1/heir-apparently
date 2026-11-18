@@ -10,6 +10,7 @@
                                     Options offer (18 22 28 32), and twice that for sharp high-DPI screens
   web/assets/sounds/<name>.wav      the sound effects (from sounds/<kind>/, in one folder); the music as .ogg (or .wav
                                     without ffmpeg); an .ogg or .mp3 as it is
+  web/assets/lang/<code>.json       the other languages' words the page says (tools/lang.py; and web/home/lang.js)
   web/assets/manifest.json          sprite sizes, the data files the browser reads, what was made
 
 Run it again whenever sprites, sounds or data change (the editor). Only what changed is made again, and what's no
@@ -37,6 +38,7 @@ from ashen.assets import Assets  # noqa: E402
 from ashen import cursor as cursors  # noqa: E402
 from ashen import sounds as sound_folders  # noqa: E402
 from dsengine.data import GameData, SPRITE_FOLDERS  # noqa: E402
+from tools import lang as languages  # noqa: E402
 
 OUT = os.path.join(ROOT, "web", "assets")
 KEPT = set()                    # (every file this run made or found up to date: anything else in OUT is left over)
@@ -323,6 +325,8 @@ def main():
     export_anim(d, manifest)
     export_cursors(manifest)
     export_sounds(manifest)
+    for path in languages.export():
+        keep(path)
     tidy()
     body = json.dumps(manifest, separators=(",", ":"), sort_keys=True)
     manifest["version"] = hashlib.sha1((body + fingerprint()).encode()).hexdigest()[:12]

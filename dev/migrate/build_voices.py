@@ -6,6 +6,8 @@ SOURCES and CREDITS.md):
                                      I help?"): one of their kind's, at the speaker's own pitch (web/js/voice.js)
   sounds\Bye_<Kind>.wav, _2 ...     what they say as the talk ends ("Goodbye", "Thank you"), in the same voice as
                                      their greeting: only a kind whose speaker recorded one has any (FAREWELLS)
+  sounds\\Voice_<lang>_<Kind>.wav ... the same in another language (Voice_es_Man, Bye_de_Guard: ElevenLabs' voices
+                                     of their own, fetch_elevenlabs.py LANGS), for a player who plays in it
   sounds\\Growl_<Kind>.wav, _2 ...   a monster that's seen you and comes for you (npcs.py npc_growl)
   sounds\\Quest_Start.wav             a quest taken on (a harp's run up; a quest finished, Quest_Done, is
                                      build_soundscape's: quieter)
@@ -350,14 +352,16 @@ def eleven(path):
 
 
 def eleven_takes():
-    """{(kind, "Voice_" or "Bye_"): [file, ...]} from dev\\elevenlabs\\takes.json, in the order downloaded."""
+    """{(kind, "Voice_" or "Bye_"): [file, ...]} from dev\\elevenlabs\\takes.json, in the order downloaded (another
+    language's kind as es_Man)."""
     import json
     path = os.path.join(ELEVEN, "takes.json")
     out = {}
     if os.path.exists(path):
         with open(path, encoding="utf-8") as f:
             for tk in json.load(f):
-                out.setdefault((tk["kind"], "Voice_" if tk["said"] == "hello" else "Bye_"), []).append(tk["file"])
+                kind = tk["kind"] if tk.get("lang", "en") == "en" else "%s_%s" % (tk["lang"], tk["kind"])
+                out.setdefault((kind, "Voice_" if tk["said"] == "hello" else "Bye_"), []).append(tk["file"])
     return out
 
 
@@ -520,7 +524,8 @@ def build(prefix, table):
             continue
         for n, path in enumerate(files, 1):
             y, a, b = eleven(path)
-            made += write(take_name(prefix, kind, n), make(y, a, b, ELEVEN_MADE.get(kind, {})))
+            made += write(take_name(prefix, kind, n), make(y, a, b, ELEVEN_MADE.get(kind.split("_", 1)[-1]
+                                                                            if kind[2:3] == "_" else kind, {})))
         total += len(files)
         n = len(files) + 1
         while os.path.exists(sound_file(take_name(prefix, kind, n))):
