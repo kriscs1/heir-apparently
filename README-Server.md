@@ -572,6 +572,11 @@ above.
   `/maintenance`; a server restarted after the time stays up. "This central server": games carry on, but everyone sees
   that signing in, joining and friends pause; the start screen says so too. Call it off there; it's forgotten an hour
   after its time.
+- Making servers update: the admin page's Summary, Least version ("Require 1.0.612", the central server's own, or one
+  typed). A listed server below it shows "Out of date" on the start screen and can't be joined (no tickets), and its
+  admins are told in the game; within a minute of its updater pulling the new image it's joined again. "Any version"
+  turns it off. Keep it for updates that matter: every push raises the version, and servers take a few minutes to
+  update. Games on a phone's network don't report to the central server, so it never holds them back.
 - Characters: `docker compose exec game python tools/admin.py list` (and `owner <Name> <Account>`, `admin <Name> on`).
 - Logs: `docker compose logs -f game`. Health: `https://play.example.com/health` (who's on, the tick time).
 - Backups: one a day in the `gamedata` volume's `backups` folder (14 kept). Send them off the VM: `DS_BACKUP_S3` in

@@ -137,6 +137,13 @@ function maintForm(n) {
     <div class="row"><input id="maint-why" class="grow" maxlength="80" placeholder="Why (players see it)"><button data-act="maint">Warn everyone</button></div>`;
 }
 
+// (The least version a game server is joined at: below it, no tickets, and its admins are told)
+function leastForm(least, mine) {
+  return `<h2>Least version</h2><p>${least ? `Game servers must be version <b>${esc(least)}</b> or later to be joined. <button data-act="least-off">Any version</button>` : "Any version of a game server can be joined."}</p>
+    <p class="dim">For an update that matters (a fix to an exploit, a change older servers can't follow). A server below it is shown out of date on the start screen and can't be joined; its admins are told. It can be joined again within a minute of updating. This central server is ${esc(mine || "?")}.</p>
+    <div class="row"><input id="least" class="grow" maxlength="40" placeholder="Version, like ${esc(mine || "1.0.523")}"><button data-act="least">Require it</button><button data-act="least-mine">Require ${esc(mine || "this version")}</button></div>`;
+}
+
 const TABS = {
   summary: { load: async (had) => {
     const r = had && had.ok ? had : await admin("stats");
@@ -148,7 +155,7 @@ const TABS = {
       line("Game servers reporting", r.reporting), line("Servers listed", r.approved), line("Waiting for approval", r.servers - r.approved),
       line("Servers up now", r.up), line("Email (password codes)", r.mail ? "On" : "Off"),
       line("Sign in with Google", r.google ? "On" : "Off"),
-    ], "") + maintForm(r.notice));
+    ], "") + maintForm(r.notice) + leastForm(r.least, r.version));
   } },
 
   servers: { load: async () => {
@@ -316,6 +323,17 @@ const ACTS = {
     await admin("maintenance", { minutes, all, why: $("maint-why").value }); return true;
   },
   "maint-off": async () => { await admin("maintenance", { off: true }); return true; },
+  least: async () => {
+    const version = $("least").value.trim();
+    if (!version || !confirm(`Game servers below ${version} can't be joined till they update: require it?`)) return;
+    return (await admin("least", { version })).ok;
+  },
+  "least-mine": async () => {
+    const r = await admin("stats");
+    if (!r.ok || !confirm(`Game servers below ${r.version} can't be joined till they update: require it?`)) return;
+    return (await admin("least", { version: r.version })).ok;
+  },
+  "least-off": async () => { await admin("least", { off: true }); return true; },
   back: () => true,
 };
 $("view").addEventListener("click", async (ev) => {

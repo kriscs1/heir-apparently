@@ -898,6 +898,55 @@ def test_an_admin_warns_of_maintenance_and_everyone_else_is_sent_off_at_the_time
     served(go())
 
 
+def test_a_game_below_the_central_servers_least_version_tells_its_admins(tmp_path, monkeypatch):
+    """The announce's answer says the version it needs: the admins playing are told (not everyone), once."""
+    monkeypatch.setenv("DS_HOST_KEY", "the-hosts-own-key")
+
+    async def lines(ws):                                # (the chat lines in the next second: the world's news never stops)
+        got, end = [], asyncio.get_event_loop().time() + 1
+        while True:
+            left = end - asyncio.get_event_loop().time()
+            if left <= 0:
+                return got
+            try:
+                msg = await asyncio.wait_for(ws.receive(), left)
+            except asyncio.TimeoutError:
+                return got
+            if msg.type != aiohttp.WSMsgType.TEXT:
+                return got
+            data = json.loads(msg.data)
+            got += [m["text"] for m in (data if isinstance(data, list) else [data]) if m["t"] == "msg"]
+
+    async def go():
+        runner, app, url = await start(str(tmp_path / "t.db"), admins="Boss")
+        game = app[GAME]
+        answer = {"ok": True, "need": "1.0.99"}
+
+        async def central(path, body):
+            return answer
+        try:
+            async with aiohttp.ClientSession() as http:
+                boss, _ = await login(http, url, "Bossy", auth_with={"host": "the-hosts-own-key", "account": "Boss"})
+                pal, _ = await login(http, url, "Pal")
+                await lines(boss), await lines(pal)
+                game.central_post, game.remote = central, lambda: True
+                await game.announce()
+                assert game.needs == "1.0.99"
+                told = [t for t in await lines(boss) if "out of date" in t]
+                assert len(told) == 1 and "1.0.99" in told[0]
+                assert not [t for t in await lines(pal) if "out of date" in t]
+                await game.announce()                           # (heard again: not said again)
+                assert not [t for t in await lines(boss) if "out of date" in t]
+                answer.pop("need")
+                await game.announce()
+                assert game.needs == ""
+                await pal.close()
+                await boss.close()
+        finally:
+            await runner.cleanup()
+    served(go())
+
+
 def test_the_central_servers_maintenance_reaches_a_game_as_it_announces(tmp_path):
     """Every server: this one counts down as for /maintenance (its own sooner one kept), and stops when it's called off;
     one timed before this server started is over. The central server alone: a countdown, the game carries on."""

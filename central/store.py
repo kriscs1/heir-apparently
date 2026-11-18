@@ -560,6 +560,10 @@ class CentralStore:
         row = self.db.execute("SELECT url FROM servers WHERE key = ?", (key,)).fetchone()
         return row[0] if row else ""
 
+    def server_version(self, key):
+        row = self.db.execute("SELECT version FROM servers WHERE key = ?", (key,)).fetchone()
+        return row[0] if row else ""
+
     def goodbye(self, key, secret):
         self.db.execute("UPDATE servers SET seen = 0 WHERE key = ? AND secret = ?", (key, digest(secret or "")))
 

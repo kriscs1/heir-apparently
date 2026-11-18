@@ -1017,6 +1017,10 @@ that isn't in the game.
   why before the connection closes (`send_off`: a closed one sends nothing). The central server's admin page warns
   every listed server the same way (its `notice`, in the answer to each announce: `GameServer.central_notice`), or that
   the central server alone goes down (games carry on: `S.cmaint`); the start screen shows it (`maintNote`).
+- **The central server can make game servers update** (the owner's wish): the admin page's least version (the setting
+  `least_version`, `Central.too_old`). A server below it gets no tickets, is listed `old` ("Out of date", Join off),
+  and is told the version it needs in the announce's answer (`need`), which its admins hear (`GameServer.needs`).
+  Only ever set by an admin, never raised by itself: every commit raises the version.
 - **Every character's progress is on the central server** (`server/progress.py`, `central/store.py`, the admin page's
   Characters, Quests and Skills): every game with `DS_CENTRAL` tells it level, skills, quests' stages, Shards, gold and
   map, from the saves, only what's changed. Never a device's key, the look, what's carried or what's said. **An app's own

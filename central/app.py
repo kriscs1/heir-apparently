@@ -39,7 +39,8 @@ its own accounts too, for a network with no way to reach here.
                                                   admin sending its log to support, by email: one an hour a server)
   POST /api/announce  {key, secret, proof, name, url?, port, online, max, version}  -> {key, secret}
   POST /api/goodbye   {key, secret}
-  GET  /api/servers                               -> [{key, name, url, online, max, version}]   (approved only)
+  GET  /api/servers                               -> [{key, name, url, online, max, version, old?}]   (approved only;
+                                                  old: below the admin page's least version, not to be joined)
   POST /api/mine      {token}                     -> {ok, servers: {key: [[character, level], ...]}}  (yours on them)
   POST /api/admin/... {token, ...}                the admin page's (servers, approving, accounts, bans, deleting, stats)
   GET  /confirm?code=, POST /confirm {code}       a link's page, and its button (a mail scanner opens links: only the
@@ -604,6 +605,8 @@ class Central:
             return no("Confirm your email first: the link's in your inbox, or open your account to send it again.",
                       refused=True)
         known, url = self.store.server_url(server), str(d.get("url", ""))[:200]
+        if known and self.too_old(self.store.server_version(server)):
+            return no("That server is out of date: it can be joined once it updates.", refused=True)
         if not url and known and self.store.approved(server):   # (from the list: the address comes with the ticket)
             return yes(ticket=self.store.new_ticket(name, server), url=known)
         if known and not same_place(known, url):
@@ -831,8 +834,18 @@ class Central:
         pre = {k.strip() for k in os.environ.get("DS_CENTRAL_APPROVED", "").split(",") if k.strip()}
         if key in pre and not self.store.approved(key):
             self.store.set_approved(key, True)          # (approved in the settings, before it ever called)
+        need = self.too_old(str(d.get("version", ""))[:40])
         return yes(key=key, secret=secret, url=url, approved=self.store.approved(key),
-                   **({"notice": self.notice_now()} if self.notice_now() else {}))
+                   **({"notice": self.notice_now()} if self.notice_now() else {}), **({"need": need} if need else {}))
+
+    def least_version(self):
+        """The admin page's least version a game server must be to be joined ("" for none)."""
+        return self.store.setting("least_version", "")
+
+    def too_old(self, version):
+        """The least version, if this one's below it (a version with no numbers to go by isn't held back)."""
+        least = self.least_version()
+        return least if least and behind(version, least) else ""
 
     def notice_now(self):
         """The admin page's maintenance, if it's not long over (an hour after its time: forgotten, called off or not)."""
@@ -849,7 +862,8 @@ class Central:
         # (the list as a browser has it already: said in a few bytes)
         # (no addresses: a signed-in player's ticket brings the one they join)
         text = compact([dict({k: v for k, v in s.items() if k != "url"}, **({"maint": self.maint[s["key"]]}
-                                                                             if s["key"] in self.maint else {}))
+                                                                             if s["key"] in self.maint else {}),
+                             **({"old": 1} if self.too_old(s["version"]) else {}))
                         for s in self.store.servers()])
         tag = '"%s"' % hashlib.md5(text.encode("utf-8")).hexdigest()[:16]
         if request.headers.get("If-None-Match") == tag:
@@ -977,7 +991,7 @@ class Central:
             every, approved, up = self.store.server_stats()
             chars, accounted, today, week, reporting = self.store.progress_totals()
             return yes(accounts=self.store.count_accounts(), servers=every, approved=approved, up=up, mail=mail.ready(),
-                       notice=self.notice_now(),
+                       notice=self.notice_now(), least=self.least_version(), version=self.version["version"],
                        google=google.ready(), characters=chars,
                        with_account=accounted, today=today, week=week, reporting=reporting)
         if what == "maintenance":                       # (minutes and why, for every listed server or this one; off)
@@ -991,6 +1005,13 @@ class Central:
                 log.info("%s set maintenance in %d minutes for %s", name, minutes,
                          "every server" if self.notice["all"] else "the central server")
             return yes(notice=self.notice_now())
+        if what == "least":                             # (the least version a game server is joined at; off: any)
+            least = "" if d.get("off") else str(d.get("version", "")).strip()[:40]
+            if least and not version_numbers(least):
+                return no("A version is numbers, like 1.0.523.")
+            self.store.set_setting("least_version", least)
+            log.info("%s set the least version for game servers to %s", name, least or "any")
+            return yes(least=least)
         if what == "servers":
             mine = self.version["version"]
             return yes(version=mine, servers=[{**s, "behind": s["up"] and behind(s["version"], mine)}

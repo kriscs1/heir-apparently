@@ -182,6 +182,7 @@ class GameServer:
         self.maint_down = False         # (gone down for it: nobody but an admin comes in till it starts again)
         self.central_maint = None       # (the central server itself going down: {"at", "why"}; games carry on)
         self.started = time.time()      # (a maintenance for every server timed before this: over, not to go down again)
+        self.needs = ""                 # (the central server's least version, if this is below it: nobody can join)
         self.last_backup_day = None
         self.tick_ms = 0.0
         self.up_since = time.time()
@@ -985,6 +986,19 @@ class GameServer:
             if got.get("key") and got["key"] != key:
                 self.store.set_setting("server_id", got["key"])     # (the central server gave it another)
             self.central_notice(got.get("notice"))
+            needs = str(got.get("need") or "")[:40]
+            if needs != self.needs:
+                self.needs = needs
+                if needs:
+                    log.warning("The central server needs version %s to let players join (this is %s)", needs,
+                                self.version.get("version", ""))
+                    for o in list(self.world.sessions.values()):
+                        if o.admin_enabled:
+                            o.display_message(self.needs_words(), "WARNING", "Bell")
+
+    def needs_words(self):
+        return ("This server is out of date: the central server needs version %s (this is %s), so nobody can join "
+                "until it updates." % (self.needs, self.version.get("version", "")))
 
     # ----- who's playing: a Hallisium account (the central server's ticket), the host (the key its app started the server
     # with) or a device (a key of its own: on this machine and its network only); then one of their characters
@@ -1370,6 +1384,8 @@ class GameServer:
             await self.send(c, self.maintenance_message())
         if self.central_maint:
             await self.send(c, self.central_maint_message())
+        if self.needs and s.admin_enabled:
+            s.display_message(self.needs_words(), "WARNING", "Bell")
         self.broadcast(self.players_message())
 
     WHISPER = ("/w ", "/whisper ", "/tell ", "/msg ")

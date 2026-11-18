@@ -279,6 +279,47 @@ def test_a_bans_reason_shows_where_they_have_proved_who_they_are(tmp_path, monke
     asyncio.run(go())
 
 
+def test_a_game_server_below_the_least_version_cant_be_joined(tmp_path, monkeypatch, confirmed):
+    """The admin page's least version: a server below it is listed as old, gets no tickets and is told what it needs;
+    updated (its next announce), or with the least version off, it's joined again."""
+    async def go():
+        monkeypatch.setenv("DS_CENTRAL_ADMINS", "Boss")
+        capp = make_central(str(tmp_path / "central.db"))
+        runner, port = await run(capp)
+        c = "http://127.0.0.1:%d" % port
+        cen = capp[CENTRAL]
+        try:
+            async with aiohttp.ClientSession() as http:
+                boss = (await post(http, c + "/api/register", {"name": "Boss", **SIGNUP,
+                                                               "claim": cen.claims.get("boss", "")}))["token"]
+                cen.signups.clear()
+                pest = (await post(http, c + "/api/register", {"name": "Pest", **SIGNUP}))["token"]
+                assert not (await post(http, c + "/api/admin/least", {"token": pest, "version": "1.0.5"}))["ok"]
+                game = await post(http, c + "/api/announce", {"name": "Tower", "url": "https://play.example.com",
+                                                              "version": "1.0.10"})
+                cen.store.set_approved(game["key"], True)
+                again = {"key": game["key"], "secret": game["secret"], "name": "Tower", "url": "https://play.example.com"}
+                ticket = {"token": pest, "server": game["key"]}
+                assert "need" not in game and (await post(http, c + "/api/ticket", ticket))["ok"]
+                assert not (await post(http, c + "/api/admin/least", {"token": boss, "version": "soon"}))["ok"]
+                r = await post(http, c + "/api/admin/least", {"token": boss, "version": " 1.0.12 "})
+                assert r["least"] == "1.0.12"
+                assert (await post(http, c + "/api/admin/stats", {"token": boss}))["least"] == "1.0.12"
+                assert (await post(http, c + "/api/announce", {**again, "version": "1.0.10"}))["need"] == "1.0.12"
+                assert (await (await http.get(c + "/api/servers")).json())[0]["old"] == 1
+                t = await post(http, c + "/api/ticket", ticket)
+                assert not t["ok"] and "out of date" in t["text"]
+                assert "need" not in await post(http, c + "/api/announce", {**again, "version": "1.0.12"})
+                assert "old" not in (await (await http.get(c + "/api/servers")).json())[0]
+                assert (await post(http, c + "/api/ticket", ticket))["ok"]
+                await post(http, c + "/api/announce", {**again, "version": "1.0.11"})
+                await post(http, c + "/api/admin/least", {"token": boss, "off": True})
+                assert (await post(http, c + "/api/ticket", ticket))["ok"]
+        finally:
+            await runner.cleanup()
+    asyncio.run(go())
+
+
 def test_the_admin_page_warns_every_server_of_maintenance(tmp_path, monkeypatch):
     """Maintenance set on the admin page goes to each game as it announces itself, and to the start screen; called off,
     or an hour past its time, it's gone. Only an admin sets it."""

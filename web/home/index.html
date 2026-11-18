@@ -934,7 +934,12 @@ function serverCard(g, badge, action) {
   }
   card.querySelector(".where").textContent = g.where || "";
   const maint = Math.floor(Number(g.maint)) || 0, down = maint && maint * 1000 <= Date.now();
-  if (maint) {                                      // (its admin's /maintenance: when it goes down, or that it has)
+  if (g.old) {                                      // (below the central server's least version: no tickets till it updates)
+    const note = document.createElement("div");
+    note.className = "small"; note.style.cssText = "margin-top:3px;color:var(--bad)";
+    note.textContent = "Out of date: it can be joined once it updates.";
+    card.querySelector(".what").append(note);
+  } else if (maint) {                                      // (its admin's /maintenance: when it goes down, or that it has)
     const note = document.createElement("div");
     note.className = "small"; note.style.cssText = "margin-top:3px;color:var(--bad)";
     note.textContent = down ? "Down for maintenance: try again soon." :
@@ -942,8 +947,8 @@ function serverCard(g, badge, action) {
     card.querySelector(".what").append(note);
   }
   const b = document.createElement("button");
-  b.className = "go"; b.textContent = online >= most ? "Full" : "Join";   // (down: still Join, for its admins)
-  b.disabled = online >= most; b.onclick = action;
+  b.className = "go"; b.textContent = g.old ? "Updating" : online >= most ? "Full" : "Join";   // (down: still Join, for its admins)
+  b.disabled = !!g.old || online >= most; b.onclick = action;
   card.append(b);
   return card;
 }
