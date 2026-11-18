@@ -1335,6 +1335,7 @@ class GameServer:
                 return
             s = old
             s.connected = True
+            s.language = w.data.languages.known(data.get("lang"))   # (said before a script on coming in speaks)
             s.out = []
             s.sent_maps = {}
             s.view_known = {}
@@ -1353,6 +1354,7 @@ class GameServer:
             s.full = c.full                             # (the demo, or not, before they're anywhere: demo.py)
             saved = self.unsaved.pop(name, None) or self.store.load_character(name)   # (left while saves failed)
             s.load_state(saved)
+            s.language = w.data.languages.known(data.get("lang"))   # (said before a script on coming in speaks)
             s.muted_until = float(self.store.setting("mute:" + name.lower(), "0") or 0)   # (a mute outlasts a reload)
             if saved is None and data.get("t") == "create":
                 s.set_look(data.get("look"))

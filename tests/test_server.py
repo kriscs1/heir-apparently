@@ -148,6 +148,23 @@ def test_the_player_limit_and_whose_characters(tmp_path):
     served(run())
 
 
+def test_the_language_comes_in_with_the_character(tmp_path):
+    async def run():
+        runner, app, url = await start(str(tmp_path / "t.db"))
+        try:
+            async with aiohttp.ClientSession() as http:
+                w1, m1 = await login(http, url, "Amelie", lang="fr")    # (before a script on coming in speaks)
+                assert m1["t"] == "welcome" and app[GAME].world.sessions["Amelie"].language == "fr"
+                await w1.close()
+                await until(lambda: "Amelie" not in app[GAME].world.sessions)
+                w2, m2 = await login(http, url, "Amelie", mode="login", lang="xx")
+                assert app[GAME].world.sessions["Amelie"].language == "en"    # (one it doesn't know: English)
+                await w2.close()
+        finally:
+            await runner.cleanup()
+    served(run())
+
+
 def test_everyone_and_the_world_are_saved_together(tmp_path):
     """A save is everyone online and the world in one go: a trade's two sides can't be saved apart."""
     db = str(tmp_path / "j.db")

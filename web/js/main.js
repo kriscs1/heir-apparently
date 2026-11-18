@@ -1060,7 +1060,7 @@ function showCharacters(m) {
       `Level ${ch.level || 1}`;
     words.append(name, level);
     b.append(portrait(ch.look || DEFAULT_LOOK), words);
-    b.onclick = () => { unlock(); setLoginError(""); busyLogin(true); send({ t: "play", name: ch.name }); };
+    b.onclick = () => { unlock(); setLoginError(""); busyLogin(true); send({ t: "play", name: ch.name, lang: window.DSLang.code }); };
     if (m.place === "public") {                      // (a copy for the player's own device: one way)
       const row = document.createElement("div");
       row.className = "char-row";
@@ -1089,7 +1089,8 @@ $("login-form").addEventListener("submit", (ev) => {
   setLoginError("");
   if (!N.open) { setLoginError("Not connected to the server yet..."); return; }
   busyLogin(true);
-  send({ t: "create", name: $("login-name").value, invite: $("login-invite").value, look: pickLook ? pickLook() : undefined });
+  send({ t: "create", name: $("login-name").value, invite: $("login-invite").value, look: pickLook ? pickLook() : undefined,
+         lang: window.DSLang.code });
 });
 $("make-back").onclick = () => { setLoginError(""); loginShow("chars"); };
 $("home-link").onclick = (ev) => {
