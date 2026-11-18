@@ -12075,3 +12075,23 @@ def test_scripts_speak_each_players_own_language(world, tmp_path, monkeypatch):
     assert ["Busca la llave.", 0] in q["notes"]
     leave(world, s)
     leave(world, en)
+
+
+def test_a_translation_says_a_man_or_a_woman_their_own_form(world, tmp_path, monkeypatch):
+    """data/Lang: {player:his form/her form} picks by the player's look, and $Player.Son is said in their language."""
+    from dsengine.lang import Languages
+    folder = tmp_path / "data" / "Lang"
+    folder.mkdir(parents=True)
+    (folder / "xx.txt").write_bytes((
+        "[Language]\r\nName=Test\r\n[Scripts]\r\nMy dear $Player.Son.\tMi {player:querido/querida} $Player.Son.\r\n"
+        "Son\tHijo\r\nDaughter\tHija\r\n").encode("cp1252"))
+    monkeypatch.setattr(world.data, "languages", Languages(str(tmp_path)))
+    for body, said in (("m", "Mi querido hijo."), ("f", "Mi querida hija.")):
+        s = join(world, "Form" + body)
+        s.handle({"t": "lang", "lang": "xx"})
+        s.look = {"body": body}
+        s.out.clear()
+        assert s.run_script_lines("(test)", ["01\tDisplay.Message\tWhite\tMy dear $Player.Son."])
+        s.run_scripts()
+        assert [e["text"] for e in s.out if e.get("t") == "msg"][0] == said
+        leave(world, s)

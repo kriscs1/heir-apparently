@@ -29,6 +29,8 @@ NAMES = {"es": "Español", "de": "Deutsch", "fr": "Français", "pt": "Português
 AREAS = ("SCRIPTS", "QUESTS", "DATA", "ENGINE", "PAGE", "HOME")
 GAME_AREAS = ("DATA", "ENGINE", "PAGE")         # (the game page's catalogue; SCRIPTS and QUESTS are the server's)
 HOLE = re.compile(r"\{\d+\}|\$[A-Za-z]+\.[A-Za-z0-9_.()']*[A-Za-z0-9_)]")
+# (a translation may say a plural its own way: {3:/n} is "" for one and "n" for more, where English put {3} = "s")
+PLURAL = re.compile(r"\{(\d+):[^{}/]*/[^{}]*\}")
 PARA = "¶"                                 # (a line break inside a line, as the catalogue writes it)
 
 
@@ -445,7 +447,7 @@ def save(code, words, g):
 
 
 def holes(s):
-    return sorted(HOLE.findall(s))
+    return sorted(set(HOLE.findall(PLURAL.sub(r"{\1}", s))))      # (a hole may be said twice: a plural and its verb)
 
 
 def problem(en, said):

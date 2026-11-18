@@ -1,0 +1,1934 @@
+; Shards of Ashen in Français. English, a tab, the same in Français: tools/lang.py. Written by it: change lines, not their order.
+[Language]
+Name=Français
+[Engine]
+World	Monde
+Session	Session
+Sneaking	Furtivité
+On	Activé
+Thefts	Vols
+Get In,Examine	Monter,Examiner
+Hail,Get In,Examine	Héler,Monter,Examiner
+You wave the cart down. The horse snorts and stops.	Tu fais signe à la charrette. Le cheval s'ébroue et s'arrête.
+The cart goes round %s. A ride to any stop is %s.	La charrette fait le tour de %s. Un trajet jusqu'à n'importe quel arrêt coûte %s.
+Hooves	Sabots
+Get Out,Examine	Descendre,Examiner
+The cart is too far off to hear you.	La charrette est trop loin pour t'entendre.
+Denied	Refusé
+The {1} has cast off.	Le {1} a largué les amarres.
+Fail	Échec
+Coins	Pièces
+Not while it's moving!	Pas pendant qu'elle roule !
+Vehicle	Véhicule
+The cart rolls on: it stopped for a wave only just now.	La charrette continue : elle s'est déjà arrêtée pour un signe à l'instant.
+You can't reach the cart from here!	Tu ne peux pas atteindre la charrette d'ici !
+To {1}.	Vers {1}.
+You're at {1}.	Te voici à {1}.
+The cart has gone without you.	La charrette est partie sans toi.
+You climb into the cart. Next stop: {1}.	Tu montes dans la charrette. Prochain arrêt : {1}.
+You climb into the cart, for {1}.	Tu montes dans la charrette, pour {1}.
+You step aboard the {1}, for {2}. It leaves when it leaves.	Tu montes à bord du {1}, pour {2}. Il part quand il part.
+You step aboard the {1}, for {2}.	Tu montes à bord du {1}, pour {2}.
+You step off the {1}.	Tu descends du {1}.
+Headings	Directions
+Seat	Siège
+You need %d gold for the cart.	Il te faut %d gold pour la charrette.
+You climb down from the cart.	Tu descends de la charrette.
+the stop	l'arrêt
+You can't go aboard yet.	Tu ne peux pas encore monter à bord.
+the pier	la jetée
+The cold bites. Find warmth: a fire, a roof, something warm to wear.	Le froid mord. Trouve de la chaleur : un feu, un toit, quelque chose de chaud à porter.
+Hitpoints	Points de vie
+Hit	Coup
+Grace	Grâce
+Warm	Chaud
+Damage	Dégâts
+Every	Chaque
+Tiles	Cases
+Take everything	Tout prendre
+Close	Fermer
+Take 1,Take all,Examine	Prendre 1,Tout prendre,Examiner
+You've taken everything from the chest.	Tu as tout pris dans le coffre.
+You don't have room in your inventory for the {1}!	Tu n'as pas de place dans ton inventaire pour : {1} !
+Pickup	Ramassage
+You take {1}.	Tu prends {1}.
+Take 1	Prendre 1
+Take all	Tout prendre
+You take {1} {2}.	Tu prends {1} {2}.
+Interface	Interface
+Entities	Entités
+Walk	Marcher
+Worn	Porté
+Effects	Effets
+Deep	Profondeurs
+Skills	Compétences
+List	Liste
+Placeholder	Espace réservé
+Scripts	Scripts
+Gameplay	Jeu
+Admin	Admin
+Under	Sous
+Decor	Décor
+Pathfinding	Itinéraire
+Weapon Shield Head Body Legs Feet Hands Ring	Arme Bouclier Tête Corps Jambes Pieds Mains Anneau
+Gate	Portail
+Stackable	Empilable
+Quest	Quête
+Thumb	Pouce
+Players	Joueurs
+Disabled	Désactivé
+Climb	Grimper
+Schedule	Horaire
+Durability	Solidité
+Layer	Couche
+Darts	Fléchettes
+Gas	Gaz
+Weakness	Faiblesse
+Pit	Fosse
+Alarm	Alarme
+Attitude=Bad Zone={1},{2},{3},{4}	Attitude=Bad Zone={1},{2},{3},{4}
+The Deep has shifted since you were down here: you find yourself by the stairs up.	Les Profondeurs ont bougé depuis ta dernière venue : te voilà près de l'escalier qui monte.
+You climb down into the Shifting Deep. The tunnels aren't where they were last time.	Tu descends dans les Profondeurs Changeantes. Les tunnels ne sont plus où ils étaient la dernière fois.
+You open the chest: {1}.	Tu ouvres le coffre : {1}.
+Absorb	Absorber
+You lay your hand on the Deep's Heart: {1} Shards{2}. Somewhere, the tunnels creak.	Tu poses la main sur le Cœur des Profondeurs : {1} Fragments{2}. Quelque part, les tunnels grincent.
+Click	Clic
+Down, to the Deep's floor {1}.	En bas, vers l'étage {1} des Profondeurs.
+Bad	Mauvais
+The chest opens its lid... and its teeth. A mimic!	Le coffre ouvre son couvercle... et ses dents. Un mimique !
+Loot	Butin
+The Heart's light is dim for you: come back when the Deep has shifted.	La lumière du Cœur est faible pour toi : reviens quand les Profondeurs auront bougé.
+The Deep's Warden stands between you and its Heart.	Le Gardien des Profondeurs se dresse entre toi et son Cœur.
+You press on the cracked stones... and a whole slab swings back: a hidden room!	Tu appuies sur les pierres fendues... et toute une dalle pivote : une salle cachée !
+Click. Darts fly out of the walls!	Clic. Des fléchettes jaillissent des murs !
+Floors	Étages
+Rooms	Salles
+Chests	Coffres
+Up, to floor {1}.	En haut, vers l'étage {1}.
+dust, and a very old sock	de la poussière, et une très vieille chaussette
+Bleed	Saignement
+Click. A puff of green gas: your head swims.	Clic. Une bouffée de gaz vert : la tête te tourne.
+Daze	Étourdissement
+Poison	Poison
+Monsters	Monstres
+Traps	Pièges
+The Deep groans around you: it will shift once you're out of it.	Les Profondeurs grondent autour de toi : elles bougeront une fois que tu en seras dehors.
+Rumble	Grondement
+You climb out of the Deep into the daylight.	Tu sors des Profondeurs à la lumière du jour.
+A rune flares under your foot: your strength drains away.	Une rune s'embrase sous ton pied : ta force s'écoule.
+Weaken	Affaiblir
+Secrets	Secrets
+, and	, et
+A bell clangs somewhere in the dark. Something's coming.	Une cloche sonne quelque part dans le noir. Quelque chose arrive.
+Splosh	Plouf
+Click. A bucket of icy water tips over your head. Somewhere, someone giggles.	Clic. Un seau d'eau glacée se renverse sur ta tête. Quelque part, quelqu'un pouffe.
+Chill	Froid
+Pie	Tarte
+Click. A custard pie flies out of the wall and hits you square in the face. Whoever built this dungeon had a sense of humour, and not a nice one.	Clic. Une tarte à la crème jaillit du mur et te frappe en pleine figure. Qui a bâti ce donjon avait le sens de l'humour, et pas un gentil.
+The floor gives way into a shallow pit! You climb out, bruised and muddy.	Le sol cède sur une fosse peu profonde ! Tu en ressors, plein de bleus et de boue.
+Frailty	Fragilité
+The floor gives way! You fall, and land hard a floor below.	Le sol cède ! Tu tombes, et atterris lourdement un étage plus bas.
+That's as far as the demo goes: the full game goes on from here.	La démo s'arrête là : le jeu complet continue d'ici.
+That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	La démo s'arrête là : niveau %d. Ce que tu apprends à partir d'ici est gardé pour le jeu complet.
+The Isle's story is told, as far as the demo goes: the crossing to Northport is the full game's.	L'histoire de l'Île est racontée, aussi loin que va la démo : la traversée vers Northport appartient au jeu complet.
+Why would hobgoblins raid the Isle for your mother's papers?	Pourquoi des hobgobelins attaqueraient-ils l'Île pour les papiers de ta mère ?
+Across the strait: Northport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	De l'autre côté du détroit : Northport, les villes et les routes du continent, la Cour des Mages, et la suite de l'histoire.
+A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	Un Pass Ami : quelqu'un ici a le jeu complet, donc il est à toi aussi tant que cette personne est dans la partie.
+Nobody here has the full game now: back to the Isle in %d seconds.	Plus personne ici n'a le jeu complet : retour à l'Île dans %d secondes.
+Nobody here has the full game now: you're back in the demo, the Isle and level %d.	Plus personne ici n'a le jeu complet : te revoilà dans la démo, l'Île et le niveau %d.
+Your mother's papers, under a crowned seal	Les papiers de ta mère, sous un sceau couronné
+An order for her papers and her child's name, signed with a hand pressed in ash	Un ordre pour ses papiers et le nom de son enfant, signé d'une main pressée dans la cendre
+A miniature from where only a cat could go: a crowned man, a baby in his arms	Une miniature venue d'un endroit où seul un chat pouvait aller : un homme couronné, un bébé dans les bras
+Who signs in ash, and what do they want with Mary's child?	Qui signe dans la cendre, et que veut-on à l'enfant de Mary ?
+Who is the crowned man, and whose is the baby?	Qui est l'homme couronné, et à qui est le bébé ?
+Demo	Démo
+Area	Zone
+Return	Retour
+Level	Niveau
+You dig into the ground...	Tu creuses le sol...
+and a sack of sand	et un sac de sable
+a cache of Shards, glittering in the earth	une cache de Fragments, scintillant dans la terre
+Someone has dug here already.	Quelqu'un a déjà creusé ici.
+You can't dig here. Try open ground: grass, earth or sand.	Tu ne peux pas creuser ici. Essaie un sol dégagé : herbe, terre ou sable.
+Not in someone else's garden!	Pas dans le jardin de quelqu'un d'autre !
+Your spade is broken: get it mended (a blacksmith, or an anvil).	Ta bêche est cassée : fais-la réparer (un forgeron, ou une enclume).
+You stop digging.	Tu arrêtes de creuser.
+Value	Valeur
+Digging	Creuser
+a glint in the soil	un reflet dans la terre
+You find	Tu trouves
+Chance	Chance
+Cache	Cache
+Finds	Trouvailles
+Regrow	Repousse
+Seconds	Secondes
+Ground	Sol
+Words	Mots
+You feel unwell.	Tu ne te sens pas bien.
+Effect	Effet
+Caught	Attrapé
+Hurt	Blessure
+Disguise	Déguisement
+Sight	Vue
+Come	Viens
+They know you now: the robe won't hide you here.	On te connaît maintenant : la robe ne te cachera pas ici.
+Spotted	Repéré
+Forget	Oublier
+Attitude={1} Zone={2},{3},{4},{5}	Attitude={1} Zone={2},{3},{4},{5}
+Chase={1},{2},{3},{4} Pause=0-1	Chase={1},{2},{3},{4} Pause=0-1
+Good	Bon
+Strength	Force
+Entity	Entité
+You sow the {1}. It'll be ripe in about {2} minute{3}.	Tu sèmes : {1}. À récolter dans environ {2} minute{3:/s}.
+Your	Ton
+and a seed	et une graine
+You harvest {1} {2}{3}.	Tu récoltes {1} {2}{3}.
+Crop	Culture
+Sow seeds in tilled soil: use them on it.	Sème des graines dans une terre labourée : utilise-les dessus.
+Seeds only grow in tilled soil.	Les graines ne poussent que dans une terre labourée.
+Something is growing there already.	Quelque chose pousse déjà là.
+This is {1}'s homestead: only they can sow here.	C'est le domaine de {1} : seul son propriétaire peut semer ici.
+You need level {1} Farming to grow {2} (you have {3}).	Il te faut le niveau {1} en Agriculture pour cultiver {2} (tu as {3}).
+{1}, gone wild.	{1}, à l'état sauvage.
+That's {1}'s {2}: they sowed it.	Cette plante est à {1}, qui l'a semée : {2}.
+You don't have enough room in your inventory!	Tu n'as pas assez de place dans ton inventaire !
+about {1} minute{2}	environ {1} minute{2:/s}
+less than a minute	moins d'une minute
+{1} {2}: {3}, ripe in {4}.	{1} {2} : {3}, à récolter dans {4}.
+{1} {2}, ripe for harvesting.	{1} {2}, à récolter.
+Your {1} on the farm withered: nobody harvested it.	Ta culture de {1} à la ferme a flétri : personne ne l'a récoltée.
+Cautious	Prudence
+Fighting	Combat
+Channelling	Canalisation
+Animals Stay Calm	Les animaux restent calmes
+The Shards settle in you in a new way: {1} is bound.	Les Fragments s'installent en toi d'une nouvelle façon : {1} est liée.
+You let {1} go. It's still yours, to bind again.	Tu libères {1}. Elle est toujours à toi, à lier de nouveau.
+Bind forms	Lier des formes
+No such form.	Pas de forme de ce nom.
+Limits	Limites
+Most	La plupart
+Rush.	Élan.
+You learn a form of {1}: {2}. {3}	Tu apprends une forme de {1} : {2}. {3}
+A form is bound where the Shards run: at a shardstone you've woken.	Une forme se lie là où courent les Fragments : à une pierre-fragment que tu as éveillée.
+You hold {1} forms already: unbind one first.	Tu tiens déjà {1} formes : délie-en une d'abord.
+Binding a form	Lier une forme
+You know no forms yet. People round the world teach them.	Tu ne connais encore aucune forme. Des gens de par le monde les enseignent.
+Noise	Bruit
+Calm	Calme
+Bind.	Lier.
+Bind	Lier
+{1} shows you a way of holding yourself: {2}.	{1} te montre une façon de te tenir : {2}.
+Heard at {1}% | Seen at {2}%{3}	On t'entend à {1}% | On te voit à {2}%{3}
+Ends When You Attack or Cast	Prend fin quand tu attaques ou lances un sort
+Forms	Formes
+Let {1} go.	Libérer {1}.
+Bind {1} ({2}).	Lier {1} ({2}).
+Back.	Retour.
+learnt, not bound	apprise, pas liée
+not known	inconnue
+It's bound in you already.	Elle est déjà liée en toi.
+Bind it at any shardstone you've woken (you have {1} bound already).	Lie-la à n'importe quelle pierre-fragment que tu as éveillée (tu en as déjà {1} liées).
+On a Kill:	Sur une victime :
+(Stealth {1})	(Furtivité {1})
+only you	toi seulement
+you and your friends	toi et tes amis
+Conversation	Conversation
+Teleporter	Téléporteur
+Whose home? These are the ones you may visit.	Chez qui ? Voici ceux que tu peux visiter.
+Who may come to your homestead? Now: {1}.	Qui peut venir à ton domaine ? Pour l'instant : {1}.
+Your homestead: now {1} may visit.	Ton domaine : maintenant {1} peut venir.
+{1} is your friend now: they may visit when you let friends in.	{1} fait maintenant partie de tes amis : la visite est possible quand tu ouvres aux amis.
+{1} is no longer a friend of your homestead.	{1} ne fait plus partie des amis de ton domaine.
+The world goes pale and still... and you're home, in your pocket of the Stillwater.	Le monde pâlit et se fige... et te voilà chez toi, dans ta poche de l'Eau-Dormante.
+The world goes pale and still... and you're in {1}'s homestead.	Le monde pâlit et se fige... et te voilà dans le domaine de {1}.
+If you fall, you'll wake in town again.	Si tu tombes, tu te réveilleras de nouveau en ville.
+The bloom's petals empty into your hands	Les pétales de la fleur se vident dans tes mains
+Other	Autre
+The anchor is cold. (This world has no homesteads.)	L'ancre est froide. (Ce monde n'a pas de domaines.)
+The stone is cold: it holds nothing here.	La pierre est froide : elle ne retient rien ici.
+{1}'s homestead.	Domaine de {1}.
+Nobody has let you visit their home.	Personne ne t'a laissé visiter sa maison.
+{1}'s home{2}	Chez {1}{2}
+Only me.	Seulement moi.
+Me and my friends.	Moi et mes amis.
+Anyone.	Tout le monde.
+Forget {1}.	Oublier {1}.
+Add {1}.	Ajouter {1}.
+none yet	personne pour l'instant
+{1} has made you a friend of their homestead.	Tu fais maintenant partie des amis du domaine de {1}.
+You need your Hearth Anchor to go home.	Il te faut ton Ancre de Foyer pour rentrer chez toi.
+{1}'s homestead is closed to you.	Le domaine de {1} t'est fermé.
+{1} has come to visit your homestead.	{1} vient visiter ton domaine.
+That homestead is closed to you now: you're back in town.	Ce domaine t'est fermé maintenant : te revoilà en ville.
+The spell fizzles: this world has no homesteads.	Le sort fait pschitt : ce monde n'a pas de domaines.
+The spell needs a Hearth Anchor to find your home.	Le sort a besoin d'une Ancre de Foyer pour trouver ta maison.
+Fizzle	Pschitt
+This is your bed now: if you fall, you'll wake here.	C'est ton lit maintenant : si tu tombes, tu te réveilleras ici.
+You can only build on your own homestead.	Tu ne peux construire que sur ton propre domaine.
+That's the edge of your land.	C'est la limite de ton terrain.
+Leave that clear: it's where the homestone puts you down.	Laisse ça dégagé : c'est là que la pierre de domaine te dépose.
+You can't build that.	Tu ne peux pas construire ça.
+You need level {1} {2} to do that (you have {3}).	Il te faut le niveau {1} en {2} pour faire ça (tu as {3}).
+There's nothing there to build on: still the mist first.	Il n'y a rien sur quoi construire ici : apaise d'abord la brume.
+The mist only stills beside ground that's held already.	La brume ne s'apaise qu'à côté d'un sol déjà tenu.
+The glass won't take that: turn it to soil first.	Le verre ne prendra pas ça : change-le d'abord en terre.
+That goes on {1}.	Ça se pose sur {1}.
+No more blooms will take here yet: your Shardcraft holds {1}.	Aucune autre fleur ne prendra ici pour l'instant : ta Fragmancie en tient {1}.
+Terraform	Terraformer
+Its petals are still filling: ready in about {1}.	Ses pétales se remplissent encore : prête dans environ {1}.
+You get back {1}.	Tu récupères {1}.
+{1} has closed their homestead: the anchor lets you go, and you're back.	{1} a fermé son domaine : l'ancre te laisse partir, et te revoilà.
+It's locked: it's {1}'s chest.	C'est verrouillé : c'est le coffre de {1}.
+It's locked.	C'est verrouillé.
+Object	Objet
+The {1} is in the way.	{1} est dans le passage.
+You need {1}.	Il te faut {1}.
+It's {1}'s bloom: its Shards are theirs.	C'est la fleur de {1} : ses Fragments lui reviennent.
+It won't open to you.	Ça ne s'ouvre pas pour toi.
+Template	Modèle
+StaticObject Homestone	StaticObject Homestone
+Who may visit...	Qui peut venir...
+My friends...	Mes amis...
+The guestbook.	Le livre d'or.
+Leave a gift.	Laisser un cadeau.
+You pull up the crop.	Tu arraches la culture.
+The gift box ({1}).	La boîte à cadeaux ({1}).
+Forget my bed (wake in town if I fall).	Oublier mon lit (me réveiller en ville si je tombe).
+Take me to my own home.	Emmène-moi chez moi.
+(here now)	(ici maintenant)
+Clear the {1} away first.	Enlève d'abord : {1}.
+Someone is standing there.	Quelqu'un se tient là.
+Take the {1} away first.	Retire d'abord : {1}.
+You can't put that on a wall.	Tu ne peux pas mettre ça sur un mur.
+There's no room for its foot.	Il n'y a pas de place pour son pied.
+You clear the {1} away.	Tu dégages : {1}.
+There's nothing there to take down.	Il n'y a rien à démonter ici.
+That goes on a wall.	Ça se pose sur un mur.
+There's no room there.	Il n'y a pas de place ici.
+Lang	Langue
+{1}|{2}|{3}|Lock	{1}|{2}|{3}|Serrure
+Locks	Serrures
+Unlock	Déverrouiller
+Block	Bloquer
+Lock	Verrouiller
+Variance	Variation
+The lock gives with a click.	La serrure cède avec un clic.
+Locked	Verrouillé
+This lock is beyond your picks (Stealth {1}).	Cette serrure dépasse tes crochets (Furtivité {1}).
+The lock bursts with a crack of wood.	La serrure éclate dans un craquement de bois.
+You heave at the lid. It holds.	Tu tires sur le couvercle. Il tient bon.
+Key	Clé
+Sturdy	Solide
+Break Open	Forcer
+You unlock it with the {1}.	Tu le déverrouilles avec : {1}.
+It's bound in iron. No forcing this one.	Il est cerclé de fer. Impossible de forcer celui-ci.
+Reach	Portée
+Your pick slips out of the lock.	Ton crochet glisse hors de la serrure.
+Droppable	Lâchable
+Spell	Sort
+Static	Statique
+The lock looks as if you could pick it.	La serrure a l'air de pouvoir se crocheter.
+Trigger	Déclencheur
+Id	Id
+Infront	Devant
+Market	Marché
+Your listings ({1} of {2})	Tes annonces ({1} sur {2})
+The market	Le marché
+Buy 1,Buy 5,Value,Examine	Acheter 1,Acheter 5,Valeur,Examiner
+You put {1} {2} up for sale at {3} gold each. Everyone can see it at any market board.	Tu mets {1} {2} en vente à {3} gold pièce. Tout le monde peut le voir à n'importe quel panneau du marché.
+You buy ({1}) {2} from {3} for {4} gold.	Tu achètes ({1}) {2} à {3} pour {4} gold.
+The market board: {1} listing{2} from everyone. Put your own things up for sale here.	Le panneau du marché : {1} annonce{2:/s} de tout le monde. Mets tes propres affaires en vente ici.
+Collect {1} gold	Récupérer {1} gold
+Show everyone's	Voir celles de tous
+Show only mine	Voir seulement les miennes
+Take back 1,Take back all,Set price,Examine	Reprendre 1,Tout reprendre,Fixer le prix,Examiner
+Sell on the market,Examine	Vendre au marché,Examiner
+Sell on the market	Vendre au marché
+That's gone: someone else was quicker.	C'est parti : quelqu'un a été plus rapide.
+{1}: {2} gold each, {3} for sale ({4}).	{1} : {2} gold pièce, {3} en vente ({4}).
+You can't sell that.	Tu ne peux pas vendre ça.
+The market won't list that: it's stolen, and everyone would know it. A fence might buy it.	Le marché ne mettra pas ça en vente : c'est volé, et tout le monde le saurait. Un receleur pourrait l'acheter.
+A price is 1 gold or more.	Un prix, c'est 1 gold ou plus.
+You have {1} things up for sale already: take something back first.	Tu as déjà {1} choses en vente : reprends-en une d'abord.
+You don't have enough gold!	Tu n'as pas assez d'or !
+{1} bought {2} {3} from you on the market for {4} gold (collect it at any market board).	{1} t'a acheté {2} {3} au marché pour {4} gold (récupère-le à n'importe quel panneau du marché).
+Use	Utiliser
+You collect {1} gold from your sales.	Tu récupères {1} gold de tes ventes.
+Take back 1	Reprendre 1
+Take back all	Tout reprendre
+Set price	Fixer le prix
+Buy 1	Acheter 1
+Buy 5	Acheter 5
+You don't have room for the gold!	Tu n'as pas de place pour l'or !
+You don't have room in your pack!	Tu n'as pas de place dans ton sac !
+{1}: now {2} gold each.	{1} : maintenant {2} gold pièce.
+The price has just changed: {1} is {2} gold each now.	Le prix vient de changer : {1} coûte maintenant {2} gold pièce.
+the innkeeper	l'aubergiste
+Drop	Lâcher
+arm wrestling	bras de fer
+Lockpick	Crochet
+Success	Réussite
+Curl	Boucle
+Lie	Couché
+Pause	Pause
+Standing	Debout
+Following	Suit
+Walking	Marche
+Fight{1}	Combat{1}
+Drops	Butin
+The {1} shouts: "Intruder!" The whole camp is after you!	{1} crie : « Intrus ! » Tout le camp est à tes trousses !
+Calls	Cris
+Miss	Raté
+Kill	Tuer
+Day	Jour
+Solid	Solide
+Flees	Fuit
+Swims	Nage
+Hearing	Ouïe
+Growl	Grognement
+Missile	Projectile
+Night	Nuit
+States	États
+Fidgets	S'agite
+Hunts	Chasse
+Remnants	Restes
+Shelter	Abri
+a bolt of Shard light at one foe	un trait de lumière de Fragments sur un ennemi
+a burst of Shards at every foe round you	une salve de Fragments sur chaque ennemi autour de toi
+a frost that holds every foe round you still	un givre qui fige chaque ennemi autour de toi
+a mire of Shards that slows every foe round you	un bourbier de Fragments qui ralentit chaque ennemi autour de toi
+a ward of Shards round you, for Defence	une garde de Fragments autour de toi, pour la Défense
+Scroll	Parchemin
+Bolt	Trait
+to every foe within {1} tiles	sur chaque ennemi à {1} cases ou moins
+near: 6 tiles	proche : 6 cases
+far: 10 tiles	loin : 10 cases
+close: 3 tiles round	serré : 3 cases autour
+wide: 5 tiles round	large : 5 cases autour
+wide: 4 tiles round	large : 4 cases autour
+short: a minute or so	court : une minute environ
+long: two minutes or so	long : deux minutes environ
+Burst	Salve
+Spellwright	Scribe de sorts
+Your Own Spell	Ton propre sort
+Paper	Papier
+Spellwright's Lectern	Lutrin du scribe de sorts
+A blank page, and Shard-ink. What will your spell do?	Une page blanche, et de l'encre de Fragments. Que fera ton sort ?
+How strong? The stronger, the more Shards it drinks, and the longer it rests. (Your Shardcraft: {1})	Quelle puissance ? Plus il est fort, plus il boit de Fragments, et plus il se repose longtemps. (Ta Fragmancie : {1})
+And its reach?	Et sa portée ?
+Shield	Bouclier
++{1} Defence for {2} s	+{1} Défense pendant {2} s
+Freeze	Gel
+, frozen for {1} s	, gelé pendant {1} s
+Slow	Lenteur
+, slowed to {1}%{2}or {3} s	, ralenti à {1}%{2}ou {3} s
+The Shard-ink settles into the page: {1} is yours: cast it from Channeling, in the Stats box.	L'encre de Fragments s'imprègne dans la page : {1} est à toi : lance-le depuis Canalisation, dans la boîte des Stats.
+Far	Loin
+Frost	Givre
+The lectern's pages are blank to you.	Les pages du lutrin restent blanches pour toi.
+at one foe up to {1} tiles away	sur un ennemi jusqu'à {1} cases
+Spark	Étincelle
+Ward	Garde
+Power 1	Puissance 1
+Write it.	L'écrire.
+Start again.	Recommencer.
+Leave the page.	Laisser la page.
+Writing it again	On l'écrit à nouveau
+Power {1} (Shardcraft {2})	Puissance {1} (Fragmancie {2})
+Wall	Mur
+Pool	Bassin
+Cancel	Annuler
+Spawned {1}{2}.	Apparu : {1}{2}.
+Use with	Utiliser avec
+Voice	Voix
+Use {1} With {2}	Utiliser {1} avec {2}
+Use {1} With [{2}]	Utiliser {1} avec [{2}]
+Use [{1}] With {2}	Utiliser [{1}] avec {2}
+It's not very interesting.	Ce n'est pas très intéressant.
+(Condition: {1})	(État : {1})
+It's stolen, and it shows: no honest trader will touch it.	C'est volé, et ça se voit : aucun marchand honnête n'y touchera.
+You {1} the {2}.	Tu {1} {2}.
+Places	Lieux
+People	Gens
+No such spell.	Pas de sort de ce nom.
+Pick a creature first.	Choisis d'abord une créature.
+There's no room for {1} round you.	Il n'y a pas de place pour {1} autour de toi.
+You	Toi
+Player	Joueur
+Inspect	Inspecter
+Pickpocket	Faire les poches
+Steal	Voler
+Disarm	Désarmer
+Get Out	Descendre
+Not from the {1}!	Pas depuis {1} !
+{1} is fast asleep.	{1} dort profondément.
+Nothing interesting happens.	Il ne se passe rien d'intéressant.
+You are too far away to reach that!	C'est trop loin pour l'atteindre !
+You need room for all {1} {2}.	Il te faut de la place pour les {1} {2}.
+You don't have room for the rest.	Tu n'as pas de place pour le reste.
+Respawn	Réapparition
+You can't drop that!	Tu ne peux pas lâcher ça !
+You drop {1} {2}.	Tu lâches {1} {2}.
+You drop the {1}.	Tu lâches : {1}.
+You can't eat that!	Tu ne peux pas manger ça !
+You already have full health!	Ta santé est déjà au maximum !
+It leads nowhere!	Ça ne mène nulle part !
+You climb up.	Tu montes.
+You climb down.	Tu descends.
+All	Tout
+Shop	Boutique
+Homestone	Pierre de domaine
+Someone is already sitting there.	Quelqu'un est déjà assis là.
+Arena: {1} wins, {2} losses.	Arène : {1} victoires, {2} défaites.
+You pick up {1} {2}.	Tu ramasses {1} {2}.
+You pick up the {1}.	Tu ramasses : {1}.
+Towns	Villes
+Regions	Régions
+known as {1}	connu comme {1}
+Talk to {1}	Parler à {1}
+Undroppable	Non lâchable
+On the world map	Sur la carte du monde
+Things	Choses
+Sell 1,Sell All,Value,Examine	Vendre 1,Tout vendre,Valeur,Examiner
+Ran {1}.	Exécuté : {1}.
+Drop All	Tout lâcher
+Pick a command first.	Choisis d'abord une commande.
+02 End	02 End
+A script is running: try again when it's done.	Un script est en cours : réessaie quand il sera fini.
+Gave you {1} {2}.	T'a donné {1} {2}.
+Deposit	Déposer
+Dismantle	Démonter
+Withdraw	Retirer
+Pick an item first.	Choisis d'abord un objet.
+No room in the inventory for that.	Pas de place dans l'inventaire pour ça.
+Cures	Soigne
+Saved.	Sauvegardé.
+Off to {1} ({2}).	Direction {1} ({2}).
+Saved. Off:	Sauvegardé. Partis :
+Wield	Manier
+Wear	Porter
+You can't wear that!	Tu ne peux pas porter ça !
+{1} has begun.	{1} a commencé.
+{1} is on already.	{1} est déjà en cours.
+Cast	Lancer
+It opens as you go through.	Ça s'ouvre quand tu passes.
+You have {1} {2}.	Tu as {1} {2}.
+Skill	Compétence
+Least	Minimum
+Pick a town first.	Choisis d'abord une ville.
+Flying: walls, water and mountains don't stop you.	Vol : les murs, l'eau et les montagnes ne t'arrêtent pas.
+You're on your feet again.	Te revoilà sur pied.
+They don't seem interested in talking.	Pas l'air d'avoir envie de parler.
+God mode is on: nothing can hurt you.	Le mode dieu est activé : rien ne peut te blesser.
+God mode is off.	Le mode dieu est désactivé.
+Next	Suivant
+Sell 1	Vendre 1
+Sell All	Tout vendre
+Deposit All	Tout déposer
+Withdraw All	Tout retirer
+Make	Fabriquer
+{1} a cast{2}	{1} par lancer{2}
+{1} damage every {2}	{1} dégâts toutes les {2}
+You've been poisoned!	Le poison te gagne !
+The poison wears off.	L'effet du poison se dissipe.
+You're on fire!	Tu prends feu !
+The flames go out.	Les flammes s'éteignent.
+You're bleeding!	Tu saignes !
+The bleeding stops.	Le saignement s'arrête.
+You're chilled to the bone: slowed!	Le froid te transperce jusqu'aux os : tu ralentis !
+You warm up again.	La chaleur te revient.
+You're warm again.	La chaleur te revient.
+You feel weak: your Attack drains!	La faiblesse te gagne : ton Attaque baisse !
+Your strength comes back.	Ta force revient.
+Your head spins: your Channeling drains!	La tête te tourne : ta Canalisation baisse !
+Your head clears.	Tes idées s'éclaircissent.
+Your guard falters: your Defence drains!	Ta garde faiblit : ta Défense baisse !
+Your guard steadies.	Ta garde se raffermit.
+The fever's on you: you shake with cold, then burn.	La fièvre te tient : tu trembles de froid, puis tu brûles.
+The fever breaks, for now.	La fièvre tombe, pour l'instant.
+Keen	Vif
+A voice, very faint, says your name. You stop to listen.	Une voix, très faible, dit ton nom. Tu t'arrêtes pour écouter.
+The voice fades. Everything round you looks very sharp.	La voix s'efface. Tout autour de toi paraît très net.
+Your eyes are only your own again.	Tes yeux ne sont plus qu'à toi.
++%s Attack (you hit harder)	+%s Attaque (tu frappes plus fort)
+you hit as hard as before	tu frappes aussi fort qu'avant
++%s Defence (harder to hurt)	+%s Défense (plus dur à blesser)
+your Defence is back to normal	ta Défense est revenue à la normale
++%s spell damage	+%s dégâts des sorts
+your spells are back to normal	tes sorts sont revenus à la normale
+you see much further in the dark and fog	tu vois bien plus loin dans le noir et le brouillard
+your eyesight is back to normal	ta vue est revenue à la normale
+Magic	Magie
+Slash	Taillade
+Ammo	Munitions
+You have killed the {1}!	Tu as tué : {1} !
+You died.	Tu as péri.
+Death	Mort
+Puff	Pouf
+Leaves	Feuilles
+Choose {1} to cast {2} at: click {3}. (Right-click or Esc: let it go.)	Choisis {1} sur qui lancer {2} : clique sur {3}. (Clic droit ou Échap : laisser tomber.)
+Impact	Impact
+The {1} flees in terror!	{1} s'enfuit, terrifié !
+Slowed: you move and strike slower	Lenteur : tu bouges et frappes plus lentement
+Held: listening to a voice that isn't there	Envoûtement : à l'écoute d'une voix qui n'existe pas
+Sharp-eyed: traps and secrets noticed more surely	Œil perçant : pièges et secrets repérés plus sûrement
+You now have {1} hitpoints.	Tu as maintenant {1} points de vie.
+LEVEL UP! Your {1} level is now {2}.	NIVEAU SUPÉRIEUR ! Ton niveau de {1} est maintenant {2}.
+Your {1} level has dropped to {2}.	Ton niveau de {1} est descendu à {2}.
+You can't attack that!	Tu ne peux pas attaquer ça !
+Crit	Critique
+Weapon	Arme
+Kills	Victimes
+The {1} falls: you fought it too.	{1} tombe : tu l'as combattu aussi.
+You are badly hurt! Eat something, drink a potion or run!	Tes blessures sont graves ! Mange quelque chose, bois une potion ou fuis !
+You lost {1} gold.	Tu as perdu {1} gold.
+You wake in your own bed.	Tu te réveilles dans ton propre lit.
+You wake up, alive again.	Tu te réveilles, de nouveau en vie.
+Cooldown	Recharge
+Its magic settles into Shards	Sa magie se dépose en Fragments
+This scroll raises {1} to {2}: learn {3} first.	Ce parchemin monte {1} à {2} : apprends d'abord {3}.
+You need level {1} {2} to learn {3} (you have {4}). Keep the scroll till you're ready.	Il te faut le niveau {1} en {2} pour apprendre {3} (tu as {4}). Garde le parchemin pour plus tard.
+Your {1} grows stronger: it's {2} now ({3}).	Ton {1} devient plus fort : il est maintenant {2} ({3}).
+You learn {1}! It's yours for good: {2}. Cast it from Channeling, in the Stats box.	Tu apprends {1} ! Il est à toi pour de bon : {2}. Lance-le depuis Canalisation, dans la boîte des Stats.
+You don't know {1} yet: read its scroll to learn it.	Tu ne connais pas encore {1} : lis son parchemin pour l'apprendre.
+You need level {1} {2} to cast {3} (you have {4}).	Il te faut le niveau {1} en {2} pour lancer {3} (tu as {4}).
+You're still gathering your wits after the last spell.	Tu reprends encore tes esprits après le dernier sort.
+(Right-click or Esc: put it away.)	(Clic droit ou Échap : le ranger.)
+The {1} is too far away.	{1} est trop loin.
+You can't see the {1} from here.	Tu ne vois pas {1} d'ici.
+Sound	Son
+Fear	Peur
+The {1} stands its ground.	{1} tient bon.
+Your {1} is back to normal.	Ton {1} est revenu à la normale.
+Heal	Soin
+You have no {1} left: you can only club them with the bow.	Tu n'as plus de {1} : tu ne peux que les assommer avec l'arc.
+Parry	Parade
+Cost	Coût
+The spell slips from your grasp: no Shards spent. ({1}% chance: it works more surely as your Magic grows.)	Le sort t'échappe : aucun Fragment dépensé. ({1}% de chances : il marche plus sûrement à mesure que ta Magie grandit.)
+You drink the {1}.	Tu bois : {1}.
+, ready again after {1} s	, de nouveau prêt après {1} s
+Keep	Garder
+You already know this.	Tu connais déjà ça.
+Choose who to cast {1} at: click them.	Choisis sur qui lancer {1} : clique dessus.
+There's nothing to cast {1} at there.	Il n'y a rien là sur quoi lancer {1}.
+The {1} slows down.	{1} ralentit.
+Your {1} has worn off: {2}.	Ton {1} s'est dissipé : {2}.
+Your boost has worn off: {1}.	Ton regain s'est dissipé : {1}.
+You can't reach the {1}!	Tu ne peux pas atteindre : {1} !
+Base	Base
+Boss	Boss
+Your blows can't reach its heart. Only the {1} can.	Tes coups ne peuvent pas atteindre son cœur. Seul {1} le peut.
+Kind	Type
+Choose what to cast {1} at: click it.	Choisis sur quoi lancer {1} : clique dessus.
+An unseen hand takes hold of the {1}...	Une main invisible saisit {1}...
+Chain	Chaîne
+You're cured.	Te voilà soigné de ce mal.
+You feel much better!	Tu te sens bien mieux !
+{1} finds nothing there to take hold of.	{1} ne trouve rien à saisir ici.
+Radius	Rayon
+There are no enemies close enough for {1}.	Aucun ennemi n'est assez proche pour {1}.
+The {1} slows	{1} ralentit
+{1} foes slow	{1} ennemis ralentissent
+The {1} is	{1} est
+{1} foes are	{1} ennemis sont
+{1} {2} for {3} seconds!	{1} {2} pendant {3} secondes !
+you feel stronger	la force te gagne
+You drink the {1}	Tu bois : {1}
+You cast {1}	Tu lances {1}
+{1}: {2} for {3}.	{1} : {2} pendant {3}.
+Cured	Soigné
+The world spins around you...	Le monde tourne autour de toi...
+Resists	Résiste
+Duration	Durée
+The spell fizzles: it has nowhere to take you.	Le sort fait pschitt : il n'a nulle part où t'emmener.
+Map	Carte
+Choose who to swap bodies with: click them.	Choisis avec qui échanger de corps : clique dessus.
+You can't swap bodies with {1}.	Tu ne peux pas échanger de corps avec {1}.
+There's no creature in reach to swap bodies with.	Aucune créature à portée avec qui échanger de corps.
+anyone just now	personne pour l'instant
+Copper	Cuivre
+Bronze	Bronze
+Iron	Fer
+Steel	Acier
+Mithril	Mithril
+Oak	Chêne
+Wooden	Bois
+Willow	Saule
+Yew	If
+It's on the turn: a day at most.	Ça commence à tourner : un jour au plus.
+It'll keep about {1} more day{2}.	Ça se garde encore environ {1} jour{2:/s}.
+You buy ({1}) {2} for {3} gold.	Tu achètes ({1}) {2} pour {3} gold.
+You sell ({1}) {2} for {3} gold.	Tu vends ({1}) {2} pour {3} gold.
+You bank ({1}) {2}.	Tu déposes ({1}) {2} à la banque.
+You take ({1}) {2}.	Tu prends ({1}) {2}.
+You make ({1}) {2}.	Tu fabriques ({1}) {2}.
+({1} level {2})	({1} niveau {2})
+You take off the {1}.	Tu retires : {1}.
+{1} mends {2} thing{3} for {4} gold. Good as new!	{1} répare {2} chose{3:/s} pour {4} gold. Comme neuf !
+You hammer the {1} back into shape with {2}.	Tu remets {1} en forme à coups de marteau avec {2}.
+{1} is on your hotbar: press {2} to use it.	{1} est sur ta barre rapide : appuie sur {2} pour l'utiliser.
+Everything else you carried lies in a grave where you fell: it's marked on your minimap. Get back to it within {1} minutes!	Tout le reste de ce que tu portais gît dans une tombe, là où tu as péri : elle est marquée sur ta mini-carte. Retournes-y dans les {1} minutes !
+You take back everything from your grave.	Tu reprends tout ce qu'il y avait dans ta tombe.
+Your {1} has broken! It's no use until it's mended (a blacksmith, or an anvil).	Ton {1} s'est cassé ! Il ne sert à rien tant qu'il n'est pas réparé (un forgeron, ou une enclume).
+Specific	Précis
+Next page	Page suivante
+Previous page	Page précédente
+You can't sell gold!	Tu ne peux pas vendre de l'or !
+You can't sell that!	Tu ne peux pas vendre ça !
+You can't sell that here!	Tu ne peux pas vendre ça ici !
+{1} (buy for {2} gold)	{1} (acheter pour {2} gold)
+Quest things stay with you, in your Quest pouch.	Les choses de quête restent avec toi, dans ta bourse de Quête.
+There is no more room in your bank!	Il n'y a plus de place dans ta banque !
+You can't carry any more!	Tu ne peux rien porter de plus !
+You need level {1} {2} to make that!	Il te faut le niveau {1} en {2} pour fabriquer ça !
+You need {1} to {2} the {3}.	Il te faut {1} pour {2} : {3}.
+You don't have room in your inventory for the {1}.	Tu n'as pas de place dans ton inventaire pour : {1}.
+{1} looks your gear over: "Nothing here needs mending."	{1} examine ton équipement : « Rien à réparer ici. »
+{1}: "Mending all that is {2} gold. You've only got {3}."	{1} : « Tout réparer, ça fait {2} gold. Tu n'en as que {3}. »
+The {1} doesn't need mending.	{1} n'a pas besoin d'être réparé.
+Only a master smith could mend the {1}.	Seul un maître forgeron pourrait réparer : {1}.
+You need level {1} Crafting to mend the {2}.	Il te faut le niveau {1} en Artisanat pour réparer : {2}.
+You need {1} to mend the {2}.	Il te faut {1} pour réparer : {2}.
+{1} is off your hotbar.	{1} n'est plus sur ta barre rapide.
+You have no {1} left.	Tu n'as plus de {1}.
+Your oldest grave crumbles away, and what was in it with it.	Ta plus vieille tombe s'effrite, et ce qu'elle contenait avec.
+You keep your most valuable things: {1}.	Tu gardes tes biens les plus précieux : {1}.
+The grave is empty.	La tombe est vide.
+There is not enough room in your inventory (Dropping {1} on the ground).	Pas assez de place dans ton inventaire ({1} tombe au sol).
+Your {1} is badly worn: get it mended soon.	Ton {1} est très usé : fais-le réparer bientôt.
+Your {1} has gone off.	Ton {1} s'est gâté.
+There's nothing here.	Il n'y a rien ici.
+Item{1}	Objet{1}
+That's sold out.	C'est épuisé.
+{1}: stolen. No honest trader will buy it.	{1} : volé. Aucun marchand honnête ne l'achètera.
+You need {1} to make {2}!	Il te faut {1} pour fabriquer {2} !
+Slot	Case
+You need room in your inventory to take off the {1}.	Il te faut de la place dans ton inventaire pour retirer : {1}.
+A grave of yours has crumbled away: what you left in it is lost.	Une de tes tombes s'est effritée : ce que tu y avais laissé est perdu.
+Type	Type
+Fence	Receleur
+{1} can't be sold here.	{1} ne se vend pas ici.
+{1} (sell for {2} gold{3})	{1} (vendre pour {2} gold{3})
+Requires	Exige
+No honest trader will buy that: it's stolen, and it shows.	Aucun marchand honnête n'achètera ça : c'est volé, et ça se voit.
+, stolen	, volé
+Nobody fights other players in towns, homesteads or the Shardrealm.	Personne ne combat d'autres joueurs dans les villes, les domaines ou le Royaume des Fragments.
+You can only fight other players on the arena's sand.	Tu ne peux combattre d'autres joueurs que sur le sable de l'arène.
+Players may fight each other here, outside towns, homesteads and the Shardrealm{1}. Strike one who isn't marked and you're marked: die then and you lose everything you carry.	Les joueurs peuvent se battre ici, hors des villes, des domaines et du Royaume des Fragments{1}. Frappe un joueur sans marque et la marque passe sur toi : péris alors et tu perds tout ce que tu portes.
+You can't slip away while you're marked: {1} more.	Tu ne peux pas t'éclipser tant que tu portes la marque : encore {1}.
+{1} has beaten {2} in the arena!	{1} a battu {2} dans l'arène !
+{1} has fallen in the arena.	{1} est tombé dans l'arène.
+You're beaten! You wake by the arena's gate, none the worse.	Défaite ! Tu te réveilles près de la porte de l'arène, sans mal.
+{1} is too far from your level to fight (more than {2} apart).	{1} est trop loin de ton niveau pour combattre (plus de {2} d'écart).
+You don't fight your own party.	Tu ne combats pas ton propre groupe.
+You struck first: you're marked for {1}! Die before it fades and you lose everything you carry, and the towns' guards are after you.	Tu as frappé en premier : la marque est sur toi pour {1} ! Péris avant qu'elle s'efface et tu perds tout ce que tu portes, et les gardes des villes sont à tes trousses.
+The mark on you fades: you're no longer hunted.	La marque s'efface : plus personne ne te traque.
+You died marked: everything you carried lies where you fell.	Tu as péri avec la marque : tout ce que tu portais gît là où la mort t'a pris.
+{1} died marked: what they carried lies where they fell, yours alone to take for a while.	{1} a péri avec la marque : ses affaires gisent là où la mort l'a pris, à prendre par toi seulement pour un moment.
+You have beaten {1} in the arena! ({2} wins)	Tu as battu {1} dans l'arène ! ({2} victoires)
+(within {1} levels of each other)	(à {1} niveaux l'un de l'autre au plus)
+Maps	Cartes
+{1}: stage {2}{3}.	{1} : étape {2}{3}.
+Quest objective met.	Objectif de quête atteint.
+No such quest.	Pas de quête de ce nom.
+gear with a rare shard	de l'équipement avec un fragment rare
+level {1} (you're {2})	niveau {1} (tu es niveau {2})
+another way	d'une autre façon
+"{1}" done	« {1} » fait
+Journal ({1}): {2}	Journal ({1}) : {2}
+Gather	Récolter
+On your homestead:	Sur ton domaine :
+Pick the pocket of	Faire les poches de
+You have finished this quest.	Tu as terminé cette quête.
+In progress.	En cours.
+Lift	Chiper
+a house's valuables	les objets de valeur d'une maison
+Shard Remnant	Reste de Fragment
+The {1}'s magic rises from it: a Shard Remnant!	La magie de {1} s'élève : un Reste de Fragment !
+Unmade	Défait
+The {1}'s magic rises from it, and drifts, and does not come for you.	La magie de {1} s'élève, dérive, et ne vient pas vers toi.
+Attitude	Attitude
+Times	Heures
+Lines	Répliques
+Thanks. I'll look into it.	Merci. Je vais y jeter un œil.
+Rumours	Rumeurs
+Rumour.	Rumeur.
+Gossip	Ragots
+Son	Fils
+Daughter	Fille
+Boy	Garçon
+Girl	Fille
+Lord	Seigneur
+Lady	Dame
+King	Roi
+Queen	Reine
+Brother	Frère
+Sister	Sœur
+End	Fin
+Personal	Personnel
+You cannot do that right now!	Tu ne peux pas faire ça pour l'instant !
+talk to	parler à
+Shared	Partagé
+Variable.	Variable.
+Wait	Attendre
+Teleport	Téléporter
+That	Ça
+Spring	Printemps
+Summer	Été
+Autumn	Automne
+Winter	Hiver
+Seasons	Saisons
+Swap.	Échanger.
+Senses	Sens
+You've made that one safe already.	Tu as déjà rendu celui-là inoffensif.
+You wedge the plate and cut the cord: the trap's harmless now.	Tu cales la plaque et tranches la corde : le piège est inoffensif maintenant.
+Your hand slips...	Ta main glisse...
+Something about the {1} catches your eye.	Quelque chose dans {1} attire ton regard.
+You spot a trap set in the floor.	Tu repères un piège posé dans le sol.
+You feel a draught on your face. It's coming through the rock.	Tu sens un courant d'air sur ton visage. Il passe à travers la roche.
+Passage	Passage
+Story	Histoire
+Welcome to Shards of Ashen, {1}!	Bienvenue dans Shards of Ashen, {1} !
+Press H (or F1) for your journal: what you can make and gather, quests and controls.	Appuie sur H (ou F1) pour ton journal : ce que tu peux fabriquer et récolter, les quêtes et les commandes.
+The trade is off.	L'échange est annulé.
+Inventory	Inventaire
+Slot{1}	Case{1}
+That leads nowhere!	Ça ne mène nulle part !
+There's no day or night to sleep through.	Il n'y a ni jour ni nuit à passer en dormant.
+You're too wound up to sleep after that fight.	Après ce combat, impossible de trouver le sommeil.
+{1} is a brewer's art now, not a spell: Shards can't mend a body or sharpen an eye. You have {2} {3}s instead.	{1} est maintenant l'art des brasseurs, pas un sort : les Fragments ne peuvent ni réparer un corps ni aiguiser un œil. Tu as {2} {3}s à la place.
+{1} is no longer a spell. You have {2} gold for it instead.	{1} n'est plus un sort. Tu as {2} gold à la place.
+Equipment	Équipement
+Foes	Ennemis
+You can't sleep with enemies nearby!	Tu ne peux pas dormir avec des ennemis à proximité !
+Morning	Matin
+Evening	Soir
+Fade	Fondu
+Hold	Tenir
+Text	Texte
+You hear a click.	Tu entends un clic.
+The rune drinks the Shards and flares blue: the {1} shardstone is active to you.	La rune boit les Fragments et s'embrase de bleu : la pierre-fragment de {1} est active pour toi.
+The world blurs... and you step out by the {1} shardstone.	Le monde se brouille... et tu sors près de la pierre-fragment de {1}.
+Bind the {1} into which? It's gone into the gear for good. (Shardcraft {2})	Lier {1} à quoi ? Ce sera dans l'équipement pour de bon. (Fragmancie {2})
+The shard melts into the {1}: it's {2} now.	Le fragment fond dans {1} : c'est maintenant {2}.
+The stone is silent.	La pierre est silencieuse.
+The {1} shardstone stands dormant: its rune is dark and cold under your hand. Once it's active it knows you, and you can travel to it from any shardstone you've activated.	La pierre-fragment de {1} est endormie : sa rune est sombre et froide sous ta main. Une fois active, elle te connaît, et tu peux y voyager depuis n'importe quelle pierre-fragment que tu as activée.
+Activating the shardstone	Activation de la pierre-fragment
+Waystone.	Pierre de passage.
+You need to stand by an active shardstone to travel.	Il te faut te tenir près d'une pierre-fragment active pour voyager.
+Something bright is left in the dust: {1}!	Quelque chose de brillant reste dans la poussière : {1} !
+There's nothing in your pack the {1} will bind to.	Rien dans ton sac ne se liera à {1}.
+You need level {1} Shardcraft to enchant (you have {2}).	Il te faut le niveau {1} en Fragmancie pour enchanter (tu as {2}).
+Enchanting it	Enchantement
+Activate	Activer
+Shardstone.	Pierre-fragment.
+Travelling	Voyage
+Activate it ({1})	L'activer ({1})
+Leave it.	La laisser.
+{1} Shard{2}	{1} Fragment{2:/s}
+{1} needs {2} and you have {3}.	{1} demande {2} et tu as {3}.
+an unseen hand brings you a thing up to {1} tiles away	une main invisible t'apporte une chose jusqu'à {1} cases
+a hush round you for {1} s: whatever you fight makes no sound	un silence autour de toi pendant {1} s : ce que tu combats ne fait aucun bruit
+heals {1} hitpoints	soigne {1} points de vie
+You break down the {1}	Tu démontes : {1}
+Magic in Ashen now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	La magie d'Ashen repose maintenant sur les Fragments, et tu en as {1} pour commencer. Apprends un sort de son parchemin, pour de bon, et lance-le depuis Canalisation (la boîte des Stats).
+{1}: your reward	{1} : ta récompense
+({1}-{2} with your Channeling)	({1}-{2} avec ta Canalisation)
+, {1} for {2} s	, {1} pendant {2} s
+, reaching {1} tiles	, jusqu'à {1} cases
+, leaping on to {1} more {2} near it ({3}% of a hit each)	, qui rebondit sur {1} {2} de plus à côté ({3}% d'un coup chacun)
+, and it flees from you for {1} s	, et il te fuit pendant {1} s
+There's no magic in the {1} to break down.	Il n'y a pas de magie à extraire de {1}.
+Start	Début
+Upgrade.	Améliorer.
+Dismantle it (+{1})	Le démonter (+{1})
+Keep it	Le garder
+Rank	Rang
+Armour	Armure
+You go carefully, watching all round.	Tu avances avec prudence, l'œil partout.
+You stand ready to fight.	Tu te tiens prêt à combattre.
+You gather the Shards about you.	Tu rassembles les Fragments autour de toi.
+You move softly, keeping low.	Tu avances à pas feutrés, en te baissant.
+Stances	Postures
+None	Aucune
+Cone	Cône
+a Stranger	un Étranger
+Stranger	Étranger
+The fine	L'amende
+You've a nerve, walking in here. {1} wants {2} gold for your name, and then you're only distrusted. Every guard in the town knows your face till then.	Tu as du culot d'entrer ici. {1} veut {2} gold pour ton nom, et ton rang n'est alors plus que Suspect. D'ici là, chaque garde de la ville connaît ton visage.
+Ranks	Rangs
+Standing.	Réputation.
+{1} has had enough of you: you're an Outlaw there now, and its guards will come for you.	{1} en a assez de toi : ton rang y est maintenant Proscrit, et ses gardes viendront te chercher.
+The {1} won't serve you: you're an Outlaw in {2}.	{1} ne te servira pas : ton rang à {2} est Proscrit.
+Trusted	Estimé
+A guard steps up beside you: "Put it back. I didn't see that."	Un garde s'approche de toi : « Remets ça en place. Je n'ai rien vu. »
+Hush	Silence
+Honoured	Honoré
+A guard takes {1} gold off you for it, and that's an end of it. This time.	Un garde te prend {1} gold pour ça, et on n'en parle plus. Pour cette fois.
+Distrusted	Suspect
+{1} thinks better of you: you're {2} there now.	{1} pense plus de bien de toi : ton rang y est maintenant {2}.
+{1} thinks worse of you: you're {2} there now.	{1} pense moins de bien de toi : ton rang y est maintenant {2}.
+Fine	Amende
+Pay the fine.	Payer l'amende.
+Depth	Profondeur
+Guards	Gardes
+Three Cups	Trois Gobelets
+High or Low	Plus ou Moins
+Dragon Dice	Dés du Dragon
+Picking the Lock	Crocheter la serrure
+Arm Wrestling	Bras de fer
+Ringing the Rocks	Faire sonner les rochers
+That's enough gambling for now. You can play again in {1}.	Assez de jeux d'argent pour l'instant. Tu pourras rejouer dans {1}.
+You win {1} at {2}!	Tu gagnes {1} à {2} !
+Innkeeper	Aubergiste
+Welcome to the Green Dragon! Something to drink? Or do you fancy your luck at a game?	Bienvenue au Dragon Vert ! Quelque chose à boire ? Ou tu veux tenter ta chance à un jeu ?
+Dragon Dice is played at the tables, against each other. Someone puts a stake down and everyone at the tavern has {1} seconds to match it. Then you all roll three dice, and the highest takes the lot! Nobody to play? I'll match you myself.	Les Dés du Dragon se jouent aux tables, les uns contre les autres. Quelqu'un pose une mise et tout le monde à la taverne a {1} secondes pour la suivre. Puis vous lancez tous trois dés, et le plus haut rafle tout ! Personne pour jouer ? Je suivrai ta mise moi-même.
+{1} starts a round of Dragon Dice at {2}! Join at the dice table within {3} seconds.	{1} lance une partie de Dés du Dragon à {2} ! Rejoins la table de dés dans les {3} secondes.
+Dragon Dice: {1} wins the pot of {2}!	Dés du Dragon : {1} gagne la cagnotte de {2} !
+Dragon Dice: a tie! {1} share the pot of {2}.	Dés du Dragon : égalité ! {1} se partagent la cagnotte de {2}.
+Fancy your luck? I've three cups and a die back here.	Tu veux tenter ta chance ? J'ai trois gobelets et un dé là derrière.
+You haven't got {1} to stake.	Tu n'as pas {1} à miser.
+a minute	une minute
+Three Cups.	Trois Gobelets.
+High or Low.	Plus ou Moins.
+Something to eat or drink.	Quelque chose à manger ou à boire.
+How does Dragon Dice work?	Comment marchent les Dés du Dragon ?
+That round has been rolled already.	Cette partie a déjà été lancée.
+The table is full this round.	La table est pleine pour cette partie.
+valuables:{1}@{2},{3}	valuables:{1}@{2},{3}
+steal:{1}@{2},{3}	steal:{1}@{2},{3}
+You lift {1} from the {2}, unseen.	Tu chipes {1} sur {2}, sans être vu.
+You lift {1} from among someone's precious things.	Tu chipes {1} parmi les choses précieuses de quelqu'un.
+You slip the {1} off the shelf and into your pack.	Tu fais glisser {1} de l'étagère dans ton sac.
+The {1} catches your hand: "Thief! Guard!"	{1} te saisit la main : « Au voleur ! Garde ! »
+Fence.	Receleur.
+Rate	Taux
+The {1} won't serve you: they remember your hand in their till.	{1} ne te servira pas : on se souvient de ta main dans la caisse.
+You've had your hand in that pocket once already. Best wait.	Ta main est déjà passée dans cette poche. Mieux vaut attendre.
+Pickpocket.	Faire les poches.
+You'd never get your hand in there unseen (Stealth {1}, about).	Impossible d'y glisser la main sans être vu (Furtivité {1}, à peu près).
+Gold	Or
+You've been through these already. There's nothing left worth the risk.	Tu as déjà fouillé ici. Il ne reste rien qui vaille le risque.
+There's nothing on these shelves worth the risk.	Rien sur ces étagères ne vaut le risque.
+You've taken from these shelves already. They'd notice.	Tu t'es déjà servi sur ces étagères. Ça se remarquerait.
+Hint	Indice
+Watched	Surveillé
+Items	Objets
+Something rattles as you reach in. You freeze, and leave it.	Quelque chose cliquette quand tu tends la main. Tu te figes, et tu laisses tomber.
+Hint.	Indice.
+Side	Côté
+Thieving	Vol
+nothing worth having	rien qui vaille la peine
+Rattle	Cliquetis
+Minutes	Minutes
+in the wilds	dans la nature
+{1}, raised by the people of Ashen. Most given by: {2}.	{1}, levé par les gens d'Ashen. Le plus donné par : {2}.
+Party	Groupe
+{1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1} t'invite dans son groupe : les victimes et les étapes de quête sont partagées entre ceux d'entre vous qui sont proches, et /p pour parler au groupe.
+You ask {1} to join your party.	Tu invites {1} dans ton groupe.
+{1} has joined the party ({2}).	{1} a rejoint le groupe ({2}).
+{1} is your friend now.	{1} fait maintenant partie de tes amis.
+{1} is no longer on your friends list.	{1} ne fait plus partie de ta liste d'amis.
+at a homestead	dans un domaine
+in Ashen	à Ashen
+{1} would like to trade with you.	{1} voudrait échanger avec toi.
+You ask {1} to trade.	Tu proposes un échange à {1}.
+The trade is done.	L'échange est conclu.
+A gift	Un cadeau
+{1} offers you {2}.	{1} t'offre {2}.
+You offer {1} {2}.	Tu offres {2} à {1}.
+{1} takes your gift.	{1} accepte ton cadeau.
+We're putting {1} right, for everyone, with whatever folk can spare. So far: {2}.	On remet {1} en état, pour tout le monde, avec ce que chacun peut donner. Jusqu'ici : {2}.
+You give {1} to {2}. Thank you!	Tu donnes {1} à {2}. Merci !
+The town crier	Le crieur public
+Bounty taken.	Prime acceptée.
+Bounty: {1} of {2} {3}.	Prime : {1} sur {2} {3}.
+creatures slain	créatures tuées
+secrets found	secrets trouvés
+arena wins	victoires à l'arène
+floors of the Shifting Deep	étages des Profondeurs Changeantes
+Yours: {1}.	À toi : {1}.
+The hall of records	La salle des archives
+Guestbook	Livre d'or
+Who has visited: {1}.	Qui est venu : {1}.
+Gift box	Boîte à cadeaux
+Leave something for {1}?	Laisser quelque chose pour {1} ?
+You leave it in {1}'s gift box.	Tu le laisses dans la boîte à cadeaux de {1}.
+The shops have had their deliveries, and the Shard Blooms have grown.	Les boutiques ont été livrées, et les Fleurs de Fragments ont poussé.
+The barkeep kept your Dragon Dice winnings for you: {1} gold.	Le tavernier a gardé tes gains aux Dés du Dragon : {1} gold.
+Attitude=Good Name={1} Pause=0-2	Attitude=Good Name={1} Pause=0-2
+Sellsword	Mercenaire
+{1} is busy just now.	{1} est occupé pour l'instant.
+You've just asked {1}.	Tu viens de le demander à {1}.
+{1} is in your party already.	{1} fait déjà partie de ton groupe.
+{1} is in a party already.	{1} fait déjà partie d'un groupe.
+[Page]
+Animation	Animation
+Sounds	Sons
+Enabled	Activé
+Ambient	Ambiance
+Themes	Thèmes
+Combat	Combat
+Outside	Dehors
+Hearth	Foyer
+Music	Musique
+Cave	Grotte
+Lair	Repaire
+Indoors	Intérieur
+Walls	Murs
+Doors	Portes
+Windows	Fenêtres
+Roofs	Toits
+Furniture	Meubles
+Lights	Lumières
+Garden	Jardin
+Workshops	Ateliers
+Take down	Démonter
+Click to take down the top thing on a tile: a roof, a workshop, what's	Clique pour démonter ce qui est en haut d'une case : un toit, un atelier, ce qui est
+on the ground, then the ground. You get half the materials back.	par terre, puis le sol. Tu récupères la moitié des matériaux.
+Choose something to build, then click (or drag) on your land.	Choisis quoi construire, puis clique (ou fais glisser) sur ton terrain.
+{1} Shards	{1} Fragments
+Needs: {1}	Il faut : {1}
+(you: {1})	(toi : {1})
+a wall	un mur
+Goes on {1}	Se pose sur {1}
+ERROR didn't load:	ERREUR pas chargé :
+ERROR (unhandled)	ERREUR (non gérée)
+The page was hidden	La page a été cachée
+The page was shown	La page a été affichée
+The device is online	L'appareil est en ligne
+The device went offline	L'appareil est passé hors ligne
+, {1} MB in use	, {1} Mo utilisés
+Browser: {1}	Navigateur : {1}
+in the app	dans l'appli
+in a browser	dans un navigateur
+Screen: {1}x{2}, window {3}x{4}, pixel ratio {5},	Écran : {1}x{2}, fenêtre {3}x{4}, densité de pixels {5},
+not measured	non mesuré
+(nothing noted yet)	(rien de noté pour l'instant)
+Embers	Braises
+Prints	Empreintes
+You have {1} gold.	Tu as {1} gold.
+Escape	S'échapper
+Give up	Abandonner
+Leave the table	Quitter la table
+Set the pin	Bloquer la goupille
+Push!	Pousse !
+Take on {1} ({2} gold)	Défier {1} ({2} gold)
+The innkeeper, for {1} gold	L'aubergiste, pour {1} gold
+Wait for a challenger: {1} gold	Attendre un adversaire : {1} gold
+The {1} cup	Le gobelet {1}
+Higher!	Plus haut !
+Lower!	Plus bas !
+Join in ({1} gold)	Participer ({1} gold)
+Start a round at %d gold	Lancer une manche à %d gold
+Again: %d gold	Encore : %d gold
+Stake %d gold	Miser %d gold
+The lock springs open!	La serrure s'ouvre d'un coup !
+The nail slips out of the lock.	Le clou glisse hors de la serrure.
+The pick slips! {1} more and it's out. Pin {2} of {3}.	Le crochet glisse ! Encore {1} et il sort. Goupille {2} sur {3}.
+Click! A pin sets. Pin {1} of {2}.	Clic ! Une goupille se bloque. Goupille {1} sur {2}.
+Set each pin as it crosses the line (tap, click or Space). Pin {1} of {2}.	Bloque chaque goupille quand elle passe la ligne (touche, clic ou Espace). Goupille {1} sur {2}.
+The last note hangs in the valley, and the rocks fall still.	La dernière note flotte dans la vallée, et les rochers se taisent.
+The tune's lost. The rocks hum on, out of step.	L'air est perdu. Les rochers continuent de bourdonner, à contretemps.
+(Round {1} of {2}.)	(Manche {1} sur {2}.)
+A wrong note! {1} more and the tune's lost. Listen again...	Une fausse note ! Encore {1} et l'air est perdu. Écoute encore...
+Right! Now a note longer. Listen...	Juste ! Maintenant une note de plus. Écoute...
+Listen...	Écoute...
+Ring it back: tap the rocks (or 1 to 5). {1} of {2} notes.	Rejoue-le : touche les rochers (ou 1 à 5). {1} notes sur {2}.
+You pin {1}'s hand to the table! You take {2} gold.	Tu plaques la main de {1} sur la table ! Tu prends {2} gold.
+{1} pins your hand to the table.	{1} plaque ta main sur la table.
+Push! (Tap, click or Space, as fast as you can.) {1} seconds left.	Pousse ! (Touche, clic ou Espace, aussi vite que possible.) Encore {1} secondes.
+You sit, elbow on the table, and wait for a challenger. (Leave to take your stake back.)	Tu t'assieds, le coude sur la table, et tu attends un adversaire. (Pars pour reprendre ta mise.)
+{1} is sat at the table, waiting for a challenger, for {2} gold.	{1} attend un adversaire à la table, pour {2} gold.
+Arm wrestling, for a stake: take on the innkeeper, or wait for another player to take you on. Push as fast as you can: the stronger you are, the more each push counts.	Bras de fer, avec une mise : défie l'aubergiste, ou attends qu'un autre joueur te défie. Pousse aussi vite que possible : plus ta force est grande, plus chaque poussée compte.
+A coin under one of three cups. Find it, and you get two and a half times your stake back.	Une pièce sous l'un des trois gobelets. Trouve-la, et tu récupères deux fois et demie ta mise.
+The innkeeper shuffles the cups round and round...	L'aubergiste fait tourner les gobelets encore et encore...
+Which cup hides the coin?	Quel gobelet cache la pièce ?
+There's the coin! You win {1} gold.	Voilà la pièce ! Tu gagnes {1} gold.
+Empty! The coin was under the {1} cup.	Vide ! La pièce était sous le gobelet {1}.
+The innkeeper rolls a die. Will the next roll be higher, or lower? Right, and you get 1.4 times your stake back.	L'aubergiste lance un dé. Le prochain lancer sera-t-il plus haut, ou plus bas ? Juste, et tu récupères 1,4 fois ta mise.
+The innkeeper rolls...	L'aubergiste lance...
+A {1}. Higher, or lower? (The same again, and the house wins.)	Un {1}. Plus haut, ou plus bas ? (Le même, et la maison gagne.)
+A {1}! You called it, and win {2} gold.	Un {1} ! Bien vu, tu gagnes {2} gold.
+the same again: the house wins	le même : la maison gagne
+not this time	pas cette fois
+The dice tumble across the baize...	Les dés roulent sur le tapis...
+{1} {2} in, at {3} gold each. The dice roll in {4} seconds.	{1} {2} dedans, à {3} gold chacun. Les dés roulent dans {4} secondes.
+{1} wins the pot of {2} gold!	{1} remporte la cagnotte de {2} gold !
+A tie! {1} share the pot of {2} gold.	Égalité ! {1} se partagent la cagnotte de {2} gold.
+You take {1} gold.	Tu prends {1} gold.
+Put a stake down and start a round: everyone at the tavern has 20 seconds to match it. The highest roll of three dice takes the pot.	Pose une mise et lance une manche : tout le monde à la taverne a 20 secondes pour suivre. Le plus haut lancer de trois dés remporte la cagnotte.
+Blend	Fondu
+Texture	Texture
+Round	Arrondi
+Raised	Relief
+Foam	Écume
+Leave the game	Quitter la partie
+Zoom Out	Dézoomer
+Zoom In	Zoomer
+Journal and help (H)	Journal et aide (H)
+Admin panel|give items, set skills	Panneau d'admin|donner des objets, régler les compétences
+Admin panel	Panneau d'admin
+give items, set skills	donner des objets, régler les compétences
+Bag|your stats, gear, quests and pack	Sac|tes stats, ton équipement, tes quêtes et ton sac
+Bag	Sac
+your stats, gear, quests and pack	tes stats, ton équipement, tes quêtes et ton sac
+Chat|the messages, and a line to say something	Chat|les messages, et une ligne pour dire quelque chose
+Chat	Chat
+the messages, and a line to say something	les messages, et une ligne pour dire quelque chose
+Journal and help	Journal et aide
+Menu|options, and leaving the game	Menu|options, et quitter la partie
+Menu	Menu
+options, and leaving the game	options, et quitter la partie
+Forms:	Formes :
+The stance you're in	Ta posture actuelle
+Tap	Touche
+to take it	pour la prendre
+(Q: the next one)	(Q : la suivante)
+Your level|the best of your fighting skills	Ton niveau|la meilleure de tes compétences de combat
+Your level	Ton niveau
+the best of your fighting skills	la meilleure de tes compétences de combat
+{1} / {2} hitpoints	{1} / {2} points de vie
+Spent to cast spells and wake shardstones	Dépensés pour lancer des sorts et éveiller les pierres-fragments
+~Picked up where beasts fall, found in chests and the earth, and given for quests	~Ramassés là où tombent les bêtes, trouvés dans les coffres et la terre, et donnés pour les quêtes
+The browser's full screen: F11 leaves it	Le navigateur est en plein écran : F11 pour en sortir
+Full screen (F11)	Plein écran (F11)
+~Tap: the whole map, its places named	~Touche : toute la carte, avec le nom des lieux
+~Click (or M): the whole map, its places named	~Clic (ou M) : toute la carte, avec le nom des lieux
+Scroll Up	Défiler vers le haut
+Scroll Down	Défiler vers le bas
+Whisper	Chuchoter
+Buy	Acheter
+{1} how many {2}?	{1} combien de {2} ?
+In the bank	À la banque
+You have	Tu as
+Drop X	Lâcher X
+Equal	Égal
+Minus	Moins
+{1} {2} {3}, auto	{1} {2} {3}, auto
+Left-click ground	Clic gauche sur le sol
+Walk there.	Y marcher.
+Left-click a thing	Clic gauche sur une chose
+Do its main action: Talk to a person, Pick up an item, Attack an enemy, Use an object...	Faire son action principale : Parler à une personne, Ramasser un objet, Attaquer un ennemi, Utiliser un objet...
+Right-click	Clic droit
+A menu of everything you can do with it: Examine, Eat, Use, Drop All, Drop 1...	Un menu de tout ce que tu peux en faire : Examiner, Manger, Utiliser, Tout lâcher, En lâcher 1...
+Use, then click	Utiliser, puis cliquer
+Pick Use on an item you carry, then click what to use it with. Right-click to stop.	Choisis Utiliser sur un objet que tu portes, puis clique sur ce avec quoi l'utiliser. Clic droit pour arrêter.
+Shops, bank, crafting	Boutiques, banque, artisanat
+Left-click buys, sells, banks or makes one. Right-click for more (Buy 5, Sell All, Value, Inspect...).	Le clic gauche achète, vend, dépose ou fabrique un exemplaire. Clic droit pour plus (Acheter 5, Tout vendre, Valeur, Inspecter...).
+Box arrows, wheel	Flèches de la boîte, molette
+Next or previous page of a shop, bank or crafting list (or turn the mouse wheel over it).	Page suivante ou précédente d'une boutique, de la banque ou d'une liste d'artisanat (ou tourne la molette de la souris dessus).
+Skills (Stats)	Compétences (Stats)
+Point at one: its level. Right-click: progress to the next. Left-click: its guide. How to level each, and what it opens: the journal's Skills tab.	Pointe-en une : son niveau. Clic droit : la progression vers le suivant. Clic gauche : son guide. Comment monter chacune, et ce qu'elle ouvre : l'onglet Compétences du journal.
+Stats / Gear / Spells	Stats / Équipement / Sorts
+Wield, Wear	Manier, Porter
+Left-click a weapon, shield or armour in your inventory to put it on. Click it in the Gear tab to take it off.	Clique gauche sur une arme, un bouclier ou une armure de ton inventaire pour l'équiper. Clique dessus dans l'onglet Équipement pour l'enlever.
+Hotbar	Barre rapide
+How many	Combien
+Banking, taking out or dropping a stack: 1, 5, 10, All, or X to type how many. Drag something out of your pack onto the ground to drop it.	Déposer, retirer ou lâcher une pile : 1, 5, 10, Tout, ou X pour taper combien. Fais glisser quelque chose de ton sac vers le sol pour le lâcher.
+Dying	Mourir
+Sun and moon	Soleil et lune
+Above the minimap: point at it for the time of day. Everyone shares the same sky.	Au-dessus de la mini-carte : pointe-le pour l'heure du jour. Tout le monde partage le même ciel.
+Click a bed: you wake healed. The night only passes when everyone playing is asleep.	Clique sur un lit : tu te réveilles avec toute ta santé. La nuit ne passe que quand tous ceux qui jouent dorment.
+Wear and repair	Usure et réparation
+Minimap - and +	Mini-carte - et +
+Zoom the minimap out and in.	Dézoomer et zoomer la mini-carte.
+Mouse wheel	Molette de la souris
+Over the map: zoom in and out (75% to 300%).	Sur la carte : zoomer et dézoomer (75 % à 300 %).
+Other players	Autres joueurs
+The arena	L'arène
+Farming	Agriculture
+Use a spade anywhere on open ground: now and then you turn up gold or something useful, and sometimes Shards.	Utilise une bêche n'importe où sur un sol dégagé : de temps en temps tu déterres de l'or ou quelque chose d'utile, et parfois des Fragments.
+Spells and Shards	Sorts et Fragments
+Shardstones	Pierres-fragments
+A shardstone stands dormant till you activate it, once, with a few Shards. Travel from an active one and the world map opens with every stone you've activated on it: pick one to go there.	Une pierre-fragment reste en sommeil jusqu'à ce que tu l'actives, une fois, avec quelques Fragments. Voyage depuis une pierre active et la carte du monde s'ouvre avec toutes les pierres que tu as activées : choisis-en une pour y aller.
+The working of Shard magic: activating shardstones, dismantling gear (now and then a rare shard is left in the dust), writing a spell of your own, and enchanting. Use a rare shard on a weapon or armour in your pack (Enchant) to bind it in for good.	Le travail de la magie des Fragments : activer les pierres-fragments, démonter l'équipement (de temps en temps un éclat rare reste dans la poussière), écrire un sort à toi, et enchanter. Utilise un éclat rare sur une arme ou une armure de ton sac (Enchanter) pour l'y lier pour de bon.
+Raids	Raids
+Now and then monsters attack a town in waves. Fight them off together: gold for each one you kill, and a reward for everyone who holds out.	De temps en temps des monstres attaquent une ville par vagues. Repoussez-les ensemble : de l'or pour chacun que tu tues, et une récompense pour tous ceux qui tiennent bon.
+Shop signs	Enseignes des boutiques
+Every shop has a sign by its door with a picture of what it sells.	Chaque boutique a une enseigne près de sa porte avec une image de ce qu'elle vend.
+Dropping things	Lâcher des choses
+Your homestead	Ton domaine
+The settler by Ashford's homestone gives you an Access Crystal for a little building work. Touch a homestone (by every shardstone) to go home, or to visit a friend's. At home its homestone says who may visit: only you, friends, or anyone.	Le colon près de la pierre de domaine d'Ashford te donne un Cristal d'accès contre un peu de travail de construction. Touche une pierre de domaine (près de chaque pierre-fragment) pour rentrer chez toi, ou pour rendre visite à un ami. Chez toi, sa pierre de domaine dit qui peut venir : toi seulement, tes amis, ou tout le monde.
+Arrows or W A S D	Flèches ou W A S D
+Walk (two at once walks diagonally).	Marcher (deux à la fois pour marcher en diagonale).
+Talk to the other players (the chat).	Parler aux autres joueurs (le chat).
+H or F1	H ou F1
+Open or close this journal.	Ouvrir ou fermer ce journal.
+Build mode, on your own homestead (Esc or right-click to stop).	Mode construction, sur ton propre domaine (Échap ou clic droit pour arrêter).
+Esc	Échap
+Close a menu, box or this journal, or stop using an item. With nothing open: leave the game.	Fermer un menu, une boîte ou ce journal, ou arrêter d'utiliser un objet. Sans rien d'ouvert : quitter la partie.
+Use what's in that hotbar slot.	Utiliser ce qui est dans cette case de la barre rapide.
+Journal: pick a tab (Left and Right also work).	Journal : choisir un onglet (Gauche et Droite marchent aussi).
+Up / Down	Haut / Bas
+Journal: previous or next page (PgUp and PgDn too).	Journal : page précédente ou suivante (PgPréc et PgSuiv aussi).
+Full screen (or the button at the top left of the view).	Plein écran (ou le bouton en haut à gauche de la vue).
+Zoom the map in and out.	Zoomer et dézoomer la carte.
+Saving	Sauvegarde
+Automatic: the server keeps your game.	Automatique : le serveur garde ta partie.
+Invite	Inviter
+Remove	Retirer
+Letter	Lettre
+Accept	Accepter
+Decline	Refuser
+(in your party)	(dans ton groupe)
+Asks to be your friend	Te demande en ami
+You've asked them to be your friend	Tu lui as fait une demande d'ami
+· level {1}	· niveau {1}
+Away	Absent
+No friends on your list yet.	Pas encore d'amis dans ta liste.
+Right-click a player and choose Add friend, or type /friend and their name (or their Hallisium account's) in the chat.	Fais un clic droit sur un joueur et choisis Ajouter un ami, ou tape /friend et son nom (ou celui de son compte Hallisium) dans le chat.
+No records yet.	Pas encore de records.
+Nobody yet. It could be you.	Personne pour l'instant. Ça pourrait être toi.
+Yours: {1}	À toi : {1}
+No town knows you yet. You're a stranger everywhere.	Aucune ville ne te connaît encore. Partout, tu viens d'ailleurs.
+Skill:	Compétence :
+(any level)	(n'importe quel niveau)
+(yours: {1})	(le tien : {1})
++{1} XP	+{1} XP
+Can make now	Peut se fabriquer maintenant
+Missing items	Objets manquants
+Need level	Niveau requis
+Needs:	Il faut :
+Made at:	Fabriqué à :
+(crafting list)	(liste d'artisanat)
+Can gather now	Peut se récolter maintenant
+Need	Il faut
+Gives:	Donne :
+From	De
+Tool:	Outil :
+(you have one)	(tu en as un)
+or better	ou mieux
+(you need one)	(il t'en faut un)
+Where:	Où :
+Main story	Histoire principale
+Given by:	Donnée par :
+Locked until you have:	Verrouillée tant que tu n'as pas :
+You can start this now.	Tu peux la commencer maintenant.
+{1} to do	{1} à faire
+Known	Connu
+Needs {1} {2}	Il faut {1} {2}
+Not learnt	Pas appris
+{1} Shards a cast	{1} Fragments par lancer
+· ready again after {1} s	· de nouveau prêt après {1} s
+Upgrade: {1} ({2} {3}, {4} Shards): {5}. Its scroll comes from quests.	Amélioration : {1} ({2} {3}, {4} Fragments) : {5}. Son parchemin vient des quêtes.
+Ready in {1} s	Prêt dans {1} s
+Not enough Shards	Pas assez de Fragments
+On hotbar	Sur la barre rapide
+Learn it from its scroll: they're rare (quests, and the wizards, who charge dearly).	Apprends-le de son parchemin : ils sont rares (les quêtes, et les mages, qui les font payer cher).
+No skills.	Pas de compétences.
+Icon.	Icône.
+Level {1}: mastered	Niveau {1} : maîtrisé
+Level {1} · {2}% of the way to {3}	Niveau {1} · {2} % du chemin vers {3}
+How to level it	Comment la monter
+What opens up	Ce qui s'ouvre
+Nothing more than getting better at it.	Rien de plus que d'y devenir meilleur.
+Lv	Nv
+Stance forms	Formes de posture
+{1} of {2} bound	{1} sur {2} liées
+A form is a way of holding the Shards in you, taught by people round the world. A bound	Une forme est une façon de tenir les Fragments en toi, enseignée par des gens de par le monde. Une forme liée
+form counts while you're in its stance. Bind or let go of them at any shardstone you've woken: Bind forms, on its	compte tant que tu es dans sa posture. Lie-les ou libère-les à n'importe quelle pierre-fragment que tu as éveillée : Lier des formes, sur sa
+travel map.	carte de voyage.
+not bound	non liée
+Mouse	Souris
+Keyboard	Clavier
+Mouse (more)	Souris (suite)
+Journal	Journal
+- what you can make, gather and do	- ce que tu peux fabriquer, récolter et faire
+Crafting ({1})	Artisanat ({1})
+Gathering ({1})	Récolte ({1})
+Quests ({1})	Quêtes ({1})
+Spells ({1}/{2})	Sorts ({1}/{2})
+Records	Records
+Friends ({1}/{2})	Amis ({1}/{2})
+Controls	Commandes
+Opening the journal...	Ouverture du journal...
+Nothing to make yet.	Rien à fabriquer pour l'instant.
+Nothing to gather yet.	Rien à récolter pour l'instant.
+In hand ({1})	En cours ({1})
+Done ({1})	Terminées ({1})
+No quests done yet.	Aucune quête terminée pour l'instant.
+No quests in hand.	Aucune quête en cours.
+No spells.	Pas de sorts.
+{1} of {2} recipes ready to make	{1} recettes sur {2} prêtes à fabriquer
+{1} of {2} you can gather now	{1} sur {2} que tu peux récolter maintenant
+What each town thinks of you: its prices, its guards and its doors	Ce que chaque ville pense de toi : ses prix, ses gardes et ses portes
+The quests you've seen through	Les quêtes que tu as menées à bien
+Click a quest to follow it on the map	Clique sur une quête pour la suivre sur la carte
+You carry {1} Shards	Tu portes {1} Fragments
+Kept for everyone who's played here	Gardés pour tous ceux qui ont joué ici
+Right-click a player, or /friend Name, to add a friend	Clic droit sur un joueur, ou /friend Nom, pour ajouter un ami
+Click a skill: how to level it, and what each level opens up	Clique sur une compétence : comment la monter, et ce que chaque niveau ouvre
+The world carries on while the journal is open	Le monde continue pendant que le journal est ouvert
+Page {1} of {2} {3}	Page {1} sur {2} {3}
+H, F1 or Esc: close 1-8 or Left/Right: tabs Up/Down or PgUp/PgDn: pages	H, F1 ou Échap : fermer 1-8 ou Gauche/Droite : onglets Haut/Bas ou PgPréc/PgSuiv : pages
+Skin	Peau
+Hair	Cheveux
+Top	Haut
+Bottom	Bas
+Body	Corps
+Body 1	Corps 1
+Body 2	Corps 2
+Any colour	N'importe quelle couleur
+{1}: any colour	{1} : n'importe quelle couleur
+Shards of Ashen	Shards of Ashen
+Your game is saved. See you soon!	Ta partie est sauvegardée. À bientôt !
+Open to the internet (your friends join by a link)	Ouverte à Internet (tes amis rejoignent par un lien)
+Open to the internet: sign in on the start screen first	Ouverte à Internet : connecte-toi d'abord sur l'écran d'accueil
+Others join from Join a local game, or at {1}	Les autres rejoignent depuis Rejoindre une partie locale, ou à {1}
+Getting the log...	Récupération du journal...
+Sending...	Envoi...
+at pixel {1},{2}	au pixel {1},{2}
+Sent. Thank you: support will look at it.	Envoyé. Merci : le support va y jeter un œil.
+Trading with {1}	Échange avec {1}
+Back	Retour
+Put in	Mettre
+You've accepted. Waiting for {1}...	Tu as accepté. En attente de {1}...
+{1} has accepted: accept too, and it's done.	{1} a accepté : accepte aussi, et c'est fait.
+When you're both happy, both accept.	Quand ça vous va à tous les deux, acceptez tous les deux.
+The {1} words didn't load: {2}	Les mots en {1} n'ont pas chargé : {2}
+Zoom	Zoom
+not begun	pas commencée
+{1}: 0 (not begun) to {2} (done)	{1} : 0 (pas commencée) à {2} (terminée)
+The full game is bought once, from the start screen, for your Hallisium account: then it's yours	Le jeu complet s'achète une fois, depuis l'écran d'accueil, pour ton compte Hallisium : ensuite il est à toi
+in the app and in a browser too, and your character keeps everything they've done.	dans l'appli et dans un navigateur aussi, et ton personnage garde tout ce qu'il a fait.
+The demo	La démo
+That's as far as the demo goes: the full game goes on from here, past the Isle to the	La démo s'arrête là : le jeu complet continue d'ici, au-delà de l'Île, vers le
+mainland, its towns and the rest of the story.	continent, ses villes et la suite de l'histoire.
+That's level {1}, as far as the demo goes. What you learn from here is kept,	C'est le niveau {1}, aussi loin que va la démo. Ce que tu apprends à partir d'ici est gardé,
+and counts as soon as you have the full game.	et compte dès que tu as le jeu complet.
+Sell	Vendre
+Price of	Prix de
+it sells them for about {1}.	il les vend environ {1}.
+You have {1}.	Tu as {1}.
+Finding your characters...	Recherche de tes personnages...
+This character will live on this server only, saved online here, not on your device. It can never join another server.	Ce personnage ne vivra que sur ce serveur, sauvegardé en ligne ici, pas sur ton appareil. Il ne pourra jamais rejoindre un autre serveur.
+This character will live on this server only, saved online here, not on your device.	Ce personnage ne vivra que sur ce serveur, sauvegardé en ligne ici, pas sur ton appareil.
+It can never join another server.	Il ne pourra jamais rejoindre un autre serveur.
+You can copy it to your own device later, but a copy can never come back.	Tu pourras le copier sur ton propre appareil plus tard, mais une copie ne pourra jamais revenir.
+Characters here live on this server, saved online here and not on your device.	Les personnages d'ici vivent sur ce serveur, sauvegardés en ligne ici et pas sur ton appareil.
+This character will be saved on this device only, with no copy online. It can only be played in your own game.	Ce personnage ne sera sauvegardé que sur cet appareil, sans copie en ligne. Il ne pourra être joué que dans ta propre partie.
+This character will be saved on this device only, with no copy online.	Ce personnage ne sera sauvegardé que sur cet appareil, sans copie en ligne.
+It can only be played in your own game.	Il ne pourra être joué que dans ta propre partie.
+It can never join a public server.	Il ne pourra jamais rejoindre un serveur public.
+Characters here are saved on this device only.	Les personnages d'ici ne sont sauvegardés que sur cet appareil.
+This character will live in your host's game, saved on their device. It can never move to another game.	Ce personnage vivra dans la partie de ton hôte, sauvegardé sur son appareil. Il ne pourra jamais aller dans une autre partie.
+This character will live in your host's game, saved on their device.	Ce personnage vivra dans la partie de ton hôte, sauvegardé sur son appareil.
+It can never move to another game.	Il ne pourra jamais aller dans une autre partie.
+Characters here live in your host's game, saved on their device.	Les personnages d'ici vivent dans la partie de ton hôte, sauvegardés sur son appareil.
+This character will live on this server only.	Ce personnage ne vivra que sur ce serveur.
+Characters here live on this server only.	Les personnages d'ici ne vivent que sur ce serveur.
+A copy of {1} is on this device: go back to the main menu and open Single player to find it.	Une copie de {1} est sur cet appareil : retourne au menu principal et ouvre Un joueur pour la trouver.
+A copy of {1} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.	Une copie de {1} est téléchargée. Ouvre Un joueur dans l'appli Shards of Ashen, et choisis le fichier là-bas.
+Bring {1} here (copied from a public server)	Amener {1} ici (copié d'un serveur public)
+Bring a character from a file	Amener un personnage depuis un fichier
+Signed in as {1}	Compte : {1}
+Playing without a Hallisium account: your characters here are this device's.	Tu joues sans compte Hallisium : tes personnages ici appartiennent à cet appareil.
+Play as {1}	Jouer {1}
+Level {1} · Demo: the Isle, level {2}	Niveau {1} · Démo : l'Île, niveau {2}
+Level {1}	Niveau {1}
+Copy to device	Copier sur l'appareil
+Copy {1} to your own device. The copy can't come back to this server.	Copier {1} sur ton propre appareil. La copie ne pourra pas revenir sur ce serveur.
+New character	Nouveau personnage
+Not connected to the server yet...	Pas encore de connexion au serveur...
+Connected.	Connexion établie.
+Disconnected	Déconnexion
+The connection to the server was lost. Your game is saved: come back in to carry on.	La connexion au serveur a été perdue. Ta partie est sauvegardée : reviens pour continuer.
+Can't reach the server. Trying again...	Impossible de joindre le serveur. Nouvel essai...
+The game has been updated. It will load again.	Le jeu a été mis à jour. Il va se recharger.
+{1} of {2} adventurers online.	{1} aventuriers en ligne sur {2}.
+{1} - Shards of Ashen	{1} - Shards of Ashen
+Version {1}	Version {1}
+You whisper to {1}: {2}	Tu chuchotes à {1} : {2}
+[Party] {1}: {2}	[Groupe] {1} : {2}
+Your grave (on the minimap) holds the rest of your pack for {1} minutes.	Ta tombe (sur la mini-carte) garde le reste de ton sac pendant {1} minutes.
+You'll wake in your bed.	Tu te réveilleras dans ton lit.
+You'll wake at the start.	Tu te réveilleras au départ.
+(the host)	(l'hôte)
+(an admin)	(un admin)
+In the game as {1}{2}{3}	Dans la partie en tant que {1}{2}{3}
+Part of your Hallisium account, {1}	Fait partie de ton compte Hallisium, {1}
+This device's	De cet appareil
+: it lives on this server only.	 : il ne vit que sur ce serveur.
+Loading {1}...	Chargement de {1}...
+Title	Titre
+Music on	Musique activée
+Music off	Musique coupée
+Connected	Connexion établie
+, before it opened	, avant de s'ouvrir
+The connection closed ({1}{2}{3})	La connexion s'est fermée ({1}{2}{3})
+Flap	Battement
+Seat.	Siège.
+Glint	Reflet
+Wood	Bois
+Glow	Lueur
+Overhead	Au-dessus
+Burn	Brûlure
+Fever	Fièvre
+Herding the sheep back into their pens...	On ramène les moutons dans leurs enclos...
+Teaching the chickens to cross the road...	On apprend aux poules à traverser la route...
+Sweeping the tavern floor...	On balaie le sol de la taverne...
+Waking the blacksmith (gently)...	On réveille le forgeron (doucement)...
+Reminding the goblins to look menacing...	On rappelle aux gobelins d'avoir l'air menaçants...
+Hiding the good loot at the bottom of the chest...	On cache le bon butin au fond du coffre...
+Persuading the rats to stay in the cellar...	On persuade les rats de rester à la cave...
+Tuning the bard's lute (it won't help)...	On accorde le luth du barde (ça n'aidera pas)...
+Laying the map down, one tile at a time...	On pose la carte, une case à la fois...
+Putting the ore back in the rocks...	On remet le minerai dans les rochers...
+Telling the skeletons to lie still a moment longer...	On dit aux squelettes de rester allongés encore un moment...
+Fluffing the pillows at the inn...	On tapote les oreillers à l'auberge...
+Feeding the fish so they'll bite later...	On nourrit les poissons pour qu'ils mordent plus tard...
+Lighting the lanterns...	On allume les lanternes...
+Checking under the bridges...	On vérifie sous les ponts...
+Sharpening swords nobody asked to have sharpened...	On aiguise des épées que personne n'a demandé d'aiguiser...
+Settling an argument between two shopkeepers...	On règle une dispute entre deux marchands...
+Asking the weather what it fancies today...	On demande au temps ce qui lui ferait plaisir aujourd'hui...
+Rounding up the cows that wandered off...	On rassemble les vaches qui se sont égarées...
+Convincing the wolves it isn't feeding time...	On convainc les loups que ce n'est pas l'heure du repas...
+Stacking the firewood...	On empile le bois de chauffage...
+Oiling the doors that creak (most of them)...	On huile les portes qui grincent (presque toutes)...
+Counting the coins in the bank, twice...	On compte les pièces à la banque, deux fois...
+Untangling the fishing nets...	On démêle les filets de pêche...
+Asking the guards to stand a little straighter...	On demande aux gardes de se tenir un peu plus droits...
+Shooing the crows off the crops...	On chasse les corbeaux des cultures...
+Growing the trees back...	On fait repousser les arbres...
+Unrolling the roads...	On déroule les routes...
+Sorting the herbs from the weeds...	On trie les herbes des mauvaises herbes...
+Dusting the bookshelves nobody reads...	On dépoussière les étagères que personne ne lit...
+To	À
+Sky	Ciel
+Periods	Périodes
+{1}, about {2} {3}	{1}, environ {2} {3}
+Darkness	Obscurité
+Colour	Couleur
+Shade	Teinte
+Amount	Quantité
+Wind	Vent
+Head	Tête
+Legs	Jambes
+Feet	Pieds
+Hands	Mains
+Teleports you away	Te téléporte au loin
+Teleports you home	Te téléporte chez toi
+Takes you to your homestead	T'emmène à ton domaine
+· {1} Shards a cast	· {1} Fragments par lancer
++You already know this	+Tu le connais déjà
+!Raises {1} to {2}: learn that first	!Monte {1} à {2} : apprends-le d'abord
+~Read it: your {1} becomes {2}	~Lis-le : ton {1} devient {2}
+~Read it to learn the spell for good	~Lis-le pour apprendre le sort pour de bon
+Shoots	Tire
+Wards off	Repousse
+Requirement: {1} {2}	Condition : {1} {2}
+Heals {1}	Soigne {1}
+Seeds | Sow them in tilled soil	Graines | Sème-les dans une terre labourée
+Seeds	Graines
+Sow them in tilled soil	Sème-les dans une terre labourée
+Easy	Facile
+Medium	Moyen
+Hard	Difficile
+!Stolen: only a fence buys it	!Volé : seul un receleur l'achète
+$Price: {1} gold	$Prix : {1} gold
+${1} gold each, from {2}	${1} gold pièce, chez {2}
+$Sells for {1} gold	$Se vend {1} gold
+!Can't be sold here	!Ne se vend pas ici
+(level {1})	(niveau {1})
+Passive | {1}/{2} hitpoints	Passif | {1}/{2} points de vie
+Passive	Passif
+!Hostile | {1}/{2} hitpoints	!Hostile | {1}/{2} points de vie
+Iron-bound	Cerclé de fer
+!Locked | {1}	!Verrouillé | {1}
+!In the arena: you can fight	!Dans l'arène : tu peux combattre
+!You can fight them here	!Tu peux les combattre ici
+Another adventurer	Un autre aventurier
+!Marked: struck another player first	!Marque : a frappé un autre joueur en premier
+~Right-click: Whisper	~Clic droit : Chuchoter
+Mana	Mana
+Heart	Cœur
+Minimap	Mini-carte
+Origin.	Origine.
+Blackout	Noir total
+Not following a quest: no marker on the map.	Aucune quête suivie : pas de marqueur sur la carte.
+Following: {1} (its place is marked on the map).	Suivie : {1} (son lieu est marqué sur la carte).
+The world	Le monde
+Underground	Sous terre
+Above ground	En surface
+World map	Carte du monde
+From the {1} shardstone · {2} Shards a journey	Depuis la pierre-fragment de {1} · {2} Fragments par voyage
+Tap a shardstone to travel there · tap elsewhere to stay	Touche une pierre-fragment pour y voyager · touche ailleurs pour rester
+Click a shardstone to travel there · Esc to stay	Clique sur une pierre-fragment pour y voyager · Échap pour rester
+Tap to close	Touche pour fermer
+M or Esc: close	M ou Échap : fermer
+No map of this place.	Pas de carte de ce lieu.
+{1} (you're here)	{1} (tu es ici)
+Visit a homestead...	Visiter un domaine...
+Bind forms...	Lier des formes...
+No other shardstone knows you yet.	Aucune autre pierre-fragment ne te connaît encore.
+Stats	Stats
+your skills	tes compétences
+Gear	Équipement
+what you are wearing	ce que tu portes
+Spells	Sorts
+the spells you know: cast them from here	les sorts que tu connais : lance-les d'ici
+your Quest pouch: keys, letters and the like, which take no room in your pack	ta bourse de Quête : clés, lettres et autres, qui ne prennent pas de place dans ton sac
+~Nothing worn here	~Rien de porté ici
+Condition:	État :
+Can start	Peut commencer
+In progress	En cours
+Complete	Terminée
+!Ready in {1} s	!Prêt dans {1} s
+!Needs {1} Shards (you have {2})	!Il faut {1} Fragments (tu en as {2})
++{1} Shards a cast	+{1} Fragments par lancer
+~Tap: cast it · Hold: on or off the hotbar	~Touche : le lancer · Maintiens : sur ou hors de la barre rapide
+~Click: cast it · Right-click: on or off the hotbar	~Clic : le lancer · Clic droit : sur ou hors de la barre rapide
+No spells yet.	Pas encore de sorts.
+A spell's scroll teaches it for good.	Le parchemin d'un sort l'enseigne pour de bon.
+and {1} more: the journal's Spells (H)	et {1} de plus : les Sorts du journal (H)
+Nothing in your Quest pouch.	Rien dans ta bourse de Quête.
+Keys, letters and the like go here,	Les clés, les lettres et autres vont ici,
+and take no room in your pack.	et ne prennent pas de place dans ton sac.
+and {1} more	et {1} de plus
+everyone's goods	les biens de tous
+take what you want	prends ce que tu veux
+Read on...	Lire la suite...
+Nothing here matches "{1}".	Rien ici ne correspond à « {1} ».
+Nothing you can make yet.	Rien que tu puisses fabriquer pour l'instant.
+~Drag something here from your pack (Options: how many slots)	~Fais glisser quelque chose ici depuis ton sac (Options : combien de cases)
+~Press {1} or click to cast it	~Appuie sur {1} ou clique pour le lancer
+~Press {1} or click to use it	~Appuie sur {1} ou clique pour l'utiliser
+Your {1} level is now {2}!	Ton niveau de {1} est maintenant {2} !
+Online {1}/{2}: {3}	En ligne {1}/{2} : {3}
+PvP here	JcJ ici
+Safe here	Sûr ici
+Demo: the Isle, level {1}	Démo : l'Île, niveau {1}
+Friend Pass: back to the Isle in {1}s	Pass Ami : retour à l'Île dans {1}s
+Friend Pass: {1}'s game	Pass Ami : la partie de {1}
+Friend Pass	Pass Ami
+ARENA - other players can fight you here	ARÈNE - les autres joueurs peuvent te combattre ici
+MARKED - {1}, not fading here	MARQUE - {1}, ne s'efface pas ici
+MARKED - {1} - die now, lose everything	MARQUE - {1} - meurs maintenant, perds tout
+Wave {1} beaten! Wave {2} of {3} in {4}s	Vague {1} vaincue ! Vague {2} sur {3} dans {4}s
+Wave {1} of {2} - {3} left - {4} to hold them off	Vague {1} sur {2} - {3} restants - {4} pour les repousser
+CENTRAL SERVER MAINTENANCE IN {1}	MAINTENANCE DU SERVEUR CENTRAL DANS {1}
+CENTRAL SERVER DOWN FOR MAINTENANCE	SERVEUR CENTRAL EN MAINTENANCE
+DOWN FOR MAINTENANCE - only admins are in	EN MAINTENANCE - seuls les admins sont dedans
+SERVER MAINTENANCE IN {1}	MAINTENANCE DU SERVEUR DANS {1}
+{1}: your game carries on	{1} : ta partie continue
+Your game is saved before it goes down.	Ta partie est sauvegardée avant l'arrêt.
++{1} Attack	+{1} Attaque
++{1} Defence	+{1} Défense
++{1} spell damage	+{1} dégâts des sorts
+far sight	vue lointaine
+Poisoned	Empoisonnement
+Bleeding	Saignement
+Chilled	Froid
+Weakened	Affaiblissement
+Dazed	Étourdissement
+Frail	Fragilité
+Sharp-eyed	Œil perçant
+Drained	Épuisement
+Boosted	Regain
++No monster sees you (strike or cast and it's over)	+Aucun monstre ne te voit (frappe ou lance un sort et c'est fini)
++Whatever you fight makes no sound to bring the others	+Ce que tu combats ne fait aucun bruit pour alerter les autres
++You snap back into your own body when it runs out	+Tu reviens d'un coup dans ton propre corps quand ça s'épuise
+{1} {2} for a while	{1} {2} pour un moment
+~{1} left	~{1} restant
+Given by	Donnée par
+Steps	Étapes
+Notes	Notes
+Quest complete!	Quête terminée !
+~Click who to cast it at	~Clique sur la cible du sort
+~Click to cast	~Clique pour lancer
+Use {1} with ...	Utiliser {1} avec ...
+Use {1} with {2}	Utiliser {1} avec {2}
+{1}: {2} just now (usually {3}): {4} for a while.	{1} : {2} pour l'instant (d'habitude {3}) : {4} pour un moment.
+You have the highest {1} level possible ({2})!	Tu as le plus haut niveau possible en {1} ({2}) !
+{1}: {2} xp / {3} xp to level {4}.	{1} : {2} xp / {3} xp pour le niveau {4}.
+the highest level	le plus haut niveau
+{1} xp / {2} xp	{1} xp / {2} xp
+{1}: level {2} / {3}|{4}	{1} : niveau {2} / {3}|{4}
+{1}: level {2} / {3}	{1} : niveau {2} / {3}
+Bridge	Pont
++{1} Spell Damage	+{1} dégâts des sorts
+Far Sight	Vue lointaine
+{1} Damage	{1} dégâts
+| Everything near	| Tout ce qui est proche
+Everything near	Tout ce qui est proche
+Teleports you	Te téléporte
+Pulls a thing to you, from afar	Attire une chose vers toi, de loin
+Hushes you | {1} s	T'impose le silence | {1} s
+Hushes you	T'impose le silence
+Fear {1} s	Peur {1} s
++{1} Shards	+{1} Fragments
+Learn {1} (for good: {2} {3})	Apprendre {1} (pour de bon : {2} {3})
+Attack {1} ({2}/{3})	Attaquer {1} ({2}/{3})
+{1} {2} ({3} gold each, from {4})	{1} {2} ({3} gold pièce, chez {4})
+Buy the last {1}	Acheter le dernier {1}
+{1} {2} ({3} gold)	{1} {2} ({3} gold)
+Sell {1} on the market...	Vendre {1} au marché...
+Set the price of {1} (now {2} gold)...	Fixer le prix de {1} (maintenant {2} gold)...
+Make {1} (needs {2} level {3})	Fabriquer {1} (il faut {2} niveau {3})
+Make {1} (not enough {2})	Fabriquer {1} (pas assez de {2})
+Pick up	Ramasser
+{1} how many {2}?...	{1} combien de {2} ?...
+Use {1}...	Utiliser {1}...
+The title music (it starts when you click or type)	La musique du titre (elle démarre quand tu cliques ou tapes)
+Show only what you have the level and everything for	N'afficher que ce pour quoi tu as le niveau et tout le reste
+Search...	Rechercher...
+Say something to everyone. /w name words: whisper. /r words: answer a whisper. (Enter sends, Esc cancels)	Dis quelque chose à tout le monde. /w nom mots : chuchoter. /r mots : répondre à un chuchotement. (Entrée envoie, Échap annule)
+Leave the game: it	Quitter la partie : elle
+type to search...	tape pour rechercher...
+1 to 10	1 à 10
+-100 (Outlaw) to 100 (Honoured)	-100 (Proscrit) à 100 (Honoré)
+Full screen	Plein écran
+Connecting...	Connexion...
+How your adventurer looks	L'allure de ton aventurier
+Invite code	Code d'invitation
+Create character	Créer le personnage
+‹ Main menu	‹ Menu principal
+Loading...	Chargement...
+Build (B)	Construire (B)
+Done (Esc)	Terminé (Échap)
+Price each (gold)	Prix à l'unité (gold)
+How many?	Combien ?
+You have died	Tu as péri
+Can make	Peut fabriquer
+You offer	Tu offres
+Your pack	Ton sac
+They offer	Il offre
+Options	Options
+Screen	Écran
+Game	Jeu
+Sound effects	Effets sonores
+Volume	Volume
+A chime when another player talks to you	Un carillon quand un autre joueur te parle
+People greet you as you talk to them	Les gens te saluent quand tu leur parles
+Music volume	Volume de la musique
+Background sounds	Sons d'ambiance
+Background volume	Volume de l'ambiance
+Quest markers on the minimap	Marqueurs de quête sur la mini-carte
+Shadows, footprints, ripples and sparks	Ombres, empreintes, rides et étincelles
+Camera easing	Lissage de la caméra
+Mouse pointer size	Taille du pointeur
+Small	Petit
+Large	Grand
+Largest	Le plus grand
+Hotbar slots	Cases de la barre rapide
+Language	Langue
+Layout	Disposition
+Automatic	Automatique
+Desktop	Ordinateur
+Your appearance	Ton apparence
+Change	Changer
+The game's name	Le nom de la partie
+Save	Enregistrer
+Open to your network (others nearby can join)	Ouverte à ton réseau (les autres à proximité peuvent rejoindre)
+Their link	Leur lien
+Something wrong? Send the game's log to support	Un problème ? Envoie le journal du jeu au support
+Send log	Envoyer le journal
+Done	Terminé
+Send the log	Envoyer le journal
+What this game has written down lately goes to Hallisium's support, through the central server, to help put right what went wrong. It has players' names and the addresses they came from. This is all of it:	Ce que ce jeu a noté récemment part au support d'Hallisium, via le serveur central, pour aider à réparer ce qui n'a pas marché. Il contient les noms des joueurs et les adresses d'où ils venaient. Le voici en entier :
+What went wrong? (if you'd like to say)	Qu'est-ce qui n'a pas marché ? (si tu veux le dire)
+Send	Envoyer
+Keep playing	Continuer à jouer
+Leaving? Your game is saved on the server.	Tu pars ? Ta partie est sauvegardée sur le serveur.
+Log out	Se déconnecter
+Back to the start	Retour au début
+Give yourself	Te donner
+Give	Donner
+Tools	Outils
+Go to a place	Aller à un lieu
+Go	Aller
+Run a script command	Lancer une commande de script
+Run	Lancer
+Spawn a creature	Faire apparaître une créature
+Spawn	Faire apparaître
+Start a monster attack	Lancer une attaque de monstres
+Town standing	Réputation en ville
+Set	Régler
+God mode	Mode dieu
+nothing can hurt you	rien ne peut te blesser
+Fly	Voler
+over walls, water and mountains	par-dessus les murs, l'eau et les montagnes
+Fog of war	Brouillard de guerre
+no black (see where you haven't been)	pas de noir (voir les lieux pas encore visités)
+no fog (see everything round you)	pas de brouillard (tout voir autour de toi)
+Save skills	Enregistrer les compétences
+Rewards	Récompenses
+The end of the demo	La fin de la démo
+Wim looks your papers over and nods you aboard. Across the strait, Northport's roofs catch the light.	Wim parcourt tes papiers et te fait signe de monter à bord. De l'autre côté du détroit, les toits de Northport attrapent la lumière.
+What the Isle gave you	Ce que l'Île t'a donné
+What's left to ask	Ce qu'il reste à demander
+Until then	D'ici là
+[Home]
+A friend	Un ami
+Continue with Google	Continuer avec Google
+Sign in	Se connecter
+Create account	Créer un compte
+Forgotten?	Oublié ?
+Password	Mot de passe
+One Hallisium account for every game: the characters you make need no password of their own.	Un seul compte Hallisium pour toutes les parties : les personnages que tu crées n'ont pas besoin de mot de passe.
+Name (what everyone sees)	Nom (ce que tout le monde voit)
+Admin code (from the server's log)	Code d'admin (dans le journal du serveur)
+I'm 13 or older, and I agree to the	J'ai 13 ans ou plus, et j'accepte les
+and the	et la
+privacy policy	politique de confidentialité
+Create my account	Créer mon compte
+Your name (or confirmed email), and the code we email you.	Ton nom (ou ton e-mail confirmé), et le code qu'on t'envoie par e-mail.
+Name or email	Nom ou e-mail
+Email me a code	M'envoyer un code
+Code	Code
+New password	Nouveau mot de passe
+Set my new password	Enregistrer mon nouveau mot de passe
+The central server can't be reached just now (or none is set). You can still play alone, or with others on your network.	Le serveur central est injoignable pour le moment (ou aucun n'est réglé). Tu peux quand même jouer en solo, ou avec d'autres sur ton réseau.
+Try again	Réessayer
+Play without an account	Jouer sans compte
+Not signed in	Non connecté
+Exit	Quitter
+Stop	Arrêter
+Buy the full game	Acheter le jeu complet
+I've bought it	Je l'ai acheté
+Single player	Un joueur
+A world of your own on this device. Open it to others from Options, in the game.	Un monde à toi sur cet appareil. Ouvre-le aux autres depuis les Options, dans le jeu.
+Friends' games	Parties des amis
+The games your friends host or play, and your friends.	Les parties que tes amis hébergent ou jouent, et tes amis.
+Join a local game	Rejoindre une partie locale
+The games on your network, one by its address, or a friend's link.	Les parties sur ton réseau, une par son adresse, ou le lien d'un ami.
+Public servers	Serveurs publics
+Limited beta	Bêta limitée
+Open servers anyone can join, listed by the central server.	Des serveurs ouverts que tout le monde peut rejoindre, listés par le serveur central.
+‹ Back	‹ Retour
+Look again	Chercher à nouveau
+Or its address (like 192.168.1.20), or a friend's link	Ou son adresse (comme 192.168.1.20), ou le lien d'un ami
+Join	Rejoindre
+Ask	Demander
+Open servers anyone can join, a few for now. Each game is a world of its own: a character you make there lives on that server only.	Des serveurs ouverts que tout le monde peut rejoindre, quelques-uns pour l'instant. Chaque partie est un monde à part : un personnage créé là-bas ne vit que sur ce serveur.
+Privacy policy	Politique de confidentialité
+Terms	Conditions
+Central server	Serveur central
+© 2026 Hallisium. All rights reserved.	© 2026 Hallisium. Tous droits réservés.
+no central server	pas de serveur central
+Online	En ligne
+Offline	Hors ligne
+The public servers are down for maintenance: try again soon.	Les serveurs publics sont en maintenance : réessaie bientôt.
+The public servers go down for maintenance at {1}.	Les serveurs publics passent en maintenance à {1}.
+Down for maintenance: signing in, joining and friends are paused. Games already going carry on.	En maintenance : la connexion, les parties à rejoindre et les amis sont en pause. Les parties en cours continuent.
+Down for maintenance at {1}: signing in, joining and friends pause. Games already going carry on.	En maintenance à {1} : la connexion, les parties à rejoindre et les amis seront en pause. Les parties en cours continuent.
+No central server is set.	Aucun serveur central n'est réglé.
+Connected · {1} game{2} listed	Connecté · {1} partie{2:/s} listée{2:/s}
+This server can't send email just now, so a password can't be reset: try again later.	Ce serveur ne peut pas envoyer d'e-mail pour le moment, donc un mot de passe ne peut pas être réinitialisé : réessaie plus tard.
+Can't reach the central server.	Impossible de joindre le serveur central.
+Sign in to see the public servers.	Connecte-toi pour voir les serveurs publics.
+A moment...	Un instant...
+The central server didn't answer.	Le serveur central n'a pas répondu.
+Welcome back, {1}.	Bon retour, {1}.
+Welcome to Ashen, {1}!	Bienvenue à Ashen, {1} !
+We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	On t'a envoyé un lien par e-mail. Confirme ton e-mail avec pour rejoindre une partie : c'est aussi le seul moyen de revenir si tu oublies ton mot de passe.
+This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	Ce serveur ne peut pas envoyer d'e-mail pour le moment. Confirme ton e-mail depuis ton compte quand il le pourra, pour rejoindre une partie : c'est aussi le seul moyen de revenir si tu oublies ton mot de passe.
+Carry on	Continuer
+Your new password is set: sign in with it.	Ton nouveau mot de passe est enregistré : connecte-toi avec.
+This device has no browser to open.	Cet appareil n'a pas de navigateur à ouvrir.
+Sign in with Google	Se connecter avec Google
+Your browser has opened. Once you've signed in there, it shows a code: type it here.	Ton navigateur s'est ouvert. Une fois la connexion faite là-bas, il affiche un code : tape-le ici.
+Your account is ready, and signs in with Google.	Ton compte est prêt, et se connecte avec Google.
+this Google account	ce compte Google
+Choose your name	Choisis ton nom
+A new Hallisium account for {1}.	Un nouveau compte Hallisium pour {1}.
+Tick that you agree to the terms and the privacy policy first.	Coche d'abord que tu acceptes les conditions et la politique de confidentialité.
+The browser wouldn't go full screen.	Le navigateur n'a pas voulu passer en plein écran.
+What every game you join starts with. A game's own Options change them there.	Ce avec quoi commence chaque partie que tu rejoins. Les Options d'une partie les changent là-bas.
+The full game: yours ({1}).	Le jeu complet : à toi ({1}).
+The demo: the Isle, up to level {1}.	La démo : l'Île, jusqu'au niveau {1}.
+Waiting for you to confirm {1}: the link's in that inbox.	En attente de ta confirmation de {1} : le lien est dans cette boîte de réception.
+Until then a code goes to {1}.	D'ici là, un code est envoyé à {1}.
+You can join games once it's confirmed.	Tu pourras rejoindre des parties une fois qu'il sera confirmé.
+Confirmed.	Confirmé.
+Your account needs an email: it's the only way back in if you forget your password.	Ton compte a besoin d'un e-mail : c'est le seul moyen de revenir si tu oublies ton mot de passe.
+Bought it on itch.io? The link from your purchase's page	Acheté sur itch.io ? Le lien de la page de ton achat
+Your Hallisium account: the same on every game. Each game keeps your characters there, and only there.	Ton compte Hallisium : le même dans toutes les parties. Chaque partie y garde tes personnages, et seulement là.
+Email (for a forgotten password)	E-mail (pour un mot de passe oublié)
+Send the link again	Renvoyer le lien
+Delete my account	Supprimer mon compte
+Sign out	Se déconnecter
+Thank you! The full game is yours, on every device.	Merci ! Le jeu complet est à toi, sur tous tes appareils.
+Your password	Ton mot de passe
+Type your account's name, {1}	Tape le nom de ton compte, {1}
+, the full game	, le jeu complet
+Delete {1}?	Supprimer {1} ?
+Your account has been deleted.	Ton compte a été supprimé.
+Thank you! The full game is yours.	Merci ! Le jeu complet est à toi.
+Your payment's on its way: the full game is yours once Google Play has it.	Ton paiement est en route : le jeu complet sera à toi dès que Google Play l'aura reçu.
+Google Play couldn't take the payment just now. Try again in a moment.	Google Play n'a pas pu prendre le paiement pour le moment. Réessaie dans un instant.
+Google Play	Google Play
+Steam	Steam
+Epic	Epic
+Asking Steam...	On demande à Steam...
+Shards of Ashen is bought once,	Shards of Ashen s'achète une fois,
+on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	sur Steam, itch.io ou Epic, et se joue de là : lance-le depuis Steam, connecté au compte qui l'a acheté.
+The demo: the Isle, up to level {1}. The full game goes on to the mainland and the rest of the story.	La démo : l'Île, jusqu'au niveau {1}. Le jeu complet continue sur le continent et dans la suite de l'histoire.
+It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Il s'achète une fois, pour ton compte Hallisium : ensuite il est à toi partout, dans l'appli Android aussi.
+Buy it with your account's email, then come back here.	Achète-le avec l'e-mail de ton compte, puis reviens ici.
+Log in first, to have it on your account.	Connecte-toi d'abord, pour l'avoir sur ton compte.
+It's bought once, in the Android app or on PC, for your Hallisium account: then it's yours here too.	Il s'achète une fois, dans l'appli Android ou sur PC, pour ton compte Hallisium : ensuite il est à toi ici aussi.
+Buy the full game ({1})	Acheter le jeu complet ({1})
+Asking itch.io...	On demande à itch.io...
+At	À
+That isn't an address.	Ce n'est pas une adresse.
+Joining {1}...	Connexion à {1}...
+That's a public server: join it from Public servers.	C'est un serveur public : rejoins-le depuis Serveurs publics.
+Sign in first: the remote games know you by your Hallisium account.	Connecte-toi d'abord : les parties à distance te connaissent par ton compte Hallisium.
+The central server can't be reached just now.	Le serveur central est injoignable pour le moment.
+Sign in first: friends are kept by your Hallisium account.	Connecte-toi d'abord : les amis sont gardés par ton compte Hallisium.
+Remove {1}?	Retirer {1} ?
+You won't be friends in any game.	Vous ne serez plus amis dans aucune partie.
+a game	une partie
+Hosting {1}	Héberge {1}
+Not playing just now	Ne joue pas en ce moment
+No friends yet. Ask someone by their Hallisium account above, or right-click them in a game: Add friend.	Pas encore d'amis. Demande à quelqu'un par son compte Hallisium ci-dessus, ou fais un clic droit sur son personnage dans une partie : Ajouter un ami.
+{1} asking to be your friend.	{1} te demande en ami.
+{1} friend{2} hosting a game now.	{1} ami{2:/s} héberge{2:/nt} une partie en ce moment.
+Asking the central server...	On demande au serveur central...
+{1} of {2} playing	{1} sur {2} en jeu
+Characters made here live on this server only.	Les personnages créés ici ne vivent que sur ce serveur.
+small mine	petite mine
+Your character here:	Ton personnage ici :
+Your characters here:	Tes personnages ici :
+{1} (level {2})	{1} (niveau {2})
+Out of date: it can be joined once it updates.	Pas à jour : on pourra le rejoindre une fois mis à jour.
+Down for maintenance: try again soon.	En maintenance : réessaie bientôt.
+Going down for maintenance at {1}.	Passe en maintenance à {1}.
+Updating	Mise à jour
+Full	Plein
+No public servers just now.	Aucun serveur public pour le moment.
+Listed	Listé
+Looking on your network...	Recherche sur ton réseau...
+No games found on this network.	Aucune partie trouvée sur ce réseau.
+On this device	Sur cet appareil
+On this network	Sur ce réseau
+{1}'s game	Partie de {1}
+Starting your world...	Lancement de ton monde...
+Before you play	Avant de jouer
+Your world is saved on this device only. So that we can see how the game is played, it also tells us how characters get on: level, skills, quests, Shards and gold. That's anonymous: no name and no account, only a random id this device makes for itself. The privacy policy, at the foot of the page, has the rest.	Ton monde n'est sauvegardé que sur cet appareil. Pour qu'on puisse voir comment le jeu se joue, il nous dit aussi comment s'en sortent les personnages : niveau, compétences, quêtes, Fragments et or. C'est anonyme : pas de nom ni de compte, seulement un identifiant au hasard que cet appareil crée pour lui-même. La politique de confidentialité, en bas de la page, dit le reste.
+your world	ton monde
+{1} is running on this device: it stops for everyone in it when you go. The world's saved first.	{1} tourne sur cet appareil : il s'arrête pour tous ceux qui y sont quand tu pars. Le monde est sauvegardé avant.
+Version	Version
+Unpacking the game (the first time takes a while)...	Déballage du jeu (la première fois prend un moment)...
+Starting...	Lancement...
+Saving the world...	Sauvegarde du monde...
+is running on this device.	tourne sur cet appareil.
+The game couldn't start:	Le jeu n'a pas pu démarrer :
+Terms of use	Conditions d'utilisation
+: that's on the central server, which isn't set.	 : c'est sur le serveur central, qui n'est pas réglé.
+This is the central server:	Voici le serveur central :
+Where accounts and the list of games are kept. Leave it empty for the one this app came with.	Là où sont gardés les comptes et la liste des parties. Laisse vide pour celui fourni avec cette appli.
+Address	Adresse
+This server can't send email just now.	Ce serveur ne peut pas envoyer d'e-mail pour le moment.
+We've sent that address enough for one day: look in its spam folder, or try again tomorrow.	On a assez écrit à cette adresse pour aujourd'hui : regarde dans ses spams, ou réessaie demain.
+Someone (we hope you) gave this address for the Hallisium account {1}.	Quelqu'un (toi, on l'espère) a donné cette adresse pour le compte Hallisium {1}.
+A game of Shards of Ashen	Une partie de Shards of Ashen
+Unknown.	Inconnu.
+That link has run out	Ce lien a expiré
+It's been used, it's more than {1} days old, or a newer one has been sent. Sign in and open your account to send another.	Il a déjà servi, il a plus de {1} jours, ou un plus récent a été envoyé. Connecte-toi et ouvre ton compte pour en envoyer un autre.
+Confirm your email	Confirme ton e-mail
+Use {1} for the Hallisium account {2}? We only write to it to send a code if you forget your password.	Utiliser {1} pour le compte Hallisium {2} ? On n'y écrit que pour envoyer un code si tu oublies ton mot de passe.
+Email confirmed	E-mail confirmé
+If {1}'s password is ever forgotten, we'll send a code to {2}.	Si le mot de passe de {1} est un jour oublié, on enverra un code à {2}.
+Shards of Ashen central server: accounts, the server list	Serveur central de Shards of Ashen : comptes, liste des serveurs
+Use a password of at least {1} characters (not your name).	Utilise un mot de passe d'au moins {1} caractères (pas ton nom).
+Too many new accounts from here today: try again tomorrow.	Trop de nouveaux comptes d'ici aujourd'hui : réessaie demain.
+That doesn't look like an email address.	Ça ne ressemble pas à une adresse e-mail.
+That email is on another account already.	Cet e-mail est déjà sur un autre compte.
+New accounts can't be made just now.	On ne peut pas créer de nouveaux comptes pour le moment.
+That name is kept back: pick another.	Ce nom est réservé : choisis-en un autre.
+That name is taken. Log in instead?	Ce nom est pris. Se connecter plutôt ?
+That name is kept for this server's admin: give the admin code from the server's log.	Ce nom est réservé à l'admin de ce serveur : donne le code d'admin du journal du serveur.
+The email couldn't be sent just now: try again later.	L'e-mail n'a pas pu être envoyé pour le moment : réessaie plus tard.
+Too many tries: wait {1} seconds.	Trop d'essais : attends {1} secondes.
+That name and password don't go together. (An account made with Google signs in with Google: it has no password.)	Ce nom et ce mot de passe ne vont pas ensemble. (Un compte créé avec Google se connecte avec Google : il n'a pas de mot de passe.)
+{1} is banned: {2}	Bannissement de {1} : {2}
+That code isn't right, or it's run out: sign in with Google again.	Ce code n'est pas bon, ou il a expiré : reconnecte-toi avec Google.
+That email is on an account here now: sign in with Google again to go into it.	Cet e-mail est maintenant sur un compte ici : reconnecte-toi avec Google pour y entrer.
+That name and code don't go together.	Ce nom et ce code ne vont pas ensemble.
+Use a new password of at least {1} characters.	Utilise un nouveau mot de passe d'au moins {1} caractères.
+Not logged in.	Non connecté.
+An admin's account is deleted by another admin, from the admin page.	Le compte d'un admin est supprimé par un autre admin, depuis la page d'admin.
+That purchase is another account's already.	Cet achat appartient déjà à un autre compte.
+There's no email waiting to be confirmed.	Aucun e-mail n'attend de confirmation.
+This server can't send email just now: try again later.	Ce serveur ne peut pas envoyer d'e-mail pour le moment : réessaie plus tard.
+{1}: signing in	{1} : connexion
+Someone (we hope you) asked to set a new password for {1} on {2}. That account signs in with Google and has no password: use Continue with Google on the start screen.	Quelqu'un (toi, on l'espère) a demandé un nouveau mot de passe pour {1} sur {2}. Ce compte se connecte avec Google et n'a pas de mot de passe : utilise Continuer avec Google sur l'écran d'accueil.
+{1}: your code	{1} : ton code
+If that account has a confirmed email, a code is on its way: it works for 30 minutes.	Si ce compte a un e-mail confirmé, un code est en route : il marche pendant 30 minutes.
+Which game?	Quelle partie ?
+Your account needs an email first: open your account to give one.	Ton compte a d'abord besoin d'un e-mail : ouvre ton compte pour en donner un.
+Confirm your email first: the link's in your inbox, or open your account to send it again.	Confirme d'abord ton e-mail : le lien est dans ta boîte de réception, ou ouvre ton compte pour le renvoyer.
+That server is out of date: it can be joined once it updates.	Ce serveur n'est pas à jour : on pourra le rejoindre une fois mis à jour.
+That server is joined at its public address, from the list.	Ce serveur se rejoint par son adresse publique, depuis la liste.
+That ticket isn't good here.	Ce ticket n'est pas valable ici.
+That game's id is another game's: it has a new one now, so come in again.	L'identifiant de cette partie est celui d'une autre : elle en a un nouveau maintenant, alors reviens.
+Come in again from the start screen.	Reviens depuis l'écran d'accueil.
+{1} is banned.	Bannissement de {1}.
+There's no Hallisium account called {1}.	Il n'y a pas de compte Hallisium nommé {1}.
+That's your own account.	C'est ton propre compte.
+Come in again from the start screen to see your friends.	Reviens depuis l'écran d'accueil pour voir tes amis.
+Too many reports from here: wait a while.	Trop de signalements d'ici : attends un peu.
+A report needs its server's secret.	Un signalement a besoin du secret de son serveur.
+That's more characters than this server keeps for one game.	C'est plus de personnages que ce serveur n'en garde pour une partie.
+A log needs its server's secret.	Un journal a besoin du secret de son serveur.
+The central server can't send email just now.	Le serveur central ne peut pas envoyer d'e-mail pour le moment.
+This server has been blocked.	Ce serveur a été bloqué.
+A log came from this server not long ago: try again in {1} minutes.	Un journal est venu de ce serveur il y a peu : réessaie dans {1} minutes.
+Too many logs from here: wait a while.	Trop de journaux d'ici : attends un peu.
+A game's log, sent by its host or an admin.	Le journal d'une partie, envoyé par son hôte ou un admin.
+Name: {1}	Nom : {1}
+Kind: {1}	Type : {1}
+Version: {1}	Version : {1}
+Listed server: {1}	Serveur listé : {1}
+Its reports' key: {1}	Clé de ses rapports : {1}
+Sent from: {1}	Envoyé depuis : {1}
+What went wrong: {1}	Ce qui n'a pas marché : {1}
+Too many calls from here: a minute between them.	Trop d'appels d'ici : une minute entre chacun.
+That's for the central server's admins.	C'est pour les admins du serveur central.
+That email is taken	Cet e-mail est pris
+{1} is on another account already, so it can't be used for {2}.	{1} est déjà sur un autre compte, donc il ne peut pas servir pour {2}.
+Not set up	Pas configuré
+This server can't sign in with Google.	Ce serveur ne peut pas se connecter avec Google.
+That sign-in has run out	Cette connexion a expiré
+Start again from the sign-in button.	Recommence depuis le bouton de connexion.
+Google didn't sign you in. Nothing has changed.	Google ne t'a pas connecté. Rien n'a changé.
+Signed in	Connecté
+Go back to the game and type this code: {1}	Retourne dans le jeu et tape ce code : {1}
+{1}: confirm your email	{1} : confirme ton e-mail
+That account has been deleted.	Ce compte a été supprimé.
+That isn't your password.	Ce n'est pas ton mot de passe.
+Type your account's name to delete it.	Tape le nom de ton compte pour le supprimer.
+Too many tries: wait a few minutes.	Trop d'essais : attends quelques minutes.
+Confirm your account's email first (Account), or paste the link from your purchase's page there.	Confirme d'abord l'e-mail de ton compte (Compte), ou colle-y le lien de la page de ton achat.
+Look in that inbox for a link to confirm it.	Regarde dans cette boîte de réception pour un lien qui le confirme.
+Sent. Look in that inbox for the link, and its spam folder.	Envoyé. Regarde dans cette boîte de réception pour le lien, et dans ses spams.
+Too many new game servers from here today.	Trop de nouveaux serveurs de jeu d'ici aujourd'hui.
+(none sent)	(aucun envoyé)
+Shards of Ashen: a game's log ({1}, {2})	Shards of Ashen : le journal d'une partie ({1}, {2})
+The email didn't go: try again later.	L'e-mail n'est pas parti : réessaie plus tard.
+A version is numbers, like 1.0.523.	Une version, ce sont des chiffres, comme 1.0.523.
+No such character.	Ce personnage n'existe pas.
+No such account.	Ce compte n'existe pas.
+{1} is an admin: take that away first.	{1} est admin : retire-lui ça d'abord.
+(none given)	(rien de donné)
+(not said)	(non dit)
+That has a character in it that can't be read.	Il y a un caractère illisible dedans.
+the address on the game's page	l'adresse sur la page du jeu
+an app's own game, alone	la partie d'une appli, seule
+an app's own game, open to its network	la partie d'une appli, ouverte à son réseau
+an app's own game, open to friends	la partie d'une appli, ouverte aux amis
+a server of its own	un serveur à lui
+itch.io has no purchase made with your account's email ({1}): paste the link from your purchase's page in Account instead.	itch.io n'a aucun achat fait avec l'e-mail de ton compte ({1}) : colle plutôt le lien de la page de ton achat dans Compte.
+itch.io doesn't know that download key.	itch.io ne connaît pas cette clé de téléchargement.
+Which address? python -m central.mail you@example.com	Quelle adresse ? python -m central.mail you@example.com
+Shards of Ashen: a test email	Shards of Ashen : un e-mail de test
+The central server can send email.	Le serveur central peut envoyer des e-mails.
+It didn't go: {1}: {2}	Ça n'est pas parti : {1} : {2}
+That key isn't good for this game.	Cette clé n'est pas valable pour ce jeu.
+That game is open to friends by another account.	Cette partie est ouverte aux amis par un autre compte.
+That game is busy.	Cette partie est occupée.
+The game didn't answer.	La partie n'a pas répondu.

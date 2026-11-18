@@ -245,7 +245,11 @@ that isn't in the game.
   New or changed text: `python -I tools/lang.py` counts what's missing, `todo <code> <file>` lists it, `fill <code>
   <file> <answers>` takes the answers line for line, and `export_web_assets.py` sends them to the page. A translation
   keeps its holes (`{1}`, `$Player.Name`), its `|`, `\` and leading or trailing `..`, and "N gold" stays "N gold" (the
-  page draws the coin); `validate.py` checks them.
+  page draws the coin); `validate.py` checks them. A count's word is `{1:one form/more}`, and a word that differs for
+  a man and a woman is `{player:his form/her form}` ("Mi {player:querido/querida} $Player.Son"): never a gendered
+  word beside `$Player.Son`/`Boy`/`Lord`/`King`/`Brother` that suits only one. `{player:}` works only in what the
+  server says (scripts, quests): what the page says (the engine's messages, the page's own words) is said neutrally
+  instead ("Te has curado", not "Estás curado"). A label in a box on the canvas fits a longer word (`labelIn`).
 - **Notices and signs never give hints or instructions.** They name or describe a place (and a signpost says which
   way places lie), nothing about quests, keys, secrets, who sells what or what you need to get in.
 - **No hint text on the world map.**

@@ -7,6 +7,7 @@ alone see changed, an NPC that is a friend or weaker to them alone, a thing that
 Personal and Shared set that by hand. A map's entry script never adds a second copy of something already there."""
 import logging
 import os
+import re
 import time
 
 from ashen import ini
@@ -37,8 +38,13 @@ PERSONAL_FIELDS = {"STRENGTH": "strength", "DEFENCE": "defence", "AGGRESSIVE": "
                    "AGGRO.RANGE": "aggro_range"}
 
 
-PLAYER_WORDS = [("$Player.Son", "son", "daughter"), ("$Player.Boy", "boy", "girl"), ("$Player.Lord", "lord", "lady"),
+# (said in the player's language: the catalogue has them capitalised, and son, boy and lord stay lowercase)
+PLAYER_WORDS = [("$Player.Son", "Son", "Daughter"), ("$Player.Boy", "Boy", "Girl"), ("$Player.Lord", "Lord", "Lady"),
                 ("$Player.King", "King", "Queen"), ("$Player.Brother", "Brother", "Sister")]
+BIG_PLAYER_WORDS = ("$Player.King", "$Player.Brother")
+NOUNS_BIG = ("de",)                             # (languages whose every noun has its capital: "Sohn")
+# (a translation's word that differs for a man and a woman: "{player:querido/querida} $Player.Son")
+PLAYER_FORM = re.compile(r"\{player:([^{}/]*)/([^{}]*)\}")
 
 
 def _clicked(s):
@@ -484,6 +490,9 @@ class ScriptMixin:
         return "".join(out)
 
     def parse_script_variables(self, text):
+        if "{player:" in text:
+            f = (self.look or {}).get("body") == "f"
+            text = PLAYER_FORM.sub(lambda m: m.group(2 if f else 1), text)
         if "$" not in text:
             return text
         low = text.lower()
@@ -497,7 +506,10 @@ class ScriptMixin:
         if "$Player." in text:                      # (a woman's words for her: daughter, girl, lady, Queen)
             f = (self.look or {}).get("body") == "f"
             for a, man, woman in PLAYER_WORDS:
-                text = text.replace(a, woman if f else man)
+                if a in text:
+                    word = self.data.languages.say(self.language, woman if f else man)
+                    text = text.replace(a, word if a in BIG_PLAYER_WORDS or self.language in NOUNS_BIG
+                                          else word[:1].lower() + word[1:])
         for a, value in SCRIPT_VARIABLES:
             if a in text:
                 text = text.replace(a, value(self))

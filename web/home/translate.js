@@ -17,7 +17,11 @@
   function pattern(en, said) {
     const holes = en.match(HOLE);
     const bits = en.split(HOLE);
-    const re = new RegExp("^" + bits.map(esc).join("(.+?)") + "$");
+    // (a hole joined to a word is the word's ending, and may be empty: English's plural "s", "thing{3}"; or what
+    // follows it, from a space or a stop: "maintenance{1}" with ": why". Never more of a sentence, or "{1} Shard{2}"
+    // would take any line with "Shard" in it)
+    const re = new RegExp("^" + bits.map((b, i) => (i ? (/[A-Za-z]$/.test(bits[i - 1]) ? "(\\S*?|[^A-Za-z].*?)" : "(.+?)") : "") +
+      esc(b)).join("") + "$");
     const p = { re, holes, said };
     const head = bits[0].slice(0, 3);
     if (head.length === 3) {
@@ -43,6 +47,8 @@
     p.holes.forEach((h, i) => {
       const v = m[i + 1];
       out = out.split(h).join(exact.get(v) ?? v);     // (a name in it said too: "You catch a {1}." with Trout)
+      // (and a plural said the language's way: {3:/n} is "" for one, "n" for more)
+      out = out.replace(new RegExp("\\{" + h.slice(1, -1) + ":([^{}/]*)/([^{}]*)\\}", "g"), (_, one, more) => v ? more : one);
     });
     return out;
   }
@@ -70,6 +76,7 @@
     r = look(text);
     if (cache.size > 8000) cache = new Map();
     cache.set(text, r);
+    cache.set(r, r);                                 // (said once is said: fitText, then drawText, says it again)
     return r;
   }
 

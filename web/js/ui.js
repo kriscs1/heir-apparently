@@ -220,8 +220,20 @@ export function drawUI(ctx, now) {
 
 function sidebarButton(ctx, x, y, label, hot, fills, inks, edge) {
   roundBox(ctx, x, y, 52, 22, fills[hot ? 1 : 0], edge, 2, 10);
-  const w = textWidth(ctx, label, 10, true);
-  drawTextMid(ctx, label, x + Math.floor((52 - w) / 2), y, 22, 10, true, inks[hot ? 1 : 0]);
+  labelIn(ctx, label, x, 52, y, 22, 10, inks[hot ? 1 : 0]);
+}
+
+// A bold label centred in a box w wide: smaller till it fits, and a long word in another language squeezed
+// sideways if even that won't ("Ausrüstung" on a tab made for "Gear")
+function labelIn(ctx, label, x, w, top, h, size, col) {
+  const room = w - 6;
+  while (size > 7 && textWidth(ctx, label, size, true) > room) size--;
+  const tw = textWidth(ctx, label, size, true), sq = Math.min(1, room / tw);
+  ctx.save();
+  ctx.translate(x + Math.floor((w - tw * sq) / 2), 0);
+  ctx.scale(sq, 1);
+  drawTextMid(ctx, label, 0, top, h, size, true, col);
+  ctx.restore();
 }
 
 // ----- the minimap (sprites\Interface\Minimap<Z>, Config [Minimap])
@@ -795,11 +807,7 @@ function drawStats(ctx) {
     roundBox(ctx, x1, 15, x2 - x1 + 1, 22, on ? [150, 92, 62] : hot ? [112, 72, 52] : [84, 54, 40],
       on ? [236, 196, 92] : [160, 112, 74], on ? 2 : 1, 6);
     if (on) { ctx.fillStyle = "rgb(250,220,140)"; ctx.fillRect(x1 + 8, 34, x2 - x1 - 15, 1); }
-    let size = 10;
-    while (size > 7 && textWidth(ctx, label, size, true) > x2 - x1 - 4) size--;
-    const w = textWidth(ctx, label, size, true);
-    drawTextMid(ctx, label, x1 + Math.floor((x2 - x1 + 1 - w) / 2), 15, 21, size, true,
-      on ? [255, 244, 190] : hot ? [255, 230, 170] : [232, 204, 150]);
+    labelIn(ctx, label, x1, x2 - x1 + 1, 15, 21, 10, on ? [255, 244, 190] : hot ? [255, 230, 170] : [232, 204, 150]);
   });
   ctx.restore();
 }
