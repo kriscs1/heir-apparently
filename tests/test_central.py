@@ -279,6 +279,42 @@ def test_a_bans_reason_shows_where_they_have_proved_who_they_are(tmp_path, monke
     asyncio.run(go())
 
 
+def test_the_admin_page_warns_every_server_of_maintenance(tmp_path, monkeypatch):
+    """Maintenance set on the admin page goes to each game as it announces itself, and to the start screen; called off,
+    or an hour past its time, it's gone. Only an admin sets it."""
+    async def go():
+        monkeypatch.setenv("DS_CENTRAL_ADMINS", "Boss")
+        capp = make_central(str(tmp_path / "central.db"))
+        runner, port = await run(capp)
+        c = "http://127.0.0.1:%d" % port
+        cen = capp[CENTRAL]
+        try:
+            async with aiohttp.ClientSession() as http:
+                boss = (await post(http, c + "/api/register", {"name": "Boss", **SIGNUP,
+                                                               "claim": cen.claims.get("boss", "")}))["token"]
+                cen.signups.clear()
+                pest = (await post(http, c + "/api/register", {"name": "Pest", **SIGNUP}))["token"]
+                assert not (await post(http, c + "/api/admin/maintenance", {"token": pest, "minutes": 5}))["ok"]
+                game = await post(http, c + "/api/announce", {"name": "Tower", "url": "https://play.example.com"})
+                again = {"key": game["key"], "secret": game["secret"], "name": "Tower", "url": "https://play.example.com"}
+                assert "notice" not in game and (await (await http.get(c + "/api/hello")).json())["maint"] is None
+                r = await post(http, c + "/api/admin/maintenance", {"token": boss, "minutes": 15, "all": True,
+                                                                    "why": "  moving   house "})
+                assert r["notice"]["all"] and r["notice"]["why"] == "moving house"
+                assert abs(r["notice"]["at"] - (time.time() + 900)) < 5
+                assert (await post(http, c + "/api/announce", again))["notice"] == r["notice"]
+                assert (await (await http.get(c + "/api/hello")).json())["maint"] == r["notice"]
+                assert (await post(http, c + "/api/admin/stats", {"token": boss}))["notice"] == r["notice"]
+                await post(http, c + "/api/admin/maintenance", {"token": boss, "off": True})
+                assert "notice" not in await post(http, c + "/api/announce", again)
+                await post(http, c + "/api/admin/maintenance", {"token": boss, "minutes": 0})
+                cen.notice["at"] -= 3601                                # (an hour past: forgotten)
+                assert (await (await http.get(c + "/api/hello")).json())["maint"] is None
+        finally:
+            await runner.cleanup()
+    asyncio.run(go())
+
+
 def test_a_player_deletes_their_own_account(tmp_path, monkeypatch, confirmed):
     """Proved by its password (or its name typed, made with Google): all that's theirs goes, the name kept back. Wrong
     tries are counted like a log-in's, and an admin's account isn't deleted this way."""

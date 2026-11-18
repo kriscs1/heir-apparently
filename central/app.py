@@ -89,6 +89,7 @@ GOOGLE_PENDING = 2000           # (sign-ins under way at once: past this the old
 HOUSEKEEPING = 600              # (seconds between clearing out what's had its day)
 REFUNDS_EVERY = 86400           # (seconds between asking Google Play what it's refunded, and Steam again)
 STEAM_REFUND_DAYS = 15          # (Steam refunds within 14 days of buying: a Steam purchase is asked after this long)
+NOTICE_KEPT = 3600              # (seconds after its time that the admin page's maintenance is forgotten)
 BACKUPS_KEPT = 14               # (a copy of the database a day: DS_CENTRAL_BACKUPS, else backups beside it)
 HELLO_SECONDS = 30              # (the start screen's counts are worked out this often)
 BUYS = 10                       # (tries at a purchase from one address or account in ten minutes)
@@ -133,6 +134,8 @@ class Central:
         self.confirm_day = ""
         self.announces = {}             # address -> [times] a game server called
         self.maint = {}                 # server key -> when it goes down for maintenance (its announce: the list says so)
+        self.notice = None              # (the admin page's Maintenance: {"at", "why", "all"}: every listed server going
+                                        #  down, or this one; told to each game as it announces, and on the start screen)
         self.reports = {}               # address -> [times] a game server reported
         self.new_reporters = {}         # address -> [days] a new game server reported
         self.logs_from = {}             # a game server's key -> [times] it sent its log
@@ -828,7 +831,14 @@ class Central:
         pre = {k.strip() for k in os.environ.get("DS_CENTRAL_APPROVED", "").split(",") if k.strip()}
         if key in pre and not self.store.approved(key):
             self.store.set_approved(key, True)          # (approved in the settings, before it ever called)
-        return yes(key=key, secret=secret, url=url, approved=self.store.approved(key))
+        return yes(key=key, secret=secret, url=url, approved=self.store.approved(key),
+                   **({"notice": self.notice_now()} if self.notice_now() else {}))
+
+    def notice_now(self):
+        """The admin page's maintenance, if it's not long over (an hour after its time: forgotten, called off or not)."""
+        if self.notice and time.time() > self.notice["at"] + NOTICE_KEPT:
+            self.notice = None
+        return self.notice
 
     async def goodbye(self, request):
         d = await self.body(request)
@@ -858,7 +868,7 @@ class Central:
         now = time.monotonic()
         if not self.hello_cache[1] or now - self.hello_cache[0] > HELLO_SECONDS:
             self.hello_cache = (now, {"servers": self.store.count_servers(), "players": self.store.count_accounts()})
-        return yes(name=self.name, motd=self.motd, mail=mail.ready(),
+        return yes(name=self.name, motd=self.motd, mail=mail.ready(), maint=self.notice_now(),
                    demo=demo_on(), demo_level=whole(ini.read("Demo", "Level", "5", os.path.join(ROOT, "data", "Config.ini")),
                                                     1, 99, 5),
                    google=google.ready(), buy=bought.buy_page() if demo_on() else None, **self.hello_cache[1])
@@ -967,8 +977,20 @@ class Central:
             every, approved, up = self.store.server_stats()
             chars, accounted, today, week, reporting = self.store.progress_totals()
             return yes(accounts=self.store.count_accounts(), servers=every, approved=approved, up=up, mail=mail.ready(),
+                       notice=self.notice_now(),
                        google=google.ready(), characters=chars,
                        with_account=accounted, today=today, week=week, reporting=reporting)
+        if what == "maintenance":                       # (minutes and why, for every listed server or this one; off)
+            if d.get("off"):
+                self.notice = None
+                log.info("%s called off the maintenance", name)
+            else:
+                minutes = whole(d.get("minutes"), 0, 24 * 60)
+                self.notice = {"at": int(time.time()) + minutes * 60, "why": " ".join(str(d.get("why", "")).split())[:80],
+                               "all": bool(d.get("all"))}
+                log.info("%s set maintenance in %d minutes for %s", name, minutes,
+                         "every server" if self.notice["all"] else "the central server")
+            return yes(notice=self.notice_now())
         if what == "servers":
             mine = self.version["version"]
             return yes(version=mine, servers=[{**s, "behind": s["up"] and behind(s["version"], mine)}

@@ -898,6 +898,52 @@ def test_an_admin_warns_of_maintenance_and_everyone_else_is_sent_off_at_the_time
     served(go())
 
 
+def test_the_central_servers_maintenance_reaches_a_game_as_it_announces(tmp_path):
+    """Every server: this one counts down as for /maintenance (its own sooner one kept), and stops when it's called off;
+    one timed before this server started is over. The central server alone: a countdown, the game carries on."""
+    async def go():
+        runner, app, url = await start(str(tmp_path / "t.db"))
+        game = app[GAME]
+        game.announce = lambda *a, **k: asyncio.sleep(0)
+        try:
+            async with aiohttp.ClientSession() as http:
+                pal, _ = await login(http, url, "Pal")
+                at = time.time() + 600
+                game.central_notice({"at": at, "why": "moving house", "all": True})
+                assert game.maint["at"] == at and game.maint["central"] and game.maint["why"] == "moving house"
+                game.central_notice({"at": at, "why": "moving house", "all": True})          # (heard again: the same)
+                assert game.maint["said"] == {600}
+                game.central_notice(None)                                                   # (called off)
+                assert game.maint is None
+                game.maint = {"at": at - 300, "why": "", "said": set(), "central": False}   # (an admin's own, sooner)
+                game.central_notice({"at": at, "why": "", "all": True})
+                assert game.maint["at"] == at - 300
+                game.central_notice(None)
+                assert game.maint["at"] == at - 300                                         # (not the central's to end)
+                game.maint = None
+                game.central_notice({"at": game.started - 5, "why": "", "all": True})      # (over before this started)
+                assert game.maint is None
+                game.central_notice({"at": at, "why": "", "all": False})
+                assert game.central_maint == {"at": at, "why": ""} and game.maint is None
+                got = []                                                            # (all that's come, in batches)
+                end = time.monotonic() + 3
+                while time.monotonic() < end and not any(x.get("central") and "secs" in x for x in got):
+                    try:
+                        msg = await asyncio.wait_for(pal.receive(), 1)
+                    except asyncio.TimeoutError:
+                        continue
+                    data = json.loads(msg.data)
+                    got += [x for x in (data if isinstance(data, list) else [data]) if x.get("t") == "maintenance"]
+                m = [x for x in got if x.get("central")][-1]
+                assert 590 <= m["secs"] <= 600
+                game.central_notice(None)
+                assert game.central_maint is None
+                await pal.close()
+        finally:
+            await runner.cleanup()
+    served(go())
+
+
 def test_open_pvp_is_the_servers_setting_and_an_admin_turns_it(tmp_path, monkeypatch):
     """DS_PVP=1 opens it; an admin's /pvp off closes it, and that's kept with the world (over DS_PVP)."""
     monkeypatch.setenv("DS_HOST_KEY", "the-hosts-own-key")

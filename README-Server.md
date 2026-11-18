@@ -567,6 +567,11 @@ above.
   says when it goes down. At the time, everyone but the admins is saved and sent off with the reason, and only admins
   can come in until the server starts again (do your restart or update then) or `/maintenance off`. `/maintenance`
   alone says when it is.
+- Warning every server at once: the central server's admin page, Summary, Maintenance. "Every listed server": each
+  public game hears it as it next reports in (within a minute) and counts down and sends its players off just as for
+  `/maintenance`; a server restarted after the time stays up. "This central server": games carry on, but everyone sees
+  that signing in, joining and friends pause; the start screen says so too. Call it off there; it's forgotten an hour
+  after its time.
 - Characters: `docker compose exec game python tools/admin.py list` (and `owner <Name> <Account>`, `admin <Name> on`).
 - Logs: `docker compose logs -f game`. Health: `https://play.example.com/health` (who's on, the tick time).
 - Backups: one a day in the `gamedata` volume's `backups` folder (14 kept). Send them off the VM: `DS_BACKUP_S3` in

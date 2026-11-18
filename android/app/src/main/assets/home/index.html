@@ -41,6 +41,7 @@ h2 { margin: 0 0 4px; color: var(--ink); font-size: 21px; text-shadow: 1px 1px 0
 p { margin: 0; line-height: 1.4; }
 .dim { color: var(--dim); }
 .small { font-size: 13px; }
+.maint-note { color: var(--bad); text-align: center; margin: 0 0 10px; }
 input { font: inherit; font-size: 16px; width: 100%; padding: 11px 12px; border-radius: 10px; border: 2px solid var(--edge);
   background: #1c120c; color: var(--ink); outline: none; transition: border-color 0.15s; }
 input:focus { border-color: var(--edge-light); }
@@ -167,6 +168,7 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
   <div class="panel signin">
     <div class="row" style="justify-content:center;margin:-2px 0 12px"><span id="central-status" class="status">
       <span class="dot"></span><span id="central-words">Connecting...</span></span></div>
+    <p class="maint-note small" hidden></p>
     <div id="online-forms">
       <button id="google" type="button" class="google" hidden>Continue with Google</button>
       <div class="tabs" role="tablist"><button data-tab="in" class="on">Sign in</button><button data-tab="new">Create account</button>
@@ -260,6 +262,7 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
     <div class="screen-head"><button class="back">&#8249; Back</button><h2>Public servers <span class="badge beta">Limited beta</span></h2><button id="refresh">Look again</button></div>
     <p class="note" style="text-align:left;margin-bottom:10px">Open servers anyone can join, a few for now. Each game is a
       world of its own: a character you make there lives on that server only.</p>
+    <p class="maint-note small" hidden></p>
     <div id="servers" class="cards"></div>
   </section>
 </section>
@@ -395,6 +398,21 @@ function setStatus(up, words) {
   $("menu-status").hidden = up && !myName;    // (the chip beside it says so already)
 }
 
+function maintNote(n) {
+  // (the central server's admin page: every server going down for maintenance, or the central server itself)
+  const at = n && Math.floor(Number(n.at)) ? new Date(Math.floor(Number(n.at)) * 1000) : null;
+  const time = at ? at.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) : "";
+  const past = at && at <= new Date();
+  const words = !at ? "" : n.all ? (past ? "The public servers are down for maintenance: try again soon." :
+    `The public servers go down for maintenance at ${time}.`) :
+    (past ? "Down for maintenance: signing in, joining and friends are paused. Games already going carry on." :
+      `Down for maintenance at ${time}: signing in, joining and friends pause. Games already going carry on.`);
+  for (const p of document.querySelectorAll(".maint-note")) {
+    p.textContent = words + (words && n.why ? ` (${n.why})` : "");
+    p.hidden = !words;
+  }
+}
+
 async function connect() {
   $("online-forms").hidden = false; $("offline-words").hidden = true;
   if (!CENTRAL) { offline("No central server is set."); return; }
@@ -404,6 +422,7 @@ async function connect() {
     store.set("demo", hello.demo ? String(hello.demo_level || 5) : "");     // (kept: your own game needs no network)
     $("google").hidden = !hello.google;
     setStatus(true, `Connected · ${hello.servers} game${hello.servers === 1 ? "" : "s"} listed`);
+    maintNote(hello.maint);
     $("send-row").hidden = !canMail;
     $("lost-words").textContent = canMail ? "Your name (or confirmed email), and the code we email you." :
       "This server can't send email just now, so a password can't be reset: try again later.";

@@ -1291,7 +1291,10 @@ N.onMessage = (m) => {
     }
     case "respawned": $("death").hidden = true; canvas.focus(); break;
     case "wave": S.wave = m.name ? { ...m, at: now } : null; break;
-    case "maintenance": S.maint = "secs" in m ? { ...m, at: now } : null; break;   // (an admin's /maintenance)
+    case "maintenance":                            // (this server's /maintenance, or the central server going down)
+      if (m.central) S.cmaint = "secs" in m ? { ...m, at: now } : null;
+      else S.maint = "secs" in m ? { ...m, at: now } : null;
+      break;
     case "game": releaseKeys(); onGame(m, now); break;
     case "admin_items": adminItems = m.items; fillAdminItems(); break;
     case "admin_places": adminPlaces = m.places; fillAdminPlaces(); break;

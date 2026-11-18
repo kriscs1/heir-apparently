@@ -180,6 +180,8 @@ class GameServer:
         self.last_where_sent = None     # (the minimap's dots as last sent: again only when they move)
         self.maint = None               # (an admin's /maintenance: {"at": when it goes down, "why", "said": marks told})
         self.maint_down = False         # (gone down for it: nobody but an admin comes in till it starts again)
+        self.central_maint = None       # (the central server itself going down: {"at", "why"}; games carry on)
+        self.started = time.time()      # (a maintenance for every server timed before this: over, not to go down again)
         self.last_backup_day = None
         self.tick_ms = 0.0
         self.up_since = time.time()
@@ -452,18 +454,29 @@ class GameServer:
                 if o.pvp_mark_until:
                     o.pvp_mark_until = o.now                # (no mark lasts: it fades next tick)
 
-    # ----- maintenance: an admin warns everyone it's going down, and when; at the time, all are saved and sent off
+    # ----- maintenance: an admin warns everyone it's going down, and when; at the time, all are saved and sent off.
+    # The central server's admin page can do the same for every listed server, or warn that it's going down itself
     def maintenance_message(self):
         if not self.maint:
             return {"t": "maintenance"}
         return {"t": "maintenance", "secs": max(0, round(self.maint["at"] - time.time())), "why": self.maint["why"],
                 "down": self.maint_down}
 
+    def central_maint_message(self):
+        n = self.central_maint
+        if not n:
+            return {"t": "maintenance", "central": 1}
+        return {"t": "maintenance", "central": 1, "secs": max(0, round(n["at"] - time.time())), "why": n["why"]}
+
     @staticmethod
     def maint_words(secs):
         mins = round(secs / 60)
         return ("%d seconds" % secs if secs < 60 else "1 minute" if mins == 1 else
                 "%d minutes" % mins if mins < 120 else "%d hours" % round(mins / 60))
+
+    def everyone_hears(self, line, kind="WARNING", sound="Bell"):
+        for o in list(self.world.sessions.values()):
+            o.display_message(line, kind, sound)
 
     def maintenance_command(self, s, text):
         """/maintenance <minutes> [why] (an admin or the host): everyone's warned, a countdown on screen and a line in
@@ -485,27 +498,69 @@ class GameServer:
             if not self.maint:
                 say("No maintenance planned.")
                 return
-            self.maint, self.maint_down = None, False
             log.info("%s called off the maintenance", s.player_name)
-            self.broadcast(self.maintenance_message())
-            for o in list(self.world.sessions.values()):
-                o.display_message("The maintenance is called off.", "SUCCESS", "-")
+            self.end_maintenance()
             return
         if not arg.isdigit() or int(arg) > MAINT_MOST:
             say("/maintenance minutes [why] (0 to %d), or /maintenance off" % MAINT_MOST)
             return
         why = " ".join((words[2] if len(words) > 2 else "").split())[:80]
-        mins = int(arg)
-        self.maint = {"at": time.time() + mins * 60, "why": why, "said": {m for m in MAINT_MARKS if m >= mins * 60}}
+        log.info("%s set maintenance in %s minutes%s", s.player_name, arg, (": " + why) if why else "")
+        self.start_maintenance(time.time() + int(arg) * 60, why)
+
+    def start_maintenance(self, at, why, central=False):
+        """Everyone warned: down at at (time.time()'s), for why. central: the central server's admin page asked it."""
+        left = max(0, at - time.time())
+        self.maint = {"at": at, "why": why, "said": {m for m in MAINT_MARKS if m >= left}, "central": central}
         self.maint_down = False
-        log.info("%s set maintenance in %d minutes%s", s.player_name, mins, (": " + why) if why else "")
         self.broadcast(self.maintenance_message())
-        if mins:
-            line = "The server goes down for maintenance in %s%s." % (self.maint_words(mins * 60),
-                                                                      (": " + why) if why else "")
-            for o in list(self.world.sessions.values()):
-                o.display_message(line, "WARNING", "Bell")
+        if left >= 1:
+            self.everyone_hears("The server goes down for maintenance in %s%s." % (self.maint_words(round(left)),
+                                                                                   (": " + why) if why else ""))
         asyncio.ensure_future(self.announce())          # (the start screen's list says so at once, not in a minute)
+
+    def end_maintenance(self):
+        self.maint, self.maint_down = None, False
+        self.broadcast(self.maintenance_message())
+        self.everyone_hears("The maintenance is called off.", "SUCCESS", "-")
+
+    def central_notice(self, n):
+        """What the central server's admin page says of maintenance (its answer to announce): every listed server going
+        down (each warns its own, as /maintenance does), or the central server itself (games carry on; signing in,
+        joining and friends pause). None: nothing, or it's over."""
+        if not isinstance(n, dict):
+            if self.maint and self.maint.get("central"):
+                self.end_maintenance()
+            if self.central_maint:
+                self.central_maint = None
+                self.broadcast(self.central_maint_message())
+            return
+        try:
+            at = float(n.get("at"))
+        except (TypeError, ValueError):
+            return
+        why = " ".join(str(n.get("why", "")).split())[:80]
+        if n.get("all") and at <= self.started:
+            return self.central_notice(None)
+        if n.get("all"):
+            if self.central_maint:
+                self.central_maint = None
+                self.broadcast(self.central_maint_message())
+            same = self.maint and self.maint["at"] == at and self.maint["why"] == why
+            sooner = self.maint and not self.maint.get("central") and self.maint["at"] <= at   # (its own, sooner)
+            if not (same or sooner):
+                log.info("The central server set maintenance%s", (": " + why) if why else "")
+                self.start_maintenance(at, why, central=True)
+            return
+        if self.maint and self.maint.get("central"):
+            self.end_maintenance()
+        if self.central_maint != {"at": at, "why": why}:
+            self.central_maint = {"at": at, "why": why}
+            self.broadcast(self.central_maint_message())
+            left = round(at - time.time())
+            if left > 0:
+                self.everyone_hears("The central server goes down for maintenance in %s%s: your game carries on, but "
+                                    "signing in and friends pause." % (self.maint_words(left), (" (%s)" % why) if why else ""))
 
     def maintenance_tick(self):
         """The countdown: a line and the bell at each of MAINT_MARKS, and at 0 everyone but an admin saved and sent off."""
@@ -514,9 +569,7 @@ class GameServer:
             for mark in MAINT_MARKS:
                 if left <= mark and mark not in self.maint["said"]:
                     self.maint["said"].update(m for m in MAINT_MARKS if m >= mark)
-                    line = "The server goes down for maintenance in %s." % self.maint_words(mark)
-                    for o in list(self.world.sessions.values()):
-                        o.display_message(line, "WARNING", "Bell")
+                    self.everyone_hears("The server goes down for maintenance in %s." % self.maint_words(mark))
                     break
             return
         self.maint_down = True
@@ -931,6 +984,7 @@ class GameServer:
                 self.store.set_setting("central_secret", got["secret"])
             if got.get("key") and got["key"] != key:
                 self.store.set_setting("server_id", got["key"])     # (the central server gave it another)
+            self.central_notice(got.get("notice"))
 
     # ----- who's playing: a Hallisium account (the central server's ticket), the host (the key its app started the server
     # with) or a device (a key of its own: on this machine and its network only); then one of their characters
@@ -1314,6 +1368,8 @@ class GameServer:
                             "explored": s.explored_for_client(), "time": w.clock_event(), "labels": s.my_labels()})
         if self.maint:
             await self.send(c, self.maintenance_message())
+        if self.central_maint:
+            await self.send(c, self.central_maint_message())
         self.broadcast(self.players_message())
 
     WHISPER = ("/w ", "/whisper ", "/tell ", "/msg ")

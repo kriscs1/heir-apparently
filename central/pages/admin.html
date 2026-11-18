@@ -128,6 +128,15 @@ async function loadServerList() {
 }
 function placeOf(s) { return s.place || ({ solo: "Alone on a device", local: "On a network", public: "Public", friends: "For friends" })[s.kind] || "A game"; }
 
+// (Maintenance: every listed server warned and sent off at the time, or only that this one goes down: games carry on)
+function maintForm(n) {
+  const now = n ? `<p><b>${n.all ? "Every listed server" : "This central server"} goes down for maintenance ${n.at * 1000 > Date.now() ? "at" : "since"} ${esc(when(n.at))}</b>${n.why ? `: ${esc(n.why)}` : ""}. <button data-act="maint-off">Call it off</button></p>` : "";
+  return `<h2>Maintenance</h2>${now}<p class="dim">Everyone playing sees a countdown. Every listed server: at the time each saves and sends its players off till it starts again (each hears within a minute). This central server: games carry on, but signing in, joining and friends pause.</p>
+    <div class="row"><input id="maint-min" type="number" min="0" max="1440" value="15" style="width:6em"> minutes
+    <select id="maint-all"><option value="1">Every listed server</option><option value="">This central server</option></select></div>
+    <div class="row"><input id="maint-why" class="grow" maxlength="80" placeholder="Why (players see it)"><button data-act="maint">Warn everyone</button></div>`;
+}
+
 const TABS = {
   summary: { load: async (had) => {
     const r = had && had.ok ? had : await admin("stats");
@@ -139,7 +148,7 @@ const TABS = {
       line("Game servers reporting", r.reporting), line("Servers listed", r.approved), line("Waiting for approval", r.servers - r.approved),
       line("Servers up now", r.up), line("Email (password codes)", r.mail ? "On" : "Off"),
       line("Sign in with Google", r.google ? "On" : "Off"),
-    ], ""));
+    ], "") + maintForm(r.notice));
   } },
 
   servers: { load: async () => {
@@ -301,6 +310,12 @@ const ACTS = {
   character: (d) => showCharacter(d.k, d.n),
   characters: (d) => { $("q").value = d.n; $("server").value = ""; tab("characters"); },
   quest: (d) => showQuest(d.q),
+  maint: async () => {
+    const all = !!$("maint-all").value, minutes = Math.max(0, Math.min(1440, Math.floor(Number($("maint-min").value)) || 0));
+    if (!confirm(`${all ? "Every listed server" : "This central server"} goes down for maintenance in ${minutes} minutes: warn everyone?`)) return;
+    await admin("maintenance", { minutes, all, why: $("maint-why").value }); return true;
+  },
+  "maint-off": async () => { await admin("maintenance", { off: true }); return true; },
   back: () => true,
 };
 $("view").addEventListener("click", async (ev) => {
