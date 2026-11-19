@@ -65,7 +65,7 @@ References: `dev/Rules.md` (every rule), `dev/Story and Quests.md` (every quest,
   Shard magic. Skills go to 25.
 - **Art and sounds are made in code** by `dev/migrate/build_*.py`: change the builder and run it again, never its
   output. Nothing from another game; anything not made here is CC0 and in `CREDITS.md`.
-- **Data files and maps are cp1252 with CRLF**: write them in binary mode from Python. Never `sed -i` (Git Bash strips
+- **Data files and maps are cp1252 with CRLF** (but `data/Lang/ja|ko|zh.txt` are UTF-8): write them in binary mode from Python. Never `sed -i` (Git Bash strips
   the CRs) and no shell heredocs for edits with backslashes: a patch script in the scratchpad, or Edit.
 - Folders in the main folder are **lowercase** and written so (`data`, `dev`, `maps`, `sounds`, `sprites`).
 - Builders and migrations are safe to run again; a superseded one refuses to run; a builder that takes over another's

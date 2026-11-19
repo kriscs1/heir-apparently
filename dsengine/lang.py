@@ -8,12 +8,18 @@ import time
 
 LANG_DIR = ("data", "Lang")
 RECHECK = 3.0                                   # (seconds between looks at a catalogue for changes)
+WIDE = ("ja", "ko", "zh")                       # (languages cp1252 hasn't the letters of: their catalogues are UTF-8)
+
+
+def catalogue_encoding(path):
+    """cp1252, like every data file; UTF-8 for a language whose letters cp1252 hasn't got."""
+    return "utf-8" if os.path.splitext(os.path.basename(path))[0].lower() in WIDE else "cp1252"
 
 
 def read_catalogue(path, areas=None):
     """{English: translation} from one language's file (areas: only those [sections]), and its Name=."""
     words, name, area = {}, "", ""
-    with open(path, encoding="cp1252", errors="replace") as f:
+    with open(path, encoding=catalogue_encoding(path), errors="replace") as f:
         for line in f:
             line = line.rstrip("\r\n")
             if not line or line[0] == ";":

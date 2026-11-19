@@ -111,6 +111,12 @@ LANGS = {
                accent="a natural accent from France, speaking French"),
     "pt": dict(name="Brazilian Portuguese", man="Brazilian man", woman="Brazilian woman", adj="Brazilian",
                accent="a natural Brazilian accent, speaking Brazilian Portuguese"),
+    "ja": dict(name="Japanese", man="Japanese man", woman="Japanese woman", adj="Japanese",
+               accent="a natural Tokyo accent, speaking standard Japanese"),
+    "ko": dict(name="Korean", man="Korean man", woman="Korean woman", adj="Korean",
+               accent="a natural Seoul accent, speaking standard Korean"),
+    "zh": dict(name="Mandarin Chinese", man="Chinese man", woman="Chinese woman", adj="Chinese",
+               accent="a natural Beijing accent, speaking standard Mandarin Chinese"),
 }
 # (the old man, a real one's recording in English, is one of ElevenLabs' in the others)
 OLD_MAN = ("A kindly old Englishman in his late seventies, slow, warm and a little hoarse, with a country accent; a "

@@ -191,19 +191,31 @@ export function fitText(ctx, text, maxW, size, bold = false) {
   return n > 0 ? text.slice(0, n).trim() + "..." : "";
 }
 
+// (Chinese and Japanese put no spaces between words: a line may break after any character of theirs, but never
+// before a stop, a comma or a closing bracket, which go with the character before them)
+const WIDE = "぀-ヿ㐀-鿿豈-﫿";
+const PIECE = new RegExp(`[${WIDE}][、。，！？：；」』）】ー…]*` +
+  `|[^\\s${WIDE}]+`, "g");
+
 export function wrapLines(ctx, text, w, size, bold = false) {
   const lines = [];
   let line = "";
-  for (const wd of coined(text).split(/\s+/).filter(Boolean)) {
-    const attempt = line ? line + " " + wd : wd;
-    if (textWidth(ctx, attempt, size, bold) > w && line) {
-      lines.push(line);
-      line = wd;
-    } else line = attempt;
+  for (const word of coined(text).split(/\s+/).filter(Boolean)) {
+    word.match(PIECE).forEach((wd, i) => {
+      // (a space between words; none between a wide character and what's next to it)
+      const join = !line || (i && (WIDE_END.test(line) || WIDE_START.test(wd))) ? "" : " ";
+      const attempt = line + join + wd;
+      if (textWidth(ctx, attempt, size, bold) > w && line) {
+        lines.push(line);
+        line = wd;
+      } else line = attempt;
+    });
   }
   if (line) lines.push(line);
   return lines.length ? lines : [""];
 }
+const WIDE_END = new RegExp(`[${WIDE}、。，！？：；」』）】ー…]$`);
+const WIDE_START = new RegExp(`^[${WIDE}「『（【]`);
 
 export function roundBox(ctx, x, y, w, h, fill, border = null, width = 1, radius = 10) {
   const r = Math.max(0, radius / 2);

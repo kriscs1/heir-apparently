@@ -3171,6 +3171,7 @@ REPORT = []
 
 def main():
     quiet = "--quiet" in sys.argv
+    sys.stdout.reconfigure(errors="backslashreplace")      # (a language's own name, 简体中文, on a cp1252 console)
     tiles_ini = check_tiles()
     entities_ini = check_entities()
     skills = check_config(tiles_ini)

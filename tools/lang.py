@@ -1,5 +1,5 @@
 """Other languages: every word the game shows, gathered from where it's written, and each language's catalogue of them
-(data/Lang/<code>.txt: English, a tab, the same in that language; cp1252, CRLF).
+(data/Lang/<code>.txt: English, a tab, the same in that language; cp1252, CRLF; UTF-8 for ja, ko and zh).
 
   python -I tools/lang.py                        how much of each language there is, and what's missing
   python -I tools/lang.py todo es OUT [N]        up to N (300) English lines es hasn't got, one a line, into OUT
@@ -21,11 +21,12 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 
-from dsengine.lang import read_catalogue  # noqa: E402
+from dsengine.lang import catalogue_encoding, read_catalogue  # noqa: E402
 from dsengine.scripting import SAID_ARGS  # noqa: E402
 
 LANG = os.path.join(ROOT, "data", "Lang")
-NAMES = {"es": "Español", "de": "Deutsch", "fr": "Français", "pt": "Português (Brasil)"}
+NAMES = {"es": "Español", "de": "Deutsch", "fr": "Français", "pt": "Português (Brasil)", "ja": "日本語",
+         "ko": "한국어", "zh": "简体中文"}
 AREAS = ("SCRIPTS", "QUESTS", "DATA", "ENGINE", "PAGE", "HOME")
 GAME_AREAS = ("DATA", "ENGINE", "PAGE")         # (the game page's catalogue; SCRIPTS and QUESTS are the server's)
 HOLE = re.compile(r"\{\d+\}|\$[A-Za-z]+\.[A-Za-z0-9_.()']*[A-Za-z0-9_)](?<!'s)")    # (not an English "'s" after it)
@@ -442,15 +443,16 @@ def save(code, words, g):
                 area = a
             out.append(en.replace("\n", PARA) + "\t" + words[en].replace("\n", PARA))
     os.makedirs(LANG, exist_ok=True)
-    with open(os.path.join(LANG, code + ".txt"), "wb") as f:
-        f.write(("\r\n".join(out) + "\r\n").encode("cp1252"))
+    path = os.path.join(LANG, code + ".txt")
+    with open(path, "wb") as f:
+        f.write(("\r\n".join(out) + "\r\n").encode(catalogue_encoding(path)))
 
 
 def holes(s):
     return sorted(set(HOLE.findall(PLURAL.sub(r"{\1}", s))))      # (a hole may be said twice: a plural and its verb)
 
 
-def problem(en, said):
+def problem(en, said, code=""):
     """Why a translation won't do, or "": it keeps every hole, the | and \\ that split it, and the .. that joins it."""
     if not said.strip():
         return "empty"
@@ -463,10 +465,11 @@ def problem(en, said):
         return "the .. at its start"
     if en.rstrip().endswith("..") != said.rstrip().endswith(".."):
         return "the .. at its end"
+    enc = catalogue_encoding(code + ".txt")
     try:
-        said.encode("cp1252")
+        said.encode(enc)
     except UnicodeEncodeError as e:
-        return "not cp1252: %s" % e
+        return "not %s: %s" % (enc, e)
     return ""
 
 
@@ -500,7 +503,7 @@ def fill(g, code, todo_path, answers_path):
     words, _ = load(code)
     bad = 0
     for en, said in zip(ens, saids):
-        why = problem(en, said)
+        why = problem(en, said, code)
         if why:
             bad += 1
             print("NOT TAKEN (%s):\n  %s\n  %s" % (why, en, said))
@@ -515,7 +518,7 @@ def check():
     for code in codes():
         words, _ = load(code)
         for en, said in words.items():
-            why = problem(en, said)
+            why = problem(en, said, code)
             if why:
                 bad.append("%s.txt: %s: %r" % (code, why, en[:80]))
     return bad

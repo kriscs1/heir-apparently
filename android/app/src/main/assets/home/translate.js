@@ -4,7 +4,8 @@
 // on the game's canvas is said through tr (web/js/util.js coined); what's on the page, as it's put there (watch).
 (function () {
   "use strict";
-  const LANGS = [["en", "English"], ["es", "Español"], ["de", "Deutsch"], ["fr", "Français"], ["pt", "Português (Brasil)"]];
+  const LANGS = [["en", "English"], ["es", "Español"], ["de", "Deutsch"], ["fr", "Français"], ["pt", "Português (Brasil)"],
+    ["zh", "简体中文"]];
   // (a hole in a line: {1}, {2}... where the code puts something in, or a script's $Player.Name)
   const HOLE = /\{\d+\}|\$[A-Za-z]+\.[A-Za-z0-9_.()']*[A-Za-z0-9_)]/g;
   const SKIP = new Set(["SCRIPT", "STYLE", "TEXTAREA", "INPUT", "CODE", "CANVAS"]);

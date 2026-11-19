@@ -238,9 +238,12 @@ that isn't in the game.
 
 ### Writing
 - **Every word is written in English and said in the player's language** (English, Spanish, German, French,
-  Brazilian Portuguese: their choice in Options, on the start screen and in the game, else their device's). English
-  is the key: `data/Lang/<code>.txt` has each line, a tab, then the same in that language (cp1252, CRLF; a line not
-  there is said in English). The server says a script's words and a quest's stages and notes before `$variables` are
+  Brazilian Portuguese, Japanese, Korean, Simplified Chinese: their choice in Options, on the start screen and in the
+  game, else their device's). English is the key: `data/Lang/<code>.txt` has each line, a tab, then the same in that
+  language (cp1252, CRLF; `ja`, `ko` and `zh` are UTF-8, as cp1252 hasn't their letters: `dsengine/lang.py` `WIDE`;
+  a line not there is said in English). Japanese and Chinese have no spaces, so a line on the canvas may break after
+  any of their characters (`wrapLines`); Japanese and Korean speak politely to the player (です/ます, 합니다/해요), and
+  an NPC's own manner (a king, a pirate, a child) shows in how plain or grand they are. The server says a script's words and a quest's stages and notes before `$variables` are
   filled in (`dsengine/lang.py`); the page says everything else as it's drawn (`web/home/translate.js`, `coined`).
   New or changed text: `python -I tools/lang.py` counts what's missing, `todo <code> <file>` lists it, `fill <code>
   <file> <answers>` takes the answers line for line, and `export_web_assets.py` sends them to the page. A translation
