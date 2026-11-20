@@ -5,7 +5,7 @@
 (function () {
   "use strict";
   const LANGS = [["en", "English"], ["es", "Español"], ["de", "Deutsch"], ["fr", "Français"], ["pt", "Português (Brasil)"],
-    ["zh", "简体中文"]];
+    ["zh", "简体中文"], ["ja", "日本語"], ["ko", "한국어"]];
   // (a hole in a line: {1}, {2}... where the code puts something in, or a script's $Player.Name)
   const HOLE = /\{\d+\}|\$[A-Za-z]+\.[A-Za-z0-9_.()']*[A-Za-z0-9_)]/g;
   const SKIP = new Set(["SCRIPT", "STYLE", "TEXTAREA", "INPUT", "CODE", "CANVAS"]);
