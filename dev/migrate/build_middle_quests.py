@@ -714,7 +714,7 @@ def rook():
         (">Quest.Can.Start", "OrrinQuest", "@calm"),
         say(ROOK, "Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it "
                   "move, matey. Not with the tide: they move.\\There was a chart that knew the way, once: Orrin's. "
-                  "Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read "
+                  "Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read "
                   "the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\\And she'll "
                   "want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a "
                   "carpenter's bench on your way back.",
@@ -871,7 +871,7 @@ def lodestar():
 
 def barrier():
     lights = barrier_lights()
-    unbind = ("Display.Message", "Cyan", "You hold the Staff of Galmere to the barrier and speak Bert's words of "
+    unbind = ("Display.Message", "Cyan", "You hold the Staff of Brambleton to the barrier and speak Bert's words of "
                                          "Unbinding..", "-")
     w("Use Staff_of_Ashen With Barrier", [
         (">Distance.From.Clicked.Tile", "64", "@far"),

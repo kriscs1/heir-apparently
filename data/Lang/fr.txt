@@ -49,10 +49,10 @@ Laughed, did it? Then the barrier's only light and spite now, and what's behind 
 I will.	Je le ferai.
 It held? Of course it held. Oh, don't look at me like that: I only half thought it would.\Listen. The first king cut the dragon down, and the greater part of it didn't die. It went somewhere: the Shardrealm, where all broken magic goes. The barrier draws on it. It's anchored there, beyond the world.	Elle a tenu ? Bien sûr qu'elle a tenu. Oh, ne me regarde pas comme ça : je n'y croyais qu'à moitié.\Écoute. Le premier roi a abattu le dragon, et la plus grande partie de lui n'est pas morte. Elle est partie quelque part : dans le Royaume des Fragments, là où va toute la magie brisée. La barrière y puise. Elle est ancrée là-bas, au-delà du monde.
 How do I get there?	Comment j'y vais ?
-You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	Tu construis une porte. Pas une petite. N'importe quelle vieille pierre-fragment peut atteindre le bord du royaume, où c'est calme et mince et où les petites choses tiennent. Ton domaine, si tu en as un ? L'Eau-Dormante, comme disent les colons. C'est une poche du bord, retenue par ton ancre. Tu ne t'es jamais demandé pourquoi il n'a pas de voisins ? Mais l'ancre de la barrière est au cœur, une tempête où s'amasse toute la magie brisée, et il faut le percer. Seule une grande ancre à toi y arrivera : une Porte des Fragments. Le vieux cercle de pierres levées sur la colline au nord de cette Cour en était une, autrefois.\Voici mes plans. De l'argent, des saphirs, le cœur d'un Reste, et des Fragments : elle les boit. Et il faut la stabiliser : éveille les pierres-fragments de Galmere, huit au moins, pour que le cercle ait quelque chose à quoi se tenir pendant qu'il perce. Passe la porte, trouve l'ancre et brise-la avec le bâton. Quelque chose la gardera. Il y a toujours quelque chose.
+You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Brambleton, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	Tu construis une porte. Pas une petite. N'importe quelle vieille pierre-fragment peut atteindre le bord du royaume, où c'est calme et mince et où les petites choses tiennent. Ton domaine, si tu en as un ? L'Eau-Dormante, comme disent les colons. C'est une poche du bord, retenue par ton ancre. Tu ne t'es jamais demandé pourquoi il n'a pas de voisins ? Mais l'ancre de la barrière est au cœur, une tempête où s'amasse toute la magie brisée, et il faut le percer. Seule une grande ancre à toi y arrivera : une Porte des Fragments. Le vieux cercle de pierres levées sur la colline au nord de cette Cour en était une, autrefois.\Voici mes plans. De l'argent, des saphirs, le cœur d'un Reste, et des Fragments : elle les boit. Et il faut la stabiliser : éveille les pierres-fragments de Brambleton, huit au moins, pour que le cercle ait quelque chose à quoi se tenir pendant qu'il perce. Passe la porte, trouve l'ancre et brise-la avec le bâton. Quelque chose la gardera. Il y a toujours quelque chose.
 I'll build it.	Je la construirai.
 Bert gave you his plans for a Shardgate (Read them).	Bert t'a donné ses plans d'une Porte des Fragments (Lis-les).
-The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	La barrière a disparu, oui, oui. Mais son ancre, non : elle bourdonne encore au cœur du Royaume des Fragments, là où s'amasse toute la magie brisée. Je la sens d'ici.\Construis une Porte des Fragments dans le vieux cercle de pierres sur la colline au nord de la Cour : voici mes plans. Éveille huit des pierres-fragments de Galmere pour la stabiliser, perce le cœur, brise l'ancre avec le bâton, et le royaume est à toi.
+The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Brambleton's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	La barrière a disparu, oui, oui. Mais son ancre, non : elle bourdonne encore au cœur du Royaume des Fragments, là où s'amasse toute la magie brisée. Je la sens d'ici.\Construis une Porte des Fragments dans le vieux cercle de pierres sur la colline au nord de la Cour : voici mes plans. Éveille huit des pierres-fragments de Brambleton pour la stabiliser, perce le cœur, brise l'ancre avec le bâton, et le royaume est à toi.
 Quest started: The Shardgate. Bert gave you his plans (Read them).	Quête commencée : La Porte des Fragments. Bert t'a donné ses plans (Lis-les).
 The staff! The grimoire! And the ring... oh, look at it. Look at that glow.\He slips the Ember Ring on his finger and holds it up against his sleeve.\Purple and ember. I knew it. It goes with the robe perfectly.	Le bâton ! Le grimoire ! Et l'anneau... oh, regarde-le. Regarde-moi cette lueur.\Il glisse l'Anneau de Braise à son doigt et le tient contre sa manche.\Violet et braise. Je le savais. Ça va parfaitement avec la robe.
 And the spell?	Et le sort ?
@@ -348,7 +348,7 @@ That's Percy's door - I'd know it anywhere! Bless you, dear. Here: it's not much
 Glad I could help.	{player:Content/Contente} de pouvoir aider.
 Quest done: Granny Wren's Walk.	Quête terminée : La promenade de Mamie Wren.
 An unseen hand closes on the amulet and draws it out between the bars, into your palm.	Une main invisible se referme sur l'amulette et la tire entre les barreaux, jusque dans ta paume.
-The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	L'Amulette de Succession de Galmere. C'est donc vrai. Garde-la près de toi, et ne la montre à personne d'autre qu'à ton père.\Et prends ceci. Les hobgobelins se sont fait un repaire derrière une vieille porte de fer dans ces grottes, au sud de la grande caverne. Je garde les vieilles clés des grottes : voici celle de cette porte. Le père de Bess a disparu quand ils sont arrivés. Si tu vas les chercher, sois {player:prudent/prudente}. Je n'ai plus de place de ce côté-là du cimetière.
+The Amulet of Brambleton Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	L'Amulette de Succession de Brambleton. C'est donc vrai. Garde-la près de toi, et ne la montre à personne d'autre qu'à ton père.\Et prends ceci. Les hobgobelins se sont fait un repaire derrière une vieille porte de fer dans ces grottes, au sud de la grande caverne. Je garde les vieilles clés des grottes : voici celle de cette porte. Le père de Bess a disparu quand ils sont arrivés. Si tu vas les chercher, sois {player:prudent/prudente}. Je n'ai plus de place de ce côté-là du cimetière.
 Quest complete: The Amulet of Succession! Brother Aldous gave you the key of the hobgoblins' door.	Quête accomplie : L'Amulette de Succession ! Frère Aldous t'a donné la clé de la porte des hobgobelins.
 You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. And I've a quota. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	Tu restes {player:tapi/tapie} dans la cendre, assez près pour sentir le feu de la Main. À côté, deux inconnus en robe grise comptent des Fragments dans les mains d'un adepte.\« Comme avant », dit la femme. « Par le col, et à travers le mur. Pour celui d'au-delà du mur. »\« Il les mange », dit l'adepte. « Tous. Et moi, j'ai un quota. Pourquoi nourrir un dragon ? »\« Pas le nourrir », dit-elle doucement. « Le réparer. Tout ce qui est coupé veut être entier. Tu verras. »
 Slip away.	S'éclipser.
@@ -678,8 +678,8 @@ You pinch off some sage...	Tu pinces un peu de sauge...
 Your mother's letter, sealed with her wax. Read it now?	La lettre de ta mère, scellée de sa cire. La lire maintenant ?
 Read it.	La lire.
 Later.	Plus tard.
-The Staff of Galmere: gold and blue, and warm in your hand.	Le Bâton de Galmere : or et bleu, et chaud dans ta main.
-Quest complete: The Staff of Galmere! Take it to Bert.	Quête accomplie : Le Bâton de Galmere ! Apporte-le à Bert.
+The Staff of Brambleton: gold and blue, and warm in your hand.	Le Bâton de Brambleton : or et bleu, et chaud dans ta main.
+Quest complete: The Staff of Brambleton! Take it to Bert.	Quête accomplie : Le Bâton de Brambleton ! Apporte-le à Bert.
 The Font's water is still and cold. Those who pour their Shards into it are let through to the great Shard.	L'eau du Font est immobile et froide. Ceux qui y versent leurs Fragments peuvent passer jusqu'au grand Fragment.
 Pour in $Shards.Mending.Tithe Shards.	Verser $Shards.Mending.Tithe Fragments.
 The Shards sink, glowing, and go out one by one. Past the Font, an iron gate clicks.	Les Fragments coulent, lumineux, et s'éteignent un à un. Au-delà du Font, une grille de fer fait clic.
@@ -745,7 +745,7 @@ ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pi
 HOLLOW LANE\Houses of The Wizards' Court.	CHEMIN CREUX\Maisons de la Cour des Mages.
 TALLOW ROW\Houses of The Wizards' Court.	RANG DU SUIF\Maisons de la Cour des Mages.
 PENNYWORTH ROW\Houses of The Wizards' Court.	RANG PENNYWORTH\Maisons de la Cour des Mages.
-THE WIZARDS' COURT\A city of Galmere.	LA COUR DES MAGES\Une ville de Galmere.
+THE WIZARDS' COURT\A city of Brambleton.	LA COUR DES MAGES\Une ville de Brambleton.
 CATHEDRAL OF THE WIZARDS' COURT\All are welcome.	CATHÉDRALE DE LA COUR DES MAGES\Tous sont les bienvenus.
 THE PRANCING PONY\A tavern of The Wizards' Court.	LE PONEY FRINGANT\Une taverne de la Cour des Mages.
 THE ROSE AND CROWN\A tavern of The Wizards' Court.	LA ROSE ET LA COURONNE\Une taverne de la Cour des Mages.
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Frosthold.	RANG DE LA REINE\Maisons de Frosthold.
 CLOTH STREET\Houses of Frosthold.	RUE DU DRAP\Maisons de Frosthold.
 WEAVERS' WAY\Houses of Frosthold.	CHEMIN DES TISSERANDS\Maisons de Frosthold.
 MASON'S ROW\Houses of Frosthold.	RANG DES MAÇONS\Maisons de Frosthold.
-FROSTHOLD\A town of Galmere.	FROSTHOLD\Une ville de Galmere.
+FROSTHOLD\A town of Brambleton.	FROSTHOLD\Une ville de Brambleton.
 SHERIFF'S OFFICE\The watch house of Frosthold.	BUREAU DU SHÉRIF\Le poste du guet de Frosthold.
 DOCTOR'S HOUSE\Of Frosthold.	MAISON DU MÉDECIN\De Frosthold.
 THE PLOUGH\A tavern of Frosthold.	LA CHARRUE\Une taverne de Frosthold.
@@ -814,14 +814,14 @@ CARTWRIGHT ROW\Houses of King Rupert's Keep.	RANG DES CHARRONS\Maisons du Donjon
 FOUNTAIN ROW\Houses of King Rupert's Keep.	RANG DE LA FONTAINE\Maisons du Donjon du Roi Rupert.
 ASH ROW\Houses of King Rupert's Keep.	RANG DES FRÊNES\Maisons du Donjon du Roi Rupert.
 COPPER STREET\Houses of King Rupert's Keep.	RUE DU CUIVRE\Maisons du Donjon du Roi Rupert.
-KING RUPERT'S KEEP\A city of Galmere.	LE DONJON DU ROI RUPERT\Une ville de Galmere.
+KING RUPERT'S KEEP\A city of Brambleton.	LE DONJON DU ROI RUPERT\Une ville de Brambleton.
 CATHEDRAL OF KING RUPERT'S KEEP\All are welcome.	CATHÉDRALE DU DONJON DU ROI RUPERT\Tous sont les bienvenus.
 HOSPITAL\Of King Rupert's Keep.	HÔPITAL\Du Donjon du Roi Rupert.
 THE SMOKING CHIMNEY\A tavern of King Rupert's Keep.	LA CHEMINÉE FUMANTE\Une taverne du Donjon du Roi Rupert.
 THE BRASS MONKEY\A tavern of King Rupert's Keep.	LE SINGE DE CUIVRE\Une taverne du Donjon du Roi Rupert.
 SMITHY\The forge of King Rupert's Keep.	FORGE\La forge du Donjon du Roi Rupert.
 KEEP OUT OF THE WATER!	NE PAS ENTRER DANS L'EAU !
-THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Galmere, and its riches, lands and people are yours to protect.	DERNIÈRES VOLONTÉS ET TESTAMENT DE MARY\{player:Mon/Ma} $Player.Son {player:bien-aimé/bien-aimée},\Nous vivons dans la pauvreté sur cette île depuis que tu as six mois ; ce n'est pas la vie que tu aurais dû avoir. Tu es {player:le véritable héritier/la véritable héritière} de Galmere, et ses richesses, ses terres et son peuple sont à toi de les protéger.
+THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Brambleton, and its riches, lands and people are yours to protect.	DERNIÈRES VOLONTÉS ET TESTAMENT DE MARY\{player:Mon/Ma} $Player.Son {player:bien-aimé/bien-aimée},\Nous vivons dans la pauvreté sur cette île depuis que tu as six mois ; ce n'est pas la vie que tu aurais dû avoir. Tu es {player:le véritable héritier/la véritable héritière} de Brambleton, et ses richesses, ses terres et son peuple sont à toi de les protéger.
 Read on.	Lire la suite.
 I could never tell you who we were while I lived: it was safer that you didn't know. I didn't leave Galaith with nothing. What I carried away, I hid, and the people of this island have kept my secrets for you. When you are ready, they will see that you find it.	Je n'ai jamais pu te dire qui nous étions de mon vivant : il valait mieux que tu ne le saches pas. Je n'ai pas quitté Galaith les mains vides. Ce que j'ai emporté, je l'ai caché, et les gens de cette île ont gardé mes secrets pour toi. Quand tu seras {player:prêt/prête}, ils veilleront à ce que tu le trouves.
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	Ton père, le roi, attend toujours derrière les murs de Galaith, et il ne sait pas que je suis partie. Va le trouver. La ville est fermée depuis le jour de ta naissance, et j'en suis la raison. Un jour tu comprendras.\Sois {player:prudent/prudente}, et dis à ton père que je n'ai jamais cessé de l'aimer.\Mary
@@ -866,7 +866,7 @@ THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens
 ROYAL TREASURY\The Wizards' Court's strongroom.	TRÉSOR ROYAL\La chambre forte de la Cour des Mages.
 STONEGATE\Houses of Saltmarsh.	PORTE-DE-PIERRE\Maisons de Saltmarsh.
 SALTMARSH\A hamlet.	SALTMARSH\Un hameau.
-A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	UNE PORTE DES FRAGMENTS, par Bert, le plus grand mage de son temps.\Dans le vieux cercle de pierres levées sur la colline au nord de la Cour : lie les pierres avec quatre lingots d'argent, sertis deux saphirs dans les runes, et au cœur du cercle pose le cœur d'un Reste.\Puis donne-lui $Shards.Shardgate de tes propres Fragments. N'importe quoi peut glisser sur le bord calme du royaume ; pour en percer le cœur il faut stabiliser le cercle, alors éveille d'abord $Shards.Shardgate.Stones des pierres-fragments de Galmere, et connais ton Art des Fragments ($Shards.Shardgate.Level au moins).\Puis passe. Attention au Gardien.
+A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	UNE PORTE DES FRAGMENTS, par Bert, le plus grand mage de son temps.\Dans le vieux cercle de pierres levées sur la colline au nord de la Cour : lie les pierres avec quatre lingots d'argent, sertis deux saphirs dans les runes, et au cœur du cercle pose le cœur d'un Reste.\Puis donne-lui $Shards.Shardgate de tes propres Fragments. N'importe quoi peut glisser sur le bord calme du royaume ; pour en percer le cœur il faut stabiliser le cercle, alors éveille d'abord $Shards.Shardgate.Stones des pierres-fragments de Brambleton, et connais ton Art des Fragments ($Shards.Shardgate.Level au moins).\Puis passe. Attention au Gardien.
 Fold the plans.	Plier les plans.
 Dunerest: south-west\Saltmarsh: south-east	Dunerest : sud-ouest\Saltmarsh : sud-est
 Northport: west\Oakhollow: south-east\Wildwood: south-west	Northport : ouest\Oakhollow : sud-est\Wildwood : sud-ouest
@@ -903,7 +903,7 @@ WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand w
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	JOURNAL DES GARDIENS : de la main d'Odile Brask, cuisinière\J'y vais. Dans le lac, je veux dire. Le bourdonnement y est le plus fort, et je veux voir ce qui chante, et je suis trop vieille pour avoir peur de l'eau.\À qui trouvera ceci : attention aux marins. Il les appelle aussi. Je l'entends les appeler, à travers la roche, chaque nuit.\Il y a un ragoût sur le feu. Que quelqu'un le remue.
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	JOURNAL DES GARDIENS : de la main d'Ysolde, la dernière\Je suis la dernière à ne lui avoir jamais répondu. (Nous voulions lui répondre une fois, tous ensemble. Nous avons passé quarante ans sur la formulation, et entre-temps nous avions compris.) Si tu es chaud, et que tu lis ceci, alors écoute : tu peux l'entendre, et tu peux apprendre de lui, mais ne réponds jamais. Répondre, c'est par là qu'il entre.\Il y a une salle sous le Reliquaire où nous écoutions à tour de rôle. Les quatre carillons la gardent fermée. La pierre qui chante dans les galeries se souvient de leur ordre ; il change avec l'année, comme la vieille chanson. J'ai bâti un cairn ici, pour que quelqu'un s'arrête.
 ROPE WALK\Houses of Wardhaven.	CHEMIN DES CORDIERS\Maisons de Wardhaven.
-WARDHAVEN\A town of Galmere.	WARDHAVEN\Une ville de Galmere.
+WARDHAVEN\A town of Brambleton.	WARDHAVEN\Une ville de Brambleton.
 CHURCH OF WARDHAVEN\All are welcome.	ÉGLISE DE WARDHAVEN\Tous sont les bienvenus.
 SHERIFF'S OFFICE\The watch house of Wardhaven.	BUREAU DU SHÉRIF\Le poste du guet de Wardhaven.
 SMITHY\The forge of Wardhaven.	FORGE\La forge de Wardhaven.
@@ -957,7 +957,7 @@ He has nothing more to give you, and has been very good about it.	Il n'a plus ri
 Something squeaks inside the stump. A rubber duck! It looks at you as if you were the strange one.	Quelque chose couine dans la souche. Un canard en caoutchouc ! Il te regarde comme si c'était toi, le bizarre.
 Five secrets found. You're developing a nose for it.	Cinq secrets trouvés. Tu commences à avoir du flair.
 Ten secrets! People have started hiding things from you on purpose.	Dix secrets ! Les gens ont commencé à te cacher des choses exprès.
-Every secret in Galmere, found. Somewhere, a squirrel weeps.	Tous les secrets de Galmere, trouvés. Quelque part, un écureuil pleure.
+Every secret in Brambleton, found. Somewhere, a squirrel weeps.	Tous les secrets de Brambleton, trouvés. Quelque part, un écureuil pleure.
 You fish out a fortune in wishes. Twenty-five gold, give or take a dream.	Tu repêches une fortune en vœux. Vingt-cinq pièces d'or, à un rêve près.
 A magpie's stash: a spoon, a thimble, and a sapphire it must have been very proud of.	La cachette d'une pie : une cuillère, un dé à coudre, et un saphir dont elle devait être très fière.
 A statue of a wizard, its hat a lid. Under it: Shards, and a note in Bert's hand: 'IF FOUND, NO YOU DIDN'T.'	Une statue de mage, son chapeau en guise de couvercle. Dessous : des Fragments, et un mot de la main de Bert : « SI TROUVÉ, NON, TU N'AS RIEN TROUVÉ. »
@@ -992,11 +992,11 @@ You lift the lid and rummage under the salted fish...	Tu soulèves le couvercle e
 One piece of it doesn't stop chiming. You pick it up. It's warm.	Un morceau ne cesse pas de tinter. Tu le ramasses. Il est chaud.
 Shardcraft: work Shard magic. Wake shardstones, break gear down for its Shards, write scrolls, enchant gear with rare shards and shape your pocket of the Shardrealm.	Art des Fragments : manie la magie des Fragments. Éveille les pierres-fragments, démonte l'équipement pour ses Fragments, écris des parchemins, enchante l'équipement avec des fragments rares et façonne ton recoin du Royaume des Fragments.
 The Warden stands over the anchor: it won't let you near.	Le Gardien se dresse au-dessus de l'ancre : il ne te laisse pas approcher.
-You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	Tu lèves le Bâton de Galmere et prononces sur l'ancre les mots de Déliaison de Bert..
+You raise the Staff of Brambleton and speak Bert's words of Unbinding at the anchor..	Tu lèves le Bâton de Brambleton et prononces sur l'ancre les mots de Déliaison de Bert..
 ..and it shatters. Under it the realm's floor falls away into a hollow, vast and warm, where something huge lies sleeping: every splinter of magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. Tell Bert.	..et elle vole en éclats. Dessous, le sol du royaume s'effondre en un creux, immense et chaud, où quelque chose d'énorme est endormi : chaque éclat de magie ici penche vers lui, et il respire. Loin d'ici, dans le col de Galaith, quelque chose cède. Dis-le à Bert.
 Through the hole where the anchor stood you see the pass, small and far, as if through ice. The barrier thins, and beyond it the dragon lifts its head: its hide is grown over with Shards, plates of them, glittering.	Par le trou où se tenait l'ancre tu vois le col, petit et lointain, comme à travers la glace. La barrière s'amincit, et au-delà le dragon lève la tête : son cuir est couvert de Fragments, des plaques entières, scintillantes.
 A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	Une voix comme un éboulement, dans ta tête : « {player:Le petit héritier/La petite héritière}, dans ma propre cave. Brise ce que tu veux. Ma fidèle Main m'a nourri de Fragments à travers ce mur, miette par miette, depuis le jour où il s'est dressé, et l'épée que tu as gagnée dort profondément. »
-Your bare hands won't break it: it needs the Staff of Galmere.	Tes mains nues ne peuvent pas la briser : il faut le Bâton de Galmere.
+Your bare hands won't break it: it needs the Staff of Brambleton.	Tes mains nues ne peuvent pas la briser : il faut le Bâton de Brambleton.
 You puff smoke into the skep's door. The humming drops, slow and sleepy.	Tu souffles de la fumée par l'entrée de la ruche. Le bourdonnement baisse, lent et ensommeillé.
 You need a tinderbox to make smoke.	Il te faut un briquet à amadou pour faire de la fumée.
 Someone should fix that floorboard; it sounds like it's about to fall through.	Quelqu'un devrait réparer cette planche ; on dirait qu'elle va céder.
@@ -1154,7 +1154,7 @@ You don't have any gold!	Tu n'as pas d'or !
 A new face! Every adventurer should know a little magic. Take these. I've far too many; I keep buying them.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you. I've tried. Ask my knees.	Un nouveau visage ! Tout aventurier devrait connaître un peu de magie. Prends ceci. J'en ai bien trop ; je n'arrête pas d'en acheter.\Lis un parchemin et son sort est à toi pour de bon ; le lancer coûte des Fragments. Et un breuvage ou deux : la magie ne te soignera pas. J'ai essayé. Demande à mes genoux.
 The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	{player:L'ami/L'amie} de l'Intendant ! Entre, entre, attention au chat. Pas un vrai chat. Enfin.\Tu veux qu'on abatte la barrière. Tout le monde veut qu'on abatte la barrière. Je peux le faire : Bert, le plus grand mage de son temps, à ton service. Mais même moi, il me faut ce qu'il faut. Même moi. C'est très agaçant.
 What things?	Quelles choses ?
-Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	Trois. Le Bâton de Galmere : celui du Roi lui-même, dans son solar en haut de son donjon. Le Grimoire de Déliaison : enterré avec la bibliothèque des prêtres du soleil, dans le désert près de Dunerest. Et l'Anneau de Braise, que porte le Prêtre Cendré dans son fort au-dessus d'Emberwatch.\Apporte-moi les trois, et on verra pour cette barrière. Et essuie-toi les pieds en entrant.
+Three. The Staff of Brambleton: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	Trois. Le Bâton de Brambleton : celui du Roi lui-même, dans son solar en haut de son donjon. Le Grimoire de Déliaison : enterré avec la bibliothèque des prêtres du soleil, dans le désert près de Dunerest. Et l'Anneau de Braise, que porte le Prêtre Cendré dans son fort au-dessus d'Emberwatch.\Apporte-moi les trois, et on verra pour cette barrière. Et essuie-toi les pieds en entrant.
 I'll bring them.	Je les rapporterai.
 Quest started: Bert's Three Treasures.	Quête commencée : Les trois trésors de Bert.
 The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind. Two is not three. People keep trying two.	Le bâton du donjon du Roi, le grimoire sous le désert, l'anneau du Prêtre Cendré. Les trois, attention. Deux, ce n'est pas trois. Les gens essaient toujours avec deux.
@@ -1180,7 +1180,7 @@ The furnace: smelt ore.	Le fourneau : fondre du minerai.
 The anvil: smith bars.	L'enclume : forger des lingots.
 Never mind.	Laisse tomber.
 Copper, tin and coal: in the grotto under the beggar's cellar.\Iron: the old mine in the Whispering Woods, past the King's guard. Wear armour.\Silver lies deeper down. Brokk the dwarf has found mithril in the Deep Hollow.	Cuivre, étain et charbon : dans la grotte sous la cave du mendiant.\Fer : la vieille mine dans les Bois Murmurants, après la garde du Roi. Porte une armure.\L'argent est plus profond. Brokk le nain a trouvé du mithril dans le Creux Profond.
-Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	Chaque bête qui embête Galmere finit sur mon tableau tôt ou tard. Celle du jour est épinglée à côté de moi. Apporte-moi le compte et j'apporterai la bourse.
+Every beast that bothers Brambleton ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	Chaque bête qui embête Brambleton finit sur mon tableau tôt ou tard. Celle du jour est épinglée à côté de moi. Apporte-moi le compte et j'apporterai la bourse.
 Who pays for it?	Qui paie pour ça ?
 The towns put in, the farms put in, and anyone who's lost a sheep puts in twice. One bounty a day, mind. The purse isn't bottomless.	Les villes cotisent, les fermes cotisent, et quiconque a perdu un mouton cotise deux fois. Une prime par jour, attention. La bourse n'est pas sans fond.
 So you're the one Nell sent. Sit down. No, there. Now.\When I was a girl my mother told me about the Glass Wardens. The first king set them to keep watch over something that fell in the sea, a long time ago, and they built a house for it under the water, and they went down to it, and they didn't come back up.	Alors c'est toi que Nell a {player:envoyé/envoyée}. Assieds-toi. Non, là. Voilà.\Quand j'étais petite ma mère me parlait des Gardiens de Verre. Le premier roi les avait chargés de veiller sur quelque chose qui était tombé dans la mer, il y a longtemps, et ils lui ont bâti une maison sous l'eau, et ils sont descendus jusqu'à elle, et ils ne sont jamais remontés.
@@ -1223,7 +1223,7 @@ The bandits are gone, and so are the town's goods. Word is they turned up on the
 The road is safe again. Frosthold salutes you.	La route est de nouveau sûre. Frosthold te salue.
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	La route n'est pas un endroit pour les civils tant qu'elle grouille de bandits. Quand tu sauras manier une épée pour de vrai, reviens me faire ton rapport.
 Yes, Captain.	Oui, Capitaine.
-Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	L'Île du Dragon ? Ha ! Personne n'y navigue et n'en revient, et je l'ai fait deux fois. Les récifs autour bougent, moussaillon. Pas avec la marée : ils bougent.\Il y avait une carte qui connaissait le chemin, autrefois : celle d'Orrin. Le meilleur navigateur qu'Galmere ait jamais eu. Il est monté dans la Tour Brisée, au sud de la Cour des Mages, pour lire le ciel, et il n'est jamais redescendu. Rapporte-moi la carte d'Orrin et je trouverai ton île.\Et elle voudra sa coque réparée avant d'aller où que ce soit : dix planches et vingt clous, si tu passes devant un établi de charpentier en revenant.
+Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	L'Île du Dragon ? Ha ! Personne n'y navigue et n'en revient, et je l'ai fait deux fois. Les récifs autour bougent, moussaillon. Pas avec la marée : ils bougent.\Il y avait une carte qui connaissait le chemin, autrefois : celle d'Orrin. Le meilleur navigateur qu'Brambleton ait jamais eu. Il est monté dans la Tour Brisée, au sud de la Cour des Mages, pour lire le ciel, et il n'est jamais redescendu. Rapporte-moi la carte d'Orrin et je trouverai ton île.\Et elle voudra sa coque réparée avant d'aller où que ce soit : dix planches et vingt clous, si tu passes devant un établi de charpentier en revenant.
 Quest started: Orrin's Chart.	Quête commencée : La carte d'Orrin.
 Orrin's chart, matey. The Sundered Tower, south of the Wizards' Court. Mind the stairs: there aren't any.	La carte d'Orrin, moussaillon. La Tour Brisée, au sud de la Cour des Mages. Attention aux escaliers : il n'y en a pas.
 Right.	D'accord.
@@ -1601,7 +1601,7 @@ You have it? Then take it to Captain Hart at the palace door. He answers to the 
 Her own hand. Then there's nothing left to doubt.\She turns the amulet in the lamplight once more, and her hands begin to shake.	Sa propre écriture. Alors il n'y a plus rien à douter.\Elle tourne l'amulette une fois de plus à la lumière de la lampe, et ses mains se mettent à trembler.
 She was my mother.	C'était ma mère.
 Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	Alors {player:bienvenu/bienvenue} chez toi, {player:mon/ma} $Player.Lord. Porte ma parole au Chancelier, sous mon propre sceau.
-The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	C'est le Chancelier qui t'envoie ? Fais voir.\La couronne, le saphir, la marque des anciens orfèvres sous le fermoir. C'est l'Amulette de Succession de Galmere. La Reine Mary la portait la nuit où elle a disparu.\Mais une amulette peut se voler, et mon sceau ne peut pas se reprendre. La nuit où elle s'est enfuie, l'ancien Chancelier a fait sceller ses papiers dans la chambre forte sous cette salle, et a mis la Garde à les surveiller. Apporte-moi quelque chose de sa main, et je saurai.
+The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Brambleton Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	C'est le Chancelier qui t'envoie ? Fais voir.\La couronne, le saphir, la marque des anciens orfèvres sous le fermoir. C'est l'Amulette de Succession de Brambleton. La Reine Mary la portait la nuit où elle a disparu.\Mais une amulette peut se voler, et mon sceau ne peut pas se reprendre. La nuit où elle s'est enfuie, l'ancien Chancelier a fait sceller ses papiers dans la chambre forte sous cette salle, et a mis la Garde à les surveiller. Apporte-moi quelque chose de sa main, et je saurai.
 How do I get down there?	Comment descendre là-dessous ?
 There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	Il y a une trappe au fond de la salle. Je la laisserai sans barre. Les gardes là-dessous répondent au Chancelier, pas à moi, et ils ne demandent pas qui tu es avant. Va doucement.
 An amulet? You'd better show it to me, then. I can't vouch for a story.	Une amulette ? Tu ferais mieux de me la montrer, alors. Je ne peux pas me porter garante d'une histoire.
@@ -1639,11 +1639,11 @@ Then we have nothing more to discuss.	Alors nous n'avons plus rien à nous dire.
 No, we don't.	Non, en effet.
 You wish to see the King? You, and every merchant, beggar and poet in Galaith, now the gates are open.\What makes you more than they are?	Tu veux voir le Roi ? Toi, et chaque marchand, mendiant et poète de Galaith, maintenant que les portes sont ouvertes.\Qu'est-ce qui fait de toi plus qu'eux ?
 I am his $Player.Son.	Je suis {player:son/sa} $Player.Son.
-Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall I.	Audacieux. L'enfant de la Reine aurait dix-huit ans maintenant, et porterait l'Amulette de Succession. Montre-la à l'Archiviste Royale, à l'Hôtel de ville : elle connaît chaque vrai sceau de Galmere. Si elle s'en porte garante, moi aussi.
+Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Brambleton. If she vouches for it, so shall I.	Audacieux. L'enfant de la Reine aurait dix-huit ans maintenant, et porterait l'Amulette de Succession. Montre-la à l'Archiviste Royale, à l'Hôtel de ville : elle connaît chaque vrai sceau de Brambleton. Si elle s'en porte garante, moi aussi.
 I'll go to the Archivist.	J'irai voir l'Archiviste.
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	Le sceau de l'Archiviste, en vert. Alors c'est vrai.\{player:Mon/Ma} $Player.Lord. Pardonne ses doutes à un vieil homme. Voici mon mandat : montre-le au capitaine de la garde.
 Thank you, Chancellor.	Merci, Chancelier.
-The Parliament of Galmere will return from Northport, now the road is open. There is much to do.	Le Parlement de Galmere va revenir de Northport, maintenant que la route est ouverte. Il y a beaucoup à faire.
+The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	Le Parlement de Brambleton va revenir de Northport, maintenant que la route est ouverte. Il y a beaucoup à faire.
 Pots, pails and tools: a bit of everything for the road.	Pots, seaux et outils : un peu de tout pour la route.
 Cloth and wool, the best!	Draps et laine, les meilleurs !
 Boots that last!	Des bottes qui durent !
@@ -1874,7 +1874,7 @@ Thank you, Steward.	Merci, Intendant.
 Quest complete: The Steward's Hunt! 100 gold and a ruby.	Quête accomplie : La chasse de l'Intendant ! 100 pièces d'or et un rubis.
 Five hobgoblins, from the old iron mine. You've $Attr.HobgoblinsSlain so far.	Cinq hobgobelins, de la vieille mine de fer. Tu en as tué $Attr.HobgoblinsSlain jusqu'ici.
 Bert wants the King's staff? It hangs in his solar, at the top of the keep, where he left it the night he rode for Galaith.\Nobody's been up since. The stair door is locked, and the old guard, they say, never left their post, even dead. Here's the key. Go carefully.	Bert veut le bâton du Roi ? Il est accroché dans sa chambre haute, au sommet du donjon, là où il l'a laissé la nuit où il est parti à cheval pour Galaith.\Personne n'y est monté depuis. La porte de l'escalier est fermée à clé, et la vieille garde, dit-on, n'a jamais quitté son poste, même morte. Voici la clé. Va prudemment.
-Quest started: The Staff of Galmere.	Quête commencée : Le Bâton de Galmere.
+Quest started: The Staff of Brambleton.	Quête commencée : Le Bâton de Brambleton.
 The keep stands, and the King's roads are open. Long may they stay so.	Le donjon tient bon, et les routes du Roi sont ouvertes. Puissent-elles le rester longtemps.
 Your Majesty. You honour the garden. It's been dull without honour.	Votre Majesté. Vous honorez le jardin. Il était bien terne sans honneur.
 The court's coming back to life. Slowly. Like a cold hand.	La cour reprend vie. Lentement. Comme une main froide.
@@ -1915,7 +1915,7 @@ My uncle went down the Shifting Deep once. Came back up through a different hole
 Don't trust geese. That's all I'll say. Don't trust them.	Ne fais pas confiance aux oies. C'est tout ce que je dirai. Ne leur fais pas confiance.
 I once saw a cow look at the moon for a whole night. Changed me, that did.	J'ai vu une vache regarder la lune toute une nuit. Ça m'a changé, ça.
 If you see a hat floating about the Wizards' Court, say hello. That's Pip. He's shy.	Si tu vois un chapeau flotter autour de la Cour des Mages, dis bonjour. C'est Pip. Il est timide.
-They say the old king hid treasure all over Galmere. My grandad said that. My grandad also said he was a duck, so.	On dit que le vieux roi a caché des trésors partout en Galmere. C'est mon grand-père qui disait ça. Mon grand-père disait aussi qu'il était un canard, alors bon.
+They say the old king hid treasure all over Brambleton. My grandad said that. My grandad also said he was a duck, so.	On dit que le vieux roi a caché des trésors partout en Brambleton. C'est mon grand-père qui disait ça. Mon grand-père disait aussi qu'il était un canard, alors bon.
 Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.	Oh, mon pauvre cœur. Edwin a dit qu'il t'apporterait la lettre de Mary. Nous l'aimions tant.\Dîner ? Bien sûr ! Seulement le fourneau est froid comme la pierre, et pour Edwin, le bois de chauffage, c'est une pile de vieux actes. Tu voudrais bien me couper trois bûches ? Tiens, prends sa hache. Il ne s'en est jamais servi. Ne lui dis pas que je l'ai dit.
 I'll chop some logs.	Je vais couper des bûches.
 Not just now.	Pas tout de suite.
@@ -2059,9 +2059,9 @@ Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	Bonsoir. Il n'en vient pas beaucoup sur les quais à cette heure-ci sans rien à vendre.\Je ne demande pas d'où vient une chose, et je ne retiens pas les visages. Ça te coûte un peu sur le prix, c'est tout.
 Let's see what you'll give me.	Voyons ce que vous me donnerez.
 Welcome to the port of Northport. Mind the ropes.	Bienvenue au port de Northport. Attention aux cordages.
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Galmere's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	Tu descends du bac de l'Île ? Tes papiers, alors.\Il les déplie, et se fige devant le sceau.\C'est l'ancien sceau royal. Je n'en ai pas vu un depuis que la Reine a disparu, il y a dix-huit ans : l'année où Galaith a été fermée, un mur de lumière en travers du col et un dragon derrière. La mairie de Northport est le Parlement de Galmere maintenant, jusqu'à ce que la barrière tombe.\Ce n'est pas une affaire pour un sergent sur une jetée. Apporte-les à la Présidente, à la mairie, et garde-les bien sur toi.
+Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	Tu descends du bac de l'Île ? Tes papiers, alors.\Il les déplie, et se fige devant le sceau.\C'est l'ancien sceau royal. Je n'en ai pas vu un depuis que la Reine a disparu, il y a dix-huit ans : l'année où Galaith a été fermée, un mur de lumière en travers du col et un dragon derrière. La mairie de Northport est le Parlement de Brambleton maintenant, jusqu'à ce que la barrière tombe.\Ce n'est pas une affaire pour un sergent sur une jetée. Apporte-les à la Présidente, à la mairie, et garde-les bien sur toi.
 I'll go to the City Hall.	J'irai à la mairie.
-Welcome to Northport, the capital of Galmere. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	Bienvenue à Northport, la capitale de Galmere. Pour l'instant, en tout cas.\Galaith est fermée depuis dix-huit ans : un mur de lumière en travers du col, et un dragon derrière. Alors la mairie d'ici est le Parlement, jusqu'à ce que la barrière tombe.\Des affaires à Galaith, tu dis ? Alors c'est à la mairie qu'il faut demander. On dit qu'elle a été scellée l'année même où la Reine a disparu.
+Welcome to Northport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	Bienvenue à Northport, la capitale de Brambleton. Pour l'instant, en tout cas.\Galaith est fermée depuis dix-huit ans : un mur de lumière en travers du col, et un dragon derrière. Alors la mairie d'ici est le Parlement, jusqu'à ce que la barrière tombe.\Des affaires à Galaith, tu dis ? Alors c'est à la mairie qu'il faut demander. On dit qu'elle a été scellée l'année même où la Reine a disparu.
 Quest started: The Temporary Capital.	Quête commencée : La capitale provisoire.
 Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	Garde ta bourse près de toi au marché, et ton épée au fourreau. Northport est une bonne ville, en général.
 Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	Bienvenue à la cathédrale de Northport. Asseyez-vous un moment : la lumière à travers les vitraux est magnifique.
@@ -2308,14 +2308,14 @@ My mother, Mary, died on the Isle, where she raised me. Her last will told me wh
 The King comes down from his throne, and holds you, and weeps.	Le Roi descend de son trône, te serre dans ses bras, et pleure.
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary. Ma Mary. Elle t'a {player:emmené/emmenée} loin pour que le dragon ne puisse pas t'avoir, et j'ai laissé dire que c'était une trahison. Dix-huit ans.\{player:Mon/Ma} $Player.Son. {player:Mon/Ma} $Player.Son.
 Father.	Père.
-I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	J'ai tenu ce trône pour une ville enchaînée. Tu as brisé les chaînes. Il est à toi.\Il ôte la couronne de sa tête et la pose sur la tienne.\Vive {player:le/la} $Player.King de Galmere !
-Long live Galmere.	Vive Galmere.
-Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	Quête accomplie : Le véritable héritier ! Tu es {player:le/la} $Player.King de Galmere. Le monde est à toi, à explorer.
+I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Brambleton!	J'ai tenu ce trône pour une ville enchaînée. Tu as brisé les chaînes. Il est à toi.\Il ôte la couronne de sa tête et la pose sur la tienne.\Vive {player:le/la} $Player.King de Brambleton !
+Long live Brambleton.	Vive Brambleton.
+Quest complete: The True Heir! You are the $Player.King of Brambleton. The world is yours to explore.	Quête accomplie : Le véritable héritier ! Tu es {player:le/la} $Player.King de Brambleton. Le monde est à toi, à explorer.
 A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	Un chat roux que tu reconnaîtrais n'importe où s'est roulé en boule sur le trône. Jimmy, comment es-tu arrivé ici ?
 My $Player.Son, the $Player.King. Your mother would be proud.	{player:Mon/Ma} $Player.Son, {player:le/la} $Player.King. Ta mère serait fière.
 Another stands here who calls me father.	Il y en a un autre ici qui m'appelle père.
 Goodbye, Father.	Adieu, Père.
-Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	Alors le sang a marqué plus d'un de ma lignée, et Galmere a plus de chance qu'elle n'en mérite. La Coupe a dispersé la lignée royale avec les Fragments ; le dragon n'en a jamais compté qu'un de vous. Que ce soit donc l'Ordre des Héritiers : chacun de ceux que les Fragments connaissent, lié par serment à la couronne. Il y a de la place sur ce trône pour quiconque garde le royaume.
+Then the blood has marked more than one of my line, and Brambleton is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	Alors le sang a marqué plus d'un de ma lignée, et Brambleton a plus de chance qu'elle n'en mérite. La Coupe a dispersé la lignée royale avec les Fragments ; le dragon n'en a jamais compté qu'un de vous. Que ce soit donc l'Ordre des Héritiers : chacun de ceux que les Fragments connaissent, lié par serment à la couronne. Il y a de la place sur ce trône pour quiconque garde le royaume.
 Morning. Mind the weed, it's slippery. (She shakes a bottle at you; nothing in it.) This shore's a bottle shore. The currents bring 'em all in here, sooner or later. Most are empty. Not all.	Bonjour. Attention aux algues, ça glisse. (Elle agite une bouteille vers toi ; rien dedans.) Ce rivage est un rivage à bouteilles. Les courants les amènent toutes ici, tôt ou tard. La plupart sont vides. Pas toutes.
 What's in the full ones?	Qu'y a-t-il dans les pleines ?
 Good hunting.	Bonne chasse.
@@ -2551,7 +2551,7 @@ I'll see.	Je verrai.
 "It's gone quiet, love. He's gone quiet. I keep listening."	« C'est devenu silencieux, mon petit. Il est devenu silencieux. Je continue d'écouter. »
 Come home, Annis.	Rentrez à la maison, Annis.
 "It won't be long now, love. Oswin says when it's all mended we'll be together."	« Ce ne sera plus long maintenant, mon petit. Oswin dit que quand tout sera réparé, nous serons ensemble. »
-Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Galmere, and only if the heir is worthy.	Qui vient chercher l'Épée de Vaillance ?\L'épée a été forgée pour un seul exploit : en finir avec le dragon de Galaith, et le pacte que tes ancêtres ont conclu avec lui. Elle ne va qu'à {player:l'héritier/l'héritière} de Galmere, et seulement si {player:l'héritier/l'héritière} en est digne.
+Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Brambleton, and only if the heir is worthy.	Qui vient chercher l'Épée de Vaillance ?\L'épée a été forgée pour un seul exploit : en finir avec le dragon de Galaith, et le pacte que tes ancêtres ont conclu avec lui. Elle ne va qu'à {player:l'héritier/l'héritière} de Brambleton, et seulement si {player:l'héritier/l'héritière} en est digne.
 I am the heir.	Je suis {player:l'héritier/l'héritière}.
 Words. Show me valour.	Des mots. Montre-moi ta vaillance.
 Then I will.	Alors je le ferai.
@@ -2691,7 +2691,7 @@ Lady Pettigrew's lost her hat again. To the geese. Again.	Dame Pettigrew a encor
 A Shard Remnant got into my kitchen once. I hit it with a ladle. It's fine. The ladle isn't.	Un Reste de Fragment est entré dans ma cuisine une fois. Je l'ai frappé avec une louche. Il va bien. La louche, non.
 My son wants to be an adventurer. I told him, get a proper job. Like goose herding.	Mon fils veut être aventurier. Je lui ai dit de trouver un vrai métier. Comme gardien d'oies.
 Somebody keeps pressing the big red button in the wizard's tower. I can tell. My washing turns into chickens.	Quelqu'un n'arrête pas d'appuyer sur le gros bouton rouge dans la tour du mage. Je le sais. Mon linge se transforme en poules.
-You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Galmere hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	C'est toi qui as tué le dragon de Galaith ? Alors tu dois avoir ses écailles.\Voici la Forge-Dragon : le seul feu de Galmere assez chaud pour travailler l'écaille de dragon. Apporte-m'en trois, et je te ferai un heaume avec moi-même, et je t'apprendrai la forge.
+You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Brambleton hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	C'est toi qui as tué le dragon de Galaith ? Alors tu dois avoir ses écailles.\Voici la Forge-Dragon : le seul feu de Brambleton assez chaud pour travailler l'écaille de dragon. Apporte-m'en trois, et je te ferai un heaume avec moi-même, et je t'apprendrai la forge.
 I'll bring you three scales.	Je vous apporterai trois écailles.
 Quest started: The Dragonforge.	Quête commencée : La Forge-Dragon.
 Three of them, still warm! Watch now...\There. A dragonscale helm, and nothing on this earth will burn through it. The forge is yours to use whenever you've scales and mithril.	Trois, encore chaudes ! Regarde bien...\Voilà. Un heaume en écailles de dragon, et rien sur cette terre ne le brûlera. La forge est à toi quand tu veux, tant que tu as des écailles et du mithril.
@@ -2699,7 +2699,7 @@ Quest complete: The Dragonforge! You receive a dragonscale helm.	Quête accomplie
 Three scales from the dragon's hide: no fewer.	Trois écailles de la peau du dragon : pas moins.
 Back for the forge? Scale and mithril, and I'll show you how.	Tu reviens pour la forge ? De l'écaille et du mithril, et je te montrerai comment faire.
 Show me the Dragonforge.	Montrez-moi la Forge-Dragon.
-This is the Dragonforge. It's been cold a long time: there's only one dragon left in Galmere, and it sits before the walls of Galaith.	Voici la Forge-Dragon. Elle est froide depuis longtemps : il ne reste qu'un dragon en Galmere, et il se tient devant les murs de Galaith.
+This is the Dragonforge. It's been cold a long time: there's only one dragon left in Brambleton, and it sits before the walls of Galaith.	Voici la Forge-Dragon. Elle est froide depuis longtemps : il ne reste qu'un dragon en Brambleton, et il se tient devant les murs de Galaith.
 Stand still the way you would to cast, and listen at the horn. And whatever it says, warm one, don't answer.	Tiens-toi immobile comme pour lancer un sort, et écoute à la corne. Et quoi qu'elle dise, être chaud, ne réponds pas.
 You lay the Sword of Valour on the Deep Anvil and strike it, once..	Tu poses l'Épée de Vaillance sur l'Enclume Profonde et la frappes, une fois..
 ..and the note goes down through the mountain and comes back up as a voice. The Sword of Valour is awake: Shard-light runs along its edge, and it pulls, gently, towards Galaith.	..et la note descend à travers la montagne et remonte sous forme de voix. L'Épée de Vaillance est éveillée : la lumière des Fragments court le long de son tranchant, et elle tire, doucement, vers Galaith.
@@ -2719,7 +2719,7 @@ The Sun-Forge's disc still holds a little of the light.	Le disque de la Forge-So
 A great disc of gold-faced bronze, dark without the sun on it.	Un grand disque de bronze à face d'or, sombre sans le soleil dessus.
 The three seals sink into the hollows of the door, and it grinds open. Quest complete: The Island of Dragons!	Les trois sceaux s'enfoncent dans les creux de la porte, et elle s'ouvre en grinçant. Quête accomplie : L'Île des Dragons !
 Three hollows in the door, the shape of seals.	Trois creux dans la porte, en forme de sceaux.
-So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	Ainsi. {player:L'héritier/L'héritière} de Galmere vient enfin à Vorgalath, et à pied. Avec dix-huit hivers de retard.\Dix-huit hivers j'ai attendu devant ces murs. Dix-huit hivers la ville a eu faim faute de route, et tout ça pour une petite dette. Avec les intérêts, elle n'est plus si petite.
+So. The heir of Brambleton comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	Ainsi. {player:L'héritier/L'héritière} de Brambleton vient enfin à Vorgalath, et à pied. Avec dix-huit hivers de retard.\Dix-huit hivers j'ai attendu devant ces murs. Dix-huit hivers la ville a eu faim faute de route, et tout ça pour une petite dette. Avec les intérêts, elle n'est plus si petite.
 What debt?	Quelle dette ?
 A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. I kept a copy. I always keep a copy. Your mother broke it, and ran.	Un pacte, mon enfant, pas une malédiction. Ton premier roi m'a réduit à une taille qu'il pouvait lier, et s'est cru malin. J'ai laissé ta lignée garder les miettes de moi, l'or de la montagne et ses Fragments, en échange de l'héritier premier-né de chaque génération : le sang royal est la serrure, et la serrure doit être nourrie. Ils ont signé de leur sang. J'en ai gardé une copie. Je garde toujours une copie. Ta mère l'a rompu, et s'est enfuie.
 She saved me.	Elle m'a {player:sauvé/sauvée}.
@@ -2834,7 +2834,7 @@ You grab the sheep and start to shear...	Tu attrapes le mouton et commences à le
 ...and get a fluffy clump of wool.	...et obtiens une touffe de laine duveteuse.
 ...but the sheep wriggles free!	...mais le mouton se dégage en se tortillant !
 You need shears!	Il te faut des cisailles !
-You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	Tu tiens le Bâton de Galmere contre la barrière et prononces les mots de Déliaison de Bert..
+You hold the Staff of Brambleton to the barrier and speak Bert's words of Unbinding..	Tu tiens le Bâton de Brambleton contre la barrière et prononces les mots de Déliaison de Bert..
 ..and the barrier shatters like glass. Beyond it, on the scorched ground before Galaith's walls, the dragon lifts its glittering head, and the sword in your hand sings back at it.	..et la barrière vole en éclats comme du verre. Au-delà, sur la terre brûlée devant les murs de Galaith, le dragon lève sa tête scintillante, et l'épée dans ta main lui répond en chantant.
 The staff hums against the barrier, but you don't know the words.	Le bâton bourdonne contre la barrière, mais tu ne connais pas les mots.
 ..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	..et la barrière s'embrase, frémit, et tient bon. Quelque chose au-delà du monde la nourrit.
@@ -2988,16 +2988,16 @@ Wield your sword and shield, and train until your Attack and Defence are level 2
 Something of your mother's lies in the caves under the chapel.	Quelque chose qui appartenait à ta mère se trouve dans les grottes sous la chapelle.
 Something gold glints behind iron bars, out of reach of any hand.	Quelque chose d'or brille derrière des barreaux de fer, hors de portée de toute main.
 Speak to the city guard at Northport's port.	Parle au garde de la ville au port de Northport.
-Go to Northport's City Hall, where Galmere's Parliament sits until Galaith opens again.	Va à l'Hôtel de Ville de Northport, où siège le Parlement de Galmere jusqu'à ce que Galaith rouvre.
+Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	Va à l'Hôtel de Ville de Northport, où siège le Parlement de Brambleton jusqu'à ce que Galaith rouvre.
 Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	Porte la lettre du Parlement au Maire d'Ashford, à l'Hôtel de Ville d'Ashford.
 Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	Des gobelins attaquent les fermes à l'est d'Ashford. Chasse-les : attends-les au carrefour de la ferme.
 Tell the Mayor the goblins are beaten.	Dis au Maire que les gobelins sont battus.
 Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	Montre le laissez-passer du Maire à l'Intendant du Roi, au Donjon du Roi Rupert, au sud d'Ashford.
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	Tue cinq hobgobelins ($HobgoblinsSlain sur 5) dans la vieille mine de fer, les profondeurs de la mine ou le terrier, puis retourne voir l'Intendant.
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	Trouve Bert, le grand mage, au sommet de la tour de la Cour des Mages.
-Bring Bert the Staff of Galmere, the Grimoire of Unbinding and the Ember Ring.	Apporte à Bert le Bâton de Galmere, le Grimoire de Déliaison et l'Anneau de Braise.
+Bring Bert the Staff of Brambleton, the Grimoire of Unbinding and the Ember Ring.	Apporte à Bert le Bâton de Brambleton, le Grimoire de Déliaison et l'Anneau de Braise.
 Ask the Steward at King Rupert's Keep about the King's staff.	Interroge l'Intendant du Donjon du Roi Rupert au sujet du bâton du Roi.
-Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Galmere.	Monte jusqu'à la chambre du Roi, au sommet du donjon (l'escalier de la grande salle du donjon : la clé de l'Intendant), et prends le Bâton de Galmere.
+Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Brambleton.	Monte jusqu'à la chambre du Roi, au sommet du donjon (l'escalier de la grande salle du donjon : la clé de l'Intendant), et prends le Bâton de Brambleton.
 Ask the scholar Yusra, in Dunerest, about the Grimoire of Unbinding.	Interroge l'érudite Yusra, à Dunerest, au sujet du Grimoire de Déliaison.
 The Grimoire lies in the sun priests' buried library, in the desert north of Dunerest. Dig out its entrance (a spade).	Le Grimoire repose dans la bibliothèque ensevelie des prêtres du soleil, dans le désert au nord de Dunerest. Dégage son entrée (une bêche).
 Take the Grimoire of Unbinding from its lectern in the buried library.	Prends le Grimoire de Déliaison sur son lutrin, dans la bibliothèque ensevelie.
@@ -3019,10 +3019,10 @@ The Temple of Valour is sealed. Take three Valour Seals from the island's drakes
 Enter the Temple of Valour and speak to its guardian.	Entre dans le Temple de la Vaillance et parle à son gardien.
 Defeat the Guardian of Valour.	Vaincs le Gardien de la Vaillance.
 Draw the Sword of Valour from its stone.	Tire l'Épée de Vaillance de sa pierre.
-The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.	La barrière tient toujours dans le col de Galaith. Lève le Bâton de Galmere contre elle.
+The barrier still stands in the pass of Galaith. Raise the Staff of Brambleton against it.	La barrière tient toujours dans le col de Galaith. Lève le Bâton de Brambleton contre elle.
 The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's tower.	La barrière a tenu : quelque chose d'au-delà du monde la nourrit. Demande à Bert, au sommet de la tour de la Cour des Mages.
 Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).	Construis une Porte des Fragments dans le vieux cercle de pierres levées, sur la colline au nord de la Cour des Mages : 4 lingots d'argent, 2 saphirs, un cœur de Reste et des Fragments, stabilisés par 8 pierres-fragments actives (les plans de Bert).
-Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Galmere.	Passe la Porte des Fragments jusqu'au cœur du Royaume des Fragments. Passe son Gardien, et brise l'ancre de la barrière avec le Bâton de Galmere.
+Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Brambleton.	Passe la Porte des Fragments jusqu'au cœur du Royaume des Fragments. Passe son Gardien, et brise l'ancre de la barrière avec le Bâton de Brambleton.
 The anchor is shattered. Tell Bert.	L'ancre est brisée. Dis-le à Bert.
 The barrier at the pass only thins now its anchor's gone.	La barrière du col ne fait plus que s'amincir, maintenant que son ancre a disparu.
 The dragon wears a hide of Shards now, and it laughed at the Sword of Valour. Ask Bert why.	Le dragon porte maintenant une peau de Fragments, et il s'est moqué de l'Épée de Vaillance. Demande à Bert pourquoi.
@@ -3040,7 +3040,7 @@ Maud says the Stone King sits the old dwarf hall's throne. Break it.	Maud dit qu
 The dwarves locked the Deep Anvil with four rune stones. Maud's people sing a work-song older than any of them.	Les nains ont fermé l'Enclume Profonde avec quatre pierres runiques. Les gens de Maud chantent un chant de travail plus vieux qu'eux tous.
 The Deep Anvil is awake. Wake the Sword of Valour on it.	L'Enclume Profonde est éveillée. Éveille l'Épée de Vaillance dessus.
 The Sword of Valour is awake. Tell Maud.	L'Épée de Vaillance est éveillée. Dis-le à Maud.
-Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Galmere on it).	Va à l'ouest jusqu'au col de Galaith, dans la West Range. Brise la barrière avec le sort de Bert (utilise le Bâton de Galmere dessus).
+Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Brambleton on it).	Va à l'ouest jusqu'au col de Galaith, dans la West Range. Brise la barrière avec le sort de Bert (utilise le Bâton de Brambleton dessus).
 Kill the dragon before Galaith's walls. Only the Sword of Valour, wielded, can reach its heart.	Tue le dragon devant les murs de Galaith. Seule l'Épée de Vaillance, maniée, peut atteindre son cœur.
 Ask the captain of the Royal Guard, at the palace door, to let you see the King.	Demande au capitaine de la Garde Royale, à la porte du palais, de te laisser voir le Roi.
 The Lord Chancellor must give his leave. Find him in Galaith's Parliament.	Le Lord Chancelier doit donner son accord. Trouve-le au Parlement de Galaith.
@@ -4327,8 +4327,8 @@ Last Will	Testament
 Your mother's last will and testament, sealed with her wax.	Le testament de ta mère, scellé de sa cire.
 A will, sealed	Un testament, scellé
 Amulet of Succession	Amulette de Succession
-The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	L'Amulette de la Succession de Galmere : de l'or, un saphir, la couronne royale. Ta mère l'a cachée pour toi.
-The Amulet of Galmere Succession	L'Amulette de la Succession de Galmere
+The Amulet of Brambleton Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	L'Amulette de la Succession de Brambleton : de l'or, un saphir, la couronne royale. Ta mère l'a cachée pour toi.
+The Amulet of Brambleton Succession	L'Amulette de la Succession de Brambleton
 Lair Key	Clé du repaire
 A heavy iron key: it opens the door the hobgoblins hold in the caves.	Une lourde clé de fer : elle ouvre la porte que tiennent les hobgobelins dans les grottes.
 A heavy iron key	Une lourde clé de fer
@@ -4380,7 +4380,7 @@ Port Guard	Garde du port
 One of Northport's city guard, in the city's blue.	Un des gardes de la ville de Northport, dans le bleu de la ville.
 Northport's guard	Garde de Northport
 Speaker	Président
-The Speaker of Galmere's Parliament, in its crimson robes.	Le Président du Parlement de Galmere, dans sa robe cramoisie.
+The Speaker of Brambleton's Parliament, in its crimson robes.	Le Président du Parlement de Brambleton, dans sa robe cramoisie.
 The Speaker of Parliament	Le Président du Parlement
 Mayor	Maire
 The mayor, in a velvet cloak and a chain of office.	Le maire, en cape de velours et chaîne de fonction.
@@ -4401,8 +4401,8 @@ Valour Guardian	Gardien de la Vaillance
 A knight of pale light: the guardian of the Sword of Valour.	Un chevalier de lumière pâle : le gardien de l'Épée de Vaillance.
 Guardian of the Sword of Valour	Gardien de l'Épée de Vaillance
 King Rupert	Roi Rupert
-King Rupert of Galmere, grey before his time.	Le Roi Rupert de Galmere, grisonnant avant l'âge.
-King Rupert of Galmere	Le Roi Rupert de Galmere
+King Rupert of Brambleton, grey before his time.	Le Roi Rupert de Brambleton, grisonnant avant l'âge.
+King Rupert of Brambleton	Le Roi Rupert de Brambleton
 Royal Guard	Garde Royal
 A guard of Galaith's palace, in white and gold.	Un garde du palais de Galaith, en blanc et or.
 Galaith's palace guard	Garde du palais de Galaith
@@ -4501,8 +4501,8 @@ A Valour Seal: gold, a sword's point in red. A drake carried it.	Un Sceau de Vai
 A Valour Seal	Un Sceau de Vaillance
 Ember Ring	Anneau de Braise
 The Ember Ring: a ruby that glows like a coal. Warm to the touch. Inside the band, worn thin: the seal of the Pact, a dragon coiled round a ring of broken scales.	L'Anneau de Braise : un rubis qui luit comme un charbon ardent. Tiède au toucher. À l'intérieur de l'anneau, usé jusqu'à la trame : le sceau du Pacte, un dragon enroulé autour d'un cercle d'écailles brisées.
-Staff of Galmere	Bâton de Galmere
-The Staff of Galmere, the kings' staff: gold and blue, warm with magic.	Le Bâton de Galmere, le bâton des rois : or et bleu, tiède de magie.
+Staff of Brambleton	Bâton de Brambleton
+The Staff of Brambleton, the kings' staff: gold and blue, warm with magic.	Le Bâton de Brambleton, le bâton des rois : or et bleu, tiède de magie.
 Sword of Valour	Épée de Vaillance
 The Sword of Valour. Its edge hums. Only it can reach a dragon's heart.	L'Épée de Vaillance. Son tranchant bourdonne. Elle seule peut atteindre le cœur d'un dragon.
 Grimoire Lectern	Lutrin du Grimoire
@@ -5516,7 +5516,7 @@ Bounty Board	Tableau des primes
 A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.	Un tableau des primes, son cadre griffé de traces de griffes. Une dague y épingle l'avis du jour.
 Today's bounty	La prime du jour
 Records Board	Tableau des exploits
-The hall of records, carved in pale stone and gilded: the names that have done the most in Galmere.	La salle des archives, taillée dans la pierre pâle et dorée : les noms de ceux qui ont le plus accompli en Galmere.
+The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	La salle des archives, taillée dans la pierre pâle et dorée : les noms de ceux qui ont le plus accompli en Brambleton.
 The names that have done the most	Les noms de ceux qui ont le plus accompli
 Trees all over the Isle and the Southlands	Des arbres partout sur l'Île et dans les Southlands
 Fallen logs lying in the meadows and woods	Des troncs tombés dans les prés et les bois
@@ -5612,7 +5612,7 @@ The Temporary Capital	La capitale provisoire
 The Ashford Road	La route d'Ashford
 The Steward's Hunt	La chasse de l'Intendant
 Bert's Three Treasures	Les trois trésors de Bert
-The Staff of Galmere	Le Bâton de Galmere
+The Staff of Brambleton	Le Bâton de Brambleton
 The Sunken Grimoire	Le Grimoire englouti
 The Ember Ring	L'Anneau de Braise
 Orrin's Chart	La carte d'Orrin
@@ -7806,7 +7806,7 @@ an unseen hand brings you a thing up to {1} tiles away	une main invisible t'appo
 a hush round you for {1} s: whatever you fight makes no sound	un silence autour de toi pendant {1} s : ce que tu combats ne fait aucun bruit
 heals {1} hitpoints	soigne {1} points de vie
 You break down the {1}	Tu démontes : {1}
-Magic in Galmere now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	La magie de Galmere repose maintenant sur les Fragments, et tu en as {1} pour commencer. Apprends un sort de son parchemin, pour de bon, et lance-le depuis Canalisation (la boîte des Stats).
+Magic in Brambleton now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	La magie de Brambleton repose maintenant sur les Fragments, et tu en as {1} pour commencer. Apprends un sort de son parchemin, pour de bon, et lance-le depuis Canalisation (la boîte des Stats).
 {1}: your reward	{1} : ta récompense
 ({1}-{2} with your Channeling)	({1}-{2} avec ta Canalisation)
 , {1} for {2} s	, {1} pendant {2} s
@@ -7897,7 +7897,7 @@ nothing worth having	rien qui vaille la peine
 Rattle	Cliquetis
 Minutes	Minutes
 in the wilds	dans la nature
-{1}, raised by the people of Galmere. Most given by: {2}.	{1}, levé par les gens de Galmere. Le plus donné par : {2}.
+{1}, raised by the people of Brambleton. Most given by: {2}.	{1}, levé par les gens de Brambleton. Le plus donné par : {2}.
 Party	Groupe
 {1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1} t'invite dans son groupe : les victimes et les étapes de quête sont partagées entre ceux d'entre vous qui sont proches, et /p pour parler au groupe.
 You ask {1} to join your party.	Tu invites {1} dans ton groupe.
@@ -7905,7 +7905,7 @@ You ask {1} to join your party.	Tu invites {1} dans ton groupe.
 {1} is your friend now.	{1} fait maintenant partie de tes amis.
 {1} is no longer on your friends list.	{1} ne fait plus partie de ta liste d'amis.
 at a homestead	dans un domaine
-in Galmere	à Galmere
+in Brambleton	à Brambleton
 {1} would like to trade with you.	{1} voudrait échanger avec toi.
 You ask {1} to trade.	Tu proposes un échange à {1}.
 The trade is done.	L'échange est conclu.
@@ -7957,7 +7957,7 @@ You take {1}: there's no room for the rest.	Tu prends {1} : il n'y a pas de plac
 Raiders at {1}! Every blade is wanted.	Des pillards à {1} ! On a besoin de toutes les lames.
 {1} is the arena's champion, with {2} wins.	{1} est le champion de l'arène, avec {2} victoires.
 Other heirs abroad today: {1}.	Autres héritiers en route aujourd'hui : {1}.
-All quiet in Galmere today. Quiet as a mouse in a cat's dream.	Tout est calme à Galmere aujourd'hui. Calme comme une souris dans le rêve d'un chat.
+All quiet in Brambleton today. Quiet as a mouse in a cat's dream.	Tout est calme à Brambleton aujourd'hui. Calme comme une souris dans le rêve d'un chat.
 Hear ye!	Oyez, oyez !
 Bounties	Primes
 You've had today's bounty. Come back tomorrow: there's always something with too many teeth.	Tu as eu la prime du jour. Reviens demain : il y a toujours quelque chose avec trop de dents.
@@ -8012,12 +8012,12 @@ Good.	Bien.
 {1} is {2} parts in a hundred done. The foreman wants more hands.	{1} est fait à {2} pour cent. Le contremaître veut plus de bras.
 Bounty	Prime
 {1}: {2} of {3} so far. Keep at it.	{1} : {2} sur {3} jusqu'ici. Continue.
-Today's bounty: {1} {2}, anywhere in Galmere. Gold and Shards when it's done. One a day.	Prime du jour : {1} {2}, n'importe où dans Galmere. De l'or et des Fragments une fois fait. Une par jour.
+Today's bounty: {1} {2}, anywhere in Brambleton. Gold and Shards when it's done. One a day.	Prime du jour : {1} {2}, n'importe où dans Brambleton. De l'or et des Fragments une fois fait. Une par jour.
 A gift from {1}: {2}.	Un cadeau de {1} : {2}.
 Leave {1}.	Quitter {1}.
 Long live the {1}!	Longue vie, {1} !
 Your Majesty!	Votre Majesté !
-Galmere's own {1}!	{1} de Galmere !
+Brambleton's own {1}!	{1} de Brambleton !
 Bless you, Majesty.	Que le ciel vous garde, Majesté.
 Playing {1} on {2}	Joue {1} sur {2}
 the town	la ville
@@ -8169,7 +8169,7 @@ Origin	Origine
 Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}, Python {2} sur {3}
 Sent by: {1}	Envoyé par : {1}
 Playing ({1} of {2}):	En jeu ({1} sur {2}) :
-Your friend {1} has left Galmere.	{1}, de tes amis, a quitté Galmere.
+Your friend {1} has left Brambleton.	{1}, de tes amis, a quitté Brambleton.
 1 minute	1 minute
 Only an admin or the host can do that.	Seul un admin ou l'hôte peut faire ça.
 /maintenance minutes [why] (0 to {1}), or /maintenance off	/maintenance minutes [raison] (0 à {1}), ou /maintenance off
@@ -8180,7 +8180,7 @@ Friends by account are kept by the central server: come in from the start screen
 Your Hallisium account is banned.	Ton compte Hallisium est banni.
 This game isn't joined to the central server.	Cette partie n'est pas reliée au serveur central.
 {1} is here now.	{1} est ici maintenant.
-Your friend {1} has come into Galmere.	{1}, de tes amis, est arrivé dans Galmere.
+Your friend {1} has come into Brambleton.	{1}, de tes amis, est arrivé dans Brambleton.
 Who? {1} Name	Qui ? {1} Nom
 {1} may play again.	{1} peut rejouer.
 {1} has left the game.	{1} a quitté la partie.
@@ -9011,7 +9011,7 @@ Sign in to see the public servers.	Connecte-toi pour voir les serveurs publics.
 A moment...	Un instant...
 The central server didn't answer.	Le serveur central n'a pas répondu.
 Welcome back, {1}.	Bon retour, {1}.
-Welcome to Galmere, {1}!	Bienvenue à Galmere, {1} !
+Welcome to Brambleton, {1}!	Bienvenue à Brambleton, {1} !
 We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	On t'a envoyé un lien par e-mail. Confirme ton e-mail avec pour rejoindre une partie : c'est aussi le seul moyen de revenir si tu oublies ton mot de passe.
 This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	Ce serveur ne peut pas envoyer d'e-mail pour le moment. Confirme ton e-mail depuis ton compte quand il le pourra, pour rejoindre une partie : c'est aussi le seul moyen de revenir si tu oublies ton mot de passe.
 Carry on	Continuer

@@ -49,10 +49,10 @@ Laughed, did it? Then the barrier's only light and spite now, and what's behind 
 I will.	我会的。
 It held? Of course it held. Oh, don't look at me like that: I only half thought it would.\Listen. The first king cut the dragon down, and the greater part of it didn't die. It went somewhere: the Shardrealm, where all broken magic goes. The barrier draws on it. It's anchored there, beyond the world.	它撑住了？当然撑住了。哦，别那样看着我：我只是有一半觉得它会撑住。\听着。第一位国王砍倒了那条龙，而它的大部分并没有死。它去了某个地方：碎片界，所有破碎的魔法都去那里。屏障从那里汲取力量。它被锚定在那里，在世界之外。
 How do I get there?	我怎么去那里？
-You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	你造一扇门。不是一扇小门。任何一块老碎片石都能到达界域的边缘，那里平静而稀薄，小东西能稳住。你的那个家园，如果你有的话？定居者们叫它静水。它是边缘的一小方天地，由你的锚稳住。你从没奇怪过它为什么没有邻居吗？但屏障之锚在核心，那是所有破碎魔法汇聚的风暴，你必须刺穿它。只有一个你自己的巨大锚点才能做到：一座碎片之门。这座巫师庭北边山上那圈古老的立石，曾经就是一座。\这是我的图纸。银、蓝宝石、一颗残迹核心，还有碎片：它会把它们喝掉。而且它必须被稳住：唤醒 Galmere 的碎片石，至少八块，这样石环在冲进去时才有东西可以依靠。穿过那扇门，找到锚，用杖击碎它。会有东西守着它的。总是有东西守着。
+You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Brambleton, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	你造一扇门。不是一扇小门。任何一块老碎片石都能到达界域的边缘，那里平静而稀薄，小东西能稳住。你的那个家园，如果你有的话？定居者们叫它静水。它是边缘的一小方天地，由你的锚稳住。你从没奇怪过它为什么没有邻居吗？但屏障之锚在核心，那是所有破碎魔法汇聚的风暴，你必须刺穿它。只有一个你自己的巨大锚点才能做到：一座碎片之门。这座巫师庭北边山上那圈古老的立石，曾经就是一座。\这是我的图纸。银、蓝宝石、一颗残迹核心，还有碎片：它会把它们喝掉。而且它必须被稳住：唤醒 Brambleton 的碎片石，至少八块，这样石环在冲进去时才有东西可以依靠。穿过那扇门，找到锚，用杖击碎它。会有东西守着它的。总是有东西守着。
 I'll build it.	我会造出来的。
 Bert gave you his plans for a Shardgate (Read them).	Bert 把他的碎片之门图纸给了你（阅读它们）。
-The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	屏障没了，是的，是的。但它的锚还在：它仍在碎片界的核心嗡嗡作响，所有破碎的魔法都汇聚在那里。我在这儿都能感觉到。\在巫师庭北边山上那圈古老的石环里造一座碎片之门：这是我的图纸。唤醒 Galmere 的八块碎片石来稳住它，刺穿核心，用杖击碎锚，界域就任你漫游了。
+The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Brambleton's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	屏障没了，是的，是的。但它的锚还在：它仍在碎片界的核心嗡嗡作响，所有破碎的魔法都汇聚在那里。我在这儿都能感觉到。\在巫师庭北边山上那圈古老的石环里造一座碎片之门：这是我的图纸。唤醒 Brambleton 的八块碎片石来稳住它，刺穿核心，用杖击碎锚，界域就任你漫游了。
 Quest started: The Shardgate. Bert gave you his plans (Read them).	任务开始：碎片之门。Bert 把他的图纸给了你（阅读它们）。
 The staff! The grimoire! And the ring... oh, look at it. Look at that glow.\He slips the Ember Ring on his finger and holds it up against his sleeve.\Purple and ember. I knew it. It goes with the robe perfectly.	杖！魔典！还有戒指……哦，看看它。看看那光芒。\他把余烬戒指戴到手指上，举起来贴着袖子比了比。\紫色配余烬色。我就知道。和长袍简直绝配。
 And the spell?	那法术呢？
@@ -348,7 +348,7 @@ That's Percy's door - I'd know it anywhere! Bless you, dear. Here: it's not much
 Glad I could help.	很高兴能帮上忙。
 Quest done: Granny Wren's Walk.	任务完成：Wren 奶奶的散步。
 An unseen hand closes on the amulet and draws it out between the bars, into your palm.	一只看不见的手握住护身符，把它从铁栏之间抽出来，放进你的掌心。
-The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	Galmere 继承护身符。那么这是真的了。把它收好，除了你父亲，谁也别给看。\还有，拿着这个。大地精在这些洞穴里一扇旧铁门后面筑了巢，在大洞穴的南边。我保管着洞穴的旧钥匙：这把是那扇门的。它们来的时候，Bess 的父亲失踪了。如果你要去追它们，小心点。墓地那边已经没地方了。
+The Amulet of Brambleton Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	Brambleton 继承护身符。那么这是真的了。把它收好，除了你父亲，谁也别给看。\还有，拿着这个。大地精在这些洞穴里一扇旧铁门后面筑了巢，在大洞穴的南边。我保管着洞穴的旧钥匙：这把是那扇门的。它们来的时候，Bess 的父亲失踪了。如果你要去追它们，小心点。墓地那边已经没地方了。
 Quest complete: The Amulet of Succession! Brother Aldous gave you the key of the hobgoblins' door.	任务完成：继承护身符！Aldous 修士给了你大地精那扇门的钥匙。
 You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. And I've a quota. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	你在灰烬里压低身子，近到能闻到灰烬之手的火。火旁，两个穿灰袍的陌生人正把碎片数进一个教徒的手里。\“和以前一样，”那个女人说。“上山口，穿过那堵墙。给墙那边的那位。”\“它把它们吃掉，”教徒说。“每一块都吃。而且我还有指标要完成。为什么要喂一条龙？”\“不是喂它，”她温柔地说。“是弥合它。一切被切开的东西都想重新完整。你会明白的。”
 Slip away.	悄悄溜走。
@@ -678,8 +678,8 @@ You pinch off some sage...	你掐下一些鼠尾草...
 Your mother's letter, sealed with her wax. Read it now?	你母亲的信，用她的蜡封着。现在读吗？
 Read it.	读吧。
 Later.	以后再说。
-The Staff of Galmere: gold and blue, and warm in your hand.	Galmere 之杖：金色和蓝色，在你手里是温暖的。
-Quest complete: The Staff of Galmere! Take it to Bert.	任务完成：Galmere 之杖！把它带给 Bert。
+The Staff of Brambleton: gold and blue, and warm in your hand.	Brambleton 之杖：金色和蓝色，在你手里是温暖的。
+Quest complete: The Staff of Brambleton! Take it to Bert.	任务完成：Brambleton 之杖！把它带给 Bert。
 The Font's water is still and cold. Those who pour their Shards into it are let through to the great Shard.	圣泉池的水静止而冰冷。把碎片倒进去的人会被放行，去见伟大的碎片。
 Pour in $Shards.Mending.Tithe Shards.	倒入 $Shards.Mending.Tithe 枚碎片。
 The Shards sink, glowing, and go out one by one. Past the Font, an iron gate clicks.	碎片沉了下去，发着光，一枚一枚地熄灭了。圣泉池后面，一扇铁门咔哒一响。
@@ -745,7 +745,7 @@ ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pi
 HOLLOW LANE\Houses of The Wizards' Court.	空心巷\巫师庭的住宅。
 TALLOW ROW\Houses of The Wizards' Court.	牛脂排\巫师庭的住宅。
 PENNYWORTH ROW\Houses of The Wizards' Court.	便士排\巫师庭的住宅。
-THE WIZARDS' COURT\A city of Galmere.	巫师庭\Galmere 的一座城市。
+THE WIZARDS' COURT\A city of Brambleton.	巫师庭\Brambleton 的一座城市。
 CATHEDRAL OF THE WIZARDS' COURT\All are welcome.	巫师庭大教堂\欢迎所有人。
 THE PRANCING PONY\A tavern of The Wizards' Court.	腾跃小马酒馆\巫师庭的一家酒馆。
 THE ROSE AND CROWN\A tavern of The Wizards' Court.	玫瑰与王冠酒馆\巫师庭的一家酒馆。
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Frosthold.	王后排\Frosthold 的住宅。
 CLOTH STREET\Houses of Frosthold.	布街\Frosthold 的住宅。
 WEAVERS' WAY\Houses of Frosthold.	织工路\Frosthold 的住宅。
 MASON'S ROW\Houses of Frosthold.	石匠排\Frosthold 的住宅。
-FROSTHOLD\A town of Galmere.	Frosthold\Galmere 的一座小镇。
+FROSTHOLD\A town of Brambleton.	Frosthold\Brambleton 的一座小镇。
 SHERIFF'S OFFICE\The watch house of Frosthold.	警长办公室\Frosthold 的守卫所。
 DOCTOR'S HOUSE\Of Frosthold.	医生之家\Frosthold。
 THE PLOUGH\A tavern of Frosthold.	犁酒馆\Frosthold 的一家酒馆。
@@ -814,14 +814,14 @@ CARTWRIGHT ROW\Houses of King Rupert's Keep.	车匠排\鲁珀特王堡的住宅�
 FOUNTAIN ROW\Houses of King Rupert's Keep.	喷泉排\鲁珀特王堡的住宅。
 ASH ROW\Houses of King Rupert's Keep.	梣树排\鲁珀特王堡的住宅。
 COPPER STREET\Houses of King Rupert's Keep.	铜街\鲁珀特王堡的住宅。
-KING RUPERT'S KEEP\A city of Galmere.	鲁珀特王堡\Galmere 的一座城市。
+KING RUPERT'S KEEP\A city of Brambleton.	鲁珀特王堡\Brambleton 的一座城市。
 CATHEDRAL OF KING RUPERT'S KEEP\All are welcome.	鲁珀特王堡大教堂\欢迎所有人。
 HOSPITAL\Of King Rupert's Keep.	医院\鲁珀特王堡。
 THE SMOKING CHIMNEY\A tavern of King Rupert's Keep.	冒烟烟囱酒馆\鲁珀特王堡的一家酒馆。
 THE BRASS MONKEY\A tavern of King Rupert's Keep.	黄铜猴酒馆\鲁珀特王堡的一家酒馆。
 SMITHY\The forge of King Rupert's Keep.	铁匠铺\鲁珀特王堡的熔炉。
 KEEP OUT OF THE WATER!	远离水边！
-THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Galmere, and its riches, lands and people are yours to protect.	Mary 的遗嘱\我亲爱的 $Player.Son：\从你六个月大起，我们就在这座岛上过着贫穷的日子；你的人生本不该是这个样子。你是 Galmere 真正的继承人，它的财富、土地和人民都归你守护。
+THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Brambleton, and its riches, lands and people are yours to protect.	Mary 的遗嘱\我亲爱的 $Player.Son：\从你六个月大起，我们就在这座岛上过着贫穷的日子；你的人生本不该是这个样子。你是 Brambleton 真正的继承人，它的财富、土地和人民都归你守护。
 Read on.	继续读。
 I could never tell you who we were while I lived: it was safer that you didn't know. I didn't leave Galaith with nothing. What I carried away, I hid, and the people of this island have kept my secrets for you. When you are ready, they will see that you find it.	我活着的时候永远不能告诉你我们是谁：你不知道会更安全。我离开 Galaith 时并不是两手空空。我带走的东西，我藏起来了，这座岛上的人一直为你守着我的秘密。等你准备好了，他们会让你找到它。
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	你的父亲，国王，仍在 Galaith 的城墙后面等待，他不知道我已经走了。去找他吧。从你出生那天起，这座城就关闭了，而原因就是我。总有一天你会明白的。\要小心，告诉你父亲，我从未停止爱他。\Mary
@@ -866,7 +866,7 @@ THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens
 ROYAL TREASURY\The Wizards' Court's strongroom.	王家金库\巫师庭的保险库。
 STONEGATE\Houses of Saltmarsh.	石门\Saltmarsh 的住宅。
 SALTMARSH\A hamlet.	Saltmarsh\一座小村庄。
-A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	碎片之门，当代最伟大的巫师 Bert 著。\在巫师庭北边山上那圈古老的立石里：用四根银锭把石头连起来，把两颗蓝宝石嵌进符文，在石环的中心放上一颗残迹核心。\然后献给它 $Shards.Shardgate 枚你自己的碎片。任何东西都能滑到界域平静的边缘；要刺穿它的核心，石环必须被稳住，所以要先唤醒 Galmere 的 $Shards.Shardgate.Stones 块碎片石，还要懂碎片术（至少 $Shards.Shardgate.Level 级）。\然后走进去。小心守护者。
+A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	碎片之门，当代最伟大的巫师 Bert 著。\在巫师庭北边山上那圈古老的立石里：用四根银锭把石头连起来，把两颗蓝宝石嵌进符文，在石环的中心放上一颗残迹核心。\然后献给它 $Shards.Shardgate 枚你自己的碎片。任何东西都能滑到界域平静的边缘；要刺穿它的核心，石环必须被稳住，所以要先唤醒 Brambleton 的 $Shards.Shardgate.Stones 块碎片石，还要懂碎片术（至少 $Shards.Shardgate.Level 级）。\然后走进去。小心守护者。
 Fold the plans.	把图纸折起来。
 Dunerest: south-west\Saltmarsh: south-east	Dunerest：西南\Saltmarsh：东南
 Northport: west\Oakhollow: south-east\Wildwood: south-west	Northport：西\Oakhollow：东南\Wildwood：西南
@@ -903,7 +903,7 @@ WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand w
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	守卫日志：厨娘 Odile Brask 的笔迹\我要进去了。我是说，进湖里。那里的嗡鸣声最响，我想看看是什么在唱歌，而且我老得不会怕水了。\不管谁找到这个：小心那些水手。它也在呼唤他们。我能听到它在呼唤他们，每天夜里，穿过岩石往上传。\炖菜在火上。谁来搅一搅。
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守卫日志：最后的 Ysolde 的笔迹\我是最后一个从未回答过它的人。（有一次我们想一起回答。措辞商量了四十年，到那时我们都懂事了。）如果你是温暖的，正在读这个，那就听着：你能听到它，你能从它那里学到东西，但永远别回答。回答就是它进来的方式。\圣物堂下面有一个房间，我们在那里轮流聆听。四声钟鸣让它保持关闭。长廊里那块会唱歌的石头记得它们的顺序；它随着年份变化，就像那首老歌一样。我在这里堆了一座石冢，好让有人停下来。
 ROPE WALK\Houses of Wardhaven.	绳索路\Wardhaven 的住宅。
-WARDHAVEN\A town of Galmere.	Wardhaven\Galmere 的一座小镇。
+WARDHAVEN\A town of Brambleton.	Wardhaven\Brambleton 的一座小镇。
 CHURCH OF WARDHAVEN\All are welcome.	Wardhaven 教堂\欢迎所有人。
 SHERIFF'S OFFICE\The watch house of Wardhaven.	警长办公室\Wardhaven 的守卫所。
 SMITHY\The forge of Wardhaven.	铁匠铺\Wardhaven 的熔炉。
@@ -957,7 +957,7 @@ He has nothing more to give you, and has been very good about it.	他没有什�
 Something squeaks inside the stump. A rubber duck! It looks at you as if you were the strange one.	树桩里有东西吱吱叫。一只橡皮鸭！它看着你，好像你才是那个奇怪的家伙。
 Five secrets found. You're developing a nose for it.	找到了五个秘密。你开始有嗅觉了。
 Ten secrets! People have started hiding things from you on purpose.	十个秘密！人们开始故意对你藏东西了。
-Every secret in Galmere, found. Somewhere, a squirrel weeps.	Galmere 的每一个秘密，都找到了。某个地方，一只松鼠在哭泣。
+Every secret in Brambleton, found. Somewhere, a squirrel weeps.	Brambleton 的每一个秘密，都找到了。某个地方，一只松鼠在哭泣。
 You fish out a fortune in wishes. Twenty-five gold, give or take a dream.	你捞出了一大笔愿望。二十五金币，外加或减去一个梦想。
 A magpie's stash: a spoon, a thimble, and a sapphire it must have been very proud of.	一只喜鹊的藏宝：一把勺子，一个顶针，还有一颗它一定非常骄傲的蓝宝石。
 A statue of a wizard, its hat a lid. Under it: Shards, and a note in Bert's hand: 'IF FOUND, NO YOU DIDN'T.'	一座巫师雕像，他的帽子是个盖子。下面：碎片，还有一张 Bert 笔迹的便条：“如果你找到了这个，不，你没有。”
@@ -992,11 +992,11 @@ You lift the lid and rummage under the salted fish...	你掀开盖子，在咸�
 One piece of it doesn't stop chiming. You pick it up. It's warm.	它有一块一直叮当作响停不下来。你把它捡起来。它是温的。
 Shardcraft: work Shard magic. Wake shardstones, break gear down for its Shards, write scrolls, enchant gear with rare shards and shape your pocket of the Shardrealm.	碎片术：运用碎片魔法。唤醒碎片石，把装备分解成碎片，书写卷轴，用稀有碎片为装备附魔，塑造你在碎片界里的那一方天地。
 The Warden stands over the anchor: it won't let you near.	守护者站在锚的上方：它不让你靠近。
-You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	你举起 Galmere 之杖，对着锚念出 Bert 的解缚之言..
+You raise the Staff of Brambleton and speak Bert's words of Unbinding at the anchor..	你举起 Brambleton 之杖，对着锚念出 Bert 的解缚之言..
 ..and it shatters. Under it the realm's floor falls away into a hollow, vast and warm, where something huge lies sleeping: every splinter of magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. Tell Bert.	..它碎了。它下面，界域的地面塌陷成一个空洞，巨大而温暖，某个庞大的东西躺在那里沉睡：这里的每一丝魔法都倾向它，它在呼吸。远方，在 Galaith 的山口，有什么东西松动了。告诉 Bert。
 Through the hole where the anchor stood you see the pass, small and far, as if through ice. The barrier thins, and beyond it the dragon lifts its head: its hide is grown over with Shards, plates of them, glittering.	透过锚原来所在的那个洞，你看到了山口，又小又远，像隔着冰看一样。屏障变薄了，屏障那边，龙抬起了头：它的皮上长满了碎片，一片片的，闪闪发光。
 A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	一个像山崩一样的声音，在你脑袋里：“小继承人，在我自己的地窖里。想打碎什么就打碎吧。从那堵墙立起来的那天起，我忠实的灰烬之手就一点一点地把碎片穿过它喂给我，而你赢来的那把剑，正在酣睡。”
-Your bare hands won't break it: it needs the Staff of Galmere.	你空手打不碎它：需要 Galmere 之杖。
+Your bare hands won't break it: it needs the Staff of Brambleton.	你空手打不碎它：需要 Brambleton 之杖。
 You puff smoke into the skep's door. The humming drops, slow and sleepy.	你往蜂箱的门口吹烟。嗡嗡声低了下来，慢吞吞的，昏昏欲睡。
 You need a tinderbox to make smoke.	你需要一个火绒盒才能生烟。
 Someone should fix that floorboard; it sounds like it's about to fall through.	该有人修修那块地板了；听起来它快要塌了。
@@ -1154,7 +1154,7 @@ You don't have any gold!	你一点金币都没有！
 A new face! Every adventurer should know a little magic. Take these. I've far too many; I keep buying them.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you. I've tried. Ask my knees.	一张新面孔！每个冒险者都该懂一点魔法。拿着这些。我有太多了。我总是忍不住买。\读一张卷轴，它的法术就永远归你了；施放它要消耗碎片。还有一两瓶药剂：魔法可治不好你。我试过。问问我的膝盖。
 The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	总管的朋友！进来，进来，小心猫。不是真猫。嗯。\你想让屏障倒下。每个人都想让屏障倒下。我能做到：Bert，当代最伟大的巫师，为你效劳。不过就算是我，也需要合适的东西。就算是我。烦得很。
 What things?	什么东西？
-Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	三样。Galmere 之杖：国王自己的，在他城堡顶上的寝殿里。解缚魔典：和太阳祭司的图书馆一起埋在 Dunerest 外的沙漠里。还有余烬戒指，灰烬祭司戴着它，在 Emberwatch 上方他的堡垒里。\把三样都给我带来，我们再来看看那屏障。进门前擦擦脚。
+Three. The Staff of Brambleton: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	三样。Brambleton 之杖：国王自己的，在他城堡顶上的寝殿里。解缚魔典：和太阳祭司的图书馆一起埋在 Dunerest 外的沙漠里。还有余烬戒指，灰烬祭司戴着它，在 Emberwatch 上方他的堡垒里。\把三样都给我带来，我们再来看看那屏障。进门前擦擦脚。
 I'll bring them.	我会把它们带来。
 Quest started: Bert's Three Treasures.	任务开始：Bert 的三件宝物。
 The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind. Two is not three. People keep trying two.	国王城堡里的杖，沙漠下面的魔典，灰烬祭司的戒指。三样都要，记住。两样不是三样。大家总想试试两样。
@@ -1180,7 +1180,7 @@ The furnace: smelt ore.	熔炉：冶炼矿石。
 The anvil: smith bars.	铁砧：锻造锭。
 Never mind.	算了。
 Copper, tin and coal: in the grotto under the beggar's cellar.\Iron: the old mine in the Whispering Woods, past the King's guard. Wear armour.\Silver lies deeper down. Brokk the dwarf has found mithril in the Deep Hollow.	铜、锡和煤：在乞丐地窖下面的岩洞里。\铁：低语森林里的旧矿井，过了国王的守卫。穿上盔甲。\银藏得更深。矮人 Brokk 在深谷里找到了秘银。
-Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	每一头骚扰 Galmere 的野兽迟早都会上我的告示板。今天的就钉在我旁边。把数目带给我，我就把钱袋给你。
+Every beast that bothers Brambleton ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	每一头骚扰 Brambleton 的野兽迟早都会上我的告示板。今天的就钉在我旁边。把数目带给我，我就把钱袋给你。
 Who pays for it?	谁出钱？
 The towns put in, the farms put in, and anyone who's lost a sheep puts in twice. One bounty a day, mind. The purse isn't bottomless.	城镇出钱，农场出钱，丢过羊的人出两份。一天一份悬赏，记住。钱袋可不是无底的。
 So you're the one Nell sent. Sit down. No, there. Now.\When I was a girl my mother told me about the Glass Wardens. The first king set them to keep watch over something that fell in the sea, a long time ago, and they built a house for it under the water, and they went down to it, and they didn't come back up.	所以你就是 Nell 派来的那个。坐下。不，那儿。好了。\我还是个小姑娘时，我母亲给我讲过玻璃守卫的事。很久以前，第一位国王派他们看守某个落进海里的东西，他们在水底下给它建了一座房子，他们下去找它，就再也没有上来。
@@ -1223,7 +1223,7 @@ The bandits are gone, and so are the town's goods. Word is they turned up on the
 The road is safe again. Frosthold salutes you.	路又安全了。Frosthold 向你致敬。
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	路上到处都是强盗，平民可不该去。等你能像模像样地挥剑了，再来向我报告。
 Yes, Captain.	是，队长。
-Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	龙岛？哈！没人航行到那里还能回来，而我回来过两次。它周围的礁石会动，伙计。不是随着潮水：它们自己会动。\以前有一张海图认得路：Orrin 的。Galmere 有过的最好的领航员。他登上了巫师庭南边的裂塔去观天，就再也没下来。把 Orrin 的海图给我带来，我就能找到你的岛。\还有，她出发去任何地方之前都得先补好船体：十块木板和二十根钉子，如果你回来的路上经过木匠工作台的话。
+Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	龙岛？哈！没人航行到那里还能回来，而我回来过两次。它周围的礁石会动，伙计。不是随着潮水：它们自己会动。\以前有一张海图认得路：Orrin 的。Brambleton 有过的最好的领航员。他登上了巫师庭南边的裂塔去观天，就再也没下来。把 Orrin 的海图给我带来，我就能找到你的岛。\还有，她出发去任何地方之前都得先补好船体：十块木板和二十根钉子，如果你回来的路上经过木匠工作台的话。
 Quest started: Orrin's Chart.	任务开始：Orrin 的海图。
 Orrin's chart, matey. The Sundered Tower, south of the Wizards' Court. Mind the stairs: there aren't any.	Orrin 的海图，伙计。裂塔，在巫师庭南边。小心楼梯：根本没有楼梯。
 Right.	好的。
@@ -1601,7 +1601,7 @@ You have it? Then take it to Captain Hart at the palace door. He answers to the 
 Her own hand. Then there's nothing left to doubt.\She turns the amulet in the lamplight once more, and her hands begin to shake.	她的亲笔。那就没什么可怀疑的了。\她在灯光下又转了一次护身符，她的手开始发抖。
 She was my mother.	她是我母亲。
 Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	那么欢迎回家，我的 $Player.Lord。把我的话带给大法官，盖着我自己的印章。
-The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官派你来的？让我看看。\王冠，蓝宝石，搭扣下面老铁匠的标记。这是 Galmere 继承护身符。Mary 王后失踪的那天晚上戴着它。\但护身符可能被偷，而我的印章一旦给出就收不回来。她逃走的那天晚上，老大法官把她的文书封存在这座大厅下面的金库里，派守卫看守。给我带来她亲笔写的东西，我就知道了。
+The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Brambleton Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官派你来的？让我看看。\王冠，蓝宝石，搭扣下面老铁匠的标记。这是 Brambleton 继承护身符。Mary 王后失踪的那天晚上戴着它。\但护身符可能被偷，而我的印章一旦给出就收不回来。她逃走的那天晚上，老大法官把她的文书封存在这座大厅下面的金库里，派守卫看守。给我带来她亲笔写的东西，我就知道了。
 How do I get down there?	我怎么下到那里去？
 There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	大厅后面有一个舱口。我会让它开着不闩。下面的看守听命于大法官，不听命于我，而且他们不会先问你是谁。轻手轻脚地去。
 An amulet? You'd better show it to me, then. I can't vouch for a story.	一枚护身符？那你最好拿给我看看。我没法为一个故事作保。
@@ -1639,11 +1639,11 @@ Then we have nothing more to discuss.	那我们就没什么好谈的了。
 No, we don't.	不，没有了。
 You wish to see the King? You, and every merchant, beggar and poet in Galaith, now the gates are open.\What makes you more than they are?	你想见国王？城门打开了，你，还有 Galaith 的每一个商人、乞丐和诗人都想见。\你凭什么比他们更有资格？
 I am his $Player.Son.	我是他的 $Player.Son。
-Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall I.	真大胆。王后的孩子现在应该十八岁了，会带着继承护身符。把它拿给市政厅的王家档案官看：她认得 Galmere 每一枚真正的印章。如果她为它作保，我也会。
+Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Brambleton. If she vouches for it, so shall I.	真大胆。王后的孩子现在应该十八岁了，会带着继承护身符。把它拿给市政厅的王家档案官看：她认得 Brambleton 每一枚真正的印章。如果她为它作保，我也会。
 I'll go to the Archivist.	我去找档案官。
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	档案官的印章，绿色的。那么这是真的了。\我的 $Player.Lord。原谅一个老人的怀疑。这是我的手令：把它拿给卫队队长看。
 Thank you, Chancellor.	谢谢你，大法官。
-The Parliament of Galmere will return from Northport, now the road is open. There is much to do.	既然道路通了，Galmere 议会将从 Northport 回来。有很多事要做。
+The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	既然道路通了，Brambleton 议会将从 Northport 回来。有很多事要做。
 Pots, pails and tools: a bit of everything for the road.	锅、桶和工具：路上用的什么都有一点。
 Cloth and wool, the best!	布料和羊毛，最好的！
 Boots that last!	经穿的靴子！
@@ -1874,7 +1874,7 @@ Thank you, Steward.	谢谢你，总管。
 Quest complete: The Steward's Hunt! 100 gold and a ruby.	任务完成：总管的狩猎！100 金币和一颗红宝石。
 Five hobgoblins, from the old iron mine. You've $Attr.HobgoblinsSlain so far.	五个大地精，在旧铁矿里。你到目前为止杀了 $Attr.HobgoblinsSlain 个。
 Bert wants the King's staff? It hangs in his solar, at the top of the keep, where he left it the night he rode for Galaith.\Nobody's been up since. The stair door is locked, and the old guard, they say, never left their post, even dead. Here's the key. Go carefully.	Bert 想要国王的杖？它挂在他的寝殿里，在城堡顶上，他骑马去 Galaith 的那个晚上就把它留在了那里。\从那以后就没人上去过。楼梯门锁着，而且据说那些老卫兵从没离开过他们的岗位，死了也没有。这是钥匙。小心点。
-Quest started: The Staff of Galmere.	任务开始：Galmere 之杖。
+Quest started: The Staff of Brambleton.	任务开始：Brambleton 之杖。
 The keep stands, and the King's roads are open. Long may they stay so.	城堡屹立着，国王的道路畅通着。愿它们长久如此。
 Your Majesty. You honour the garden. It's been dull without honour.	陛下。您的到来让花园生辉。没有光辉的日子可真无聊。
 The court's coming back to life. Slowly. Like a cold hand.	宫廷正在恢复生气。慢慢地。像一只冰冷的手。
@@ -1915,7 +1915,7 @@ My uncle went down the Shifting Deep once. Came back up through a different hole
 Don't trust geese. That's all I'll say. Don't trust them.	别相信鹅。我只说这么多。别相信它们。
 I once saw a cow look at the moon for a whole night. Changed me, that did.	我有一次看到一头牛望着月亮望了一整夜。那改变了我。
 If you see a hat floating about the Wizards' Court, say hello. That's Pip. He's shy.	如果你看到一顶帽子在巫师庭里飘来飘去，打个招呼。那是 Pip。他很害羞。
-They say the old king hid treasure all over Galmere. My grandad said that. My grandad also said he was a duck, so.	据说老国王把宝藏藏在了 Galmere 各处。我爷爷是这么说的。我爷爷还说过他是一只鸭子，所以嘛。
+They say the old king hid treasure all over Brambleton. My grandad said that. My grandad also said he was a duck, so.	据说老国王把宝藏藏在了 Brambleton 各处。我爷爷是这么说的。我爷爷还说过他是一只鸭子，所以嘛。
 Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.	哦，你这可怜的孩子。Edwin 说他会把 Mary 的信带给你。我们都很喜欢她。\晚饭？当然！只是炉灶冷冰冰的，而 Edwin 眼里的柴火就是一堆旧地契。你能帮我砍三根原木吗？给，拿着他的斧头。他从来没用过。别说是我说的。
 I'll chop some logs.	我去砍些原木。
 Not just now.	现在不行。
@@ -2059,9 +2059,9 @@ Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	晚上好。这么晚还来码头、又没东西卖的人可不多。\我不问一样东西去过哪里，我也不记得人脸。只是会让你在价钱上吃点亏，就这样。
 Let's see what you'll give me.	看看你能给我什么。
 Welcome to the port of Northport. Mind the ropes.	欢迎来到 Northport 港。小心绳子。
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Galmere's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Northport 的市政厅就是 Galmere 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
+Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Northport 的市政厅就是 Brambleton 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
 I'll go to the City Hall.	我去市政厅。
-Welcome to Northport, the capital of Galmere. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Northport，Galmere 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
+Welcome to Northport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Northport，Brambleton 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
 Quest started: The Temporary Capital.	任务开始：临时首都。
 Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	在集市里看好你的钱袋，把你的剑留在鞘里。Northport 大体上是座好城市。
 Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	欢迎来到 Northport 大教堂。坐一会儿吧：透过玻璃照进来的光很美。
@@ -2308,14 +2308,14 @@ My mother, Mary, died on the Isle, where she raised me. Her last will told me wh
 The King comes down from his throne, and holds you, and weeps.	国王从王座上走下来，抱住你，哭了。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary。我的 Mary。她把你带走，好让龙得不到你，而我任由他们把那叫作背叛。十八年了。\我的 $Player.Son。我的 $Player.Son。
 Father.	父亲。
-I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	我为一座被锁住的城市守着这个王座。你打破了锁链。它是你的了。\他从头上取下王冠，戴在了你的头上。\Galmere 的 $Player.King 万岁！
-Long live Galmere.	Galmere 万岁。
-Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	任务完成：真正的继承人！你是 Galmere 的 $Player.King 了。世界任你探索。
+I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Brambleton!	我为一座被锁住的城市守着这个王座。你打破了锁链。它是你的了。\他从头上取下王冠，戴在了你的头上。\Brambleton 的 $Player.King 万岁！
+Long live Brambleton.	Brambleton 万岁。
+Quest complete: The True Heir! You are the $Player.King of Brambleton. The world is yours to explore.	任务完成：真正的继承人！你是 Brambleton 的 $Player.King 了。世界任你探索。
 A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	一只你在哪里都认得出的姜黄色猫蜷在王座上。Jimmy，你是怎么到这儿来的？
 My $Player.Son, the $Player.King. Your mother would be proud.	我的 $Player.Son，$Player.King。你母亲会骄傲的。
 Another stands here who calls me father.	这里还站着另一个叫我父亲的人。
 Goodbye, Father.	再见，父亲。
-Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	那么这血脉标记的不止我家族中的一个人，Galmere 的运气比它应得的还好。切割把王室血脉和碎片一起撒落了；龙只算过你们中的一个。那就让它成为继承人骑士团吧：每一个被碎片认出的人，都向王冠宣誓。这个王座上有位置留给任何守护这个王国的人。
+Then the blood has marked more than one of my line, and Brambleton is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	那么这血脉标记的不止我家族中的一个人，Brambleton 的运气比它应得的还好。切割把王室血脉和碎片一起撒落了；龙只算过你们中的一个。那就让它成为继承人骑士团吧：每一个被碎片认出的人，都向王冠宣誓。这个王座上有位置留给任何守护这个王国的人。
 Morning. Mind the weed, it's slippery. (She shakes a bottle at you; nothing in it.) This shore's a bottle shore. The currents bring 'em all in here, sooner or later. Most are empty. Not all.	早上好。小心海草，很滑。（她冲你晃了晃一个瓶子；里面什么都没有。）这片海岸是瓶子海岸。洋流迟早会把它们全都冲到这里来。大多数是空的。不是全部。
 What's in the full ones?	满的那些里面有什么？
 Good hunting.	祝你找得顺利。
@@ -2551,7 +2551,7 @@ I'll see.	我看看吧。
 "It's gone quiet, love. He's gone quiet. I keep listening."	“它安静下来了，亲爱的。他安静下来了。我一直在听。”
 Come home, Annis.	回家吧，Annis。
 "It won't be long now, love. Oswin says when it's all mended we'll be together."	“不会太久了，亲爱的。Oswin 说等一切都弥合了，我们就能在一起了。”
-Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Galmere, and only if the heir is worthy.	是谁来求取勇气之剑？\这把剑是为一件事铸造的：终结 Galaith 的龙，还有你的先祖和它订下的契约。它只交给 Galmere 的继承人，而且只在继承人配得上它的时候。
+Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Brambleton, and only if the heir is worthy.	是谁来求取勇气之剑？\这把剑是为一件事铸造的：终结 Galaith 的龙，还有你的先祖和它订下的契约。它只交给 Brambleton 的继承人，而且只在继承人配得上它的时候。
 I am the heir.	我就是继承人。
 Words. Show me valour.	空话。让我看看你的勇气。
 Then I will.	那我就让你看。
@@ -2691,7 +2691,7 @@ Lady Pettigrew's lost her hat again. To the geese. Again.	Pettigrew 夫人又把
 A Shard Remnant got into my kitchen once. I hit it with a ladle. It's fine. The ladle isn't.	有一次一个碎片残迹钻进了我的厨房。我用汤勺打了它。它没事。汤勺有事。
 My son wants to be an adventurer. I told him, get a proper job. Like goose herding.	我儿子想当冒险家。我跟他说，去找份正经工作。比如放鹅。
 Somebody keeps pressing the big red button in the wizard's tower. I can tell. My washing turns into chickens.	有人老是去按巫师塔里那个大红按钮。我知道的。我晾的衣服会变成鸡。
-You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Galmere hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	你就是杀死 Galaith 之龙的人？那你应该有它的鳞片。\这里是龙炉：Galmere 唯一热得能锻造龙鳞的火。给我带三片来，我亲手给你打一顶龙鳞头盔，再教你用这个炉子。
+You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Brambleton hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	你就是杀死 Galaith 之龙的人？那你应该有它的鳞片。\这里是龙炉：Brambleton 唯一热得能锻造龙鳞的火。给我带三片来，我亲手给你打一顶龙鳞头盔，再教你用这个炉子。
 I'll bring you three scales.	我会给你带三片鳞片来。
 Quest started: The Dragonforge.	任务开始：龙炉。
 Three of them, still warm! Watch now...\There. A dragonscale helm, and nothing on this earth will burn through it. The forge is yours to use whenever you've scales and mithril.	三片，还是热的！看好了……\好了。一顶龙鳞头盔，这世上没有什么能烧穿它。只要你有鳞片和秘银，这个炉子随你用。
@@ -2699,7 +2699,7 @@ Quest complete: The Dragonforge! You receive a dragonscale helm.	任务完成：
 Three scales from the dragon's hide: no fewer.	三片龙皮上的鳞片：一片都不能少。
 Back for the forge? Scale and mithril, and I'll show you how.	回来用炉子？鳞片和秘银，我来教你怎么做。
 Show me the Dragonforge.	给我看看龙炉。
-This is the Dragonforge. It's been cold a long time: there's only one dragon left in Galmere, and it sits before the walls of Galaith.	这里是龙炉。它已经冷了很久了：Galmere 只剩下一条龙了，它就盘踞在 Galaith 的城墙前。
+This is the Dragonforge. It's been cold a long time: there's only one dragon left in Brambleton, and it sits before the walls of Galaith.	这里是龙炉。它已经冷了很久了：Brambleton 只剩下一条龙了，它就盘踞在 Galaith 的城墙前。
 Stand still the way you would to cast, and listen at the horn. And whatever it says, warm one, don't answer.	像要施法时那样站着别动，在号角边听。不管它说什么，温暖的人，都别回答。
 You lay the Sword of Valour on the Deep Anvil and strike it, once..	你把勇气之剑放在深渊铁砧上，敲了一下..
 ..and the note goes down through the mountain and comes back up as a voice. The Sword of Valour is awake: Shard-light runs along its edge, and it pulls, gently, towards Galaith.	..那声音穿过大山向下传去，又作为一个声音返了上来。勇气之剑醒了：碎片之光沿着它的剑刃流动，它轻轻地朝 Galaith 的方向牵引。
@@ -2719,7 +2719,7 @@ The Sun-Forge's disc still holds a little of the light.	太阳熔炉的圆盘上
 A great disc of gold-faced bronze, dark without the sun on it.	一个巨大的金面青铜圆盘，没有阳光照着就是暗的。
 The three seals sink into the hollows of the door, and it grinds open. Quest complete: The Island of Dragons!	三枚印章沉进门上的凹槽，门嘎吱嘎吱地打开了。任务完成：龙岛！
 Three hollows in the door, the shape of seals.	门上有三个凹槽，是印章的形状。
-So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	那么。Galmere 的继承人终于来见 Vorgalath 了，还是走着来的。晚了十八个冬天。\我在这些城墙前等了十八个冬天。十八个冬天，这座城市因为没有路而挨饿，全都是为了一笔小小的债。加上利息，现在可不那么小了。
+So. The heir of Brambleton comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	那么。Brambleton 的继承人终于来见 Vorgalath 了，还是走着来的。晚了十八个冬天。\我在这些城墙前等了十八个冬天。十八个冬天，这座城市因为没有路而挨饿，全都是为了一笔小小的债。加上利息，现在可不那么小了。
 What debt?	什么债？
 A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. I kept a copy. I always keep a copy. Your mother broke it, and ran.	一个契约，孩子，不是诅咒。你们的第一位国王把我砍成了他能束缚的大小，还以为自己很聪明。我让你们的血脉保留我的残片，大山的金子和它的碎片，代价是每一代的长子继承人：王室的血就是锁，而锁需要喂养。他们用血签了字。我留了一份副本。我总是留副本。你母亲毁了约，逃走了。
 She saved me.	她救了我。
@@ -2834,7 +2834,7 @@ You grab the sheep and start to shear...	你抓住羊，开始剪毛...
 ...and get a fluffy clump of wool.	...剪下了一团蓬松的羊毛。
 ...but the sheep wriggles free!	...可是羊挣脱了！
 You need shears!	你需要剪刀！
-You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	你把 Galmere 之杖举向屏障，念出 Bert 教你的解缚之语..
+You hold the Staff of Brambleton to the barrier and speak Bert's words of Unbinding..	你把 Brambleton 之杖举向屏障，念出 Bert 教你的解缚之语..
 ..and the barrier shatters like glass. Beyond it, on the scorched ground before Galaith's walls, the dragon lifts its glittering head, and the sword in your hand sings back at it.	..屏障像玻璃一样碎裂了。在它后面，在 Galaith 城墙前焦黑的土地上，龙抬起了它闪闪发光的头，你手中的剑对着它唱了起来。
 The staff hums against the barrier, but you don't know the words.	法杖贴着屏障嗡嗡作响，可你不知道那些话语。
 ..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	..屏障闪了一下，颤抖着，挺住了。世界之外有什么东西在给它供养。
@@ -2988,16 +2988,16 @@ Wield your sword and shield, and train until your Attack and Defence are level 2
 Something of your mother's lies in the caves under the chapel.	你母亲的某样东西就在礼拜堂下面的洞穴里。
 Something gold glints behind iron bars, out of reach of any hand.	铁栏后面有金色的东西在闪光，任何手都够不着。
 Speak to the city guard at Northport's port.	与 Northport 港口的城市守卫交谈。
-Go to Northport's City Hall, where Galmere's Parliament sits until Galaith opens again.	前往 Northport 的市政厅，在 Galaith 重新开放之前，Galmere 的议会就设在那里。
+Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	前往 Northport 的市政厅，在 Galaith 重新开放之前，Brambleton 的议会就设在那里。
 Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	把议会的信带给 Ashford 镇公所的 Ashford 镇长。
 Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	哥布林袭击了 Ashford 东边的农场。把它们赶走：在农场的十字路口等它们。
 Tell the Mayor the goblins are beaten.	告诉镇长哥布林已经被打败了。
 Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	把镇长的通行证给 Ashford 以南鲁珀特王堡的国王总管看。
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	在旧铁矿、矿井深处或洞窟里杀死五只大地精（$HobgoblinsSlain / 5），然后回到总管那里。
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	在巫师庭塔顶找到伟大的巫师 Bert。
-Bring Bert the Staff of Galmere, the Grimoire of Unbinding and the Ember Ring.	给 Bert 带去 Galmere 之杖、解缚魔典和余烬戒指。
+Bring Bert the Staff of Brambleton, the Grimoire of Unbinding and the Ember Ring.	给 Bert 带去 Brambleton 之杖、解缚魔典和余烬戒指。
 Ask the Steward at King Rupert's Keep about the King's staff.	向鲁珀特王堡的总管询问国王的权杖。
-Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Galmere.	爬上王堡顶层国王的日光室（王堡大厅里的楼梯：总管的钥匙），拿走 Galmere 之杖。
+Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Brambleton.	爬上王堡顶层国王的日光室（王堡大厅里的楼梯：总管的钥匙），拿走 Brambleton 之杖。
 Ask the scholar Yusra, in Dunerest, about the Grimoire of Unbinding.	向 Dunerest 的学者 Yusra 询问解缚魔典。
 The Grimoire lies in the sun priests' buried library, in the desert north of Dunerest. Dig out its entrance (a spade).	魔典在太阳祭司被掩埋的图书馆里，位于 Dunerest 以北的沙漠中。挖出它的入口（用铁锹）。
 Take the Grimoire of Unbinding from its lectern in the buried library.	从被掩埋的图书馆的诵经台上拿走解缚魔典。
@@ -3019,10 +3019,10 @@ The Temple of Valour is sealed. Take three Valour Seals from the island's drakes
 Enter the Temple of Valour and speak to its guardian.	进入勇气神殿，与它的守护者交谈。
 Defeat the Guardian of Valour.	击败勇气守护者。
 Draw the Sword of Valour from its stone.	从石中拔出勇气之剑。
-The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.	屏障仍然挡在 Galaith 的山口。对它举起 Galmere 之杖。
+The barrier still stands in the pass of Galaith. Raise the Staff of Brambleton against it.	屏障仍然挡在 Galaith 的山口。对它举起 Brambleton 之杖。
 The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's tower.	屏障撑住了：世界之外有东西在供养它。去问巫师庭塔顶的 Bert。
 Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).	在巫师庭以北山丘上的古老立石圈中建造一座碎片之门：4 根银锭、2 颗蓝宝石、一颗残迹核心和碎片，由 8 块已激活的碎片石稳住（Bert 的图纸）。
-Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Galmere.	穿过碎片之门进入碎片界的核心。越过它的守望者，用 Galmere 之杖击碎屏障的锚。
+Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Brambleton.	穿过碎片之门进入碎片界的核心。越过它的守望者，用 Brambleton 之杖击碎屏障的锚。
 The anchor is shattered. Tell Bert.	锚被击碎了。告诉 Bert。
 The barrier at the pass only thins now its anchor's gone.	锚没了，山口的屏障如今只是变薄了。
 The dragon wears a hide of Shards now, and it laughed at the Sword of Valour. Ask Bert why.	那条龙现在披着一身碎片的皮，它嘲笑了勇气之剑。去问 Bert 为什么。
@@ -3040,7 +3040,7 @@ Maud says the Stone King sits the old dwarf hall's throne. Break it.	Maud 说石
 The dwarves locked the Deep Anvil with four rune stones. Maud's people sing a work-song older than any of them.	矮人用四块符文石锁住了深渊铁砧。Maud 的人唱着一首比他们任何人都古老的劳动歌。
 The Deep Anvil is awake. Wake the Sword of Valour on it.	深渊铁砧苏醒了。在它上面唤醒勇气之剑。
 The Sword of Valour is awake. Tell Maud.	勇气之剑苏醒了。告诉 Maud。
-Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Galmere on it).	向西前往西部山脉中 Galaith 的山口。用 Bert 的法术打破屏障（对它使用 Galmere 之杖）。
+Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Brambleton on it).	向西前往西部山脉中 Galaith 的山口。用 Bert 的法术打破屏障（对它使用 Brambleton 之杖）。
 Kill the dragon before Galaith's walls. Only the Sword of Valour, wielded, can reach its heart.	在 Galaith 城墙前杀死那条龙。只有手持勇气之剑才能伤到它的心。
 Ask the captain of the Royal Guard, at the palace door, to let you see the King.	请皇家卫队的队长在宫殿门口让你觐见国王。
 The Lord Chancellor must give his leave. Find him in Galaith's Parliament.	必须得到大法官的许可。在 Galaith 的议会找到他。
@@ -4327,8 +4327,8 @@ Last Will	遗嘱
 Your mother's last will and testament, sealed with her wax.	你母亲的遗嘱，用她的蜡封着。
 A will, sealed	一份封好的遗嘱
 Amulet of Succession	继承护身符
-The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	Galmere 继承护身符：黄金、一颗蓝宝石、王冠。你母亲为你藏起了它。
-The Amulet of Galmere Succession	Galmere 继承护身符
+The Amulet of Brambleton Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	Brambleton 继承护身符：黄金、一颗蓝宝石、王冠。你母亲为你藏起了它。
+The Amulet of Brambleton Succession	Brambleton 继承护身符
 Lair Key	巢穴钥匙
 A heavy iron key: it opens the door the hobgoblins hold in the caves.	一把沉重的铁钥匙：它能打开大地精在洞穴里把守的门。
 A heavy iron key	一把沉重的铁钥匙
@@ -4380,7 +4380,7 @@ Port Guard	港口守卫
 One of Northport's city guard, in the city's blue.	Northport 的城市守卫之一，穿着城市的蓝色。
 Northport's guard	Northport 的守卫
 Speaker	议长
-The Speaker of Galmere's Parliament, in its crimson robes.	Galmere 议会的议长，穿着深红色的长袍。
+The Speaker of Brambleton's Parliament, in its crimson robes.	Brambleton 议会的议长，穿着深红色的长袍。
 The Speaker of Parliament	议会议长
 Mayor	镇长
 The mayor, in a velvet cloak and a chain of office.	镇长，披着天鹅绒斗篷，戴着官职链。
@@ -4401,8 +4401,8 @@ Valour Guardian	勇气守护者
 A knight of pale light: the guardian of the Sword of Valour.	一位苍白光芒构成的骑士：勇气之剑的守护者。
 Guardian of the Sword of Valour	勇气之剑的守护者
 King Rupert	鲁珀特国王
-King Rupert of Galmere, grey before his time.	Galmere 的鲁珀特国王，未老先衰，两鬓斑白。
-King Rupert of Galmere	Galmere 的鲁珀特国王
+King Rupert of Brambleton, grey before his time.	Brambleton 的鲁珀特国王，未老先衰，两鬓斑白。
+King Rupert of Brambleton	Brambleton 的鲁珀特国王
 Royal Guard	皇家卫兵
 A guard of Galaith's palace, in white and gold.	Galaith 宫殿的一名卫兵，身穿白金两色。
 Galaith's palace guard	Galaith 的宫殿卫兵
@@ -4501,8 +4501,8 @@ A Valour Seal: gold, a sword's point in red. A drake carried it.	一枚勇气印
 A Valour Seal	一枚勇气印章
 Ember Ring	余烬戒指
 The Ember Ring: a ruby that glows like a coal. Warm to the touch. Inside the band, worn thin: the seal of the Pact, a dragon coiled round a ring of broken scales.	余烬戒指：一颗像炭火一样发光的红宝石。摸上去是温热的。戒圈内侧磨得很薄：契约的印记，一条盘绕着破碎鳞片之环的龙。
-Staff of Galmere	Galmere 之杖
-The Staff of Galmere, the kings' staff: gold and blue, warm with magic.	Galmere 之杖，历代国王的权杖：金色和蓝色，带着魔法的温热。
+Staff of Brambleton	Brambleton 之杖
+The Staff of Brambleton, the kings' staff: gold and blue, warm with magic.	Brambleton 之杖，历代国王的权杖：金色和蓝色，带着魔法的温热。
 Sword of Valour	勇气之剑
 The Sword of Valour. Its edge hums. Only it can reach a dragon's heart.	勇气之剑。它的剑刃嗡嗡作响。只有它能伤到龙的心。
 Grimoire Lectern	魔典诵经台
@@ -5516,7 +5516,7 @@ Bounty Board	悬赏板
 A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.	一块悬赏板，框上布满爪痕。一把匕首把今天的告示钉在上面。
 Today's bounty	今天的悬赏
 Records Board	纪录板
-The hall of records, carved in pale stone and gilded: the names that have done the most in Galmere.	纪录大厅，用浅色石头雕成并镀了金：在 Galmere 做得最多的那些名字。
+The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	纪录大厅，用浅色石头雕成并镀了金：在 Brambleton 做得最多的那些名字。
 The names that have done the most	做得最多的那些名字
 Trees all over the Isle and the Southlands	小岛和南方大地到处都有树
 Fallen logs lying in the meadows and woods	倒在草地和树林里的原木
@@ -5612,7 +5612,7 @@ The Temporary Capital	临时首都
 The Ashford Road	Ashford 之路
 The Steward's Hunt	总管的狩猎
 Bert's Three Treasures	Bert 的三件宝物
-The Staff of Galmere	Galmere 之杖
+The Staff of Brambleton	Brambleton 之杖
 The Sunken Grimoire	沉没的魔典
 The Ember Ring	余烬戒指
 Orrin's Chart	Orrin 的海图
@@ -7806,7 +7806,7 @@ an unseen hand brings you a thing up to {1} tiles away	一只看不见的手把 
 a hush round you for {1} s: whatever you fight makes no sound	你周围安静 {1} 秒：你与任何东西战斗都不会发出声音
 heals {1} hitpoints	恢复 {1} 生命值
 You break down the {1}	你拆解了{1}
-Magic in Galmere now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	Galmere 的魔法如今靠碎片运转，你一开始就有 {1}。从卷轴学会一个法术，永久掌握，并在“引导”（属性框）中施放它。
+Magic in Brambleton now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	Brambleton 的魔法如今靠碎片运转，你一开始就有 {1}。从卷轴学会一个法术，永久掌握，并在“引导”（属性框）中施放它。
 {1}: your reward	{1}：你的奖励
 ({1}-{2} with your Channeling)	（凭你的引导为 {1}-{2}）
 , {1} for {2} s	，{1}，持续 {2} 秒
@@ -7897,7 +7897,7 @@ nothing worth having	没什么值得拿的
 Rattle	哗啦
 Minutes	分钟
 in the wilds	在荒野中
-{1}, raised by the people of Galmere. Most given by: {2}.	{1}，由 Galmere 的人们出资建成。出力最多的：{2}。
+{1}, raised by the people of Brambleton. Most given by: {2}.	{1}，由 Brambleton 的人们出资建成。出力最多的：{2}。
 Party	队伍
 {1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1} 邀请你加入其队伍：彼此靠近的成员共享击杀和任务阶段，用 /p 在队伍中说话。
 You ask {1} to join your party.	你邀请 {1} 加入你的队伍。
@@ -7905,7 +7905,7 @@ You ask {1} to join your party.	你邀请 {1} 加入你的队伍。
 {1} is your friend now.	{1} 现在是你的好友了。
 {1} is no longer on your friends list.	{1} 已不在你的好友列表中。
 at a homestead	在一处家园
-in Galmere	在 Galmere
+in Brambleton	在 Brambleton
 {1} would like to trade with you.	{1} 想和你交易。
 You ask {1} to trade.	你请求与 {1} 交易。
 The trade is done.	交易完成了。
@@ -7957,7 +7957,7 @@ You take {1}: there's no room for the rest.	你拿了{1}：剩下的没地方放
 Raiders at {1}! Every blade is wanted.	袭击者来到了{1}！需要每一把刀剑。
 {1} is the arena's champion, with {2} wins.	{1}是竞技场的冠军，共 {2} 胜。
 Other heirs abroad today: {1}.	今天在外的其他继承人：{1}。
-All quiet in Galmere today. Quiet as a mouse in a cat's dream.	今天 Galmere 一片安宁。安静得就像猫梦里的一只老鼠。
+All quiet in Brambleton today. Quiet as a mouse in a cat's dream.	今天 Brambleton 一片安宁。安静得就像猫梦里的一只老鼠。
 Hear ye!	听着！
 Bounties	悬赏
 You've had today's bounty. Come back tomorrow: there's always something with too many teeth.	你已经领过今天的悬赏了。明天再来吧：总有长着太多牙齿的东西。
@@ -8012,12 +8012,12 @@ Good.	好。
 {1} is {2} parts in a hundred done. The foreman wants more hands.	{1}已完成百分之 {2}。工头还需要更多人手。
 Bounty	悬赏
 {1}: {2} of {3} so far. Keep at it.	{1}：目前 {2} / {3}。继续努力。
-Today's bounty: {1} {2}, anywhere in Galmere. Gold and Shards when it's done. One a day.	今天的悬赏：{1} {2}，Galmere 任何地方都行。完成后有金币和碎片。每天一次。
+Today's bounty: {1} {2}, anywhere in Brambleton. Gold and Shards when it's done. One a day.	今天的悬赏：{1} {2}，Brambleton 任何地方都行。完成后有金币和碎片。每天一次。
 A gift from {1}: {2}.	来自 {1} 的礼物：{2}。
 Leave {1}.	离开{1}。
 Long live the {1}!	{1}万岁！
 Your Majesty!	陛下！
-Galmere's own {1}!	Galmere 自己的{1}！
+Brambleton's own {1}!	Brambleton 自己的{1}！
 Bless you, Majesty.	愿你蒙福，陛下。
 Playing {1} on {2}	正在 {2} 上玩 {1}
 the town	城镇
@@ -8169,7 +8169,7 @@ Origin	来源
 Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}，Python {2}，运行于 {3}
 Sent by: {1}	发送者：{1}
 Playing ({1} of {2}):	正在游玩（{1} / {2}）：
-Your friend {1} has left Galmere.	你的好友 {1} 离开了 Galmere。
+Your friend {1} has left Brambleton.	你的好友 {1} 离开了 Brambleton。
 1 minute	1 分钟
 Only an admin or the host can do that.	只有管理员或主持者能这样做。
 /maintenance minutes [why] (0 to {1}), or /maintenance off	/maintenance 分钟数 [原因]（0 到 {1}），或 /maintenance off
@@ -8180,7 +8180,7 @@ Friends by account are kept by the central server: come in from the start screen
 Your Hallisium account is banned.	你的 Hallisium 账号已被封禁。
 This game isn't joined to the central server.	这个游戏没有连接到中央服务器。
 {1} is here now.	{1} 现在在这里。
-Your friend {1} has come into Galmere.	你的好友 {1} 来到了 Galmere。
+Your friend {1} has come into Brambleton.	你的好友 {1} 来到了 Brambleton。
 Who? {1} Name	谁？{1} 名字
 {1} may play again.	{1} 可以重新游玩了。
 {1} has left the game.	{1} 离开了游戏。
@@ -9011,7 +9011,7 @@ Sign in to see the public servers.	登录后才能看到公共服务器。
 A moment...	请稍候...
 The central server didn't answer.	中央服务器没有回应。
 Welcome back, {1}.	欢迎回来，{1}。
-Welcome to Galmere, {1}!	欢迎来到 Galmere，{1}！
+Welcome to Brambleton, {1}!	欢迎来到 Brambleton，{1}！
 We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	我们已给你发送了一个链接。用它确认你的邮箱后才能加入游戏：如果你忘记密码，这也是找回账号的唯一途径。
 This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	此服务器现在无法发送邮件。等它可以时，请在你的账号中确认邮箱，才能加入游戏：如果你忘记密码，这也是找回账号的唯一途径。
 Carry on	继续

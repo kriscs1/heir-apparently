@@ -40,7 +40,8 @@ SKILL_NAMES = {                                      # (rename_skills.py: old na
 RENAMED_QUESTS = {                                   # (build_heir_isle.py: the Isle's bank is Edwin and Maren's house)
     "Dinner at the Bank": "Dinner at Edwin's",
     "Wolves of the Moor": "Wolves of the Greyflats",          # (rename_sallowcross.py)
-    "The Staff of Ashen": "The Staff of Galmere",             # (rename_galmere.py)
+    "The Staff of Ashen": "The Staff of Brambleton",          # (rename_galmere.py, rename_brambleton.py)
+    "The Staff of Galmere": "The Staff of Brambleton",        # (rename_brambleton.py)
 }
 RENAMED_WORDS = {                                    # (rename_northport.py: in an attribute's name, Waystone.Southport)
     "Southport": "Northport",

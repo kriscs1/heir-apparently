@@ -26,7 +26,7 @@
 25	Update.Attribute	GuardQuest	=3
 26	Display.Conversation	Archivist	Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	Thank you.	35
 27	End
-28	Display.Conversation	Archivist	The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	How do I get down there?	29
+28	Display.Conversation	Archivist	The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Brambleton Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	How do I get down there?	29
 29	Update.Attribute	ArchiveVault	=1
 30	Display.Conversation	Archivist	There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	I will.	35
 31	End

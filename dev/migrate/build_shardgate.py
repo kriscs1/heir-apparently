@@ -1,7 +1,7 @@
 """The Shardgate (chapter 15 of the main quest: ShardgateQuest 0-5, between The Sword of Valour and The Dragon of
 Galaith), and the Shardrealm beyond it.
 
-The story: with the Sword of Valour in hand you raise the Staff of Galmere at the barrier, and it holds: something
+The story: with the Sword of Valour in hand you raise the Staff of Brambleton at the barrier, and it holds: something
 beyond the world feeds it (the barrier's script, estforlan/story.py). Bert knows what: the dragon anchored it in the
 Shardrealm, where all broken magic goes. He gives you a Shardgate's plans; you build it in the old ring of standing
 stones on the hill north of the Wizards' Court (21,4,0) from 4 silver bars, 2 sapphires, a Remnant's core and
@@ -365,7 +365,7 @@ def scripts():
                                   "set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\\Then "
                                   "give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's "
                                   "calm rim; to pierce its core the ring must be steadied, so wake "
-                                  "$Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft "
+                                  "$Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft "
                                   "($Shards.Shardgate.Level at least).\\Then step through. Mind the Warden.",
                ("Fold the plans.", "@end")),
         ("@end",), ("End",)], MAKER)
@@ -391,7 +391,7 @@ def scripts():
         ("End",),
         ("@down",), (">Got.Item", "Staff_of_Ashen", "1", "@nostaff"),
         ("Toggle.User.Input", "OFF"),
-        ("Display.Message", "Cyan", "You raise the Staff of Galmere and speak Bert's words of Unbinding at the "
+        ("Display.Message", "Cyan", "You raise the Staff of Brambleton and speak Bert's words of Unbinding at the "
                                     "anchor..", "-"),
         ("Play.Sound", "SpellCast"),
         ("Wait", "2"),
@@ -415,7 +415,7 @@ def scripts():
         ("Toggle.User.Input", "ON"),
         ("End",),
         ("@nostaff",), ("Display.Message", "DarkRed", "Your bare hands won't break it: it needs the Staff of "
-                                                      "Galmere.", "Denied"),
+                                                      "Brambleton.", "Denied"),
         ("@end",), ("End",)] + FAR, MAKER)
     rows = [(">Distance.From.Clicked.Entity", "48", "@far")]
     for i, tool in enumerate(("Mithril_Pickaxe", "Steel_Pickaxe", "Pickaxe", "Bronze_Pickaxe")):
@@ -473,7 +473,7 @@ def scripts():
                        "broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a "
                        "Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\\"
                        "Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it "
-                       "must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something "
+                       "must be steadied: wake the shardstones of Brambleton, eight at the least, so the ring has something "
                        "to hold to while it drives through. Through the gate, find the anchor and break it with the "
                        "staff. Something will be guarding it. Something always is.", ("I'll build it.", "@plans")),
         ("@plans",),
@@ -485,7 +485,7 @@ def scripts():
         (">Quest.Can.Start", "ShardgateQuest", "@end"),
         SK.say("Bert", "The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the "
                        "Shardrealm, where all broken magic pools. I can feel it from here.\\Build a Shardgate in the "
-                       "old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's "
+                       "old ring of stones on the hill north of the Court: here are my plans. Wake eight of Brambleton's "
                        "shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's "
                        "yours to wander.", ("I'll build it.", "@lateplans")),
         ("@lateplans",),
@@ -498,13 +498,13 @@ def scripts():
 # ================================================================== the quest, the chapters after it, the map's label
 def quest():
     SK.quest("The Shardgate", "Bert", "ShardgateQuest", {
-        0: "The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.",
+        0: "The barrier still stands in the pass of Galaith. Raise the Staff of Brambleton against it.",
         1: "The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's "
            "tower.",
         2: "Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver "
            "bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).",
         3: "Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the "
-           "barrier's anchor with the Staff of Galmere.",
+           "barrier's anchor with the Staff of Brambleton.",
         4: "The anchor is shattered. Tell Bert."}, 5,
         markers={0: "Galaith_Barrier", 1: "Court_Wizard", 2: "Shardgate_Site", 3: "Shardgate_Site", 4: "Court_Wizard"},
         chapter=15, requires="The Sword of Valour", after="The Sword of Valour")

@@ -3,7 +3,7 @@ Passage to the Mainland, the ticket book and the goblin's cage). Run it again: i
 
   python -I "dev\\migrate\\build_heir_isle.py"
 
-The story: your mother Mary, the Queen of Galmere in hiding, ran from the capital, Galaith, with you as a baby, to
+The story: your mother Mary, the Queen of Brambleton in hiding, ran from the capital, Galaith, with you as a baby, to
 save you from the dragon that takes the firstborn heir of every generation. You were raised on the Isle in poverty.
   1  The Last Will (LastWill 0-2; the letter tells you who you are, and little else: the rest you find). A new
      character stands at her grave in the chapel's graveyard (3,1,0's entry script runs The Funeral): the mourners
@@ -410,7 +410,7 @@ def data():
     E, T = K.ENTS, K.TILES
     items = [
         ("Last_Will", "Your mother's last will and testament, sealed with her wax.", "Read,Examine"),
-        ("Amulet_of_Succession", "The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother "
+        ("Amulet_of_Succession", "The Amulet of Brambleton Succession: gold, a sapphire, the royal crown. Your mother "
          "hid it for you.", "Examine"),
         ("Lair_Key", "A heavy iron key: it opens the door the hobgoblins hold in the caves.", "Examine"),
         ("Fathers_House_Key", "Tobias's house key, brass and well worn.", "Examine"),
@@ -943,7 +943,7 @@ def opening():
         ("Play.Sound", "Paper"),
         say("Last_Will", "THE LAST WILL AND TESTAMENT OF MARY\\My beloved $Player.Son,\\We have lived in poverty on this island "
                          "since you were six months old; this is not what your life should have been like. You are the "
-                         "true heir of Galmere, and its riches, lands and people are yours to protect.",
+                         "true heir of Brambleton, and its riches, lands and people are yours to protect.",
             ("Read on.", "@p2")),
         ("@p2",),
         say("Last_Will", "I could never tell you who we were while I lived: it was safer that you didn't know. I "
@@ -1294,7 +1294,7 @@ def chapel_and_caves():
         ("Display.Message", "Yellow", "An unseen hand closes on the amulet and draws it out between the bars, into your "
                                       "palm.", "-"),
         ("Update.Attribute", "AmuletQuest", "=6"),
-        say("Gravekeeper", "The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one "
+        say("Gravekeeper", "The Amulet of Brambleton Succession. So it's true, then. Keep it close, and show it to no one "
                            "but your father.\\And take this. The hobgoblins have made a lair beyond an old iron door in "
                            "these caves, south of the great cavern. I keep the caves' old keys: this is that door's. "
                            "Bess's father went missing when they came. If you go after them, go carefully. I've no room "

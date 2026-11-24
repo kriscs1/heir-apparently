@@ -115,7 +115,7 @@ function friendRow(ctx, f, n) {
   ctx.beginPath(); ctx.arc(70, y + 31, 6, 0, 6.283); ctx.fill();
   drawText(ctx, f.name + (f.party ? "  (in your party)" : ""), 88, y + 10, 12, true, f.on || f.asks ? INK : DIM);
   const where = f.asks ? "Asks to be your friend" : f.asked ? "You've asked them to be your friend" :
-    f.on ? `About, ${f.where || "in Galmere"}` + (f.level ? `  ·  level ${f.level}` : "") :
+    f.on ? `About, ${f.where || "in Brambleton"}` + (f.level ? `  ·  level ${f.level}` : "") :
     (f.where || "Away") + (f.level ? `  ·  level ${f.level}` : "");
   drawText(ctx, where, 88, y + 34, 9, false, f.on || f.asks ? PARCHMENT : DIM);
   friendButtons(f).forEach((label, k) => {

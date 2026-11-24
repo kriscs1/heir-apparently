@@ -8,7 +8,7 @@ commit (to `CLAUDE.md` only if it applies to every change).
 
 ## The story
 
-**You are the true heir of Galmere.** Every generation the dragon (**Vorgalath**: its name in what's said from
+**You are the true heir of Brambleton.** Every generation the dragon (**Vorgalath**: its name in what's said from
 now on; its Id stays `Galaith_Dragon`) takes the king's firstborn heir, or it keeps
 Galaith, the capital, shut behind a magical barrier: the city that holds the only land route across the world, with
 the gold and Shard mines in the mountains behind it. Your mother, **Queen Mary**, ran from Galaith with you as a baby
@@ -78,7 +78,7 @@ must learn early is taught the same way, on the Isle.
 
 On the mainland (built by `dev/migrate/build_estforlan.py`; the quests' scripts by `build_heir_mainland.py`):
 5. **The Temporary Capital** (`ParliamentQuest`): the guard at Northport's port; the **Speaker** in Northport's City
-   Hall, which is Galmere's Parliament while Galaith is lost. Only **Bert**, the great wizard of the **Wizards'
+   Hall, which is Brambleton's Parliament while Galaith is lost. Only **Bert**, the great wizard of the **Wizards'
    Court** (the old King's Castle, 21,5,0; Bert at the top of its tower, 21,5,1), can break the barrier.
    **Northport is shut** (`dev/migrate/build_northport_blockade.py`, the owner's wish, to keep the start directed): it has only
    two roads out, the river bridge east (8,6,0) and the forest road south (2,10,0), each shut by oak gates (`City_Gate001`, a
@@ -87,7 +87,7 @@ On the mainland (built by `dev/migrate/build_estforlan.py`; the quests' scripts 
 6. **The Ashford Road** (`AshfordQuest`): the **Mayor** in Ashford's Town Hall; the goblins' raid on the farms.
 7. **The Steward's Hunt** (`HobgoblinQuest`): the **King's Steward** at **King Rupert's Keep** (the old Tyron's Keep;
    King Tyron is gone from the game), five hobgoblins in the old iron mine.
-8. **Bert's Three Treasures** (`BertQuest`): 9. **The Staff of Galmere** (the King's solar, 26,18,1, up a locked
+8. **Bert's Three Treasures** (`BertQuest`): 9. **The Staff of Brambleton** (the King's solar, 26,18,1, up a locked
    stair in the keep); 10. **The Sunken Grimoire** (the scholar in Dunerest; a buried library under a mound in the
    desert, 3,18,-1); 11. **The Ember Ring** (the Warden in Emberwatch; the Ashen Priest wears it). Bert only wanted
    the ring: he teaches the spell (`BarrierSpell`), gives you the staff and warns of the **Sword of Valour**.
@@ -747,9 +747,9 @@ that isn't in the game.
 
 ### Names
 
-- The world is a **planet**, and the map is only a small part of it: the kingdom of Galmere and the Isle. (The
-  planet's name isn't chosen yet; the game's title may become "Shards of" it.)
-- The game is **Shards of Ashen** (the page, the app, the docs), the kingdom **Galmere** (it was Ashen, and Estforlan before that; `rename_galmere.py`), and the
+- The world is a **planet**, and the map is only a small part of it: the kingdom of Brambleton and the Isle. The
+  planet is **never named** anywhere in the game.
+- The game is **Shards of Ashen** (the page, the app, the docs), the kingdom **Brambleton** (it was Galmere, Ashen and Estforlan before that; `rename_brambleton.py`), and the
   port city **Northport** (it was Southport, then Northport). Everything else is named for it too
   (`dev/migrate/rename_shards_of_ashen.py`): the GitHub repository `kriscs1/shardsofashen`, the Docker image
   `ghcr.io/kriscs1/shardsofashen`,

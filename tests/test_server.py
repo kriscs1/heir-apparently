@@ -1184,8 +1184,8 @@ def test_a_servers_name_is_what_its_given_and_never_a_containers_number(monkeypa
     assert name().startswith("Shards of Ashen on ")               # (at home: this machine's)
     remote.append(True)
     assert name() == "A Shards of Ashen server"                   # (listed: the same whichever container it's in)
-    monkeypatch.setenv("DS_NAME", "The Galmere Inn")
-    assert name() == "The Galmere Inn"                              # (the Unraid template's Server name)
+    monkeypatch.setenv("DS_NAME", "The Brambleton Inn")
+    assert name() == "The Brambleton Inn"                              # (the Unraid template's Server name)
     saved["name"] = "Kris's World"
     assert name() == "Kris's World"                               # (an admin's, in Options)
 

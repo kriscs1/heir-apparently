@@ -8,14 +8,14 @@
 07	Play.Sound	Quest
 08	Display.Message	Cyan	The King comes down from his throne, and holds you, and weeps.	-
 09	Display.Conversation	King_Rupert	Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Father.	10
-10	Display.Conversation	King_Rupert	I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	Long live Galmere.	11
+10	Display.Conversation	King_Rupert	I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Brambleton!	Long live Brambleton.	11
 11	Update.Attribute	KingQuest	=1
 12	Play.Sound	LevelUp
-13	Display.Message	Yellow	Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	Quest
+13	Display.Message	Yellow	Quest complete: The True Heir! You are the $Player.King of Brambleton. The world is yours to explore.	Quest
 14	Add.Entity	288,30	Strawberry_Cat	NPC	Attitude=Good Zone=3,3,17,7 Nap=10,2 Pause=4-12 Id=Throne_Jimmy Name=Jimmy
 15	Display.Message	Cyan	A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	-
 16	End
 17	Display.Conversation	King_Rupert	My $Player.Son, the $Player.King. Your mother would be proud.	Another stands here who calls me father. [if $Players.Near>=1]	19	Goodbye, Father.	18
 18	End
-19	Display.Conversation	King_Rupert	Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	Long live Galmere.	20
+19	Display.Conversation	King_Rupert	Then the blood has marked more than one of my line, and Brambleton is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	Long live Brambleton.	20
 20	End

@@ -3,7 +3,7 @@
 02	Get.Value	ATTRIBUTE	OrrinQuest	Variable.1$
 03	>Conditional	$Variable.1=0	09
 04	>Quest.Can.Start	OrrinQuest	54
-05	Display.Conversation	Sea_Captain	Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	I'll find it.	06	Not now.	55
+05	Display.Conversation	Sea_Captain	Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	I'll find it.	06	Not now.	55
 06	Update.Attribute	OrrinQuest	=1
 07	Display.Message	Yellow	Quest started: Orrin's Chart.	Quest
 08	End

@@ -181,7 +181,7 @@ def pass_scripts():
         (">Conditional", "$Attr.BarrierSpell>=1", "@words"),
         (">Conditional", "$Attr.ShardgateQuest>=5", "@anchored"),      # (its anchor in the Shardrealm cut first:
         (">Quest.Can.Start", "GalaithQuest", "@end"),                   #  The Shardgate, build_shardgate.py)
-        ("Display.Message", "Cyan", "You hold the Staff of Galmere to the barrier and speak Bert's words of "
+        ("Display.Message", "Cyan", "You hold the Staff of Brambleton to the barrier and speak Bert's words of "
                                     "Unbinding..", "-"),
         ("Play.Sound", "SpellCast"),
         ("Wait", "2")] + [("Remove.Entity", "%d,%d" % (px, y), "Barrier_Light") for y in ys] + [
@@ -193,7 +193,7 @@ def pass_scripts():
         ("@words",), ("Display.Refusal", "The staff hums against the barrier, but you don't know the words."),
         ("End",),
         ("@anchored",),
-        ("Display.Message", "Cyan", "You hold the Staff of Galmere to the barrier and speak Bert's words of "
+        ("Display.Message", "Cyan", "You hold the Staff of Brambleton to the barrier and speak Bert's words of "
                                     "Unbinding..", "-"),
         ("Play.Sound", "SpellCast"),
         ("Wait", "2"),

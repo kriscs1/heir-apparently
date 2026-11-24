@@ -6450,11 +6450,11 @@ def test_friends_are_kept_and_shown_in_the_journal(world):
         t2.load(world.together.state())
         assert t2.friends_of("Pal_A") == ["Pal_B"]                  # (kept with the world)
         b.out = []
-        a.friends_hear("Your friend Pal_A has left Galmere.")
+        a.friends_hear("Your friend Pal_A has left Brambleton.")
         assert not any("Pal_A" in str(ev.get("text", "")) for ev in b.out)   # (only those who count you a friend)
         b.add_friend_named("pal_a")                                 # (any case: the name as it's written)
         b.out = []
-        a.friends_hear("Your friend Pal_A has left Galmere.")
+        a.friends_hear("Your friend Pal_A has left Brambleton.")
         assert any("Pal_A has left" in str(ev.get("text", "")) for ev in b.out)
         a.remove_friend_named("Pal_B")
         assert a.friend_names() == []

@@ -49,10 +49,10 @@ Laughed, did it? Then the barrier's only light and spite now, and what's behind 
 I will.	그러겠습니다.
 It held? Of course it held. Oh, don't look at me like that: I only half thought it would.\Listen. The first king cut the dragon down, and the greater part of it didn't die. It went somewhere: the Shardrealm, where all broken magic goes. The barrier draws on it. It's anchored there, beyond the world.	버텼다고? 당연히 버텼지. 아, 그런 눈으로 보지 말게. 반쯤만 그럴 거라 생각했으니까.\잘 듣게. 첫 왕이 용을 베었지만, 그 대부분은 죽지 않았네. 어딘가로 갔지. 부서진 마법이 모두 흘러가는 곳, 샤드계로. 장벽은 거기서 힘을 끌어오네. 세상 너머에 닻을 내리고 있는 거지.
 How do I get there?	거기엔 어떻게 가죠?
-You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	문을 만드는 거지. 작은 문 말고. 오래된 샤드스톤이라면 어느 것이든 샤드계의 가장자리에 닿을 수 있네. 거긴 고요하고 얇아서 작은 것들이 버티는 곳이지. 자네 홈스테드, 있다면 말이야? 정착민들은 고요한 물이라 부르지. 자네의 닻이 붙잡고 있는 가장자리의 한 주머니일세. 왜 이웃이 없는지 궁금하지 않았나? 하지만 장벽의 닻은 중심에 있네. 부서진 마법이 모두 고이는 폭풍 속에. 그걸 꿰뚫어야 해. 그러려면 자네만의 커다란 닻이 있어야 하네. 샤드게이트 말일세. 이 궁정 북쪽 언덕의 오래된 선돌 고리가 한때 그런 것이었지.\여기 내 설계도일세. 은, 사파이어, 잔재의 핵, 그리고 샤드. 샤드를 들이켜거든. 그리고 안정시켜야 하네. 갈미어의 샤드스톤을 적어도 여덟 개는 깨워서, 고리가 꿰뚫고 들어가는 동안 붙잡을 데가 있게 해야 해. 문을 지나면 닻을 찾아 지팡이로 부수게. 무언가가 그걸 지키고 있을 걸세. 늘 그렇지.
+You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Brambleton, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	문을 만드는 거지. 작은 문 말고. 오래된 샤드스톤이라면 어느 것이든 샤드계의 가장자리에 닿을 수 있네. 거긴 고요하고 얇아서 작은 것들이 버티는 곳이지. 자네 홈스테드, 있다면 말이야? 정착민들은 고요한 물이라 부르지. 자네의 닻이 붙잡고 있는 가장자리의 한 주머니일세. 왜 이웃이 없는지 궁금하지 않았나? 하지만 장벽의 닻은 중심에 있네. 부서진 마법이 모두 고이는 폭풍 속에. 그걸 꿰뚫어야 해. 그러려면 자네만의 커다란 닻이 있어야 하네. 샤드게이트 말일세. 이 궁정 북쪽 언덕의 오래된 선돌 고리가 한때 그런 것이었지.\여기 내 설계도일세. 은, 사파이어, 잔재의 핵, 그리고 샤드. 샤드를 들이켜거든. 그리고 안정시켜야 하네. 브램블턴의 샤드스톤을 적어도 여덟 개는 깨워서, 고리가 꿰뚫고 들어가는 동안 붙잡을 데가 있게 해야 해. 문을 지나면 닻을 찾아 지팡이로 부수게. 무언가가 그걸 지키고 있을 걸세. 늘 그렇지.
 I'll build it.	제가 만들겠습니다.
 Bert gave you his plans for a Shardgate (Read them).	버트가 샤드게이트 설계도를 주었다(읽어 보자).
-The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	장벽은 사라졌지, 그래, 그래. 하지만 그 닻은 아니야. 부서진 마법이 모두 고이는 샤드계의 중심에서 아직도 웅웅거리고 있네. 여기서도 느껴져.\궁정 북쪽 언덕의 오래된 선돌 고리에 샤드게이트를 세우게. 여기 설계도일세. 갈미어의 샤드스톤 여덟 개를 깨워 안정시키고, 중심을 꿰뚫고, 지팡이로 닻을 부수면, 샤드계는 마음껏 돌아다닐 수 있네.
+The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Brambleton's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	장벽은 사라졌지, 그래, 그래. 하지만 그 닻은 아니야. 부서진 마법이 모두 고이는 샤드계의 중심에서 아직도 웅웅거리고 있네. 여기서도 느껴져.\궁정 북쪽 언덕의 오래된 선돌 고리에 샤드게이트를 세우게. 여기 설계도일세. 브램블턴의 샤드스톤 여덟 개를 깨워 안정시키고, 중심을 꿰뚫고, 지팡이로 닻을 부수면, 샤드계는 마음껏 돌아다닐 수 있네.
 Quest started: The Shardgate. Bert gave you his plans (Read them).	퀘스트 시작: 샤드게이트. 버트가 설계도를 주었다(읽어 보자).
 The staff! The grimoire! And the ring... oh, look at it. Look at that glow.\He slips the Ember Ring on his finger and holds it up against his sleeve.\Purple and ember. I knew it. It goes with the robe perfectly.	지팡이! 마도서! 그리고 반지... 오, 이것 좀 보게. 저 빛을 봐.\그는 불씨 반지를 손가락에 끼우고 소매에 대어 들어 본다.\보라색과 불씨 색. 그럴 줄 알았지. 로브와 완벽하게 어울려.
 And the spell?	그럼 주문은요?
@@ -348,7 +348,7 @@ That's Percy's door - I'd know it anywhere! Bless you, dear. Here: it's not much
 Glad I could help.	도와드릴 수 있어서 기뻐요.
 Quest done: Granny Wren's Walk.	퀘스트 완료: 렌 할머니의 산책.
 An unseen hand closes on the amulet and draws it out between the bars, into your palm.	보이지 않는 손이 부적을 쥐고 창살 사이로 끌어내 당신 손바닥에 올려놓는다.
-The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	갈미어 계승의 부적. 그럼 사실이었군요. 잘 간직하고, 아버님 말고는 아무에게도 보여 주지 마세요.\그리고 이것도 받으세요. 홉고블린들이 이 동굴의 낡은 쇠문 너머, 큰 동굴 남쪽에 소굴을 만들었습니다. 동굴의 옛 열쇠들은 제가 맡고 있지요. 이게 그 문의 열쇠입니다. 놈들이 왔을 때 베스의 아버지가 사라졌어요. 뒤쫓아 간다면 조심해서 가세요. 묘지 그쪽 편에는 이제 자리가 없거든요.
+The Amulet of Brambleton Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	브램블턴 계승의 부적. 그럼 사실이었군요. 잘 간직하고, 아버님 말고는 아무에게도 보여 주지 마세요.\그리고 이것도 받으세요. 홉고블린들이 이 동굴의 낡은 쇠문 너머, 큰 동굴 남쪽에 소굴을 만들었습니다. 동굴의 옛 열쇠들은 제가 맡고 있지요. 이게 그 문의 열쇠입니다. 놈들이 왔을 때 베스의 아버지가 사라졌어요. 뒤쫓아 간다면 조심해서 가세요. 묘지 그쪽 편에는 이제 자리가 없거든요.
 Quest complete: The Amulet of Succession! Brother Aldous gave you the key of the hobgoblins' door.	퀘스트 완료: 계승의 부적! 올더스 수사가 홉고블린 문의 열쇠를 주었다.
 You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. And I've a quota. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	잿빛 손의 불 냄새가 날 만큼 가까이, 재 속에 몸을 낮춘다. 불가에서 회색 로브를 입은 낯선 두 사람이 신도의 손에 샤드를 세어 건네고 있다.\"전과 같아요." 여자가 말한다. "고개를 넘어, 벽을 지나서. 벽 너머의 그분을 위해."\"그게 다 먹어 치운다고요." 신도가 말한다. "하나도 남김없이. 게다가 나는 할당량이 있어요. 용한테 왜 먹이는 겁니까?"\"먹이는 게 아니에요." 여자가 부드럽게 말한다. "꿰매는 거죠. 잘린 것은 모두 온전해지고 싶어 해요. 곧 알게 될 거예요."
 Slip away.	슬며시 빠져나간다.
@@ -678,8 +678,8 @@ You pinch off some sage...	세이지를 조금 뜯는다...
 Your mother's letter, sealed with her wax. Read it now?	어머니의 편지. 어머니의 밀랍으로 봉해져 있다. 지금 읽을까?
 Read it.	읽는다.
 Later.	나중에.
-The Staff of Galmere: gold and blue, and warm in your hand.	갈미어의 지팡이. 금빛과 푸른빛, 손에 쥐면 따뜻하다.
-Quest complete: The Staff of Galmere! Take it to Bert.	퀘스트 완료: 갈미어의 지팡이! 버트에게 가져가자.
+The Staff of Brambleton: gold and blue, and warm in your hand.	브램블턴의 지팡이. 금빛과 푸른빛, 손에 쥐면 따뜻하다.
+Quest complete: The Staff of Brambleton! Take it to Bert.	퀘스트 완료: 브램블턴의 지팡이! 버트에게 가져가자.
 The Font's water is still and cold. Those who pour their Shards into it are let through to the great Shard.	성수반의 물은 고요하고 차갑다. 그 안에 샤드를 붓는 자는 큰 샤드로 가는 길이 열린다.
 Pour in $Shards.Mending.Tithe Shards.	샤드 $Shards.Mending.Tithe개를 붓는다.
 The Shards sink, glowing, and go out one by one. Past the Font, an iron gate clicks.	샤드가 빛나며 가라앉다가 하나씩 꺼진다. 성수반 너머에서 쇠문이 딸깍한다.
@@ -745,7 +745,7 @@ ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pi
 HOLLOW LANE\Houses of The Wizards' Court.	할로 골목\마법사 궁정의 집들.
 TALLOW ROW\Houses of The Wizards' Court.	수지 거리\마법사 궁정의 집들.
 PENNYWORTH ROW\Houses of The Wizards' Court.	페니워스 거리\마법사 궁정의 집들.
-THE WIZARDS' COURT\A city of Galmere.	마법사 궁정\갈미어의 도시.
+THE WIZARDS' COURT\A city of Brambleton.	마법사 궁정\브램블턴의 도시.
 CATHEDRAL OF THE WIZARDS' COURT\All are welcome.	마법사 궁정 대성당\누구나 환영합니다.
 THE PRANCING PONY\A tavern of The Wizards' Court.	춤추는 조랑말\마법사 궁정의 선술집.
 THE ROSE AND CROWN\A tavern of The Wizards' Court.	장미와 왕관\마법사 궁정의 선술집.
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Frosthold.	여왕의 거리\프로스트홀드의 집들.
 CLOTH STREET\Houses of Frosthold.	옷감 거리\프로스트홀드의 집들.
 WEAVERS' WAY\Houses of Frosthold.	직공의 길\프로스트홀드의 집들.
 MASON'S ROW\Houses of Frosthold.	석공 거리\프로스트홀드의 집들.
-FROSTHOLD\A town of Galmere.	프로스트홀드\갈미어의 마을.
+FROSTHOLD\A town of Brambleton.	프로스트홀드\브램블턴의 마을.
 SHERIFF'S OFFICE\The watch house of Frosthold.	보안관 사무소\프로스트홀드의 경비소.
 DOCTOR'S HOUSE\Of Frosthold.	의사의 집\프로스트홀드.
 THE PLOUGH\A tavern of Frosthold.	쟁기\프로스트홀드의 선술집.
@@ -814,14 +814,14 @@ CARTWRIGHT ROW\Houses of King Rupert's Keep.	수레장이 거리\루퍼트 왕�
 FOUNTAIN ROW\Houses of King Rupert's Keep.	분수 거리\루퍼트 왕의 성채의 집들.
 ASH ROW\Houses of King Rupert's Keep.	물푸레 거리\루퍼트 왕의 성채의 집들.
 COPPER STREET\Houses of King Rupert's Keep.	구리 거리\루퍼트 왕의 성채의 집들.
-KING RUPERT'S KEEP\A city of Galmere.	루퍼트 왕의 성채\갈미어의 도시.
+KING RUPERT'S KEEP\A city of Brambleton.	루퍼트 왕의 성채\브램블턴의 도시.
 CATHEDRAL OF KING RUPERT'S KEEP\All are welcome.	루퍼트 왕의 성채 대성당\누구나 환영합니다.
 HOSPITAL\Of King Rupert's Keep.	병원\루퍼트 왕의 성채.
 THE SMOKING CHIMNEY\A tavern of King Rupert's Keep.	연기 나는 굴뚝\루퍼트 왕의 성채의 선술집.
 THE BRASS MONKEY\A tavern of King Rupert's Keep.	놋쇠 원숭이\루퍼트 왕의 성채의 선술집.
 SMITHY\The forge of King Rupert's Keep.	대장간\루퍼트 왕의 성채의 대장간.
 KEEP OUT OF THE WATER!	물에 들어가지 마시오!
-THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Galmere, and its riches, lands and people are yours to protect.	메리의 유언장\사랑하는 내 $Player.Son,\네가 생후 여섯 달일 때부터 우리는 이 섬에서 가난하게 살았구나. 네 삶이 이래서는 안 됐는데. 너는 갈미어의 진정한 후계자이고, 그 부와 땅과 백성은 네가 지켜야 할 것이란다.
+THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Brambleton, and its riches, lands and people are yours to protect.	메리의 유언장\사랑하는 내 $Player.Son,\네가 생후 여섯 달일 때부터 우리는 이 섬에서 가난하게 살았구나. 네 삶이 이래서는 안 됐는데. 너는 브램블턴의 진정한 후계자이고, 그 부와 땅과 백성은 네가 지켜야 할 것이란다.
 Read on.	계속 읽는다.
 I could never tell you who we were while I lived: it was safer that you didn't know. I didn't leave Galaith with nothing. What I carried away, I hid, and the people of this island have kept my secrets for you. When you are ready, they will see that you find it.	살아 있는 동안에는 우리가 누구인지 말해 줄 수 없었어. 네가 모르는 편이 더 안전했으니까. 나는 빈손으로 갈라이스를 떠나지 않았단다. 가지고 나온 것은 숨겨 두었고, 이 섬 사람들이 너를 위해 내 비밀을 지켜 주었어. 네가 준비되면, 그들이 네가 그것을 찾도록 도와줄 거야.
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	네 아버지인 왕은 아직 갈라이스의 성벽 뒤에서 기다리고 계시고, 내가 떠난 줄도 모르셔. 아버지께 가거라. 도시는 네가 태어난 날부터 닫혀 있었고, 그 까닭은 나란다. 언젠가는 이해하게 될 거야.\조심하렴. 그리고 아버지께 내가 한 번도 사랑을 멈춘 적이 없다고 전해 주렴.\메리
@@ -866,7 +866,7 @@ THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens
 ROYAL TREASURY\The Wizards' Court's strongroom.	왕실 금고\마법사 궁정의 금고실.
 STONEGATE\Houses of Saltmarsh.	돌문 거리\솔트마시의 집들.
 SALTMARSH\A hamlet.	솔트마시\작은 마을.
-A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	샤드게이트, 당대 최고의 마법사 버트 지음.\궁정 북쪽 언덕의 오래된 선돌 고리에서: 은괴 네 개로 돌들을 묶고, 룬에 사파이어 두 개를 박고, 고리의 중심에 잔재의 핵을 놓아라.\그다음 당신의 샤드 $Shards.Shardgate개를 바쳐라. 무엇이든 샤드계의 고요한 가장자리로는 미끄러져 들어갈 수 있다. 그 중심을 꿰뚫으려면 고리를 안정시켜야 하니, 먼저 갈미어의 샤드스톤 $Shards.Shardgate.Stones개를 깨우고, 샤드술을 익혀라(레벨 $Shards.Shardgate.Level 이상).\그리고 들어가라. 수호자를 조심하라.
+A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	샤드게이트, 당대 최고의 마법사 버트 지음.\궁정 북쪽 언덕의 오래된 선돌 고리에서: 은괴 네 개로 돌들을 묶고, 룬에 사파이어 두 개를 박고, 고리의 중심에 잔재의 핵을 놓아라.\그다음 당신의 샤드 $Shards.Shardgate개를 바쳐라. 무엇이든 샤드계의 고요한 가장자리로는 미끄러져 들어갈 수 있다. 그 중심을 꿰뚫으려면 고리를 안정시켜야 하니, 먼저 브램블턴의 샤드스톤 $Shards.Shardgate.Stones개를 깨우고, 샤드술을 익혀라(레벨 $Shards.Shardgate.Level 이상).\그리고 들어가라. 수호자를 조심하라.
 Fold the plans.	설계도를 접는다.
 Dunerest: south-west\Saltmarsh: south-east	듄레스트: 남서쪽\솔트마시: 남동쪽
 Northport: west\Oakhollow: south-east\Wildwood: south-west	노스포트: 서쪽\오크할로: 남동쪽\와일드우드: 남서쪽
@@ -903,7 +903,7 @@ WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand w
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	수호자의 일지: 요리사 오딜 브라스크의 글씨\들어가겠다. 호수 안으로 말이다. 웅얼거림은 거기서 가장 크고, 무엇이 노래하는지 보고 싶고, 물을 무서워하기엔 나는 너무 늙었다.\이걸 찾는 사람에게: 뱃사람들을 조심하라. 그것은 그들도 부른다. 밤마다 바위를 타고 올라오며 그들을 부르는 소리가 들린다.\스튜를 올려놨다. 누가 좀 저어 줘.
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	수호자의 일지: 마지막 사람, 이졸데의 글씨\나는 그것에 한 번도 대답하지 않은 마지막 사람이다. (한번은 우리 모두 함께 대답하려 했다. 문구를 다듬는 데 사십 년이 걸렸고, 그때쯤엔 우리도 철이 들었다.) 당신이 따뜻하고, 이것을 읽고 있다면, 들어라. 그것의 소리는 들어도 되고, 그것에게서 배워도 된다. 하지만 절대 대답하지 마라. 대답이 그것이 들어오는 길이다.\성유물당 아래에 우리가 번갈아 귀 기울이던 방이 있다. 네 개의 종이 그 방을 닫아 두고 있다. 회랑의 노래하는 돌이 그 순서를 기억한다. 순서는 옛 노래처럼 해마다 바뀐다. 누군가 멈춰 서도록 여기에 돌무더기를 쌓아 두었다.
 ROPE WALK\Houses of Wardhaven.	밧줄 길\워드헤이븐의 집들.
-WARDHAVEN\A town of Galmere.	워드헤이븐\갈미어의 마을.
+WARDHAVEN\A town of Brambleton.	워드헤이븐\브램블턴의 마을.
 CHURCH OF WARDHAVEN\All are welcome.	워드헤이븐 교회\누구나 환영합니다.
 SHERIFF'S OFFICE\The watch house of Wardhaven.	보안관 사무소\워드헤이븐의 경비소.
 SMITHY\The forge of Wardhaven.	대장간\워드헤이븐의 대장간.
@@ -957,7 +957,7 @@ He has nothing more to give you, and has been very good about it.	그는 더 줄
 Something squeaks inside the stump. A rubber duck! It looks at you as if you were the strange one.	그루터기 안에서 무언가 삑 소리를 낸다. 고무 오리다! 이상한 건 당신이라는 듯 쳐다본다.
 Five secrets found. You're developing a nose for it.	비밀 다섯 개를 찾았다. 그런 것에 코가 트이고 있다.
 Ten secrets! People have started hiding things from you on purpose.	비밀 열 개! 사람들이 일부러 당신에게서 물건을 숨기기 시작했다.
-Every secret in Galmere, found. Somewhere, a squirrel weeps.	갈미어의 모든 비밀을 찾았다. 어딘가에서 다람쥐가 운다.
+Every secret in Brambleton, found. Somewhere, a squirrel weeps.	브램블턴의 모든 비밀을 찾았다. 어딘가에서 다람쥐가 운다.
 You fish out a fortune in wishes. Twenty-five gold, give or take a dream.	소원 한 무더기를 건져 낸다. 금화 스물다섯 개쯤, 꿈 하나 더하거나 빼거나.
 A magpie's stash: a spoon, a thimble, and a sapphire it must have been very proud of.	까치의 보물: 숟가락, 골무, 그리고 아주 자랑스러워했을 사파이어 하나.
 A statue of a wizard, its hat a lid. Under it: Shards, and a note in Bert's hand: 'IF FOUND, NO YOU DIDN'T.'	모자가 뚜껑인 마법사 석상. 그 아래: 샤드, 그리고 버트의 글씨로 된 쪽지. '발견했다면, 아니, 못 했다.'
@@ -992,11 +992,11 @@ You lift the lid and rummage under the salted fish...	뚜껑을 들고 소금에
 One piece of it doesn't stop chiming. You pick it up. It's warm.	그 조각 하나가 울리기를 멈추지 않는다. 집어 든다. 따뜻하다.
 Shardcraft: work Shard magic. Wake shardstones, break gear down for its Shards, write scrolls, enchant gear with rare shards and shape your pocket of the Shardrealm.	샤드술: 샤드 마법을 다룹니다. 샤드스톤을 깨우고, 장비를 분해해 샤드를 얻고, 두루마리를 쓰고, 희귀한 샤드로 장비에 마법을 부여하고, 샤드계의 내 공간을 가꿉니다.
 The Warden stands over the anchor: it won't let you near.	수호자가 닻을 지키고 서 있다. 가까이 가지 못하게 한다.
-You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	갈미어의 지팡이를 들고 닻을 향해 버트의 해방의 말을 외운다..
+You raise the Staff of Brambleton and speak Bert's words of Unbinding at the anchor..	브램블턴의 지팡이를 들고 닻을 향해 버트의 해방의 말을 외운다..
 ..and it shatters. Under it the realm's floor falls away into a hollow, vast and warm, where something huge lies sleeping: every splinter of magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. Tell Bert.	..그러자 그것이 산산이 부서진다. 그 아래로 샤드계의 바닥이 무너져 내리며, 광대하고 따뜻한 공동이 드러난다. 그곳에 거대한 무언가가 잠들어 있다. 여기 있는 마법의 모든 조각이 그쪽으로 기울어 있고, 그것은 숨을 쉰다. 멀리, 갈라이스의 고개에서 무언가가 무너진다. 버트에게 알리자.
 Through the hole where the anchor stood you see the pass, small and far, as if through ice. The barrier thins, and beyond it the dragon lifts its head: its hide is grown over with Shards, plates of them, glittering.	닻이 있던 구멍으로, 얼음 너머로 보듯 작고 멀리 고개가 보인다. 장벽이 엷어지고, 그 너머에서 용이 고개를 든다. 그 가죽은 샤드로 뒤덮여 있다. 판처럼 겹겹이, 반짝이며.
 A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	산사태 같은 목소리가 머릿속에서 울린다. '어린 후계자로군, 내 지하실에서. 무엇이든 부수려무나. 나의 충실한 손이 장벽이 솟은 날부터 그 벽을 통해 부스러기처럼 샤드를 먹여 주었고, 네가 얻은 그 검은 깊이 잠들어 있다.'
-Your bare hands won't break it: it needs the Staff of Galmere.	맨손으로는 부술 수 없다. 갈미어의 지팡이가 필요하다.
+Your bare hands won't break it: it needs the Staff of Brambleton.	맨손으로는 부술 수 없다. 브램블턴의 지팡이가 필요하다.
 You puff smoke into the skep's door. The humming drops, slow and sleepy.	벌통 입구에 연기를 불어 넣는다. 웅웅거림이 느리고 졸린 듯 잦아든다.
 You need a tinderbox to make smoke.	연기를 피우려면 부싯깃통이 필요하다.
 Someone should fix that floorboard; it sounds like it's about to fall through.	누가 저 마룻널 좀 고쳐야겠다. 금방이라도 빠질 것 같은 소리가 난다.
@@ -1154,7 +1154,7 @@ You don't have any gold!	금화가 없다!
 A new face! Every adventurer should know a little magic. Take these. I've far too many; I keep buying them.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you. I've tried. Ask my knees.	새 얼굴이군! 모험가라면 마법을 조금은 알아야지. 이걸 받게. 너무 많아서 말이야. 자꾸 사들이거든.\두루마리를 읽으면 그 주문은 영원히 자네 것이 되네. 쓰려면 샤드가 들지. 그리고 물약 한두 개. 마법으로는 몸이 낫지 않아. 내가 해 봤네. 내 무릎에게 물어보게.
 The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	집사의 친구로군! 들어오게, 들어와, 고양이 조심하고. 진짜 고양이는 아니야. 뭐, 그렇다고.\장벽을 없애고 싶은 거지. 다들 장벽을 없애고 싶어 해. 난 할 수 있네. 당대 최고의 마법사 버트가 도와주지. 하지만 나조차도 제대로 된 물건이 필요해. 나조차도 말일세. 아주 짜증 나는 일이지.
 What things?	어떤 물건들이요?
-Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	세 가지. 갈미어의 지팡이, 왕의 것으로 그의 성채 꼭대기 서재에 있네. 해방의 마도서, 듄레스트 밖 사막에 태양 사제들의 도서관과 함께 묻혀 있지. 그리고 불씨 반지, 잿빛 사제가 엠버워치 위의 요새에서 끼고 있네.\셋 다 가져오면, 그 장벽을 어떻게 해 보세. 그리고 올 때 발은 닦고 오게.
+Three. The Staff of Brambleton: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	세 가지. 브램블턴의 지팡이, 왕의 것으로 그의 성채 꼭대기 서재에 있네. 해방의 마도서, 듄레스트 밖 사막에 태양 사제들의 도서관과 함께 묻혀 있지. 그리고 불씨 반지, 잿빛 사제가 엠버워치 위의 요새에서 끼고 있네.\셋 다 가져오면, 그 장벽을 어떻게 해 보세. 그리고 올 때 발은 닦고 오게.
 I'll bring them.	가져올게요.
 Quest started: Bert's Three Treasures.	퀘스트 시작: 버트의 세 가지 보물.
 The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind. Two is not three. People keep trying two.	왕의 성채에서 지팡이, 사막 밑에서 마도서, 잿빛 사제에게서 반지. 셋 다일세, 명심하게. 둘은 셋이 아니야. 다들 자꾸 둘로 해 보려고 하더군.
@@ -1180,7 +1180,7 @@ The furnace: smelt ore.	용광로: 광석을 제련한다.
 The anvil: smith bars.	모루: 주괴를 벼린다.
 Never mind.	됐어요.
 Copper, tin and coal: in the grotto under the beggar's cellar.\Iron: the old mine in the Whispering Woods, past the King's guard. Wear armour.\Silver lies deeper down. Brokk the dwarf has found mithril in the Deep Hollow.	구리, 주석, 석탄은 거지의 지하실 밑 동굴에.\철은 속삭이는 숲의 오래된 광산, 왕의 경비병 너머에. 갑옷을 입고 가.\은은 더 깊은 곳에 있어. 드워프 브로크가 깊은 골짜기에서 미스릴을 찾았지.
-Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	갈미어을 괴롭히는 짐승은 모두 언젠가는 내 게시판에 오르지. 오늘 건 내 옆에 붙어 있어. 숫자를 채워 오면 돈주머니를 주겠네.
+Every beast that bothers Brambleton ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	브램블턴을 괴롭히는 짐승은 모두 언젠가는 내 게시판에 오르지. 오늘 건 내 옆에 붙어 있어. 숫자를 채워 오면 돈주머니를 주겠네.
 Who pays for it?	그건 누가 내요?
 The towns put in, the farms put in, and anyone who's lost a sheep puts in twice. One bounty a day, mind. The purse isn't bottomless.	마을들이 내고, 농장들이 내고, 양을 잃은 사람은 두 번 내지. 현상금은 하루에 하나일세. 돈주머니가 바닥이 없는 건 아니니까.
 So you're the one Nell sent. Sit down. No, there. Now.\When I was a girl my mother told me about the Glass Wardens. The first king set them to keep watch over something that fell in the sea, a long time ago, and they built a house for it under the water, and they went down to it, and they didn't come back up.	넬이 보낸 사람이 당신이군요. 앉아요. 아니, 거기. 자.\내가 어렸을 때 어머니가 유리 수호자 이야기를 해 주셨어요. 첫 왕이 오래전에 바다에 떨어진 무언가를 지켜보라고 그들을 세웠고, 그들은 물 밑에 그것을 위한 집을 지어 그리로 내려갔는데, 다시는 올라오지 않았대요.
@@ -1223,7 +1223,7 @@ The bandits are gone, and so are the town's goods. Word is they turned up on the
 The road is safe again. Frosthold salutes you.	길이 다시 안전해졌소. 프로스트홀드가 당신에게 경례하오.
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	도적이 우글거리는 동안 길은 민간인이 있을 곳이 아니오. 제대로 칼을 휘두를 수 있게 되면 내게 보고하시오.
 Yes, Captain.	예, 대장님.
-Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	용의 섬? 하! 거기로 배를 몰고 갔다가 돌아온 사람은 없소. 나는 두 번 해냈지만. 그 둘레의 암초가 움직이거든, 친구. 물때 따라서가 아니라, 그냥 움직여.\한때 길을 아는 해도가 있었소. 오린의 해도. 갈미어 최고의 항해사였지. 그가 하늘을 읽으러 마법사 궁정 남쪽의 갈라진 탑에 올라갔는데, 내려오지 않았소. 오린의 해도를 가져오면 당신의 섬을 찾아 주겠소.\그리고 이 배는 어디든 가기 전에 선체부터 고쳐야 하오. 돌아오는 길에 목수 작업대를 지나거든 널빤지 열 개와 못 스무 개요.
+Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	용의 섬? 하! 거기로 배를 몰고 갔다가 돌아온 사람은 없소. 나는 두 번 해냈지만. 그 둘레의 암초가 움직이거든, 친구. 물때 따라서가 아니라, 그냥 움직여.\한때 길을 아는 해도가 있었소. 오린의 해도. 브램블턴 최고의 항해사였지. 그가 하늘을 읽으러 마법사 궁정 남쪽의 갈라진 탑에 올라갔는데, 내려오지 않았소. 오린의 해도를 가져오면 당신의 섬을 찾아 주겠소.\그리고 이 배는 어디든 가기 전에 선체부터 고쳐야 하오. 돌아오는 길에 목수 작업대를 지나거든 널빤지 열 개와 못 스무 개요.
 Quest started: Orrin's Chart.	퀘스트 시작: 오린의 해도.
 Orrin's chart, matey. The Sundered Tower, south of the Wizards' Court. Mind the stairs: there aren't any.	오린의 해도요, 친구. 마법사 궁정 남쪽의 갈라진 탑. 계단 조심하시오. 계단이 없으니까.
 Right.	알겠어요.
@@ -1601,7 +1601,7 @@ You have it? Then take it to Captain Hart at the palace door. He answers to the 
 Her own hand. Then there's nothing left to doubt.\She turns the amulet in the lamplight once more, and her hands begin to shake.	그분의 친필이군요. 그럼 더 의심할 것이 없습니다.\그녀가 등불 아래서 부적을 한 번 더 돌려 보더니, 손이 떨리기 시작한다.
 She was my mother.	그분은 제 어머니셨어요.
 Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	그럼 돌아오신 것을 환영합니다, $Player.Lord. 제 인장으로 재상에게 제 말을 전하십시오.
-The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	재상이 보냈다고요? 어디 봅시다.\왕관, 사파이어, 걸쇠 아래 옛 대장장이들의 표식. 이것은 갈미어 계승의 부적입니다. 메리 왕비께서 사라지신 밤에 이것을 하고 계셨지요.\하지만 부적은 도둑맞을 수 있고, 제 인장은 되돌릴 수 없습니다. 그분이 달아나신 밤, 옛 재상이 그분의 서류를 이 전당 아래 금고에 봉인하고 근위대에게 지키게 했지요. 그분의 친필로 된 것을 가져오시면, 알게 될 겁니다.
+The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Brambleton Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	재상이 보냈다고요? 어디 봅시다.\왕관, 사파이어, 걸쇠 아래 옛 대장장이들의 표식. 이것은 브램블턴 계승의 부적입니다. 메리 왕비께서 사라지신 밤에 이것을 하고 계셨지요.\하지만 부적은 도둑맞을 수 있고, 제 인장은 되돌릴 수 없습니다. 그분이 달아나신 밤, 옛 재상이 그분의 서류를 이 전당 아래 금고에 봉인하고 근위대에게 지키게 했지요. 그분의 친필로 된 것을 가져오시면, 알게 될 겁니다.
 How do I get down there?	저 아래로는 어떻게 내려가죠?
 There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	회관 뒤쪽에 뚜껑문이 있어요. 빗장은 풀어 둘게요. 아래 경비들은 제가 아니라 대법관 소관이고, 누구냐고 먼저 묻지도 않아요. 살살 가세요.
 An amulet? You'd better show it to me, then. I can't vouch for a story.	부적이라고요? 그럼 보여 주셔야겠네요. 이야기만으로는 보증할 수 없어요.
@@ -1639,11 +1639,11 @@ Then we have nothing more to discuss.	그렇다면 더 나눌 이야기는 없�
 No, we don't.	그래요, 없죠.
 You wish to see the King? You, and every merchant, beggar and poet in Galaith, now the gates are open.\What makes you more than they are?	폐하를 뵙겠다고? 문이 열린 지금, 갈라이스의 모든 상인과 거지와 시인처럼 말이오.\당신이 그들보다 나은 게 뭐요?
 I am his $Player.Son.	나는 그분의 $Player.Son 입니다.
-Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall I.	대담하군. 왕비님의 아이라면 지금 열여덟 살이고, 계승의 부적을 지니고 있을 것이오. 시청의 왕실 기록관에게 보여 주시오. 그녀는 갈미어의 진짜 인장을 모두 알고 있소. 그녀가 보증한다면 나도 그리하겠소.
+Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Brambleton. If she vouches for it, so shall I.	대담하군. 왕비님의 아이라면 지금 열여덟 살이고, 계승의 부적을 지니고 있을 것이오. 시청의 왕실 기록관에게 보여 주시오. 그녀는 브램블턴의 진짜 인장을 모두 알고 있소. 그녀가 보증한다면 나도 그리하겠소.
 I'll go to the Archivist.	기록관에게 가겠습니다.
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	기록관의 초록 인장. 그렇다면 사실이군.\나의 $Player.Lord 이시여. 늙은이의 의심을 용서하십시오. 여기 제 영장이 있습니다. 근위대장에게 보여 주십시오.
 Thank you, Chancellor.	감사합니다, 대법관님.
-The Parliament of Galmere will return from Northport, now the road is open. There is much to do.	길이 열렸으니 갈미어 의회가 노스포트에서 돌아올 것입니다. 할 일이 많습니다.
+The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	길이 열렸으니 브램블턴 의회가 노스포트에서 돌아올 것입니다. 할 일이 많습니다.
 Pots, pails and tools: a bit of everything for the road.	냄비, 양동이, 연장: 길에 필요한 건 다 조금씩 있어요.
 Cloth and wool, the best!	천과 양모, 최고급이에요!
 Boots that last!	오래 가는 장화!
@@ -1874,7 +1874,7 @@ Thank you, Steward.	감사합니다, 집사님.
 Quest complete: The Steward's Hunt! 100 gold and a ruby.	퀘스트 완료: 집사의 사냥! 금화 100개와 루비 하나.
 Five hobgoblins, from the old iron mine. You've $Attr.HobgoblinsSlain so far.	옛 철광산의 홉고블린 다섯 마리요. 지금까지 $Attr.HobgoblinsSlain 마리 잡았소.
 Bert wants the King's staff? It hangs in his solar, at the top of the keep, where he left it the night he rode for Galaith.\Nobody's been up since. The stair door is locked, and the old guard, they say, never left their post, even dead. Here's the key. Go carefully.	버트가 왕의 지팡이를 원한다고? 성채 꼭대기 왕의 거실에 걸려 있소. 갈라이스로 떠나시던 밤 거기 두고 가셨지.\그 뒤로 아무도 올라가지 않았소. 계단 문은 잠겨 있고, 옛 경비병들은 죽어서도 자리를 떠나지 않았다고들 하오. 여기 열쇠요. 조심해서 가시오.
-Quest started: The Staff of Galmere.	퀘스트 시작: 갈미어의 지팡이.
+Quest started: The Staff of Brambleton.	퀘스트 시작: 브램블턴의 지팡이.
 The keep stands, and the King's roads are open. Long may they stay so.	성채는 서 있고, 왕의 길은 열려 있소. 오래도록 그러하기를.
 Your Majesty. You honour the garden. It's been dull without honour.	폐하. 정원을 빛내 주시는군요. 빛이 없어 따분했답니다.
 The court's coming back to life. Slowly. Like a cold hand.	궁정이 다시 살아나고 있어요. 천천히. 차가운 손처럼.
@@ -1915,7 +1915,7 @@ My uncle went down the Shifting Deep once. Came back up through a different hole
 Don't trust geese. That's all I'll say. Don't trust them.	거위는 믿지 마요. 그 말만 할게요. 믿지 마요.
 I once saw a cow look at the moon for a whole night. Changed me, that did.	소가 밤새 달을 바라보는 걸 본 적이 있어요. 그게 날 바꿔 놨죠.
 If you see a hat floating about the Wizards' Court, say hello. That's Pip. He's shy.	마법사 궁정에서 모자가 둥둥 떠다니면 인사해 줘요. 핍이에요. 수줍음을 타요.
-They say the old king hid treasure all over Galmere. My grandad said that. My grandad also said he was a duck, so.	옛 왕이 갈미어 곳곳에 보물을 숨겼대요. 우리 할아버지가 그랬어요. 할아버지는 자기가 오리라고도 했지만요.
+They say the old king hid treasure all over Brambleton. My grandad said that. My grandad also said he was a duck, so.	옛 왕이 브램블턴 곳곳에 보물을 숨겼대요. 우리 할아버지가 그랬어요. 할아버지는 자기가 오리라고도 했지만요.
 Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.	아이고, 가엾어라. 에드윈이 메리의 편지를 당신에게 가져간다고 했어요. 우린 메리를 참 좋아했지요.\저녁이요? 물론이죠! 그런데 화덕이 돌처럼 차갑고, 에드윈한테 장작이란 낡은 증서 더미거든요. 통나무 세 개만 패 줄래요? 자, 저이 도끼를 가져가요. 한 번도 안 썼어요. 내가 말했다고 하지 마요.
 I'll chop some logs.	통나무를 패 올게요.
 Not just now.	지금은 말고요.
@@ -2059,9 +2059,9 @@ Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	안녕하쇼. 이렇게 늦게 팔 것도 없이 부두로 내려오는 사람은 드문데.\난 물건이 어디서 왔는지 묻지 않고, 얼굴도 기억 안 해. 값에서 조금 깎일 뿐이지, 그게 다야.
 Let's see what you'll give me.	뭘 줄 건지 보자고.
 Welcome to the port of Northport. Mind the ropes.	노스포트 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Galmere's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	섬 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 노스포트 시청이 지금 갈미어의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
+Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	섬 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 노스포트 시청이 지금 브램블턴의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
 I'll go to the City Hall.	시청으로 가겠습니다.
-Welcome to Northport, the capital of Galmere. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	갈미어의 수도, 노스포트에 오신 것을 환영합니다. 어쨌든 지금은요.\갈라이스는 열여덟 해째 닫혀 있어요. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 그래서 장벽이 무너질 때까지 여기 시청이 의회예요.\갈라이스에 볼일이 있다고요? 그럼 시청에 물어보세요. 왕비님이 사라진 바로 그해에 봉인됐다고들 해요.
+Welcome to Northport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	브램블턴의 수도, 노스포트에 오신 것을 환영합니다. 어쨌든 지금은요.\갈라이스는 열여덟 해째 닫혀 있어요. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 그래서 장벽이 무너질 때까지 여기 시청이 의회예요.\갈라이스에 볼일이 있다고요? 그럼 시청에 물어보세요. 왕비님이 사라진 바로 그해에 봉인됐다고들 해요.
 Quest started: The Temporary Capital.	퀘스트 시작: 임시 수도.
 Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	장터에선 지갑을 꼭 쥐고, 칼은 칼집에 넣어 두세요. 노스포트는 대체로 좋은 도시예요.
 Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	노스포트 대성당에 오신 것을 환영합니다. 잠시 앉아 계세요. 유리창으로 드는 빛이 아름답답니다.
@@ -2308,14 +2308,14 @@ My mother, Mary, died on the Isle, where she raised me. Her last will told me wh
 The King comes down from his throne, and holds you, and weeps.	왕이 옥좌에서 내려와 당신을 안고 운다.
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	메리. 나의 메리. 용이 너를 갖지 못하게 너를 데려간 것인데, 나는 사람들이 그걸 배신이라 부르게 두었구나. 열여덟 해를.\나의 $Player.Son. 나의 $Player.Son.
 Father.	아버지.
-I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	나는 사슬에 묶인 도시를 위해 이 옥좌를 지켜 왔다. 네가 그 사슬을 끊었지. 이건 너의 것이다.\그가 자기 머리에서 왕관을 들어 당신의 머리에 씌운다.\갈미어의 $Player.King 만세!
-Long live Galmere.	갈미어 만세.
-Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	퀘스트 완료: 진정한 후계자! 당신은 갈미어의 $Player.King 이다. 세상은 당신이 탐험할 곳이다.
+I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Brambleton!	나는 사슬에 묶인 도시를 위해 이 옥좌를 지켜 왔다. 네가 그 사슬을 끊었지. 이건 너의 것이다.\그가 자기 머리에서 왕관을 들어 당신의 머리에 씌운다.\브램블턴의 $Player.King 만세!
+Long live Brambleton.	브램블턴 만세.
+Quest complete: The True Heir! You are the $Player.King of Brambleton. The world is yours to explore.	퀘스트 완료: 진정한 후계자! 당신은 브램블턴의 $Player.King 이다. 세상은 당신이 탐험할 곳이다.
 A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	어디서 봐도 알아볼 진저 고양이가 옥좌 위에 몸을 말고 있다. 지미, 여기 어떻게 왔니?
 My $Player.Son, the $Player.King. Your mother would be proud.	나의 $Player.Son, 그리고 $Player.King. 네 어머니가 자랑스러워할 게다.
 Another stands here who calls me father.	저를 아버지라 부르는 또 한 사람이 여기 서 있습니다.
 Goodbye, Father.	안녕히 계세요, 아버지.
-Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	그렇다면 피가 내 혈통 중 한 명 이상을 점찍었고, 갈미어은 마땅한 것보다 운이 좋구나. 베임이 샤드와 함께 왕가의 핏줄을 흩어 놓았지. 용은 너희 중 하나만 셌을 뿐이다. 그렇다면 후계자 기사단으로 하자. 샤드가 아는 모든 이가 왕관에 맹세하는 것이다. 이 옥좌엔 왕국을 지키는 누구에게나 자리가 있다.
+Then the blood has marked more than one of my line, and Brambleton is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	그렇다면 피가 내 혈통 중 한 명 이상을 점찍었고, 브램블턴은 마땅한 것보다 운이 좋구나. 베임이 샤드와 함께 왕가의 핏줄을 흩어 놓았지. 용은 너희 중 하나만 셌을 뿐이다. 그렇다면 후계자 기사단으로 하자. 샤드가 아는 모든 이가 왕관에 맹세하는 것이다. 이 옥좌엔 왕국을 지키는 누구에게나 자리가 있다.
 Morning. Mind the weed, it's slippery. (She shakes a bottle at you; nothing in it.) This shore's a bottle shore. The currents bring 'em all in here, sooner or later. Most are empty. Not all.	안녕하쇼. 해초 조심해요, 미끄러워. (그녀가 빈 병을 당신에게 흔든다.) 이 해안은 병 해안이에요. 해류가 조만간 다 여기로 실어 오죠. 대부분은 비어 있어요. 전부는 아니고.
 What's in the full ones?	꽉 찬 병엔 뭐가 들었어요?
 Good hunting.	잘 찾아보세요.
@@ -2551,7 +2551,7 @@ I'll see.	알아볼게요.
 "It's gone quiet, love. He's gone quiet. I keep listening."	"조용해졌어요. 그이가 조용해졌어요. 계속 귀를 기울이고 있어요."
 Come home, Annis.	집에 가요, 애니스.
 "It won't be long now, love. Oswin says when it's all mended we'll be together."	"이제 얼마 안 남았어요. 다 꿰매지면 우리가 함께할 거라고 오스윈이 그랬어요."
-Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Galmere, and only if the heir is worthy.	누가 용기의 검을 찾아왔는가?\이 검은 단 하나의 일을 위해 벼려졌다. 갈라이스의 용을, 그리고 너의 선조들이 그것과 맺은 거래를 끝내기 위해. 이 검은 갈미어의 후계자에게만, 그리고 그 후계자가 자격이 있을 때만 간다.
+Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Brambleton, and only if the heir is worthy.	누가 용기의 검을 찾아왔는가?\이 검은 단 하나의 일을 위해 벼려졌다. 갈라이스의 용을, 그리고 너의 선조들이 그것과 맺은 거래를 끝내기 위해. 이 검은 브램블턴의 후계자에게만, 그리고 그 후계자가 자격이 있을 때만 간다.
 I am the heir.	제가 후계자입니다.
 Words. Show me valour.	말뿐이로군. 용기를 보여라.
 Then I will.	그럼 보여 드리죠.
@@ -2691,7 +2691,7 @@ Lady Pettigrew's lost her hat again. To the geese. Again.	페티그루 부인이
 A Shard Remnant got into my kitchen once. I hit it with a ladle. It's fine. The ladle isn't.	샤드 잔재가 한번 우리 부엌에 들어왔어요. 국자로 때렸죠. 괜찮아요. 국자는 안 괜찮고요.
 My son wants to be an adventurer. I told him, get a proper job. Like goose herding.	우리 아들이 모험가가 되고 싶대요. 제대로 된 일을 하라고 했죠. 거위 치기 같은.
 Somebody keeps pressing the big red button in the wizard's tower. I can tell. My washing turns into chickens.	누가 자꾸 마법사 탑의 커다란 빨간 단추를 눌러요. 알 수 있어요. 빨래가 닭으로 변하거든요.
-You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Galmere hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	당신이 갈라이스의 용을 죽인 사람이오? 그럼 그 비늘을 가졌겠군.\여긴 용의 대장간이오. 갈미어에서 용 비늘을 다룰 만큼 뜨거운 유일한 불이지. 세 장을 가져오면 내가 직접 그걸로 투구를 만들어 주고, 대장간 쓰는 법도 가르쳐 주겠소.
+You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Brambleton hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	당신이 갈라이스의 용을 죽인 사람이오? 그럼 그 비늘을 가졌겠군.\여긴 용의 대장간이오. 브램블턴에서 용 비늘을 다룰 만큼 뜨거운 유일한 불이지. 세 장을 가져오면 내가 직접 그걸로 투구를 만들어 주고, 대장간 쓰는 법도 가르쳐 주겠소.
 I'll bring you three scales.	비늘 세 장을 가져올게요.
 Quest started: The Dragonforge.	퀘스트 시작: 용의 대장간.
 Three of them, still warm! Watch now...\There. A dragonscale helm, and nothing on this earth will burn through it. The forge is yours to use whenever you've scales and mithril.	세 장, 아직 따뜻하군! 이제 보시오...\됐소. 용비늘 투구, 이 세상 무엇도 이걸 태워 뚫지 못하오. 비늘과 미스릴만 있으면 언제든 대장간을 써도 되오.
@@ -2699,7 +2699,7 @@ Quest complete: The Dragonforge! You receive a dragonscale helm.	퀘스트 완�
 Three scales from the dragon's hide: no fewer.	용 가죽에서 나온 비늘 세 장이오. 그보다 적어선 안 되오.
 Back for the forge? Scale and mithril, and I'll show you how.	대장간을 쓰러 왔소? 비늘과 미스릴이면, 방법을 보여 주겠소.
 Show me the Dragonforge.	용의 대장간을 보여 주세요.
-This is the Dragonforge. It's been cold a long time: there's only one dragon left in Galmere, and it sits before the walls of Galaith.	여긴 용의 대장간이오. 오랫동안 식어 있었지. 갈미어에 남은 용은 하나뿐이고, 그건 갈라이스 성벽 앞에 앉아 있으니까.
+This is the Dragonforge. It's been cold a long time: there's only one dragon left in Brambleton, and it sits before the walls of Galaith.	여긴 용의 대장간이오. 오랫동안 식어 있었지. 브램블턴에 남은 용은 하나뿐이고, 그건 갈라이스 성벽 앞에 앉아 있으니까.
 Stand still the way you would to cast, and listen at the horn. And whatever it says, warm one, don't answer.	주문을 외울 때처럼 가만히 서서, 뿔피리에 귀를 기울이시오. 그리고 그게 뭐라고 하든, 따뜻한 이여, 대답하지 마시오.
 You lay the Sword of Valour on the Deep Anvil and strike it, once..	용기의 검을 깊은 모루 위에 놓고, 한 번 내리친다..
 ..and the note goes down through the mountain and comes back up as a voice. The Sword of Valour is awake: Shard-light runs along its edge, and it pulls, gently, towards Galaith.	..그 음이 산을 뚫고 내려갔다가 목소리가 되어 돌아온다. 용기의 검이 깨어났다. 샤드의 빛이 칼날을 타고 흐르고, 검이 갈라이스 쪽으로 부드럽게 끌어당긴다.
@@ -2719,7 +2719,7 @@ The Sun-Forge's disc still holds a little of the light.	태양 용광로의 원�
 A great disc of gold-faced bronze, dark without the sun on it.	금빛 면을 한 커다란 청동 원반, 해가 비치지 않아 어둡다.
 The three seals sink into the hollows of the door, and it grinds open. Quest complete: The Island of Dragons!	세 개의 인장이 문의 홈에 가라앉고, 문이 삐걱이며 열린다. 퀘스트 완료: 용의 섬!
 Three hollows in the door, the shape of seals.	문에 인장 모양의 홈이 세 개 있다.
-So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	그래. 갈미어의 후계자가 마침내 보르갈라스에게 오는구나, 그것도 걸어서. 열여덟 겨울이나 늦게.\열여덟 겨울을 나는 이 성벽 앞에서 기다렸다. 열여덟 겨울 동안 도시는 길이 막혀 굶주렸지. 모두 작은 빚 하나 때문에. 이자가 붙어서, 이제는 그리 작지 않다.
+So. The heir of Brambleton comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	그래. 브램블턴의 후계자가 마침내 보르갈라스에게 오는구나, 그것도 걸어서. 열여덟 겨울이나 늦게.\열여덟 겨울을 나는 이 성벽 앞에서 기다렸다. 열여덟 겨울 동안 도시는 길이 막혀 굶주렸지. 모두 작은 빚 하나 때문에. 이자가 붙어서, 이제는 그리 작지 않다.
 What debt?	무슨 빚?
 A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. I kept a copy. I always keep a copy. Your mother broke it, and ran.	거래다, 아이야, 저주가 아니라. 너의 첫 왕은 나를 묶을 수 있는 크기로 베어 내고는 스스로 영리하다 여겼지. 나는 네 혈통이 내 남은 조각들, 산의 황금과 그 샤드를 갖게 해 주었다. 대대로 맏이로 태어난 후계자를 대가로. 왕가의 피가 자물쇠이고, 자물쇠에는 먹이가 필요하다. 그들은 피로 서명했다. 나는 사본을 남겨 두었지. 늘 사본을 남겨 둔다. 네 어미는 그것을 깨고 달아났다.
 She saved me.	어머니가 나를 구했어.
@@ -2834,7 +2834,7 @@ You grab the sheep and start to shear...	양을 붙잡고 털을 깎기 시작�
 ...and get a fluffy clump of wool.	...폭신한 양털 한 뭉치를 얻는다.
 ...but the sheep wriggles free!	...그런데 양이 몸부림쳐 빠져나간다!
 You need shears!	가위가 필요하다!
-You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	갈미어의 지팡이를 장벽에 대고 버트가 알려 준 풀림의 말을 외운다..
+You hold the Staff of Brambleton to the barrier and speak Bert's words of Unbinding..	브램블턴의 지팡이를 장벽에 대고 버트가 알려 준 풀림의 말을 외운다..
 ..and the barrier shatters like glass. Beyond it, on the scorched ground before Galaith's walls, the dragon lifts its glittering head, and the sword in your hand sings back at it.	..장벽이 유리처럼 산산조각 난다. 그 너머, 갈라이스 성벽 앞 그을린 땅에서 용이 번쩍이는 머리를 들고, 손에 든 검이 그것에 맞서 노래한다.
 The staff hums against the barrier, but you don't know the words.	지팡이가 장벽에 대고 웅웅거리지만, 그 말을 알지 못한다.
 ..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	..장벽이 번쩍이고, 떨리고, 버틴다. 세상 너머의 무언가가 그것을 먹이고 있다.
@@ -2988,16 +2988,16 @@ Wield your sword and shield, and train until your Attack and Defence are level 2
 Something of your mother's lies in the caves under the chapel.	예배당 아래 동굴에 어머니의 무언가가 있다.
 Something gold glints behind iron bars, out of reach of any hand.	쇠창살 너머에서 금빛 무언가가 반짝인다. 어떤 손도 닿지 않는 곳이다.
 Speak to the city guard at Northport's port.	노스포트 항구의 도시 경비병과 이야기한다.
-Go to Northport's City Hall, where Galmere's Parliament sits until Galaith opens again.	갈라이스가 다시 열릴 때까지 갈미어 의회가 열리는 노스포트 시청으로 간다.
+Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	갈라이스가 다시 열릴 때까지 브램블턴 의회가 열리는 노스포트 시청으로 간다.
 Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	의회의 편지를 애시퍼드 읍사무소의 애시퍼드 읍장에게 가져간다.
 Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	고블린들이 애시퍼드 동쪽 농장들을 습격한다. 그들을 쫓아낸다. 농장 갈림길에서 기다린다.
 Tell the Mayor the goblins are beaten.	고블린들을 물리쳤다고 읍장에게 알린다.
 Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	애시퍼드 남쪽 루퍼트 왕의 성채에 있는 왕의 집사에게 읍장의 통행증을 보여 준다.
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	옛 철광산, 광산 깊은 곳, 또는 굴에서 홉고블린 다섯을 처치하고 ($HobgoblinsSlain / 5) 집사에게 돌아간다.
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	마법사 궁정 탑 꼭대기에서 대마법사 버트를 찾는다.
-Bring Bert the Staff of Galmere, the Grimoire of Unbinding and the Ember Ring.	버트에게 갈미어의 지팡이, 풀림의 마도서, 불씨 반지를 가져간다.
+Bring Bert the Staff of Brambleton, the Grimoire of Unbinding and the Ember Ring.	버트에게 브램블턴의 지팡이, 풀림의 마도서, 불씨 반지를 가져간다.
 Ask the Steward at King Rupert's Keep about the King's staff.	루퍼트 왕의 성채의 집사에게 왕의 지팡이에 대해 묻는다.
-Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Galmere.	성채 꼭대기 왕의 거실로 올라가 (성채 대전의 계단: 집사의 열쇠) 갈미어의 지팡이를 가져온다.
+Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Brambleton.	성채 꼭대기 왕의 거실로 올라가 (성채 대전의 계단: 집사의 열쇠) 브램블턴의 지팡이를 가져온다.
 Ask the scholar Yusra, in Dunerest, about the Grimoire of Unbinding.	듄레스트의 학자 유스라에게 풀림의 마도서에 대해 묻는다.
 The Grimoire lies in the sun priests' buried library, in the desert north of Dunerest. Dig out its entrance (a spade).	마도서는 듄레스트 북쪽 사막, 태양 사제들의 묻힌 서고에 있다. 입구를 파낸다 (삽).
 Take the Grimoire of Unbinding from its lectern in the buried library.	묻힌 서고의 독서대에서 풀림의 마도서를 가져온다.
@@ -3019,10 +3019,10 @@ The Temple of Valour is sealed. Take three Valour Seals from the island's drakes
 Enter the Temple of Valour and speak to its guardian.	용기의 신전에 들어가 수호자와 이야기한다.
 Defeat the Guardian of Valour.	용기의 수호자를 물리친다.
 Draw the Sword of Valour from its stone.	돌에서 용기의 검을 뽑는다.
-The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.	갈라이스 고개에 아직 장벽이 서 있다. 갈미어의 지팡이를 장벽에 대고 든다.
+The barrier still stands in the pass of Galaith. Raise the Staff of Brambleton against it.	갈라이스 고개에 아직 장벽이 서 있다. 브램블턴의 지팡이를 장벽에 대고 든다.
 The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's tower.	장벽이 버텼다. 세상 너머의 무언가가 그것을 먹이고 있다. 마법사 궁정 탑 꼭대기의 버트에게 묻는다.
 Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).	마법사 궁정 북쪽 언덕의 오래된 선돌 고리에 샤드문을 세운다. 은 주괴 4개, 사파이어 2개, 잔재의 핵, 그리고 샤드가 필요하고, 활성화된 샤드스톤 8개로 안정시킨다 (버트의 설계도).
-Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Galmere.	샤드문을 지나 샤드계의 중심으로 들어간다. 그곳의 수호자를 지나, 갈미어의 지팡이로 장벽의 닻을 부순다.
+Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Brambleton.	샤드문을 지나 샤드계의 중심으로 들어간다. 그곳의 수호자를 지나, 브램블턴의 지팡이로 장벽의 닻을 부순다.
 The anchor is shattered. Tell Bert.	닻이 부서졌다. 버트에게 알린다.
 The barrier at the pass only thins now its anchor's gone.	닻이 사라졌으니 고개의 장벽은 이제 얇아질 뿐이다.
 The dragon wears a hide of Shards now, and it laughed at the Sword of Valour. Ask Bert why.	이제 용은 샤드 가죽을 두르고 있고, 용기의 검을 비웃었다. 버트에게 이유를 묻는다.
@@ -3040,7 +3040,7 @@ Maud says the Stone King sits the old dwarf hall's throne. Break it.	모드 말�
 The dwarves locked the Deep Anvil with four rune stones. Maud's people sing a work-song older than any of them.	난쟁이들은 룬석 네 개로 깊은 모루를 잠가 두었다. 모드의 사람들은 그 누구보다 오래된 노동요를 부른다.
 The Deep Anvil is awake. Wake the Sword of Valour on it.	깊은 모루가 깨어났다. 그 위에서 용기의 검을 깨운다.
 The Sword of Valour is awake. Tell Maud.	용기의 검이 깨어났다. 모드에게 알린다.
-Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Galmere on it).	서쪽 산맥의 갈라이스 고개로 간다. 버트의 주문으로 장벽을 부순다 (갈미어의 지팡이를 장벽에 쓴다).
+Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Brambleton on it).	서쪽 산맥의 갈라이스 고개로 간다. 버트의 주문으로 장벽을 부순다 (브램블턴의 지팡이를 장벽에 쓴다).
 Kill the dragon before Galaith's walls. Only the Sword of Valour, wielded, can reach its heart.	갈라이스 성벽 앞에서 용을 죽인다. 손에 든 용기의 검만이 그 심장에 닿을 수 있다.
 Ask the captain of the Royal Guard, at the palace door, to let you see the King.	궁전 문의 근위대장에게 왕을 뵙게 해 달라고 청한다.
 The Lord Chancellor must give his leave. Find him in Galaith's Parliament.	대법관의 허락이 있어야 한다. 갈라이스 의회에서 그를 찾는다.
@@ -4327,8 +4327,8 @@ Last Will	유언장
 Your mother's last will and testament, sealed with her wax.	어머니의 유언장. 어머니의 밀랍으로 봉인되어 있다.
 A will, sealed	봉인된 유언장
 Amulet of Succession	계승의 부적
-The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	갈미어 계승의 부적: 금, 사파이어, 왕관. 어머니가 당신을 위해 숨겨 두었다.
-The Amulet of Galmere Succession	갈미어 계승의 부적
+The Amulet of Brambleton Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	브램블턴 계승의 부적: 금, 사파이어, 왕관. 어머니가 당신을 위해 숨겨 두었다.
+The Amulet of Brambleton Succession	브램블턴 계승의 부적
 Lair Key	소굴 열쇠
 A heavy iron key: it opens the door the hobgoblins hold in the caves.	묵직한 쇠 열쇠: 동굴에서 홉고블린들이 지키는 문을 연다.
 A heavy iron key	묵직한 쇠 열쇠
@@ -4380,7 +4380,7 @@ Port Guard	항구 경비병
 One of Northport's city guard, in the city's blue.	노스포트의 푸른 제복을 입은 도시 경비병.
 Northport's guard	노스포트의 경비병
 Speaker	의장
-The Speaker of Galmere's Parliament, in its crimson robes.	진홍빛 로브를 입은 갈미어 의회의 의장.
+The Speaker of Brambleton's Parliament, in its crimson robes.	진홍빛 로브를 입은 브램블턴 의회의 의장.
 The Speaker of Parliament	의회 의장
 Mayor	읍장
 The mayor, in a velvet cloak and a chain of office.	벨벳 망토를 두르고 직무 목걸이를 건 읍장.
@@ -4401,8 +4401,8 @@ Valour Guardian	용기의 수호자
 A knight of pale light: the guardian of the Sword of Valour.	창백한 빛의 기사: 용기의 검의 수호자.
 Guardian of the Sword of Valour	용기의 검의 수호자
 King Rupert	루퍼트 왕
-King Rupert of Galmere, grey before his time.	때 이르게 머리가 센 갈미어의 루퍼트 왕.
-King Rupert of Galmere	갈미어의 루퍼트 왕
+King Rupert of Brambleton, grey before his time.	때 이르게 머리가 센 브램블턴의 루퍼트 왕.
+King Rupert of Brambleton	브램블턴의 루퍼트 왕
 Royal Guard	근위대
 A guard of Galaith's palace, in white and gold.	흰색과 금색 옷을 입은 갈라이스 궁전의 경비병.
 Galaith's palace guard	갈라이스 궁전 경비병
@@ -4501,8 +4501,8 @@ A Valour Seal: gold, a sword's point in red. A drake carried it.	용기의 인�
 A Valour Seal	용기의 인장
 Ember Ring	불씨 반지
 The Ember Ring: a ruby that glows like a coal. Warm to the touch. Inside the band, worn thin: the seal of the Pact, a dragon coiled round a ring of broken scales.	불씨 반지: 숯불처럼 빛나는 루비. 만지면 따뜻하다. 반지 안쪽에, 닳아 희미하게: 서약의 인장, 부서진 비늘 고리를 휘감은 용.
-Staff of Galmere	갈미어의 지팡이
-The Staff of Galmere, the kings' staff: gold and blue, warm with magic.	왕들의 지팡이, 갈미어의 지팡이: 금색과 파란색, 마법으로 따뜻하다.
+Staff of Brambleton	브램블턴의 지팡이
+The Staff of Brambleton, the kings' staff: gold and blue, warm with magic.	왕들의 지팡이, 브램블턴의 지팡이: 금색과 파란색, 마법으로 따뜻하다.
 Sword of Valour	용기의 검
 The Sword of Valour. Its edge hums. Only it can reach a dragon's heart.	용기의 검. 칼날이 웅웅 울린다. 오직 이 검만이 용의 심장에 닿을 수 있다.
 Grimoire Lectern	마도서 독서대
@@ -5516,7 +5516,7 @@ Bounty Board	현상금 게시판
 A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.	틀에 발톱 자국이 난 현상금 게시판. 단검 하나가 오늘의 게시문을 꽂아 두고 있다.
 Today's bounty	오늘의 현상금
 Records Board	기록 게시판
-The hall of records, carved in pale stone and gilded: the names that have done the most in Galmere.	옅은 돌에 새기고 금칠한 기록의 전당: 갈미어에서 가장 많은 일을 해낸 이름들.
+The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	옅은 돌에 새기고 금칠한 기록의 전당: 브램블턴에서 가장 많은 일을 해낸 이름들.
 The names that have done the most	가장 많은 일을 해낸 이름들
 Trees all over the Isle and the Southlands	섬과 남쪽 땅 곳곳의 나무
 Fallen logs lying in the meadows and woods	초원과 숲에 쓰러져 있는 통나무
@@ -5612,7 +5612,7 @@ The Temporary Capital	임시 수도
 The Ashford Road	애시퍼드 길
 The Steward's Hunt	집사의 수색
 Bert's Three Treasures	버트의 세 가지 보물
-The Staff of Galmere	갈미어의 지팡이
+The Staff of Brambleton	브램블턴의 지팡이
 The Sunken Grimoire	가라앉은 마도서
 The Ember Ring	불씨 반지
 Orrin's Chart	오린의 해도
@@ -7806,7 +7806,7 @@ an unseen hand brings you a thing up to {1} tiles away	보이지 않는 손이 �
 a hush round you for {1} s: whatever you fight makes no sound	{1}초 동안 주위에 정적: 무엇과 싸우든 소리가 나지 않는다
 heals {1} hitpoints	생명력 {1} 회복
 You break down the {1}	{1}을(를) 분해한다
-Magic in Galmere now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	이제 갈미어의 마법은 샤드로 움직이고, 당신은 처음에 {1}을(를) 가지고 시작한다. 두루마리로 주문을 영원히 배우고, 영창(능력치 창)에서 시전하라.
+Magic in Brambleton now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	이제 브램블턴의 마법은 샤드로 움직이고, 당신은 처음에 {1}을(를) 가지고 시작한다. 두루마리로 주문을 영원히 배우고, 영창(능력치 창)에서 시전하라.
 {1}: your reward	{1}: 당신의 보상
 ({1}-{2} with your Channeling)	(영창에 따라 {1}-{2})
 , {1} for {2} s	, {2}초 동안 {1}
@@ -7897,7 +7897,7 @@ nothing worth having	가질 만한 건 없음
 Rattle	달그락
 Minutes	분
 in the wilds	야생에서
-{1}, raised by the people of Galmere. Most given by: {2}.	{1}, 갈미어 사람들이 일으켜 세웠다. 가장 많이 낸 이: {2}.
+{1}, raised by the people of Brambleton. Most given by: {2}.	{1}, 브램블턴 사람들이 일으켜 세웠다. 가장 많이 낸 이: {2}.
 Party	일행
 {1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1}이(가) 일행에 들어오라고 한다: 서로 가까이 있는 이들끼리 처치와 퀘스트 단계를 나누고, /p로 일행에게 말할 수 있다.
 You ask {1} to join your party.	{1}에게 일행에 들어오라고 한다.
@@ -7905,7 +7905,7 @@ You ask {1} to join your party.	{1}에게 일행에 들어오라고 한다.
 {1} is your friend now.	{1}은(는) 이제 당신의 친구다.
 {1} is no longer on your friends list.	{1}은(는) 더 이상 친구 목록에 없다.
 at a homestead	집터에서
-in Galmere	갈미어에서
+in Brambleton	브램블턴에서
 {1} would like to trade with you.	{1}이(가) 당신과 거래하고 싶어 한다.
 You ask {1} to trade.	{1}에게 거래를 청한다.
 The trade is done.	거래가 끝났다.
@@ -7957,7 +7957,7 @@ You take {1}: there's no room for the rest.	{1}을(를) 가져간다: 나머지�
 Raiders at {1}! Every blade is wanted.	{1}에 약탈자다! 칼 한 자루라도 아쉽다.
 {1} is the arena's champion, with {2} wins.	{1}이(가) {2}승으로 투기장의 챔피언이다.
 Other heirs abroad today: {1}.	오늘 바깥을 다니는 다른 후계자들: {1}.
-All quiet in Galmere today. Quiet as a mouse in a cat's dream.	오늘 갈미어은 조용하다. 고양이 꿈속의 쥐처럼 조용하다.
+All quiet in Brambleton today. Quiet as a mouse in a cat's dream.	오늘 브램블턴은 조용하다. 고양이 꿈속의 쥐처럼 조용하다.
 Hear ye!	들으시오!
 Bounties	현상금
 You've had today's bounty. Come back tomorrow: there's always something with too many teeth.	오늘 현상금은 이미 받았다. 내일 다시 와라: 이빨이 너무 많은 건 늘 있으니까.
@@ -8012,12 +8012,12 @@ Good.	좋다.
 {1} is {2} parts in a hundred done. The foreman wants more hands.	{1}은(는) 백 중 {2}만큼 끝났다. 감독이 일손을 더 원한다.
 Bounty	현상금
 {1}: {2} of {3} so far. Keep at it.	{1}: 지금까지 {3} 중 {2}. 계속해라.
-Today's bounty: {1} {2}, anywhere in Galmere. Gold and Shards when it's done. One a day.	오늘의 현상금: 갈미어 어디서든 {1} {2}. 끝내면 금화와 샤드. 하루에 하나.
+Today's bounty: {1} {2}, anywhere in Brambleton. Gold and Shards when it's done. One a day.	오늘의 현상금: 브램블턴 어디서든 {1} {2}. 끝내면 금화와 샤드. 하루에 하나.
 A gift from {1}: {2}.	{1}의 선물: {2}.
 Leave {1}.	{1} 떠나기.
 Long live the {1}!	{1} 만세!
 Your Majesty!	폐하!
-Galmere's own {1}!	갈미어의 {1}이시여!
+Brambleton's own {1}!	브램블턴의 {1}이시여!
 Bless you, Majesty.	폐하께 축복을.
 Playing {1} on {2}	{2}에서 {1} 플레이 중
 the town	마을
@@ -8169,7 +8169,7 @@ Origin	출처
 Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}, Python {2}, {3}에서
 Sent by: {1}	보낸 이: {1}
 Playing ({1} of {2}):	플레이 중 ({2} 중 {1}):
-Your friend {1} has left Galmere.	친구 {1}이(가) 갈미어을 떠났다.
+Your friend {1} has left Brambleton.	친구 {1}이(가) 브램블턴을 떠났다.
 1 minute	1분
 Only an admin or the host can do that.	관리자나 호스트만 할 수 있다.
 /maintenance minutes [why] (0 to {1}), or /maintenance off	/maintenance 분 [이유] (0에서 {1}), 또는 /maintenance off
@@ -8180,7 +8180,7 @@ Friends by account are kept by the central server: come in from the start screen
 Your Hallisium account is banned.	당신의 Hallisium 계정은 차단되었다.
 This game isn't joined to the central server.	이 게임은 중앙 서버에 연결되어 있지 않다.
 {1} is here now.	{1}이(가) 이제 여기 있다.
-Your friend {1} has come into Galmere.	친구 {1}이(가) 갈미어에 들어왔다.
+Your friend {1} has come into Brambleton.	친구 {1}이(가) 브램블턴에 들어왔다.
 Who? {1} Name	누구? {1} 이름
 {1} may play again.	{1}은(는) 다시 플레이할 수 있다.
 {1} has left the game.	{1}이(가) 게임을 떠났다.
@@ -9011,7 +9011,7 @@ Sign in to see the public servers.	공개 서버를 보려면 로그인해라.
 A moment...	잠깐만...
 The central server didn't answer.	중앙 서버가 응답하지 않았다.
 Welcome back, {1}.	다시 온 걸 환영한다, {1}.
-Welcome to Galmere, {1}!	갈미어에 온 걸 환영한다, {1}!
+Welcome to Brambleton, {1}!	브램블턴에 온 걸 환영한다, {1}!
 We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	링크를 이메일로 보냈다. 그걸로 이메일을 확인해야 게임에 참가할 수 있다: 비밀번호를 잊었을 때 다시 들어오는 유일한 방법이기도 하다.
 This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	이 서버는 지금 이메일을 보낼 수 없다. 보낼 수 있게 되면 계정에서 이메일을 확인해야 게임에 참가할 수 있다: 비밀번호를 잊었을 때 다시 들어오는 유일한 방법이기도 하다.
 Carry on	계속하기

@@ -514,7 +514,7 @@ $("form-new").onsubmit = (ev) => {
   account("/api/register", { name: $("new-name").value, email: $("new-email").value, password: $("new-password").value,
     claim: $("new-claim").value }, (r) => {
     token = r.token; store.set("token", token); remember("form-new", r.name, $("new-password").value); signedIn(r.name);
-    dialog(`<h2>Welcome to Galmere, ${esc(r.name)}!</h2><p>` + (canMail ?
+    dialog(`<h2>Welcome to Brambleton, ${esc(r.name)}!</h2><p>` + (canMail ?
       "We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password." :
       "This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.") +
       "</p>", [["Carry on", "go"]]);
@@ -551,7 +551,7 @@ async function googleIn(code, name, claim) {
   if (r.choose) { chooseName(code, r, name); return; }
   if (!r.ok) { toast(r.text, true); return; }
   token = r.token; store.set("token", token); signedIn(r.name);
-  if (r.made) dialog(`<h2>Welcome to Galmere, ${esc(r.name)}!</h2><p>Your account is ready, and signs in with Google.</p>`, [["Carry on", "go"]]);
+  if (r.made) dialog(`<h2>Welcome to Brambleton, ${esc(r.name)}!</h2><p>Your account is ready, and signs in with Google.</p>`, [["Carry on", "go"]]);
   else toast(`Welcome back, ${r.name}.`);
   if (r.needs_email) $("chip").onclick();
 }

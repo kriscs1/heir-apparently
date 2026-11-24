@@ -112,6 +112,7 @@ def catalogues():
 
 
 def main():
+    raise SystemExit("Superseded by rename_brambleton.py: the kingdom is Brambleton now.")
     print("Galmere: %d files, %d catalogues" % (texts(), catalogues()))
 
 

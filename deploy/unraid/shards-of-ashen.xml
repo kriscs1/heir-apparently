@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Overview>Shards of Ashen: a top-down pixel-art RPG for up to five players sharing one world, played through the Shards of Ashen app, or the website for a public server. You are the true heir of Galmere. There's nothing to open at this server's own address.</Overview>
+  <Overview>Shards of Ashen: a top-down pixel-art RPG for up to five players sharing one world, played through the Shards of Ashen app, or the website for a public server. You are the true heir of Brambleton. There's nothing to open at this server's own address.</Overview>
   <Category>GameServers:</Category>
   <Icon>https://raw.githubusercontent.com/kriscs1/shardsofashen/main/web/img/icon.png</Icon>
   <ExtraParams>--stop-timeout 30</ExtraParams>

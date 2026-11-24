@@ -11,7 +11,7 @@
 10	>Conditional	$Variable.1=0 and $Attr.HobgoblinQuest>=2	17
 11	>Quest.Can.Start	BertQuest	22
 12	Display.Conversation	Bert	The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	What things?	13
-13	Display.Conversation	Bert	Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	I'll bring them.	14
+13	Display.Conversation	Bert	Three. The Staff of Brambleton: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	I'll bring them.	14
 14	Update.Attribute	BertQuest	=1
 15	Display.Message	Yellow	Quest started: Bert's Three Treasures.	Quest
 16	End

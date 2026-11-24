@@ -5,7 +5,7 @@ each settlement it has grown (an Id <Key>_Grown on its centre's map) and leaves 
 
   Large city    5 taverns, a bank, a main market square with four lanes off it (bread and pastries; butchers and
                 pies; fish; vegetables), a police station, a hospital, 10 streets of houses, gardens and parks, a
-                City Hall, a Town Hall, carts and horses between its parts. (Northport; its City Hall is Galmere's
+                City Hall, a Town Hall, carts and horses between its parts. (Northport; its City Hall is Brambleton's
                 Parliament until Galaith opens again.)
   Medium city   5 taverns, a bank, a market square with four small lanes, a sheriff's office and jail, a hospital,
                 10 streets of houses, a City Hall, a Town Hall. (King Rupert's Keep, with its keep and bailey;

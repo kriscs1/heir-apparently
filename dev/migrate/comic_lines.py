@@ -29,9 +29,9 @@ LINES = {
         ("\tBert\tWhere to?\t", "\tBert\tWhere to? Keep your arms in.\t"),
     ],
     "The Dragon Speaks": [
-        ("So. The heir of Galmere comes to me at last, and on foot.\\Eighteen winters I have waited at these walls. "
+        ("So. The heir of Brambleton comes to me at last, and on foot.\\Eighteen winters I have waited at these walls. "
          "Eighteen winters the city has starved for want of the road, and all for one small debt.",
-         "So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\\Eighteen winters I "
+         "So. The heir of Brambleton comes to Vorgalath at last, and on foot. Eighteen winters late.\\Eighteen winters I "
          "have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one "
          "small debt. With the interest, it is not so small now."),
         ("They signed in blood. Your mother broke it, and ran.",
