@@ -747,6 +747,8 @@ that isn't in the game.
 
 ### Names
 
+- The world is a **planet**, and the map is only a small part of it: the kingdom of Galmere and the Isle. (The
+  planet's name isn't chosen yet; the game's title may become "Shards of" it.)
 - The game is **Shards of Ashen** (the page, the app, the docs), the kingdom **Galmere** (it was Ashen, and Estforlan before that; `rename_galmere.py`), and the
   port city **Northport** (it was Southport, then Northport). Everything else is named for it too
   (`dev/migrate/rename_shards_of_ashen.py`): the GitHub repository `kriscs1/shardsofashen`, the Docker image
