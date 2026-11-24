@@ -257,7 +257,7 @@ def wim():
         ("End",),
         ("@nopapers",),
         K.say("Ferryman", "Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd "
-                          "be the one bringing you.", ("I see.", "@end")),
+                          "be the one bringing you. Twice the rowing, and the same fare.", ("I see.", "@end")),
         ("@end",), ("End",),
     ], MAKER)
     for old in ("Ferry to Northport", "Ferry to the Isle"):

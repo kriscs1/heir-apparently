@@ -9,6 +9,9 @@ game's files.
 The heir's story stays; under it is what Shards are. (This replaced the earlier "Heart of Ashen" idea, the owner's
 choice: the dragon should be a real villain, so killing it feels right.)
 
+- **The dragon is Vorgalath** (the owner's choice; "Galaith" is hidden in it: the city may be named for the dragon,
+  not the dragon for the city). Its voice is comic fantasy's (`dev/Rules.md` Writing): dangerous, petty, and fond of
+  its contract.
 - **The dragon was a devourer**: a vast, hungry thing that swallowed the world's magic and wanted all of it. The first
   king found a way to **cut it down** (the **Cutting**): almost all of it he pushed out of the world into a hollow, the
   **Shardrealm**; what was left was small enough to bind. That's the dragon the heir meets.

@@ -4,16 +4,16 @@
 03	>Got.Item	Fried_Egg	1	13
 04	Take.Item	Fried_Egg	1
 05	Update.Attribute	DinnerQuest	=4
-06	Display.Conversation	Edwin	A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.	Enjoy it.	07
-07	Display.Conversation	Maren	Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield.	I promise.	08
+06	Display.Conversation	Edwin	A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.\Let the record show that I am very pleased.	Enjoy it.	07
+07	Display.Conversation	Maren	Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield. I've patched up enough folk who went down with a stick and an opinion.	I promise.	08
 08	Give.Item	Chapel_Cellar_Key	1
-09	Display.Conversation	Maren	And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can.	Thank you, Maren.	10
+09	Display.Conversation	Maren	And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can. They taste dreadful. That's how you know they work.	Thank you, Maren.	10
 10	Give.Item	Healing_Draught	2
 11	Display.Message	Yellow	Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	Quest
 12	End
 13	>Conditional	$Attr.LastWill>=2	17
-14	Display.Conversation	Edwin	If you need anything drawn up, a will or a deed, I'm your man.	What was my mother like?	15	Goodbye.	18
-15	Display.Conversation	Edwin	She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. I always thought there was more to her than a cottage and a cat.	Thank you.	18
+14	Display.Conversation	Edwin	If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	What was my mother like?	15	Goodbye.	18
+15	Display.Conversation	Edwin	She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	Thank you.	18
 16	End
-17	Display.Conversation	Edwin	Take your time with the letter. It's yours alone.	Goodbye.	18
+17	Display.Conversation	Edwin	Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	Goodbye.	18
 18	End

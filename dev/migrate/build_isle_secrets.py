@@ -281,41 +281,46 @@ def aldous():
         (">Conditional", "$Skill.Attack>=2 and $Skill.Defence>=2", "@untrained"),
         (">Conditional", "$Item.Chapel_Cellar_Key>=1", "@nokey"),
         ("Update.Attribute", "AmuletQuest", "=4"),
-        say("Gravekeeper", "Mary's $Player.Boy. So the time has come.\\She came to me years ago with something to hide: an amulet. "
+        say("Gravekeeper", "Mary's $Player.Boy. So the time has come. I'd hoped it would come on a drier day.\\She came "
+                           "to me years ago with something to hide: an amulet. "
                            "We put it at the back of the caves under this chapel, behind bars no hand could reach "
                            "through.\\You have the trapdoor's key from Maren, and a sword and a shield, and you look as "
-                           "if you can use them now. Go down. I'll not be far behind you.",
+                           "if you can use them now. More or less. Go down. I'll not be far behind you.",
             ("Thank you, Brother.", "@end")),
         ("End",),
         ("@nokey",),
         say("Gravekeeper", "You're ready, I'd say. But the trapdoor's locked, and I gave its key to Maren, the doctor, "
-                           "for safekeeping.", ("I'll ask her.", "@end")),
+                           "for safekeeping. Everyone gives Maren things for safekeeping. She's never lost one. I've lost "
+                           "three umbrellas.", ("I'll ask her.", "@end")),
         ("End",),
         ("@untrained",),
-        say("Gravekeeper", "Wooden swords and good intentions. Practise first: the goblins in the woods to the west, until "
-                           "your Attack and Defence are level 2. Then come back.", ("I will.", "@end")),
+        say("Gravekeeper", "Wooden swords and good intentions. I've buried plenty of both.\\Practise first: the goblins in "
+                           "the woods to the west, until your Attack and Defence are level 2. Then come back.",
+            ("I will.", "@end")),
         ("End",),
         ("@unarmed",),
-        say("Gravekeeper", "Down there, with your sword and shield in your pack? Wield them both, then we'll talk.",
+        say("Gravekeeper", "Down there, with your sword and shield in your pack? You'd be the first I've buried with "
+                           "them still wrapped. Wield them both, then we'll talk.",
             ("Right.", "@end")),
         ("End",),
         ("@not3",), (">Conditional", "$Variable.1<3", "@after"),
         say("Gravekeeper", "Peace be with you. I'm Brother Aldous: I keep the chapel, and the graves out there. I buried "
-                           "your mother this morning. She was a good woman.",
+                           "your mother this morning. She was a good woman. She'd have hated the hymns.",
             ("What's down in the cellar?", "@cellar"), ("Goodbye.", "@end")),
         ("@cellar",),
-        say("Gravekeeper", "Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed.",
-            ("I see.", "@end")),
+        say("Gravekeeper", "Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed. Or at "
+                           "all, really. But people will.", ("I see.", "@end")),
         ("End",),
         ("@after",), (">Conditional", "$Variable.1=4", "@s5"),
         say("Gravekeeper", "The trapdoor is in the cellar, down the steps behind the altar. The amulet is at the very back "
-                           "of the caves.", ("I'll find it.", "@end")),
+                           "of the caves. Wipe your feet when you come back up.", ("I'll find it.", "@end")),
         ("End",),
         ("@s5",), (">Conditional", "$Variable.1=5", "@done"),
-        say("Gravekeeper", "Cast the Grasp at the bars, and the amulet will come to you.", ("I will.", "@end")),
+        say("Gravekeeper", "Cast the Grasp at the bars, and the amulet will come to you. At the bars. Not at the "
+                           "collection box.", ("I will.", "@end")),
         ("End",),
         ("@done",),
-        say("Gravekeeper", "Keep the amulet close, and show it to no one but your father. Go with God.",
+        say("Gravekeeper", "Keep the amulet close, and show it to no one but your father. Go with God. Or at least go.",
             ("Did my mother leave anything else with you? [if $Attr.JimmyQuest=0]", "@jimmy"),
             ("What did she mean, 'Jimmy knows where'? [if $Attr.JimmyQuest>=1 and $Attr.JimmyQuest<=2]", "@hint"),
             ("Someone else here says they're Mary's heir too. [if $Players.Near>=1]", "@heirs"), ("Goodbye.", "@end")),
@@ -324,14 +329,15 @@ def aldous():
         say("Gravekeeper", "Do they? The Shards don't count the way we do. When the first king cut the dragon down, it "
                            "took royal blood to hold the cut, and that blood has run in more veins than one "
                            "since. The Shards will know each of you for an heir. Whether the crown does is your father's "
-                           "business, not mine.", ("Thank you, Brother.", "@end")),
+                           "business, not mine. I only do the burials.", ("Thank you, Brother.", "@end")),
         ("End",),
         ("@jimmy",),                                # (What Jimmy Kept: build_isle_secrets.py)
         (">Quest.Can.Start", "JimmyQuest", "@end"),
         say("Gravekeeper", "One thing, yes. Near the end she gave me this, and made me promise to keep it till the "
                            "amulet was yours.\\A charm, in her hand. She studied at the Wizards' Court when she was "
                            "young, did you know? She said: 'Jimmy knows where. Read it by him, and ask him.'\\I read it "
-                           "once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it.",
+                           "once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it. Or "
+                           "perhaps I read it wrong. I'd rather not know which.",
             ("I'll try it.", "@charm")),
         ("@charm",), ("Update.Attribute", "JimmyQuest", "=1"),
         ("Give.Item", "Marys_Charm", "1"),
@@ -406,7 +412,8 @@ def tobias():
         ("Get.Value", "ATTRIBUTE", "TobiasTin", V1),
         (">Conditional", "$Variable.1=0", "@s1"),
         (">Quest.Can.Start", "TobiasTin", "@plain"),
-        say("Tobias", "There's my rescuer! Maren's feeding me up like a Midsummer goose.\\The house is yours, mind: I'll "
+        say("Tobias", "There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the "
+                      "pantry.\\The house is yours, mind: I'll "
                       "not go back, not with those brutes so near it. Keep it well.\\There's one thing, though. My "
                       "savings, in a tin with a T on the lid. They had it off my shelf when they took me, and I'd wager "
                       "it's in that chest by their fire, up in their camp.",
@@ -416,7 +423,8 @@ def tobias():
                       "ears like a hare.\\Keep low and soft (that's sneaking: the slow way, the way you stand), and "
                       "keep out of the way they're looking. They look one way, mostly, and glance about now and then. "
                       "Get behind one and it'll never know you were there. Right beside one, mind, it'll smell you "
-                      "whichever way it's facing.\\And if one does see you, it shouts, and the other comes.",
+                      "whichever way it's facing.\\And if one does see you, it shouts, and the other comes. Then you "
+                      "run. I'm too old to show you that part.",
             ("Low, soft, and behind them.", "@start")),
         ("@start",), ("Update.Attribute", "TobiasTin", "=1"),
         ("Display.Message", "Yellow", "Quest started: Tobias's Tin.", "Quest"),
@@ -426,7 +434,8 @@ def tobias():
         ("Take.Item", "Tobias_Tin", "1"),
         ("Update.Attribute", "TobiasTin", "=3"),
         say("Tobias", "My tin! And not a dent more than it had. You went in soft, didn't you? I can tell.\\Here: a few "
-                      "of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword.",
+                      "of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword. "
+                      "Most days, if you're me.",
             ("Thank you, Tobias.", "@done")),
         ("@done",), ("Display.Message", "Yellow", "Quest complete: Tobias's Tin!", "Quest"),
         ("End",),
@@ -435,14 +444,15 @@ def tobias():
                       "south-east of the village.", ("I'll go.", "@end"), told),
         ("End",),
         ("@plain",),
-        say("Tobias", "There's my rescuer! Maren's feeding me up like a Midsummer goose.\\The house is yours, mind: I'll "
+        say("Tobias", "There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the "
+                      "pantry.\\The house is yours, mind: I'll "
                       "not go back, not with those brutes so near it. Keep it well.", ("I will.", "@end"), told),
         ("End",),
         ("@order",),                                # (who sent them: build_isle_secrets.py)
         say("Tobias", "Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! "
                       "Every night the big one asked me where Mary's papers were. I never told them.\\And a hand in "
                       "ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. "
-                      "Fire-worshippers, up past the Elderwood.\\What would the likes of them want with your mother? "
+                      "Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\\What would the likes of them want with your mother? "
                       "Or with you? Keep that, and keep your eyes open over there.", ("I will.", "@end")),
         ("@end",), ("End",),
     ])

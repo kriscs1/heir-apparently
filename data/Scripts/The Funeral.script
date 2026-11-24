@@ -9,33 +9,33 @@
 08	Play.Sound	Bell
 09	Display.Message	Cyan	The chapel bell tolls for Mary. The last of the mourners lay their flowers on her grave.	-
 10	Wait	3
-11	Display.Conversation	Mourner	She was a good woman, your mother. Kind to all of us, and never a word about herself.	Thank you.	12
+11	Display.Conversation	Mourner	She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	Thank you.	12
 12	Walk.Away	0,152	Mourner	-320,376	2
 13	Wait	0.4
 14	Walk.Away	64,184	Villager	-320,376	2
 15	Wait	0.4
 16	Walk.Away	0,184	Farmer	-320,376	2
 17	Wait	0.4
-18	Display.Conversation	Edwin	I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, and it's to be given to you alone.	Lead the way.	19
+18	Display.Conversation	Edwin	I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	Lead the way.	19
 19	Remove.Entity	64,152	Edwin
-20	Display.Message	Cyan	You walk home together across the Isle, neither of you saying much.	-
+20	Display.Message	Cyan	You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	-
 21	Teleport	224,312	4,0,0
 22	Wait	1
 23	Add.Entity	288,312	Edwin	NPC	Attitude=Good Stand=1 Face=W
 24	Wait	1
-25	Display.Conversation	Edwin	Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.	...	26
+25	Display.Conversation	Edwin	Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	...	26
 26	Add.Entity	256,314	Last_Will	MapItem	1
 27	Play.Sound	Paper
 28	Display.Message	Cyan	He lays a letter on the table, sealed with your mother's wax.	-
 29	Display.Conversation	Player	Thank you. If you don't mind, I would like to be left alone to read the letter.	Continue	30
 30	Move.Entity	288,312	Edwin	224,344	2
-31	Display.Conversation	Edwin	Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner.	Thank you, Edwin.	32
-32	Display.Conversation	Edwin	Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland.	Thank you.	33
+31	Display.Conversation	Edwin	Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner. There's no charge.\That was a joke. Lawyers' humour. Come anyway.	Thank you, Edwin.	32
+32	Display.Conversation	Edwin	Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland. Don't ask me how. I only do the paperwork.	Thank you.	33
 33	Play.Sound	Absorb
 34	Display.Message	Cyan	Mary's Shards are yours: their count is under your health.	-
 35	Remove.Entity	288,312	Edwin
 36	Play.Sound	Door
-37	Display.Message	Cyan	He lets himself out, and the door shuts behind him.	-
+37	Display.Message	Cyan	He lets himself out, and shuts the door behind him with great care.	-
 38	Update.Attribute	LastWill	=1
 39	Display.Message	Yellow	Quest started: The Last Will. (H: your journal)	Quest
 40	Toggle.User.Input	ON

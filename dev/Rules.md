@@ -8,7 +8,8 @@ commit (to `CLAUDE.md` only if it applies to every change).
 
 ## The story
 
-**You are the true heir of Ashen.** Every generation the dragon takes the king's firstborn heir, or it keeps
+**You are the true heir of Ashen.** Every generation the dragon (**Vorgalath**: its name in what's said from
+now on; its Id stays `Galaith_Dragon`) takes the king's firstborn heir, or it keeps
 Galaith, the capital, shut behind a magical barrier: the city that holds the only land route across the world, with
 the gold and Shard mines in the mountains behind it. Your mother, **Queen Mary**, ran from Galaith with you as a baby
 to save you and to break the curse. The city has been sealed since your birth; King **Rupert**, your father, is shut
@@ -237,6 +238,15 @@ that isn't in the game.
   you carry on; a kick or a ban takes you at once.
 
 ### Writing
+- **The game is comic fantasy** (the owner's choice, November 2026): the plot, its stakes and its ending stay as they
+  are, but people talk like people, and most of them are funny. The humour is in who they are, never a wink at the
+  player or a joke about games: Edwin can't stop being a lawyer, Maren is a brisk doctor with a dark streak, Frank says
+  little and says it dry, Brother Aldous is gloomy about graves, Tobias complains, Bert is a grumpy wizard, the
+  jester is right too often, guards have opinions, and Nomad Tarek does odd jobs. **The dragon, Vorgalath**, is
+  dangerous and petty at once: it talks of its bargain like a creditor, a contract signed in blood and eighteen
+  winters overdue. A line that tells the player what to do still says it plainly; the joke comes before or after it,
+  never in its place. **Mary's letter (the owner's words) and the funeral's grief stay as they are**, and so do the
+  game's sad moments: a joke is never at their expense.
 - **Every word is written in English and said in the player's language** (English, Spanish, German, French,
   Brazilian Portuguese, Japanese, Korean, Simplified Chinese: their choice in Options, on the start screen and in the
   game, else their device's). English is the key: `data/Lang/<code>.txt` has each line, a tab, then the same in that

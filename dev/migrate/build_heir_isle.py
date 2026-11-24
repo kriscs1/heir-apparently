@@ -865,7 +865,8 @@ def opening():
         ("Display.Message", "Cyan", "The chapel bell tolls for Mary. The last of the mourners lay their flowers on her "
                                     "grave.", "-"),
         ("Wait", "3"),
-        say("Mourner", "She was a good woman, your mother. Kind to all of us, and never a word about herself.",
+        say("Mourner", "She was a good woman, your mother. Kind to all of us, and never a word about herself.\\Beat me "
+                       "at cards every Sunday for sixteen years. I never did find out how.",
             ("Thank you.", "@go")),
         ("@go",),
     ]
@@ -873,16 +874,19 @@ def opening():
         rows += [("Walk.Away", at(x, y, -8), who, at(*GRAVE_WAY, -8), "2"), ("Wait", "0.4")]
     rows += [
         say("Edwin", "I'm so sorry. Mary was a friend to all of us here.\\Come: I'll walk you home. She left something "
-                     "for you, and it's to be given to you alone.", ("Lead the way.", "@walk")),
+                     "for you, to be given to you alone, in person. Those were her instructions. She underlined "
+                     "them twice.", ("Lead the way.", "@walk")),
         ("@walk",),
         ("Remove.Entity", at(gx + 1, gy + 1, -8), "Edwin"),
-        ("Display.Message", "Cyan", "You walk home together across the Isle, neither of you saying much.", "-"),
+        ("Display.Message", "Cyan", "You walk home together across the Isle. Edwin starts to say something legal now and "
+                                    "then, and thinks better of it.", "-"),
         ("Teleport", at(8, 11, -8), "4,0,0"),
         ("Wait", "1"),
         ("Add.Entity", at(10, 11, -8), "Edwin", "NPC", "Attitude=Good Stand=1 Face=W"),
         ("Wait", "1"),
         say("Edwin", "Your mother entrusted me with her last will and testament. She told me never to open this letter, "
-                     "and said you should not read it to anyone. It's her last words to you, and only you.",
+                     "and said you should not read it to anyone. It's her last words to you, and only you.\\Thirty "
+                     "years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.",
             ("...", "@letter")),
         ("@letter",),
         ("Add.Entity", at(9, 11, -6), "Last_Will", "MapItem", "1"),
@@ -893,17 +897,18 @@ def opening():
         ("@leave",),
         ("Move.Entity", at(10, 11, -8), "Edwin", at(COTTAGE_DOOR, 12, -8), "2"),
         say("Edwin", "Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. "
-                     "Come for dinner.", ("Thank you, Edwin.", "@jar")),
+                     "Come for dinner. There's no charge.\\That was a joke. Lawyers' humour. Come anyway.",
+            ("Thank you, Edwin.", "@jar")),
         ("@jar",),
         say("Edwin", "Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\\Shards "
                      "are splinters of the world's old magic. Spells drink them, and so do the old standing stones on "
-                     "the mainland.", ("Thank you.", "@out")),
+                     "the mainland. Don't ask me how. I only do the paperwork.", ("Thank you.", "@out")),
         ("@out",),
         ("Play.Sound", "Absorb"),
         ("Display.Message", "Cyan", "Mary's Shards are yours: their count is under your health.", "-"),
         ("Remove.Entity", at(10, 11, -8), "Edwin"),
         ("Play.Sound", "Door"),
-        ("Display.Message", "Cyan", "He lets himself out, and the door shuts behind him.", "-"),
+        ("Display.Message", "Cyan", "He lets himself out, and shuts the door behind him with great care.", "-"),
         ("Update.Attribute", "LastWill", "=1"),
         ("Display.Message", "Yellow", "Quest started: The Last Will. (H: your journal)", "Quest"),
         ("Toggle.User.Input", "ON"),
@@ -961,7 +966,7 @@ def opening():
     ])
     w("Stroke Sleeping_Jimmy", [
         ("Play.Sound", "Purr"),
-        ("Display.Message", "Cyan", "Jimmy stretches, purrs without waking, and curls up tighter on the spare bed."),
+        ("Display.Message", "Cyan", "Jimmy stretches, purrs without waking, and takes up a little more of the spare bed."),
         ("End",),
     ])
 
@@ -971,8 +976,8 @@ def home_scripts():
         ("Get.Value", "ATTRIBUTE", "DinnerQuest", V1),
         (">Conditional", "$Variable.1=0 and $Attr.LastWill>=2", "@s1"),
         say("Maren", "Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\\Dinner? "
-                     "Of course! Only the range is stone cold, and I've not a stick of firewood left. Would you chop me "
-                     "three logs? Here, take Edwin's old axe.", ("I'll chop some logs.", "@axe"), ("Not just now.", "@end")),
+                     "Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would "
+                     "you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.", ("I'll chop some logs.", "@axe"), ("Not just now.", "@end")),
         ("@axe",), (">Quest.Can.Start", "DinnerQuest", "@end"),
         ("Give.Item", "Bronze_Axe", "1"),
         ("Update.Attribute", "DinnerQuest", "=1"),
@@ -984,17 +989,21 @@ def home_scripts():
         ("Update.Attribute", "DinnerQuest", "=2"),
         say("Maren", "Lovely dry logs: that'll get the range going. Now, supper! Edwin's partial to an egg, fried crisp. "
                      "Would you fetch one from my sister Bess's hen coop, up on the farm, and fry it on the range? It's "
-                     "upstairs, in our kitchen.", ("I'll fetch an egg.", "@end")),
+                     "upstairs, in our kitchen.\\Mind the brown hen. She bites, and I'm the one who has to stitch "
+                     "people up after.", ("I'll fetch an egg.", "@end")),
         ("End",),
-        ("@nologs",), say("Maren", "Three logs, dear. Chop a tree with the axe I gave you.", ("I'll keep chopping.", "@menu")),
+        ("@nologs",), say("Maren", "Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, and not "
+                                   "your foot.", ("I'll keep chopping.", "@menu")),
         ("@s2",), (">Conditional", "$Variable.1>=2 and $Variable.1<=3", "@menu"),
-        say("Maren", "An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased.",
-            ("I'll see to it.", "@menu")),
+        say("Maren", "An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. "
+                     "He'll pretend not to be, but he will.", ("I'll see to it.", "@menu")),
         ("@menu",),
         say("Maren", "Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for "
-                     "them. Edwin has his desk by the window: wills and deeds and the like.",
+                     "them. Most of them get better. The rest get Brother Aldous.\\Edwin has his desk by the window: "
+                     "wills and deeds and the like. Between the two of us, we've the whole of life covered.",
             ("How is your father? [if $Attr.FatherFreed>=1]", "@father"), ("Goodbye.", "@end")),
-        ("@father",), say("Maren", "Home, and safe, and eating us out of house and home! I can't ever thank you enough.",
+        ("@father",), say("Maren", "Home, and safe, and eating us out of house and home! Third helpings, every night. I "
+                                   "can't ever thank you enough.\\Only please don't rescue anyone else for a while.",
                           ("I'm glad.", "@end")),
         ("@end",), ("End",),
     ])
@@ -1004,31 +1013,35 @@ def home_scripts():
         (">Got.Item", "Fried_Egg", "1", "@chat"),
         ("Take.Item", "Fried_Egg", "1"),
         ("Update.Attribute", "DinnerQuest", "=4"),
-        say("Edwin", "A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.",
-            ("Enjoy it.", "@key")),
+        say("Edwin", "A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.\\Let "
+                     "the record show that I am very pleased.", ("Enjoy it.", "@key")),
         ("@key",),
         say("Maren", "Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in "
                      "the chapel cellar. Mary said that one day you would need it.\\Only promise me you won't go down "
-                     "there without a sword and a shield.", ("I promise.", "@give")),
+                     "there without a sword and a shield. I've patched up enough folk who went down with a stick and "
+                     "an opinion.", ("I promise.", "@give")),
         ("@give",),
         ("Give.Item", "Chapel_Cellar_Key", "1"),
         say("Maren", "And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're "
                      "hurt: doctor's orders.\\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a "
-                     "brewer's herbs can.", ("Thank you, Maren.", "@draughts")),
+                     "brewer's herbs can. They taste dreadful. That's how you know they work.",
+            ("Thank you, Maren.", "@draughts")),
         ("@draughts",),
         ("Give.Item", "Healing_Draught", "2"),
         ("Display.Message", "Yellow", "Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's "
                                       "trapdoor, and two healing draughts.", "Quest"),
         ("End",),
         ("@chat",), (">Conditional", "$Attr.LastWill>=2", "@letter"),
-        say("Edwin", "If you need anything drawn up, a will or a deed, I'm your man.",
-            ("What was my mother like?", "@mary"), ("Goodbye.", "@end")),
+        say("Edwin", "If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a "
+                     "will for a good long while.", ("What was my mother like?", "@mary"), ("Goodbye.", "@end")),
         ("@mary",),
         say("Edwin", "She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer "
-                     "than she let on. I always thought there was more to her than a cottage and a cat.",
+                     "than she let on. She once argued me out of my own fee, and I thanked her for it.\\I always "
+                     "thought there was more to her than a cottage and a cat.",
             ("Thank you.", "@end")),
         ("End",),
-        ("@letter",), say("Edwin", "Take your time with the letter. It's yours alone.", ("Goodbye.", "@end")),
+        ("@letter",), say("Edwin", "Take your time with the letter. It's yours alone. I'm not curious. I am very, very "
+                                   "not curious.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ])
     w("Use Egg With Marens_Range", [
@@ -1067,7 +1080,8 @@ def home_scripts():
 
 def bess_and_frank():
     w("Talk to Milkmaid", [
-        say("Milkmaid", "Morning! Mind the cows, they're friendly but they tread on toes.\\Use a bucket on a cow for milk, "
+        say("Milkmaid", "Morning! Mind the cows: they're friendly, but they tread on toes, and the brown one does it on "
+                        "purpose.\\Use a bucket on a cow for milk, "
                         "shears on a sheep for wool. The hens lay in their coop, by the barn.",
             ("What do you sell?", "@shop"), ("What's wool for?", "@wool"),
             ("How do I get to the mainland? [if $Attr.Passage<=3 and $Attr.LastWill>=2]", "@ask"),
@@ -1075,7 +1089,7 @@ def bess_and_frank():
         ("@shop",), ("Display.Item.Rack", "SPECIFIC", "Milkmaid", "SHOP-Dairy", "@end"),
         ("End",),
         ("@wool",), say("Milkmaid", "Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be "
-                                    "tanned into leather there too.", ("Thanks!", "@end")),
+                                    "tanned into leather there too. Not from a cow that's still using it, mind.", ("Thanks!", "@end")),
         ("End",),
         ("@ask",), (">Conditional", "$Attr.Passage=0", "@hunting"),
         (">Quest.Can.Start", "Passage", "@end"),
@@ -1083,24 +1097,27 @@ def bess_and_frank():
                         "since the raids, Northport sends back anyone off the Isle who hasn't any.\\Father always "
                         "wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took "
                         "him, and nobody's seen him since. His house is the old brick one in the village, locked up, and "
-                        "they took his keys too. They've a lair in the caves under the chapel, they say.",
+                        "they took his keys too. They've a lair in the caves under the chapel, they say.\\Poor things. "
+                        "He'll be telling them all about his knees.",
             ("I'll find him.", "@start")),
         ("@start",),
         ("Update.Attribute", "Passage", "=1"),
         ("Display.Message", "Yellow", "Quest started: Passage to the Mainland.", "Quest"),
         ("@frank",), (">Conditional", "$Attr.AmuletQuest=0", "@end"),
         say("Milkmaid", "And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's "
-                        "right by my hut. He'll help you make a sword and a shield.", ("Thank you, Bess.", "@amulet")),
+                        "right by my hut. He'll help you make a sword and a shield.\\He doesn't say much. Nod a lot, and "
+                        "he'll like you.", ("Thank you, Bess.", "@amulet")),
         ("@amulet",), (">Quest.Can.Start", "AmuletQuest", "@end"),
         ("Update.Attribute", "AmuletQuest", "=1"),
         ("Display.Message", "Yellow", "Quest started: The Amulet of Succession.", "Quest"),
         ("End",),
         ("@hunting",), (">Conditional", "$Attr.FatherFreed<1", "@home"),
         say("Milkmaid", "Any word of Father? The hobgoblins have him, down in their lair under the chapel. Bring him "
-                        "home, love, please.", ("I'm on it.", "@frank")),
+                        "home, love, please. Before he starts telling them how to run it.", ("I'm on it.", "@frank")),
         ("@home",),
         say("Milkmaid", "Father home safe, and all thanks to you! Maren's feeding him up something dreadful.\\He says "
-                        "he hid something at the house for you, years ago. He won't tell me what.",
+                        "he hid something at the house for you, years ago. He won't tell me what. He's enjoying that "
+                        "far too much.",
             ("Thank you, Bess.", "@end")),
         ("@end",), ("End",),
     ])
@@ -1108,8 +1125,8 @@ def bess_and_frank():
     w("Talk to Frank", [
         ("Get.Value", "ATTRIBUTE", "AmuletQuest", V1),
         (">Conditional", "$Variable.1=1", "@s2"),
-        say("Frank", "Bess sent you? Then you'll want a sword and a shield, and I'll show you how. Wood first: you'll "
-                     "learn to swing a blade before anyone trusts you with steel.\\Use my workbench there (Craft): a "
+        say("Frank", "Bess sent you? Thought so. She sends me everyone.\\Sword and shield, then. Wood first: nobody gets "
+                     "steel till they've stopped hitting themselves with wood.\\Use my workbench there (Craft): a "
                      "wooden sword takes 2 logs, a wooden shield 3. Here, have some of my seasoned wood.",
             ("Thank you, Frank.", "@logs")),
         ("@logs",),
@@ -1119,13 +1136,15 @@ def bess_and_frank():
         ("@s2",), (">Conditional", "$Variable.1=2", "@s3"),
         (">Conditional", "$Item.Wooden_Sword>=1 and $Item.Wooden_Shield>=1", "@notyet"),
         ("Update.Attribute", "AmuletQuest", "=3"),
-        say("Frank", "Not bad at all! Now wield them: sword in your hand, shield on your arm, and get used to the weight. "
+        say("Frank", "Not bad. Not bad at all. Now wield them: sword in your hand, shield on your arm, and get used to the weight. "
                      "Practise on the goblins in the woods west of the village till your arm's strong (Attack 2) and "
                      "you can take a knock "
-                     "(Defence 2).\\Then go and see Brother Aldous at the chapel. He keeps the way down.",
+                     "(Defence 2).\\Then go and see Brother Aldous at the chapel. He keeps the way down. Don't get "
+                     "him started on graves.",
             ("I will.", "@dagger")),
         ("@dagger",),
-        say("Frank", "And here: my first dagger. It's past mending, but don't throw it away. Everything that's forged "
+        say("Frank", "And here: my first dagger. It's past mending. It was past mending when I made it.\\Don't throw it "
+                     "away, though. Everything that's forged "
                      "keeps a little of the world's magic in it: break it down (Dismantle, in your pack) and you'll "
                      "have a Shard out of it. Do the same with any gear you've outgrown.", ("I'll try it.", "@give")),
         ("@give",),
@@ -1133,10 +1152,11 @@ def bess_and_frank():
         ("End",),
         ("@notyet",),
         say("Frank", "A wooden sword and a wooden shield, at my workbench (Craft). Bring them to show me when they're "
-                     "made.", ("Right.", "@end")),
+                     "made. Both of them. A shield on its own is just a door you carry.", ("Right.", "@end")),
         ("End",),
         ("@s3",),
-        say("Frank", "Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair).",
+        say("Frank", "Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair). Fair to "
+                     "me, anyway.",
             ("Can you open a locked chest?", "@locks"), ("Goodbye.", "@end")),
         ("End",),
         ("@locks",),                                    # (the Isle teaches locks: its chests have the easiest)
@@ -1144,7 +1164,7 @@ def bess_and_frank():
                      "till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at "
                      "keeping out of sight, the steadier your hands.\\Or put your weight on the lid till it splits "
                      "(Break Open). Loud, mind. And a chest bound in iron won't split for anyone: that one you pick, "
-                     "or find its key.", ("Thanks, Frank.", "@end")),
+                     "or find its key.\\Not mine, mind. Mine are made properly.", ("Thanks, Frank.", "@end")),
         ("@end",), ("End",),
     ])
 
@@ -1216,7 +1236,7 @@ def chapel_and_caves():
         ("End",),
     ])
     for kind, nothing in (("Cellar_Barrel", "Only old candle ends and dust."),
-                          ("Cellar_Crate", "Mouldy hymn books, and a mouse.")):
+                          ("Cellar_Crate", "Mouldy hymn books, and a mouse who has read them all.")):
         w("Search " + kind, [
             (">Distance.From.Clicked.Tile", "40", "@far"),
             ("Display.Message", "Cyan", "You rummage through the %s.." % kind.split("_")[1].lower()),
@@ -1247,14 +1267,14 @@ def chapel_and_caves():
         ("Add.Entity", at(nx + 1, ny + 1), "Shard", "MapItem", "3"),    # (his to show you: yours to pick up)
         say("Gravekeeper", "I said I'd not be far behind. Look here first.\\He holds his lantern low: three bright "
                            "splinters on the floor.\\Something died here, a rat or a bat, and left its magic behind: "
-                           "Shards. Pick them up, and they're yours to spend. Every beast leaves its magic where it "
+                           "Shards. I'd say a few words over it, but it was a rat.\\Pick them up, and they're yours to spend. Every beast leaves its magic where it "
                            "falls. And now and then, the magic won't lie still. The old books say every Shard is a scrap of something far greater, cut down long ago, "
                            "and that scraps like that are hungry: take them in before they take root in you.", ("I'll remember.", "@remnants")),
         ("@remnants",),
         ("Update.Attribute", "AmuletQuest", "=5"),                # (the stage with the gifts: closed, never twice)
         ("Give.Item", "Grasp_Scroll", "1"),
         say("Gravekeeper", "Now, the amulet. Your mother put it there, and the bars after it, so that no "
-                           "thief could ever take it. But a hand that isn't a hand can.\\Here: a scroll of Grasp. Read it, "
+                           "thief could ever take it. Nor anyone else, as it turns out. But a hand that isn't a hand can.\\Here: a scroll of Grasp. Read it, "
                            "and the spell is yours for good; each casting drinks a couple of Shards. Cast it at the "
                            "bars, and an unseen hand will bring the amulet to you.", ("Thank you, Brother.", "@give")),
         ("@give",),
@@ -1277,7 +1297,8 @@ def chapel_and_caves():
         say("Gravekeeper", "The Amulet of Ashen Succession. So it's true, then. Keep it close, and show it to no one "
                            "but your father.\\And take this. The hobgoblins have made a lair beyond an old iron door in "
                            "these caves, south of the great cavern. I keep the caves' old keys: this is that door's. "
-                           "Bess's father went missing when they came. If you go after them, go carefully.",
+                           "Bess's father went missing when they came. If you go after them, go carefully. I've no room "
+                           "left on that side of the graveyard.",
             ("I will.", "@key")),
         ("@key",),
         ("Give.Item", "Lair_Key", "1"),
@@ -1334,7 +1355,8 @@ def lair_scripts():
         ("Update.Attribute", "Passage", "=2"),
         ("@talk",),
         say("Tobias", "Who's there? You're not one of them, thank the stars!\\I'm Tobias, Bess and Maren's father. The "
-                      "brutes caught me in my own house, and they've kept me in this cage ever since. They took my keys "
+                      "brutes caught me in my own house, and they've kept me in this cage ever since. Turnip stew, every "
+                      "night. Not even good turnips.\\They took my keys "
                       "too: my house key's hidden in one of their barrels, the one in the corner. I watched them do "
                       "it.\\Can you get this lock open? It's a poor old lock.",
             ("I'll try.", "@try"), ("Hold on.", "@end")),
@@ -1353,14 +1375,15 @@ def lair_scripts():
         ("Update.Attribute", "FatherFreed", "=1"),
         ("Display.Message", "Yellow", "..and the lock springs open!", "-"),
         say("Tobias", "Free! Bless you, child.\\Listen: the house is yours. I'll not go back, not with those brutes so "
-                      "near it: I'll go and live with Maren and Edwin. Find my key in that corner barrel and keep "
+                      "near it: I'll go and live with Maren and Edwin. They don't know that yet.\\Find my key in that corner barrel and keep "
                       "it.\\And you'll be wanting papers, to cross. Your mother left yours with me, the year she came, "
                       "for the day you'd need them. I hid them under the floor at home before the brutes took me: that's "
                       "what they were after, and they never got it out of me. You'll hear the board.",
             ("Get home safe.", "@go")),
         ("@go",),
         ("Remove.Entity", at(cx - 1, cy + 1, -8), "Tobias"),
-        ("Display.Message", "Cyan", "Tobias hobbles to the ladder and climbs up out of the lair, towards home.", "-"),
+        ("Display.Message", "Cyan", "Tobias hobbles to the ladder and climbs up out of the lair, complaining about his knees all "
+                                    "the way.", "-"),
         (">Conditional", "$Variable.1<3", "@end"),
         ("Update.Attribute", "Passage", "=3"),
         ("@end",), ("End",),
@@ -1384,7 +1407,7 @@ def lair_scripts():
         ("Display.Message", "Cyan", "You rummage through the barrel..", "-"),
         ("Play.Sound", "Pickup"),
         ("Wait", "1"),
-        ("Display.Message", "Cyan", "..rotten cabbages and hobgoblin junk.", "-"),
+        ("Display.Message", "Cyan", "..rotten cabbages, one sock and hobgoblin junk.", "-"),
         ("End",),
     ] + FAR)
 
@@ -1439,7 +1462,8 @@ def fathers_house_scripts():
         say("Beggar", "Spare a coin for a poor old man?", ("Here's a coin.", "@coin"), ("Sorry, no.", "@end")),
         ("@coin",), (">Got.Item", "Gold_Coin(s)", "1", "@none"),
         ("Take.Item", "Gold_Coin(s)", "1"),
-        say("Beggar", "Bless you! I wasn't always like this, you know. Had a house once, with a garden. Ah well.",
+        say("Beggar", "Bless you! I wasn't always like this, you know. Had a house once, with a garden, and a goat. The "
+                      "goat ate the garden. Then it started on the house. Ah well.",
             ("Good luck to you.", "@end")),
         ("End",),
         ("@none",), ("Display.Message", "DarkRed", "You don't have any gold!", "Denied"),

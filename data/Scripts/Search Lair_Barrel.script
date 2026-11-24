@@ -3,7 +3,7 @@
 02	Display.Message	Cyan	You rummage through the barrel..	-
 03	Play.Sound	Pickup
 04	Wait	1
-05	Display.Message	Cyan	..rotten cabbages and hobgoblin junk.	-
+05	Display.Message	Cyan	..rotten cabbages, one sock and hobgoblin junk.	-
 06	End
 07	Display.Message	DarkRed	You are too far away!	Denied
 08	End
