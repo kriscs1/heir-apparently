@@ -85,7 +85,7 @@ e the Elderwood · a the Ashwold · u the downs · v Wardhaven's island · D Dra
 | 5,8,0 | 15,14,0 | the bandit camp |
 | 5,9,0 | 11,18,0 | the troll's frozen lake |
 | 8,2,0 | 23,4,0 | the Cinder Fort |
-| 6,4,0, 7,3,0, 9,4,0 | 21,4,0, 21,7,0, 22,8,0 | the Ashen shrines |
+| 6,4,0, 7,3,0, 9,4,0 | 21,4,0, 21,7,0, 22,8,0 | the Galmere shrines |
 | 8,5,0 | 19,12,0 | the Heartwood |
 | 9,7,0 | 18,17,0 | the barrow |
 | 9,8,0 | 23,17,0 | Captain Rook's pier |

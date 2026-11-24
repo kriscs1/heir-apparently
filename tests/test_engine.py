@@ -4874,6 +4874,16 @@ def test_in_an_animals_body_the_animals_talk(world):
     assert box["voice"] == "Woman" and 90 <= box["pitch"] <= 100
     assert "Moo" not in [ev["name"] for ev in s.out if ev.get("t") == "sound"]
     world.remove_entity(cow)
+    for kind in ("Wolf", "Black_Cat"):                               # (a wolf talks too, in a cow's body: no fight)
+        s.close_action_box(None)
+        e = world.add_npc(kind, 0, s.player.x + 50, s.player.y, "")
+        assert "Talk to" in s.get_verbs(e).split(",")
+        s.out = []
+        s.choose_verb("Talk to", e, int(e.cx), int(e.cy))
+        run_for(world, 20)
+        said = " ".join(str(ev) for ev in s.out)
+        assert any(line.split(".")[0] in said for line in ANIMAL_TALK[kind])
+        world.remove_entity(e)
     leave(world, s)
 
 
@@ -6440,11 +6450,11 @@ def test_friends_are_kept_and_shown_in_the_journal(world):
         t2.load(world.together.state())
         assert t2.friends_of("Pal_A") == ["Pal_B"]                  # (kept with the world)
         b.out = []
-        a.friends_hear("Your friend Pal_A has left Ashen.")
+        a.friends_hear("Your friend Pal_A has left Galmere.")
         assert not any("Pal_A" in str(ev.get("text", "")) for ev in b.out)   # (only those who count you a friend)
         b.add_friend_named("pal_a")                                 # (any case: the name as it's written)
         b.out = []
-        a.friends_hear("Your friend Pal_A has left Ashen.")
+        a.friends_hear("Your friend Pal_A has left Galmere.")
         assert any("Pal_A has left" in str(ev.get("text", "")) for ev in b.out)
         a.remove_friend_named("Pal_B")
         assert a.friend_names() == []

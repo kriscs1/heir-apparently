@@ -2,7 +2,7 @@
 01	Get.Value	ATTRIBUTE	GreyQuest	Variable.1$
 02	>Conditional	$Variable.1=4	17
 03	Display.Conversation	Sheriff	Flo looks up from her ledger. "Something on your mind?"	There's a hall under Shardglass Field. The Mending folk meet there, and they mean to open the King's Seam.	04	Nothing. Goodbye.	18
-04	Display.Conversation	Sheriff	"Them in grey? The kind ones, with the soup?" She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	Thank you, Sheriff.	05
+04	Display.Conversation	Sheriff	"Them in grey? The kind ones, with the soup? It's good soup." She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	Thank you, Sheriff.	05
 05	Update.Attribute	GreyEnd	=1
 06	Update.Attribute	MendingShut	=1
 07	>Conditional	$Attr.AnnisAway=0 or $Attr.StrangerEnd=2	14
@@ -15,5 +15,5 @@
 14	Update.Attribute	GreyQuest	=5
 15	Display.Message	Yellow	Quest complete: In Grey!
 16	End
-17	Display.Conversation	Sheriff	I'm the sheriff here. The cells are empty and I like them that way.	Goodbye.	18
+17	Display.Conversation	Sheriff	I'm the sheriff here. The cells are empty and I like them that way. Most weeks the worst I get is a goat in the bakery.	Goodbye.	18
 18	End

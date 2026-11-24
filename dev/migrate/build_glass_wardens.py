@@ -41,18 +41,21 @@ FLOORS = {"Warden_Flag001", "Deep_Shingle001", "Chalk_Floor001", "Shardglass001"
 
 # ----- the journals: (number, where it's wanted, global tile), 1-3 build_shardfall.py's on the maps already
 JOURNALS = {
-    1: "WARDENS' JOURNAL: the hand of Ysolde\\Year 211 of the watch. The Shard is quiet. Marshal Corvane says it sleeps. "
-       "Brother Hale says it never sleeps, it only waits, and has been made to scrub the cistern for saying so.",
+    1: "WARDENS' JOURNAL: the hand of Ysolde\\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal "
+       "Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the "
+       "cistern for saying so: carried.",
     2: "WARDENS' JOURNAL: the hand of Brother Hale\\It grows. We have measured it every year since the first: a hair "
-       "a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.",
+       "a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.\\(Struck from "
+       "the minutes, at the Marshal's request.)",
     3: "WARDENS' JOURNAL: the hand of Marshal Corvane\\I have heard it now. It isn't asking to be used. It's asking "
        "to be listened to, and nobody has, in four hundred years of standing guard over it with our ears stopped.\\"
        "The others will understand. I'll make them listen.",
     4: "WARDENS' JOURNAL: the hand of Odile Brask, cook\\Year 302. The water in the cistern hums when I draw it. Not loud. "
        "Just a hum, like somebody in the next room. Some days it's my mother's songs, and my mother's been dead thirty "
-       "years.\\I've stopped telling the Marshal. He only says to drink less of it.",
-    5: "WARDENS' JOURNAL: the hand of Brother Hale\\Year 344. Measured it again from the rim. Two hairs this year, three "
-       "in the summer. It's growing faster.\\When I put the rule against it, something sighed. Not the wind: there's no "
+       "years.\\I've stopped telling the Marshal. He only says to drink less of it, and that the "
+       "soup wants salt. It doesn't.",
+    5: "WARDENS' JOURNAL: the hand of Brother Hale\\Year 344. Measured it again from the rim, though the meeting asked me "
+       "not to. Two hairs this year, three in the summer. It's growing faster.\\When I put the rule against it, something sighed. Not the wind: there's no "
        "wind down here. As if it had been waiting a long time for somebody to notice, and was glad.",
     6: "WARDENS' JOURNAL: the hand of Marshal Corvane\\I asked it what it wanted. Four hundred years, and nobody had "
        "asked. It said: to be whole.\\It knows my name. It knew my mother's. It only wants to be whole, and it's so small, "
@@ -60,11 +63,14 @@ JOURNALS = {
     7: "WARDENS' JOURNAL: the hand of Ysolde\\The Order has split. Half the watch stand with Corvane, ears open. The rest "
        "of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined "
        "to the rest of itself.\\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows "
-       "now, and I think that's worse.",
+       "now, and I think that's worse.\\(The split took a vote. The vote took "
+       "eleven days.)",
     8: "WARDENS' JOURNAL: the hand of Odile Brask, cook\\I'm going in. Into the lake, I mean. The humming's loudest there, "
        "and I want to see what's singing, and I'm too old to be frightened of water.\\Whoever finds this: mind the "
-       "sailors. It calls them too. I can hear it calling them, up through the rock, every night.",
-    9: "WARDENS' JOURNAL: the hand of Ysolde, the last\\I'm the last who never answered it. If you're warm, and reading "
+       "sailors. It calls them too. I can hear it calling them, up through the rock, every night.\\"
+       "There's a stew on. Somebody stir it.",
+    9: "WARDENS' JOURNAL: the hand of Ysolde, the last\\I'm the last who never answered it. (We meant to "
+       "answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading "
        "this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\\"
        "There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone "
        "in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn "

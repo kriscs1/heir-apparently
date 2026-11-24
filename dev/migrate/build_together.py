@@ -77,13 +77,13 @@ THINGS = [   # (place by, kind, options, seed): shown once their project's done
 BOARDS = [("Bounty_Clerk", "Bounty_Board", 1), ("Record_Keeper", "Records_Board", -1)]
 BOARD_INFO = {"Bounty_Board": "A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.",
               "Records_Board": "The hall of records, carved in pale stone and gilded: the names that have done the most "
-                               "in Ashen."}
+                               "in Galmere."}
 # (the record keeper, as first set down, stood in the mouth of Northport's north road: across from the bounty clerk
 #  instead, the two boards between them; only if they're still where they were put)
 MOVES = [("4,5,0", "Record_Keeper", (96, 344), (224, 376))]
 WORDS = {
     "Bounty_Clerk": [
-        SK.say("Clerk", "Every beast that bothers Ashen ends up on my board sooner or later. Today's is pinned up "
+        SK.say("Clerk", "Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up "
                "beside me. Bring me the count and I'll bring the purse.", ("Who pays for it?", "@pays"),
                ("Goodbye.", "@end")),
         ("@end",), ("End",),

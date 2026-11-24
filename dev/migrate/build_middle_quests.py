@@ -714,7 +714,7 @@ def rook():
         (">Quest.Can.Start", "OrrinQuest", "@calm"),
         say(ROOK, "Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it "
                   "move, matey. Not with the tide: they move.\\There was a chart that knew the way, once: Orrin's. "
-                  "Best navigator Ashen ever had. He went up the Sundered Tower, south of the Wizards' Court, to read "
+                  "Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read "
                   "the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\\And she'll "
                   "want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a "
                   "carpenter's bench on your way back.",
@@ -871,7 +871,7 @@ def lodestar():
 
 def barrier():
     lights = barrier_lights()
-    unbind = ("Display.Message", "Cyan", "You hold the Staff of Ashen to the barrier and speak Bert's words of "
+    unbind = ("Display.Message", "Cyan", "You hold the Staff of Galmere to the barrier and speak Bert's words of "
                                          "Unbinding..", "-")
     w("Use Staff_of_Ashen With Barrier", [
         (">Distance.From.Clicked.Tile", "64", "@far"),
@@ -1054,10 +1054,12 @@ def sunforge():
         say(MAN, "The Sun-Forge? Oska sent you, then. My grandmother's grandmother kept that forge, back when it had a "
                  "roof and a priest who wasn't dead.\\The temple's south of the well, half under the dunes. The Keeper's "
                  "still in it, wrapped in his gold and his temper. Nobody's lit the forge since he took against the "
-                 "living.", ("I'll go.", "@t_go"), ("Something else...", "@odd")),
+                 "living.\\I'd go myself, but I've a great deal on. Goats, mostly. Somebody else's.",
+        ("I'll go.", "@t_go"), ("Something else...", "@odd")),
         ("@t_go",), ("Update.Attribute", "SunforgeQuest", "=1"), started("The Sun-Forge"), ("End",),
         ("@t1",), (">Conditional", "$Variable.1=1", "@t2"),
-        say(MAN, "The Keeper still keeps it? South of the well, under the dunes. Take water.", ("Right.", "@end"),
+        say(MAN, "The Keeper still keeps it? South of the well, under the dunes. Take water. More than "
+                 "that.", ("Right.", "@end"),
             ("Something else...", "@odd")),
         ("@t2",), (">Conditional", "$Variable.1<=3", "@t4"),
         say(MAN, "The Keeper's gone? Then it's the mirrors: the forge only burns with the sun on it, and the sun comes "

@@ -38,7 +38,7 @@ Alchemy: pick herbs, berries and mushrooms, and brew potions at an alchemy table
 The last of the three, burning blue like the others. In the ash round it there are footprints, a lot of them, going off towards the Hand's camp.	三つ目の最後の祠も、ほかと同じく青く燃えている。周りの灰には足跡が、それもたくさん、灰の手の野営地のほうへ続いている。
 The Hand's shrine is lit again, but the flames are blue, and when you hold your hand in them it's only cold. That's $Variable.4 of the three.	灰の手の祠にまた火が灯っているが、炎は青く、手をかざしても冷たいだけだ。三つのうち $Variable.4 つ目。
 The Hand's shrine, lit again. The flames are blue, and give no warmth at all.	灰の手の祠に、また火が灯っている。炎は青く、まったく暖かくない。
-A burnt shrine of the Ashen Hand, cold now.	灰の手の焼けた祠。今は冷えている。
+A burnt shrine of the Ashen Hand, cold now. A board by it says ETERNAL FLAME, and under that, in chalk, PLEASE REPORT ANY OUTAGES.	灰の手の焼け落ちた祠。今は冷えている。そばの板には「永遠の炎」とあり、その下にチョークで「消えていたらお知らせください」。
 The barrow is out on the downs west of King Rupert's Keep: look for the broken walls.	塚はルパート王の砦の西、丘陵地帯にある：崩れた壁を探すこと。
 The Barrow King has two skeleton guards. Bring food.	塚の王には骸骨の護衛が二体いる。食料を持っていくこと。
 Broken walls, open graves... and a crowned skeleton rising from its tomb. The Barrow King!	崩れた壁、開いた墓……そして墓から起き上がる、王冠をかぶった骸骨。塚の王だ！
@@ -49,10 +49,10 @@ Laughed, did it? Then the barrier's only light and spite now, and what's behind 
 I will.	そうします。
 It held? Of course it held. Oh, don't look at me like that: I only half thought it would.\Listen. The first king cut the dragon down, and the greater part of it didn't die. It went somewhere: the Shardrealm, where all broken magic goes. The barrier draws on it. It's anchored there, beyond the world.	持ちこたえた？ もちろん持ちこたえたさ。おや、そんな目で見るな：半分くらいはそう思っていたんだ。\聞け。最初の王はドラゴンを切り倒したが、その大部分は死ななかった。どこかへ行ったのだ：壊れた魔法がすべて行き着くシャード界へな。障壁はそこから力を引いている。世界の向こう側に錨を下ろしているのだ。
 How do I get there?	どうやってそこへ行けば？
-You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Ashen, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	扉を作るのさ。小さなものではない。古いシャードストーンなら、どれでも界の縁までは届く。そこは穏やかで薄く、小さなものなら持ちこたえられる。お前のホームステッド、持っているならな？ 入植者たちは静水と呼んでいる。あれは縁のくぼみで、お前の錨がつなぎとめているのだ。隣人がいないのを不思議に思わなかったか？ だが障壁の錨は核にある。壊れた魔法がすべて溜まる嵐の中だ。それを貫かねばならん。それができるのは、お前自身の大きな錨だけ：シャードゲートだ。この院の北の丘にある古い立石の環が、かつてはそうだった。\これが私の設計図だ。銀、サファイア、残滓の核、それにシャード：あれはシャードを飲む。そして安定させねばならん：アシェンのシャードストーンを少なくとも八つ目覚めさせろ。そうすれば、環が貫くあいだ、しがみつくものができる。ゲートを抜けたら錨を見つけ、杖で砕け。何かが守っているだろう。いつだって何かが守っているものだ。
+You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	扉を作るのさ。小さなものではない。古いシャードストーンなら、どれでも界の縁までは届く。そこは穏やかで薄く、小さなものなら持ちこたえられる。お前のホームステッド、持っているならな？ 入植者たちは静水と呼んでいる。あれは縁のくぼみで、お前の錨がつなぎとめているのだ。隣人がいないのを不思議に思わなかったか？ だが障壁の錨は核にある。壊れた魔法がすべて溜まる嵐の中だ。それを貫かねばならん。それができるのは、お前自身の大きな錨だけ：シャードゲートだ。この院の北の丘にある古い立石の環が、かつてはそうだった。\これが私の設計図だ。銀、サファイア、残滓の核、それにシャード：あれはシャードを飲む。そして安定させねばならん：ガルミアのシャードストーンを少なくとも八つ目覚めさせろ。そうすれば、環が貫くあいだ、しがみつくものができる。ゲートを抜けたら錨を見つけ、杖で砕け。何かが守っているだろう。いつだって何かが守っているものだ。
 I'll build it.	作ります。
 Bert gave you his plans for a Shardgate (Read them).	バートからシャードゲートの設計図をもらった（読むこと）。
-The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Ashen's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	障壁は消えた、ああ、そうとも。だがその錨は消えておらん：壊れた魔法がすべて溜まるシャード界の核で、まだうなっている。ここからでも感じるよ。\院の北の丘にある古い石の環にシャードゲートを作れ：これが設計図だ。アシェンのシャードストーンを八つ目覚めさせて安定させ、核を貫き、杖で錨を砕け。そうすれば界はお前のものだ、好きにさまよえ。
+The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	障壁は消えた、ああ、そうとも。だがその錨は消えておらん：壊れた魔法がすべて溜まるシャード界の核で、まだうなっている。ここからでも感じるよ。\院の北の丘にある古い石の環にシャードゲートを作れ：これが設計図だ。ガルミアのシャードストーンを八つ目覚めさせて安定させ、核を貫き、杖で錨を砕け。そうすれば界はお前のものだ、好きにさまよえ。
 Quest started: The Shardgate. Bert gave you his plans (Read them).	クエスト開始：シャードゲート。バートから設計図をもらった（読むこと）。
 The staff! The grimoire! And the ring... oh, look at it. Look at that glow.\He slips the Ember Ring on his finger and holds it up against his sleeve.\Purple and ember. I knew it. It goes with the robe perfectly.	杖だ！ 魔導書だ！ それに指輪……おお、見ろ。あの輝きを見ろ。\彼は残り火の指輪を指にはめ、袖にかざしてみせる。\紫と残り火。思ったとおりだ。ローブにぴったり合う。
 And the spell?	それで、呪文は？
@@ -123,7 +123,7 @@ You need level 10 Woodcutting to chop this willow.	この柳を切るには木�
 You swing your axe at the yew..	イチイに斧を振るう..
 ..and manage to get some yew logs!	..そしてイチイの丸太を手に入れた！
 You need level 18 Woodcutting to chop this yew.	このイチイを切るには木こりレベル 18 が必要です。
-Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon.	詠唱と、何かが燃える匂い。中庭で、くすぶるローブをまとい、指に火の輪をはめた司祭が、灰の手を率いてドラゴンへの賛歌を歌っている。
+Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	詠唱と、何かが燃える匂い。中庭で、くすぶるローブをまとい、指に火の輪をはめた司祭が、灰の手を率いてドラゴンへの賛歌を歌っている。二番を知っている者はいないらしい。
 You lift the hatch and climb down into the dark. Somewhere below, boots.	ハッチを持ち上げ、暗闇へ降りていく。どこか下のほうで、ブーツの音。
 The hatch is locked.	ハッチには鍵がかかっている。
 You climb down the ladder, into the caves under the Isle.	はしごを降りて、島の地下の洞窟へ。
@@ -348,9 +348,9 @@ That's Percy's door - I'd know it anywhere! Bless you, dear. Here: it's not much
 Glad I could help.	お役に立ててよかったです。
 Quest done: Granny Wren's Walk.	クエスト完了：レンばあさんの散歩。
 An unseen hand closes on the amulet and draws it out between the bars, into your palm.	見えない手がアミュレットをつかみ、格子の間から引き出して、あなたの手のひらにのせる。
-The Amulet of Ashen Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully.	アシェン継承のアミュレット。では本当だったのだな。肌身離さず持ち、父上以外の誰にも見せるな。\それとこれを持っていけ。ホブゴブリンどもがこの洞窟の古い鉄の扉の向こう、大洞窟の南にねぐらを作った。私は洞窟の古い鍵を預かっている：これがその扉の鍵だ。やつらが来たとき、ベスの父親が行方不明になった。追うなら、気をつけて行け。
+The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	ガルミア継承のアミュレット。では本当だったのだな。肌身離さず持ち、父上以外の誰にも見せるな。\それとこれを。ホブゴブリンどもは、この洞窟の古い鉄の扉の奥、大洞窟の南にねぐらを作った。洞窟の古い鍵は私が預かっている：これがその扉の鍵だ。やつらが来たとき、ベスの父親が行方知れずになった。追うなら、気をつけて行きなさい。墓地のあちら側には、もう空きがないのでね。
 Quest complete: The Amulet of Succession! Brother Aldous gave you the key of the hobgoblins' door.	クエスト達成：継承のアミュレット！ オルダス修道士がホブゴブリンの扉の鍵をくれた。
-You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	灰に身を低くして、灰の手の焚き火の匂いがわかるほど近づく。そのそばで、灰色のローブを着た二人のよそ者が、教団員の手にシャードを数えて渡している。\「前と同じよ」と女が言う。「峠を上がって、壁の向こうへ。壁の向こうのお方のために」\「あいつはそれを食っちまう」と教団員が言う。「一つ残らず。なんでドラゴンに餌なんかやるんだ？」\「餌じゃないわ」と彼女は優しく言う。「繕うのよ。切られたものはみんな、もとに戻りたがっている。いずれわかるわ」
+You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. And I've a quota. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	灰に身を低くして、灰の手の焚き火の匂いがわかるほど近づく。そのそばで、灰色のローブを着た二人のよそ者が、信者の手にシャードを数えて渡している。\「前と同じよ」と女が言う。「峠を上って、壁を抜けて。壁の向こうのお方のために」\「あれは食っちまう」と信者が言う。「一つ残らず。それに、こっちにはノルマがあるんだ。なんでドラゴンに食わせる？」\「食わせるんじゃないわ」と女は優しく言う。「繕うの。切られたものはみな、一つに戻りたがっている。いずれわかるわ」
 Slip away.	そっと離れる。
 You've heard enough. The Warden in Emberwatch will want to know.	もう十分聞いた。エンバーウォッチの監視長が知りたがるだろう。
 Voices by the Hand's fire, too low to make out. You'd hear more if you came quietly.	灰の手の焚き火のそばで声がするが、低すぎて聞き取れない。静かに近づけば、もっと聞こえるだろう。
@@ -506,7 +506,7 @@ Just sky. Whatever winked has had its look at you.	ただの空だ。まばた�
 Quest complete: The Tithe!	クエスト達成：十分の一税！
 Cantor Ivo stands by the cold altar, and the singing stops.\"I won't lie to you. The Seam's broken. The first cut's closed for good, and the rest of it will never come home."\There's crying on the benches. "But the great Shard still speaks, past the Font. Go and listen, those who've given to it, and tell me it isn't true."	先唱者イーヴォが冷えた祭壇のそばに立ち、歌がやむ。\「嘘はつきません。継ぎ目は壊れました。最初の切り口は永遠に閉じ、残りのものが帰ってくることは決してないでしょう」\ベンチですすり泣きが起こる。「ですが、大いなるシャードは聖泉の向こうでまだ語っています。ささげた者は行って聴き、そして私に、それが嘘だと言ってみなさい」
 Listen.	聴く。
-Cantor Ivo raises a hand by the cold altar, and the singing stops. "And a new friend tonight! $Player.Name took a gift from one of us on the road, and said thank you. Welcome, $Player.Name."\Heads turn on the benches, and everyone smiles at you.	先唱者イーヴォが冷えた祭壇のそばで手を上げ、歌がやむ。「そして今夜は新しい友がいます！ $Player.Name は道で私たちの一人から贈り物を受け取り、ありがとうと言いました。ようこそ、$Player.Name」\ベンチの人々が振り向き、皆があなたに微笑む。
+Cantor Ivo raises a hand by the cold altar, and the singing stops. "And a new friend tonight! $Player.Name took a gift from one of us on the road, and said thank you. Welcome, $Player.Name."\Heads turn on the benches, and everyone smiles at you. Somebody at the back starts to clap, and stops when nobody joins in.	先唱者イーヴォが冷えた祭壇のそばで手を上げ、歌がやむ。「そして今夜は新しい友がいます！ $Player.Name は道で私たちの仲間から贈り物を受け取り、ありがとうと言いました。ようこそ、$Player.Name」\長椅子の頭がいっせいに振り向き、みながあなたにほほえむ。後ろの誰かが拍手を始め、誰も続かないのでやめる。
 Smile back.	微笑み返す。
 "Sisters, brothers. You heard them too. A husband. A mother. A voice that said you were wanted. They were never lost, only cut up small, and scattered, and crying to be whole."\"The first king cut the world's magic to pieces, long ago, and he started under Galaith: the first cut, the King's Seam. Open it, and the rest will come home."\"Those who are ready to hear the great Shard: give to the Font, and the way is open."	「姉妹たち、兄弟たち。あなたがたにも聞こえたでしょう。夫の声。母の声。あなたは必要とされていると告げる声。彼らは失われたのではありません。ただ小さく切り刻まれ、散らばり、一つに戻りたいと泣いているのです」\「最初の王は遠い昔、世界の魔法を切り刻みました。その始まりはガライスの下：最初の切り口、王の継ぎ目です。それを開けば、残りは帰ってきます」\「大いなるシャードを聴く用意のある者は、聖泉にささげなさい。そうすれば道は開かれます」
 Quest started: The Tithe.	クエスト開始：十分の一税。
@@ -660,9 +660,9 @@ You search the patch for good leaves...	よい葉を探して草むらを探る.
 ...and pick a fragrant herb.	...そして香りのよい薬草を摘んだ。
 You work at the cage's lock with a bent nail..	曲げた釘で檻の錠をいじる..
 ..and the lock springs open!	..すると錠がぱちんと開いた！
-Free! Bless you, child.\Listen: the house is yours. I'll not go back, not with those brutes so near it: I'll go and live with Maren and Edwin. Find my key in that corner barrel and keep it.\And you'll be wanting papers, to cross. Your mother left yours with me, the year she came, for the day you'd need them. I hid them under the floor at home before the brutes took me: that's what they were after, and they never got it out of me. You'll hear the board.	自由だ！ ありがとうよ、坊や。\聞いてくれ：あの家はお前さんのものだ。わしは戻らん、あの獣どもがあんなに近くにいてはな：マレンとエドウィンのところで暮らすよ。あの隅の樽にわしの鍵がある、持っていってくれ。\それと、海を渡るには書類がいるだろう。お前さんの母さんが、ここへ来た年に、お前さんが必要になる日のためにわしに預けていったんだ。あの獣どもにさらわれる前に、家の床下に隠しておいた：やつらが狙っていたのはそれで、わしは口を割らなかった。床板の音でわかるはずだ。
+Free! Bless you, child.\Listen: the house is yours. I'll not go back, not with those brutes so near it: I'll go and live with Maren and Edwin. They don't know that yet.\Find my key in that corner barrel and keep it.\And you'll be wanting papers, to cross. Your mother left yours with me, the year she came, for the day you'd need them. I hid them under the floor at home before the brutes took me: that's what they were after, and they never got it out of me. You'll hear the board.	自由だ！ ありがたい、ありがたい。\いいか：家はあんたのものだ。わしは戻らん、あの乱暴者どもがあんなに近くにいてはな：マレンとエドウィンのところで暮らすよ。二人はまだ知らんがね。\隅の樽にわしの鍵がある。持っていきなさい。\それに、海を渡るなら書類がいるだろう。お母さんは来た年に、あんたの書類をわしに預けていった。いつか要る日のためにな。乱暴者どもに捕まる前に、家の床下に隠しておいた：やつらが狙っていたのはそれだが、わしは一言も吐かなかった。床板の音でわかるよ。
 Get home safe.	気をつけて帰って。
-Tobias hobbles to the ladder and climbs up out of the lair, towards home.	トバイアスは足を引きずりながらはしごまで行き、ねぐらから家のほうへ登っていく。
+Tobias hobbles to the ladder and climbs up out of the lair, complaining about his knees all the way.	トビアスは足を引きずって梯子まで行き、ねぐらから上っていく。道々ずっと膝の文句を言いながら。
 ..but the lock won't give. Try again.	..しかし錠は開かない。もう一度やってみよう。
 You pick a marigold or two...	マリーゴールドを一、二輪摘む...
 ...bright orange, and sticky with sap.	...鮮やかなオレンジ色で、樹液でべたべたしている。
@@ -678,8 +678,8 @@ You pinch off some sage...	セージを少し摘み取る...
 Your mother's letter, sealed with her wax. Read it now?	母の手紙。母の蝋で封じられている。今読む？
 Read it.	読む。
 Later.	あとで。
-The Staff of Ashen: gold and blue, and warm in your hand.	アシェンの杖：金と青で、手の中で温かい。
-Quest complete: The Staff of Ashen! Take it to Bert.	クエスト達成：アシェンの杖！ バートのところへ持っていこう。
+The Staff of Galmere: gold and blue, and warm in your hand.	ガルミアの杖：金と青で、手の中で温かい。
+Quest complete: The Staff of Galmere! Take it to Bert.	クエスト達成：ガルミアの杖！ バートのところへ持っていこう。
 The Font's water is still and cold. Those who pour their Shards into it are let through to the great Shard.	聖泉の水は静かで冷たい。そこにシャードを注いだ者は、大いなるシャードのもとへ通される。
 Pour in $Shards.Mending.Tithe Shards.	$Shards.Mending.Tithe シャードを注ぐ。
 The Shards sink, glowing, and go out one by one. Past the Font, an iron gate clicks.	シャードは光りながら沈み、一つずつ消えていく。聖泉の向こうで、鉄の門がカチリと鳴る。
@@ -710,9 +710,9 @@ Your hand closes on something cold, and it's gone, up your arm and into you. The
 The lights keep just out of reach now. They've learned.	光たちは、今はぎりぎり手の届かないところにいる。学んだのだ。
 Iron bars, set deep in the rock, too close for your hand. Behind them: a gold amulet!	岩に深く据えられた鉄格子。手を入れるには狭すぎる。その向こうに：金のアミュレット！
 Footsteps echo behind you: Brother Aldous, a lantern in his hand.	背後に足音が響く：ランタンを手にしたオルダス修道士だ。
-I said I'd not be far behind. Look here first.\He holds his lantern low: three bright splinters on the floor.\Something died here, a rat or a bat, and left its magic behind: Shards. Pick them up, and they're yours to spend. Every beast leaves its magic where it falls. And now and then, the magic won't lie still. The old books say every Shard is a scrap of something far greater, cut down long ago, and that scraps like that are hungry: take them in before they take root in you.	すぐ後ろにいると言っただろう。まずここを見なさい。\彼はランタンを低く掲げる：床に三つの明るいかけらがある。\ここで何かが死んだ。ネズミかコウモリか、そしてその魔力を残していった：シャードだ。拾えば、それはお前が使えるものになる。どんな獣も倒れた場所に魔力を残す。そして時には、その魔力がじっとしていないこともある。古い書物によれば、シャードはみな、遠い昔に切り倒された遥かに大きな何かの切れ端で、そういう切れ端は飢えているという：それがお前の中に根を張る前に、取り込んでしまいなさい。
+I said I'd not be far behind. Look here first.\He holds his lantern low: three bright splinters on the floor.\Something died here, a rat or a bat, and left its magic behind: Shards. I'd say a few words over it, but it was a rat.\Pick them up, and they're yours to spend. Every beast leaves its magic where it falls. And now and then, the magic won't lie still. The old books say every Shard is a scrap of something far greater, cut down long ago, and that scraps like that are hungry: take them in before they take root in you.	すぐ後ろにいると言っただろう。まずここを見なさい。\彼はランタンを低く掲げる：床に、三つの明るいかけら。\ここで何かが死んだ。ネズミかコウモリか。そして魔法を残していった：シャードだ。何か言葉をかけてやりたいところだが、ネズミだったからな。\拾えば、あなたのものとして使える。獣はみな、倒れた場所に魔法を残す。そして時々、その魔法はじっとしていない。古い書物によれば、シャードはどれも、遠い昔に切り倒されたはるかに大きな何かの切れ端で、そういう切れ端は飢えているという：根を張られる前に、取り込んでしまいなさい。
 I'll remember.	覚えておきます。
-Now, the amulet. Your mother put it there, and the bars after it, so that no thief could ever take it. But a hand that isn't a hand can.\Here: a scroll of Grasp. Read it, and the spell is yours for good; each casting drinks a couple of Shards. Cast it at the bars, and an unseen hand will bring the amulet to you.	さて、アミュレットだ。お前の母上がそれをそこに置き、そのあとで格子をはめた。どんな盗人にも取れないようにな。だが、手ではない手なら取れる。\さあ：つかみの巻物だ。読めば、その呪文はずっとお前のものになる。唱えるたびにシャードを二つほど飲む。格子に向かって唱えれば、見えない手がアミュレットを運んでくる。
+Now, the amulet. Your mother put it there, and the bars after it, so that no thief could ever take it. Nor anyone else, as it turns out. But a hand that isn't a hand can.\Here: a scroll of Grasp. Read it, and the spell is yours for good; each casting drinks a couple of Shards. Cast it at the bars, and an unseen hand will bring the amulet to you.	さて、アミュレットだ。お母さんがあそこに置き、そのあと格子をはめた。どんな盗人にも持ち出せないようにな。ほかの誰にも、だったようだが。だが、手ではない手なら届く。\ほら：つかみの巻物だ。読めば、その呪文は一生あなたのものになる。唱えるたびにシャードを二つほど飲む。格子に向けて唱えれば、見えない手がアミュレットを運んでくる。
 Thank you, Brother.	ありがとうございます、ブラザー。
 Learn Grasp from the scroll, then cast it from Channeling at what you want brought to you.	巻物でつかみを覚え、詠唱から、持ってきたいものに向けて唱える。
 The bars are too close for your hand.	格子が狭すぎて手が入らない。
@@ -720,9 +720,9 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	ライ�
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	祭壇の鉢から氷を割り、天磁石を取り出す。焼けるほど冷たく、北へとそっと引っぱっている。
 A star of ice glitters in the altar's bowl, frozen fast.	祭壇の鉢の中で氷の星がきらめいている。固く凍りついている。
 The altar's bowl is empty.	祭壇の鉢は空っぽだ。
-A little ledger bound in black, in a careful hand: Shards in, Shards out. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'	黒い表紙の小さな帳簿。丁寧な字で：シャードの入り、シャードの出。二行に灰の指紋で印がついている：\『島のホブゴブリンに、シャード四十。女の書類と子供の名前のため。やつらは老人をさらったが、何も得られなかった』\そして新しい行、インクはまだ黒い：『子供は海峡を渡った。灰色の者たちは今は倍払う。壁の向こうのお方が待っているそうだ』
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	黒い表紙の小さな帳簿。丁寧な字で：シャードの入り、シャードの出、それに「ろうそく（黒）」の欄。二行に灰の指紋で印がついている：\『島のホブゴブリンに、シャード四十。女の書類と子供の名前のため。やつらは老人をさらったが、何も得られなかった』\そして新しい行、インクはまだ黒い：『子供は海峡を渡った。灰色の者たちは今は倍払う。壁の向こうのお方が待っているそうだ』\ページの下に、二重線つきで：『四半期の灰：目標未達』
 Close it.	閉じる。
-A scrap of good paper, folded small, in a careful hand:\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash.	上等な紙の切れ端。小さく折りたたまれ、丁寧な字で：\島に、ガライスが閉ざされた年に子供を連れてやってきた女がいる。王冠の印章の書類を持っているか、島の書類を書く老人が預かっている。それと子供の名前を持ってくれば、シャードはお前たちのものだ。\署名はない。灰に押しつけた手の跡があるだけだ。
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	上等な紙の切れ端。小さく折りたたまれ、丁寧な字で。いちばん上に：『請求書。三枚つづりの二枚目』\島に、閉ざされた年にガライスから子連れで来た女がいる。王冠の封印のついた書類を持っているか、島の書類を書く老人が預かっている。それと子供の名前を持ってくれば、シャードはお前たちのものだ。\下に名前はない。灰で押された手形と、署名が燃え上がった焦げ跡があるだけだ。
 Fold it away.	折りたたんでしまう。
 ASHFORD\West: Northport docks\East: the farmlands\South: King Rupert's Keep	アシュフォード\西：ノースポートの波止場\東：農地\南：ルパート王の砦
 Okay	OK
@@ -745,7 +745,7 @@ ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pi
 HOLLOW LANE\Houses of The Wizards' Court.	ホロウ小路\魔術師院の家並み。
 TALLOW ROW\Houses of The Wizards' Court.	タロウ通り\魔術師院の家並み。
 PENNYWORTH ROW\Houses of The Wizards' Court.	ペニーワース通り\魔術師院の家並み。
-THE WIZARDS' COURT\A city of Ashen.	魔術師院\アシェンの都。
+THE WIZARDS' COURT\A city of Galmere.	魔術師院\ガルミアの都。
 CATHEDRAL OF THE WIZARDS' COURT\All are welcome.	魔術師院大聖堂\すべての人を歓迎します。
 THE PRANCING PONY\A tavern of The Wizards' Court.	跳ね馬亭\魔術師院の酒場。
 THE ROSE AND CROWN\A tavern of The Wizards' Court.	薔薇と王冠亭\魔術師院の酒場。
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Frosthold.	女王通り\フロストホールドの家並�
 CLOTH STREET\Houses of Frosthold.	布通り\フロストホールドの家並み。
 WEAVERS' WAY\Houses of Frosthold.	織工の道\フロストホールドの家並み。
 MASON'S ROW\Houses of Frosthold.	石工通り\フロストホールドの家並み。
-FROSTHOLD\A town of Ashen.	フロストホールド\アシェンの町。
+FROSTHOLD\A town of Galmere.	フロストホールド\ガルミアの町。
 SHERIFF'S OFFICE\The watch house of Frosthold.	保安官事務所\フロストホールドの番所。
 DOCTOR'S HOUSE\Of Frosthold.	医者の家\フロストホールド。
 THE PLOUGH\A tavern of Frosthold.	鋤亭\フロストホールドの酒場。
@@ -814,14 +814,14 @@ CARTWRIGHT ROW\Houses of King Rupert's Keep.	車大工通り\ルパート王の�
 FOUNTAIN ROW\Houses of King Rupert's Keep.	噴水通り\ルパート王の砦の家並み。
 ASH ROW\Houses of King Rupert's Keep.	トネリコ通り\ルパート王の砦の家並み。
 COPPER STREET\Houses of King Rupert's Keep.	銅通り\ルパート王の砦の家並み。
-KING RUPERT'S KEEP\A city of Ashen.	ルパート王の砦\アシェンの都。
+KING RUPERT'S KEEP\A city of Galmere.	ルパート王の砦\ガルミアの都。
 CATHEDRAL OF KING RUPERT'S KEEP\All are welcome.	ルパート王の砦大聖堂\すべての人を歓迎します。
 HOSPITAL\Of King Rupert's Keep.	病院\ルパート王の砦。
 THE SMOKING CHIMNEY\A tavern of King Rupert's Keep.	煙る煙突亭\ルパート王の砦の酒場。
 THE BRASS MONKEY\A tavern of King Rupert's Keep.	真鍮の猿亭\ルパート王の砦の酒場。
 SMITHY\The forge of King Rupert's Keep.	鍛冶場\ルパート王の砦の炉。
 KEEP OUT OF THE WATER!	水に入るな！
-THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Ashen, and its riches, lands and people are yours to protect.	メアリーの遺言書\愛しい $Player.Son へ\あなたが生後六か月のときから、私たちはこの島で貧しく暮らしてきました。あなたの人生はこんなはずではなかったのです。あなたはアシェンの真の跡継ぎで、その富も、土地も、民も、あなたが守るべきものです。
+THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Galmere, and its riches, lands and people are yours to protect.	メアリーの遺言書\愛しい $Player.Son へ\あなたが生後六か月のときから、私たちはこの島で貧しく暮らしてきました。あなたの人生はこんなはずではなかったのです。あなたはガルミアの真の跡継ぎで、その富も、土地も、民も、あなたが守るべきものです。
 Read on.	続きを読む。
 I could never tell you who we were while I lived: it was safer that you didn't know. I didn't leave Galaith with nothing. What I carried away, I hid, and the people of this island have kept my secrets for you. When you are ready, they will see that you find it.	生きているあいだ、私たちが何者なのかをあなたに話すことはできませんでした：知らないほうが安全だったのです。私は何も持たずにガライスを出たわけではありません。持ち出したものは隠し、この島の人々があなたのために私の秘密を守ってくれています。あなたの準備ができたら、彼らがあなたにそれを見つけさせてくれるでしょう。
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	あなたの父、王は、今もガライスの城壁の向こうで待っていて、私がいなくなったことを知りません。父のもとへ行きなさい。あなたが生まれた日から都は閉ざされたままで、その原因は私です。いつかあなたにもわかるでしょう。\気をつけて。そして父に、私は彼を愛することを一度もやめなかったと伝えて。\メアリー
@@ -866,7 +866,7 @@ THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens
 ROYAL TREASURY\The Wizards' Court's strongroom.	王の宝物庫\魔術師院の金庫室。
 STONEGATE\Houses of Saltmarsh.	石門\ソルトマーシュの家並み。
 SALTMARSH\A hamlet.	ソルトマーシュ\小さな集落。
-A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Ashen's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	シャードゲート、当代随一の魔法使いバート著\院の北の丘にある古い立石の環にて：銀の延べ棒四本で石を結び、ルーンにサファイアを二つはめ、環の中心に残滓の核を置け。\それから自分のシャードを $Shards.Shardgate 与えよ。界の穏やかな縁には何でもすべり込めるが、その核を貫くには環を安定させねばならぬ。ゆえに、まずアシェンのシャードストーンを $Shards.Shardgate.Stones 個目覚めさせ、シャード術を身につけておくこと（少なくとも $Shards.Shardgate.Level）。\それからくぐれ。番人に用心せよ。
+A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	シャードゲート、当代随一の魔法使いバート著\院の北の丘にある古い立石の環にて：銀の延べ棒四本で石を結び、ルーンにサファイアを二つはめ、環の中心に残滓の核を置け。\それから自分のシャードを $Shards.Shardgate 与えよ。界の穏やかな縁には何でもすべり込めるが、その核を貫くには環を安定させねばならぬ。ゆえに、まずガルミアのシャードストーンを $Shards.Shardgate.Stones 個目覚めさせ、シャード術を身につけておくこと（少なくとも $Shards.Shardgate.Level）。\それからくぐれ。番人に用心せよ。
 Fold the plans.	設計図をたたむ。
 Dunerest: south-west\Saltmarsh: south-east	デューンレスト：南西\ソルトマーシュ：南東
 Northport: west\Oakhollow: south-east\Wildwood: south-west	ノースポート：西\オークホロウ：南東\ワイルドウッド：南西
@@ -892,18 +892,18 @@ THORNWICK\A village.	ソーンウィック\村。
 CHAPEL OF THORNWICK\All are welcome.	ソーンウィック礼拝堂\すべての人を歓迎します。
 SMITHY\The forge of Thornwick.	鍛冶場\ソーンウィックの炉。
 KING RUPERT'S KEEP\The King's keep and its bailey, held by his Steward while the King is away.	ルパート王の砦\王の砦とその外庭。王の留守中は家令が守る。
-WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits, and has been made to scrub the cistern for saying so.	守り手の日誌：イゾルデの筆\見張りの211年目。シャードは静かだ。コーヴェイン元帥は眠っていると言う。ヘイル修道士は、決して眠らない、ただ待っているだけだと言い、そう言ったせいで貯水槽の掃除をさせられた。
+WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the cistern for saying so: carried.	守り手の日誌：イゾルデの筆\見張りの211年目。議事録。出席：全員。シャードは静かだ。コーヴェイン元帥は眠っていると言う。ヘイル修道士は、決して眠らない、待っているだけだと言う。そう言った罰としてヘイル修道士に貯水槽を磨かせる動議：可決。
 That's all nine of the Wardens' journals: back to Pell.	守り手の日誌を九冊すべて読んだ：ペルのところへ戻ろう。
-WARDENS' JOURNAL: the hand of Brother Hale\It grows. We have measured it every year since the first: a hair a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.	守り手の日誌：ヘイル修道士の筆\それは育っている。最初の年から毎年測ってきた：一年に髪の毛一本分、いつも。コーヴェイン元帥は岩が沈んでいるのだと言う。岩は上に向かって沈んだりしない。
+WARDENS' JOURNAL: the hand of Brother Hale\It grows. We have measured it every year since the first: a hair a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.\(Struck from the minutes, at the Marshal's request.)	守り手の日誌：ヘイル修道士の筆\それは育っている。最初の年から毎年測ってきた：一年に髪の毛一本分、いつも。コーヴェイン元帥は岩が沈んでいるのだと言う。岩は上に向かって沈んだりしない。\（元帥の求めにより、議事録から削除）
 WARDENS' JOURNAL: the hand of Marshal Corvane\I have heard it now. It isn't asking to be used. It's asking to be listened to, and nobody has, in four hundred years of standing guard over it with our ears stopped.\The others will understand. I'll make them listen.	守り手の日誌：コーヴェイン元帥の筆\ついにそれを聞いた。それは使われることを求めているのではない。耳を傾けてもらうことを求めている。そして四百年、耳をふさいで見張りに立つばかりで、誰もそうしなかった。\ほかの者たちもわかってくれるだろう。聞かせてみせる。
-WARDENS' JOURNAL: the hand of Odile Brask, cook\Year 302. The water in the cistern hums when I draw it. Not loud. Just a hum, like somebody in the next room. Some days it's my mother's songs, and my mother's been dead thirty years.\I've stopped telling the Marshal. He only says to drink less of it.	守り手の日誌：料理番オディール・ブラスクの筆\302年。貯水槽の水を汲むと、うなる。大きな音ではない。ただのうなり、隣の部屋に誰かがいるような。母の歌が聞こえる日もある。母は三十年前に死んだのに。\元帥に言うのはやめた。あの人は、飲む量を減らせと言うだけだから。
-WARDENS' JOURNAL: the hand of Brother Hale\Year 344. Measured it again from the rim. Two hairs this year, three in the summer. It's growing faster.\When I put the rule against it, something sighed. Not the wind: there's no wind down here. As if it had been waiting a long time for somebody to notice, and was glad.	守り手の日誌：ヘイル修道士の筆\344年。縁からまた測った。今年は髪の毛二本分、夏には三本分。育つのが速くなっている。\物差しを当てると、何かがため息をついた。風ではない：ここに風は吹かない。誰かが気づいてくれるのを長いあいだ待っていて、うれしかったかのように。
+WARDENS' JOURNAL: the hand of Odile Brask, cook\Year 302. The water in the cistern hums when I draw it. Not loud. Just a hum, like somebody in the next room. Some days it's my mother's songs, and my mother's been dead thirty years.\I've stopped telling the Marshal. He only says to drink less of it, and that the soup wants salt. It doesn't.	守り手の日誌：料理番オディール・ブラスクの筆\302年。貯水槽の水は、汲むとハミングする。大きな音ではない。隣の部屋に誰かいるような、ただのハミング。母の歌のときもある。母は三十年前に死んだのに。\元帥に話すのはやめた。水を飲む量を減らせと言うだけだし、スープは塩が足りないとも言う。足りている。
+WARDENS' JOURNAL: the hand of Brother Hale\Year 344. Measured it again from the rim, though the meeting asked me not to. Two hairs this year, three in the summer. It's growing faster.\When I put the rule against it, something sighed. Not the wind: there's no wind down here. As if it had been waiting a long time for somebody to notice, and was glad.	守り手の日誌：ヘイル修道士の筆\344年。会合にやめてくれと言われたが、縁からまた測った。今年は髪の毛二本分、夏には三本分。育つのが速くなっている。\定規を当てると、何かがため息をついた。風ではない：この下に風はない。誰かが気づくのを長いあいだ待っていて、うれしかったかのように。
 WARDENS' JOURNAL: the hand of Marshal Corvane\I asked it what it wanted. Four hundred years, and nobody had asked. It said: to be whole.\It knows my name. It knew my mother's. It only wants to be whole, and it's so small, and it's been alone so long. What sort of guard keeps a thing from its own body?	守り手の日誌：コーヴェイン元帥の筆\何を望むのかとそれに尋ねた。四百年、誰も尋ねなかった。それは言った：一つになりたいと。\それは私の名を知っている。母の名も知っていた。ただ一つになりたいだけで、とても小さくて、長いあいだずっと独りだった。自らの体から何かを引き離しておく見張りとは、いったい何なのか？
-WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.	守り手の日誌：イゾルデの筆\騎士団は割れた。見張りの半分は耳を開いてコーヴェインにつく。残りの私たちは、祭壇の下にある最初の王の命令を守る：それを眠らせておき、決して、決して、それ自身の残りと一つにさせないこと。\それ自身の残り。一度、元帥にそれが何を意味するのか尋ねた。彼は知らなかった。今は知っている。そしてそのほうが悪いのだと思う。
-WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.	守り手の日誌：料理番オディール・ブラスクの筆\私は入る。湖の中へ、という意味だ。うなりはそこがいちばん大きいし、何が歌っているのか見てみたいし、水を怖がるには年を取りすぎた。\これを見つけた人へ：船乗りたちに気をつけて。それは彼らも呼んでいる。毎晩、岩を抜けて上へ、彼らを呼んでいるのが聞こえる。
-WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守り手の日誌：最後の一人、イゾルデの筆\私はそれに一度も答えなかった最後の一人。もしあなたが温かく、これを読んでいるなら、聴いて：あなたにはそれが聞こえるし、そこから学ぶこともできる。でも決して答えないで。答えることが、それが入り込む方法なのだから。\聖遺物庫の下に、私たちが交代で耳を傾けた部屋がある。四つの鐘がそれを閉ざしている。回廊の歌う石がその順番を覚えている。それは古い歌のように、年ごとに変わる。誰かが足を止めるよう、ここにケルンを築いた。
+WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.\(The split took a vote. The vote took eleven days.)	守り手の日誌：イゾルデの筆\騎士団は割れた。見張りの半分はコーヴェインにつき、耳を開いている。残りの私たちは最初の王の命令、祭壇の下のあの命令を守っている：それを眠らせておくこと、そして決して、決してそれ自身の残りとつながらせないこと。\それ自身の残り。一度、それがどういう意味か元帥に尋ねた。彼は知らなかった。今は知っている。そのほうが悪いと思う。\（分裂は投票で決めた。投票には十一日かかった）
+WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	守り手の日誌：料理番オディール・ブラスクの筆\中へ行く。湖の中へ、という意味だ。ハミングはそこがいちばん大きい。何が歌っているのか見てみたいし、水を怖がるには年を取りすぎた。\これを見つけた人へ：船乗りに気をつけて。あれは船乗りも呼ぶ。毎晩、岩を通して、呼んでいるのが聞こえる。\シチューを火にかけてある。誰かかき混ぜておいて。
+WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守り手の日誌：最後の者、イゾルデの筆\私は、一度もあれに答えなかった最後の一人だ。（一度、みんなで答えようとしたことがある。文面に四十年かけ、そのころには分別がついていた）もしあなたが温かく、これを読んでいるなら、聞いて：あれの声は聞いていいし、あれから学んでもいい。でも決して答えてはいけない。答えることが、あれの入り口になる。\聖遺物堂の下に、私たちが交代で耳を澄ませた部屋がある。四つの鐘がそこを閉ざしている。回廊の歌う石がその順番を覚えている。順番は、あの古い歌と同じく、年ごとに変わる。誰かが足を止めるように、ここにケルンを積んだ。
 ROPE WALK\Houses of Wardhaven.	縄の道\ウォードヘイヴンの家並み。
-WARDHAVEN\A town of Ashen.	ウォードヘイヴン\アシェンの町。
+WARDHAVEN\A town of Galmere.	ウォードヘイヴン\ガルミアの町。
 CHURCH OF WARDHAVEN\All are welcome.	ウォードヘイヴン教会\すべての人を歓迎します。
 SHERIFF'S OFFICE\The watch house of Wardhaven.	保安官事務所\ウォードヘイヴンの番所。
 SMITHY\The forge of Wardhaven.	鍛冶場\ウォードヘイヴンの炉。
@@ -924,7 +924,7 @@ Quest started: The Island of Dragons.	クエスト開始：ドラゴン島。
 You rummage through the barrel..	樽の中をかき回す..
 ..only old candle ends and dust.	..古いろうそくの燃えさしとほこりだけだ。
 You rummage through the crate..	木箱の中をかき回す..
-..mouldy hymn books, and a mouse.	..かびた賛美歌集と、ネズミが一匹。
+..mouldy hymn books, and a mouse who has read them all.	..かびた賛美歌集と、それを全部読んだネズミが一匹。
 A clue! A big white feather. Not a duck's. Bigger. Angrier. ($Attr.TrouserClues of 3)	手がかりだ！ 大きな白い羽。アヒルのものではない。もっと大きい。もっと怒っている。（$Attr.TrouserClues / 3）
 A big white feather. Not a duck's. Bigger. Angrier.	大きな白い羽。アヒルのものではない。もっと大きい。もっと怒っている。
 A clue! Webbed footprints, heading off towards the duck pond with great purpose. ($Attr.TrouserClues of 3)	手がかりだ！ 水かきのある足跡が、強い決意を持ってアヒル池のほうへ向かっている。（$Attr.TrouserClues / 3）
@@ -938,7 +938,7 @@ Under the fish bones, in the very middle of the nest, something round and warm.	
 Sticks, fish bones, and a smell. Nothing you want.	小枝、魚の骨、そして悪臭。欲しいものは何もない。
 A heron's nest is no place for a frog. You can't climb, and you'd rather not.	サギの巣はカエルのいる場所ではない。あなたは登れないし、登りたくもない。
 Deep in the hollow stump: a squirrel's winter store, and under it somebody's purse, green with age. The squirrel was saving it for something.	うつろな切り株の奥深くに：リスの冬の蓄え。その下に、古びて緑青をふいた誰かの財布。リスは何かのためにそれを取っておいたのだ。
-..rotten cabbages and hobgoblin junk.	..腐ったキャベツとホブゴブリンのがらくた。
+..rotten cabbages, one sock and hobgoblin junk.	..腐ったキャベツ、靴下が片方、ホブゴブリンのがらくた。
 ..and stuffed down the side, where you missed it before: a scrap of paper, folded small.	..そして脇に押し込まれて、さっきは見落としていたもの：小さく折りたたまれた紙切れ。
 ..rags and bones, nothing more.	..ぼろと骨、それだけだ。
 ..and there, under the rags: a brass house key. Tobias's! Wrapped round it, a scrap of paper, folded small.	..そしてそこに、ぼろの下に：真鍮の家の鍵。トバイアスのものだ！ それに巻きつけられて、小さく折りたたまれた紙切れ。
@@ -957,7 +957,7 @@ He has nothing more to give you, and has been very good about it.	彼にはも�
 Something squeaks inside the stump. A rubber duck! It looks at you as if you were the strange one.	切り株の中で何かがキュッと鳴る。ゴムのアヒルだ！ まるでおかしいのはあなたのほうだと言いたげに見ている。
 Five secrets found. You're developing a nose for it.	五つの秘密を見つけた。鼻が利くようになってきた。
 Ten secrets! People have started hiding things from you on purpose.	十の秘密！ 人々はわざとあなたから物を隠し始めた。
-Every secret in Ashen, found. Somewhere, a squirrel weeps.	アシェンのすべての秘密を見つけた。どこかで、リスが泣いている。
+Every secret in Galmere, found. Somewhere, a squirrel weeps.	ガルミアのすべての秘密を見つけた。どこかで、リスが泣いている。
 You fish out a fortune in wishes. Twenty-five gold, give or take a dream.	願いの財産をすくい上げる。金貨二十五枚、夢を一つか二つ足し引きして。
 A magpie's stash: a spoon, a thimble, and a sapphire it must have been very proud of.	カササギの隠し場所：スプーン、指ぬき、そしてさぞ自慢だったに違いないサファイア。
 A statue of a wizard, its hat a lid. Under it: Shards, and a note in Bert's hand: 'IF FOUND, NO YOU DIDN'T.'	魔法使いの像。帽子がふたになっている。その下に：シャードと、バートの字の書き付け：「見つけたとしても、見つけなかったことにせよ」
@@ -992,11 +992,11 @@ You lift the lid and rummage under the salted fish...	ふたを開けて、塩�
 One piece of it doesn't stop chiming. You pick it up. It's warm.	その一片が鳴りやまない。拾い上げる。温かい。
 Shardcraft: work Shard magic. Wake shardstones, break gear down for its Shards, write scrolls, enchant gear with rare shards and shape your pocket of the Shardrealm.	シャード術：シャードの魔法を操る。シャードストーンを目覚めさせ、装備を分解してシャードを取り出し、巻物を書き、希少なシャードで装備に魔法をかけ、シャード界の自分の一角を形作る。
 The Warden stands over the anchor: it won't let you near.	番人が錨の上に立っている：近づかせてくれない。
-You raise the Staff of Ashen and speak Bert's words of Unbinding at the anchor..	アシェンの杖を掲げ、錨に向かってバートの解縛の言葉を唱える..
+You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	ガルミアの杖を掲げ、錨に向かってバートの解縛の言葉を唱える..
 ..and it shatters. Under it the realm's floor falls away into a hollow, vast and warm, where something huge lies sleeping: every splinter of magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. Tell Bert.	..すると錨は砕け散る。その下で界の床が抜け落ち、広大で温かなうつろが現れる。そこには何か巨大なものが眠っている：ここにある魔法のかけらはすべてそちらへ傾き、それは息をしている。はるか遠く、ガライスの峠で、何かが崩れる。バートに伝えよう。
 Through the hole where the anchor stood you see the pass, small and far, as if through ice. The barrier thins, and beyond it the dragon lifts its head: its hide is grown over with Shards, plates of them, glittering.	錨が立っていた穴から、氷越しに見るように、小さく遠い峠が見える。障壁が薄くなり、その向こうでドラゴンが頭をもたげる：その皮はシャードに覆われている。何枚もの板となって、きらめいている。
 A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	地滑りのような声が、頭の中に響く：「小さな跡継ぎが、わしの地下室にいるとはな。好きなものを壊すがいい。あの壁が立ってからというもの、わしの忠実な手は壁越しにシャードを、ひとかけらずつわしに食わせてきた。そしてお前が手に入れた剣はぐっすり眠っておる」
-Your bare hands won't break it: it needs the Staff of Ashen.	素手では壊せない：アシェンの杖が必要だ。
+Your bare hands won't break it: it needs the Staff of Galmere.	素手では壊せない：ガルミアの杖が必要だ。
 You puff smoke into the skep's door. The humming drops, slow and sleepy.	巣箱の入り口に煙を吹き込む。うなりが低く、ゆっくり、眠たげになる。
 You need a tinderbox to make smoke.	煙を起こすには火打ち箱が必要です。
 Someone should fix that floorboard; it sounds like it's about to fall through.	誰かあの床板を直したほうがいい。今にも抜け落ちそうな音がする。
@@ -1050,7 +1050,7 @@ Mo kneads the air with a white paw and purrs.	モーは白い足で宙をふみ�
 Noops rolls onto his back, a great grey belly to the sky, and rumbles.	ヌープスは仰向けに転がり、大きな灰色のお腹を空に向けて、ゴロゴロ鳴る。
 You stroke its nose. It leans into your hand, and then checks your pockets.	鼻をなでる。それはあなたの手に寄りかかり、それからあなたのポケットを調べる。
 It whickers softly and goes back to its hay.	それは小さくいななき、干し草に戻る。
-Jimmy stretches, purrs without waking, and curls up tighter on the spare bed.	ジミーは伸びをして、目を覚まさないままのどを鳴らし、予備の寝台の上でいっそう丸くなる。
+Jimmy stretches, purrs without waking, and takes up a little more of the spare bed.	ジミーは伸びをして、目を覚まさずにのどを鳴らし、客用ベッドをもう少し占領する。
 Jimmy purrs, stretches across the throne, and goes back to sleep. He's the king of this, really.	ジミーはのどを鳴らし、玉座の上で伸びて、また眠る。本当は、彼がここの王なのだ。
 Vincent leans into your hand, then strolls off as if it never happened.	ヴィンセントはあなたの手に寄りかかり、それから何事もなかったかのようにぶらりと去っていく。
 Quest complete: The Sunken Grimoire! Take it to Bert.	クエスト達成：沈んだ魔導書！ バートのところへ持っていこう。
@@ -1077,7 +1077,7 @@ Take me to the arena.	闘技場へ連れていって。
 Not today.	今日はやめておく。
 Swords, daggers and bows, sharp and true.	剣、短剣、弓。よく切れて確かな品だ。
 Let me see your goods.	品物を見せて。
-The dragon of Galaith will have its due. It always does.	ガライスのドラゴンは取り分を取る。いつだってそうだ。
+The dragon of Galaith will have its due. It always does.\...Sorry. We have to say that to everyone. It's in the handbook.	ガライスのドラゴンは取り分を取る。いつだってそうだ。\……すみません。みんなにそう言う決まりなんです。手引書に書いてあるので。
 Fresh bread and pastries, still warm!	焼きたてのパンと菓子、まだ温かいよ！
 Welcome to the bank of Ashford. Your valuables are safe with us.	アシュフォード銀行へようこそ。貴重品は私どもが安全にお預かりします。
 I'd like to use the bank.	銀行を使いたい。
@@ -1134,10 +1134,10 @@ Mind the step. My husband keeps meaning to fix it.	段差に気をつけて。�
 Flo looks up from her ledger. "Something on your mind?"	フローが帳簿から顔を上げる。「何か気にかかることでも？」
 There's a hall under Shardglass Field. The Mending folk meet there, and they mean to open the King's Seam.	シャードガラスの野の下に広間がある。繕いの会の人たちがそこに集まっていて、王の継ぎ目を開くつもりだ。
 Nothing. Goodbye.	何でもない。さようなら。
-"Them in grey? The kind ones, with the soup?" She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	「あの灰色の人たち？ スープを配ってる親切な人たち？」彼女は最後まで話を聞き、笑みを消す。\「王の継ぎ目。わかった。今夜ガライスに知らせを送って、朝までにここにあるやつらの家を閉めさせる。中にいる者で帰りたい者は、家まで送らせる」
+"Them in grey? The kind ones, with the soup? It's good soup." She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	「灰色の人たち？ 親切な、スープの人たち？ いいスープなのよ」彼女は最後まで話を聞き、笑みを消す。\「王の鉱脈。わかった。今夜ガライスに知らせを送って、朝までにここのあの家を閉めさせる。中にいて家に帰りたい者は、家まで送り届ける」
 Thank you, Sheriff.	ありがとうございます、保安官。
 Quest complete: In Grey!	クエスト達成：灰色の衣！
-I'm the sheriff here. The cells are empty and I like them that way.	私がここの保安官だ。牢は空っぽで、私はそのほうが好きなんだ。
+I'm the sheriff here. The cells are empty and I like them that way. Most weeks the worst I get is a goat in the bakery.	ここの保安官よ。牢は空っぽで、私はそれが好き。たいていの週、いちばんの事件はパン屋に入ったヤギくらいね。
 Need something forged? Or use my furnace and anvil yourself.	何か鍛えてほしいものは？ それとも、うちの炉と金床を自分で使うかい。
 Still warm from the oven!	かまどから出したばかりでまだ温かいよ！
 Morning! Everything's fresh out of the oven.\You can cook on my oven fire too, if you've got your own meat.	おはよう！ どれもかまどから出したばかりだよ。\自分の肉を持ってるなら、うちのかまどの火で料理してもいいよ。
@@ -1148,22 +1148,22 @@ No thanks.	いいえ、結構です。
 Spare a coin for a poor old man?	哀れな年寄りに小銭を恵んでくれんかね？
 Here's a coin.	はい、どうぞ。
 Sorry, no.	ごめんなさい、だめです。
-Bless you! I wasn't always like this, you know. Had a house once, with a garden. Ah well.	ありがたや！ わしも昔からこうだったわけじゃない。昔は家があって、庭もあったんだ。まあ、いいさ。
+Bless you! I wasn't always like this, you know. Had a house once, with a garden, and a goat. The goat ate the garden. Then it started on the house. Ah well.	ありがたや！ 昔からこうだったわけじゃないんだよ。家があってね、庭もあって、ヤギもいた。ヤギが庭を食べちまった。それから家に取りかかった。まあ、いいさ。
 Good luck to you.	幸運を。
 You don't have any gold!	金貨を持っていない！
-A new face! Every adventurer should know a little magic. Take these.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you.	新しい顔だ！ 冒険者たるもの、少しは魔法を知っておくべきだ。これを持っていきなさい。\巻物を読めば、その呪文はずっとあなたのもの。唱えるとシャードを使う。それと薬を一つか二つ：魔法では傷は治らないからね。
-The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things.	家令の友だね！ 入って、入って、猫に気をつけて。本物の猫じゃないが。まあ。\障壁を崩したいのだろう。みんな障壁を崩したがる。私ならできる：当代随一の魔法使い、バート、お役に立とう。だが私でさえ、しかるべき道具が要る。
+A new face! Every adventurer should know a little magic. Take these. I've far too many; I keep buying them.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you. I've tried. Ask my knees.	新しい顔だ！ 冒険者たるもの、少しは魔法を知っておくべきだ。これを持っていきなさい。多すぎるんだ。つい買ってしまう。\巻物を読めば、その呪文は一生あなたのものだ。唱えるとシャードを使う。それと薬を一つ二つ：魔法では体は治らん。試したんだ。私の膝に聞いてみなさい。
+The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	家令の友だね！ 入って、入って、猫に気をつけて。本物の猫じゃないが。まあ。\障壁を崩したいのだろう。誰もが障壁を崩したがる。私ならできる：当代一の魔法使い、バートがお役に立とう。だが私でさえ、しかるべき品がいる。私でさえ、だ。まったく腹立たしい。
 What things?	どんな道具ですか？
-Three. The Staff of Ashen: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier.	三つだ。アシェンの杖：王ご自身のもので、王の砦のてっぺんの私室にある。解縛の魔導書：デューンレストの外の砂漠に、太陽の司祭たちの書庫とともに埋もれている。そして残り火の指輪。エンバーウォッチの上の砦で、灰の司祭がはめている。\三つとも持ってきてくれ。そうしたら障壁をなんとかしてみよう。
+Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	三つだ。ガルミアの杖：王ご自身のもので、王の砦のてっぺんの私室にある。解縛の魔導書：デューンレスト郊外の砂漠に、太陽の司祭たちの書庫とともに埋もれている。そして残り火の指輪、灰の司祭がエンバーウォッチの上の砦ではめているものだ。\三つとも持ってくれば、障壁のことを考えよう。それと、来るときは足を拭いてくれ。
 I'll bring them.	持ってきます。
 Quest started: Bert's Three Treasures.	クエスト開始：バートの三つの宝。
-The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind.	王の砦の杖、砂漠の下の魔導書、灰の司祭の指輪。三つともだぞ。
+The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind. Two is not three. People keep trying two.	王の砦の杖、砂漠の下の魔導書、灰の司祭の指輪。三つともだぞ。二つは三つではない。みんな二つで済ませようとする。
 Something else.	ほかのことを。
-I study the arcane arts up here, far from the noise of the court.\I sell spell scrolls, though they don't come cheap. Or I can send you anywhere I've been.	私はここで、宮廷の喧騒から離れて秘術を研究している。\呪文の巻物を売っているが、安くはないぞ。あるいは、私が行ったことのある場所ならどこへでも送ってやれる。
+I study the arcane arts up here, far from the noise of the court. Mostly far from the court.\I sell spell scrolls, though they don't come cheap. I set the prices by how my day's going. Or I can send you anywhere I've been.	私はここで、宮廷の喧騒から離れて秘術を研究している。特に宮廷から離れて。\呪文の巻物を売っているが、安くはないぞ。値段はその日の気分で決める。あるいは、私が行ったことのある場所ならどこへでも送ってやれる。
 Show me your scrolls.	巻物を見せて。
 Can you teleport me?	テレポートしてもらえますか？
 Another heir has come to you, besides me.	私のほかにも、跡継ぎがあなたのところへ来ました。
-Where to?	どこへ？
+Where to? Keep your arms in.	どこへ？ 腕は中に入れておけ。
 To the Isle.	島へ。
 To Northport.	ノースポートへ。
 Nowhere, thanks.	どこにも行きません。
@@ -1180,7 +1180,7 @@ The furnace: smelt ore.	炉：鉱石を製錬する。
 The anvil: smith bars.	金床：延べ棒を鍛える。
 Never mind.	やっぱりいい。
 Copper, tin and coal: in the grotto under the beggar's cellar.\Iron: the old mine in the Whispering Woods, past the King's guard. Wear armour.\Silver lies deeper down. Brokk the dwarf has found mithril in the Deep Hollow.	銅、錫、石炭：物乞いの地下室の下の洞窟にある。\鉄：ささやきの森の古い鉱山、王の衛兵の先だ。鎧を着ていけ。\銀はもっと深いところにある。ドワーフのブロックが深き洞でミスリルを見つけた。
-Every beast that bothers Ashen ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	アシェンを困らせる獣は、遅かれ早かれ俺の掲示板に載る。今日のやつは俺の横に貼ってある。数を持ってくれば、賞金を持ってくる。
+Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	ガルミアを困らせる獣は、遅かれ早かれ俺の掲示板に載る。今日のやつは俺の横に貼ってある。数を持ってくれば、賞金を持ってくる。
 Who pays for it?	誰が払うの？
 The towns put in, the farms put in, and anyone who's lost a sheep puts in twice. One bounty a day, mind. The purse isn't bottomless.	町が出し、農場が出し、羊をなくした者は二度出す。賞金は一日一つだけだぞ。財布の底は抜けてないんだ。
 So you're the one Nell sent. Sit down. No, there. Now.\When I was a girl my mother told me about the Glass Wardens. The first king set them to keep watch over something that fell in the sea, a long time ago, and they built a house for it under the water, and they went down to it, and they didn't come back up.	じゃあ、ネルがよこしたのはあなたね。座って。いいえ、そこ。さあ。\私が娘のころ、母がガラスの守り手の話をしてくれたの。最初の王が、ずっと昔に海に落ちた何かを見張らせるために彼らを置いた。彼らは水の下にそのための家を建て、そこへ降りていって、二度と上がってこなかった。
@@ -1204,7 +1204,7 @@ Quest started: The Brother in the Ash.	クエスト開始：灰の中の兄弟�
 I'm going.	行ってきます。
 'She's coming for me? ...Then I'd better be here when she does.'	「彼女が俺のところへ来る？……それなら、来たときに俺はここにいなきゃな」
 A man in a burnt grey robe kneels by the chapel wall, praying under his breath. He doesn't look up.	焼けた灰色のローブの男が礼拝堂の壁際にひざまずき、小声で祈っている。顔を上げようとしない。
-Who's there? You're not one of them, thank the stars!\I'm Tobias, Bess and Maren's father. The brutes caught me in my own house, and they've kept me in this cage ever since. They took my keys too: my house key's hidden in one of their barrels, the one in the corner. I watched them do it.\Can you get this lock open? It's a poor old lock.	誰だ？ やつらの仲間じゃないな、ありがたい！\わしはトバイアス、ベスとマレンの父親だ。乱暴者どもに自分の家で捕まって、それからずっとこの檻に入れられている。鍵も取られた：家の鍵はやつらの樽の一つ、隅のやつに隠されている。隠すところを見ていたんだ。\この錠を開けられるかね？ 古くてお粗末な錠だよ。
+Who's there? You're not one of them, thank the stars!\I'm Tobias, Bess and Maren's father. The brutes caught me in my own house, and they've kept me in this cage ever since. Turnip stew, every night. Not even good turnips.\They took my keys too: my house key's hidden in one of their barrels, the one in the corner. I watched them do it.\Can you get this lock open? It's a poor old lock.	誰だ？ やつらの仲間じゃないな、星よ感謝します！\わしはトビアス、ベスとマレンの父親だ。乱暴者どもに自分の家で捕まって、それからずっとこの檻の中だ。毎晩カブのシチュー。それもろくでもないカブだ。\鍵も取られた：家の鍵はやつらの樽の一つ、隅のやつに隠してある。隠すところを見たんだ。\この錠を開けられるかね？ 古くてぼろい錠だよ。
 Hold on.	待っていてください。
 You look handy with a blade. Bandits are robbing every cart on the Redrock road, and my men are too few.\Kill five of them and come back to me.	剣の扱いがうまそうだな。レッドロック街道で山賊があらゆる荷車を襲っているのに、部下が足りない。\五人倒して、私のところへ戻ってこい。
 Consider it done.	任せてください。
@@ -1223,7 +1223,7 @@ The bandits are gone, and so are the town's goods. Word is they turned up on the
 The road is safe again. Frosthold salutes you.	街道はまた安全になった。フロストホールドはあなたに敬礼する。
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	山賊がうようよしているうちは、街道は民間人の来るところじゃない。本気で剣を振れるようになったら、また報告に来い。
 Yes, Captain.	はい、隊長。
-Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Ashen ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	ドラゴン島？ はっ！ あそこへ船を出して帰ってきた者はいない。わしは二度やったがね。周りの岩礁が動くんだよ、相棒。潮でじゃない：動くんだ。\昔は道を知っている海図があった：オリンのだ。アシェン一の航海士だった。空を読みに魔術師院の南にある裂けた塔へ登って、二度と降りてこなかった。オリンの海図を持ってきてくれれば、あんたの島を見つけてやる。\それと、どこへ行くにしても船体を直さなきゃならん：板十枚と釘二十本だ。帰り道に大工の作業台があったら頼む。
+Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	ドラゴン島？ はっ！ あそこへ船を出して帰ってきた者はいない。わしは二度やったがね。周りの岩礁が動くんだよ、相棒。潮でじゃない：動くんだ。\昔は道を知っている海図があった：オリンのだ。ガルミア一の航海士だった。空を読みに魔術師院の南にある裂けた塔へ登って、二度と降りてこなかった。オリンの海図を持ってきてくれれば、あんたの島を見つけてやる。\それと、どこへ行くにしても船体を直さなきゃならん：板十枚と釘二十本だ。帰り道に大工の作業台があったら頼む。
 Quest started: Orrin's Chart.	クエスト開始：オリンの海図。
 Orrin's chart, matey. The Sundered Tower, south of the Wizards' Court. Mind the stairs: there aren't any.	オリンの海図だぞ、相棒。魔術師院の南の裂けた塔だ。階段に気をつけな：一段もないからな。
 Right.	わかった。
@@ -1265,23 +1265,23 @@ Sister Hesper kneels on the cold floor, a plain wooden bead in her hands where t
 It is.	そうです。
 Brother Odo has his grey robe folded on the bench beside him, and doesn't look at it.\"I gave it three years' Shards. It told me my brother forgave me." He rubs his eyes. "I'm going to go and ask him myself. On foot. It's a long way."	ブラザー・オドは灰色のローブをたたんで隣の長椅子に置き、それを見ようとしない。\「三年分のシャードをあれに捧げた。あれは、兄が俺を許したと言った」彼は目をこする。「兄に自分で聞きに行くよ。歩いてね。長い道のりだ」
 Go well, Odo.	お元気で、オド。
-Mary's $Player.Boy. So the time has come.\She came to me years ago with something to hide: an amulet. We put it at the back of the caves under this chapel, behind bars no hand could reach through.\You have the trapdoor's key from Maren, and a sword and a shield, and you look as if you can use them now. Go down. I'll not be far behind you.	メアリーの $Player.Boy。では、時が来たのだな。\何年も前、彼女は隠したいものを持って私のところへ来た：アミュレットだ。私たちはそれをこの礼拝堂の下の洞窟の奥、どんな手も通らない格子の向こうに置いた。\マレンから落とし戸の鍵を受け取り、剣と盾もある。もう使いこなせるように見える。降りていきなさい。私もすぐ後から行く。
-You're ready, I'd say. But the trapdoor's locked, and I gave its key to Maren, the doctor, for safekeeping.	準備はできているようだ。だが落とし戸には鍵がかかっていて、その鍵は医師のマレンに預けてある。
+Mary's $Player.Boy. So the time has come. I'd hoped it would come on a drier day.\She came to me years ago with something to hide: an amulet. We put it at the back of the caves under this chapel, behind bars no hand could reach through.\You have the trapdoor's key from Maren, and a sword and a shield, and you look as if you can use them now. More or less. Go down. I'll not be far behind you.	メアリーの $Player.Boy。では、時が来たのだな。もう少し乾いた日に来てほしかったが。\何年も前、彼女は隠したいものを持って私のところへ来た：アミュレットだ。私たちはそれをこの礼拝堂の下の洞窟のいちばん奥、どんな手も届かない格子の向こうに置いた。\マレンから落とし戸の鍵をもらい、剣と盾もある。今なら使いこなせそうに見える。まあ、だいたいは。下りなさい。私もすぐ後ろにいる。
+You're ready, I'd say. But the trapdoor's locked, and I gave its key to Maren, the doctor, for safekeeping. Everyone gives Maren things for safekeeping. She's never lost one. I've lost three umbrellas.	準備はできたようだね。だが落とし戸には鍵がかかっていて、その鍵は医者のマレンに預けてある。みんなマレンに物を預ける。彼女は一度もなくしたことがない。私は傘を三本なくした。
 I'll ask her.	彼女に聞いてみます。
-Wooden swords and good intentions. Practise first: the goblins in the woods to the west, until your Attack and Defence are level 2. Then come back.	木の剣と善意だけか。まず練習だ：西の森のゴブリンを相手に、攻撃と防御がレベル 2 になるまで。それから戻ってきなさい。
-Down there, with your sword and shield in your pack? Wield them both, then we'll talk.	剣と盾を背嚢に入れたまま、あそこへ？ 両方装備しなさい。話はそれからだ。
-Peace be with you. I'm Brother Aldous: I keep the chapel, and the graves out there. I buried your mother this morning. She was a good woman.	平安あれ。私はオルダス修道士：礼拝堂と、外の墓を守っている。今朝、あなたのお母さんを埋葬した。立派な方だった。
+Wooden swords and good intentions. I've buried plenty of both.\Practise first: the goblins in the woods to the west, until your Attack and Defence are level 2. Then come back.	木の剣と善意か。どちらもたくさん葬ってきた。\まず稽古だ：西の森のゴブリンで、攻撃と防御がレベル 2 になるまで。それから戻ってきなさい。
+Down there, with your sword and shield in your pack? You'd be the first I've buried with them still wrapped. Wield them both, then we'll talk.	あの下へ、剣と盾を荷物に入れたまま？ 包んだまま葬られるのはあなたが初めてになる。両方とも装備しなさい。話はそれからだ。
+Peace be with you. I'm Brother Aldous: I keep the chapel, and the graves out there. I buried your mother this morning. She was a good woman. She'd have hated the hymns.	あなたに平安を。私はアルダス修道士：礼拝堂と、外の墓を守っている。今朝、あなたのお母さんを葬った。よい人だった。あの賛美歌は嫌がっただろうがね。
 What's down in the cellar?	地下室には何があるのですか？
-Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed.	樽とほこり、そして洞窟へ降りる落とし戸がある。武器なしで行くべきところではない。
+Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed. Or at all, really. But people will.	樽とほこり、そして洞窟へ下りる落とし戸。武器なしで行くべき場所ではない。というより、行くべき場所ではない。だが人は行く。
 I see.	なるほど。
-The trapdoor is in the cellar, down the steps behind the altar. The amulet is at the very back of the caves.	落とし戸は地下室にある。祭壇の裏の階段を降りたところだ。アミュレットは洞窟のいちばん奥にある。
-Cast the Grasp at the bars, and the amulet will come to you.	格子に向かって「つかみ」を唱えれば、アミュレットはあなたのもとへ来る。
-Keep the amulet close, and show it to no one but your father. Go with God.	アミュレットは肌身離さず、父上以外の誰にも見せないように。神とともに行きなさい。
+The trapdoor is in the cellar, down the steps behind the altar. The amulet is at the very back of the caves. Wipe your feet when you come back up.	落とし戸は地下室、祭壇の後ろの階段を下りたところだ。アミュレットは洞窟のいちばん奥にある。上がってきたら足を拭きなさい。
+Cast the Grasp at the bars, and the amulet will come to you. At the bars. Not at the collection box.	格子に向けてつかみを唱えれば、アミュレットはあなたのもとへ来る。格子に、だ。献金箱にではない。
+Keep the amulet close, and show it to no one but your father. Go with God. Or at least go.	アミュレットを肌身離さず持ち、父上以外の誰にも見せるな。神とともに行きなさい。少なくとも、行きなさい。
 Did my mother leave anything else with you?	母はほかに何か預けていませんでしたか？
 What did she mean, 'Jimmy knows where'?	「ジミーが場所を知っている」とはどういう意味ですか？
 Someone else here says they're Mary's heir too.	ここにいる別の人も、メアリーの跡継ぎだと言っています。
-Do they? The Shards don't count the way we do. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The Shards will know each of you for an heir. Whether the crown does is your father's business, not mine.	そうかね？ シャードは私たちのようには数えない。最初の王がドラゴンを切り倒したとき、その切り口をつなぎとめるには王家の血が要った。そしてその血は、以来一人だけでなく多くの血管を流れてきた。シャードはあなたがた一人一人を跡継ぎと認めるだろう。王冠がそうするかどうかは、あなたの父上の問題で、私のではない。
-One thing, yes. Near the end she gave me this, and made me promise to keep it till the amulet was yours.\A charm, in her hand. She studied at the Wizards' Court when she was young, did you know? She said: 'Jimmy knows where. Read it by him, and ask him.'\I read it once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it.	一つ、ある。最期が近いころ、彼女はこれを私に渡し、アミュレットがあなたのものになるまで預かると約束させた。\彼女の字で書かれたまじないだ。若いころ魔術師院で学んでいたのを知っていたかね？ 彼女は言った：「ジミーが場所を知っている。彼のそばで読んで、彼に聞いて」\私も一度読んでみた。何も起きなかった、ありがたいことに。たぶん彼女の血がないと読めないのだろう。
+Do they? The Shards don't count the way we do. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The Shards will know each of you for an heir. Whether the crown does is your father's business, not mine. I only do the burials.	そうかね？ シャードは私たちのようには数えない。最初の王がドラゴンを切り倒したとき、その切り口をつなぎとめるのに王家の血が要った。その血はそれ以来、一つより多くの血筋に流れている。シャードはあなたがたそれぞれを跡継ぎとみなすだろう。王冠がそうするかは父上の問題で、私の問題ではない。私は葬式をするだけだ。
+One thing, yes. Near the end she gave me this, and made me promise to keep it till the amulet was yours.\A charm, in her hand. She studied at the Wizards' Court when she was young, did you know? She said: 'Jimmy knows where. Read it by him, and ask him.'\I read it once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it. Or perhaps I read it wrong. I'd rather not know which.	一つ、ある。最期が近いころ、彼女はこれを私に渡し、アミュレットがあなたのものになるまで預かると約束させた。\お守りの呪文だ、彼女の字で。若いころ魔術師院で学んでいたのを知っていたかね？ 彼女はこう言った：『ジミーが場所を知っている。彼のそばで読んで、彼に聞いて』\私も一度読んだ。何も起きなかった、主よ感謝します。読むには彼女の血が要るのかもしれない。あるいは私の読み方がまずかったのかもしれない。どちらなのかは知りたくない。
 I'll try it.	試してみます。
 Quest started: What Jimmy Kept.	クエスト開始：ジミーが守っていたもの。
 Read her charm by Jimmy, and ask him. Not in the chapel, mind. I'll not have a cat at the altar.	彼女のまじないをジミーのそばで読んで、彼に聞きなさい。ただし礼拝堂の中ではだめだ。祭壇に猫を上げるわけにはいかない。
@@ -1365,6 +1365,7 @@ A king, they told me, paint a king. Which way does a king face? Left, for wisdom
 Twenty years nobody wanted a portrait in this palace. Now everybody does.	二十年、この宮殿で肖像画を欲しがる者はいなかった。今は誰もが欲しがる。
 Welcome to the cathedral of The Wizards' Court. Sit a while: the light through the glass is lovely.	魔術師院の大聖堂へようこそ。しばらく座っていって：ガラス越しの光がきれいですよ。
 My grandmother lived in this very house. Her grandmother too.	私の祖母はまさにこの家に住んでいたの。その祖母もよ。
+I'm the sheriff here. The cells are empty and I like them that way.	私がここの保安官だ。牢は空っぽで、私はそのほうが好きなんだ。
 Tarek sent you? Then he'll want his goat. Tell him no.\The Deep Anvil: aye, we found the old dwarf hall, west of here under the mountains. And the Stone King found us. It sits the dwarves' throne as if it built it. Two of mine went in to talk to it. It doesn't talk.	タレクがよこしたのか？ じゃあヤギを返せと言うんだろう。だめだと伝えてくれ。\深淵の金床：ああ、古いドワーフの広間を見つけたよ、ここの西、山の下だ。そして石の王が俺たちを見つけた。自分で建てたみたいな顔でドワーフの玉座に座っている。仲間が二人、話をしに入っていった。あれは話さない。
 Something else...	ほかのことを...
 Quest started: The Deep Anvil.	クエスト開始：深淵の金床。
@@ -1463,17 +1464,17 @@ Skeletons smashed: $Variable.2 of 4. Trolls slain: $Variable.3 of 1.\The skeleto
 I'll get back to it.	続きに戻ります。
 My halls are quiet again, friend. Mine the crystal vein any time you like, if you've the skill for it.\And help yourself to what's in my vault, west of the forge.	わしの広間はまた静かになったよ、友よ。腕があるなら、いつでも水晶の鉱脈を掘るといい。\それと、炉の西にあるわしの金庫のものも好きに使ってくれ。
 Hah! My grudge is with things that bite back, beanpole. Get the King's hobgoblins seen to and some muscle on those arms, and then we'll talk.	はっ！ わしの恨みは噛みついてくる連中に向けたものだ、ひょろ長いの。王のホブゴブリンを片づけて、その腕に少し筋肉をつけてこい。話はそれからだ。
-A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.	目玉焼き、縁がカリッとして、私の好みどおり！ お母さんの優しさを受け継いだのね。ありがとう。
+A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.\Let the record show that I am very pleased.	目玉焼き、縁がカリッとして、私の好みどおり！ お母さんの優しさを受け継いだのですね。ありがとう。\大変満足している旨、記録に残しておいてください。
 Enjoy it.	どうぞ召し上がれ。
-Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield.	ありがとう。さて、オルダス修道士が私たちにこれを預けていったの：礼拝堂の地下室にある落とし戸の鍵よ。メアリーは、いつかあなたにこれが必要になると言っていたわ。\ただ、剣と盾なしにはあそこへ降りないと約束して。
+Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield. I've patched up enough folk who went down with a stick and an opinion.	ありがとう、あなた。さて、アルダス修道士がこれを預けていったの：礼拝堂の地下室の落とし戸の鍵よ。メアリーは、いつかあなたが必要になるって言っていた。\ただ、剣と盾なしにあそこへ下りないと約束して。棒きれ一本と意見だけ持って下りた人たちを、もう十分縫ってきたから。
 I promise.	約束します。
-And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can.	それからこれも持っていって：ベスの薬草で作った回復薬を二つ。けがをしたら一つ飲むこと：医者の命令よ。\薬草よ、いい？ 魔法じゃないの。シャードはいろいろなことができるけれど、体を癒やすことはできない：それができるのは醸造の薬草だけ。
+And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can. They taste dreadful. That's how you know they work.	それとこれも持っていって：ベスの薬草で作った回復薬を二つ。けがをしたら一つ飲むこと：医者の命令よ。\薬草よ、いい？ 魔法じゃない。シャードはいろんなことができるけど、体は治せない：治せるのは醸造家の薬草だけ。ひどい味よ。だから効くってわかるの。
 Thank you, Maren.	ありがとう、マレン。
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	クエスト達成：エドウィンの家の夕食！ マレンから礼拝堂の落とし戸の鍵と、回復薬を二つ受け取った。
-If you need anything drawn up, a will or a deed, I'm your man.	遺言書でも証書でも、何か作る必要があれば私にお任せを。
+If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	遺言書でも証書でも、何か作成が必要なら、私にお任せください。もっとも、遺言書が必要になるのは、ずっとずっと先であってほしいものですが。
 What was my mother like?	母はどんな人でしたか？
-She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. I always thought there was more to her than a cottage and a cat.	あなたを腕に抱いて島に来て、どこから来たのかは決して言わなかった。親切で、誇り高く、見せている以上にずっと賢かった。コテージと猫だけではない何かがある人だと、ずっと思っていたよ。
-Take your time with the letter. It's yours alone.	手紙はゆっくり読みなさい。あなただけのものだから。
+She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	彼女はあなたを腕に抱いて島に来て、どこから来たのかは決して言いませんでした。優しくて、誇り高くて、見せている以上にずっと賢い人でした。一度、私の報酬を私自身に辞退させたことがあって、しかも私は礼を言ったのです。\小さな家と猫だけの人ではないと、いつも思っていました。
+Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	手紙はゆっくり読んでください。あなただけのものです。私は気になっていません。まったく、まったく気になっていません。
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	三枚目の板に気をつけな。五枚目もだ。本当のところ、全部に気をつけな。
 What do you catch out here?	ここで何を釣っているのですか？
 Seen anything odd?	何か変わったものを見ましたか？
@@ -1529,7 +1530,7 @@ Quest complete: Passage to the Mainland!	クエスト達成：大陸への渡航
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	舟が着いているときに乗り込んで、運賃は硬貨一枚。鐘の合図で両方の桟橋を出るよ。
 Cross the strait? Papers first, friend. Since the raids, Northport's guards send back anyone off the Isle without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping the Isle's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	海峡を渡る？ まずは書類だ。襲撃があってから、ノースポートの衛兵は書類のない島の者をみんな送り返す。それを連れて帰るのはわしなんだ。\前はトバイアスじいさんがいつも書いてくれた。島の名簿をつけていたからね。でもホブゴブリンが来てから誰も見ていない。農場のベスに聞いてみな：あの人の娘だ。
 Quest started: Passage to the Mainland.	クエスト開始：大陸への渡航。
-Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you.	書類は持ってるかい？ ない？ じゃあ渡せないよ。ノースポートに送り返されるだけで、連れて帰るのはわしなんだから。
+Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	書類はあるか？ ない？ なら渡しは無理だ、友よ。ノースポートに送り返されるだけで、連れ戻すのは俺になる。漕ぐのは二倍、運賃は同じだ。
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	今日は魚の食いがいい！ 針にミミズをつければ、海のものなら何でも食いつくよ。\竿の扱いに慣れたら、マスが夢中で食いつくぞ。
 Any big catches about?	大物はいますか？
 Cave eels! Pale as ghosts, they live in the black pools deep underground. You'll want real skill (Fishing 8) to land one.\I pay well for them, cooked or raw.	洞窟ウナギだ！ 幽霊みたいに青白くて、地下深くの真っ黒な水たまりに棲んでいる。釣り上げるには本物の腕（釣りレベル 8）が要るぞ。\焼いてても生でも、いい値で買うよ。
@@ -1550,14 +1551,14 @@ Quest complete: The Frozen Forge! You receive a mithril sword, 250 gold and Craf
 Two mithril bars and I'll forge you something special.	ミスリルの延べ棒を二本持ってきてくれれば、特別なものを鍛えてやる。
 The forge roars again. Come back if you need anything mended.	炉はまた燃え盛っている。何か直してほしいものがあればまた来い。
 The cold up there splits stone, and the things in it split skulls. You'd freeze before you got a hammer up. Harden yourself, then come back.	あそこの寒さは石を割り、そこにいるものは頭蓋を割る。槌を振り上げる前に凍えちまうぞ。体を鍛えてから戻ってこい。
-Bess sent you? Then you'll want a sword and a shield, and I'll show you how. Wood first: you'll learn to swing a blade before anyone trusts you with steel.\Use my workbench there (Craft): a wooden sword takes 2 logs, a wooden shield 3. Here, have some of my seasoned wood.	ベスに言われて来たのか？ じゃあ剣と盾が要るな。やり方を教えてやろう。まずは木だ：鋼を任されるのは、刃の振り方を覚えてからだ。\そこの作業台を使え（作る）：木の剣には丸太 2 本、木の盾には 3 本要る。ほら、乾かした木を少しやろう。
+Bess sent you? Thought so. She sends me everyone.\Sword and shield, then. Wood first: nobody gets steel till they've stopped hitting themselves with wood.\Use my workbench there (Craft): a wooden sword takes 2 logs, a wooden shield 3. Here, have some of my seasoned wood.	ベスがよこしたのか？ だと思った。誰でも俺によこす。\剣と盾だな。まずは木だ：木で自分を叩かなくなるまで、誰にも鋼は渡さん。\そこの作業台を使え（作る）：木の剣は丸太 2 本、木の盾は 3 本だ。ほら、乾かした木を少しやる。
 Thank you, Frank.	ありがとう、フランク。
-Not bad at all! Now wield them: sword in your hand, shield on your arm, and get used to the weight. Practise on the goblins in the woods west of the village till your arm's strong (Attack 2) and you can take a knock (Defence 2).\Then go and see Brother Aldous at the chapel. He keeps the way down.	なかなかいいじゃないか！ さあ装備しろ：剣は手に、盾は腕に。重さに慣れるんだ。腕が強くなって（攻撃 2）、一撃に耐えられるようになるまで（防御 2）、村の西の森でゴブリン相手に練習しろ。\それから礼拝堂のオルダス修道士に会いに行け。降りていく道は彼が守っている。
-And here: my first dagger. It's past mending, but don't throw it away. Everything that's forged keeps a little of the world's magic in it: break it down (Dismantle, in your pack) and you'll have a Shard out of it. Do the same with any gear you've outgrown.	それとこれ：わしの最初の短剣だ。もう直せないが、捨てるなよ。鍛えられたものにはどれも、世界の魔法が少し残っている：分解すれば（背嚢で「分解」）シャードが一つ取れる。使わなくなった装備も同じようにしな。
-A wooden sword and a wooden shield, at my workbench (Craft). Bring them to show me when they're made.	木の剣と木の盾、わしの作業台で（作る）。できたら見せに持ってこい。
-Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair).	鍛冶は暑い仕事だ。装備が傷んだら、手ごろな値で直してやる（修理）。
+Not bad. Not bad at all. Now wield them: sword in your hand, shield on your arm, and get used to the weight. Practise on the goblins in the woods west of the village till your arm's strong (Attack 2) and you can take a knock (Defence 2).\Then go and see Brother Aldous at the chapel. He keeps the way down. Don't get him started on graves.	悪くない。全然悪くない。さあ装備しろ：剣は手に、盾は腕に。重さに慣れるんだ。腕が強くなって（攻撃 2）、一発くらっても耐えられるようになる（防御 2）まで、村の西の森のゴブリンで稽古しろ。\それから礼拝堂のアルダス修道士に会いに行け。下への道を守っている。墓の話はさせるなよ。
+And here: my first dagger. It's past mending. It was past mending when I made it.\Don't throw it away, though. Everything that's forged keeps a little of the world's magic in it: break it down (Dismantle, in your pack) and you'll have a Shard out of it. Do the same with any gear you've outgrown.	それとこれ：わしの最初の短剣だ。もう直せない。作ったときから直せなかった。\でも捨てるなよ。鍛えられたものにはどれも、世界の魔法が少し残っている：分解すれば（荷物の中で「分解」）、シャードが一つ取れる。合わなくなった装備も同じようにしろ。
+A wooden sword and a wooden shield, at my workbench (Craft). Bring them to show me when they're made. Both of them. A shield on its own is just a door you carry.	木の剣と木の盾を、わしの作業台で（作る）。できたら見せに持ってこい。両方だぞ。盾だけじゃ、持ち歩く扉にすぎん。
+Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair). Fair to me, anyway.	鍛冶は暑い仕事だ。装備が傷んだら、手頃な値で直してやる（修理）。俺にとって手頃な値だがな。
 Can you open a locked chest?	鍵のかかった箱を開けられますか？
-I make the things, so I know their tricks. A lock's a few pins on springs: work each one up till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at keeping out of sight, the steadier your hands.\Or put your weight on the lid till it splits (Break Open). Loud, mind. And a chest bound in iron won't split for anyone: that one you pick, or find its key.	わしはそれを作っているから、仕掛けも知っている。錠はばねのついたピンが数本あるだけだ：一本ずつ引っかかるまで、静かに辛抱強く押し上げれば、ふたはお前のものだ（錠前破り）。人目を避けるのがうまいほど、手も落ち着く。\あるいは、ふたが割れるまで体重をかけろ（こじ開ける）。音はするがな。それに鉄で補強された箱は誰がやっても割れない：そういうのは錠を破るか、鍵を見つけるかだ。
+I make the things, so I know their tricks. A lock's a few pins on springs: work each one up till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at keeping out of sight, the steadier your hands.\Or put your weight on the lid till it splits (Break Open). Loud, mind. And a chest bound in iron won't split for anyone: that one you pick, or find its key.\Not mine, mind. Mine are made properly.	わしはそれを作っているから、仕掛けも知っている。錠はばねのついたピンが数本あるだけだ：一本ずつ引っかかるまで、静かに辛抱強く押し上げれば、ふたはお前のものだ（錠前破り）。人目を避けるのがうまいほど、手も落ち着く。\あるいは、ふたが割れるまで体重をかけろ（こじ開ける）。音はするがな。それに鉄で補強された箱は誰がやっても割れない：そういうのは錠を破るか、鍵を見つけるかだ。\わしのは別だぞ。わしのはちゃんと作ってある。
 Thanks, Frank.	ありがとう、フランク。
 A visitor! Of the proper shape, at last. Kneel. (You're already as low as you go.) Good. We are robbed. Our pearl, from our own lily pad, taken by the heron to her nest in the east. We would go ourself, but she eats kings.	客人だ！ ようやくまともな姿の。ひざまずけ。（もうこれ以上低くはなれないが）よろしい。我らは盗まれた。我らが真珠、我ら自身の睡蓮の葉から、東の巣へサギが持ち去った。我ら自ら行くところだが、あれは王を食うのだ。
 I'll get it back.	取り返してきます。
@@ -1600,7 +1601,7 @@ You have it? Then take it to Captain Hart at the palace door. He answers to the 
 Her own hand. Then there's nothing left to doubt.\She turns the amulet in the lamplight once more, and her hands begin to shake.	彼女自身の字。もう疑う余地はない。\彼女はもう一度ランプの明かりでアミュレットを回し、その手が震え始める。
 She was my mother.	彼女は私の母でした。
 Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	では、お帰りなさいませ、$Player.Lord。私の言葉を、私の印で封じて大法官へ持っていってください。
-The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Ashen Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官がよこしたのか？ 見せてくれ。\王冠、サファイア、留め金の下にある古の鍛冶師たちの印。これは継承のアミュレットだ。メアリー王妃が姿を消した夜に身につけていたものだ。\だがアミュレットは盗めるし、私の印は取り消せない。彼女が逃げた夜、先の大法官は彼女の書類をこの広間の下の金庫室に封じ、近衛兵に守らせた。彼女自身の字で書かれたものを持ってきてくれれば、確かめられる。
+The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官がよこしたのか？ 見せてくれ。\王冠、サファイア、留め金の下にある古の鍛冶師たちの印。これは継承のアミュレットだ。メアリー王妃が姿を消した夜に身につけていたものだ。\だがアミュレットは盗めるし、私の印は取り消せない。彼女が逃げた夜、先の大法官は彼女の書類をこの広間の下の金庫室に封じ、近衛兵に守らせた。彼女自身の字で書かれたものを持ってきてくれれば、確かめられる。
 How do I get down there?	どうやってそこへ降りるのですか？
 There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	広間の奥にハッチがある。かんぬきは外しておこう。下の見張りは私ではなく大法官に仕えていて、相手が誰かを先に尋ねたりはしない。静かに行きなさい。
 An amulet? You'd better show it to me, then. I can't vouch for a story.	アミュレット？ では見せてもらったほうがいい。話だけでは保証できない。
@@ -1638,11 +1639,11 @@ Then we have nothing more to discuss.	では、これ以上話すことはあり
 No, we don't.	ええ、ありません。
 You wish to see the King? You, and every merchant, beggar and poet in Galaith, now the gates are open.\What makes you more than they are?	王に会いたいと？ あなたも、門が開いた今となってはガライスじゅうの商人も物乞いも詩人もそう言う。\あなたが彼らより上だというのは、何によってだ？
 I am his $Player.Son.	私は王の $Player.Son です。
-Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Ashen. If she vouches for it, so shall I.	大胆な。王妃の御子なら今は十八歳で、継承のアミュレットを身につけているはずだ。それを市庁舎の王室記録官に見せなさい：彼女はアシェンの真の印をすべて知っている。彼女が保証するなら、私もそうしよう。
+Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall I.	大胆な。王妃の御子なら今は十八歳で、継承のアミュレットを身につけているはずだ。それを市庁舎の王室記録官に見せなさい：彼女はガルミアの真の印をすべて知っている。彼女が保証するなら、私もそうしよう。
 I'll go to the Archivist.	記録官のところへ行きます。
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	記録官の印、緑の。では真実なのだ。\$Player.Lord。老人の疑いをお許しください。これが私の令状です：近衛兵の隊長にお見せください。
 Thank you, Chancellor.	ありがとうございます、大法官。
-The Parliament of Ashen will return from Northport, now the road is open. There is much to do.	道が開いた今、アシェンの議会もノースポートから戻ってくるでしょう。やるべきことはたくさんあります。
+The Parliament of Galmere will return from Northport, now the road is open. There is much to do.	道が開いた今、ガルミアの議会もノースポートから戻ってくるでしょう。やるべきことはたくさんあります。
 Pots, pails and tools: a bit of everything for the road.	鍋、手桶、道具：旅に必要なものを少しずつ何でも。
 Cloth and wool, the best!	布と羊毛、最高の品だよ！
 Boots that last!	長持ちするブーツだよ！
@@ -1682,15 +1683,15 @@ Fresh from the farms!	農場から届いたばかり！
 Welcome to The Hearth and Hound! What'll it be?	炉辺と猟犬亭へようこそ！ 何にする？
 Tom, Bramble's sawyer. Planks, cut this morning, at what the mill pays. Logs, if you'd rather.	トム、ブランブルの木挽きだ。今朝切った板を、製材所の買い値で。丸太のほうがよければそれも。
 Ivy, of Ash's rangers. Nightshade and marigold grow thick under these oaks, and nowhere else near. Ash says you're to have what you need.	アッシュのレンジャーのアイビーよ。この樫の下にはベラドンナとマリーゴールドがびっしり生えていて、近くではほかのどこにも生えないの。アッシュが、必要なだけ持っていっていいって。
-Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind your manners, and keep your blade sheathed.	魔術師院へようこそ。魔術師たちは大広間で院を開いている。\行儀よくして、剣は鞘に収めておくように。
-Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you.\Unless the Steward sent you, of course.	止まれ！ 鉱山は王の家令の命令で閉鎖されている。\胴鎧を着けていない者はこの門を通さない。下のホブゴブリンにはらわたをえぐられるぞ。\もちろん、家令がよこしたのなら別だが。
+Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind your manners, and keep your blade sheathed. If one of them turns you into a frog, don't come crying to me. You won't be able to.	魔術師院へようこそ。魔術師たちは大広間で院を開いている。\行儀よくして、剣は鞘に収めておくように。カエルに変えられても、泣きつきに来るなよ。来られないだろうがな。
+Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you. I've seen it. I didn't care for it.\Unless the Steward sent you, of course.	止まれ！ 鉱山は王の家令の命令で閉鎖されている。\胴鎧を着けていない者はこの門を通さない。下のホブゴブリンどもにはらわたを抜かれるぞ。見たことがある。いい気分じゃなかった。\もちろん、家令に遣わされたなら別だ。
 Where can I get armour?	鎧はどこで手に入りますか？
-The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe.	砦の補給係が革と鉄を売っている。あるいは牛革をなめして、作業台で自分で作れ。\それと着けておけよ！ 背嚢に入れたままではホブゴブリンの斧は止まらない。
-Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears.\The Steward keeps the King's keep, south of here.	アシュフォードの平和を守れよ、市民。\仕事を探しているなら、王の家令がホブゴブリンの耳にいい金を払う。\家令はここの南にある王の砦を守っている。
+The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe. You'd be surprised how many ask.	砦の補給係が革と鉄を売っている。あるいは牛革をなめして、作業台で自分で作れ。\それと着けておけよ！ 荷物の中じゃホブゴブリンの斧は止まらん。聞いてくるやつが驚くほど多いんだ。
+Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	アシュフォードの平和を守れよ、市民。\仕事を探しているなら、王の家令がホブゴブリンの耳にいい金を払う。何に使うのかは聞くな。\家令はここの南にある王の砦を預かっている。
 Any other news?	ほかに知らせは？
-Halt! ...ah, you look honest enough. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	止まれ！ ……ああ、正直そうな顔だ。入れ。\王の留守中は家令が広間を守っている。\中庭の補給係が武器を売っている。
-Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them.	仲間が三人、古い鉱山の奥で大グモにかまれた。薬草師が何か薬を作ろうとしている。
-They say a dwarf lives right at the bottom of the mine, below the hobgoblin warren. Mad, if you ask me.	鉱山のいちばん底、ホブゴブリンの巣穴より下にドワーフが住んでいるそうだ。正気じゃないよ、まったく。
+Halt! ...ah, you look honest enough. Honest-ish. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	止まれ！ ……ああ、正直そうな顔だ。まあまあ正直そうな。入れ。\王の留守中は家令が広間を守っている。\中庭の補給係が武器を売っている。
+Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them. One of them's still screaming. That's Dennis. Dennis screams at moths.	仲間の三人が古い鉱山で大蜘蛛にかまれた。薬草師が何か煎じようとしている。一人はまだ叫んでいる。デニスだ。デニスは蛾にも叫ぶ。
+They say a dwarf lives right at the bottom of the mine, below the hobgoblin warren. Mad, if you ask me. Nobody does ask me. That's the trouble with this job.	鉱山のいちばん底、ホブゴブリンの巣のさらに下に、ドワーフが住んでいるそうだ。俺に言わせりゃ、いかれてる。誰も俺には聞かないがな。この仕事の困ったところだ。
 Interesting.	面白い。
 "Oh, it's you! Isn't it lovely down here? Oswin's so much clearer. He says I'm to stay, and so I shall."	「あら、あなた！ ここはすてきでしょう？ オズウィンの声がずっとはっきり聞こえるの。ここにいなさいって言うから、そうするわ」
 Goodbye, Annis.	さようなら、アニス。
@@ -1809,7 +1810,7 @@ Do a trick.	芸を見せて。
 A dragon walks into a tavern. The barkeep says, 'Why the long face?' The dragon eats him. It's all in the delivery.	ドラゴンが酒場に入ってきた。主人が言う、「なんでそんな浮かない顔を？」ドラゴンは主人を食べた。大事なのは話しっぷりさ。
 That's terrible.	ひどいな。
 How many wizards does it take to light a candle? None. They'd rather sit in the dark and tell you about the old days.	ろうそくに火をつけるのに魔法使いは何人要る？ ゼロ人。魔法使いは暗がりに座って昔話をするほうが好きだからね。
-What did the Shard say to the other Shard? Nothing. They're Shards. But I think about it a lot.	シャードがもう一つのシャードに何て言った？ 何も。シャードだもの。でも、そのことをよく考えるんだ。
+What did the Shard say to the other Shard? 'Haven't we met?' ...Nobody laughs at that one. I think it's because it's true.	シャードが別のシャードに何と言った？ 「前に会わなかった？」……これは誰も笑わない。本当のことだからだと思う。
 I told a goblin he drew his eyebrows too high. He looked surprised. Then he hit me. Goblins have no sense of timing.	ゴブリンに、眉毛の描き方が高すぎると言ってやった。やつは驚いた顔をした。それからわしを殴った。ゴブリンには間の取り方ってものがない。
 My father was a jester, and his father before him. It's a very sad family. You should see the christenings.	わしの父も道化で、その父もそうだった。とても悲しい家系だよ。洗礼式を見てほしいね。
 I've a bed I never sleep in, and a mouth I never speak with. I run all day, and I've never left the valley. What am I?	寝床はあるけど眠らない。口はあるけど話さない。一日じゅう走っているのに、谷を出たことがない。わしは何だ？
@@ -1873,7 +1874,7 @@ Thank you, Steward.	ありがとうございます、家令殿。
 Quest complete: The Steward's Hunt! 100 gold and a ruby.	クエスト達成：家令の狩り！ 金貨 100 枚とルビー。
 Five hobgoblins, from the old iron mine. You've $Attr.HobgoblinsSlain so far.	古い鉄鉱山のホブゴブリンを五匹だ。今のところ $Attr.HobgoblinsSlain だな。
 Bert wants the King's staff? It hangs in his solar, at the top of the keep, where he left it the night he rode for Galaith.\Nobody's been up since. The stair door is locked, and the old guard, they say, never left their post, even dead. Here's the key. Go carefully.	バートが王の杖を？ 砦のてっぺんの王の私室に掛かっている。王がガライスへ馬で発った夜、置いていかれたところにな。\それ以来誰も上がっていない。階段の扉には鍵がかかっていて、古い衛兵たちは、死んでも持ち場を離れなかったという。これが鍵だ。気をつけて行け。
-Quest started: The Staff of Ashen.	クエスト開始：アシェンの杖。
+Quest started: The Staff of Galmere.	クエスト開始：ガルミアの杖。
 The keep stands, and the King's roads are open. Long may they stay so.	砦は立ち、王の道は開かれている。いつまでもそうあってほしいものだ。
 Your Majesty. You honour the garden. It's been dull without honour.	陛下。庭に栄誉を賜りました。栄誉がなくて退屈だったのです。
 The court's coming back to life. Slowly. Like a cold hand.	宮廷が生き返りつつある。ゆっくりとね。冷たい手のように。
@@ -1914,20 +1915,20 @@ My uncle went down the Shifting Deep once. Came back up through a different hole
 Don't trust geese. That's all I'll say. Don't trust them.	ガチョウを信用するな。言えるのはそれだけだ。信用するなよ。
 I once saw a cow look at the moon for a whole night. Changed me, that did.	一度、牛が一晩じゅう月を眺めているのを見たことがある。あれで人生が変わったよ。
 If you see a hat floating about the Wizards' Court, say hello. That's Pip. He's shy.	魔術師院のあたりで帽子が浮かんでいるのを見たら、挨拶してやってくれ。それはピップだ。恥ずかしがり屋なんだ。
-They say the old king hid treasure all over Ashen. My grandad said that. My grandad also said he was a duck, so.	古の王がアシェンじゅうに宝を隠したそうだ。じいさんがそう言っていた。じいさんは自分がアヒルだとも言っていたがね。
-Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and I've not a stick of firewood left. Would you chop me three logs? Here, take Edwin's old axe.	まあ、かわいそうに。エドウィンがメアリーの手紙をあなたに届けると言っていたわ。私たち、彼女が大好きだったの。\夕食？ もちろん！ ただ、かまどが石みたいに冷えきっていて、薪が一本も残っていないの。丸太を三本割ってきてくれる？ ほら、エドウィンの古い斧を持っていって。
+They say the old king hid treasure all over Galmere. My grandad said that. My grandad also said he was a duck, so.	古の王がガルミアじゅうに宝を隠したそうだ。じいさんがそう言っていた。じいさんは自分がアヒルだとも言っていたがね。
+Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.	まあ、かわいそうに。エドウィンがメアリーの手紙をあなたに届けるって言ってたわ。私たち、本当に彼女が好きだったの。\夕食？ もちろん！ ただ、かまどは石みたいに冷えていて、エドウィンにとっての薪は古い証書の山なのよ。丸太を三本割ってきてくれる？ ほら、あの人の斧を持っていって。一度も使ったことがないの。私が言ったって言わないでね。
 I'll chop some logs.	丸太を割ってきます。
 Not just now.	今はちょっと。
 Quest started: Dinner at Edwin's. (H: your journal)	クエスト開始：エドウィンの家の夕食。（H：日誌）
-Lovely dry logs: that'll get the range going. Now, supper! Edwin's partial to an egg, fried crisp. Would you fetch one from my sister Bess's hen coop, up on the farm, and fry it on the range? It's upstairs, in our kitchen.	よく乾いた丸太ね：これでかまどが温まるわ。さあ、夕食よ！ エドウィンはカリッと焼いた目玉焼きに目がないの。農場の上にある妹ベスの鶏小屋から卵を一つ取ってきて、かまどで焼いてくれる？ 二階の、うちの台所にあるわ。
+Lovely dry logs: that'll get the range going. Now, supper! Edwin's partial to an egg, fried crisp. Would you fetch one from my sister Bess's hen coop, up on the farm, and fry it on the range? It's upstairs, in our kitchen.\Mind the brown hen. She bites, and I'm the one who has to stitch people up after.	いい乾いた丸太ね：これでかまどが動くわ。さあ、夕食！ エドウィンはカリッと焼いた卵が好きなの。農場の上にある妹のベスの鶏小屋から一つ取ってきて、かまどで焼いてくれる？ かまどは上の階、うちの台所よ。\茶色のめんどりに気をつけて。つつくのよ。あとで縫うのは私なんだから。
 I'll fetch an egg.	卵を取ってきます。
-Three logs, dear. Chop a tree with the axe I gave you.	丸太三本よ。私があげた斧で木を切って。
+Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, and not your foot.	丸太三本よ。あげた斧で木を切ってね。丸太よ、いい？ 小枝じゃなくて、自分の足でもなくて。
 I'll keep chopping.	続けて切ります。
-An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased.	ベスの小屋の卵を、二階の私のかまどで焼いて、それをエドウィンに。きっと喜ぶわ。
+An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	ベスの小屋の卵を、上の階の私のかまどで焼いて、それからエドウィンに。きっと喜ぶわ。喜んでないふりをするけど、喜ぶの。
 I'll see to it.	やっておきます。
-Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Edwin has his desk by the window: wills and deeds and the like.	入って。島で具合の悪い人はみんなそのベッドに来ることになって、私はできることをするの。エドウィンは窓際に机を置いている：遺言書や証書なんかのためにね。
+Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	入って。島で具合の悪い人はみんなあのベッドに来て、私はできることをするの。たいていは良くなる。そうでない人はアルダス修道士のところへ。\エドウィンは窓ぎわに机を置いている：遺言書や証書なんかね。私たち二人で、人生まるごと面倒を見ているの。
 How is your father?	お父さんの具合はどうですか？
-Home, and safe, and eating us out of house and home! I can't ever thank you enough.	家に帰って、無事で、うちの食べ物を食べ尽くしそうな勢いよ！ どれだけ感謝してもしきれないわ。
+Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	家に帰って、無事で、うちの食べ物を食べ尽くしてる！ 毎晩おかわり三杯。どんなに感謝してもしきれないわ。\ただ、しばらくは誰も助けないでちょうだい。
 I'm glad.	よかった。
 All right, all right. You've beaten my lads, and I can't swim that far.\Tell Holt he can have his cell. I've slept in worse.	わかった、わかったよ。あんたは手下どもを倒したし、あたしはそんなに遠くまで泳げない。\ホルトに伝えな、牢屋はくれてやるって。もっとひどいところで寝たこともあるよ。
 Red Meg gave herself up. Tell Sergeant Holt.	赤毛のメグが自首した。ホルト軍曹に伝えよう。
@@ -1936,15 +1937,15 @@ Come to take me in? You'll have to get past my lads first.	あたしを連れて
 We'll see.	どうかな。
 "It's gone quiet. All of them, all at once, the night the Seam broke. I keep listening." She wipes her eyes. "I think I might go home."	「静かになったの。みんな、一斉に、継ぎ目が壊れた夜に。それでも耳を澄ましてしまう」彼女は目をぬぐう。「家に帰ろうかと思うの」
 Go home, Sister.	家にお帰りなさい、シスター。
-"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it."	「お帰りなさい、$Player.Brother。もう聞いた？ 本当に聞いた？ 私が言う前に、私の名前を知っていたのよ」
-"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?"	「もうすぐみんな一つになれる。最初の王がそれを切り、私たちがそれを繕う。すてきな考えでしょう？」
-"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind."	「疲れた顔をしているね、友よ。シャードと一緒に座ったことはある？ 本当に耳を傾けたことは？ とても優しいんだよ」
-A traveller in a plain grey robe, smiling as if you'd been expected.\"Cold out, friend, and you've had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth."	飾り気のない灰色のローブを着た旅人が、あなたを待っていたかのようにほほえんでいる。\「外は寒いね、友よ。つらい道のりだったのがわかる。ほら：シャードを少し、ただで。誰だって少しの温もりを受けていいんだ」
+"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it." She's wearing a little badge with her name on it. You don't like to say.	「お帰りなさい、$Player.Brother。もう聞いた？ 本当に聞いた？ 私が言う前に、私の名前を知っていたのよ」彼女は自分の名前を書いた小さなバッジをつけている。何も言う気になれない。
+"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?" She pats your hand. Then, to be safe, she pats it again.	「もうすぐみんな一つになれる。最初の王がそれを切り、私たちがそれを繕う。すてきな考えでしょう？」彼女はあなたの手をぽんぽんと叩く。それから、念のため、もう一度叩く。
+"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind. Kinder than people. Have you had any soup?"	「疲れた顔をしているね、友よ。シャードと一緒に座ったことはある？ 本当に耳を傾けたことは？ とても優しいのよ。人より優しい。スープは飲んだ？」
+A traveller in a plain grey robe, smiling as if you'd been expected.\"Cold out, friend, and you've had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth. And a leaflet. No? Just the Shards, then."	飾り気のない灰色のローブを着た旅人が、あなたを待っていたかのようにほほえんでいる。\「外は寒いね、友よ。つらい道のりだったのがわかる。ほら：シャードを少し、ただで。誰だって少しの温もりを受けていい。それとチラシを。いらない？ じゃあシャードだけ」
 Take them. Thank you.	受け取る。ありがとう。
 No, thank you.	いいえ、結構です。
 "There. Peace on your road, friend. We'll see you again."	「さあ。道中に平安を、友よ。また会おう」
 "Another time, then. The offer doesn't go away." A smile. "Nor do we."	「では、またの機会に。この申し出はなくならないよ」笑み。「私たちもね」
-"Hello again, friend. Keeping warm?"	「やあ、また会ったね、友よ。温かくしているかい？」
+"Hello again, friend! Keeping warm? Eating properly? You don't look like you're eating properly."	「また会ったね、友よ！ 温かくしてる？ ちゃんと食べてる？ ちゃんと食べてる顔には見えないよ」
 My caravan! Three camels, two drivers, and all my ledgers: lost somewhere in the desert west of here.\Will you look for it?	私の隊商が！ ラクダ三頭、御者二人、それに私の帳簿全部：ここの西の砂漠のどこかでなくなってしまった。\探してくれないか？
 I'll search the desert.	砂漠を探します。
 Scorpions roam the desert: bring food.	砂漠にはサソリがうろついている：食料を持っていこう。
@@ -1968,18 +1969,18 @@ Quest complete: Merrin's Mead! Merrin has her honey.	クエスト達成：メリ
 Look at that! Not a sting on you. Well, not many. Here's last year's mead for it: it's better than this year's will be, but don't tell the bees.	見て！ 一か所も刺されてない。まあ、たいしては。お礼に去年の蜂蜜酒をどうぞ：今年のより出来がいいけど、蜂には内緒ね。
 Three combs. Smoke first, then quick.	巣板三つ。まず煙、それから素早く。
 Help yourself to a comb now and then, if you smoke them first. They don't mind you. Much.	先に煙でいぶすなら、ときどき巣板を取っていっていいわよ。蜂はあなたを気にしないわ。たいしては。
-Morning! Mind the cows, they're friendly but they tread on toes.\Use a bucket on a cow for milk, shears on a sheep for wool. The hens lay in their coop, by the barn.	おはよう！ 牛に気をつけて、人懐っこいけど足を踏むから。\牛にバケツを使えば牛乳、羊に鋏を使えば羊毛。めんどりは納屋のそばの小屋で卵を産むよ。
+Morning! Mind the cows: they're friendly, but they tread on toes, and the brown one does it on purpose.\Use a bucket on a cow for milk, shears on a sheep for wool. The hens lay in their coop, by the barn.	おはよう！ 牛に気をつけて：おとなしいけど足を踏むの。茶色いのはわざとよ。\牛にバケツを使えば牛乳、羊にはさみを使えば羊毛。めんどりは納屋のそばの小屋で卵を産むわ。
 What's wool for?	羊毛は何に使うのですか？
 How do I get to the mainland?	大陸へはどうやって行くのですか？
-Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too.	作業台で毛糸玉に紡ぐの。納屋に一台あるわ。牛革もそこでなめして革にできるよ。
+Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	作業台で毛糸玉に紡いでね、納屋に一台あるから。牛革もそこでなめして革にできる。まだ牛が使っている革はだめよ。
 Thanks!	ありがとう！
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.	大陸？ ウィムの渡し船が桟橋から出ているけど、書類がないと乗せてくれないわよ：襲撃があってから、ノースポートは書類のない島の者を送り返すの。\島の書類はいつも父が書いていた。私が生まれる前から島の名簿をつけているの。でもホブゴブリンに連れ去られて、それから誰も見ていない。家は村の古いレンガ造りのやつで、鍵がかかっていて、鍵もやつらに取られた。やつらは礼拝堂の下の洞窟に巣くっているそうよ。
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	本土？ ウィムの渡し舟が桟橋から出ているけど、書類がないと乗せてくれないの：襲撃があってから、ノースポートは書類のない島の者をみんな送り返すのよ。\島の書類はずっと父さんが書いてきた。私が生まれる前から名簿をつけているの。でもホブゴブリンに連れていかれて、それきり誰も見ていない。父さんの家は村の古いれんが造りので、鍵がかかっていて、鍵もやつらに取られた。礼拝堂の下の洞窟にねぐらがあるって話よ。\かわいそうに。きっとあいつらに膝の話ばかりしてるわ。
 I'll find him.	見つけます。
-And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.	それに、素手でホブゴブリンに近づいちゃだめよ！ うちのフランクは鍛冶屋なの：鍛冶場は私の小屋のすぐそばよ。剣と盾を作るのを手伝ってくれるわ。
+And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	それに素手でホブゴブリンに近づくなんてだめよ！ うちのフランクが鍛冶屋なの：鍛冶場は私の小屋のすぐ隣。剣と盾を作るのを手伝ってくれるわ。\あまりしゃべらない人よ。よくうなずいてあげれば、気に入ってもらえる。
 Thank you, Bess.	ありがとう、ベス。
 Quest started: The Amulet of Succession.	クエスト開始：継承のアミュレット。
-Any word of Father? The hobgoblins have him, down in their lair under the chapel. Bring him home, love, please.	父の知らせは？ ホブゴブリンが、礼拝堂の下の巣に父を捕らえているの。連れて帰ってきて、お願い。
-Father home safe, and all thanks to you! Maren's feeding him up something dreadful.\He says he hid something at the house for you, years ago. He won't tell me what.	父さんが無事に帰ってきた、全部あなたのおかげ！ マレンったら、ひどいくらい父さんに食べさせているわ。\父さんは、ずっと前に家にあなたのための何かを隠したって言うの。何なのかは教えてくれないけど。
+Any word of Father? The hobgoblins have him, down in their lair under the chapel. Bring him home, love, please. Before he starts telling them how to run it.	父さんの知らせはない？ ホブゴブリンが、礼拝堂の下のねぐらに捕まえているの。お願い、父さんを連れて帰って。あいつらにねぐらの切り盛りを指図し始める前に。
+Father home safe, and all thanks to you! Maren's feeding him up something dreadful.\He says he hid something at the house for you, years ago. He won't tell me what. He's enjoying that far too much.	父さんが無事に帰ってきた、全部あなたのおかげよ！ マレンがすごい勢いで食べさせてるわ。\何年も前に家にあなたのための何かを隠したって言うの。何かは教えてくれない。楽しみすぎよ、あの人。
 Goood day. It is. A day. I live here, in the town, where I live. Have you tried. The weather.	ごきげんよう。いい。日。です。わたしはここに、町に、住んでいる、ところに。試しましたか。天気を。
 Yes. Well. Goodbye.	ええ。まあ。さようなら。
 There's something wrong with your name.	あなたの名前、どこかおかしいですよ。
@@ -2036,9 +2037,9 @@ Bryony keeps the cottage on Gull Point with Nell.	ブライオニーがネルと
 Gran's the one to ask. Mind, she'll want you to sit down first. Everybody sits down first.	聞くならばあちゃんだ。ただ、まず座らせられるよ。誰でもまず座らせられるんだ。
 All right.	わかりました。
 Nets, glass, nets. Mind the rocks on the north side if you're walking: they've cut better boots than yours.	網、ガラス、網。歩いて行くなら北側の岩に気をつけな：あんたのよりいいブーツが切られてる。
-The Sun-Forge? Oska sent you, then. My grandmother's grandmother kept that forge, back when it had a roof and a priest who wasn't dead.\The temple's south of the well, half under the dunes. The Keeper's still in it, wrapped in his gold and his temper. Nobody's lit the forge since he took against the living.	太陽の炉？ じゃあオスカがよこしたんだな。俺のばあさんのばあさんがあの炉を守っていた。まだ屋根があって、死んでいない司祭がいたころの話だ。\神殿は井戸の南、半分砂丘に埋もれている。番人はまだ中にいる。金と怒りにくるまってな。やつが生者を嫌うようになってから、誰も炉に火を入れていない。
+The Sun-Forge? Oska sent you, then. My grandmother's grandmother kept that forge, back when it had a roof and a priest who wasn't dead.\The temple's south of the well, half under the dunes. The Keeper's still in it, wrapped in his gold and his temper. Nobody's lit the forge since he took against the living.\I'd go myself, but I've a great deal on. Goats, mostly. Somebody else's.	太陽の炉？ じゃあオスカがよこしたんだな。俺のばあさんのばあさんがあの炉を守っていた。まだ屋根があって、死んでない司祭がいたころの話だ。\神殿は井戸の南、砂丘に半分埋もれている。番人はまだ中にいる、金と癇癪にくるまってな。あいつが生きている者を嫌うようになってから、誰も炉に火を入れていない。\俺が行ってもいいんだが、やることが山ほどある。主にヤギだ。よその家のな。
 Quest started: The Sun-Forge.	クエスト開始：太陽の炉。
-The Keeper still keeps it? South of the well, under the dunes. Take water.	番人はまだ守っているのか？ 井戸の南、砂丘の下だ。水を持っていけ。
+The Keeper still keeps it? South of the well, under the dunes. Take water. More than that.	番人はまだあそこを守っているのか？ 井戸の南、砂丘の下だ。水を持っていけ。それより多めにな。
 The Keeper's gone? Then it's the mirrors: the forge only burns with the sun on it, and the sun comes down to it by mirrors. My grandmother had a song for them:\'Dawn looks where the sun is born; noon looks down on the dead; dusk looks where the sun lies down.'\She sang it over the pot, too, which never helped the stew.	番人が消えた？ では次は鏡だ：炉は日が当たっているときしか燃えず、日は鏡を伝って炉に降りてくる。ばあさんには鏡の歌があった：\「暁は日の生まれるところを見る。真昼は死者を見下ろす。夕暮れは日の沈むところを見る」\ばあさんは鍋の上でもそれを歌っていたが、シチューの役に立ったためしはない。
 Quest complete: The Sun-Forge!	クエスト達成：太陽の炉！
 You lit it! I heard it from here, like a bell rung in a kiln.\The third fire isn't ours. The dwarves had an anvil, deep under the mountains in the Stoneways, and the delvers' camp has been digging after it for years. Ask for Maud. Tell her Tarek says she still owes him a goat.	火を入れたのか！ ここからでも聞こえた。窯の中で鐘を鳴らしたみたいに。\三つ目の火は俺たちのものじゃない。ドワーフには金床があった。ストーンウェイズの山の深い下にな。坑掘りたちの野営地が何年もそれを掘り進めている。モードを訪ねろ。タレクが、まだヤギ一頭の借りがあると言っていたと伝えてくれ。
@@ -2058,9 +2059,9 @@ Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	こんばんは。売る物もないのに、こんな遅くに波止場へ降りてくる者は多くない。\物がどこから来たかは聞かないし、顔も覚えない。値段が少し下がる、それだけのことさ。
 Let's see what you'll give me.	何をくれるか見せてもらおう。
 Welcome to the port of Northport. Mind the ropes.	ノースポートの港へようこそ。綱に気をつけて。
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Ashen's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	島の渡し船から来たのか？ では書類を。\彼は書類を広げ、封印のところで動きを止める。\これは古い王家の印だ。王妃が姿を消した十八年前から一度も見ていない：ガライスが閉ざされた年だ。峠に光の壁が立ち、その向こうにドラゴンがいる。障壁が崩れるまで、ノースポートの市庁舎が今のアシェンの議会なんだ。\桟橋の軍曹が扱うような話じゃない。市庁舎の議長のところへ持っていけ。肌身離さずにな。
+Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Galmere's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	島の渡し船から来たのか？ では書類を。\彼は書類を広げ、封印のところで動きを止める。\これは古い王家の印だ。王妃が姿を消した十八年前から一度も見ていない：ガライスが閉ざされた年だ。峠に光の壁が立ち、その向こうにドラゴンがいる。障壁が崩れるまで、ノースポートの市庁舎が今のガルミアの議会なんだ。\桟橋の軍曹が扱うような話じゃない。市庁舎の議長のところへ持っていけ。肌身離さずにな。
 I'll go to the City Hall.	市庁舎へ行きます。
-Welcome to Northport, the capital of Ashen. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	アシェンの都、ノースポートへようこそ。とりあえず、今のところはね。\ガライスはこの十八年閉ざされている：峠に光の壁が立ち、その向こうにドラゴンがいる。だから障壁が崩れるまで、ここの市庁舎が議会なんだ。\ガライスに用があるって？ なら尋ねるのは市庁舎だ。王妃が姿を消したまさにその年に封じられたそうだよ。
+Welcome to Northport, the capital of Galmere. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	ガルミアの都、ノースポートへようこそ。とりあえず、今のところはね。\ガライスはこの十八年閉ざされている：峠に光の壁が立ち、その向こうにドラゴンがいる。だから障壁が崩れるまで、ここの市庁舎が議会なんだ。\ガライスに用があるって？ なら尋ねるのは市庁舎だ。王妃が姿を消したまさにその年に封じられたそうだよ。
 Quest started: The Temporary Capital.	クエスト開始：仮の都。
 Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	市場では財布をしっかり持って、剣は鞘に収めておくように。ノースポートはおおむねいい都だ。
 Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	ノースポートの大聖堂へようこそ。しばらく座っていって：ガラス越しの光がきれいですよ。
@@ -2307,14 +2308,14 @@ My mother, Mary, died on the Isle, where she raised me. Her last will told me wh
 The King comes down from his throne, and holds you, and weeps.	王は玉座から降りてきて、あなたを抱きしめ、涙を流す。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	メアリー。私のメアリー。ドラゴンに渡さないためにお前を連れ去ったのに、私はそれを裏切りと呼ばせてしまった。十八年も。\私の $Player.Son。私の $Player.Son。
 Father.	父上。
-I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Ashen!	私は鎖につながれた都のためにこの玉座を守ってきた。お前がその鎖を断ち切った。これはお前のものだ。\彼は自分の頭から王冠を持ち上げ、あなたの頭に載せる。\アシェンの $Player.King、万歳！
-Long live Ashen.	アシェン万歳。
-Quest complete: The True Heir! You are the $Player.King of Ashen. The world is yours to explore.	クエスト達成：真の跡継ぎ！ あなたはアシェンの $Player.King となった。世界はあなたが探検するためにある。
+I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	私は鎖につながれた都のためにこの玉座を守ってきた。お前がその鎖を断ち切った。これはお前のものだ。\彼は自分の頭から王冠を持ち上げ、あなたの頭に載せる。\ガルミアの $Player.King、万歳！
+Long live Galmere.	ガルミア万歳。
+Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	クエスト達成：真の跡継ぎ！ あなたはガルミアの $Player.King となった。世界はあなたが探検するためにある。
 A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	どこで見てもわかる茶トラの猫が、玉座の上で丸くなっている。ジミー、どうやってここに来たの？
 My $Player.Son, the $Player.King. Your mother would be proud.	私の $Player.Son、$Player.King よ。母もさぞ誇りに思うだろう。
 Another stands here who calls me father.	ここにも、あなたを父と呼ぶ者が立っています。
 Goodbye, Father.	さようなら、父上。
-Then the blood has marked more than one of my line, and Ashen is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	では、血は私の家系の一人だけではなく印をつけたのだな。アシェンは身に余るほど幸運だ。切断はシャードとともに王家の血筋をも散らした。ドラゴンが数えていたのはお前たちのうち一人だけだった。ならば跡継ぎの騎士団としよう：シャードが知るすべての者が、王冠に誓いを立てるのだ。この玉座には、王国を守る者なら誰でも座る余地がある。
+Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	では、血は私の家系の一人だけではなく印をつけたのだな。ガルミアは身に余るほど幸運だ。切断はシャードとともに王家の血筋をも散らした。ドラゴンが数えていたのはお前たちのうち一人だけだった。ならば跡継ぎの騎士団としよう：シャードが知るすべての者が、王冠に誓いを立てるのだ。この玉座には、王国を守る者なら誰でも座る余地がある。
 Morning. Mind the weed, it's slippery. (She shakes a bottle at you; nothing in it.) This shore's a bottle shore. The currents bring 'em all in here, sooner or later. Most are empty. Not all.	おはよう。海藻に気をつけな、滑るから。（彼女はあなたに瓶を振ってみせる。中は空っぽだ）この浜は瓶の浜でね。潮がいずれはみんなここへ運んでくる。たいていは空っぽ。全部じゃないけどね。
 What's in the full ones?	中身の入っているのには何が？
 Good hunting.	いい獲物を。
@@ -2391,20 +2392,20 @@ There they are, all three, looking like it was my fault. Here, take this, it's n
 They're good as gold now. For a day or two.	今はすっかりいい子だ。一日か二日はね。
 Mind the river.	川に気をつけて。
 I'm the sheriff here. Trouble goes in the cells; you don't look like trouble.	私がここの保安官だ。厄介者は牢に入る。あんたは厄介者には見えないね。
-Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it.	アシュフォード雑貨店へようこそ！\道具、バケツ、釣り道具：必要なものなら何でもあるよ。
+Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	アシュフォード雑貨店へようこそ！\道具、バケツ、釣り道具：要るものなら、ここにある。ここにないなら、要らないものだ。
 Show me your wares.	品物を見せて。
-Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know."	繕いの会のシスター・リネット。「寒いところから入っておいで、友よ。スープができているし、テーブルの上のシャードはいい話し相手よ：しばらくそのそばに座って、耳を傾けてみて」\「ほかの人たち？ ああ、今夜は集まりに出ているの。どこかは言えないの、ごめんなさい：繕いの会の人だけのものだから」彼女はあなたの上着にほほえむ。「灰色は誰にでも似合うのよ」
+Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know. We've a robe in every size. We checked."	繕いの会のシスター・リネット。「寒いところから入っておいで、友よ！ スープができているわ。いつだってスープができているの。それに、テーブルのシャードはいい話し相手よ：しばらくそばに座って、耳を傾けて。よかったら靴を脱いで。靴にはとてもおおらかなの」\「ほかの人たち？ ああ、今夜は集まりに行っているわ。どこかは言えないの、ごめんなさい：繕いの会の者だけのものだから」彼女はあなたの上着にほほえむ。「灰色は誰にでも似合うのよ。ローブは全部のサイズがあるの。確かめたから」
 Where's the gathering?	集まりはどこですか？
-"Only for the Mending, friend." She's still smiling.	「繕いの会の人だけよ、友よ」彼女はまだほほえんでいる。
+"Only for the Mending, friend." She's still smiling. She hasn't stopped since you came in.	「繕いの会の人だけよ、友よ」彼女はまだほほえんでいる。あなたが入ってきてから、一度もやめていない。
 Quest started: In Grey.	クエスト開始：灰色の衣。
-"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight. Go on, down to the field. The glass at the east end, and mind the lookouts know you."	「あら！ 入ってきたのに気づかなかったわ、$Player.Brother。遅れるわよ：今夜は先唱者がお話しになるの。さあ、野原へ降りていって。東の端のガラスのところよ。見張りにちゃんと顔を見せてね」
+"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight, and he does go on. Down to the field with you. The glass at the east end, and mind the lookouts know you."	「あら！ 入ってきたのに気づかなかったわ、$Player.Brother。遅れるわよ：今夜は先唱者がお話しになるの。長いのよ。さあ、野原へ下りて。東の端のガラスよ、見張りに顔を覚えてもらってね」
 Sister Linnet looks at you a long moment. "You heard it, didn't you? The great Shard. I can see it on you."\"Whatever it said, it was true. It always is. You won't tell anyone about the field, will you? People don't understand."	シスター・リネットは長いあいだあなたを見つめる。「聞いたのね？ 大いなるシャードの声を。あなたを見ればわかるわ」\「何を言われたにせよ、それは本当よ。いつだってそう。野原のことは誰にも言わないわよね？ みんなわかってくれないから」
 I won't tell a soul.	誰にも言いません。
 "I knew it. Bless you, $Player.Brother. This house is yours as much as ours, and anything on the shelf is yours at a fair price, whenever you're in grey."	「わかってたわ。祝福を、$Player.Brother。この家は私たちのものであるのと同じくらいあなたのもの。灰色をまとっているときなら、棚のものはいつでも手ごろな値で買えるわ」
 Thank you, Sister.	ありがとう、シスター。
 "Anything you need, $Player.Brother?"	「何か入り用かしら、$Player.Brother？」
 Show me what you have.	品物を見せて。
-Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."	繕いの会のシスター・リネット。「寒いところから入っておいで、友よ。スープができているし、テーブルの上のシャードはいい話し相手よ：しばらくそのそばに座って、耳を傾けてみて」
+Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."	繕いの会のシスター・リネット。「寒いところから入っておいで、友よ！ スープができているわ。いつだってスープができているの。それに、テーブルのシャードはいい話し相手よ：しばらくそばに座って、耳を傾けて。よかったら靴を脱いで。靴にはとてもおおらかなの」
 Evening. You lit the fire, so you know the rules: you didn't see me, I didn't see you, and the prices are good because nobody's paid any duty on them. Buying?	こんばんは。火を灯したんだから決まりは知ってるな：あんたは俺を見なかった、俺はあんたを見なかった。値段がいいのは、誰も税を払っていないからだ。買うかい？
 Who are you?	あなたは誰ですか？
 Not tonight.	今夜はやめておく。
@@ -2497,18 +2498,18 @@ Thank you, Master Bramble.	ありがとうございます、ブランブル親�
 Quest complete: The Old Grove! Bramble's men are felling the grove, and his sawmill is open to you.	クエスト達成：古い林！ ブランブルの部下が林を伐っていて、彼の製材所はあなたに開かれた。
 The mill's busy, and so is half the village. That's your doing.	製材所は忙しく、村の半分もそうだ。あんたのおかげだ。
 Timber and planks. Nothing for you just now.	材木と板。今はあんたに出すものはない。
-There's my rescuer! Maren's feeding me up like a Midsummer goose.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.\There's one thing, though. My savings, in a tin with a T on the lid. They had it off my shelf when they took me, and I'd wager it's in that chest by their fire, up in their camp.	わしの救い主だ！ マレンが夏至祭のガチョウみたいにわしに食べさせているよ。\家はあんたのものだ、いいかね：わしは戻らない、あの乱暴者どもがあんなに近くにいるうちは。大事にしてくれ。\ただ、一つだけ。わしの蓄えだ、ふたに T と書かれた缶に入っている。わしを連れ去ったとき、やつらが棚から持っていった。賭けてもいいが、やつらの野営地の、火のそばの箱の中にある。
+There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.\There's one thing, though. My savings, in a tin with a T on the lid. They had it off my shelf when they took me, and I'd wager it's in that chest by their fire, up in their camp.	わしの救い主だ！ マレンが夏至祭のガチョウみたいにわしに食べさせているよ。エドウィンは食料庫に鍵をかけるようになった。\家はあんたのものだ、いいな：わしは戻らん、あの乱暴者どもがあんなに近くにいてはな。大事にしてくれ。\ただ、一つだけ。わしの蓄えだ、ふたに T と書いた缶に入っている。わしを連れていくときに棚から取っていった。賭けてもいいが、やつらの野営地の焚き火のそばの箱の中だ。
 I found this in the lair.	巣でこれを見つけました。
 Another time.	また今度。
-Not all boots and elbows, you won't! Two of them keep watch up there now, and a hobgoblin's got ears like a hare.\Keep low and soft (that's sneaking: the slow way, the way you stand), and keep out of the way they're looking. They look one way, mostly, and glance about now and then. Get behind one and it'll never know you were there. Right beside one, mind, it'll smell you whichever way it's facing.\And if one does see you, it shouts, and the other comes.	ブーツと肘をばたばたさせて行くんじゃないぞ！ あそこでは今二匹が見張っていて、ホブゴブリンの耳は野ウサギ並みだ。\低く静かに（それが忍び足だ：ゆっくりした、構えのやり方だ）、やつらの見ている方向に入らないようにしろ。だいたい一方を見ていて、ときどきあたりを見回す。背後に回れば、いたことにすら気づかれない。ただし、すぐ隣まで行けば、どっちを向いていても匂いでばれる。\一匹に見つかれば、叫んでもう一匹が来る。
+Not all boots and elbows, you won't! Two of them keep watch up there now, and a hobgoblin's got ears like a hare.\Keep low and soft (that's sneaking: the slow way, the way you stand), and keep out of the way they're looking. They look one way, mostly, and glance about now and then. Get behind one and it'll never know you were there. Right beside one, mind, it'll smell you whichever way it's facing.\And if one does see you, it shouts, and the other comes. Then you run. I'm too old to show you that part.	ブーツと肘をばたばたさせて行くんじゃないぞ！ あそこでは今二匹が見張っていて、ホブゴブリンの耳は野ウサギ並みだ。\低く静かに（それが忍び足だ：ゆっくりした、構えのやり方だ）、やつらの見ている方向に入らないようにしろ。だいたい一方を見ていて、ときどきあたりを見回す。背後に回れば、いたことにすら気づかれない。ただし、すぐ隣まで行けば、どっちを向いていても匂いでばれる。\一匹に見つかれば、叫んでもう一匹が来る。そうしたら走れ。そこを見せるには、わしは年を取りすぎた。
 Low, soft, and behind them.	低く、静かに、背後から。
 Quest started: Tobias's Tin.	クエスト開始：トバイアスの缶。
-My tin! And not a dent more than it had. You went in soft, didn't you? I can tell.\Here: a few of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword.	わしの缶だ！ へこみも前より増えていない。静かに入ったんだろう？ わかるよ。\ほら：いくつかはあんたのものだ。忍び足は続けるといい。剣より役に立つ日もあるだろう。
+My tin! And not a dent more than it had. You went in soft, didn't you? I can tell.\Here: a few of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword. Most days, if you're me.	わしの缶だ！ へこみも前より一つも増えていない。そっと入ったんだろう？ わかるよ。\ほら：このうちいくつかはあんたのものだ。忍び足の稽古を続けなさい。剣より役に立つ日もある。わしなら、たいていの日がそうだ。
 Thank you, Tobias.	ありがとう、トバイアス。
 Quest complete: Tobias's Tin!	クエスト達成：トバイアスの缶！
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	低く静かに、やつらの見ている方向に入らずに。箱はやつらの火のそば、村の南東の野営地にある。
-There's my rescuer! Maren's feeding me up like a Midsummer goose.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	わしの救い主だ！ マレンが夏至祭のガチョウみたいにわしに食べさせているよ。\家はあんたのものだ、いいかね：わしは戻らない、あの乱暴者どもがあんなに近くにいるうちは。大事にしてくれ。
-Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	どれどれ.. 「島の書類を書く老人」。わしのことだ。だからわしを連れ去ったのか！ 毎晩、でかいのがメアリーの書類はどこだと聞いてきた。わしは一度も言わなかった。\それと、灰の中の手。北にそうやって署名する連中がいる：灰の手と名乗っている。エルダーウッドの先にいる、火を崇める者たちだ。\あんな連中が、あんたのお母さんに何の用がある？ あんたに何の用が？ それを持っておいて、向こうでは目を光らせておくんだ。
+There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	わしの救い主だ！ マレンが夏至祭のガチョウみたいにわしに食べさせているよ。エドウィンは食料庫に鍵をかけるようになった。\家はあんたのものだ、いいな：わしは戻らん、あの乱暴者どもがあんなに近くにいてはな。大事にしてくれ。
+Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	どれどれ.. 「島の書類を書く老人」。わしのことだ。だからわしを連れ去ったのか！ 毎晩、でかいのがメアリーの書類はどこだと聞いてきた。わしは一度も言わなかった。\それに灰の手形。北にはそうやって署名する連中がいる：灰の手と名乗っている。エルダーウッドの向こうの火を崇める者たちだ。ひどい連中だよ。足も拭かん。\そんな連中があんたのお母さんに、あるいはあんたに何の用がある？ それは取っておきなさい。向こうでは目を開けておくことだ。
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	止まれ！ 通行料だ。（彼は透けた手を差し出す）道は閉ざされているが、通行料は残っている。近ごろは硬貨は受け取らない：すり抜けて落ちるのでな。では、なぞなぞだ。三つ答えれば、横木を上げよう。
 I'll go round.	回り道をします。
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	首はあるが頭はない、腕は二本あるが手はない。いっぱいで出かけて、空っぽで帰ってくる。私は何だ？
@@ -2550,7 +2551,7 @@ I'll see.	考えておきます。
 "It's gone quiet, love. He's gone quiet. I keep listening."	「静かになったの。あの人が静かになったの。それでも耳を澄ましてしまう」
 Come home, Annis.	帰りましょう、アニス。
 "It won't be long now, love. Oswin says when it's all mended we'll be together."	「もうすぐよ。オズウィンが、全部繕われたら一緒になれるって言うの」
-Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Ashen, and only if the heir is worthy.	勇気の剣を求めて来るのは誰だ？\この剣はただ一つの行いのために鍛えられた：ガライスのドラゴンと、汝の祖先がそれと結んだ取引を終わらせるために。剣はアシェンの跡継ぎにのみ渡る。その跡継ぎがふさわしい場合にのみ。
+Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Galmere, and only if the heir is worthy.	勇気の剣を求めて来るのは誰だ？\この剣はただ一つの行いのために鍛えられた：ガライスのドラゴンと、汝の祖先がそれと結んだ取引を終わらせるために。剣はガルミアの跡継ぎにのみ渡る。その跡継ぎがふさわしい場合にのみ。
 I am the heir.	私が跡継ぎだ。
 Words. Show me valour.	言葉だ。勇気を示せ。
 Then I will.	では示そう。
@@ -2604,17 +2605,17 @@ What do you know about me?	私について何を知っていますか？
 News? Everyone's looking for someone. Mostly they find them.	知らせ？ みんな誰かを探している。たいていは見つかるけどね。
 I suppose so.	そうでしょうね。
 Oh, not much. Yet.	ああ、たいしたことは。まだね。
-The Ember Ring? The Ashen Priest wears it, and he's welcome to it, as far as I'm concerned.\He holds the Cinder Fort, high in the Cinder Peaks, with the Ashen Hand: a cult that sings to the dragon, and sends it what it can. If Bert wants that ring, you'll have to take it off his finger yourself.	残り火の指輪？ 灰の司祭がはめている。私に言わせれば、好きにすればいいさ。\やつは灰の手とともに、シンダー山脈の高みにある燃え殻の砦を押さえている：ドラゴンに歌い、送れるものを送る教団だ。バートがその指輪を欲しいなら、自分でやつの指から抜き取るしかない。
+The Ember Ring? The Ashen Priest wears it, and he's welcome to it, as far as I'm concerned.\He holds the Cinder Fort, high in the Cinder Peaks, with the Ashen Hand: a cult that sings to the dragon, and sends it what it can. Badly, the singing: you can hear it from here on a still night.\If Bert wants that ring, you'll have to take it off his finger yourself.	残り火の指輪？ 灰の司祭がはめている。私に言わせれば、好きにすればいいさ。\やつは灰の手とともに、シンダー山脈の高みにある燃え殻の砦を押さえている：ドラゴンに歌い、送れるものを送る教団だ。歌は下手だがね：静かな夜にはここまで聞こえる。\バートがその指輪を欲しいなら、自分でやつの指から抜き取るしかない。
 Quest started: The Ember Ring.	クエスト開始：残り火の指輪。
-The Cinder Fort is up the road north, high in the peaks. Take water. Take armour.	燃え殻の砦は北の道を上った先、山の高みだ。水を持っていけ。鎧も着ていけ。
+The Cinder Fort is up the road north, high in the peaks. Take water. Take armour. Take something for your ears.	燃え殻の砦は北の道を上った先、山の高みだ。水を持っていけ。鎧も着ていけ。耳をふさぐものも持っていけ。
 You took the ring off the priest's finger, and the Hand's scattered. You'd think the Ashwold would be quiet now.\Then a shepherd comes in and tells me the Hand's old shrines are burning again. Not red: blue. He held his hand in it, he says, and it was only cold.\The Hand never lit a fire like that. Will you go and look?	司祭の指から指輪を抜き取って、灰の手は散り散りになった。これでアッシュウォルドも静かになると思うだろう。\ところが羊飼いがやってきて、灰の手の古い社がまた燃えていると言う。赤じゃない：青い火だ。手をかざしてみたが、ただ冷たかったそうだ。\灰の手はあんな火を灯したことはない。見に行ってくれるか？
 Quest started: Cold Fire.	クエスト開始：冷たい火。
 Three shrines, out on the Ashwold, where the Hand used to sing. Mind the ash.	社は三つ、アッシュウォルドの、灰の手がかつて歌っていたところだ。灰に気をつけろ。
 Blue, all three? And tracks to the Hand's camp. Get close enough to hear what's said there. Quietly, mind: they'll not talk in front of you.	三つとも青い？ そして灰の手の野営地へ続く足跡。そこで何が話されているか聞こえるところまで近づいてくれ。静かにな：あんたの前では話さないだろうから。
 I'll go quietly.	静かに行きます。
-Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	灰色の服の見知らぬ者たちが、ドラゴンに食わせるよう灰の手に金を払っている？ 「繕う」……その言葉は気に入らないな。\今年は灰色の服の連中が街道に出ている：親切な人たちで、スープと毛布を配っている。荷車引きの話じゃ、アシュフォードに静かな家を構えているそうだ。ほら、手間賃だ。目を光らせておいてくれ。
+Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	灰色の服の見知らぬ者たちが、ドラゴンに食わせるよう灰の手に金を払っている？ 「繕う」……その言葉は気に入らない。\今年は灰色の服の人たちが街道にいた：親切な人たちで、スープと毛布をくれる。ただでそこまで親切な者はいない。荷馬車屋の話では、アシュフォードにひっそりした家を構えているそうだ。ほら、手間賃だ。目を開けておきなさい。
 Quest complete: Cold Fire!	クエスト達成：冷たい火！
-Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread.	エンバーウォッチ：燃え殻の地の手前、最後の砦。風には煙、パンには灰。
+Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it seasoning.	エンバーウォッチ：燃え殻の地の手前、最後の砦。風には煙、パンには灰。うちでは味付けと呼んでいる。
 You? Into the Cinder Fort? The Ashen Hand would have you singing to the dragon by supper.\Whatever Bert wants with that ring, it'll keep. Come back with a few more fights behind you.	あんたが？ 燃え殻の砦に？ 灰の手なら夕飯までにあんたをドラゴンに歌わせてるさ。\バートがあの指輪で何をしたいにせよ、急ぐことはない。もう少し戦いをくぐり抜けてから戻ってこい。
 A letter? From the Chapel?\...Cael. My brother Cael. He went up to the Chapel when we were young, to burn for the dragon with the rest of them. I thought he'd burnt.\He's sorry. He's sorry, it says, all the way down the page.	手紙？ 礼拝堂から？\……ケイル。兄のケイルだ。私たちが若いころ、ほかの連中と一緒にドラゴンのために燃えようと礼拝堂へ上っていった。燃え尽きたものと思っていた。\謝っている。ページのいちばん下まで、ずっと謝っている。
 He's still there, praying.	彼はまだそこで祈っています。
@@ -2690,7 +2691,7 @@ Lady Pettigrew's lost her hat again. To the geese. Again.	ペティグリュー�
 A Shard Remnant got into my kitchen once. I hit it with a ladle. It's fine. The ladle isn't.	一度シャードの残滓がうちの台所に入ってきたの。おたまでたたいてやったわ。平気よ。おたまは平気じゃないけど。
 My son wants to be an adventurer. I told him, get a proper job. Like goose herding.	息子が冒険者になりたいって言うの。ちゃんとした仕事に就きなさいって言ったわ。ガチョウ飼いみたいな。
 Somebody keeps pressing the big red button in the wizard's tower. I can tell. My washing turns into chickens.	誰かが魔法使いの塔の大きな赤いボタンを押し続けているの。わかるのよ。洗濯物がニワトリに変わるから。
-You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Ashen hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	ガライスのドラゴンを倒したのはあんたか？ ならその鱗を持っているだろう。\ここは竜炉：アシェンで竜の鱗を鍛えられるほど熱い、ただ一つの火だ。三枚持ってきてくれれば、わし自らそれで兜を作ってやり、炉の使い方も教えてやろう。
+You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Galmere hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	ガライスのドラゴンを倒したのはあんたか？ ならその鱗を持っているだろう。\ここは竜炉：ガルミアで竜の鱗を鍛えられるほど熱い、ただ一つの火だ。三枚持ってきてくれれば、わし自らそれで兜を作ってやり、炉の使い方も教えてやろう。
 I'll bring you three scales.	鱗を三枚持ってきます。
 Quest started: The Dragonforge.	クエスト開始：竜炉。
 Three of them, still warm! Watch now...\There. A dragonscale helm, and nothing on this earth will burn through it. The forge is yours to use whenever you've scales and mithril.	三枚、まだ温かい！ さあ見ていろ……\ほら。竜鱗の兜だ、この世の何もこれを焼き通せない。鱗とミスリルがあれば、いつでも炉を使っていいぞ。
@@ -2698,7 +2699,7 @@ Quest complete: The Dragonforge! You receive a dragonscale helm.	クエスト達
 Three scales from the dragon's hide: no fewer.	ドラゴンの皮から鱗を三枚：それより少なくてはだめだ。
 Back for the forge? Scale and mithril, and I'll show you how.	炉を使いに来たのか？ 鱗とミスリルがあれば、やり方を見せてやる。
 Show me the Dragonforge.	竜炉を見せて。
-This is the Dragonforge. It's been cold a long time: there's only one dragon left in Ashen, and it sits before the walls of Galaith.	ここが竜炉だ。長いこと冷えている：アシェンに残っているドラゴンは一頭だけで、それはガライスの城壁の前に座っているからな。
+This is the Dragonforge. It's been cold a long time: there's only one dragon left in Galmere, and it sits before the walls of Galaith.	ここが竜炉だ。長いこと冷えている：ガルミアに残っているドラゴンは一頭だけで、それはガライスの城壁の前に座っているからな。
 Stand still the way you would to cast, and listen at the horn. And whatever it says, warm one, don't answer.	詠唱するときのようにじっと立って、角笛に耳を澄まして。何を言われても、温かい人、答えないで。
 You lay the Sword of Valour on the Deep Anvil and strike it, once..	勇気の剣を深淵の金床に置き、一度打つ..
 ..and the note goes down through the mountain and comes back up as a voice. The Sword of Valour is awake: Shard-light runs along its edge, and it pulls, gently, towards Galaith.	..するとその音が山を下っていき、声となって戻ってくる。勇気の剣が目覚めた：シャードの光が刃を走り、それは穏やかにガライスのほうへ引っぱられる。
@@ -2718,28 +2719,28 @@ The Sun-Forge's disc still holds a little of the light.	太陽の炉の円盤に
 A great disc of gold-faced bronze, dark without the sun on it.	金張りの青銅の大きな円盤。日が当たっていないと暗い。
 The three seals sink into the hollows of the door, and it grinds open. Quest complete: The Island of Dragons!	三つの印章が扉のくぼみに沈み込み、扉がきしみながら開く。クエスト達成：ドラゴン島！
 Three hollows in the door, the shape of seals.	扉に三つのくぼみがある。印章の形だ。
-So. The heir of Ashen comes to me at last, and on foot.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt.	ほう。アシェンの跡継ぎがついにわしのもとへ来たか、それも徒歩で。\十八の冬、わしはこの城壁の前で待った。十八の冬、都は道を断たれて飢えた。すべては一つの小さな借りのためだ。
+So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	ほう。ガルミアの跡継ぎがついにヴォルガラスのもとへ来たか、それも徒歩で。十八の冬の遅刻だ。\十八の冬、わしはこの城壁の前で待った。十八の冬、街は道を失って飢えた。すべてはささやかな借りひとつのためだ。利子がついて、今はもうささやかではないがな。
 What debt?	何の借りだ？
-A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. Your mother broke it, and ran.	取引だ、子よ、呪いではない。お前たちの最初の王は、わしを縛れる大きさに切り倒し、自分を賢いと思った。わしはお前の血筋に、わしのかけら、山の金とシャードを持たせておいてやった。代ごとに跡継ぎとなる長子と引き換えにな：王家の血が錠であり、錠には糧が要る。やつらは血で署名した。お前の母はそれを破り、逃げた。
+A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. I kept a copy. I always keep a copy. Your mother broke it, and ran.	取引だ、子よ、呪いではない。お前たちの最初の王は、わしを縛れる大きさに切り倒し、自分を賢いと思った。わしはお前の血筋にわしの残りかす、山の黄金とそのシャードを持たせてやった。代わりに、代々の最初に生まれた跡継ぎをな：王家の血が錠であり、錠には餌が要る。やつらは血で署名した。写しは取ってある。わしはいつも写しを取る。お前の母はそれを破り、逃げた。
 She saved me.	母が私を救った。
 My mother saved my life. The bargain ends today.	母は私の命を救った。取引は今日で終わる。
-Ends? It ends when I have you.\...That blade. Awake now, is it? Three fires, and the old knights' sting woken after all. No matter: I am more than I was.\Come, then, heir. Let us see whose debt is paid.	終わる？ お前を手に入れたときに終わるのだ。\……その刃。もう目覚めているのか？ 三つの火で、古の騎士たちの毒針も結局目を覚ましたか。かまわぬ：わしはかつてのわしより大きい。\さあ、来い、跡継ぎよ。誰の借りが払われるか見ようではないか。
+Ends? It ends when I have you.\...That blade. Awake now, is it? Three fires, and the old knights' sting woken after all. How tiresome. No matter: I am more than I was.\Come, then, heir. Let us see whose debt is paid.	終わる？ お前を手に入れたときに終わる。\……その刃。目覚めたか、ん？ 三つの火、そして古の騎士たちの針がついに目を覚ました。面倒なことだ。かまわぬ：わしはかつての自分より大きい。\来い、跡継ぎよ。誰の借りが払われるか見てやろう。
 Fight!	戦え！
 The dragon of Galaith rises, wings blotting out the sky!	ガライスのドラゴンが舞い上がり、その翼が空を覆い隠す！
 The chapel bell tolls for Mary. The last of the mourners lay their flowers on her grave.	礼拝堂の鐘がメアリーのために鳴る。最後の弔問客たちが彼女の墓に花を手向ける。
-She was a good woman, your mother. Kind to all of us, and never a word about herself.	立派な方だった、あなたのお母さんは。私たちみんなに親切で、自分のことは決して語らなかった。
-I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, and it's to be given to you alone.	本当にお気の毒に。メアリーはここの私たちみんなの友人でした。\さあ：家まで送りましょう。彼女はあなたに残したものがあって、それはあなた一人に渡すことになっています。
+She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	よい人だったよ、お母さんは。みんなに優しくて、自分のことは一言も話さなかった。\十六年間、毎週日曜にカードでわしを負かした。どうやっていたのか、とうとうわからなかった。
+I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	本当にお気の毒です。メアリーはここのみんなの友人でした。\さあ：家まで送りましょう。あなたに残したものがあります。あなた一人に、直接渡すようにと。それが彼女の指示でした。二重線まで引いてありました。
 Lead the way.	案内してください。
-You walk home together across the Isle, neither of you saying much.	二人で島を横切って家まで歩く。どちらもあまり口をきかない。
-Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.	お母さんは私に最後の遺言書を託されました。この手紙は決して開けないようにと私に言い、あなたも誰かに読んで聞かせてはならないと言われました。これはあなたへの、あなただけへの最後の言葉です。
+You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	二人は島を横切って一緒に家へ帰る。エドウィンはときどき何か法律めいたことを言いかけ、思い直す。
+Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	お母さんは私に最後の遺言書を託されました。この手紙は決して開けないようにと私に言い、あなたも誰かに読み聞かせてはいけないと言いました。これはあなたへの、あなただけへの、最後の言葉です。\弁護士を三十年やってきて、これほど手紙を読みたいと思ったことはありません。読みませんでした。記録に残してください。
 He lays a letter on the table, sealed with your mother's wax.	彼はテーブルに手紙を置く。お母さんの蝋で封がされている。
 Thank you. If you don't mind, I would like to be left alone to read the letter.	ありがとうございます。よろしければ、一人で手紙を読ませてください。
 Continue	続ける
-Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner.	もちろん。何か必要なことがあれば、妻のマレンと私は北西の海辺の家にいます。夕食にいらっしゃい。
+Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner. There's no charge.\That was a joke. Lawyers' humour. Come anyway.	もちろん。何か必要なことがあれば、妻のマレンと私は北西の海辺の家にいます。夕食にいらっしゃい。料金はいただきません。\冗談です。弁護士の冗談です。それでもいらっしゃい。
 Thank you, Edwin.	ありがとう、エドウィン。
-Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland.	ああ、それとこれを。メアリーは暖炉の上に小さなシャードの壺を置いていました：あなたに持っていてほしいと思うでしょう。\シャードは世界の古い魔法のかけらです。呪文はそれを飲み、大陸の古い立石もそうします。
+Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland. Don't ask me how. I only do the paperwork.	ああ、それとこれを。メアリーは暖炉の上に小さなシャードの壺を置いていました：あなたに持っていてほしいと思うでしょう。\シャードは世界の古い魔法のかけらです。呪文がそれを飲み、本土の古い立石も飲みます。どうやってかは聞かないでください。私は書類仕事をするだけですから。
 Mary's Shards are yours: their count is under your health.	メアリーのシャードはあなたのもの：その数は体力の下に表示される。
-He lets himself out, and the door shuts behind him.	彼は自分で戸口から出ていき、扉が後ろで閉まる。
+He lets himself out, and shuts the door behind him with great care.	彼は自分で戸口から出ていき、とても丁寧に扉を閉める。
 Quest started: The Last Will. (H: your journal)	クエスト開始：最後の遺言。（H：日誌）
 The thirteenth coin goes in, and a rubber duck bobs up. It looks at you. You look at it.	十三枚目の硬貨が入ると、ゴムのアヒルがぷかりと浮かび上がる。それはあなたを見る。あなたもそれを見る。
 The coin hits the top bowl, skips, and lands back in your palm with a friend.	硬貨はいちばん上の鉢に当たって跳ね、仲間を一枚連れて手のひらに戻ってくる。
@@ -2833,7 +2834,7 @@ You grab the sheep and start to shear...	羊をつかまえて毛を刈りはじ
 ...and get a fluffy clump of wool.	...そしてふわふわの羊毛のかたまりが取れた。
 ...but the sheep wriggles free!	...しかし羊は身をよじって逃げてしまった！
 You need shears!	鋏が必要です！
-You hold the Staff of Ashen to the barrier and speak Bert's words of Unbinding..	アシェンの杖を障壁にかざし、バートの解縛の言葉を唱える..
+You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	ガルミアの杖を障壁にかざし、バートの解縛の言葉を唱える..
 ..and the barrier shatters like glass. Beyond it, on the scorched ground before Galaith's walls, the dragon lifts its glittering head, and the sword in your hand sings back at it.	..すると障壁はガラスのように砕け散る。その向こう、ガライスの城壁の前の焼けた地面で、ドラゴンがきらめく頭をもたげ、手の中の剣がそれに歌い返す。
 The staff hums against the barrier, but you don't know the words.	杖は障壁に触れてうなるが、あなたはその言葉を知らない。
 ..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	..すると障壁は燃え上がり、震え、持ちこたえる。世界の向こうの何かがそれを養っている。
@@ -2987,16 +2988,16 @@ Wield your sword and shield, and train until your Attack and Defence are level 2
 Something of your mother's lies in the caves under the chapel.	礼拝堂の下の洞窟に、母のものが眠っている。
 Something gold glints behind iron bars, out of reach of any hand.	鉄格子の向こうで何か金色のものが光っている。どんな手も届かない。
 Speak to the city guard at Northport's port.	ノースポートの港で都の衛兵と話そう。
-Go to Northport's City Hall, where Ashen's Parliament sits until Galaith opens again.	ノースポートの市庁舎へ行こう。ガライスが再び開くまで、アシェンの議会はそこで開かれている。
+Go to Northport's City Hall, where Galmere's Parliament sits until Galaith opens again.	ノースポートの市庁舎へ行こう。ガライスが再び開くまで、ガルミアの議会はそこで開かれている。
 Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	議会の手紙を、アシュフォードの町役場にいるアシュフォードの町長に届けよう。
 Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	ゴブリンがアシュフォードの東の農場を襲っている。追い払おう：農場の十字路で待ち構えよう。
 Tell the Mayor the goblins are beaten.	ゴブリンを打ち負かしたことを町長に伝えよう。
 Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	町長の通行証を、アシュフォードの南にあるルパート王の砦の王の家令に見せよう。
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	古い鉄鉱山、鉱山の深層、または巣穴でホブゴブリンを五匹倒して（$HobgoblinsSlain / 5）、家令のもとへ戻ろう。
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	魔術師院の塔のてっぺんで、大魔法使いバートを見つけよう。
-Bring Bert the Staff of Ashen, the Grimoire of Unbinding and the Ember Ring.	バートにアシェンの杖、解縛の魔導書、残り火の指輪を持っていこう。
+Bring Bert the Staff of Galmere, the Grimoire of Unbinding and the Ember Ring.	バートにガルミアの杖、解縛の魔導書、残り火の指輪を持っていこう。
 Ask the Steward at King Rupert's Keep about the King's staff.	ルパート王の砦の家令に、王の杖のことを聞こう。
-Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Ashen.	砦のてっぺんにある王の私室へ上り（砦の広間の階段：家令の鍵）、アシェンの杖を手に入れよう。
+Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Galmere.	砦のてっぺんにある王の私室へ上り（砦の広間の階段：家令の鍵）、ガルミアの杖を手に入れよう。
 Ask the scholar Yusra, in Dunerest, about the Grimoire of Unbinding.	デューンレストの学者ユスラに、解縛の魔導書のことを聞こう。
 The Grimoire lies in the sun priests' buried library, in the desert north of Dunerest. Dig out its entrance (a spade).	魔導書は、デューンレストの北の砂漠にある太陽の司祭たちの埋もれた書庫にある。入口を掘り出そう（シャベル）。
 Take the Grimoire of Unbinding from its lectern in the buried library.	埋もれた書庫の書見台から解縛の魔導書を取ろう。
@@ -3018,10 +3019,10 @@ The Temple of Valour is sealed. Take three Valour Seals from the island's drakes
 Enter the Temple of Valour and speak to its guardian.	勇気の神殿に入り、その守護者と話そう。
 Defeat the Guardian of Valour.	勇気の守護者を打ち倒そう。
 Draw the Sword of Valour from its stone.	台石から勇気の剣を引き抜こう。
-The barrier still stands in the pass of Galaith. Raise the Staff of Ashen against it.	ガライスの峠にはまだ障壁が立っている。アシェンの杖をそれに向けて掲げよう。
+The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.	ガライスの峠にはまだ障壁が立っている。ガルミアの杖をそれに向けて掲げよう。
 The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's tower.	障壁は持ちこたえた：世界の向こうの何かがそれを養っている。魔術師院の塔のてっぺんにいるバートに聞こう。
 Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).	魔術師院の北の丘にある古い立石の輪に、シャードゲートを築こう：銀の延べ棒 4 本、サファイア 2 個、残滓の核、そしてシャード。8 つの起動したシャードストーンで安定させる（バートの設計図）。
-Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Ashen.	シャードゲートをくぐってシャード界の中心へ入ろう。その番人を突破し、アシェンの杖で障壁の錨を打ち砕こう。
+Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Galmere.	シャードゲートをくぐってシャード界の中心へ入ろう。その番人を突破し、ガルミアの杖で障壁の錨を打ち砕こう。
 The anchor is shattered. Tell Bert.	錨は砕かれた。バートに伝えよう。
 The barrier at the pass only thins now its anchor's gone.	錨がなくなった今、峠の障壁は薄くなるだけだ。
 The dragon wears a hide of Shards now, and it laughed at the Sword of Valour. Ask Bert why.	ドラゴンは今やシャードの皮をまとい、勇気の剣を笑った。バートにわけを聞こう。
@@ -3039,7 +3040,7 @@ Maud says the Stone King sits the old dwarf hall's throne. Break it.	モード�
 The dwarves locked the Deep Anvil with four rune stones. Maud's people sing a work-song older than any of them.	ドワーフたちは四つのルーン石で深淵の金床を封じた。モードの仲間たちは、誰よりも古い作業歌を歌う。
 The Deep Anvil is awake. Wake the Sword of Valour on it.	深淵の金床が目覚めている。そこで勇気の剣を目覚めさせよう。
 The Sword of Valour is awake. Tell Maud.	勇気の剣が目覚めた。モードに伝えよう。
-Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Ashen on it).	西へ向かい、ウェストレンジのガライスの峠へ行こう。バートの呪文で障壁を破ろう（アシェンの杖を障壁に使う）。
+Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Galmere on it).	西へ向かい、ウェストレンジのガライスの峠へ行こう。バートの呪文で障壁を破ろう（ガルミアの杖を障壁に使う）。
 Kill the dragon before Galaith's walls. Only the Sword of Valour, wielded, can reach its heart.	ガライスの城壁の前でドラゴンを倒そう。その心臓に届くのは、手にした勇気の剣だけだ。
 Ask the captain of the Royal Guard, at the palace door, to let you see the King.	宮殿の扉にいる近衛兵の隊長に、王に会わせてもらえるよう頼もう。
 The Lord Chancellor must give his leave. Find him in Galaith's Parliament.	大法官の許しが要る。ガライスの議会で彼を見つけよう。
@@ -3735,7 +3736,7 @@ A fiery red potion. It makes you stronger.	燃えるような赤い薬。力が�
 +Attack for a while	しばらく攻撃上昇
 Furnace	炉
 Smelt	製錬する
-A furnace, roaring hot. Smelt ore into bars here.	真っ赤に燃える炉。ここで鉱石を製錬して延べ棒にする。
+A furnace, roaring hot. Smelt ore into bars here. Eyebrows are optional.	真っ赤に燃える炉。ここで鉱石を製錬して延べ棒にする。眉毛はお好みで。
 Smelt ore into bars	鉱石を製錬して延べ棒に
 Anvil	金床
 Smith	鍛える
@@ -3743,7 +3744,7 @@ A heavy anvil. Hammer bars into tools and weapons here.	重い金床。ここで
 Make tools and arms	道具と武器を作る
 Range	かまど
 Cook	料理する
-A cooking range. Cook raw food on it, or bake.	料理用のかまど。生の食べ物を焼いたり、パンを焼いたりする。
+A cooking range. Cook raw food on it, or bake. It has seen things. Mostly burnt things.	料理用のかまど。生の食べ物を焼いたり、パンを焼いたりする。いろいろ見てきたかまどだ。主に焦げたものを。
 Cook and bake	料理とパン焼き
 Alchemy Table	錬金術台
 Brew	調合する
@@ -3751,7 +3752,7 @@ Bottles, burners and a mortar. Brew potions here.	瓶、バーナー、乳鉢。
 Brew potions	薬を調合する
 Workbench	作業台
 Craft	作る
-A sturdy workbench for leather, wool and jewellery.	革、羊毛、宝飾のための頑丈な作業台。
+A sturdy workbench for leather, wool and jewellery. Someone has carved TOM WOZ ERE in the corner.	革、羊毛、宝飾のための頑丈な作業台。隅に誰かが「トム参上」と彫っている。
 Leather, wool and jewellery	革、羊毛、宝飾
 Mine Cart	トロッコ
 Search	調べる
@@ -4068,7 +4069,7 @@ The old king of the downs, crowned and long dead. He does not want to rest.	冠�
 King of the downs	丘陵の王
 Ripe Wheat	実った小麦
 Harvest	収穫する
-Ripe golden wheat.	実った黄金色の小麦。
+Ripe golden wheat. Bread, in its early days.	実った黄金色の小麦。まだ若いころのパン。
 Harvest it	収穫する
 Stubble	刈り株
 Stubble. The wheat will grow again.	刈り株。小麦はまた育つ。
@@ -4326,8 +4327,8 @@ Last Will	遺言書
 Your mother's last will and testament, sealed with her wax.	母の最後の遺言書。母の蝋で封がされている。
 A will, sealed	封をされた遺言書
 Amulet of Succession	継承のアミュレット
-The Amulet of Ashen Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	アシェン継承のアミュレット：金、サファイア、王冠。母があなたのために隠していた。
-The Amulet of Ashen Succession	アシェン継承のアミュレット
+The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	ガルミア継承のアミュレット：金、サファイア、王冠。母があなたのために隠していた。
+The Amulet of Galmere Succession	ガルミア継承のアミュレット
 Lair Key	巣の鍵
 A heavy iron key: it opens the door the hobgoblins hold in the caves.	重い鉄の鍵：洞窟でホブゴブリンが押さえている扉を開ける。
 A heavy iron key	重い鉄の鍵
@@ -4356,7 +4357,7 @@ Jimmy	ジミー
 Jimmy, curled up asleep on the spare bed.	予備のベッドで丸くなって眠っているジミー。
 Jimmy, asleep	眠っているジミー
 Chimney Smoke	煙突の煙
-Smoke from the forge.	鍛冶場の煙。
+Smoke from the forge. It smells of hot iron and somebody's lunch.	炉の煙。熱い鉄と、誰かの昼ごはんの匂いがする。
 Smoke	煙
 Edwin	エドウィン
 Edwin, the Isle's lawyer. His wife Maren is its doctor.	島の弁護士エドウィン。妻のマレンは島の医者だ。
@@ -4379,7 +4380,7 @@ Port Guard	港の衛兵
 One of Northport's city guard, in the city's blue.	都の青をまとった、ノースポートの都の衛兵の一人。
 Northport's guard	ノースポートの衛兵
 Speaker	議長
-The Speaker of Ashen's Parliament, in its crimson robes.	深紅の衣をまとった、アシェン議会の議長。
+The Speaker of Galmere's Parliament, in its crimson robes.	深紅の衣をまとった、ガルミア議会の議長。
 The Speaker of Parliament	議会の議長
 Mayor	町長
 The mayor, in a velvet cloak and a chain of office.	ビロードの外套と職務の鎖を身につけた町長。
@@ -4400,8 +4401,8 @@ Valour Guardian	勇気の守護者
 A knight of pale light: the guardian of the Sword of Valour.	淡い光の騎士：勇気の剣の守護者。
 Guardian of the Sword of Valour	勇気の剣の守護者
 King Rupert	ルパート王
-King Rupert of Ashen, grey before his time.	年齢より早く白髪になった、アシェンのルパート王。
-King Rupert of Ashen	アシェンのルパート王
+King Rupert of Galmere, grey before his time.	年齢より早く白髪になった、ガルミアのルパート王。
+King Rupert of Galmere	ガルミアのルパート王
 Royal Guard	近衛兵
 A guard of Galaith's palace, in white and gold.	白と金をまとったガライスの宮殿の衛兵。
 Galaith's palace guard	ガライスの宮殿の衛兵
@@ -4500,8 +4501,8 @@ A Valour Seal: gold, a sword's point in red. A drake carried it.	勇気の印章
 A Valour Seal	勇気の印章
 Ember Ring	残り火の指輪
 The Ember Ring: a ruby that glows like a coal. Warm to the touch. Inside the band, worn thin: the seal of the Pact, a dragon coiled round a ring of broken scales.	残り火の指輪：炭火のように光るルビー。触れると温かい。すり減った輪の内側に、盟約の印：砕けた鱗の輪に巻きつくドラゴン。
-Staff of Ashen	アシェンの杖
-The Staff of Ashen, the kings' staff: gold and blue, warm with magic.	王たちの杖、アシェンの杖：金と青、魔法で温かい。
+Staff of Galmere	ガルミアの杖
+The Staff of Galmere, the kings' staff: gold and blue, warm with magic.	王たちの杖、ガルミアの杖：金と青、魔法で温かい。
 Sword of Valour	勇気の剣
 The Sword of Valour. Its edge hums. Only it can reach a dragon's heart.	勇気の剣。その刃はうなっている。ドラゴンの心臓に届くのはこれだけだ。
 Grimoire Lectern	魔導書の書見台
@@ -5515,7 +5516,7 @@ Bounty Board	賞金の掲示板
 A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.	爪跡の刻まれた枠の賞金の掲示板。今日の告知が短剣で留められている。
 Today's bounty	今日の賞金首
 Records Board	記録の掲示板
-The hall of records, carved in pale stone and gilded: the names that have done the most in Ashen.	淡い石に刻まれ金箔を施した記録の殿堂：アシェンで最も多くを成し遂げた者たちの名前。
+The hall of records, carved in pale stone and gilded: the names that have done the most in Galmere.	淡い石に刻まれ金箔を施した記録の殿堂：ガルミアで最も多くを成し遂げた者たちの名前。
 The names that have done the most	最も多くを成し遂げた者たちの名前
 Trees all over the Isle and the Southlands	島とサウスランドのいたるところの木
 Fallen logs lying in the meadows and woods	牧草地や森に倒れている丸太
@@ -5611,7 +5612,7 @@ The Temporary Capital	仮の都
 The Ashford Road	アシュフォード街道
 The Steward's Hunt	家令の狩り
 Bert's Three Treasures	バートの三つの宝
-The Staff of Ashen	アシェンの杖
+The Staff of Galmere	ガルミアの杖
 The Sunken Grimoire	沈んだ魔導書
 The Ember Ring	残り火の指輪
 Orrin's Chart	オリンの海図
@@ -7805,7 +7806,7 @@ an unseen hand brings you a thing up to {1} tiles away	見えない手が {1} �
 a hush round you for {1} s: whatever you fight makes no sound	{1} 秒間、まわりが静まる：戦う相手は音を立てない
 heals {1} hitpoints	体力を {1} 回復
 You break down the {1}	{1}を分解する
-Magic in Ashen now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	アシェンの魔法は今やシャードで動き、あなたは最初に {1} 持っている。巻物から呪文を覚えれば一生ものだ。詠唱（ステータス欄）から唱えよう。
+Magic in Galmere now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	ガルミアの魔法は今やシャードで動き、あなたは最初に {1} 持っている。巻物から呪文を覚えれば一生ものだ。詠唱（ステータス欄）から唱えよう。
 {1}: your reward	{1}：あなたの報酬
 ({1}-{2} with your Channeling)	（詠唱で {1}-{2}）
 , {1} for {2} s	、{2} 秒間 {1}
@@ -7896,7 +7897,7 @@ nothing worth having	価値のある物は何もない
 Rattle	カタカタ
 Minutes	分
 in the wilds	荒野で
-{1}, raised by the people of Ashen. Most given by: {2}.	{1}。アシェンの民が築いた。最も多く出したのは：{2}。
+{1}, raised by the people of Galmere. Most given by: {2}.	{1}。ガルミアの民が築いた。最も多く出したのは：{2}。
 Party	パーティー
 {1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1}がパーティーに誘っている：近くにいる者同士でキルとクエストの段階を共有し、/p でパーティーと話せます。
 You ask {1} to join your party.	{1}をパーティーに誘った。
@@ -7904,7 +7905,7 @@ You ask {1} to join your party.	{1}をパーティーに誘った。
 {1} is your friend now.	{1}があなたの友人になった。
 {1} is no longer on your friends list.	{1}はもう友人リストにいない。
 at a homestead	ホームステッドで
-in Ashen	アシェンで
+in Galmere	ガルミアで
 {1} would like to trade with you.	{1}があなたと取引したがっている。
 You ask {1} to trade.	{1}に取引を申し込んだ。
 The trade is done.	取引が成立した。
@@ -7956,7 +7957,7 @@ You take {1}: there's no room for the rest.	{1}を受け取った。残りを入
 Raiders at {1}! Every blade is wanted.	{1}に襲撃者だ！刃という刃が求められている。
 {1} is the arena's champion, with {2} wins.	{1}は闘技場の王者だ。{2} 勝。
 Other heirs abroad today: {1}.	今日ほかに出歩いている跡継ぎ：{1}。
-All quiet in Ashen today. Quiet as a mouse in a cat's dream.	今日のアシェンは平穏そのもの。猫の夢の中のネズミのように静かだ。
+All quiet in Galmere today. Quiet as a mouse in a cat's dream.	今日のガルミアは平穏そのもの。猫の夢の中のネズミのように静かだ。
 Hear ye!	聞け、聞け！
 Bounties	懸賞
 You've had today's bounty. Come back tomorrow: there's always something with too many teeth.	今日の懸賞はもう受けた。明日また来な。歯の多すぎるやつはいつだっているからな。
@@ -8011,12 +8012,12 @@ Good.	よし。
 {1} is {2} parts in a hundred done. The foreman wants more hands.	{1}は百のうち {2} まで進んでいる。親方はもっと人手を求めている。
 Bounty	懸賞
 {1}: {2} of {3} so far. Keep at it.	{1}：今のところ {2} / {3}。その調子で。
-Today's bounty: {1} {2}, anywhere in Ashen. Gold and Shards when it's done. One a day.	今日の懸賞：アシェンのどこでもいいから{1} {2}。済んだら金貨とシャード。一日一つ。
+Today's bounty: {1} {2}, anywhere in Galmere. Gold and Shards when it's done. One a day.	今日の懸賞：ガルミアのどこでもいいから{1} {2}。済んだら金貨とシャード。一日一つ。
 A gift from {1}: {2}.	{1}からの贈り物：{2}。
 Leave {1}.	{1}を出る。
 Long live the {1}!	{1}万歳！
 Your Majesty!	陛下！
-Ashen's own {1}!	アシェンの{1}だ！
+Galmere's own {1}!	ガルミアの{1}だ！
 Bless you, Majesty.	陛下に祝福を。
 Playing {1} on {2}	{2}で{1}をプレイ中
 the town	町
@@ -8030,7 +8031,7 @@ Croak	ゲロゲロ
 Peck	つつく
 Moo. ...Oh, you're new. The grass by the fence is better. Don't tell the others.	モー。……おや、新入りだね。柵のそばの草のほうがうまいよ。ほかのみんなには内緒だよ。
 Have you ever really looked at a cloud? I have. All day. Every day.	雲をちゃんと見たことある？私はあるよ。一日じゅう。毎日。
-The farmer calls me Daisy. My name is Lady Cornelia Buttercup the Third.	農夫は私をデイジーって呼ぶ。本当の名はコーネリア・バターカップ三世夫人よ。
+My name is Lady Cornelia Buttercup the Third. The farmer calls me Daisy.	本当の名はコーネリア・バターカップ三世夫人よ。農夫は私をデイジーって呼ぶ。
 Baa. That's not a word, by the way. We just like saying it.	メエ。ところで、それ言葉じゃないからね。言うのが好きなだけ。
 They took my coat. Every spring. I'm not saying I'm bitter, I'm saying I remember.	毎年春になると、毛を刈られるんだ。恨んでるとは言わないよ。覚えてるって言ってるだけさ。
 If a wolf asks, you haven't seen me. If a wolf asks you anything at all, run.	オオカミに訊かれたら、私は見なかったことにして。オオカミに何か訊かれたら、とにかく逃げて。
@@ -8053,6 +8054,38 @@ Friend? FRIEND! Are you a friend? You're a friend! Ball? Do you have a ball?	友
 I barked at a leaf today. It was very threatening. You're welcome.	今日は葉っぱに吠えたよ。すごく危なかったんだ。どういたしまして。
 Ribbit. I'm a prince, actually. Long story. Don't kiss me, it doesn't work, I've checked.	ケロッ。実は王子なんだ。長い話でね。キスはしないで。効かないから。確かめたんだ。
 Arf. The fish here are fine. The fish up north are better. I don't make the rules.	ワフ。ここの魚もいいけど、北の魚のほうがうまい。決めたのはぼくじゃないよ。
+Snort. They say a horse can't count. I can count. I count every sugar lump I don't get.	ブルルッ。馬は数を数えられないと言われる。数えられるとも。もらえなかった角砂糖を一つ残らず数えている。
+Carrying people is fine. It's the talking I mind. Nobody asks how my day was.	人を乗せるのはかまわない。気になるのはおしゃべりのほうだ。誰も私の一日がどうだったか聞いてくれない。
+Neigh. That means 'no'. They always take it as 'yes'.	ヒヒーン。「いやだ」という意味だ。いつも「いいよ」だと思われる。
+I am a royal horse. I have a royal saddle and a royal blanket. The flies don't care.	私は王家の馬だ。王家の鞍と王家の毛布がある。ハエは気にしない。
+One brushes the mane, then the tail. Never the other way. One isn't a peasant.	たてがみを梳かし、それから尾。逆はありえない。百姓ではないのだから。
+The white one gets the parades. I get the rain. I've made my peace with it. I haven't.	白いほうはパレードに出る。私は雨に出る。もう割り切った。割り切ってなどいない。
+Mrrp. People say I'm bad luck. I've never had any bad luck. Funny, that.	ニャッ。私は縁起が悪いと言われる。私自身は一度も悪いことなんかない。不思議ね。
+I crossed your path on purpose. You looked like you needed something to blame.	わざとあなたの前を横切ったの。何かのせいにしたそうな顔をしていたから。
+Mrrp. I fell off the roof this morning. On purpose. It was a test. Of the ground.	ニャッ。今朝、屋根から落ちた。わざとだ。テストだった。地面の。
+Have you got food? You've got the face of someone who's got food.	食べ物ある？ 食べ物を持っている人の顔をしてる。
+Mrrp. I'm not fat. I'm built for winter. Every winter. All at once.	ニャッ。太ってないわ。冬向けにできてるの。毎年の冬に。全部まとめて。
+Three houses feed me. None of them knows about the other two. Don't you tell them.	三軒の家が私にごはんをくれる。どの家もほかの二軒を知らない。言わないでね。
+Mrrp. I'm dressed for dinner. I'm always dressed for dinner. Where is dinner.	ニャッ。夕食の正装をしている。いつも夕食の正装だ。夕食はどこだ。
+I knocked a cup off the table to see if it would fall. It did. I'll check again tomorrow.	カップがテーブルから落ちるか確かめようと押した。落ちた。明日また確かめる。
+Grr. You smell like a sheep. No offence. Some of my best meals were sheep.	グルル。羊の匂いがするな。悪く思うな。最高の食事のいくつかは羊だった。
+We howl at the moon. The moon has never once howled back. Rude.	我らは月に吠える。月が吠え返したことは一度もない。無礼な。
+The pack's a family. A family that argues about who gets the leg.	群れは家族だ。誰が脚を取るかでもめる家族だ。
+Grr. Cold? This isn't cold. Cold is when your howl freezes and falls on your feet.	グルル。寒い？ これは寒いとは言わん。寒いとは、遠吠えが凍って足に落ちてくることだ。
+White fur. Very good for hiding in snow. Very bad for hiding in anything else.	白い毛皮。雪に隠れるにはとてもいい。ほかの何に隠れるにもとても悪い。
+I lead the pack. Mostly I lead it to arguments about the leg.	俺は群れを率いる。たいていは脚をめぐる口論へ率いる。
+Grr. Being in charge is all howling and no thanks.	グルル。頭をやるのは遠吠えばかりで、感謝はなしだ。
+Grumph. I was asleep. For four months. I was having a lovely time.	グフッ。寝ていたんだ。四か月。最高の気分だった。
+Honey is the best thing in the world. Bees are the worst. It's a hard life.	はちみつは世界でいちばんいいものだ。ハチはいちばん悪い。つらい人生だ。
+Everyone runs when they see me. I only wanted to say hello. And maybe eat their lunch.	みんな俺を見ると逃げる。あいさつしたかっただけなのに。それと、昼めしを食べたかったかも。
+Squeak. The cellar's ours. The humans just store things in it for us.	チュウ。地下室はおれたちのものだ。人間はおれたちのために物をしまっているだけさ。
+I'm not dirty. I wash six times a day. The cellar's dirty. Different thing.	汚くなんかない。一日に六回体を洗う。汚いのは地下室だ。別の話さ。
+Cheese is a lie made up by people who've never met a rat. Give me bread.	チーズは、ネズミに会ったこともない連中がでっちあげた嘘だ。パンをくれ。
+Squeak. I'm not upside down. You're upside down.	キィ。私は逆さまじゃない。あなたが逆さまなの。
+I see by shouting at things and listening for the echo. Very rude, I know. It works.	物に向かって叫んで、こだまを聞いて見ているの。とても失礼なのはわかってる。でも見えるの。
+Oh! Hello! I was a caterpillar last month. I don't want to talk about it.	あら！ こんにちは！ 先月まではイモムシだったの。その話はしたくない。
+Flower. Flower. Flower. Oh, that one's a hat. Flower.	花。花。花。あら、これは帽子。花。
+I'm blue. On purpose. The brown ones say I'm showing off. I am showing off.	私は青い。わざと。茶色い子たちは見せびらかしだって言う。見せびらかしてるのよ。
 Time's up! You snap back into your own body.	時間切れ！自分の体にぱっと戻る。
 Vanish	消える
 You fade away to a shimmer. No monster will see you for {1} seconds, unless you strike or cast.	あなたの姿はかすかな揺らめきになる。攻撃するか唱えない限り、{1} 秒間どのモンスターにも見えない。
@@ -8136,7 +8169,7 @@ Origin	送信元
 Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}、Python {2}（{3}）
 Sent by: {1}	送信者：{1}
 Playing ({1} of {2}):	プレイ中（{1} / {2}）：
-Your friend {1} has left Ashen.	友人の{1}がアシェンを去りました。
+Your friend {1} has left Galmere.	友人の{1}がガルミアを去りました。
 1 minute	1 分
 Only an admin or the host can do that.	それができるのは管理者かホストだけです。
 /maintenance minutes [why] (0 to {1}), or /maintenance off	/maintenance 分 [理由]（0〜{1}）、または /maintenance off
@@ -8147,7 +8180,7 @@ Friends by account are kept by the central server: come in from the start screen
 Your Hallisium account is banned.	あなたの Hallisium アカウントは利用停止されています。
 This game isn't joined to the central server.	このゲームは中央サーバーにつながっていません。
 {1} is here now.	{1}が来ています。
-Your friend {1} has come into Ashen.	友人の{1}がアシェンに来ました。
+Your friend {1} has come into Galmere.	友人の{1}がガルミアに来ました。
 Who? {1} Name	誰？{1} 名前
 {1} may play again.	{1}は再びプレイできるようになりました。
 {1} has left the game.	{1}がゲームを去りました。
@@ -8978,7 +9011,7 @@ Sign in to see the public servers.	公開サーバーを見るにはサインイ
 A moment...	少々お待ちください...
 The central server didn't answer.	中央サーバーが応答しませんでした。
 Welcome back, {1}.	おかえりなさい、{1}。
-Welcome to Ashen, {1}!	アシェンへようこそ、{1}！
+Welcome to Galmere, {1}!	ガルミアへようこそ、{1}！
 We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	リンクをメールで送りました。ゲームに参加するには、そのリンクでメールを確認してください。パスワードを忘れたときに戻れる唯一の方法でもあります。
 This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	このサーバーは今メールを送れません。送れるようになったらアカウントからメールを確認してゲームに参加してください。パスワードを忘れたときに戻れる唯一の方法でもあります。
 Carry on	続ける

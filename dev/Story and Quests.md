@@ -6,7 +6,7 @@ game's files.
 
 ## The secret of the Shards (the Cutting)
 
-The heir's story stays; under it is what Shards are. (This replaced the earlier "Heart of Ashen" idea, the owner's
+The heir's story stays; under it is what Shards are. (This replaced the earlier "Heart of Galmere" idea, the owner's
 choice: the dragon should be a real villain, so killing it feels right.)
 
 - **The dragon is Vorgalath** (the owner's choice; "Galaith" is hidden in it: the city may be named for the dragon,
@@ -37,14 +37,14 @@ choice: the dragon should be a real villain, so killing it feels right.)
 
 ## The world in brief
 
-- **Ashen** is the kingdom. Its capital, **Galaith**, in a gap in the mountains at the far east of the mainland,
+- **Galmere** is the kingdom. Its capital, **Galaith**, in a gap in the mountains at the far east of the mainland,
   holds the only land route across the world and the gold and Shard mines behind it. A dragon has kept it shut behind
   a magical barrier for eighteen years: every generation it was owed the king's firstborn heir, and Queen **Mary** ran
   from Galaith with her baby, you, to break the bargain. King **Rupert**, your father, is shut in the city.
 - **The Isle**: a small island off the south coast, where you grew up poor and where every new character begins, at
   their mother's funeral. It has a village with a lawyer's and doctor's house, a farm and a smithy, a chapel with caves under it, a hermit
   and a ferry.
-- **The mainland**: **Northport** (a large city, where the ferry lands; Ashen's Parliament sits in its City Hall
+- **The mainland**: **Northport** (a large city, where the ferry lands; Galmere's Parliament sits in its City Hall
   while Galaith is lost), **Ashford**, **King Rupert's Keep** (the old Tyron's Keep, held by the King's Steward), the
   **Wizards' Court** on the Royal Isle, Fenwick, Ravensgate, Highwatch, Frosthold, Oakhollow, Thornwick, Emberwatch,
   Greyford, Dunerest, Wildwood and Saltmarsh, each the size the owner set (see `CLAUDE.md`).
@@ -68,7 +68,7 @@ and each place's keeper names the next: never a letter or a sign.
 
 | Ch. | Quest | What you do |
 |---|---|---|
-| 1 | **The Last Will** | You stand at your mother's fresh grave by the chapel. The mourners go; **Edwin** the lawyer walks you home and leaves her letter on the table. The cottage door stays locked until you've **read the letter** (three pages, in the owner's words): you are the heir of Ashen. Jimmy sleeps on her empty bed. |
+| 1 | **The Last Will** | You stand at your mother's fresh grave by the chapel. The mourners go; **Edwin** the lawyer walks you home and leaves her letter on the table. The cottage door stays locked until you've **read the letter** (three pages, in the owner's words): you are the heir of Galmere. Jimmy sleeps on her empty bed. |
 | 2 | **Dinner at Edwin's** | Edwin the lawyer asks you to dinner. **Maren**, his wife, is the Isle's doctor (their house is two storeys of brick by the chapel, her surgery and his desk downstairs; it was the bank. They live upstairs, and go up at night). **Chop 3 logs** for her range (she lends an axe), **take an egg** from Bess's coop and **fry it** on her range, give it to Edwin. Reward: the key to the chapel's trapdoor, and a promise not to go down without a sword and shield. |
 | 3 | **The Amulet of Succession** | **Bess** the milkmaid tells you Wim needs papers, and that her father wrote them. Her husband **Frank** the blacksmith (smoke from his chimney by day) helps you **make a wooden sword and shield**. **Brother Aldous** lets you down once you wield both and Attack and Defence are level 2. The amulet lies **behind bars** at the back of the caves: Aldous brings a **Grasp** scroll. Reward: the amulet and the key of the hobgoblins' lair. |
 | 4 | **Passage to the Mainland** | Bess's father **Tobias** is missing and his house (Maren & Bess's Father's Home) is locked. The **hobgoblins' lair**: four hobgoblins (no new ones until you leave), the house key in the corner barrel, Tobias in a cage you **pick the lock** of (the lock minigame: set each pin as it crosses the line; three slips and you start again). He gives you his house and moves in with Maren at the bank. A hidden ladder climbs into a tent in their camp on the surface (only a tent until it's been climbed from below). In the house a **floorboard squeaks**: under it, the **papers** Mary left with him for you, under a crowned seal (what the hobgoblins were after). **Wim** reads them and lets you aboard, for a coin; at Northport the **port guard** reads them too and sends you to the Speaker. In the demo, the ferry goes no further: with the papers, the demo's end card shows what the Isle gave you and what's left to ask (the order in ash, the miniature, if found), and the full game goes on from there. |
@@ -86,7 +86,7 @@ and each place's keeper names the next: never a letter or a sign.
 | Ch. | Quest | What you do |
 |---|---|---|
 | 8 | **Bert's Three Treasures** | **Bert**, at the top of the Wizards' Court's tower, needs three things to break the barrier: |
-| 9 | **The Staff of Ashen** | The Steward's key opens the stair to the **King's solar**, at the top of the keep. Its old skeleton guard; the staff on its rack. |
+| 9 | **The Staff of Galmere** | The Steward's key opens the stair to the **King's solar**, at the top of the keep. Its old skeleton guard; the staff on its rack. |
 | 10 | **The Sunken Grimoire** | The scholar **Yusra** in Dunerest: the Grimoire of Unbinding is in the sun priests' **buried library**, under a sand mound in the desert north of town (dig it out with a spade). A tomb guardian. |
 | 11 | **The Ember Ring** | The **Warden** in Emberwatch: the **Ashen Priest** wears the ring, in the Cinder Fort. Take it from him. |
 
@@ -474,7 +474,7 @@ no statue or title yet.
 **The idea in one line.** The Shards are scraps of the dragon, and they're still a little bit of it: hungry, growing,
 and very good at telling you what you want to hear.
 
-**The truth under the whole game (replacing the Heart of Ashen).** The dragon was a **devourer**, a vast, hungry thing
+**The truth under the whole game (replacing the Heart of Galmere).** The dragon was a **devourer**, a vast, hungry thing
 that swallowed the world's magic and wanted all of it. The first king found a way to **cut it down**: almost all of it
 he pushed out of the world into a hollow (the **Shardrealm**), and what was left was small enough to bind. That is the
 dragon the heir meets. The cutting threw off scraps: those are **Shards**. They are not a crystal, not a treasure and
@@ -760,7 +760,7 @@ A form is shown you when you next talk to its teacher once you've earned it (`St
 The Last Will (1) ── Dinner at Edwin's (2) ── The Amulet of Succession (3) ── Passage to the Mainland (4)
 Passage to the Mainland: every mainland quest needs it
 ├── The Temporary Capital (5) ── The Ashford Road (6) ── The Steward's Hunt (7)
-│   ├── Bert's Three Treasures (8): The Staff of Ashen (9), The Sunken Grimoire (10), The Ember Ring (11)
+│   ├── Bert's Three Treasures (8): The Staff of Galmere (9), The Sunken Grimoire (10), The Ember Ring (11)
 │   │   └── Orrin's Chart (12) ── The Frozen Lodestar (13) ── A Ship for Dragon Island (14)
 │   │       └── The Island of Dragons (15) ── The Sword of Valour (16) ── The Shardgate (17)
 │   │           └── The Sleeping Sword (18) ── The Ashen Foundry (19) ── The Sun-Forge (20) ── The Deep Anvil (21)
@@ -821,7 +821,7 @@ by the scripts in `data/Scripts/` (named for what you do: `Talk to Milkmaid.scri
 | The Amulet of Succession | AmuletQuest | Talk to Milkmaid, Talk to Frank, Talk to Chapel_Verger, Reach In / Grasp Barred_Niche |
 | Passage to the Mainland | Passage | Pick Lock Caged_Tobias, Squeaky Floorboard, Talk to Milkmaid, Talk to Ferryman |
 | The Temporary Capital, The Ashford Road | ParliamentQuest, AshfordQuest | Talk to Northport_Port_Guard, Talk to Northport_Speaker_*, Talk to the Mayor, Farm Raid Won |
-| The Steward's Hunt, The Staff of Ashen | HobgoblinQuest, StaffQuest | Talk to Keep_Steward, Kill Hobgoblin, 22,11,1, Pickup Staff_of_Ashen |
+| The Steward's Hunt, The Staff of Galmere | HobgoblinQuest, StaffQuest | Talk to Keep_Steward, Kill Hobgoblin, 22,11,1, Pickup Staff_of_Ashen |
 | Bert's Three Treasures | BertQuest | Talk to Bert, Bert's Confession |
 | The Redrock Signet | RedrockSignetQuest | Talk to Redrock_Steward, Open Redrock_Manor_Vault (build_hush_and_dread.py) |
 | The Sunken Grimoire, The Ember Ring | GrimoireQuest, RingQuest | Talk to Dunerest_Scholar, 3,16,0, 3,16,-1, Talk to Warden, Kill Ashen_Priest |

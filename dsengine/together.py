@@ -426,7 +426,7 @@ class TogetherMixin:
             return "indoors"
         best = min(((abs(x - p.cx) + abs(y - p.cy), t) for t, x, y in self.towns_at()), default=None)
         if best is None:
-            return "in Ashen"
+            return "in Galmere"
         d, title = best
         if d < self.w.sw * 1.2:
             return "in " + title
@@ -757,7 +757,7 @@ class TogetherMixin:
         if d is None:
             return ""
         top = sorted(t.project(key)["givers"].items(), key=lambda kv: -kv[1])[:5]
-        return "%s, raised by the people of Ashen. Most given by: %s." % (d["title"], ", ".join(n for n, _ in top) or
+        return "%s, raised by the people of Galmere. Most given by: %s." % (d["title"], ", ".join(n for n, _ in top) or
                                                                           "many hands")
 
     # ================================================================================================= the crier
@@ -783,7 +783,7 @@ class TogetherMixin:
         others = [n for n, s in w.sessions.items() if s is not self and s.in_world()]
         if others:
             news.append("Other heirs abroad today: %s." % ", ".join(sorted(others)[:4]))
-        return news or ["All quiet in Ashen today. Quiet as a mouse in a cat's dream."]
+        return news or ["All quiet in Galmere today. Quiet as a mouse in a cat's dream."]
 
     def crier_menu(self):
         news = self.crier_news()
@@ -815,7 +815,7 @@ class TogetherMixin:
             self.show_menu("Bounties", "Bounty_Board", "%s: %d of %d so far. Keep at it." % (pretty(kind) + "s", got, n),
                            [("I will.", None)])
         else:
-            self.show_menu("Bounties", "Bounty_Board", "Today's bounty: %d %s, anywhere in Ashen. Gold and Shards when "
+            self.show_menu("Bounties", "Bounty_Board", "Today's bounty: %d %s, anywhere in Galmere. Gold and Shards when "
                            "it's done. One a day." % (n, pretty(kind).lower() + "s"),
                            [("I'll take it.", lambda: self.take_bounty(day)), ("Not today.", None)])
 
@@ -1047,7 +1047,7 @@ class TogetherMixin:
                 line = "You saved us from the raiders! Thank you!"
             else:
                 king = self.data_word("King")
-                line = random.choice(("Long live the %s!" % king, "Your Majesty!", "Ashen's own %s!" % king,
+                line = random.choice(("Long live the %s!" % king, "Your Majesty!", "Galmere's own %s!" % king,
                                       "Bless you, Majesty."))
             self.w.fx({"t": "bubble", "u": e.uid, "text": line}, e.z, e.cx, e.cy, self)
             break

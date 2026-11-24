@@ -20,12 +20,14 @@ RUMOURS = {
                            "ought to see her home."],
     "A Portrait of Mo": ["That painter in Ashford's market square can't get his sitter to sit still. Mo, the sitter's "
                          "called. I won't say more."],
-    "The Wardhaven Bridge": ["Mayor Hollis in Ashford is after help with the Wardhaven bridge. Hands are short, I hear."],
+    "The Wardhaven Bridge": ["Mayor Hollis in Ashford is after help with the Wardhaven bridge. Hands are short, I "
+                             "hear. So's the bridge."],
     "The Dragonforge": ["The Wyrmsmith over in Wardhaven wants someone brave. Something about a forge hot enough for "
                         "dragon scale."],
     "The Shard Scholar": ["Magister Quill at the Wizards' Court talks about nothing but Shards. He's always wanting "
                           "something fetched."],
-    "The Spellwright": ["They say Magister Quill can teach a body to write a spell of their own, if you help him first."],
+    "The Spellwright": ["They say Magister Quill can teach a body to write a spell of their own, if you help him "
+                        "first."],
     "The Invisible Apprentice": ["Folk at the Wizards' Court say there's a voice in the great hall with nobody attached "
                                  "to it."],
     "Lady Pettigrew's Hat": ["There's a lady out on Goose Green, east of Northport, losing a war with some geese.",
@@ -39,22 +41,27 @@ RUMOURS = {
                                      "the Mayor. And trousers."],
     "The Redrock Signet": ["An old steward sits by the road at Redrock Manor's gate, waiting for someone brave enough to "
                            "go in."],
-    "The Herbalist's Remedy": ["The herbalist out on Ashford's farmlands could do with a hand, I hear."],
+    "The Herbalist's Remedy": ["The herbalist out on Ashford's farmlands could do with a hand, I hear. Two, if "
+                               "you've got them."],
     "The Dwarf's Grudge": ["Miners swear there's a dwarf deep under the hobgoblin warren, nursing a grudge as old as the "
                            "hills."],
-    "The Wildwood Watch": ["Ranger Ash in Oakhollow is short of eyes in the Wildwood. Strange goings on, they say."],
+    "The Wildwood Watch": ["Ranger Ash in Oakhollow is short of eyes in the Wildwood. Strange goings on, they say. "
+                           "They always say that about woods."],
     "Wolves of the Greyflats": ["The shepherd in Greyford is losing sheep to the wolves on the Greyflats.",
                            "Wolves on the Greyflats again. The Greyford shepherd's at his wits' end."],
     "Bog Lights": ["Old Morwen the witch in Saltmarsh wants bog myrtle, and someone daft enough to fetch it."],
-    "Bandits on the Road": ["Captain Hale in Frosthold wants the bandits off the Redrock road, and he's paying."],
+    "Bandits on the Road": ["Captain Hale in Frosthold wants the bandits off the Redrock road, and he's paying. "
+                            "Which is more than the bandits do."],
     "The Lost Caravan": ["Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole one!"],
     "The Frozen Forge": ["Brann the forgemaster in Frosthold can't keep his forge lit, and he's not taking it well."],
-    "The Hermit's Fire": ["The hermit in the Isle's western woods could do with good wood for his fire."],
+    "The Hermit's Fire": ["The hermit in the Isle's western woods could do with good wood for his fire. He's tried "
+                          "bad wood. He's tried his chair."],
     "The Withering Wood": ["The druid in Thornwick says the Elderwood is dying, and nobody listens."],
     "The Barrow King": ["The gravekeeper at King Rupert's Keep won't go near the barrows on the downs any more. Says "
                         "they've woken."],
     "Old Hob": ["Old Hob of Oakhollow's gone missing, and his house is boarded up tight. Odd, that."],
-    "The Lost Patrol": ["The scout in Emberwatch is waiting on a patrol that never came back from the Ashwold."],
+    "The Lost Patrol": ["The scout in Emberwatch is waiting on a patrol that never came back from the Ashwold. "
+                        "Patrols go missing out there like socks."],
     "A Place of Your Own": ["There's a settler by Ashford's shardstone talking about a place of your own. Land you can't "
                             "walk to, whatever that means."],
 }

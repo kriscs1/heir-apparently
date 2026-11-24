@@ -99,7 +99,7 @@ QUEST_XP = {   # Quests.ini Reward.XP: skill xp for finishing (as a script's Upd
     # scripts give none of their own
     "Dinner at Edwin's": "Cooking 2 Woodcutting 1", "The Amulet of Succession": "Attack 2 Defence 2 Crafting 1",
     "Passage to the Mainland": "Attack 2 Defence 2", "The Temporary Capital": "Channeling 1",
-    "The Ashford Road": "Attack 3 Defence 3", "The Staff of Ashen": "Channeling 3",
+    "The Ashford Road": "Attack 3 Defence 3", "The Staff of Galmere": "Channeling 3",
     "The Sunken Grimoire": "Channeling 4", "The Ember Ring": "Channeling 4 Defence 3", "Bert's Three Treasures": "Channeling 6",
     "A Ship for Dragon Island": "Woodcutting 2 Crafting 2", "The Island of Dragons": "Attack 5 Defence 5",
     "The Sword of Valour": "Attack 6", "The Dragon of Galaith": "Attack 8 Defence 8 Channeling 4",
@@ -123,7 +123,7 @@ DIG_NOTE = ["; Shards, besides, in a hole dug: Shards.Chance in 100 of Shards=lo
 REWARDS = {  # Quests.ini Reward.Shards
     "Dinner at Edwin's": 5, "The Amulet of Succession": 10, "Passage to the Mainland": 15,
     "The Temporary Capital": 10, "The Ashford Road": 15, "The Steward's Hunt": 20, "Bert's Three Treasures": 40,
-    "The Staff of Ashen": 15, "The Sunken Grimoire": 20, "The Ember Ring": 25, "A Ship for Dragon Island": 15,
+    "The Staff of Galmere": 15, "The Sunken Grimoire": 20, "The Ember Ring": 25, "A Ship for Dragon Island": 15,
     "The Island of Dragons": 25, "The Sword of Valour": 30, "The Dragon of Galaith": 40, "The Royal Guard": 15,
     "The True Heir": 40,
     "The Herbalist's Remedy": 8, "The Dwarf's Grudge": 12, "The Wildwood Watch": 10, "Wolves of the Greyflats": 10,

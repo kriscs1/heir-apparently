@@ -1,6 +1,7 @@
 """The Mending (dev\\Roadmap-6.md groups 10-12): its places, its five quests and the world round it. Its people and
 things are drawn by build_mending_art.py (run that first). It takes over the Ashen Shrine scripts and the Warden's
-(build_heir_mainland.py), and Cael's (build_middle_quests.py: story_kit.TAKES_OVER); Amos's and Ashford's sheriff's
+(build_heir_mainland.py), the Cinder Fort's gate (build_cinder.py) and Cael's (build_middle_quests.py:
+story_kit.TAKES_OVER); Amos's and Ashford's sheriff's
 were build_estforlan.py's, never run again.
 
 Places:
@@ -455,12 +456,14 @@ def warden():
         (">Quest.Can.Start", "RingQuest", "@young"),
         say("The Ember Ring? The Ashen Priest wears it, and he's welcome to it, as far as I'm concerned.\\He holds "
             "the Cinder Fort, high in the Cinder Peaks, with the Ashen Hand: a cult that sings to the dragon, and "
-            "sends it what it can. If Bert wants that ring, you'll have to take it off his finger yourself.",
+            "sends it what it can. Badly, the singing: you can hear it from here on a still night.\\If Bert wants "
+            "that ring, you'll have to take it off his finger yourself.",
             ("Then I will.", "@ring")),
         ("@ring",), ("Update.Attribute", "RingQuest", "=1"), msg("Quest started: The Ember Ring.", sound="Quest"),
         ("End",),
         ("@ring1",), (">Conditional", "$Variable.1=1", "@cold"),
-        say("The Cinder Fort is up the road north, high in the peaks. Take water. Take armour.", ("I will.", "@end")),
+        say("The Cinder Fort is up the road north, high in the peaks. Take water. Take armour. Take "
+            "something for your ears.", ("I will.", "@end")),
         ("End",),
         ("@cold",), get("ColdFireQuest", 2),
         (">Conditional", "$Variable.1>=2 and $Variable.2=0", "@cold1"),
@@ -480,11 +483,12 @@ def warden():
         ("End",),
         ("@cold3",), (">Conditional", "$Variable.2=3", "@usual"),
         say("Strangers in grey, paying the Hand to feed the dragon? \"Mend it\"... I don't like that word.\\There's "
-            "been folk in grey on the roads this year: kind folk, soup and blankets. A carter told me they keep a "
-            "quiet house in Ashford. Here, for your trouble, and keep your eyes open.", ("Thank you.", "@colddone")),
+            "been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A "
+            "carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.", ("Thank you.", "@colddone")),
         ("@colddone",), ("Update.Attribute", "ColdFireQuest", "=4"), msg("Quest complete: Cold Fire!"), ("End",),
         ("@usual",),
-        say("Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread.",
+        say("Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it "
+            "seasoning.",
             ("Goodbye.", "@end")),
         ("End",),
         ("@young",),
@@ -513,7 +517,8 @@ def shrine(n):
              "cold. That's $Variable.4 of the three."),
         ("End",),
         ("@blue",), cyan("The Hand's shrine, lit again. The flames are blue, and give no warmth at all."), ("End",),
-        ("@old",), cyan("A burnt shrine of the Ashen Hand, cold now."), ("End",),
+        ("@old",), cyan("A burnt shrine of the Ashen Hand, cold now. A board by it says ETERNAL FLAME, and under that, "
+                         "in chalk, PLEASE REPORT ANY OUTAGES."), ("End",),
     ]
 
 
@@ -525,7 +530,7 @@ def hand_camp():
         K.say("Player", "You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey "
                         "robes are counting Shards into a cultist's hands.\\\"Same as before,\" the woman says. \"Up "
                         "the pass, and through the wall. For the one beyond the wall.\"\\\"It eats them,\" the "
-                        "cultist says. \"Every one. Why feed a dragon?\"\\\"Not feed it,\" she says gently. \"Mend "
+                        "cultist says. \"Every one. And I've a quota. Why feed a dragon?\"\\\"Not feed it,\" she says gently. \"Mend "
                         "it. Everything that's cut wants to be whole. You'll see.\"", ("Slip away.", "@heard")),
         ("@heard",), ("Update.Attribute", "ColdFireQuest", "=3"),
         msg("You've heard enough. The Warden in Emberwatch will want to know."), ("End",),
@@ -533,6 +538,16 @@ def hand_camp():
         ("Update.Attribute", "ColdCampNear", "=1"),
         msg("Voices by the Hand's fire, too low to make out. You'd hear more if you came quietly.", "DarkRed",
             "Denied"),
+        ("@end",), ("End",),
+    ]
+
+
+def fort_gate():
+    """Trigger Cinder Fort Gate (build_cinder's, as it was but for the hymn)."""
+    return [
+        get("RingQuest", 1), (">Conditional", "$Variable.1=1", "@end"),
+        msg("Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his "
+            "finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.", "Red", "-"),
         ("@end",), ("End",),
     ]
 
@@ -645,22 +660,24 @@ def cael():
 
 def linnet():
     say = lambda text, *a: K.say("Mending_Sister", text, *a)        # noqa: E731
-    plain = ("Sister Linnet of the Mending. \"Come in out of the cold, friend. There's soup on, and the Shard on the "
-             "table is good company: sit by it a while, and listen.\"")
+    plain = ("Sister Linnet of the Mending. \"Come in out of the cold, friend! There's soup on. There's always soup "
+             "on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. "
+             "We're very relaxed about shoes.\"")
     return [
         get("GreyQuest", 1), (">Conditional", "$Variable.1=0", "@going"),
         (">Quest.Can.Start", "GreyQuest", "@plain"),
         (">Conditional", ROBED, "@stranger"), ("Goto.Line", "@robed"),
         ("@stranger",),
         say(plain + "\\\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only "
-                    "for those of the Mending.\" She smiles at your coat. \"Grey suits everyone, you know.\"",
+                    "for those of the Mending.\" She smiles at your coat. \"Grey suits everyone, you know. We've a robe in every "
+                    "size. We checked.\"",
             ("Where's the gathering?", "@ask"), ("Goodbye.", "@end")),
-        ("@ask",), say("\"Only for the Mending, friend.\" She's still smiling.", ("Goodbye.", "@one")),
+        ("@ask",), say("\"Only for the Mending, friend.\" She's still smiling. She hasn't stopped since you came in.", ("Goodbye.", "@one")),
         ("@one",), ("Update.Attribute", "GreyQuest", "=1"), msg("Quest started: In Grey.", sound="Quest"), ("End",),
         ("@going",), (">Conditional", "$Variable.1<3", "@later"), (">Conditional", ROBED, "@plain"),
         ("@robed",),
-        say("\"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight. Go on, "
-            "down to the field. The glass at the east end, and mind the lookouts know you.\"", ("I'm going.", "@two")),
+        say("\"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight, and he "
+            "does go on. Down to the field with you. The glass at the east end, and mind the lookouts know you.\"", ("I'm going.", "@two")),
         ("@two",), ("Update.Attribute", "GreyQuest", "=2"), (">Conditional", "$Variable.1=0", "@end"),
         msg("Quest started: In Grey.", sound="Quest"), ("End",),
         ("@later",), (">Conditional", "$Variable.1=4", "@after"),
@@ -689,13 +706,13 @@ def sister():
         ("End",),
         ("@hope",), (">Conditional", ROBED, "@out"), (">Random", "50", "@whole"),
         say("\"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told "
-            "it.\"", ("Goodbye.", "@end")),
+            "it.\" She's wearing a little badge with her name on it. You don't like to say.", ("Goodbye.", "@end")),
         ("End",),
         ("@whole",), say("\"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely "
-                         "thought?\"", ("Goodbye.", "@end")),
+                         "thought?\" She pats your hand. Then, to be safe, she pats it again.", ("Goodbye.", "@end")),
         ("End",),
         ("@out",), say("\"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very "
-                       "kind.\"", ("Goodbye.", "@end")),
+                       "kind. Kinder than people. Have you had any soup?\"", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ]
 
@@ -709,7 +726,7 @@ def sheriff():
             ("There's a hall under Shardglass Field. The Mending folk meet there, and they mean to open the King's "
              "Seam.", "@tell"), ("Nothing. Goodbye.", "@end")),
         ("@tell",),
-        say("\"Them in grey? The kind ones, with the soup?\" She hears you out, and stops smiling.\\\"The King's "
+        say("\"Them in grey? The kind ones, with the soup? It's good soup.\" She hears you out, and stops smiling.\\\"The King's "
             "Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone "
             "in there who wants to go home will be taken home.\"", ("Thank you, Sheriff.", "@told")),
         ("@told",), ("Update.Attribute", "GreyEnd", "=1"), ("Update.Attribute", "MendingShut", "=1"),
@@ -719,7 +736,8 @@ def sheriff():
         ("Update.Attribute", "StrangerEnd", "=3"), ("Update.Attribute", "StrangerQuest", "=4"),
         ("@annis",), ("Update.Attribute", "GreyQuest", "=5"), msg("Quest complete: In Grey!"), ("End",),
         ("@usual",),
-        say("I'm the sheriff here. The cells are empty and I like them that way.", ("Goodbye.", "@end")),
+        say("I'm the sheriff here. The cells are empty and I like them that way. Most weeks the worst I get is a goat "
+            "in the bakery.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ]
 
@@ -738,7 +756,8 @@ def sermon():
         ("@hope",), (">Conditional", "$Attr.MendingGift>=1", "@sermon"),
         say("Cantor Ivo raises a hand by the cold altar, and the singing stops. \"And a new friend tonight! "
             "$Player.Name took a gift from one of us on the road, and said thank you. Welcome, $Player.Name.\"\\Heads "
-            "turn on the benches, and everyone smiles at you.", ("Smile back.", "@sermon")),
+            "turn on the benches, and everyone smiles at you. Somebody at the back starts to clap, and stops when nobody "
+            "joins in.", ("Smile back.", "@sermon")),
         ("@sermon",),
         say("\"Sisters, brothers. You heard them too. A husband. A mother. A voice that said you were wanted. They "
             "were never lost, only cut up small, and scattered, and crying to be whole.\"\\\"The first king cut the "
@@ -937,14 +956,16 @@ def wayfarer():
     return [
         (">Conditional", "$Attr.MendingGift=0", "@again"),
         say("A traveller in a plain grey robe, smiling as if you'd been expected.\\\"Cold out, friend, and you've "
-            "had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth.\"",
+            "had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth. And a leaflet. No? "
+            "Just the Shards, then.\"",
             ("Take them. Thank you.", "@take"), ("No, thank you.", "@no")),
         ("@take",), ("Update.Attribute", "MendingGift", "=1"), ("Give.Item", "Shard", "$Shards.Mending.Gift"),
         ("Play.Sound", "Absorb"),
         say("\"There. Peace on your road, friend. We'll see you again.\"", ("Goodbye.", "@end")), ("End",),
         ("@no",), say("\"Another time, then. The offer doesn't go away.\" A smile. \"Nor do we.\"",
                       ("Goodbye.", "@end")), ("End",),
-        ("@again",), say("\"Hello again, friend. Keeping warm?\"", ("Goodbye.", "@end")),
+        ("@again",), say("\"Hello again, friend! Keeping warm? Eating properly? You don't look like you're eating "
+                         "properly.\"", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ]
 
@@ -975,6 +996,7 @@ def scripts():
     for n in SHRINES:
         w("Ashen Shrine %d" % n, shrine(n))
     w("Hand Camp", hand_camp())
+    w("Cinder Fort Gate", fort_gate())
     w("Talk to Tam_Cooper", tam())
     w("Talk to House_Annis", house_annis())
     w("Talk to Home_Annis", annis_elsewhere("home"))

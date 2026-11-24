@@ -4,14 +4,14 @@
 03	>Quest.Can.Start	GreyQuest	29
 04	>Conditional	$Equipped.Body=Mending_Robe	06
 05	Goto.Line	13
-06	Display.Conversation	Mending_Sister	Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know."	Where's the gathering?	07	Goodbye.	30
-07	Display.Conversation	Mending_Sister	"Only for the Mending, friend." She's still smiling.	Goodbye.	08
+06	Display.Conversation	Mending_Sister	Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know. We've a robe in every size. We checked."	Where's the gathering?	07	Goodbye.	30
+07	Display.Conversation	Mending_Sister	"Only for the Mending, friend." She's still smiling. She hasn't stopped since you came in.	Goodbye.	08
 08	Update.Attribute	GreyQuest	=1
 09	Display.Message	Yellow	Quest started: In Grey.	Quest
 10	End
 11	>Conditional	$Variable.1<3	18
 12	>Conditional	$Equipped.Body=Mending_Robe	29
-13	Display.Conversation	Mending_Sister	"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight. Go on, down to the field. The glass at the east end, and mind the lookouts know you."	I'm going.	14
+13	Display.Conversation	Mending_Sister	"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight, and he does go on. Down to the field with you. The glass at the east end, and mind the lookouts know you."	I'm going.	14
 14	Update.Attribute	GreyQuest	=2
 15	>Conditional	$Variable.1=0	30
 16	Display.Message	Yellow	Quest started: In Grey.	Quest
@@ -27,5 +27,5 @@
 26	Display.Conversation	Mending_Sister	"Anything you need, $Player.Brother?"	Show me what you have.	27	Goodbye.	30
 27	Display.Item.Rack	GENERAL	Mending_Sister	SHOP-Mending	30
 28	End
-29	Display.Conversation	Mending_Sister	Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."	Goodbye.	30
+29	Display.Conversation	Mending_Sister	Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."	Goodbye.	30
 30	End

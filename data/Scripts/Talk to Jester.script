@@ -7,7 +7,7 @@
 06	>Random	25	08
 07	Display.Conversation	Jester	How many wizards does it take to light a candle? None. They'd rather sit in the dark and tell you about the old days.	That's terrible.	02	Goodbye.	03
 08	>Random	33	10
-09	Display.Conversation	Jester	What did the Shard say to the other Shard? Nothing. They're Shards. But I think about it a lot.	That's terrible.	02	Goodbye.	03
+09	Display.Conversation	Jester	What did the Shard say to the other Shard? 'Haven't we met?' ...Nobody laughs at that one. I think it's because it's true.	That's terrible.	02	Goodbye.	03
 10	>Random	50	12
 11	Display.Conversation	Jester	I told a goblin he drew his eyebrows too high. He looked surprised. Then he hit me. Goblins have no sense of timing.	That's terrible.	02	Goodbye.	03
 12	Display.Conversation	Jester	My father was a jester, and his father before him. It's a very sad family. You should see the christenings.	That's terrible.	02	Goodbye.	03

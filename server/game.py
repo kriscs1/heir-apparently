@@ -1362,7 +1362,7 @@ class GameServer:
             s.enter_world()
             self.save_session(s)
             self.broadcast({"t": "chat", "from": "", "text": "%s has joined the game." % name}, exclude=s)
-            s.friends_hear("Your friend %s has come into Ashen." % name)
+            s.friends_hear("Your friend %s has come into Galmere." % name)
         s.account = c.account
         s.set_full(c.full)
         if c.account:
@@ -1635,7 +1635,7 @@ class GameServer:
         self.save_session(s)                            # (as they left it: a stake given back, kept)
         log.info("%s left (%d online)", s.player_name, len(self.world.sessions))
         self.broadcast({"t": "chat", "from": "", "text": "%s has left the game." % s.player_name})
-        s.friends_hear("Your friend %s has left Ashen." % s.player_name)
+        s.friends_hear("Your friend %s has left Galmere." % s.player_name)
         self.broadcast(self.players_message())
         if getattr(s, "grant", ""):                     # (not playing here now, as their friends see it)
             asyncio.ensure_future(self.central_post("/api/game/friends", {"grant": s.grant, "playing": ""}))

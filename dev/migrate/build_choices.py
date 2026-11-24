@@ -439,7 +439,7 @@ def archivist():
             ("Thank you.", "@end")), ("End",),
         ("@notes",),
         say("The Chancellor sent you? Let me see it.\\The crown, the sapphire, the mark of the old smiths under the "
-            "clasp. This is the Amulet of Ashen Succession. Queen Mary wore it the night she vanished.\\But an amulet "
+            "clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\\But an amulet "
             "can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers "
             "sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own "
             "hand, and I'll know.", ("How do I get down there?", "@vault")),
@@ -481,7 +481,7 @@ def chancellor():
             "What makes you more than they are?", ("I am his $Player.Son.", "@son")),
         ("@son",),
         say("Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the "
-            "Royal Archivist, at the City Hall: she knows every true seal in Ashen. If she vouches for it, so shall "
+            "Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall "
             "I.", ("I'll go to the Archivist.", "@to_her")),
         ("@to_her",), ("Update.Attribute", "GuardQuest", "=2"), ("End",),
         ("@warrant",), (">Conditional", "$Variable.1=3 and $Item.Archivists_Attestation>=1", "@plain"),
@@ -489,7 +489,7 @@ def chancellor():
         ("Update.Attribute", "GuardQuest", "=4"),
         say("The Archivist's seal, in green. Then it is true.\\My $Player.Lord. Forgive an old man his doubts. Here is "
             "my warrant: show it to the captain of the guard.", ("Thank you, Chancellor.", "@end")), ("End",),
-        ("@plain",), say("The Parliament of Ashen will return from Northport, now the road is open. There is much to "
+        ("@plain",), say("The Parliament of Galmere will return from Northport, now the road is open. There is much to "
                          "do.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ]

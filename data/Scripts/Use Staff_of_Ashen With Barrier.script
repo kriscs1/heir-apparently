@@ -6,7 +6,7 @@
 05	>Conditional	$Attr.ShardgateQuest>=5	20
 06	>Conditional	$Attr.AnvilQuest>=4	29
 07	>Quest.Can.Start	GalaithQuest	45
-08	Display.Message	Cyan	You hold the Staff of Ashen to the barrier and speak Bert's words of Unbinding..	-
+08	Display.Message	Cyan	You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	-
 09	Play.Sound	SpellCast
 10	Wait	2
 11	Remove.Entity	224,288	Barrier_Light
@@ -18,7 +18,7 @@
 17	End
 18	Display.Refusal	The staff hums against the barrier, but you don't know the words.
 19	End
-20	Display.Message	Cyan	You hold the Staff of Ashen to the barrier and speak Bert's words of Unbinding..	-
+20	Display.Message	Cyan	You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	-
 21	Play.Sound	SpellCast
 22	Wait	2
 23	Display.Message	DarkRed	..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	Fail
@@ -27,7 +27,7 @@
 26	Update.Attribute	ShardgateQuest	=1
 27	Display.Message	Yellow	Quest started: The Shardgate.	Quest
 28	End
-29	Display.Message	Cyan	You hold the Staff of Ashen to the barrier and speak Bert's words of Unbinding..	-
+29	Display.Message	Cyan	You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	-
 30	Play.Sound	SpellCast
 31	Wait	2
 32	>Conditional	$Attr.WakeQuest=0	43

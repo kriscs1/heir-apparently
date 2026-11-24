@@ -4,9 +4,9 @@
 03	End
 04	>Conditional	$Equipped.Body=Mending_Robe	10
 05	>Random	50	08
-06	Display.Conversation	Mending_Sister	"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it."	Goodbye.	11
+06	Display.Conversation	Mending_Sister	"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it." She's wearing a little badge with her name on it. You don't like to say.	Goodbye.	11
 07	End
-08	Display.Conversation	Mending_Sister	"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?"	Goodbye.	11
+08	Display.Conversation	Mending_Sister	"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?" She pats your hand. Then, to be safe, she pats it again.	Goodbye.	11
 09	End
-10	Display.Conversation	Mending_Sister	"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind."	Goodbye.	11
+10	Display.Conversation	Mending_Sister	"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind. Kinder than people. Have you had any soup?"	Goodbye.	11
 11	End

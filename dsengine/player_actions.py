@@ -200,7 +200,7 @@ class ActionsMixin:
         elif t == NPC and getattr(e, "cart", None) is not None:
             verbs = self.w.carts.verbs(self, e)             # (a horse and cart: carts.py)
         elif t == NPC and self.w.hostile_for(e, self):
-            if self.swap and not e.aggressive and (e.name in ANIMAL_TALK or
+            if self.swap and (e.name in ANIMAL_TALK or not e.aggressive and
                                                    self.script_exists("Talk to %s" % e.npc_id)):
                 verbs = self.add_verb(verbs, "Talk to")     # (a hen you might eat; in a hen's body, it talks)
             verbs = self.add_verb(verbs, "Attack")

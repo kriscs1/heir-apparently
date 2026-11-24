@@ -38,7 +38,7 @@ Alchemy: pick herbs, berries and mushrooms, and brew potions at an alchemy table
 The last of the three, burning blue like the others. In the ash round it there are footprints, a lot of them, going off towards the Hand's camp.	三座中的最后一座，和其他的一样燃着蓝火。它周围的灰烬里有脚印，很多脚印，朝灰烬之手的营地走去。
 The Hand's shrine is lit again, but the flames are blue, and when you hold your hand in them it's only cold. That's $Variable.4 of the three.	灰烬之手的神龛又被点燃了，但火焰是蓝色的，你把手伸进去，只觉得冷。这是三座中的第 $Variable.4 座。
 The Hand's shrine, lit again. The flames are blue, and give no warmth at all.	灰烬之手的神龛，又被点燃了。火焰是蓝色的，一点也不暖。
-A burnt shrine of the Ashen Hand, cold now.	一座烧毁的灰烬之手神龛，现在已经冷了。
+A burnt shrine of the Ashen Hand, cold now. A board by it says ETERNAL FLAME, and under that, in chalk, PLEASE REPORT ANY OUTAGES.	灰烬之手的一座烧毁的神龛，如今冰冷。旁边的告示上写着“永恒之火”，下面有人用粉笔补了一句：“如已熄灭，请告知。”
 The barrow is out on the downs west of King Rupert's Keep: look for the broken walls.	古冢在鲁珀特王堡西边的高地上：找那些断墙。
 The Barrow King has two skeleton guards. Bring food.	古冢之王有两个骷髅卫兵。带上食物。
 Broken walls, open graves... and a crowned skeleton rising from its tomb. The Barrow King!	断墙，敞开的坟墓……一具戴着王冠的骷髅正从坟墓中升起。古冢之王！
@@ -49,10 +49,10 @@ Laughed, did it? Then the barrier's only light and spite now, and what's behind 
 I will.	我会的。
 It held? Of course it held. Oh, don't look at me like that: I only half thought it would.\Listen. The first king cut the dragon down, and the greater part of it didn't die. It went somewhere: the Shardrealm, where all broken magic goes. The barrier draws on it. It's anchored there, beyond the world.	它撑住了？当然撑住了。哦，别那样看着我：我只是有一半觉得它会撑住。\听着。第一位国王砍倒了那条龙，而它的大部分并没有死。它去了某个地方：碎片界，所有破碎的魔法都去那里。屏障从那里汲取力量。它被锚定在那里，在世界之外。
 How do I get there?	我怎么去那里？
-You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Ashen, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	你造一扇门。不是一扇小门。任何一块老碎片石都能到达界域的边缘，那里平静而稀薄，小东西能稳住。你的那个家园，如果你有的话？定居者们叫它静水。它是边缘的一小方天地，由你的锚稳住。你从没奇怪过它为什么没有邻居吗？但屏障之锚在核心，那是所有破碎魔法汇聚的风暴，你必须刺穿它。只有一个你自己的巨大锚点才能做到：一座碎片之门。这座巫师庭北边山上那圈古老的立石，曾经就是一座。\这是我的图纸。银、蓝宝石、一颗残迹核心，还有碎片：它会把它们喝掉。而且它必须被稳住：唤醒 Ashen 的碎片石，至少八块，这样石环在冲进去时才有东西可以依靠。穿过那扇门，找到锚，用杖击碎它。会有东西守着它的。总是有东西守着。
+You build a door. Not a little one. Any old shardstone can reach the realm's rim, where it's calm and thin and small things hold. That homestead of yours, if you've one? The Stillwater, the settlers call it. It's a pocket of the rim, held by your anchor. Never wondered why it has no neighbours? But the barrier's anchor is at the core, a storm where all the broken magic pools, and you have to pierce that. Only a great anchor of your own will do it: a Shardgate. The old ring of standing stones on the hill north of this Court was one, once.\Here are my plans. Silver, sapphires, a Remnant's core, and Shards: it drinks them. And it must be steadied: wake the shardstones of Galmere, eight at the least, so the ring has something to hold to while it drives through. Through the gate, find the anchor and break it with the staff. Something will be guarding it. Something always is.	你造一扇门。不是一扇小门。任何一块老碎片石都能到达界域的边缘，那里平静而稀薄，小东西能稳住。你的那个家园，如果你有的话？定居者们叫它静水。它是边缘的一小方天地，由你的锚稳住。你从没奇怪过它为什么没有邻居吗？但屏障之锚在核心，那是所有破碎魔法汇聚的风暴，你必须刺穿它。只有一个你自己的巨大锚点才能做到：一座碎片之门。这座巫师庭北边山上那圈古老的立石，曾经就是一座。\这是我的图纸。银、蓝宝石、一颗残迹核心，还有碎片：它会把它们喝掉。而且它必须被稳住：唤醒 Galmere 的碎片石，至少八块，这样石环在冲进去时才有东西可以依靠。穿过那扇门，找到锚，用杖击碎它。会有东西守着它的。总是有东西守着。
 I'll build it.	我会造出来的。
 Bert gave you his plans for a Shardgate (Read them).	Bert 把他的碎片之门图纸给了你（阅读它们）。
-The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Ashen's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	屏障没了，是的，是的。但它的锚还在：它仍在碎片界的核心嗡嗡作响，所有破碎的魔法都汇聚在那里。我在这儿都能感觉到。\在巫师庭北边山上那圈古老的石环里造一座碎片之门：这是我的图纸。唤醒 Ashen 的八块碎片石来稳住它，刺穿核心，用杖击碎锚，界域就任你漫游了。
+The barrier's gone, yes, yes. But its anchor isn't: it still hums in the core of the Shardrealm, where all broken magic pools. I can feel it from here.\Build a Shardgate in the old ring of stones on the hill north of the Court: here are my plans. Wake eight of Galmere's shardstones to steady it, pierce the core, break the anchor with the staff, and the realm's yours to wander.	屏障没了，是的，是的。但它的锚还在：它仍在碎片界的核心嗡嗡作响，所有破碎的魔法都汇聚在那里。我在这儿都能感觉到。\在巫师庭北边山上那圈古老的石环里造一座碎片之门：这是我的图纸。唤醒 Galmere 的八块碎片石来稳住它，刺穿核心，用杖击碎锚，界域就任你漫游了。
 Quest started: The Shardgate. Bert gave you his plans (Read them).	任务开始：碎片之门。Bert 把他的图纸给了你（阅读它们）。
 The staff! The grimoire! And the ring... oh, look at it. Look at that glow.\He slips the Ember Ring on his finger and holds it up against his sleeve.\Purple and ember. I knew it. It goes with the robe perfectly.	杖！魔典！还有戒指……哦，看看它。看看那光芒。\他把余烬戒指戴到手指上，举起来贴着袖子比了比。\紫色配余烬色。我就知道。和长袍简直绝配。
 And the spell?	那法术呢？
@@ -123,7 +123,7 @@ You need level 10 Woodcutting to chop this willow.	你需要伐木 10 级才能�
 You swing your axe at the yew..	你挥斧砍向紫杉..
 ..and manage to get some yew logs!	..砍到了一些紫杉原木！
 You need level 18 Woodcutting to chop this yew.	你需要伐木 18 级才能砍这棵紫杉。
-Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon.	吟唱声，还有燃烧的气味。院子里，一个长袍冒着烟、手指上戴着火焰戒指的祭司，正带领灰烬之手唱一首献给龙的圣歌。
+Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	吟唱声，还有燃烧的气味。院子里，一个长袍冒着烟、手指上戴着火焰戒指的祭司，正带领灰烬之手唱一首献给龙的圣歌。似乎没有人知道第二段。
 You lift the hatch and climb down into the dark. Somewhere below, boots.	你掀开舱口，爬下去进入黑暗。下面某处，有靴子的声音。
 The hatch is locked.	舱口锁着。
 You climb down the ladder, into the caves under the Isle.	你顺着梯子爬下去，进入小岛下的洞穴。
@@ -348,9 +348,9 @@ That's Percy's door - I'd know it anywhere! Bless you, dear. Here: it's not much
 Glad I could help.	很高兴能帮上忙。
 Quest done: Granny Wren's Walk.	任务完成：Wren 奶奶的散步。
 An unseen hand closes on the amulet and draws it out between the bars, into your palm.	一只看不见的手握住护身符，把它从铁栏之间抽出来，放进你的掌心。
-The Amulet of Ashen Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully.	Ashen 继承护身符。那么这是真的了。把它收好，除了你父亲，谁也别给看。\还有，拿着这个。大地精在这些洞穴里一扇旧铁门后面筑了巢，在大洞穴的南边。我保管着洞穴的旧钥匙：这把是那扇门的。它们来的时候，Bess 的父亲失踪了。如果你要去追它们，小心点。
+The Amulet of Galmere Succession. So it's true, then. Keep it close, and show it to no one but your father.\And take this. The hobgoblins have made a lair beyond an old iron door in these caves, south of the great cavern. I keep the caves' old keys: this is that door's. Bess's father went missing when they came. If you go after them, go carefully. I've no room left on that side of the graveyard.	Galmere 继承护身符。那么这是真的了。把它收好，除了你父亲，谁也别给看。\还有，拿着这个。大地精在这些洞穴里一扇旧铁门后面筑了巢，在大洞穴的南边。我保管着洞穴的旧钥匙：这把是那扇门的。它们来的时候，Bess 的父亲失踪了。如果你要去追它们，小心点。墓地那边已经没地方了。
 Quest complete: The Amulet of Succession! Brother Aldous gave you the key of the hobgoblins' door.	任务完成：继承护身符！Aldous 修士给了你大地精那扇门的钥匙。
-You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	你在灰烬里压低身子，近到能闻到灰烬之手的火。火旁，两个穿灰袍的陌生人正把碎片数进一个教徒的手里。\“和以前一样，”那个女人说。“上山口，穿过那堵墙。给墙那边的那位。”\“它把它们吃掉，”教徒说。“每一块都吃。为什么要喂一条龙？”\“不是喂它，”她温柔地说。“是弥合它。一切被切开的东西都想重新完整。你会明白的。”
+You keep low in the ash, close enough to smell the Hand's fire. By it, two strangers in grey robes are counting Shards into a cultist's hands.\"Same as before," the woman says. "Up the pass, and through the wall. For the one beyond the wall."\"It eats them," the cultist says. "Every one. And I've a quota. Why feed a dragon?"\"Not feed it," she says gently. "Mend it. Everything that's cut wants to be whole. You'll see."	你在灰烬里压低身子，近到能闻到灰烬之手的火。火旁，两个穿灰袍的陌生人正把碎片数进一个教徒的手里。\“和以前一样，”那个女人说。“上山口，穿过那堵墙。给墙那边的那位。”\“它把它们吃掉，”教徒说。“每一块都吃。而且我还有指标要完成。为什么要喂一条龙？”\“不是喂它，”她温柔地说。“是弥合它。一切被切开的东西都想重新完整。你会明白的。”
 Slip away.	悄悄溜走。
 You've heard enough. The Warden in Emberwatch will want to know.	你听够了。Emberwatch 的守望者会想知道的。
 Voices by the Hand's fire, too low to make out. You'd hear more if you came quietly.	灰烬之手的火旁有说话声，太低了听不清。要是你悄悄靠近，就能听到更多。
@@ -506,7 +506,7 @@ Just sky. Whatever winked has had its look at you.	只有天空。不管刚才�
 Quest complete: The Tithe!	任务完成：什一奉献！
 Cantor Ivo stands by the cold altar, and the singing stops.\"I won't lie to you. The Seam's broken. The first cut's closed for good, and the rest of it will never come home."\There's crying on the benches. "But the great Shard still speaks, past the Font. Go and listen, those who've given to it, and tell me it isn't true."	Ivo 领唱站在冰冷的祭坛旁，歌声停了。\“我不会骗你们。缝隙破了。第一刀永远合上了，其余的部分再也不会回家了。”\长凳上有人在哭。“可伟大的碎片仍在说话，就在圣泉池后面。去听听吧，那些给过它奉献的人，然后告诉我这不是真的。”
 Listen.	聆听。
-Cantor Ivo raises a hand by the cold altar, and the singing stops. "And a new friend tonight! $Player.Name took a gift from one of us on the road, and said thank you. Welcome, $Player.Name."\Heads turn on the benches, and everyone smiles at you.	Ivo 领唱在冰冷的祭坛旁举起一只手，歌声停了。“今晚还有一位新朋友！$Player.Name 在路上收下了我们一个人的礼物，还说了谢谢。欢迎你，$Player.Name。”\长凳上的人们转过头来，每个人都对你微笑。
+Cantor Ivo raises a hand by the cold altar, and the singing stops. "And a new friend tonight! $Player.Name took a gift from one of us on the road, and said thank you. Welcome, $Player.Name."\Heads turn on the benches, and everyone smiles at you. Somebody at the back starts to clap, and stops when nobody joins in.	Ivo 领唱在冰冷的祭坛旁举起一只手，歌声停了。“今晚还有一位新朋友！$Player.Name 在路上收下了我们一个人的礼物，还说了谢谢。欢迎你，$Player.Name。”\长凳上的人们转过头来，每个人都对你微笑。后排有人开始鼓掌，见没人跟着，又停了。
 Smile back.	回以微笑。
 "Sisters, brothers. You heard them too. A husband. A mother. A voice that said you were wanted. They were never lost, only cut up small, and scattered, and crying to be whole."\"The first king cut the world's magic to pieces, long ago, and he started under Galaith: the first cut, the King's Seam. Open it, and the rest will come home."\"Those who are ready to hear the great Shard: give to the Font, and the way is open."	“姐妹们，兄弟们。你们也听到了他们。一个丈夫。一个母亲。一个说你们被需要的声音。他们从来没有失去，只是被切成了小块，散落各处，哭喊着想要完整。”\“很久以前，第一位国王把世界的魔法切成了碎块，他是从 Galaith 下面开始的：第一刀，王之缝隙。打开它，其余的就会回家。”\“那些准备好聆听伟大碎片的人：向圣泉池奉献吧，道路就会敞开。”
 Quest started: The Tithe.	任务开始：什一奉献。
@@ -660,9 +660,9 @@ You search the patch for good leaves...	你在草丛里找好叶子...
 ...and pick a fragrant herb.	...摘下了一株芬芳的草药。
 You work at the cage's lock with a bent nail..	你用一根弯钉子撬着笼子的锁..
 ..and the lock springs open!	..锁弹开了！
-Free! Bless you, child.\Listen: the house is yours. I'll not go back, not with those brutes so near it: I'll go and live with Maren and Edwin. Find my key in that corner barrel and keep it.\And you'll be wanting papers, to cross. Your mother left yours with me, the year she came, for the day you'd need them. I hid them under the floor at home before the brutes took me: that's what they were after, and they never got it out of me. You'll hear the board.	自由了！保佑你，孩子。\听着：房子归你了。我不会回去了，那些畜生离它那么近：我要去和 Maren 和 Edwin 一起住。我的钥匙在那个角落的木桶里，找到它，留着吧。\你还需要文书才能过去。你母亲来的那年把你的文书留在我这里，留到你需要它们的那一天。在那些畜生抓走我之前，我把它们藏在家里的地板下面了：那就是它们想要的东西，它们一直没能从我嘴里撬出来。你会听到那块木板的声音。
+Free! Bless you, child.\Listen: the house is yours. I'll not go back, not with those brutes so near it: I'll go and live with Maren and Edwin. They don't know that yet.\Find my key in that corner barrel and keep it.\And you'll be wanting papers, to cross. Your mother left yours with me, the year she came, for the day you'd need them. I hid them under the floor at home before the brutes took me: that's what they were after, and they never got it out of me. You'll hear the board.	自由了！保佑你，孩子。\听着：房子归你了。我不会回去了，那些畜生离它那么近：我要去和 Maren 和 Edwin 一起住。他们还不知道。\我的钥匙在那个角落的木桶里，找到它，留着吧。\你还需要文书才能过去。你母亲来的那年把你的文书留在我这里，留到你需要它们的那一天。在那些畜生抓走我之前，我把它们藏在家里的地板下面了：那就是它们想要的东西，它们一直没能从我嘴里撬出来。你会听到那块木板的声音。
 Get home safe.	平安回家吧。
-Tobias hobbles to the ladder and climbs up out of the lair, towards home.	Tobias 一瘸一拐地走到梯子旁，爬出巢穴，往家走去。
+Tobias hobbles to the ladder and climbs up out of the lair, complaining about his knees all the way.	Tobias 一瘸一拐地走到梯子旁，爬出巢穴，往家走去，一路都在抱怨他的膝盖。
 ..but the lock won't give. Try again.	..但锁撬不开。再试一次。
 You pick a marigold or two...	你摘了一两朵金盏花...
 ...bright orange, and sticky with sap.	...鲜橙色的，沾着黏糊糊的汁液。
@@ -678,8 +678,8 @@ You pinch off some sage...	你掐下一些鼠尾草...
 Your mother's letter, sealed with her wax. Read it now?	你母亲的信，用她的蜡封着。现在读吗？
 Read it.	读吧。
 Later.	以后再说。
-The Staff of Ashen: gold and blue, and warm in your hand.	Ashen 之杖：金色和蓝色，在你手里是温暖的。
-Quest complete: The Staff of Ashen! Take it to Bert.	任务完成：Ashen 之杖！把它带给 Bert。
+The Staff of Galmere: gold and blue, and warm in your hand.	Galmere 之杖：金色和蓝色，在你手里是温暖的。
+Quest complete: The Staff of Galmere! Take it to Bert.	任务完成：Galmere 之杖！把它带给 Bert。
 The Font's water is still and cold. Those who pour their Shards into it are let through to the great Shard.	圣泉池的水静止而冰冷。把碎片倒进去的人会被放行，去见伟大的碎片。
 Pour in $Shards.Mending.Tithe Shards.	倒入 $Shards.Mending.Tithe 枚碎片。
 The Shards sink, glowing, and go out one by one. Past the Font, an iron gate clicks.	碎片沉了下去，发着光，一枚一枚地熄灭了。圣泉池后面，一扇铁门咔哒一响。
@@ -710,9 +710,9 @@ Your hand closes on something cold, and it's gone, up your arm and into you. The
 The lights keep just out of reach now. They've learned.	现在那些光总是刚好待在够不着的地方。它们学乖了。
 Iron bars, set deep in the rock, too close for your hand. Behind them: a gold amulet!	铁栏，深深嵌在岩石里，间隙太窄，你的手伸不进去。铁栏后面：一枚金护身符！
 Footsteps echo behind you: Brother Aldous, a lantern in his hand.	你身后响起脚步声的回音：Aldous 修士，手里提着一盏灯笼。
-I said I'd not be far behind. Look here first.\He holds his lantern low: three bright splinters on the floor.\Something died here, a rat or a bat, and left its magic behind: Shards. Pick them up, and they're yours to spend. Every beast leaves its magic where it falls. And now and then, the magic won't lie still. The old books say every Shard is a scrap of something far greater, cut down long ago, and that scraps like that are hungry: take them in before they take root in you.	我说过我不会落后太远。先看看这里。\他把灯笼放低：地上有三块明亮的碎片。\有什么东西死在了这里，一只老鼠或一只蝙蝠，留下了它的魔法：碎片。把它们捡起来，它们就归你使用了。每只野兽都会把魔法留在它倒下的地方。而偶尔，魔法不肯安静下来。古书上说，每一块碎片都是某个大得多的东西的残片，很久以前被砍倒了，而那样的残片是饥饿的：趁它们还没在你体内扎根，就把它们吸收掉。
+I said I'd not be far behind. Look here first.\He holds his lantern low: three bright splinters on the floor.\Something died here, a rat or a bat, and left its magic behind: Shards. I'd say a few words over it, but it was a rat.\Pick them up, and they're yours to spend. Every beast leaves its magic where it falls. And now and then, the magic won't lie still. The old books say every Shard is a scrap of something far greater, cut down long ago, and that scraps like that are hungry: take them in before they take root in you.	我说过我不会落后太远。先看看这里。\他把灯笼放低：地上有三块明亮的碎片。\有什么东西死在了这里，一只老鼠或一只蝙蝠，留下了它的魔法：碎片。我本想说几句悼词，可那是只老鼠。\把它们捡起来，它们就归你使用了。每只野兽都会把魔法留在它倒下的地方。而偶尔，魔法不肯安静下来。古书上说，每一块碎片都是某个大得多的东西的残片，很久以前被砍倒了，而那样的残片是饥饿的：趁它们还没在你体内扎根，就把它们吸收掉。
 I'll remember.	我会记住的。
-Now, the amulet. Your mother put it there, and the bars after it, so that no thief could ever take it. But a hand that isn't a hand can.\Here: a scroll of Grasp. Read it, and the spell is yours for good; each casting drinks a couple of Shards. Cast it at the bars, and an unseen hand will bring the amulet to you.	现在，护身符。你母亲把它放在那里，然后装上了铁栏，这样就没有小偷能拿走它。但一只不是手的手可以。\给：一张抓取卷轴。读了它，这个法术就永远归你了；每次施放会消耗几枚碎片。对着铁栏施放它，一只看不见的手就会把护身符带给你。
+Now, the amulet. Your mother put it there, and the bars after it, so that no thief could ever take it. Nor anyone else, as it turns out. But a hand that isn't a hand can.\Here: a scroll of Grasp. Read it, and the spell is yours for good; each casting drinks a couple of Shards. Cast it at the bars, and an unseen hand will bring the amulet to you.	现在，护身符。你母亲把它放在那里，然后装上了铁栏，这样就没有小偷能拿走它。结果别人也都拿不走。但一只不是手的手可以。\给：一张抓取卷轴。读了它，这个法术就永远归你了；每次施放会消耗几枚碎片。对着铁栏施放它，一只看不见的手就会把护身符带给你。
 Thank you, Brother.	谢谢你，修士。
 Learn Grasp from the scroll, then cast it from Channeling at what you want brought to you.	从卷轴上学会抓取，然后从引导里对你想拿到的东西施放它。
 The bars are too close for your hand.	铁栏间隙太窄，你的手伸不进去。
@@ -720,9 +720,9 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	冰霜�
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	你敲碎祭坛碗里的冰，取出了天磁石。它冷得烫手，还轻轻地往北拽。
 A star of ice glitters in the altar's bowl, frozen fast.	祭坛的碗里闪着一颗冰之星，冻得结结实实。
 The altar's bowl is empty.	祭坛的碗是空的。
-A little ledger bound in black, in a careful hand: Shards in, Shards out. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出。有两行用一个灰烬指印做了记号：\“给小岛上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出，还有一栏“蜡烛（黑色）”。有两行用一个灰烬指印做了记号：\“给小岛上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”\页脚画了两道下划线：“本季度灰烬指标：未完成。”
 Close it.	合上它。
-A scrap of good paper, folded small, in a careful hand:\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash.	一张上好的纸片，折得小小的，字迹工整：\小岛上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给小岛写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个手印，按在灰烬里。
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	一张上好的纸片，折得小小的，字迹工整。顶上写着：“账单，一式三份之第二份。”\小岛上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给小岛写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个按在灰烬里的手印，和一块签名着了火留下的焦痕。
 Fold it away.	把它折起来收好。
 ASHFORD\West: Northport docks\East: the farmlands\South: King Rupert's Keep	Ashford\西：Northport 码头\东：农田\南：鲁珀特王堡
 Okay	好的
@@ -745,7 +745,7 @@ ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pi
 HOLLOW LANE\Houses of The Wizards' Court.	空心巷\巫师庭的住宅。
 TALLOW ROW\Houses of The Wizards' Court.	牛脂排\巫师庭的住宅。
 PENNYWORTH ROW\Houses of The Wizards' Court.	便士排\巫师庭的住宅。
-THE WIZARDS' COURT\A city of Ashen.	巫师庭\Ashen 的一座城市。
+THE WIZARDS' COURT\A city of Galmere.	巫师庭\Galmere 的一座城市。
 CATHEDRAL OF THE WIZARDS' COURT\All are welcome.	巫师庭大教堂\欢迎所有人。
 THE PRANCING PONY\A tavern of The Wizards' Court.	腾跃小马酒馆\巫师庭的一家酒馆。
 THE ROSE AND CROWN\A tavern of The Wizards' Court.	玫瑰与王冠酒馆\巫师庭的一家酒馆。
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Frosthold.	王后排\Frosthold 的住宅。
 CLOTH STREET\Houses of Frosthold.	布街\Frosthold 的住宅。
 WEAVERS' WAY\Houses of Frosthold.	织工路\Frosthold 的住宅。
 MASON'S ROW\Houses of Frosthold.	石匠排\Frosthold 的住宅。
-FROSTHOLD\A town of Ashen.	Frosthold\Ashen 的一座小镇。
+FROSTHOLD\A town of Galmere.	Frosthold\Galmere 的一座小镇。
 SHERIFF'S OFFICE\The watch house of Frosthold.	警长办公室\Frosthold 的守卫所。
 DOCTOR'S HOUSE\Of Frosthold.	医生之家\Frosthold。
 THE PLOUGH\A tavern of Frosthold.	犁酒馆\Frosthold 的一家酒馆。
@@ -814,14 +814,14 @@ CARTWRIGHT ROW\Houses of King Rupert's Keep.	车匠排\鲁珀特王堡的住宅�
 FOUNTAIN ROW\Houses of King Rupert's Keep.	喷泉排\鲁珀特王堡的住宅。
 ASH ROW\Houses of King Rupert's Keep.	梣树排\鲁珀特王堡的住宅。
 COPPER STREET\Houses of King Rupert's Keep.	铜街\鲁珀特王堡的住宅。
-KING RUPERT'S KEEP\A city of Ashen.	鲁珀特王堡\Ashen 的一座城市。
+KING RUPERT'S KEEP\A city of Galmere.	鲁珀特王堡\Galmere 的一座城市。
 CATHEDRAL OF KING RUPERT'S KEEP\All are welcome.	鲁珀特王堡大教堂\欢迎所有人。
 HOSPITAL\Of King Rupert's Keep.	医院\鲁珀特王堡。
 THE SMOKING CHIMNEY\A tavern of King Rupert's Keep.	冒烟烟囱酒馆\鲁珀特王堡的一家酒馆。
 THE BRASS MONKEY\A tavern of King Rupert's Keep.	黄铜猴酒馆\鲁珀特王堡的一家酒馆。
 SMITHY\The forge of King Rupert's Keep.	铁匠铺\鲁珀特王堡的熔炉。
 KEEP OUT OF THE WATER!	远离水边！
-THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Ashen, and its riches, lands and people are yours to protect.	Mary 的遗嘱\我亲爱的 $Player.Son：\从你六个月大起，我们就在这座岛上过着贫穷的日子；你的人生本不该是这个样子。你是 Ashen 真正的继承人，它的财富、土地和人民都归你守护。
+THE LAST WILL AND TESTAMENT OF MARY\My beloved $Player.Son,\We have lived in poverty on this island since you were six months old; this is not what your life should have been like. You are the true heir of Galmere, and its riches, lands and people are yours to protect.	Mary 的遗嘱\我亲爱的 $Player.Son：\从你六个月大起，我们就在这座岛上过着贫穷的日子；你的人生本不该是这个样子。你是 Galmere 真正的继承人，它的财富、土地和人民都归你守护。
 Read on.	继续读。
 I could never tell you who we were while I lived: it was safer that you didn't know. I didn't leave Galaith with nothing. What I carried away, I hid, and the people of this island have kept my secrets for you. When you are ready, they will see that you find it.	我活着的时候永远不能告诉你我们是谁：你不知道会更安全。我离开 Galaith 时并不是两手空空。我带走的东西，我藏起来了，这座岛上的人一直为你守着我的秘密。等你准备好了，他们会让你找到它。
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	你的父亲，国王，仍在 Galaith 的城墙后面等待，他不知道我已经走了。去找他吧。从你出生那天起，这座城就关闭了，而原因就是我。总有一天你会明白的。\要小心，告诉你父亲，我从未停止爱他。\Mary
@@ -866,7 +866,7 @@ THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens
 ROYAL TREASURY\The Wizards' Court's strongroom.	王家金库\巫师庭的保险库。
 STONEGATE\Houses of Saltmarsh.	石门\Saltmarsh 的住宅。
 SALTMARSH\A hamlet.	Saltmarsh\一座小村庄。
-A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Ashen's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	碎片之门，当代最伟大的巫师 Bert 著。\在巫师庭北边山上那圈古老的立石里：用四根银锭把石头连起来，把两颗蓝宝石嵌进符文，在石环的中心放上一颗残迹核心。\然后献给它 $Shards.Shardgate 枚你自己的碎片。任何东西都能滑到界域平静的边缘；要刺穿它的核心，石环必须被稳住，所以要先唤醒 Ashen 的 $Shards.Shardgate.Stones 块碎片石，还要懂碎片术（至少 $Shards.Shardgate.Level 级）。\然后走进去。小心守护者。
+A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Galmere's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	碎片之门，当代最伟大的巫师 Bert 著。\在巫师庭北边山上那圈古老的立石里：用四根银锭把石头连起来，把两颗蓝宝石嵌进符文，在石环的中心放上一颗残迹核心。\然后献给它 $Shards.Shardgate 枚你自己的碎片。任何东西都能滑到界域平静的边缘；要刺穿它的核心，石环必须被稳住，所以要先唤醒 Galmere 的 $Shards.Shardgate.Stones 块碎片石，还要懂碎片术（至少 $Shards.Shardgate.Level 级）。\然后走进去。小心守护者。
 Fold the plans.	把图纸折起来。
 Dunerest: south-west\Saltmarsh: south-east	Dunerest：西南\Saltmarsh：东南
 Northport: west\Oakhollow: south-east\Wildwood: south-west	Northport：西\Oakhollow：东南\Wildwood：西南
@@ -892,18 +892,18 @@ THORNWICK\A village.	Thornwick\一座村庄。
 CHAPEL OF THORNWICK\All are welcome.	Thornwick 礼拜堂\欢迎所有人。
 SMITHY\The forge of Thornwick.	铁匠铺\Thornwick 的熔炉。
 KING RUPERT'S KEEP\The King's keep and its bailey, held by his Steward while the King is away.	鲁珀特王堡\国王的城堡和外庭，国王不在时由他的总管掌管。
-WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits, and has been made to scrub the cistern for saying so.	守卫日志：Ysolde 的笔迹\守望第 211 年。碎片很安静。Corvane 元帅说它在沉睡。Hale 修士说它从不沉睡，它只是在等待，因为这么说，他被罚去刷蓄水池了。
+WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the cistern for saying so: carried.	守卫日志：Ysolde 的笔迹\守望第 211 年。会议记录。出席：全体。碎片很安静。Corvane 元帅说它在沉睡。Hale 修士说它从不沉睡，它只是在等待。动议：因为这么说，罚 Hale 修士去刷蓄水池。通过。
 That's all nine of the Wardens' journals: back to Pell.	九本守卫日志都齐了：回到 Pell 那里。
-WARDENS' JOURNAL: the hand of Brother Hale\It grows. We have measured it every year since the first: a hair a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.	守卫日志：Hale 修士的笔迹\它在长大。从第一年起我们每年都量它：一年一根头发丝，一直如此。Corvane 元帅说那是岩石在沉降。岩石可不会往上沉降。
+WARDENS' JOURNAL: the hand of Brother Hale\It grows. We have measured it every year since the first: a hair a year, always. Marshal Corvane says it's the rock settling. Rock doesn't settle upwards.\(Struck from the minutes, at the Marshal's request.)	守卫日志：Hale 修士的笔迹\它在长大。从第一年起我们每年都量它：一年一根头发丝，一直如此。Corvane 元帅说那是岩石在沉降。岩石可不会往上沉降。\（应元帅要求，已从会议记录中删除。）
 WARDENS' JOURNAL: the hand of Marshal Corvane\I have heard it now. It isn't asking to be used. It's asking to be listened to, and nobody has, in four hundred years of standing guard over it with our ears stopped.\The others will understand. I'll make them listen.	守卫日志：Corvane 元帅的笔迹\我现在听到它了。它不是在要求被使用。它是在要求被聆听，而四百年来没有人这么做过，我们塞着耳朵站岗看守它。\其他人会理解的。我会让他们听的。
-WARDENS' JOURNAL: the hand of Odile Brask, cook\Year 302. The water in the cistern hums when I draw it. Not loud. Just a hum, like somebody in the next room. Some days it's my mother's songs, and my mother's been dead thirty years.\I've stopped telling the Marshal. He only says to drink less of it.	守卫日志：厨娘 Odile Brask 的笔迹\第 302 年。我打水时，蓄水池里的水在嗡鸣。不响。只是一阵嗡鸣，像隔壁房间里有人。有些日子那是我母亲的歌，而我母亲已经死了三十年了。\我不再告诉元帅了。他只会说少喝点。
-WARDENS' JOURNAL: the hand of Brother Hale\Year 344. Measured it again from the rim. Two hairs this year, three in the summer. It's growing faster.\When I put the rule against it, something sighed. Not the wind: there's no wind down here. As if it had been waiting a long time for somebody to notice, and was glad.	守卫日志：Hale 修士的笔迹\第 344 年。又从边缘量了一次。今年两根头发丝，夏天三根。它长得更快了。\我把尺子贴上去时，有什么东西叹了口气。不是风：这下面没有风。好像它等了很久，等有人注意到，而且很高兴。
+WARDENS' JOURNAL: the hand of Odile Brask, cook\Year 302. The water in the cistern hums when I draw it. Not loud. Just a hum, like somebody in the next room. Some days it's my mother's songs, and my mother's been dead thirty years.\I've stopped telling the Marshal. He only says to drink less of it, and that the soup wants salt. It doesn't.	守卫日志：厨娘 Odile Brask 的笔迹\第 302 年。我打水时，蓄水池里的水在嗡鸣。不响。只是一阵嗡鸣，像隔壁房间里有人。有些日子那是我母亲的歌，而我母亲已经死了三十年了。\我不再告诉元帅了。他只会说少喝点，还说汤里盐不够。盐够了。
+WARDENS' JOURNAL: the hand of Brother Hale\Year 344. Measured it again from the rim, though the meeting asked me not to. Two hairs this year, three in the summer. It's growing faster.\When I put the rule against it, something sighed. Not the wind: there's no wind down here. As if it had been waiting a long time for somebody to notice, and was glad.	守卫日志：Hale 修士的笔迹\第 344 年。会议不让我量，我还是又从边缘量了一次。今年两根头发丝，夏天三根。它长得更快了。\我把尺子贴上去时，有什么东西叹了口气。不是风：这下面没有风。好像它等了很久，等有人注意到，而且很高兴。
 WARDENS' JOURNAL: the hand of Marshal Corvane\I asked it what it wanted. Four hundred years, and nobody had asked. It said: to be whole.\It knows my name. It knew my mother's. It only wants to be whole, and it's so small, and it's been alone so long. What sort of guard keeps a thing from its own body?	守卫日志：Corvane 元帅的笔迹\我问它想要什么。四百年了，没有人问过。它说：想要完整。\它知道我的名字。它知道我母亲的名字。它只是想要完整，它那么小，又孤独了那么久。什么样的守卫会让一个东西远离它自己的身体？
-WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.	守卫日志：Ysolde 的笔迹\骑士团分裂了。一半的守卫站在 Corvane 一边，耳朵敞开着。我们其余的人遵守第一位国王的命令，祭坛下面的那些：让它保持沉睡，永远、永远不让它与它自身的其余部分结合。\它自身的其余部分。我曾经问过元帅那是什么意思。他不知道。他现在知道了，我觉得这更糟。
-WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.	守卫日志：厨娘 Odile Brask 的笔迹\我要进去了。我是说，进湖里。那里的嗡鸣声最响，我想看看是什么在唱歌，而且我老得不会怕水了。\不管谁找到这个：小心那些水手。它也在呼唤他们。我能听到它在呼唤他们，每天夜里，穿过岩石往上传。
-WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守卫日志：最后的 Ysolde 的笔迹\我是最后一个从未回答过它的人。如果你是温暖的，正在读这个，那就听着：你能听到它，你能从它那里学到东西，但永远别回答。回答就是它进来的方式。\圣物堂下面有一个房间，我们在那里轮流聆听。四声钟鸣让它保持关闭。长廊里那块会唱歌的石头记得它们的顺序；它随着年份变化，就像那首老歌一样。我在这里堆了一座石冢，好让有人停下来。
+WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.\(The split took a vote. The vote took eleven days.)	守卫日志：Ysolde 的笔迹\骑士团分裂了。一半的守卫站在 Corvane 一边，耳朵敞开着。我们其余的人遵守第一位国王的命令，祭坛下面的那些：让它保持沉睡，永远、永远不让它与它自身的其余部分结合。\它自身的其余部分。我曾经问过元帅那是什么意思。他不知道。他现在知道了，我觉得这更糟。\（分裂是投票决定的。投票花了十一天。）
+WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	守卫日志：厨娘 Odile Brask 的笔迹\我要进去了。我是说，进湖里。那里的嗡鸣声最响，我想看看是什么在唱歌，而且我老得不会怕水了。\不管谁找到这个：小心那些水手。它也在呼唤他们。我能听到它在呼唤他们，每天夜里，穿过岩石往上传。\炖菜在火上。谁来搅一搅。
+WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守卫日志：最后的 Ysolde 的笔迹\我是最后一个从未回答过它的人。（有一次我们想一起回答。措辞商量了四十年，到那时我们都懂事了。）如果你是温暖的，正在读这个，那就听着：你能听到它，你能从它那里学到东西，但永远别回答。回答就是它进来的方式。\圣物堂下面有一个房间，我们在那里轮流聆听。四声钟鸣让它保持关闭。长廊里那块会唱歌的石头记得它们的顺序；它随着年份变化，就像那首老歌一样。我在这里堆了一座石冢，好让有人停下来。
 ROPE WALK\Houses of Wardhaven.	绳索路\Wardhaven 的住宅。
-WARDHAVEN\A town of Ashen.	Wardhaven\Ashen 的一座小镇。
+WARDHAVEN\A town of Galmere.	Wardhaven\Galmere 的一座小镇。
 CHURCH OF WARDHAVEN\All are welcome.	Wardhaven 教堂\欢迎所有人。
 SHERIFF'S OFFICE\The watch house of Wardhaven.	警长办公室\Wardhaven 的守卫所。
 SMITHY\The forge of Wardhaven.	铁匠铺\Wardhaven 的熔炉。
@@ -924,7 +924,7 @@ Quest started: The Island of Dragons.	任务开始：龙之岛。
 You rummage through the barrel..	你在木桶里翻找..
 ..only old candle ends and dust.	..只有旧蜡烛头和灰尘。
 You rummage through the crate..	你在板条箱里翻找..
-..mouldy hymn books, and a mouse.	..发霉的赞美诗集，还有一只老鼠。
+..mouldy hymn books, and a mouse who has read them all.	..发霉的赞美诗集，还有一只把它们全读完了的老鼠。
 A clue! A big white feather. Not a duck's. Bigger. Angrier. ($Attr.TrouserClues of 3)	一条线索！一根白色的大羽毛。不是鸭子的。更大。更凶。（$Attr.TrouserClues / 3）
 A big white feather. Not a duck's. Bigger. Angrier.	一根白色的大羽毛。不是鸭子的。更大。更凶。
 A clue! Webbed footprints, heading off towards the duck pond with great purpose. ($Attr.TrouserClues of 3)	一条线索！带蹼的脚印，非常坚定地朝鸭塘走去。（$Attr.TrouserClues / 3）
@@ -938,7 +938,7 @@ Under the fish bones, in the very middle of the nest, something round and warm.	
 Sticks, fish bones, and a smell. Nothing you want.	树枝、鱼骨头，还有一股气味。没有你想要的东西。
 A heron's nest is no place for a frog. You can't climb, and you'd rather not.	苍鹭的巢可不是青蛙待的地方。你不会爬，也不太想爬。
 Deep in the hollow stump: a squirrel's winter store, and under it somebody's purse, green with age. The squirrel was saving it for something.	空心树桩的深处：一只松鼠的过冬储藏，下面是某人的钱袋，已经旧得发绿了。松鼠本来打算拿它做点什么的。
-..rotten cabbages and hobgoblin junk.	..烂卷心菜和大地精的破烂。
+..rotten cabbages, one sock and hobgoblin junk.	..烂卷心菜、一只袜子和大地精的破烂。
 ..and stuffed down the side, where you missed it before: a scrap of paper, folded small.	..还有塞在侧面、你之前漏掉的：一张折得小小的纸片。
 ..rags and bones, nothing more.	..破布和骨头，别的什么都没有。
 ..and there, under the rags: a brass house key. Tobias's! Wrapped round it, a scrap of paper, folded small.	..就在那里，破布下面：一把黄铜房门钥匙。是 Tobias 的！上面裹着一张折得小小的纸片。
@@ -957,7 +957,7 @@ He has nothing more to give you, and has been very good about it.	他没有什�
 Something squeaks inside the stump. A rubber duck! It looks at you as if you were the strange one.	树桩里有东西吱吱叫。一只橡皮鸭！它看着你，好像你才是那个奇怪的家伙。
 Five secrets found. You're developing a nose for it.	找到了五个秘密。你开始有嗅觉了。
 Ten secrets! People have started hiding things from you on purpose.	十个秘密！人们开始故意对你藏东西了。
-Every secret in Ashen, found. Somewhere, a squirrel weeps.	Ashen 的每一个秘密，都找到了。某个地方，一只松鼠在哭泣。
+Every secret in Galmere, found. Somewhere, a squirrel weeps.	Galmere 的每一个秘密，都找到了。某个地方，一只松鼠在哭泣。
 You fish out a fortune in wishes. Twenty-five gold, give or take a dream.	你捞出了一大笔愿望。二十五金币，外加或减去一个梦想。
 A magpie's stash: a spoon, a thimble, and a sapphire it must have been very proud of.	一只喜鹊的藏宝：一把勺子，一个顶针，还有一颗它一定非常骄傲的蓝宝石。
 A statue of a wizard, its hat a lid. Under it: Shards, and a note in Bert's hand: 'IF FOUND, NO YOU DIDN'T.'	一座巫师雕像，他的帽子是个盖子。下面：碎片，还有一张 Bert 笔迹的便条：“如果你找到了这个，不，你没有。”
@@ -992,11 +992,11 @@ You lift the lid and rummage under the salted fish...	你掀开盖子，在咸�
 One piece of it doesn't stop chiming. You pick it up. It's warm.	它有一块一直叮当作响停不下来。你把它捡起来。它是温的。
 Shardcraft: work Shard magic. Wake shardstones, break gear down for its Shards, write scrolls, enchant gear with rare shards and shape your pocket of the Shardrealm.	碎片术：运用碎片魔法。唤醒碎片石，把装备分解成碎片，书写卷轴，用稀有碎片为装备附魔，塑造你在碎片界里的那一方天地。
 The Warden stands over the anchor: it won't let you near.	守护者站在锚的上方：它不让你靠近。
-You raise the Staff of Ashen and speak Bert's words of Unbinding at the anchor..	你举起 Ashen 之杖，对着锚念出 Bert 的解缚之言..
+You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	你举起 Galmere 之杖，对着锚念出 Bert 的解缚之言..
 ..and it shatters. Under it the realm's floor falls away into a hollow, vast and warm, where something huge lies sleeping: every splinter of magic here leans toward it, and it breathes. Far away, in the pass of Galaith, something gives. Tell Bert.	..它碎了。它下面，界域的地面塌陷成一个空洞，巨大而温暖，某个庞大的东西躺在那里沉睡：这里的每一丝魔法都倾向它，它在呼吸。远方，在 Galaith 的山口，有什么东西松动了。告诉 Bert。
 Through the hole where the anchor stood you see the pass, small and far, as if through ice. The barrier thins, and beyond it the dragon lifts its head: its hide is grown over with Shards, plates of them, glittering.	透过锚原来所在的那个洞，你看到了山口，又小又远，像隔着冰看一样。屏障变薄了，屏障那边，龙抬起了头：它的皮上长满了碎片，一片片的，闪闪发光。
 A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	一个像山崩一样的声音，在你脑袋里：“小继承人，在我自己的地窖里。想打碎什么就打碎吧。从那堵墙立起来的那天起，我忠实的灰烬之手就一点一点地把碎片穿过它喂给我，而你赢来的那把剑，正在酣睡。”
-Your bare hands won't break it: it needs the Staff of Ashen.	你空手打不碎它：需要 Ashen 之杖。
+Your bare hands won't break it: it needs the Staff of Galmere.	你空手打不碎它：需要 Galmere 之杖。
 You puff smoke into the skep's door. The humming drops, slow and sleepy.	你往蜂箱的门口吹烟。嗡嗡声低了下来，慢吞吞的，昏昏欲睡。
 You need a tinderbox to make smoke.	你需要一个火绒盒才能生烟。
 Someone should fix that floorboard; it sounds like it's about to fall through.	该有人修修那块地板了；听起来它快要塌了。
@@ -1050,7 +1050,7 @@ Mo kneads the air with a white paw and purrs.	Mo 用一只白爪子在空中踩�
 Noops rolls onto his back, a great grey belly to the sky, and rumbles.	Noops 翻身仰躺，一个灰色的大肚皮朝着天空，咕噜咕噜地响。
 You stroke its nose. It leans into your hand, and then checks your pockets.	你摸了摸它的鼻子。它靠进你的手里，然后检查起你的口袋。
 It whickers softly and goes back to its hay.	它轻轻地嘶叫一声，回去吃它的干草了。
-Jimmy stretches, purrs without waking, and curls up tighter on the spare bed.	Jimmy 伸了个懒腰，没醒就打起了呼噜，在空床上蜷得更紧了。
+Jimmy stretches, purrs without waking, and takes up a little more of the spare bed.	Jimmy 伸了个懒腰，没醒就打起了呼噜，又多占了一点客床。
 Jimmy purrs, stretches across the throne, and goes back to sleep. He's the king of this, really.	Jimmy 打着呼噜，在王座上伸展开来，又睡着了。说真的，他才是这里的国王。
 Vincent leans into your hand, then strolls off as if it never happened.	Vincent 靠进你的手里，然后溜达走了，好像什么都没发生过。
 Quest complete: The Sunken Grimoire! Take it to Bert.	任务完成：沉没的魔典！把它带给 Bert。
@@ -1077,7 +1077,7 @@ Take me to the arena.	带我去竞技场。
 Not today.	今天不行。
 Swords, daggers and bows, sharp and true.	剑、匕首和弓，锋利又精准。
 Let me see your goods.	让我看看你的货。
-The dragon of Galaith will have its due. It always does.	Galaith 的龙会得到它应得的。它总是如此。
+The dragon of Galaith will have its due. It always does.\...Sorry. We have to say that to everyone. It's in the handbook.	Galaith 的龙会得到它应得的。它总是如此。\……抱歉。我得对每个人都这么说。手册上写着的。
 Fresh bread and pastries, still warm!	新鲜面包和糕点，还热着呢！
 Welcome to the bank of Ashford. Your valuables are safe with us.	欢迎来到 Ashford 银行。你的贵重物品在我们这里很安全。
 I'd like to use the bank.	我想用一下银行。
@@ -1134,10 +1134,10 @@ Mind the step. My husband keeps meaning to fix it.	小心台阶。我丈夫一�
 Flo looks up from her ledger. "Something on your mind?"	Flo 从她的账本上抬起头来。“有什么心事吗？”
 There's a hall under Shardglass Field. The Mending folk meet there, and they mean to open the King's Seam.	碎片玻璃原野下面有一座大厅。弥合会的人在那里聚会，他们打算打开王之缝隙。
 Nothing. Goodbye.	没什么。再见。
-"Them in grey? The kind ones, with the soup?" She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	“那些穿灰衣服的？有汤的那些好心人？”她听你说完，不再笑了。\“王之缝隙。好的。我今晚就送信去 Galaith，明天早上之前我就会把他们在这里的房子封了。里面任何想回家的人，都会被送回家。”
+"Them in grey? The kind ones, with the soup? It's good soup." She hears you out, and stops smiling.\"The King's Seam. Right. I'll send word to Galaith tonight, and I'll have their house here shut by morning. Anyone in there who wants to go home will be taken home."	“那些穿灰衣服的？有汤的那些好心人？汤确实不错。”她听你说完，不再笑了。\“王之缝隙。好的。我今晚就送信去 Galaith，明天早上之前我就会把他们在这里的房子封了。里面任何想回家的人，都会被送回家。”
 Thank you, Sheriff.	谢谢你，警长。
 Quest complete: In Grey!	任务完成：灰衣人！
-I'm the sheriff here. The cells are empty and I like them that way.	我是这里的警长。牢房是空的，我喜欢它们空着。
+I'm the sheriff here. The cells are empty and I like them that way. Most weeks the worst I get is a goat in the bakery.	我是这里的警长。牢房是空的，我喜欢它们空着。大多数星期，最大的案子是一只山羊闯进了面包店。
 Need something forged? Or use my furnace and anvil yourself.	需要锻造什么吗？或者自己用我的熔炉和铁砧。
 Still warm from the oven!	刚出炉还热着呢！
 Morning! Everything's fresh out of the oven.\You can cook on my oven fire too, if you've got your own meat.	早上好！所有东西都是刚出炉的。\如果你有自己的肉，也可以在我的炉火上做饭。
@@ -1148,22 +1148,22 @@ No thanks.	不用了，谢谢。
 Spare a coin for a poor old man?	给可怜的老人一个硬币吧？
 Here's a coin.	给你一个硬币。
 Sorry, no.	抱歉，不行。
-Bless you! I wasn't always like this, you know. Had a house once, with a garden. Ah well.	保佑你！我可不是一直都这样的，你知道。我以前有过一座房子，还有个花园。唉，算了。
+Bless you! I wasn't always like this, you know. Had a house once, with a garden, and a goat. The goat ate the garden. Then it started on the house. Ah well.	保佑你！我可不是一直都这样的，你知道。我以前有过一座房子，有个花园，还有一只山羊。山羊把花园吃了。然后它开始吃房子。唉，算了。
 Good luck to you.	祝你好运。
 You don't have any gold!	你一点金币都没有！
-A new face! Every adventurer should know a little magic. Take these.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you.	一张新面孔！每个冒险者都该懂一点魔法。拿着这些。\读一张卷轴，它的法术就永远归你了；施放它要消耗碎片。还有一两瓶药剂：魔法可治不好你。
-The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things.	总管的朋友！进来，进来，小心猫。不是真猫。嗯。\你想让屏障倒下。每个人都想让屏障倒下。我能做到：Bert，当代最伟大的巫师，为你效劳。不过就算是我，也需要合适的东西。
+A new face! Every adventurer should know a little magic. Take these. I've far too many; I keep buying them.\Read a scroll and its spell is yours for good; casting it spends Shards. And a draught or two: magic won't mend you. I've tried. Ask my knees.	一张新面孔！每个冒险者都该懂一点魔法。拿着这些。我有太多了。我总是忍不住买。\读一张卷轴，它的法术就永远归你了；施放它要消耗碎片。还有一两瓶药剂：魔法可治不好你。我试过。问问我的膝盖。
+The Steward's friend! Come in, come in, mind the cat. Not a real cat. Well.\You want the barrier down. Everyone wants the barrier down. I can do it: Bert, greatest wizard of the age, at your service. But even I need the proper things. Even I. It's very annoying.	总管的朋友！进来，进来，小心猫。不是真猫。嗯。\你想让屏障倒下。每个人都想让屏障倒下。我能做到：Bert，当代最伟大的巫师，为你效劳。不过就算是我，也需要合适的东西。就算是我。烦得很。
 What things?	什么东西？
-Three. The Staff of Ashen: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier.	三样。Ashen 之杖：国王自己的，在他城堡顶上的寝殿里。解缚魔典：和太阳祭司的图书馆一起埋在 Dunerest 外的沙漠里。还有余烬戒指，灰烬祭司戴着它，在 Emberwatch 上方他的堡垒里。\把三样都给我带来，我们再来看看那屏障。
+Three. The Staff of Galmere: the King's own, in his solar at the top of his keep. The Grimoire of Unbinding: buried with the sun priests' library, in the desert outside Dunerest. And the Ember Ring, which the Ashen Priest wears in his fort above Emberwatch.\Bring me all three, and we'll see about that barrier. And wipe your feet when you do.	三样。Galmere 之杖：国王自己的，在他城堡顶上的寝殿里。解缚魔典：和太阳祭司的图书馆一起埋在 Dunerest 外的沙漠里。还有余烬戒指，灰烬祭司戴着它，在 Emberwatch 上方他的堡垒里。\把三样都给我带来，我们再来看看那屏障。进门前擦擦脚。
 I'll bring them.	我会把它们带来。
 Quest started: Bert's Three Treasures.	任务开始：Bert 的三件宝物。
-The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind.	国王城堡里的杖，沙漠下面的魔典，灰烬祭司的戒指。三样都要，记住。
+The staff from the King's keep, the grimoire from under the desert, the ring from the Ashen Priest. All three, mind. Two is not three. People keep trying two.	国王城堡里的杖，沙漠下面的魔典，灰烬祭司的戒指。三样都要，记住。两样不是三样。大家总想试试两样。
 Something else.	别的事。
-I study the arcane arts up here, far from the noise of the court.\I sell spell scrolls, though they don't come cheap. Or I can send you anywhere I've been.	我在这上面研究奥术，远离宫廷的喧嚣。\我卖法术卷轴，不过可不便宜。或者我可以把你送到任何我去过的地方。
+I study the arcane arts up here, far from the noise of the court. Mostly far from the court.\I sell spell scrolls, though they don't come cheap. I set the prices by how my day's going. Or I can send you anywhere I've been.	我在这上面研究奥术，远离宫廷的喧嚣。尤其远离宫廷。\我卖法术卷轴，不过可不便宜。价钱看我那天的心情。或者我可以把你送到任何我去过的地方。
 Show me your scrolls.	给我看看你的卷轴。
 Can you teleport me?	你能把我传送过去吗？
 Another heir has come to you, besides me.	除了我，还有另一个继承人来找过你。
-Where to?	去哪儿？
+Where to? Keep your arms in.	去哪儿？手脚收好。
 To the Isle.	去小岛。
 To Northport.	去 Northport。
 Nowhere, thanks.	哪儿都不去，谢谢。
@@ -1180,7 +1180,7 @@ The furnace: smelt ore.	熔炉：冶炼矿石。
 The anvil: smith bars.	铁砧：锻造锭。
 Never mind.	算了。
 Copper, tin and coal: in the grotto under the beggar's cellar.\Iron: the old mine in the Whispering Woods, past the King's guard. Wear armour.\Silver lies deeper down. Brokk the dwarf has found mithril in the Deep Hollow.	铜、锡和煤：在乞丐地窖下面的岩洞里。\铁：低语森林里的旧矿井，过了国王的守卫。穿上盔甲。\银藏得更深。矮人 Brokk 在深谷里找到了秘银。
-Every beast that bothers Ashen ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	每一头骚扰 Ashen 的野兽迟早都会上我的告示板。今天的就钉在我旁边。把数目带给我，我就把钱袋给你。
+Every beast that bothers Galmere ends up on my board sooner or later. Today's is pinned up beside me. Bring me the count and I'll bring the purse.	每一头骚扰 Galmere 的野兽迟早都会上我的告示板。今天的就钉在我旁边。把数目带给我，我就把钱袋给你。
 Who pays for it?	谁出钱？
 The towns put in, the farms put in, and anyone who's lost a sheep puts in twice. One bounty a day, mind. The purse isn't bottomless.	城镇出钱，农场出钱，丢过羊的人出两份。一天一份悬赏，记住。钱袋可不是无底的。
 So you're the one Nell sent. Sit down. No, there. Now.\When I was a girl my mother told me about the Glass Wardens. The first king set them to keep watch over something that fell in the sea, a long time ago, and they built a house for it under the water, and they went down to it, and they didn't come back up.	所以你就是 Nell 派来的那个。坐下。不，那儿。好了。\我还是个小姑娘时，我母亲给我讲过玻璃守卫的事。很久以前，第一位国王派他们看守某个落进海里的东西，他们在水底下给它建了一座房子，他们下去找它，就再也没有上来。
@@ -1204,7 +1204,7 @@ Quest started: The Brother in the Ash.	任务开始：灰烬中的兄弟。
 I'm going.	我这就去。
 'She's coming for me? ...Then I'd better be here when she does.'	“她要来找我？……那等她来的时候，我最好在这儿。”
 A man in a burnt grey robe kneels by the chapel wall, praying under his breath. He doesn't look up.	一个穿着烧焦灰袍的男人跪在礼拜堂的墙边，低声祈祷。他没有抬头。
-Who's there? You're not one of them, thank the stars!\I'm Tobias, Bess and Maren's father. The brutes caught me in my own house, and they've kept me in this cage ever since. They took my keys too: my house key's hidden in one of their barrels, the one in the corner. I watched them do it.\Can you get this lock open? It's a poor old lock.	谁在那儿？你不是他们的人，谢天谢地！\我是 Tobias，Bess 和 Maren 的父亲。那些畜生在我自己家里抓住了我，从那以后就一直把我关在这个笼子里。他们把我的钥匙也拿走了：我的房门钥匙藏在他们的一个木桶里，角落里的那个。我亲眼看着他们藏的。\你能把这把锁打开吗？这是一把破旧的锁。
+Who's there? You're not one of them, thank the stars!\I'm Tobias, Bess and Maren's father. The brutes caught me in my own house, and they've kept me in this cage ever since. Turnip stew, every night. Not even good turnips.\They took my keys too: my house key's hidden in one of their barrels, the one in the corner. I watched them do it.\Can you get this lock open? It's a poor old lock.	谁在那儿？你不是他们的人，谢天谢地！\我是 Tobias，Bess 和 Maren 的父亲。那些畜生在我自己家里抓住了我，从那以后就一直把我关在这个笼子里。每天晚上都是萝卜炖菜。还是很差的萝卜。\他们把我的钥匙也拿走了：我的房门钥匙藏在他们的一个木桶里，角落里的那个。我亲眼看着他们藏的。\你能把这把锁打开吗？这是一把破旧的锁。
 Hold on.	等一下。
 You look handy with a blade. Bandits are robbing every cart on the Redrock road, and my men are too few.\Kill five of them and come back to me.	你看起来很会用刀。强盗在 Redrock 路上抢劫每一辆马车，我的人手太少了。\杀掉他们五个，然后回来找我。
 Consider it done.	就当已经办成了。
@@ -1223,7 +1223,7 @@ The bandits are gone, and so are the town's goods. Word is they turned up on the
 The road is safe again. Frosthold salutes you.	路又安全了。Frosthold 向你致敬。
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	路上到处都是强盗，平民可不该去。等你能像模像样地挥剑了，再来向我报告。
 Yes, Captain.	是，队长。
-Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Ashen ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	龙岛？哈！没人航行到那里还能回来，而我回来过两次。它周围的礁石会动，伙计。不是随着潮水：它们自己会动。\以前有一张海图认得路：Orrin 的。Ashen 有过的最好的领航员。他登上了巫师庭南边的裂塔去观天，就再也没下来。把 Orrin 的海图给我带来，我就能找到你的岛。\还有，她出发去任何地方之前都得先补好船体：十块木板和二十根钉子，如果你回来的路上经过木匠工作台的话。
+Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Galmere ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	龙岛？哈！没人航行到那里还能回来，而我回来过两次。它周围的礁石会动，伙计。不是随着潮水：它们自己会动。\以前有一张海图认得路：Orrin 的。Galmere 有过的最好的领航员。他登上了巫师庭南边的裂塔去观天，就再也没下来。把 Orrin 的海图给我带来，我就能找到你的岛。\还有，她出发去任何地方之前都得先补好船体：十块木板和二十根钉子，如果你回来的路上经过木匠工作台的话。
 Quest started: Orrin's Chart.	任务开始：Orrin 的海图。
 Orrin's chart, matey. The Sundered Tower, south of the Wizards' Court. Mind the stairs: there aren't any.	Orrin 的海图，伙计。裂塔，在巫师庭南边。小心楼梯：根本没有楼梯。
 Right.	好的。
@@ -1265,23 +1265,23 @@ Sister Hesper kneels on the cold floor, a plain wooden bead in her hands where t
 It is.	是的。
 Brother Odo has his grey robe folded on the bench beside him, and doesn't look at it.\"I gave it three years' Shards. It told me my brother forgave me." He rubs his eyes. "I'm going to go and ask him myself. On foot. It's a long way."	Odo 修士把他的灰袍叠好放在身边的长凳上，没有看它。\“我给了它三年的碎片。它告诉我我哥哥原谅了我。”他揉了揉眼睛。“我要去亲自问问他。走着去。路很远。”
 Go well, Odo.	一路平安，Odo。
-Mary's $Player.Boy. So the time has come.\She came to me years ago with something to hide: an amulet. We put it at the back of the caves under this chapel, behind bars no hand could reach through.\You have the trapdoor's key from Maren, and a sword and a shield, and you look as if you can use them now. Go down. I'll not be far behind you.	Mary 的 $Player.Boy。那么时候到了。\她很多年前来找我，带着一样要藏的东西：一枚护身符。我们把它放在这座礼拜堂下面洞穴的最深处，在没有手能伸进去的铁栏后面。\你从 Maren 那里拿到了活板门的钥匙，还有一把剑和一面盾，你看起来现在会用它们了。下去吧。我不会落后你太远的。
-You're ready, I'd say. But the trapdoor's locked, and I gave its key to Maren, the doctor, for safekeeping.	我得说，你准备好了。但活板门锁着，我把它的钥匙交给了医生 Maren 保管。
+Mary's $Player.Boy. So the time has come. I'd hoped it would come on a drier day.\She came to me years ago with something to hide: an amulet. We put it at the back of the caves under this chapel, behind bars no hand could reach through.\You have the trapdoor's key from Maren, and a sword and a shield, and you look as if you can use them now. More or less. Go down. I'll not be far behind you.	Mary 的 $Player.Boy。那么时候到了。我本希望是个干爽些的日子。\她很多年前来找我，带着一样要藏的东西：一枚护身符。我们把它放在这座礼拜堂下面洞穴的最深处，在没有手能伸进去的铁栏后面。\你从 Maren 那里拿到了活板门的钥匙，还有一把剑和一面盾，你看起来现在会用它们了。大致会用。下去吧。我不会落后你太远的。
+You're ready, I'd say. But the trapdoor's locked, and I gave its key to Maren, the doctor, for safekeeping. Everyone gives Maren things for safekeeping. She's never lost one. I've lost three umbrellas.	我得说，你准备好了。但活板门锁着，我把它的钥匙交给了医生 Maren 保管。大家都把东西交给 Maren 保管。她从来没丢过。我丢了三把伞。
 I'll ask her.	我去问她。
-Wooden swords and good intentions. Practise first: the goblins in the woods to the west, until your Attack and Defence are level 2. Then come back.	木剑和好意。先练练：西边树林里的哥布林，练到你的攻击和防御都到 2 级。然后再回来。
-Down there, with your sword and shield in your pack? Wield them both, then we'll talk.	就带着收在包里的剑和盾下去？两样都装备上，我们再谈。
-Peace be with you. I'm Brother Aldous: I keep the chapel, and the graves out there. I buried your mother this morning. She was a good woman.	愿你平安。我是 Aldous 修士：我照看礼拜堂，还有外面的坟墓。今天早上我埋葬了你母亲。她是个好女人。
+Wooden swords and good intentions. I've buried plenty of both.\Practise first: the goblins in the woods to the west, until your Attack and Defence are level 2. Then come back.	木剑和好意。这两样我都埋过不少。\先练练：西边树林里的哥布林，练到你的攻击和防御都到 2 级。然后再回来。
+Down there, with your sword and shield in your pack? You'd be the first I've buried with them still wrapped. Wield them both, then we'll talk.	就带着收在包里的剑和盾下去？那你会是第一个原封不动被埋的人。两样都装备上，我们再谈。
+Peace be with you. I'm Brother Aldous: I keep the chapel, and the graves out there. I buried your mother this morning. She was a good woman. She'd have hated the hymns.	愿你平安。我是 Aldous 修士：我照看礼拜堂，还有外面的坟墓。今天早上我埋葬了你母亲。她是个好女人。她会讨厌那些赞美诗的。
 What's down in the cellar?	地窖下面有什么？
-Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed.	木桶和灰尘，还有一扇通往洞穴的活板门，谁都不该空手下去。
+Barrels and dust, and a trapdoor down to the caves, where no one should go unarmed. Or at all, really. But people will.	木桶和灰尘，还有一扇通往洞穴的活板门，谁都不该空手下去。其实谁都不该下去。可人们还是会下去。
 I see.	我明白了。
-The trapdoor is in the cellar, down the steps behind the altar. The amulet is at the very back of the caves.	活板门在地窖里，顺着祭坛后面的台阶下去。护身符在洞穴的最深处。
-Cast the Grasp at the bars, and the amulet will come to you.	对着铁栏施放抓取，护身符就会到你这里来。
-Keep the amulet close, and show it to no one but your father. Go with God.	把护身符收好，除了你父亲，谁也别给看。愿上帝与你同在。
+The trapdoor is in the cellar, down the steps behind the altar. The amulet is at the very back of the caves. Wipe your feet when you come back up.	活板门在地窖里，顺着祭坛后面的台阶下去。护身符在洞穴的最深处。上来的时候擦擦脚。
+Cast the Grasp at the bars, and the amulet will come to you. At the bars. Not at the collection box.	对着铁栏施放抓取，护身符就会到你这里来。是铁栏。不是奉献箱。
+Keep the amulet close, and show it to no one but your father. Go with God. Or at least go.	把护身符收好，除了你父亲，谁也别给看。愿上帝与你同在。或者至少，走吧。
 Did my mother leave anything else with you?	我母亲还留了别的东西给你吗？
 What did she mean, 'Jimmy knows where'?	她说“Jimmy 知道在哪儿”是什么意思？
 Someone else here says they're Mary's heir too.	这里还有一个人说他们也是 Mary 的继承人。
-Do they? The Shards don't count the way we do. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The Shards will know each of you for an heir. Whether the crown does is your father's business, not mine.	是吗？碎片计数的方式和我们不一样。第一位国王把龙砍倒时，需要王室的血来守住切口，从那以后，那血流进的血管可不止一条。碎片会把你们每一个都认作继承人。王冠认不认，那是你父亲的事，不是我的。
-One thing, yes. Near the end she gave me this, and made me promise to keep it till the amulet was yours.\A charm, in her hand. She studied at the Wizards' Court when she was young, did you know? She said: 'Jimmy knows where. Read it by him, and ask him.'\I read it once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it.	有一样，是的。临终前她把这个交给我，让我答应保管到护身符归你为止。\一道咒文，是她的笔迹。她年轻时在巫师庭学习过，你知道吗？她说：“Jimmy 知道在哪儿。在他旁边念，然后问他。”\我念过一次。感谢主，我什么事都没有。也许它需要她的血脉才能念。
+Do they? The Shards don't count the way we do. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The Shards will know each of you for an heir. Whether the crown does is your father's business, not mine. I only do the burials.	是吗？碎片计数的方式和我们不一样。第一位国王把龙砍倒时，需要王室的血来守住切口，从那以后，那血流进的血管可不止一条。碎片会把你们每一个都认作继承人。王冠认不认，那是你父亲的事，不是我的。我只管葬礼。
+One thing, yes. Near the end she gave me this, and made me promise to keep it till the amulet was yours.\A charm, in her hand. She studied at the Wizards' Court when she was young, did you know? She said: 'Jimmy knows where. Read it by him, and ask him.'\I read it once. Nothing happened to me, thank the Lord. Perhaps it wants her blood to read it. Or perhaps I read it wrong. I'd rather not know which.	有一样，是的。临终前她把这个交给我，让我答应保管到护身符归你为止。\一道咒文，是她的笔迹。她年轻时在巫师庭学习过，你知道吗？她说：“Jimmy 知道在哪儿。在他旁边念，然后问他。”\我念过一次。感谢主，我什么事都没有。也许它需要她的血脉才能念。也许是我念错了。我宁愿不知道是哪一种。
 I'll try it.	我去试试。
 Quest started: What Jimmy Kept.	任务开始：Jimmy 守着的东西。
 Read her charm by Jimmy, and ask him. Not in the chapel, mind. I'll not have a cat at the altar.	在 Jimmy 旁边念她的咒文，然后问他。可别在礼拜堂里，注意。我可不让猫上祭坛。
@@ -1365,6 +1365,7 @@ A king, they told me, paint a king. Which way does a king face? Left, for wisdom
 Twenty years nobody wanted a portrait in this palace. Now everybody does.	二十年来这座宫殿里没人想要肖像画。现在每个人都想要。
 Welcome to the cathedral of The Wizards' Court. Sit a while: the light through the glass is lovely.	欢迎来到巫师庭大教堂。坐一会儿吧：透过玻璃照进来的光很美。
 My grandmother lived in this very house. Her grandmother too.	我祖母就住在这座房子里。她的祖母也是。
+I'm the sheriff here. The cells are empty and I like them that way.	我是这里的警长。牢房是空的，我喜欢它们空着。
 Tarek sent you? Then he'll want his goat. Tell him no.\The Deep Anvil: aye, we found the old dwarf hall, west of here under the mountains. And the Stone King found us. It sits the dwarves' throne as if it built it. Two of mine went in to talk to it. It doesn't talk.	Tarek 派你来的？那他会想要他的山羊。告诉他不行。\深渊铁砧：是的，我们找到了古老的矮人大厅，在这里西边的山下。然后石之王找到了我们。它坐在矮人的王座上，好像王座是它建的。我的两个人进去和它谈。它不谈。
 Something else...	别的事...
 Quest started: The Deep Anvil.	任务开始：深渊铁砧。
@@ -1463,17 +1464,17 @@ Skeletons smashed: $Variable.2 of 4. Trolls slain: $Variable.3 of 1.\The skeleto
 I'll get back to it.	我会继续的。
 My halls are quiet again, friend. Mine the crystal vein any time you like, if you've the skill for it.\And help yourself to what's in my vault, west of the forge.	我的大厅又安静了，朋友。只要你有那个技术，随时都可以来开采水晶矿脉。\还有，我金库里的东西随便拿，在熔炉西边。
 Hah! My grudge is with things that bite back, beanpole. Get the King's hobgoblins seen to and some muscle on those arms, and then we'll talk.	哈！我的怨恨是对着那些会还嘴的东西的，竹竿。先把国王的大地精解决了，胳膊上长点肌肉，然后我们再谈。
-A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.	一个煎蛋，边缘焦脆，正是我喜欢的样子！你有你母亲的善良。谢谢你。
+A fried egg, crisp at the edges, just as I like it! You have your mother's kindness. Thank you.\Let the record show that I am very pleased.	一个煎蛋，边缘焦脆，正是我喜欢的样子！你有你母亲的善良。谢谢你。\请记录在案：我非常满意。
 Enjoy it.	请慢用。
-Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield.	谢谢你，亲爱的。对了，Aldous 修士把这个交给我们保管：礼拜堂地窖里活板门的钥匙。Mary 说过，总有一天你会需要它。\只要答应我，没有剑和盾就别下去。
+Thank you, dear. Now, Brother Aldous left this with us for safekeeping: the key to the trapdoor in the chapel cellar. Mary said that one day you would need it.\Only promise me you won't go down there without a sword and a shield. I've patched up enough folk who went down with a stick and an opinion.	谢谢你，亲爱的。对了，Aldous 修士把这个交给我们保管：礼拜堂地窖里活板门的钥匙。Mary 说过，总有一天你会需要它。\只要答应我，没有剑和盾就别下去。带着一根棍子和一股倔劲下去的人，我已经缝过够多了。
 I promise.	我答应。
-And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can.	把这些也带上：两瓶治疗药剂，用 Bess 的草药酿的。受伤时喝一瓶：医嘱。\注意，是草药，不是魔法。碎片能做很多事，但它们治不好身体：只有酿造者的草药可以。
+And take these with you: two healing draughts, brewed from Bess's herbs. Drink one when you're hurt: doctor's orders.\Herbs, mind, not magic. Shards can do a great deal, but they can't mend a body: only a brewer's herbs can. They taste dreadful. That's how you know they work.	把这些也带上：两瓶治疗药剂，用 Bess 的草药酿的。受伤时喝一瓶：医嘱。\注意，是草药，不是魔法。碎片能做很多事，但它们治不好身体：只有酿造者的草药可以。味道糟透了。所以你才知道它管用。
 Thank you, Maren.	谢谢你，Maren。
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	任务完成：在 Edwin 家吃晚饭！Maren 给了你礼拜堂活板门的钥匙和两瓶治疗药剂。
-If you need anything drawn up, a will or a deed, I'm your man.	如果你需要起草什么东西，遗嘱或地契，找我就对了。
+If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	如果你需要起草什么东西，遗嘱或地契，找我就对了。不过我希望你要用遗嘱的那天还很远、很远。
 What was my mother like?	我母亲是个什么样的人？
-She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. I always thought there was more to her than a cottage and a cat.	她抱着你来到小岛，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。我总觉得她不只是一间小屋和一只猫那么简单。
-Take your time with the letter. It's yours alone.	慢慢读那封信吧。它只属于你一个人。
+She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	她抱着你来到小岛，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。有一次她说得我自己免掉了我的费用，我还道了谢。\我总觉得她不只是一间小屋和一只猫那么简单。
+Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	慢慢读那封信吧。它只属于你一个人。我不好奇。一点、一点都不好奇。
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	小心第三块木板。还有第五块。说实话，每一块都要小心。
 What do you catch out here?	你在这儿钓什么？
 Seen anything odd?	看到什么怪事了吗？
@@ -1529,7 +1530,7 @@ Quest complete: Passage to the Mainland!	任务完成：前往大陆！
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	有船靠岸时就上船，一枚硬币就是船费。它们听钟声从两个码头出发。
 Cross the strait? Papers first, friend. Since the raids, Northport's guards send back anyone off the Isle without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping the Isle's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	渡海峡？先要文书，朋友。自从那几次袭击以后，Northport 的守卫会把任何没有文书的小岛人送回来，而把他们送回家的人是我。\以前一直是老 Tobias 写文书，他管着小岛的名册，可自从大地精来了以后就没人见过他了。去问问农场上的 Bess：她是他女儿。
 Quest started: Passage to the Mainland.	任务开始：前往大陆。
-Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you.	有文书了吗？没有？那就不能渡海，朋友。Northport 只会把你送回来，而把你送回来的人是我。
+Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	有文书了吗？没有？那就不能渡海，朋友。Northport 只会把你送回来，而把你送回来的人是我。划双倍的桨，收一样的船钱。
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	今天鱼咬钩！在钩子上挂条虫子，海里什么都会咬。\等你用钓竿熟练了，鳟鱼会疯了一样咬钩。
 Any big catches about?	最近有什么大鱼吗？
 Cave eels! Pale as ghosts, they live in the black pools deep underground. You'll want real skill (Fishing 8) to land one.\I pay well for them, cooked or raw.	洞穴鳗！白得像鬼一样，它们住在地下深处的黑水池里。你得有真本事（钓鱼 8 级）才能钓上一条。\我出高价收，熟的生的都要。
@@ -1550,14 +1551,14 @@ Quest complete: The Frozen Forge! You receive a mithril sword, 250 gold and Craf
 Two mithril bars and I'll forge you something special.	两根秘银锭，我给你锻造点特别的东西。
 The forge roars again. Come back if you need anything mended.	熔炉又轰鸣起来了。如果需要修什么东西就回来。
 The cold up there splits stone, and the things in it split skulls. You'd freeze before you got a hammer up. Harden yourself, then come back.	那上面的寒冷能冻裂石头，那里的东西能打裂头骨。你还没举起锤子就冻僵了。先让自己强壮起来，再回来。
-Bess sent you? Then you'll want a sword and a shield, and I'll show you how. Wood first: you'll learn to swing a blade before anyone trusts you with steel.\Use my workbench there (Craft): a wooden sword takes 2 logs, a wooden shield 3. Here, have some of my seasoned wood.	Bess 派你来的？那你会需要一把剑和一面盾，我来教你。先用木头：在有人放心让你用钢之前，你得先学会挥剑。\用我那边的工作台（制作）：一把木剑要 2 根原木，一面木盾要 3 根。给，拿些我晾干的木头。
+Bess sent you? Thought so. She sends me everyone.\Sword and shield, then. Wood first: nobody gets steel till they've stopped hitting themselves with wood.\Use my workbench there (Craft): a wooden sword takes 2 logs, a wooden shield 3. Here, have some of my seasoned wood.	Bess 叫你来的？我就知道。谁都往我这儿送。\那就是剑和盾了。先用木头的。谁都别想拿钢的，除非他不再用木头敲自己了。\用我那边的工作台（制作）：木剑要 2 根原木，木盾要 3 根。给，拿些干透了的木头。
 Thank you, Frank.	谢谢你，Frank。
-Not bad at all! Now wield them: sword in your hand, shield on your arm, and get used to the weight. Practise on the goblins in the woods west of the village till your arm's strong (Attack 2) and you can take a knock (Defence 2).\Then go and see Brother Aldous at the chapel. He keeps the way down.	一点都不差！现在装备上它们：剑在手里，盾在胳膊上，习惯一下重量。在村子西边树林里的哥布林身上练练，练到你的胳膊有力气（攻击 2 级），也能挨得住打（防御 2 级）。\然后去礼拜堂找 Aldous 修士。他守着下去的路。
-And here: my first dagger. It's past mending, but don't throw it away. Everything that's forged keeps a little of the world's magic in it: break it down (Dismantle, in your pack) and you'll have a Shard out of it. Do the same with any gear you've outgrown.	还有，给：我的第一把匕首。它已经修不好了，但别扔掉。每一件锻造出来的东西都保留着一点世界的魔法：把它分解掉（在你的背包里选分解），你就能从中得到一枚碎片。对任何你用不上的装备都可以这么做。
-A wooden sword and a wooden shield, at my workbench (Craft). Bring them to show me when they're made.	一把木剑和一面木盾，在我的工作台上（制作）。做好了就带来给我看看。
-Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair).	锻造是个热活儿。如果你的装备被打坏了，我可以按公道的价钱帮你修（修理）。
+Not bad. Not bad at all. Now wield them: sword in your hand, shield on your arm, and get used to the weight. Practise on the goblins in the woods west of the village till your arm's strong (Attack 2) and you can take a knock (Defence 2).\Then go and see Brother Aldous at the chapel. He keeps the way down. Don't get him started on graves.	不差。一点都不差。现在装备上它们：剑在手里，盾在胳膊上，习惯一下重量。在村子西边树林里的哥布林身上练练，练到你的胳膊有力气（攻击 2 级），也能挨得住打（防御 2 级）。\然后去礼拜堂找 Aldous 修士。他守着下去的路。别跟他提坟墓。
+And here: my first dagger. It's past mending. It was past mending when I made it.\Don't throw it away, though. Everything that's forged keeps a little of the world's magic in it: break it down (Dismantle, in your pack) and you'll have a Shard out of it. Do the same with any gear you've outgrown.	还有，给：我的第一把匕首。它已经修不好了。打出来那天就修不好。\但别扔掉。每一件锻造出来的东西都保留着一点世界的魔法：把它分解掉（在你的背包里选分解），你就能从中得到一枚碎片。对任何你用不上的装备都可以这么做。
+A wooden sword and a wooden shield, at my workbench (Craft). Bring them to show me when they're made. Both of them. A shield on its own is just a door you carry.	一把木剑和一面木盾，在我的工作台上（制作）。做好了就带来给我看看。两样都要。光有盾，那只是一扇随身带的门。
+Hot work, smithing. If your gear's knocked about, I'll mend it for a fair price (Repair). Fair to me, anyway.	锻造是个热活儿。如果你的装备被打坏了，我可以按公道的价钱帮你修（修理）。对我公道的价钱。
 Can you open a locked chest?	你能打开一个锁着的箱子吗？
-I make the things, so I know their tricks. A lock's a few pins on springs: work each one up till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at keeping out of sight, the steadier your hands.\Or put your weight on the lid till it splits (Break Open). Loud, mind. And a chest bound in iron won't split for anyone: that one you pick, or find its key.	这些东西是我做的，所以我知道它们的窍门。一把锁就是几根装在弹簧上的销子：把每一根往上顶，直到卡住，安静又耐心，箱盖就归你了（撬锁）。你越擅长不被看见，你的手就越稳。\或者把你的重量压在箱盖上，直到它裂开（砸开）。注意，很响。而且铁箍的箱子谁都砸不开：那种你得撬，或者找到它的钥匙。
+I make the things, so I know their tricks. A lock's a few pins on springs: work each one up till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at keeping out of sight, the steadier your hands.\Or put your weight on the lid till it splits (Break Open). Loud, mind. And a chest bound in iron won't split for anyone: that one you pick, or find its key.\Not mine, mind. Mine are made properly.	这些东西是我做的，所以我知道它们的窍门。一把锁就是几根装在弹簧上的销子：把每一根往上顶，直到卡住，安静又耐心，箱盖就归你了（撬锁）。你越擅长不被看见，你的手就越稳。\或者把你的重量压在箱盖上，直到它裂开（砸开）。注意，很响。而且铁箍的箱子谁都砸不开：那种你得撬，或者找到钥匙。\别撬我的。我的做得很好。
 Thanks, Frank.	谢谢，Frank。
 A visitor! Of the proper shape, at last. Kneel. (You're already as low as you go.) Good. We are robbed. Our pearl, from our own lily pad, taken by the heron to her nest in the east. We would go ourself, but she eats kings.	一位访客！终于是合适的形状了。跪下。（你已经低得不能再低了。）很好。我们被抢了。我们的珍珠，从我们自己的睡莲叶上，被苍鹭叼到了她东边的巢里。我们本想亲自去，但她吃国王。
 I'll get it back.	我会把它拿回来的。
@@ -1600,7 +1601,7 @@ You have it? Then take it to Captain Hart at the palace door. He answers to the 
 Her own hand. Then there's nothing left to doubt.\She turns the amulet in the lamplight once more, and her hands begin to shake.	她的亲笔。那就没什么可怀疑的了。\她在灯光下又转了一次护身符，她的手开始发抖。
 She was my mother.	她是我母亲。
 Then welcome home, my $Player.Lord. Take my word to the Chancellor, under my own seal.	那么欢迎回家，我的 $Player.Lord。把我的话带给大法官，盖着我自己的印章。
-The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Ashen Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官派你来的？让我看看。\王冠，蓝宝石，搭扣下面老铁匠的标记。这是 Ashen 继承护身符。Mary 王后失踪的那天晚上戴着它。\但护身符可能被偷，而我的印章一旦给出就收不回来。她逃走的那天晚上，老大法官把她的文书封存在这座大厅下面的金库里，派守卫看守。给我带来她亲笔写的东西，我就知道了。
+The Chancellor sent you? Let me see it.\The crown, the sapphire, the mark of the old smiths under the clasp. This is the Amulet of Galmere Succession. Queen Mary wore it the night she vanished.\But an amulet can be stolen, and my seal can't be given back. The night she fled, the old Chancellor had her papers sealed in the vault under this hall, and set the Guard to keep them. Bring me something in her own hand, and I'll know.	大法官派你来的？让我看看。\王冠，蓝宝石，搭扣下面老铁匠的标记。这是 Galmere 继承护身符。Mary 王后失踪的那天晚上戴着它。\但护身符可能被偷，而我的印章一旦给出就收不回来。她逃走的那天晚上，老大法官把她的文书封存在这座大厅下面的金库里，派守卫看守。给我带来她亲笔写的东西，我就知道了。
 How do I get down there?	我怎么下到那里去？
 There's a hatch at the back of the hall. I'll leave it unbarred. The watchmen down there answer to the Chancellor, not to me, and they don't ask who you are first. Go softly.	大厅后面有一个舱口。我会让它开着不闩。下面的看守听命于大法官，不听命于我，而且他们不会先问你是谁。轻手轻脚地去。
 An amulet? You'd better show it to me, then. I can't vouch for a story.	一枚护身符？那你最好拿给我看看。我没法为一个故事作保。
@@ -1638,11 +1639,11 @@ Then we have nothing more to discuss.	那我们就没什么好谈的了。
 No, we don't.	不，没有了。
 You wish to see the King? You, and every merchant, beggar and poet in Galaith, now the gates are open.\What makes you more than they are?	你想见国王？城门打开了，你，还有 Galaith 的每一个商人、乞丐和诗人都想见。\你凭什么比他们更有资格？
 I am his $Player.Son.	我是他的 $Player.Son。
-Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Ashen. If she vouches for it, so shall I.	真大胆。王后的孩子现在应该十八岁了，会带着继承护身符。把它拿给市政厅的王家档案官看：她认得 Ashen 每一枚真正的印章。如果她为它作保，我也会。
+Bold. The Queen's child would be eighteen now, and would carry the Amulet of Succession. Show it to the Royal Archivist, at the City Hall: she knows every true seal in Galmere. If she vouches for it, so shall I.	真大胆。王后的孩子现在应该十八岁了，会带着继承护身符。把它拿给市政厅的王家档案官看：她认得 Galmere 每一枚真正的印章。如果她为它作保，我也会。
 I'll go to the Archivist.	我去找档案官。
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	档案官的印章，绿色的。那么这是真的了。\我的 $Player.Lord。原谅一个老人的怀疑。这是我的手令：把它拿给卫队队长看。
 Thank you, Chancellor.	谢谢你，大法官。
-The Parliament of Ashen will return from Northport, now the road is open. There is much to do.	既然道路通了，Ashen 议会将从 Northport 回来。有很多事要做。
+The Parliament of Galmere will return from Northport, now the road is open. There is much to do.	既然道路通了，Galmere 议会将从 Northport 回来。有很多事要做。
 Pots, pails and tools: a bit of everything for the road.	锅、桶和工具：路上用的什么都有一点。
 Cloth and wool, the best!	布料和羊毛，最好的！
 Boots that last!	经穿的靴子！
@@ -1682,15 +1683,15 @@ Fresh from the farms!	农场新鲜直送！
 Welcome to The Hearth and Hound! What'll it be?	欢迎来到炉火与猎犬酒馆！要点什么？
 Tom, Bramble's sawyer. Planks, cut this morning, at what the mill pays. Logs, if you'd rather.	Tom，Bramble 的锯木工。木板，今天早上锯的，按锯木厂的价格。如果你愿意，也有原木。
 Ivy, of Ash's rangers. Nightshade and marigold grow thick under these oaks, and nowhere else near. Ash says you're to have what you need.	Ivy，Ash 手下的游侠。颠茄和金盏花在这些橡树下长得很茂密，附近别的地方都没有。Ash 说你需要什么就拿什么。
-Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind your manners, and keep your blade sheathed.	欢迎来到巫师庭。巫师们在大厅里开庭。\注意你的礼貌，把你的刀收在鞘里。
-Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you.\Unless the Steward sent you, of course.	站住！奉国王总管之命，矿井关闭。\没穿护甲的人谁也不能过这道门。下面的大地精会把你开膛破肚。\当然，除非是总管派你来的。
+Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind your manners, and keep your blade sheathed. If one of them turns you into a frog, don't come crying to me. You won't be able to.	欢迎来到巫师庭。巫师们在大厅里开庭。\注意你的礼貌，把你的刀收在鞘里。要是哪个把你变成了青蛙，别来找我哭。反正你也来不了。
+Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you. I've seen it. I didn't care for it.\Unless the Steward sent you, of course.	站住！奉国王总管之命，矿井关闭。\没穿护甲的人谁也不能过这道门。下面的大地精会把你开膛破肚。我见过。可不好看。\当然，除非是总管派你来的。
 Where can I get armour?	我在哪里能弄到盔甲？
-The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe.	王堡的军需官卖皮甲和铁甲。或者鞣一些牛皮，在工作台上自己做。\还有要穿上！放在包里可挡不住大地精的斧头。
-Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears.\The Steward keeps the King's keep, south of here.	在 Ashford 遵守秩序，公民。\如果你在找活干，国王的总管会为大地精的耳朵付高价。\总管掌管着国王的城堡，在这里南边。
+The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe. You'd be surprised how many ask.	王堡的军需官卖皮甲和铁甲。或者鞣一些牛皮，在工作台上自己做。\还有要穿上！放在包里可挡不住大地精的斧头。问这个的人多得你都不敢信。
+Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	在 Ashford 遵守秩序，公民。\如果你在找活干，国王的总管会为大地精的耳朵付高价。别问他拿它们做什么。\总管掌管着国王的城堡，在这里南边。
 Any other news?	还有别的消息吗？
-Halt! ...ah, you look honest enough. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	站住！……啊，你看起来够老实。进去吧。\国王不在时，总管掌管着大厅。\院子里的军需官卖武器。
-Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them.	有三个小伙子在旧矿井下面被巨型蜘蛛咬了。草药师正在试着给他们熬点什么。
-They say a dwarf lives right at the bottom of the mine, below the hobgoblin warren. Mad, if you ask me.	据说矿井的最底下住着一个矮人，在大地精的地洞下面。要我说，那是个疯子。
+Halt! ...ah, you look honest enough. Honest-ish. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	站住！……啊，你看起来够老实。大致够老实。进去吧。\国王不在时，总管掌管着大厅。\院子里的军需官卖武器。
+Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them. One of them's still screaming. That's Dennis. Dennis screams at moths.	有三个小伙子在旧矿井下面被巨型蜘蛛咬了。草药师正在试着给他们熬点什么。有一个还在尖叫。是 Dennis。Dennis 看见飞蛾也会尖叫。
+They say a dwarf lives right at the bottom of the mine, below the hobgoblin warren. Mad, if you ask me. Nobody does ask me. That's the trouble with this job.	据说矿井的最底下住着一个矮人，在大地精的地洞下面。要我说，那是个疯子。可没人问我。这活儿就这点不好。
 Interesting.	有意思。
 "Oh, it's you! Isn't it lovely down here? Oswin's so much clearer. He says I'm to stay, and so I shall."	“哦，是你！这下面是不是很美？Oswin 的声音清楚多了。他说我该留下来，那我就留下来。”
 Goodbye, Annis.	再见，Annis。
@@ -1809,7 +1810,7 @@ Do a trick.	变个戏法。
 A dragon walks into a tavern. The barkeep says, 'Why the long face?' The dragon eats him. It's all in the delivery.	一条龙走进一家酒馆。酒保说：“干嘛拉长着脸？”龙把他吃了。全靠讲的方式。
 That's terrible.	真糟糕。
 How many wizards does it take to light a candle? None. They'd rather sit in the dark and tell you about the old days.	点一根蜡烛需要几个巫师？一个都不要。他们宁愿坐在黑暗里，给你讲过去的日子。
-What did the Shard say to the other Shard? Nothing. They're Shards. But I think about it a lot.	一块碎片对另一块碎片说了什么？什么都没说。它们是碎片。不过我经常想这个问题。
+What did the Shard say to the other Shard? 'Haven't we met?' ...Nobody laughs at that one. I think it's because it's true.	一块碎片对另一块碎片说了什么？“我们是不是在哪儿见过？”……这个从来没人笑。我觉得是因为它是真的。
 I told a goblin he drew his eyebrows too high. He looked surprised. Then he hit me. Goblins have no sense of timing.	我告诉一个哥布林，他的眉毛画得太高了。他看起来很惊讶。然后他揍了我。哥布林没有节奏感。
 My father was a jester, and his father before him. It's a very sad family. You should see the christenings.	我父亲是个弄臣，他的父亲也是。这是一个非常悲伤的家族。你该看看我们的洗礼。
 I've a bed I never sleep in, and a mouth I never speak with. I run all day, and I've never left the valley. What am I?	我有一张从不睡的床，一张从不说话的嘴。我整天奔跑，却从没离开过山谷。我是什么？
@@ -1873,7 +1874,7 @@ Thank you, Steward.	谢谢你，总管。
 Quest complete: The Steward's Hunt! 100 gold and a ruby.	任务完成：总管的狩猎！100 金币和一颗红宝石。
 Five hobgoblins, from the old iron mine. You've $Attr.HobgoblinsSlain so far.	五个大地精，在旧铁矿里。你到目前为止杀了 $Attr.HobgoblinsSlain 个。
 Bert wants the King's staff? It hangs in his solar, at the top of the keep, where he left it the night he rode for Galaith.\Nobody's been up since. The stair door is locked, and the old guard, they say, never left their post, even dead. Here's the key. Go carefully.	Bert 想要国王的杖？它挂在他的寝殿里，在城堡顶上，他骑马去 Galaith 的那个晚上就把它留在了那里。\从那以后就没人上去过。楼梯门锁着，而且据说那些老卫兵从没离开过他们的岗位，死了也没有。这是钥匙。小心点。
-Quest started: The Staff of Ashen.	任务开始：Ashen 之杖。
+Quest started: The Staff of Galmere.	任务开始：Galmere 之杖。
 The keep stands, and the King's roads are open. Long may they stay so.	城堡屹立着，国王的道路畅通着。愿它们长久如此。
 Your Majesty. You honour the garden. It's been dull without honour.	陛下。您的到来让花园生辉。没有光辉的日子可真无聊。
 The court's coming back to life. Slowly. Like a cold hand.	宫廷正在恢复生气。慢慢地。像一只冰冷的手。
@@ -1914,20 +1915,20 @@ My uncle went down the Shifting Deep once. Came back up through a different hole
 Don't trust geese. That's all I'll say. Don't trust them.	别相信鹅。我只说这么多。别相信它们。
 I once saw a cow look at the moon for a whole night. Changed me, that did.	我有一次看到一头牛望着月亮望了一整夜。那改变了我。
 If you see a hat floating about the Wizards' Court, say hello. That's Pip. He's shy.	如果你看到一顶帽子在巫师庭里飘来飘去，打个招呼。那是 Pip。他很害羞。
-They say the old king hid treasure all over Ashen. My grandad said that. My grandad also said he was a duck, so.	据说老国王把宝藏藏在了 Ashen 各处。我爷爷是这么说的。我爷爷还说过他是一只鸭子，所以嘛。
-Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and I've not a stick of firewood left. Would you chop me three logs? Here, take Edwin's old axe.	哦，你这可怜的孩子。Edwin 说他会把 Mary 的信带给你。我们都很喜欢她。\晚饭？当然！只是炉灶冷冰冰的，我一根柴火都没有了。你能帮我砍三根原木吗？给，拿着 Edwin 的旧斧头。
+They say the old king hid treasure all over Galmere. My grandad said that. My grandad also said he was a duck, so.	据说老国王把宝藏藏在了 Galmere 各处。我爷爷是这么说的。我爷爷还说过他是一只鸭子，所以嘛。
+Oh, you poor dear. Edwin said he'd be taking Mary's letter to you. We were so fond of her.\Dinner? Of course! Only the range is stone cold, and Edwin's idea of firewood is a stack of old deeds. Would you chop me three logs? Here, take his axe. He's never used it. Don't tell him I said so.	哦，你这可怜的孩子。Edwin 说他会把 Mary 的信带给你。我们都很喜欢她。\晚饭？当然！只是炉灶冷冰冰的，而 Edwin 眼里的柴火就是一堆旧地契。你能帮我砍三根原木吗？给，拿着他的斧头。他从来没用过。别说是我说的。
 I'll chop some logs.	我去砍些原木。
 Not just now.	现在不行。
 Quest started: Dinner at Edwin's. (H: your journal)	任务开始：在 Edwin 家吃晚饭。（H：你的日志）
-Lovely dry logs: that'll get the range going. Now, supper! Edwin's partial to an egg, fried crisp. Would you fetch one from my sister Bess's hen coop, up on the farm, and fry it on the range? It's upstairs, in our kitchen.	又干又好的原木：这下炉灶能烧起来了。现在，晚饭！Edwin 喜欢吃煎得脆脆的鸡蛋。你能去农场上我姐姐 Bess 的鸡舍拿一个来，在炉灶上煎吗？炉灶在楼上，我们的厨房里。
+Lovely dry logs: that'll get the range going. Now, supper! Edwin's partial to an egg, fried crisp. Would you fetch one from my sister Bess's hen coop, up on the farm, and fry it on the range? It's upstairs, in our kitchen.\Mind the brown hen. She bites, and I'm the one who has to stitch people up after.	又干又好的原木：这下炉灶能烧起来了。现在，晚饭！Edwin 喜欢吃煎得脆脆的鸡蛋。你能去农场上我姐姐 Bess 的鸡舍拿一个来，在炉灶上煎吗？炉灶在楼上，我们的厨房里。\小心那只棕色的母鸡。它啄人。然后缝针的是我。
 I'll fetch an egg.	我去拿鸡蛋。
-Three logs, dear. Chop a tree with the axe I gave you.	三根原木，亲爱的。用我给你的斧头砍一棵树。
+Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, and not your foot.	三根原木，亲爱的。用我给你的斧头砍一棵树。是原木，注意。不是树枝，也不是你的脚。
 I'll keep chopping.	我继续砍。
-An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased.	从 Bess 的鸡舍拿一个鸡蛋，在我楼上的炉灶上煎好，然后给 Edwin。他会很高兴的。
+An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	从 Bess 的鸡舍拿一个鸡蛋，在我楼上的炉灶上煎好，然后给 Edwin。他会很高兴的。他会装作不高兴，但他会很高兴的。
 I'll see to it.	我来办。
-Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Edwin has his desk by the window: wills and deeds and the like.	进来吧，亲爱的。小岛上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。Edwin 的书桌在窗边：遗嘱、地契之类的。
+Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	进来吧，亲爱的。小岛上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。大多数都好了。剩下的就交给 Aldous 修士。\Edwin 的书桌在窗边：遗嘱、地契之类的。我们俩加起来，管的是人的一辈子。
 How is your father?	你父亲怎么样了？
-Home, and safe, and eating us out of house and home! I can't ever thank you enough.	回家了，安全了，还把我们吃得家徒四壁！我怎么感谢你都不够。
+Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	回家了，安全了，还把我们吃得家徒四壁！每天晚上三碗。我怎么感谢你都不够。\所以暂时请别再救别人了。
 I'm glad.	我很高兴。
 All right, all right. You've beaten my lads, and I can't swim that far.\Tell Holt he can have his cell. I've slept in worse.	好吧，好吧。你打败了我的手下，我又游不了那么远。\告诉 Holt 他可以把他的牢房给我。我睡过更糟的地方。
 Red Meg gave herself up. Tell Sergeant Holt.	红发梅格投降了。告诉 Holt 中士。
@@ -1936,15 +1937,15 @@ Come to take me in? You'll have to get past my lads first.	来抓我的？你得
 We'll see.	走着瞧。
 "It's gone quiet. All of them, all at once, the night the Seam broke. I keep listening." She wipes her eyes. "I think I might go home."	“它安静了。所有的，一下子全都安静了，就在缝隙破掉的那个晚上。我一直在听。”她擦了擦眼睛。“我想我也许会回家。”
 Go home, Sister.	回家吧，修女。
-"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it."	“欢迎回家，$Player.Brother。你听到它了吗？真正听到了吗？在我告诉它之前，它就知道我的名字了。”
-"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?"	“我们很快都会完整的。第一位国王切开了它，我们会弥合它。这想法是不是很美？”
-"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind."	“你看起来很累，朋友。你有没有和一块碎片坐在一起过？真正聆听过？它非常善良。”
-A traveller in a plain grey robe, smiling as if you'd been expected.\"Cold out, friend, and you've had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth."	一个穿着朴素灰袍的旅人，微笑着，好像早就在等你。\“外面冷，朋友，我看得出你走了很长一段苦路。给：几枚碎片，不要钱。每个人都应该得到一点温暖。”
+"Welcome home, $Player.Brother. Have you heard it yet? Really heard it? It knew my name before I told it." She's wearing a little badge with her name on it. You don't like to say.	“欢迎回家，$Player.Brother。你听到它了吗？真正听到了吗？在我告诉它之前，它就知道我的名字了。”她戴着一枚写着自己名字的小徽章。你不忍心说什么。
+"We'll all be whole soon. The first king cut it, and we'll mend it. Isn't that a lovely thought?" She pats your hand. Then, to be safe, she pats it again.	“我们很快都会完整的。第一位国王切开了它，我们会弥合它。这想法是不是很美？”她拍拍你的手。然后，以防万一，又拍了一下。
+"You look tired, friend. Have you ever sat with a Shard? Really listened? It's very kind. Kinder than people. Have you had any soup?"	“你看起来很累，朋友。你有没有和一块碎片坐在一起过？真正聆听过？它非常善良。比人善良。你喝过汤了吗？”
+A traveller in a plain grey robe, smiling as if you'd been expected.\"Cold out, friend, and you've had a hard road, I can see. Here: a few Shards, for nothing. Everyone deserves a little warmth. And a leaflet. No? Just the Shards, then."	一个穿着朴素灰袍的旅人，微笑着，好像早就在等你。\“外面冷，朋友，我看得出你走了很长一段苦路。给：几枚碎片，不要钱。每个人都应该得到一点温暖。还有一张传单。不要？那就只要碎片。”
 Take them. Thank you.	收下。谢谢你。
 No, thank you.	不，谢谢。
 "There. Peace on your road, friend. We'll see you again."	“好了。愿你一路平安，朋友。我们还会再见的。”
 "Another time, then. The offer doesn't go away." A smile. "Nor do we."	“那就下次吧。这个提议不会消失。”一个微笑。“我们也不会。”
-"Hello again, friend. Keeping warm?"	“又见面了，朋友。暖和吗？”
+"Hello again, friend! Keeping warm? Eating properly? You don't look like you're eating properly."	“又见面了，朋友！暖和吗？吃得好吗？你看起来可不像吃得好。”
 My caravan! Three camels, two drivers, and all my ledgers: lost somewhere in the desert west of here.\Will you look for it?	我的商队！三头骆驼，两个赶驼人，还有我所有的账本：在这里西边的沙漠里不知道哪里丢了。\你能去找找吗？
 I'll search the desert.	我去搜沙漠。
 Scorpions roam the desert: bring food.	沙漠里有蝎子游荡：带上食物。
@@ -1968,18 +1969,18 @@ Quest complete: Merrin's Mead! Merrin has her honey.	任务完成：Merrin 的�
 Look at that! Not a sting on you. Well, not many. Here's last year's mead for it: it's better than this year's will be, but don't tell the bees.	看看！你身上一个蜇包都没有。嗯，没几个。这是去年的蜂蜜酒，给你：比今年的会好，不过别告诉蜜蜂。
 Three combs. Smoke first, then quick.	三块蜂巢。先熏烟，然后要快。
 Help yourself to a comb now and then, if you smoke them first. They don't mind you. Much.	时不时自己拿一块蜂巢吧，只要你先熏它们。它们不介意你。不怎么介意。
-Morning! Mind the cows, they're friendly but they tread on toes.\Use a bucket on a cow for milk, shears on a sheep for wool. The hens lay in their coop, by the barn.	早上好！小心那些牛，它们很友好，但会踩到脚趾。\对一头牛用桶就能挤奶，对一只羊用大剪刀就能剪羊毛。母鸡在谷仓旁边的鸡舍里下蛋。
+Morning! Mind the cows: they're friendly, but they tread on toes, and the brown one does it on purpose.\Use a bucket on a cow for milk, shears on a sheep for wool. The hens lay in their coop, by the barn.	早上好！小心那些牛，它们很友好，但会踩到脚趾。棕色那头是故意的。\对一头牛用桶就能挤奶，对一只羊用大剪刀就能剪羊毛。母鸡在谷仓旁边的鸡舍里下蛋。
 What's wool for?	羊毛有什么用？
 How do I get to the mainland?	我怎么去大陆？
-Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too.	在工作台上把它纺成羊毛球，谷仓里就有一个。牛皮也可以在那里鞣成皮革。
+Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	在工作台上把它纺成羊毛球，谷仓里就有一个。牛皮也可以在那里鞣成皮革。还在牛身上用着的那些不行。
 Thanks!	谢谢！
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Northport 会把任何没有文书的小岛人送回来。\以前一直是我父亲写小岛的文书。从我出生前他就管着小岛的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。据说他们在礼拜堂下面的洞穴里有个巢穴。
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Northport 会把任何没有文书的小岛人送回来。\以前一直是我父亲写小岛的文书。从我出生前他就管着小岛的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。听说他们在礼拜堂下面的洞穴里有个巢穴。\可怜的家伙们。他现在大概正跟他们讲他的膝盖呢。
 I'll find him.	我会找到他的。
-And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.	你可别空手去接近大地精！我的 Frank 是铁匠：他的铁匠铺就在我的小屋旁边。他会帮你做一把剑和一面盾。
+And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	你可别空手去接近大地精！我的 Frank 是铁匠：他的铁匠铺就在我的小屋旁边。他会帮你做一把剑和一面盾。\他话不多。多点点头，他会喜欢的。
 Thank you, Bess.	谢谢你，Bess。
 Quest started: The Amulet of Succession.	任务开始：继承护身符。
-Any word of Father? The hobgoblins have him, down in their lair under the chapel. Bring him home, love, please.	有我父亲的消息吗？大地精抓着他，在礼拜堂下面他们的巢穴里。把他带回家吧，亲爱的，求你了。
-Father home safe, and all thanks to you! Maren's feeding him up something dreadful.\He says he hid something at the house for you, years ago. He won't tell me what.	父亲平安到家了，全是你的功劳！Maren 拼命地给他补身子呢。\他说多年前他在房子里给你藏了点东西。他不肯告诉我是什么。
+Any word of Father? The hobgoblins have him, down in their lair under the chapel. Bring him home, love, please. Before he starts telling them how to run it.	有我父亲的消息吗？大地精抓着他，在礼拜堂下面他们的巢穴里。把他带回家吧，亲爱的，求你了。趁他还没开始教他们怎么管巢穴。
+Father home safe, and all thanks to you! Maren's feeding him up something dreadful.\He says he hid something at the house for you, years ago. He won't tell me what. He's enjoying that far too much.	父亲平安到家了，全是你的功劳！Maren 拼命地给他补身子呢。\他说多年前他在房子里给你藏了点东西。他不肯告诉我是什么。他觉得这太好玩了。
 Goood day. It is. A day. I live here, in the town, where I live. Have you tried. The weather.	日——安。是的。一天。我住在这里，在镇上，我住的地方。你试过吗。天气。
 Yes. Well. Goodbye.	是的。嗯。再见。
 There's something wrong with your name.	你的名字有点不对劲。
@@ -2036,9 +2037,9 @@ Bryony keeps the cottage on Gull Point with Nell.	Bryony 和 Nell 一起住在 G
 Gran's the one to ask. Mind, she'll want you to sit down first. Everybody sits down first.	该去问奶奶。不过注意，她会想让你先坐下。每个人都得先坐下。
 All right.	好吧。
 Nets, glass, nets. Mind the rocks on the north side if you're walking: they've cut better boots than yours.	网，玻璃，网。如果你要走过去，小心北边的礁石：它们割破过比你的好得多的靴子。
-The Sun-Forge? Oska sent you, then. My grandmother's grandmother kept that forge, back when it had a roof and a priest who wasn't dead.\The temple's south of the well, half under the dunes. The Keeper's still in it, wrapped in his gold and his temper. Nobody's lit the forge since he took against the living.	太阳熔炉？那是 Oska 派你来的了。我祖母的祖母照看过那座熔炉，那时候它还有屋顶，还有一个没死的祭司。\神殿在井的南边，一半埋在沙丘下面。守护者还在里面，裹着他的金子和他的脾气。自从他跟活人作对以后，就没人点过熔炉了。
+The Sun-Forge? Oska sent you, then. My grandmother's grandmother kept that forge, back when it had a roof and a priest who wasn't dead.\The temple's south of the well, half under the dunes. The Keeper's still in it, wrapped in his gold and his temper. Nobody's lit the forge since he took against the living.\I'd go myself, but I've a great deal on. Goats, mostly. Somebody else's.	太阳熔炉？那是 Oska 派你来的了。我祖母的祖母照看过那座熔炉，那时候它还有屋顶，还有一个没死的祭司。\神殿在井的南边，一半埋在沙丘下面。守护者还在里面，裹着他的金子和他的脾气。自从他跟活人作对以后，就没人点过熔炉了。\我本想自己去，可我忙。主要是山羊。别人家的山羊。
 Quest started: The Sun-Forge.	任务开始：太阳熔炉。
-The Keeper still keeps it? South of the well, under the dunes. Take water.	守护者还守着它？在井的南边，沙丘下面。带上水。
+The Keeper still keeps it? South of the well, under the dunes. Take water. More than that.	守护者还守着它？在井的南边，沙丘下面。带上水。比那再多带点。
 The Keeper's gone? Then it's the mirrors: the forge only burns with the sun on it, and the sun comes down to it by mirrors. My grandmother had a song for them:\'Dawn looks where the sun is born; noon looks down on the dead; dusk looks where the sun lies down.'\She sang it over the pot, too, which never helped the stew.	守护者没了？那就是镜子的事了：熔炉只有被阳光照着才会燃烧，而阳光是靠镜子引下去的。我祖母有一首关于它们的歌：\“黎明望向太阳诞生之处；正午俯视死者；黄昏望向太阳躺下之处。”\她煮锅的时候也唱，不过对炖菜从来没帮上忙。
 Quest complete: The Sun-Forge!	任务完成：太阳熔炉！
 You lit it! I heard it from here, like a bell rung in a kiln.\The third fire isn't ours. The dwarves had an anvil, deep under the mountains in the Stoneways, and the delvers' camp has been digging after it for years. Ask for Maud. Tell her Tarek says she still owes him a goat.	你点燃了它！我在这儿都听到了，像窑里敲响了一口钟。\第三团火不是我们的。矮人有一个铁砧，在 Stoneways 的山底深处，掘地者的营地已经挖了好多年了。找 Maud。告诉她 Tarek 说她还欠他一只山羊。
@@ -2058,9 +2059,9 @@ Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	晚上好。这么晚还来码头、又没东西卖的人可不多。\我不问一样东西去过哪里，我也不记得人脸。只是会让你在价钱上吃点亏，就这样。
 Let's see what you'll give me.	看看你能给我什么。
 Welcome to the port of Northport. Mind the ropes.	欢迎来到 Northport 港。小心绳子。
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Ashen's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Northport 的市政厅就是 Ashen 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
+Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Galmere's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Northport 的市政厅就是 Galmere 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
 I'll go to the City Hall.	我去市政厅。
-Welcome to Northport, the capital of Ashen. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Northport，Ashen 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
+Welcome to Northport, the capital of Galmere. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Northport，Galmere 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
 Quest started: The Temporary Capital.	任务开始：临时首都。
 Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	在集市里看好你的钱袋，把你的剑留在鞘里。Northport 大体上是座好城市。
 Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	欢迎来到 Northport 大教堂。坐一会儿吧：透过玻璃照进来的光很美。
@@ -2307,14 +2308,14 @@ My mother, Mary, died on the Isle, where she raised me. Her last will told me wh
 The King comes down from his throne, and holds you, and weeps.	国王从王座上走下来，抱住你，哭了。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary。我的 Mary。她把你带走，好让龙得不到你，而我任由他们把那叫作背叛。十八年了。\我的 $Player.Son。我的 $Player.Son。
 Father.	父亲。
-I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Ashen!	我为一座被锁住的城市守着这个王座。你打破了锁链。它是你的了。\他从头上取下王冠，戴在了你的头上。\Ashen 的 $Player.King 万岁！
-Long live Ashen.	Ashen 万岁。
-Quest complete: The True Heir! You are the $Player.King of Ashen. The world is yours to explore.	任务完成：真正的继承人！你是 Ashen 的 $Player.King 了。世界任你探索。
+I have held this throne for a city in chains. You broke the chains. It's yours.\He lifts the crown from his head and sets it on yours.\Long live the $Player.King of Galmere!	我为一座被锁住的城市守着这个王座。你打破了锁链。它是你的了。\他从头上取下王冠，戴在了你的头上。\Galmere 的 $Player.King 万岁！
+Long live Galmere.	Galmere 万岁。
+Quest complete: The True Heir! You are the $Player.King of Galmere. The world is yours to explore.	任务完成：真正的继承人！你是 Galmere 的 $Player.King 了。世界任你探索。
 A ginger cat you'd know anywhere has curled up on the throne. Jimmy, how did you get here?	一只你在哪里都认得出的姜黄色猫蜷在王座上。Jimmy，你是怎么到这儿来的？
 My $Player.Son, the $Player.King. Your mother would be proud.	我的 $Player.Son，$Player.King。你母亲会骄傲的。
 Another stands here who calls me father.	这里还站着另一个叫我父亲的人。
 Goodbye, Father.	再见，父亲。
-Then the blood has marked more than one of my line, and Ashen is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	那么这血脉标记的不止我家族中的一个人，Ashen 的运气比它应得的还好。切割把王室血脉和碎片一起撒落了；龙只算过你们中的一个。那就让它成为继承人骑士团吧：每一个被碎片认出的人，都向王冠宣誓。这个王座上有位置留给任何守护这个王国的人。
+Then the blood has marked more than one of my line, and Galmere is luckier than it deserves. The Cutting scattered the royal line with the Shards; the dragon only ever counted one of you. Let it be the Order of Heirs, then: every one the Shards know, sworn to the crown. There is room on this throne for whoever keeps the realm.	那么这血脉标记的不止我家族中的一个人，Galmere 的运气比它应得的还好。切割把王室血脉和碎片一起撒落了；龙只算过你们中的一个。那就让它成为继承人骑士团吧：每一个被碎片认出的人，都向王冠宣誓。这个王座上有位置留给任何守护这个王国的人。
 Morning. Mind the weed, it's slippery. (She shakes a bottle at you; nothing in it.) This shore's a bottle shore. The currents bring 'em all in here, sooner or later. Most are empty. Not all.	早上好。小心海草，很滑。（她冲你晃了晃一个瓶子；里面什么都没有。）这片海岸是瓶子海岸。洋流迟早会把它们全都冲到这里来。大多数是空的。不是全部。
 What's in the full ones?	满的那些里面有什么？
 Good hunting.	祝你找得顺利。
@@ -2391,20 +2392,20 @@ There they are, all three, looking like it was my fault. Here, take this, it's n
 They're good as gold now. For a day or two.	它们现在乖得很。乖个一两天吧。
 Mind the river.	小心那条河。
 I'm the sheriff here. Trouble goes in the cells; you don't look like trouble.	我是这里的警长。惹麻烦的进牢房；你看起来不像麻烦。
-Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it.	欢迎来到 Ashford 杂货店！\工具、桶、渔具：你需要什么，我这里都有。
+Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	欢迎来到 Ashford 杂货店！\工具、桶、渔具：你需要什么，我这里都有。我这里没有的，你就不需要。
 Show me your wares.	给我看看你的货物。
-Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know."	弥合会的 Linnet 修女。“进来吧，别在外面受冻，朋友。汤煮好了，桌上的碎片是很好的伴：在它旁边坐一会儿，听一听。”\“其他人？哦，他们今晚在聚会。我不能说在哪里，抱歉：那只对弥合会的人开放。”她冲你的外套笑了笑。“灰色适合每个人，你知道的。”
+Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know. We've a robe in every size. We checked."	弥合会的 Linnet 修女。“进来吧，别在外面受冻，朋友！汤煮好了。汤总是煮好的。桌上的碎片是很好的伴：在它旁边坐一会儿，听一听。想脱鞋就脱吧，我们对鞋子很宽容。”\“其他人？哦，他们今晚在聚会。我不能说在哪里，抱歉：那只对弥合会的人开放。”她冲你的外套笑了笑。“灰色适合每个人，你知道的。我们的袍子什么尺码都有。我查过了。”
 Where's the gathering?	聚会在哪里？
-"Only for the Mending, friend." She's still smiling.	“只对弥合会的人开放，朋友。”她还在微笑。
+"Only for the Mending, friend." She's still smiling. She hasn't stopped since you came in.	“只对弥合会的人开放，朋友。”她还在微笑。从你进来起，她就没停过。
 Quest started: In Grey.	任务开始：灰衣人。
-"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight. Go on, down to the field. The glass at the east end, and mind the lookouts know you."	“哦！我没看到你进来，$Player.Brother。你要迟到了：领唱今晚要讲话。去吧，下到原野去。东头的玻璃那里，注意让瞭望的人认出你。”
+"Oh! I didn't see you come in, $Player.Brother. You'll be late: the Cantor's speaking tonight, and he does go on. Down to the field with you. The glass at the east end, and mind the lookouts know you."	“哦！我没看到你进来，$Player.Brother。你要迟到了：领唱今晚要讲话。他会讲很久。去吧，下到原野去。东头的玻璃那里，注意让瞭望的人认出你。”
 Sister Linnet looks at you a long moment. "You heard it, didn't you? The great Shard. I can see it on you."\"Whatever it said, it was true. It always is. You won't tell anyone about the field, will you? People don't understand."	Linnet 修女久久地看着你。“你听到了，是不是？那块大碎片。我从你身上看得出来。”\“不管它说了什么，都是真的。它说的总是真的。你不会把原野的事告诉任何人吧？人们不会明白的。”
 I won't tell a soul.	我不会告诉任何人。
 "I knew it. Bless you, $Player.Brother. This house is yours as much as ours, and anything on the shelf is yours at a fair price, whenever you're in grey."	“我就知道。愿你得福，$Player.Brother。这座房子是你的，也是我们的，架子上的东西你随时都能按公道的价钱买，只要你穿着灰衣。”
 Thank you, Sister.	谢谢你，修女。
 "Anything you need, $Player.Brother?"	“需要什么吗，$Player.Brother？”
 Show me what you have.	给我看看你有什么。
-Sister Linnet of the Mending. "Come in out of the cold, friend. There's soup on, and the Shard on the table is good company: sit by it a while, and listen."	弥合会的 Linnet 修女。“进来吧，别在外面受冻，朋友。汤煮好了，桌上的碎片是很好的伴：在它旁边坐一会儿，听一听。”
+Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."	弥合会的 Linnet 修女。“进来吧，别在外面受冻，朋友！汤煮好了。汤总是煮好的。桌上的碎片是很好的伴：在它旁边坐一会儿，听一听。想脱鞋就脱吧，我们对鞋子很宽容。”
 Evening. You lit the fire, so you know the rules: you didn't see me, I didn't see you, and the prices are good because nobody's paid any duty on them. Buying?	晚上好。火是你点的，那你就懂规矩：你没见过我，我没见过你，价钱好是因为谁都没交过税。买吗？
 Who are you?	你是谁？
 Not tonight.	今晚不了。
@@ -2497,18 +2498,18 @@ Thank you, Master Bramble.	谢谢你，Bramble 老板。
 Quest complete: The Old Grove! Bramble's men are felling the grove, and his sawmill is open to you.	任务完成：古老的林子！Bramble 的人正在砍伐林子，他的锯木厂对你开放了。
 The mill's busy, and so is half the village. That's your doing.	锯木厂很忙，村里一半的人也很忙。这是你的功劳。
 Timber and planks. Nothing for you just now.	木材和木板。现在没什么给你的。
-There's my rescuer! Maren's feeding me up like a Midsummer goose.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.\There's one thing, though. My savings, in a tin with a T on the lid. They had it off my shelf when they took me, and I'd wager it's in that chest by their fire, up in their camp.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。\不过有一件事。我的积蓄，在一个盖子上有个 T 的铁罐里。他们抓我的时候把它从我的架子上拿走了，我敢打赌它就在他们营地火堆旁的那个箱子里。
+There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.\There's one thing, though. My savings, in a tin with a T on the lid. They had it off my shelf when they took me, and I'd wager it's in that chest by their fire, up in their camp.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。Edwin 已经开始给储藏室上锁了。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。\不过有一件事。我的积蓄，在一个盖子上有个 T 的铁罐里。他们抓我的时候把它从我的架子上拿走了，我敢打赌它就在他们营地火堆旁的那个箱子里。
 I found this in the lair.	我在巢穴里找到了这个。
 Another time.	下次吧。
-Not all boots and elbows, you won't! Two of them keep watch up there now, and a hobgoblin's got ears like a hare.\Keep low and soft (that's sneaking: the slow way, the way you stand), and keep out of the way they're looking. They look one way, mostly, and glance about now and then. Get behind one and it'll never know you were there. Right beside one, mind, it'll smell you whichever way it's facing.\And if one does see you, it shouts, and the other comes.	你可不能横冲直撞地进去！现在上面有两个在放哨，大地精的耳朵跟野兔一样灵。\压低身子，轻手轻脚（那就是潜行：慢慢走，就是你站的那个姿势），别待在它们看着的方向上。它们大多只看一个方向，时不时四下瞟一眼。绕到一个身后，它就永远不会知道你来过。不过要是就在它旁边，不管它朝哪儿，它都会闻到你。\要是有一个看到了你，它会大喊，另一个就会过来。
+Not all boots and elbows, you won't! Two of them keep watch up there now, and a hobgoblin's got ears like a hare.\Keep low and soft (that's sneaking: the slow way, the way you stand), and keep out of the way they're looking. They look one way, mostly, and glance about now and then. Get behind one and it'll never know you were there. Right beside one, mind, it'll smell you whichever way it's facing.\And if one does see you, it shouts, and the other comes. Then you run. I'm too old to show you that part.	你可不能横冲直撞地进去！现在上面有两个在放哨，大地精的耳朵跟野兔一样灵。\压低身子，轻手轻脚（那就是潜行：慢慢走，就是你站的那个姿势），别待在它们看着的方向上。它们大多只看一个方向，时不时四下瞟一眼。绕到一个身后，它就永远不会知道你来过。不过要是就在它旁边，不管它朝哪儿，它都会闻到你。\要是有一个看到了你，它会大喊，另一个就会过来。那就跑。我太老了，这部分没法示范给你看。
 Low, soft, and behind them.	压低，轻手轻脚，绕到身后。
 Quest started: Tobias's Tin.	任务开始：Tobias 的铁罐。
-My tin! And not a dent more than it had. You went in soft, didn't you? I can tell.\Here: a few of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword.	我的铁罐！一点新凹痕都没有。你是悄悄进去的，对吧？我看得出来。\给：这几个是你的。继续练潜行吧。有些日子它会比一把剑更管用。
+My tin! And not a dent more than it had. You went in soft, didn't you? I can tell.\Here: a few of these are yours. And keep up the sneaking. Some days it'll serve you better than a sword. Most days, if you're me.	我的铁罐！一点新凹痕都没有。你是悄悄进去的，对吧？我看得出来。\给：这几个是你的。继续练潜行吧。有些日子它会比一把剑更管用。要是我，大多数日子都是。
 Thank you, Tobias.	谢谢你，Tobias。
 Quest complete: Tobias's Tin!	任务完成：Tobias 的铁罐！
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	压低，轻手轻脚，别待在它们看着的方向上。箱子在它们的火堆旁，在村子东南边的营地里。
-There's my rescuer! Maren's feeding me up like a Midsummer goose.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。
-Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看.. “那个给小岛写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
+There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。Edwin 已经开始给储藏室上锁了。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。
+Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看.. “那个给小岛写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。可怕的人。从来不擦脚。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	站住！过路费。（他伸出一只透明的手。）路关了，可过路费照收。这些日子我不收硬币：它们会掉下去。那就来个谜语吧。答对三个，我就抬起栏杆。
 I'll go round.	我绕过去。
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	我有脖子没有头，有两条胳膊没有手。我满着出门，空着回家。我是什么？
@@ -2550,7 +2551,7 @@ I'll see.	我看看吧。
 "It's gone quiet, love. He's gone quiet. I keep listening."	“它安静下来了，亲爱的。他安静下来了。我一直在听。”
 Come home, Annis.	回家吧，Annis。
 "It won't be long now, love. Oswin says when it's all mended we'll be together."	“不会太久了，亲爱的。Oswin 说等一切都弥合了，我们就能在一起了。”
-Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Ashen, and only if the heir is worthy.	是谁来求取勇气之剑？\这把剑是为一件事铸造的：终结 Galaith 的龙，还有你的先祖和它订下的契约。它只交给 Ashen 的继承人，而且只在继承人配得上它的时候。
+Who comes for the Sword of Valour?\The sword was forged for one deed: to end the dragon of Galaith, and the bargain your forefathers made with it. It goes only to the heir of Galmere, and only if the heir is worthy.	是谁来求取勇气之剑？\这把剑是为一件事铸造的：终结 Galaith 的龙，还有你的先祖和它订下的契约。它只交给 Galmere 的继承人，而且只在继承人配得上它的时候。
 I am the heir.	我就是继承人。
 Words. Show me valour.	空话。让我看看你的勇气。
 Then I will.	那我就让你看。
@@ -2604,17 +2605,17 @@ What do you know about me?	你知道我的什么？
 News? Everyone's looking for someone. Mostly they find them.	消息？每个人都在找某个人。大多数都找到了。
 I suppose so.	我想是吧。
 Oh, not much. Yet.	哦，不多。目前还不多。
-The Ember Ring? The Ashen Priest wears it, and he's welcome to it, as far as I'm concerned.\He holds the Cinder Fort, high in the Cinder Peaks, with the Ashen Hand: a cult that sings to the dragon, and sends it what it can. If Bert wants that ring, you'll have to take it off his finger yourself.	余烬戒指？灰烬祭司戴着它，在我看来，他爱戴就戴吧。\他和灰烬之手一起占着余烬堡垒，在 Cinder Peaks 的高处：那是一个对着龙唱歌、把能送的都送给它的邪教。如果 Bert 想要那枚戒指，你就得亲自从他的手指上取下来。
+The Ember Ring? The Ashen Priest wears it, and he's welcome to it, as far as I'm concerned.\He holds the Cinder Fort, high in the Cinder Peaks, with the Ashen Hand: a cult that sings to the dragon, and sends it what it can. Badly, the singing: you can hear it from here on a still night.\If Bert wants that ring, you'll have to take it off his finger yourself.	余烬戒指？灰烬祭司戴着它，在我看来，他爱戴就戴吧。\他和灰烬之手一起占着余烬堡垒，在 Cinder Peaks 的高处：那是一个对着龙唱歌、把能送的都送给它的邪教。唱得很难听。安静的夜里这里都能听到。\如果 Bert 想要那枚戒指，你就得亲自从他的手指上取下来。
 Quest started: The Ember Ring.	任务开始：余烬戒指。
-The Cinder Fort is up the road north, high in the peaks. Take water. Take armour.	余烬堡垒在北边的路上，在山峰高处。带上水。带上盔甲。
+The Cinder Fort is up the road north, high in the peaks. Take water. Take armour. Take something for your ears.	余烬堡垒在北边的路上，在山峰高处。带上水。带上盔甲。带上耳塞。
 You took the ring off the priest's finger, and the Hand's scattered. You'd think the Ashwold would be quiet now.\Then a shepherd comes in and tells me the Hand's old shrines are burning again. Not red: blue. He held his hand in it, he says, and it was only cold.\The Hand never lit a fire like that. Will you go and look?	你从祭司的手指上取下了戒指，灰烬之手也散了。你会以为 Ashwold 现在该安静了。\然后一个牧羊人进来告诉我，灰烬之手的旧神龛又烧起来了。不是红的：是蓝的。他说他把手伸进去，只觉得冷。\灰烬之手从来没点过那样的火。你愿意去看看吗？
 Quest started: Cold Fire.	任务开始：冷火。
 Three shrines, out on the Ashwold, where the Hand used to sing. Mind the ash.	三座神龛，在 Ashwold 上，灰烬之手以前唱歌的地方。小心灰。
 Blue, all three? And tracks to the Hand's camp. Get close enough to hear what's said there. Quietly, mind: they'll not talk in front of you.	三座都是蓝的？还有通往灰烬之手营地的足迹。走得够近，听听那里在说什么。安静点，注意：当着你的面他们不会说的。
 I'll go quietly.	我会悄悄去的。
-Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	穿灰衣的陌生人，付钱让灰烬之手喂龙？“弥合它”……我不喜欢这个词。\今年路上有些穿灰衣的人：好心的人，送汤送毯子。一个赶车的告诉我，他们在 Ashford 有一座安静的房子。给，辛苦你了，睁大眼睛。
+Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	穿灰衣的陌生人，付钱让灰烬之手喂龙？“弥合它”……我不喜欢这个词。\今年路上有些穿灰衣的人：好心的人，送汤送毯子。没人会白白对你那么好。一个赶车的告诉我，他们在 Ashford 有一座安静的房子。给，辛苦你了，睁大眼睛。
 Quest complete: Cold Fire!	任务完成：冷火！
-Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread.	Emberwatch：余烬之地前的最后一座堡垒。风里有烟，面包上有灰。
+Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it seasoning.	Emberwatch：余烬之地前的最后一座堡垒。风里有烟，面包上有灰。我们管那叫调味。
 You? Into the Cinder Fort? The Ashen Hand would have you singing to the dragon by supper.\Whatever Bert wants with that ring, it'll keep. Come back with a few more fights behind you.	你？进余烬堡垒？灰烬之手不到晚饭时间就会让你对着龙唱歌了。\不管 Bert 要那枚戒指做什么，它都等得起。多打几仗再回来吧。
 A letter? From the Chapel?\...Cael. My brother Cael. He went up to the Chapel when we were young, to burn for the dragon with the rest of them. I thought he'd burnt.\He's sorry. He's sorry, it says, all the way down the page.	一封信？从礼拜堂来的？\...Cael。我的弟弟 Cael。我们年轻的时候他上了礼拜堂，要和其他人一起为龙燃烧。我以为他已经烧死了。\他很抱歉。信上说他很抱歉，一直写到页底。
 He's still there, praying.	他还在那里，在祈祷。
@@ -2690,7 +2691,7 @@ Lady Pettigrew's lost her hat again. To the geese. Again.	Pettigrew 夫人又把
 A Shard Remnant got into my kitchen once. I hit it with a ladle. It's fine. The ladle isn't.	有一次一个碎片残迹钻进了我的厨房。我用汤勺打了它。它没事。汤勺有事。
 My son wants to be an adventurer. I told him, get a proper job. Like goose herding.	我儿子想当冒险家。我跟他说，去找份正经工作。比如放鹅。
 Somebody keeps pressing the big red button in the wizard's tower. I can tell. My washing turns into chickens.	有人老是去按巫师塔里那个大红按钮。我知道的。我晾的衣服会变成鸡。
-You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Ashen hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	你就是杀死 Galaith 之龙的人？那你应该有它的鳞片。\这里是龙炉：Ashen 唯一热得能锻造龙鳞的火。给我带三片来，我亲手给你打一顶龙鳞头盔，再教你用这个炉子。
+You're the one who slew the dragon of Galaith? Then you'll have its scales.\This is the Dragonforge: the only fire in Galmere hot enough to work dragon scale. Bring me three, and I'll make you a helm of them myself, and teach you the forge.	你就是杀死 Galaith 之龙的人？那你应该有它的鳞片。\这里是龙炉：Galmere 唯一热得能锻造龙鳞的火。给我带三片来，我亲手给你打一顶龙鳞头盔，再教你用这个炉子。
 I'll bring you three scales.	我会给你带三片鳞片来。
 Quest started: The Dragonforge.	任务开始：龙炉。
 Three of them, still warm! Watch now...\There. A dragonscale helm, and nothing on this earth will burn through it. The forge is yours to use whenever you've scales and mithril.	三片，还是热的！看好了……\好了。一顶龙鳞头盔，这世上没有什么能烧穿它。只要你有鳞片和秘银，这个炉子随你用。
@@ -2698,7 +2699,7 @@ Quest complete: The Dragonforge! You receive a dragonscale helm.	任务完成：
 Three scales from the dragon's hide: no fewer.	三片龙皮上的鳞片：一片都不能少。
 Back for the forge? Scale and mithril, and I'll show you how.	回来用炉子？鳞片和秘银，我来教你怎么做。
 Show me the Dragonforge.	给我看看龙炉。
-This is the Dragonforge. It's been cold a long time: there's only one dragon left in Ashen, and it sits before the walls of Galaith.	这里是龙炉。它已经冷了很久了：Ashen 只剩下一条龙了，它就盘踞在 Galaith 的城墙前。
+This is the Dragonforge. It's been cold a long time: there's only one dragon left in Galmere, and it sits before the walls of Galaith.	这里是龙炉。它已经冷了很久了：Galmere 只剩下一条龙了，它就盘踞在 Galaith 的城墙前。
 Stand still the way you would to cast, and listen at the horn. And whatever it says, warm one, don't answer.	像要施法时那样站着别动，在号角边听。不管它说什么，温暖的人，都别回答。
 You lay the Sword of Valour on the Deep Anvil and strike it, once..	你把勇气之剑放在深渊铁砧上，敲了一下..
 ..and the note goes down through the mountain and comes back up as a voice. The Sword of Valour is awake: Shard-light runs along its edge, and it pulls, gently, towards Galaith.	..那声音穿过大山向下传去，又作为一个声音返了上来。勇气之剑醒了：碎片之光沿着它的剑刃流动，它轻轻地朝 Galaith 的方向牵引。
@@ -2718,28 +2719,28 @@ The Sun-Forge's disc still holds a little of the light.	太阳熔炉的圆盘上
 A great disc of gold-faced bronze, dark without the sun on it.	一个巨大的金面青铜圆盘，没有阳光照着就是暗的。
 The three seals sink into the hollows of the door, and it grinds open. Quest complete: The Island of Dragons!	三枚印章沉进门上的凹槽，门嘎吱嘎吱地打开了。任务完成：龙岛！
 Three hollows in the door, the shape of seals.	门上有三个凹槽，是印章的形状。
-So. The heir of Ashen comes to me at last, and on foot.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt.	那么。Ashen 的继承人终于来见我了，还是走着来的。\我在这些城墙前等了十八个冬天。十八个冬天，这座城市因为没有路而挨饿，全都是为了一笔小小的债。
+So. The heir of Galmere comes to Vorgalath at last, and on foot. Eighteen winters late.\Eighteen winters I have waited at these walls. Eighteen winters the city has starved for want of the road, and all for one small debt. With the interest, it is not so small now.	那么。Galmere 的继承人终于来见 Vorgalath 了，还是走着来的。晚了十八个冬天。\我在这些城墙前等了十八个冬天。十八个冬天，这座城市因为没有路而挨饿，全都是为了一笔小小的债。加上利息，现在可不那么小了。
 What debt?	什么债？
-A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. Your mother broke it, and ran.	一个契约，孩子，不是诅咒。你们的第一位国王把我砍成了他能束缚的大小，还以为自己很聪明。我让你们的血脉保留我的残片，大山的金子和它的碎片，代价是每一代的长子继承人：王室的血就是锁，而锁需要喂养。他们用血签了字。你母亲毁了约，逃走了。
+A bargain, child, not a curse. Your first king cut me down to a size he could bind, and thought himself clever. I let your line keep the scraps of me, the mountain's gold and its Shards, for the firstborn heir of every generation: royal blood is the lock, and the lock needs feeding. They signed in blood. I kept a copy. I always keep a copy. Your mother broke it, and ran.	一个契约，孩子，不是诅咒。你们的第一位国王把我砍成了他能束缚的大小，还以为自己很聪明。我让你们的血脉保留我的残片，大山的金子和它的碎片，代价是每一代的长子继承人：王室的血就是锁，而锁需要喂养。他们用血签了字。我留了一份副本。我总是留副本。你母亲毁了约，逃走了。
 She saved me.	她救了我。
 My mother saved my life. The bargain ends today.	我母亲救了我的命。契约今天就结束。
-Ends? It ends when I have you.\...That blade. Awake now, is it? Three fires, and the old knights' sting woken after all. No matter: I am more than I was.\Come, then, heir. Let us see whose debt is paid.	结束？等我得到你的时候它才结束。\...那把剑。现在醒了，是吗？三团火，老骑士们的刺终究还是被唤醒了。没关系：我已经不是从前的我了。\来吧，继承人。让我们看看谁的债被偿清。
+Ends? It ends when I have you.\...That blade. Awake now, is it? Three fires, and the old knights' sting woken after all. How tiresome. No matter: I am more than I was.\Come, then, heir. Let us see whose debt is paid.	结束？等我得到你的时候它才结束。\...那把剑。现在醒了，是吗？三团火，老骑士们的刺终究还是被唤醒了。真麻烦。没关系：我已经不是从前的我了。\来吧，继承人。让我们看看谁的债被偿清。
 Fight!	战斗！
 The dragon of Galaith rises, wings blotting out the sky!	Galaith 之龙腾空而起，双翼遮天蔽日！
 The chapel bell tolls for Mary. The last of the mourners lay their flowers on her grave.	礼拜堂的钟为 Mary 敲响。最后几个送葬的人把花放在她的坟上。
-She was a good woman, your mother. Kind to all of us, and never a word about herself.	她是个好女人，你母亲。对我们每个人都很好，从来不提自己。
-I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, and it's to be given to you alone.	我很难过。Mary 是我们这里每个人的朋友。\来吧：我陪你走回家。她给你留了东西，只能交给你一个人。
+She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	她是个好女人，你母亲。对我们每个人都很好，从来不提自己。\十六年来每个星期天打牌都赢我。我一直没弄明白她是怎么做到的。
+I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	我很难过。Mary 是我们这里每个人的朋友。\来吧：我陪你走回家。她给你留了东西，只能交给你一个人。那是她的嘱咐。下面画了两道线。
 Lead the way.	带路吧。
-You walk home together across the Isle, neither of you saying much.	你们一起穿过小岛走回家，谁都没说多少话。
-Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.	你母亲把她的遗嘱托付给了我。她告诉我永远不要打开这封信，还说你不应该把它读给任何人听。这是她留给你的最后的话，只给你一个人。
+You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	你们一起穿过小岛走回家。Edwin 不时想说点法律上的话，又改了主意。
+Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	你母亲把她的遗嘱托付给了我。她告诉我永远不要打开这封信，还说你不应该把它读给任何人听。这是她留给你的最后的话，只给你一个人。\当了三十年律师，我从没这么想读一封信。我没读。请记录在案。
 He lays a letter on the table, sealed with your mother's wax.	他把一封信放在桌上，信用你母亲的蜡封着。
 Thank you. If you don't mind, I would like to be left alone to read the letter.	谢谢你。如果你不介意的话，我想一个人读这封信。
 Continue	继续
-Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner.	当然。如果你需要什么，可以来找我和我妻子 Maren，我们的房子在西北边的海边。来吃晚饭吧。
+Of course. If you need anything, you can find my wife, Maren, and me at our house, up in the north-west, by the sea. Come for dinner. There's no charge.\That was a joke. Lawyers' humour. Come anyway.	当然。如果你需要什么，可以来找我和我妻子 Maren，我们的房子在西北边的海边。来吃晚饭吧。不收费。\开玩笑的。律师的幽默。不过还是来吧。
 Thank you, Edwin.	谢谢你，Edwin。
-Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland.	哦，还有这个。Mary 在壁炉架上放了一小罐碎片：她会希望你拿着它们的。\碎片是世界古老魔法的碎屑。法术会吸取它们，大陆上那些古老的立石也会。
+Oh, and this. Mary kept a little jar of Shards on the mantel: she'd want you to have them.\Shards are splinters of the world's old magic. Spells drink them, and so do the old standing stones on the mainland. Don't ask me how. I only do the paperwork.	哦，还有这个。Mary 在壁炉架上放了一小罐碎片：她会希望你拿着它们的。\碎片是世界古老魔法的碎屑。法术会吸取它们，大陆上那些古老的立石也会。别问我怎么回事。我只管文书。
 Mary's Shards are yours: their count is under your health.	Mary 的碎片归你了：它们的数量就在你的生命值下面。
-He lets himself out, and the door shuts behind him.	他自己走了出去，门在他身后关上了。
+He lets himself out, and shuts the door behind him with great care.	他自己走了出去，非常小心地关上了门。
 Quest started: The Last Will. (H: your journal)	任务开始：最后的遗嘱。（H：你的日志）
 The thirteenth coin goes in, and a rubber duck bobs up. It looks at you. You look at it.	第十三枚硬币投了进去，一只橡皮鸭浮了上来。它看着你。你看着它。
 The coin hits the top bowl, skips, and lands back in your palm with a friend.	硬币打在顶上的碗里，弹了一下，带着一个朋友落回你的手心。
@@ -2833,7 +2834,7 @@ You grab the sheep and start to shear...	你抓住羊，开始剪毛...
 ...and get a fluffy clump of wool.	...剪下了一团蓬松的羊毛。
 ...but the sheep wriggles free!	...可是羊挣脱了！
 You need shears!	你需要剪刀！
-You hold the Staff of Ashen to the barrier and speak Bert's words of Unbinding..	你把 Ashen 之杖举向屏障，念出 Bert 教你的解缚之语..
+You hold the Staff of Galmere to the barrier and speak Bert's words of Unbinding..	你把 Galmere 之杖举向屏障，念出 Bert 教你的解缚之语..
 ..and the barrier shatters like glass. Beyond it, on the scorched ground before Galaith's walls, the dragon lifts its glittering head, and the sword in your hand sings back at it.	..屏障像玻璃一样碎裂了。在它后面，在 Galaith 城墙前焦黑的土地上，龙抬起了它闪闪发光的头，你手中的剑对着它唱了起来。
 The staff hums against the barrier, but you don't know the words.	法杖贴着屏障嗡嗡作响，可你不知道那些话语。
 ..and the barrier flares, shudders, and holds. Something beyond the world is feeding it.	..屏障闪了一下，颤抖着，挺住了。世界之外有什么东西在给它供养。
@@ -2987,16 +2988,16 @@ Wield your sword and shield, and train until your Attack and Defence are level 2
 Something of your mother's lies in the caves under the chapel.	你母亲的某样东西就在礼拜堂下面的洞穴里。
 Something gold glints behind iron bars, out of reach of any hand.	铁栏后面有金色的东西在闪光，任何手都够不着。
 Speak to the city guard at Northport's port.	与 Northport 港口的城市守卫交谈。
-Go to Northport's City Hall, where Ashen's Parliament sits until Galaith opens again.	前往 Northport 的市政厅，在 Galaith 重新开放之前，Ashen 的议会就设在那里。
+Go to Northport's City Hall, where Galmere's Parliament sits until Galaith opens again.	前往 Northport 的市政厅，在 Galaith 重新开放之前，Galmere 的议会就设在那里。
 Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	把议会的信带给 Ashford 镇公所的 Ashford 镇长。
 Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	哥布林袭击了 Ashford 东边的农场。把它们赶走：在农场的十字路口等它们。
 Tell the Mayor the goblins are beaten.	告诉镇长哥布林已经被打败了。
 Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	把镇长的通行证给 Ashford 以南鲁珀特王堡的国王总管看。
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	在旧铁矿、矿井深处或洞窟里杀死五只大地精（$HobgoblinsSlain / 5），然后回到总管那里。
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	在巫师庭塔顶找到伟大的巫师 Bert。
-Bring Bert the Staff of Ashen, the Grimoire of Unbinding and the Ember Ring.	给 Bert 带去 Ashen 之杖、解缚魔典和余烬戒指。
+Bring Bert the Staff of Galmere, the Grimoire of Unbinding and the Ember Ring.	给 Bert 带去 Galmere 之杖、解缚魔典和余烬戒指。
 Ask the Steward at King Rupert's Keep about the King's staff.	向鲁珀特王堡的总管询问国王的权杖。
-Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Ashen.	爬上王堡顶层国王的日光室（王堡大厅里的楼梯：总管的钥匙），拿走 Ashen 之杖。
+Climb to the King's solar at the top of the keep (the stair in the keep's hall: the Steward's key) and take the Staff of Galmere.	爬上王堡顶层国王的日光室（王堡大厅里的楼梯：总管的钥匙），拿走 Galmere 之杖。
 Ask the scholar Yusra, in Dunerest, about the Grimoire of Unbinding.	向 Dunerest 的学者 Yusra 询问解缚魔典。
 The Grimoire lies in the sun priests' buried library, in the desert north of Dunerest. Dig out its entrance (a spade).	魔典在太阳祭司被掩埋的图书馆里，位于 Dunerest 以北的沙漠中。挖出它的入口（用铁锹）。
 Take the Grimoire of Unbinding from its lectern in the buried library.	从被掩埋的图书馆的诵经台上拿走解缚魔典。
@@ -3018,10 +3019,10 @@ The Temple of Valour is sealed. Take three Valour Seals from the island's drakes
 Enter the Temple of Valour and speak to its guardian.	进入勇气神殿，与它的守护者交谈。
 Defeat the Guardian of Valour.	击败勇气守护者。
 Draw the Sword of Valour from its stone.	从石中拔出勇气之剑。
-The barrier still stands in the pass of Galaith. Raise the Staff of Ashen against it.	屏障仍然挡在 Galaith 的山口。对它举起 Ashen 之杖。
+The barrier still stands in the pass of Galaith. Raise the Staff of Galmere against it.	屏障仍然挡在 Galaith 的山口。对它举起 Galmere 之杖。
 The barrier held: something beyond the world feeds it. Ask Bert, at the top of the Wizards' Court's tower.	屏障撑住了：世界之外有东西在供养它。去问巫师庭塔顶的 Bert。
 Build a Shardgate in the old ring of standing stones on the hill north of the Wizards' Court: 4 silver bars, 2 sapphires, a Remnant's core and Shards, steadied by 8 active shardstones (Bert's plans).	在巫师庭以北山丘上的古老立石圈中建造一座碎片之门：4 根银锭、2 颗蓝宝石、一颗残迹核心和碎片，由 8 块已激活的碎片石稳住（Bert 的图纸）。
-Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Ashen.	穿过碎片之门进入碎片界的核心。越过它的守望者，用 Ashen 之杖击碎屏障的锚。
+Step through the Shardgate into the core of the Shardrealm. Get past its Warden, and shatter the barrier's anchor with the Staff of Galmere.	穿过碎片之门进入碎片界的核心。越过它的守望者，用 Galmere 之杖击碎屏障的锚。
 The anchor is shattered. Tell Bert.	锚被击碎了。告诉 Bert。
 The barrier at the pass only thins now its anchor's gone.	锚没了，山口的屏障如今只是变薄了。
 The dragon wears a hide of Shards now, and it laughed at the Sword of Valour. Ask Bert why.	那条龙现在披着一身碎片的皮，它嘲笑了勇气之剑。去问 Bert 为什么。
@@ -3039,7 +3040,7 @@ Maud says the Stone King sits the old dwarf hall's throne. Break it.	Maud 说石
 The dwarves locked the Deep Anvil with four rune stones. Maud's people sing a work-song older than any of them.	矮人用四块符文石锁住了深渊铁砧。Maud 的人唱着一首比他们任何人都古老的劳动歌。
 The Deep Anvil is awake. Wake the Sword of Valour on it.	深渊铁砧苏醒了。在它上面唤醒勇气之剑。
 The Sword of Valour is awake. Tell Maud.	勇气之剑苏醒了。告诉 Maud。
-Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Ashen on it).	向西前往西部山脉中 Galaith 的山口。用 Bert 的法术打破屏障（对它使用 Ashen 之杖）。
+Go west to the pass of Galaith, in the West Range. Break the barrier with Bert's spell (use the Staff of Galmere on it).	向西前往西部山脉中 Galaith 的山口。用 Bert 的法术打破屏障（对它使用 Galmere 之杖）。
 Kill the dragon before Galaith's walls. Only the Sword of Valour, wielded, can reach its heart.	在 Galaith 城墙前杀死那条龙。只有手持勇气之剑才能伤到它的心。
 Ask the captain of the Royal Guard, at the palace door, to let you see the King.	请皇家卫队的队长在宫殿门口让你觐见国王。
 The Lord Chancellor must give his leave. Find him in Galaith's Parliament.	必须得到大法官的许可。在 Galaith 的议会找到他。
@@ -3735,7 +3736,7 @@ A fiery red potion. It makes you stronger.	一瓶火红的药水。它让你更�
 +Attack for a while	一段时间内 +攻击
 Furnace	熔炉
 Smelt	冶炼
-A furnace, roaring hot. Smelt ore into bars here.	一座熊熊燃烧的熔炉。在这里把矿石炼成锭。
+A furnace, roaring hot. Smelt ore into bars here. Eyebrows are optional.	一座熊熊燃烧的熔炉。在这里把矿石炼成锭。眉毛可留可不留。
 Smelt ore into bars	把矿石炼成锭
 Anvil	铁砧
 Smith	锻造
@@ -3743,7 +3744,7 @@ A heavy anvil. Hammer bars into tools and weapons here.	一个沉重的铁砧。
 Make tools and arms	制作工具和武器
 Range	炉灶
 Cook	烹饪
-A cooking range. Cook raw food on it, or bake.	一个烹饪炉灶。在上面烹饪生食，或者烘烤。
+A cooking range. Cook raw food on it, or bake. It has seen things. Mostly burnt things.	一个烹饪炉灶。在上面烹饪生食，或者烘烤。它见过不少东西，大多是烧焦的。
 Cook and bake	烹饪和烘烤
 Alchemy Table	炼金台
 Brew	酿造
@@ -3751,7 +3752,7 @@ Bottles, burners and a mortar. Brew potions here.	瓶子、炉子和一个研钵
 Brew potions	酿造药水
 Workbench	工作台
 Craft	制作
-A sturdy workbench for leather, wool and jewellery.	一张结实的工作台，用于皮革、羊毛和珠宝。
+A sturdy workbench for leather, wool and jewellery. Someone has carved TOM WOZ ERE in the corner.	一张结实的工作台，用于皮革、羊毛和珠宝。角落里有人刻了“Tom 到此一游”。
 Leather, wool and jewellery	皮革、羊毛和珠宝
 Mine Cart	矿车
 Search	搜查
@@ -4068,7 +4069,7 @@ The old king of the downs, crowned and long dead. He does not want to rest.	丘�
 King of the downs	丘陵之王
 Ripe Wheat	成熟的小麦
 Harvest	收获
-Ripe golden wheat.	成熟的金色小麦。
+Ripe golden wheat. Bread, in its early days.	成熟的金色小麦。面包的童年。
 Harvest it	收获它
 Stubble	麦茬
 Stubble. The wheat will grow again.	麦茬。小麦会重新长出来。
@@ -4326,8 +4327,8 @@ Last Will	遗嘱
 Your mother's last will and testament, sealed with her wax.	你母亲的遗嘱，用她的蜡封着。
 A will, sealed	一份封好的遗嘱
 Amulet of Succession	继承护身符
-The Amulet of Ashen Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	Ashen 继承护身符：黄金、一颗蓝宝石、王冠。你母亲为你藏起了它。
-The Amulet of Ashen Succession	Ashen 继承护身符
+The Amulet of Galmere Succession: gold, a sapphire, the royal crown. Your mother hid it for you.	Galmere 继承护身符：黄金、一颗蓝宝石、王冠。你母亲为你藏起了它。
+The Amulet of Galmere Succession	Galmere 继承护身符
 Lair Key	巢穴钥匙
 A heavy iron key: it opens the door the hobgoblins hold in the caves.	一把沉重的铁钥匙：它能打开大地精在洞穴里把守的门。
 A heavy iron key	一把沉重的铁钥匙
@@ -4356,7 +4357,7 @@ Jimmy	Jimmy
 Jimmy, curled up asleep on the spare bed.	Jimmy，蜷在空床上睡觉。
 Jimmy, asleep	睡着的 Jimmy
 Chimney Smoke	烟囱的烟
-Smoke from the forge.	熔炉冒出的烟。
+Smoke from the forge. It smells of hot iron and somebody's lunch.	铁匠铺的烟。闻起来像热铁和某人的午饭。
 Smoke	烟
 Edwin	Edwin
 Edwin, the Isle's lawyer. His wife Maren is its doctor.	Edwin，小岛的律师。他的妻子 Maren 是小岛的医生。
@@ -4379,7 +4380,7 @@ Port Guard	港口守卫
 One of Northport's city guard, in the city's blue.	Northport 的城市守卫之一，穿着城市的蓝色。
 Northport's guard	Northport 的守卫
 Speaker	议长
-The Speaker of Ashen's Parliament, in its crimson robes.	Ashen 议会的议长，穿着深红色的长袍。
+The Speaker of Galmere's Parliament, in its crimson robes.	Galmere 议会的议长，穿着深红色的长袍。
 The Speaker of Parliament	议会议长
 Mayor	镇长
 The mayor, in a velvet cloak and a chain of office.	镇长，披着天鹅绒斗篷，戴着官职链。
@@ -4400,8 +4401,8 @@ Valour Guardian	勇气守护者
 A knight of pale light: the guardian of the Sword of Valour.	一位苍白光芒构成的骑士：勇气之剑的守护者。
 Guardian of the Sword of Valour	勇气之剑的守护者
 King Rupert	鲁珀特国王
-King Rupert of Ashen, grey before his time.	Ashen 的鲁珀特国王，未老先衰，两鬓斑白。
-King Rupert of Ashen	Ashen 的鲁珀特国王
+King Rupert of Galmere, grey before his time.	Galmere 的鲁珀特国王，未老先衰，两鬓斑白。
+King Rupert of Galmere	Galmere 的鲁珀特国王
 Royal Guard	皇家卫兵
 A guard of Galaith's palace, in white and gold.	Galaith 宫殿的一名卫兵，身穿白金两色。
 Galaith's palace guard	Galaith 的宫殿卫兵
@@ -4500,8 +4501,8 @@ A Valour Seal: gold, a sword's point in red. A drake carried it.	一枚勇气印
 A Valour Seal	一枚勇气印章
 Ember Ring	余烬戒指
 The Ember Ring: a ruby that glows like a coal. Warm to the touch. Inside the band, worn thin: the seal of the Pact, a dragon coiled round a ring of broken scales.	余烬戒指：一颗像炭火一样发光的红宝石。摸上去是温热的。戒圈内侧磨得很薄：契约的印记，一条盘绕着破碎鳞片之环的龙。
-Staff of Ashen	Ashen 之杖
-The Staff of Ashen, the kings' staff: gold and blue, warm with magic.	Ashen 之杖，历代国王的权杖：金色和蓝色，带着魔法的温热。
+Staff of Galmere	Galmere 之杖
+The Staff of Galmere, the kings' staff: gold and blue, warm with magic.	Galmere 之杖，历代国王的权杖：金色和蓝色，带着魔法的温热。
 Sword of Valour	勇气之剑
 The Sword of Valour. Its edge hums. Only it can reach a dragon's heart.	勇气之剑。它的剑刃嗡嗡作响。只有它能伤到龙的心。
 Grimoire Lectern	魔典诵经台
@@ -5515,7 +5516,7 @@ Bounty Board	悬赏板
 A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.	一块悬赏板，框上布满爪痕。一把匕首把今天的告示钉在上面。
 Today's bounty	今天的悬赏
 Records Board	纪录板
-The hall of records, carved in pale stone and gilded: the names that have done the most in Ashen.	纪录大厅，用浅色石头雕成并镀了金：在 Ashen 做得最多的那些名字。
+The hall of records, carved in pale stone and gilded: the names that have done the most in Galmere.	纪录大厅，用浅色石头雕成并镀了金：在 Galmere 做得最多的那些名字。
 The names that have done the most	做得最多的那些名字
 Trees all over the Isle and the Southlands	小岛和南方大地到处都有树
 Fallen logs lying in the meadows and woods	倒在草地和树林里的原木
@@ -5611,7 +5612,7 @@ The Temporary Capital	临时首都
 The Ashford Road	Ashford 之路
 The Steward's Hunt	总管的狩猎
 Bert's Three Treasures	Bert 的三件宝物
-The Staff of Ashen	Ashen 之杖
+The Staff of Galmere	Galmere 之杖
 The Sunken Grimoire	沉没的魔典
 The Ember Ring	余烬戒指
 Orrin's Chart	Orrin 的海图
@@ -7805,7 +7806,7 @@ an unseen hand brings you a thing up to {1} tiles away	一只看不见的手把 
 a hush round you for {1} s: whatever you fight makes no sound	你周围安静 {1} 秒：你与任何东西战斗都不会发出声音
 heals {1} hitpoints	恢复 {1} 生命值
 You break down the {1}	你拆解了{1}
-Magic in Ashen now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	Ashen 的魔法如今靠碎片运转，你一开始就有 {1}。从卷轴学会一个法术，永久掌握，并在“引导”（属性框）中施放它。
+Magic in Galmere now runs on Shards, and you have {1} to begin with. Learn a spell from its scroll, for good, and cast it from Channeling (the Stats box).	Galmere 的魔法如今靠碎片运转，你一开始就有 {1}。从卷轴学会一个法术，永久掌握，并在“引导”（属性框）中施放它。
 {1}: your reward	{1}：你的奖励
 ({1}-{2} with your Channeling)	（凭你的引导为 {1}-{2}）
 , {1} for {2} s	，{1}，持续 {2} 秒
@@ -7896,7 +7897,7 @@ nothing worth having	没什么值得拿的
 Rattle	哗啦
 Minutes	分钟
 in the wilds	在荒野中
-{1}, raised by the people of Ashen. Most given by: {2}.	{1}，由 Ashen 的人们出资建成。出力最多的：{2}。
+{1}, raised by the people of Galmere. Most given by: {2}.	{1}，由 Galmere 的人们出资建成。出力最多的：{2}。
 Party	队伍
 {1} asks you to join their party: kills and quest stages shared with those of you near each other, and /p to talk to the party.	{1} 邀请你加入其队伍：彼此靠近的成员共享击杀和任务阶段，用 /p 在队伍中说话。
 You ask {1} to join your party.	你邀请 {1} 加入你的队伍。
@@ -7904,7 +7905,7 @@ You ask {1} to join your party.	你邀请 {1} 加入你的队伍。
 {1} is your friend now.	{1} 现在是你的好友了。
 {1} is no longer on your friends list.	{1} 已不在你的好友列表中。
 at a homestead	在一处家园
-in Ashen	在 Ashen
+in Galmere	在 Galmere
 {1} would like to trade with you.	{1} 想和你交易。
 You ask {1} to trade.	你请求与 {1} 交易。
 The trade is done.	交易完成了。
@@ -7956,7 +7957,7 @@ You take {1}: there's no room for the rest.	你拿了{1}：剩下的没地方放
 Raiders at {1}! Every blade is wanted.	袭击者来到了{1}！需要每一把刀剑。
 {1} is the arena's champion, with {2} wins.	{1}是竞技场的冠军，共 {2} 胜。
 Other heirs abroad today: {1}.	今天在外的其他继承人：{1}。
-All quiet in Ashen today. Quiet as a mouse in a cat's dream.	今天 Ashen 一片安宁。安静得就像猫梦里的一只老鼠。
+All quiet in Galmere today. Quiet as a mouse in a cat's dream.	今天 Galmere 一片安宁。安静得就像猫梦里的一只老鼠。
 Hear ye!	听着！
 Bounties	悬赏
 You've had today's bounty. Come back tomorrow: there's always something with too many teeth.	你已经领过今天的悬赏了。明天再来吧：总有长着太多牙齿的东西。
@@ -8011,12 +8012,12 @@ Good.	好。
 {1} is {2} parts in a hundred done. The foreman wants more hands.	{1}已完成百分之 {2}。工头还需要更多人手。
 Bounty	悬赏
 {1}: {2} of {3} so far. Keep at it.	{1}：目前 {2} / {3}。继续努力。
-Today's bounty: {1} {2}, anywhere in Ashen. Gold and Shards when it's done. One a day.	今天的悬赏：{1} {2}，Ashen 任何地方都行。完成后有金币和碎片。每天一次。
+Today's bounty: {1} {2}, anywhere in Galmere. Gold and Shards when it's done. One a day.	今天的悬赏：{1} {2}，Galmere 任何地方都行。完成后有金币和碎片。每天一次。
 A gift from {1}: {2}.	来自 {1} 的礼物：{2}。
 Leave {1}.	离开{1}。
 Long live the {1}!	{1}万岁！
 Your Majesty!	陛下！
-Ashen's own {1}!	Ashen 自己的{1}！
+Galmere's own {1}!	Galmere 自己的{1}！
 Bless you, Majesty.	愿你蒙福，陛下。
 Playing {1} on {2}	正在 {2} 上玩 {1}
 the town	城镇
@@ -8030,7 +8031,7 @@ Croak	呱呱
 Peck	啄
 Moo. ...Oh, you're new. The grass by the fence is better. Don't tell the others.	哞。……哦，你是新来的。篱笆边的草更好吃。别告诉其他人。
 Have you ever really looked at a cloud? I have. All day. Every day.	你有没有真正看过一朵云？我看过。一整天。每一天。
-The farmer calls me Daisy. My name is Lady Cornelia Buttercup the Third.	农夫叫我 Daisy。我的名字是科妮莉亚·毛茛三世夫人。
+My name is Lady Cornelia Buttercup the Third. The farmer calls me Daisy.	我的名字是科妮莉亚·毛茛三世夫人。农夫叫我 Daisy。
 Baa. That's not a word, by the way. We just like saying it.	咩。顺便说一句，这不是一个词。我们只是喜欢这么说。
 They took my coat. Every spring. I'm not saying I'm bitter, I'm saying I remember.	他们拿走了我的毛。每年春天。我不是说我心怀怨恨，我是说我记着呢。
 If a wolf asks, you haven't seen me. If a wolf asks you anything at all, run.	如果有狼问起，你没见过我。如果有狼问你任何事，快跑。
@@ -8053,6 +8054,38 @@ Friend? FRIEND! Are you a friend? You're a friend! Ball? Do you have a ball?	朋
 I barked at a leaf today. It was very threatening. You're welcome.	我今天对着一片叶子叫了。它非常有威胁性。不用谢。
 Ribbit. I'm a prince, actually. Long story. Don't kiss me, it doesn't work, I've checked.	呱。其实我是个王子。说来话长。别亲我，没用的，我试过了。
 Arf. The fish here are fine. The fish up north are better. I don't make the rules.	嗷。这里的鱼还行。北边的鱼更好。规矩又不是我定的。
+Snort. They say a horse can't count. I can count. I count every sugar lump I don't get.	噗噜噜。人们说马不会数数。我会。我在数我没得到的每一块方糖。
+Carrying people is fine. It's the talking I mind. Nobody asks how my day was.	驮人我不介意。我介意的是聊天。从来没人问我今天过得怎么样。
+Neigh. That means 'no'. They always take it as 'yes'.	咴儿。意思是“不”。大家总以为是“好”。
+I am a royal horse. I have a royal saddle and a royal blanket. The flies don't care.	我是王室的马。我有王室的马鞍和王室的毯子。苍蝇根本不在乎。
+One brushes the mane, then the tail. Never the other way. One isn't a peasant.	先梳鬃毛，再梳尾巴。绝不能反过来。我又不是农夫。
+The white one gets the parades. I get the rain. I've made my peace with it. I haven't.	白的那匹去游行。我去淋雨。我已经接受了。我没接受。
+Mrrp. People say I'm bad luck. I've never had any bad luck. Funny, that.	喵。人们说我不吉利。我自己从没倒过霉。真奇怪。
+I crossed your path on purpose. You looked like you needed something to blame.	我是故意从你面前走过的。你看起来需要点东西来怪罪。
+Mrrp. I fell off the roof this morning. On purpose. It was a test. Of the ground.	喵。今天早上我从屋顶上掉下来了。故意的。那是个测试。测试地面。
+Have you got food? You've got the face of someone who's got food.	你有吃的吗？你长着一张有吃的脸。
+Mrrp. I'm not fat. I'm built for winter. Every winter. All at once.	喵。我不胖。我是为冬天打造的。所有的冬天。一次全上。
+Three houses feed me. None of them knows about the other two. Don't you tell them.	三户人家喂我。没有一家知道另外两家。别说出去。
+Mrrp. I'm dressed for dinner. I'm always dressed for dinner. Where is dinner.	喵。我穿好了去吃晚宴的衣服。我一直穿着去吃晚宴的衣服。晚宴在哪儿。
+I knocked a cup off the table to see if it would fall. It did. I'll check again tomorrow.	我把一个杯子从桌上推下去，看看它会不会掉。它掉了。明天我再检查一遍。
+Grr. You smell like a sheep. No offence. Some of my best meals were sheep.	呜嗷。你身上有羊的味道。别介意。我吃过的最好的几顿饭里，有几顿是羊。
+We howl at the moon. The moon has never once howled back. Rude.	我们对着月亮嚎叫。月亮从没嚎回来过。真没礼貌。
+The pack's a family. A family that argues about who gets the leg.	狼群就是家人。为谁得到那条腿而打架的家人。
+Grr. Cold? This isn't cold. Cold is when your howl freezes and falls on your feet.	呜嗷。冷？这不叫冷。冷是你的嚎叫冻住了，掉在你脚上。
+White fur. Very good for hiding in snow. Very bad for hiding in anything else.	白毛。藏在雪里很好用。藏在别的地方都很糟。
+I lead the pack. Mostly I lead it to arguments about the leg.	我领导狼群。大多数时候是领着大家为那条腿吵架。
+Grr. Being in charge is all howling and no thanks.	呜嗷。当头狼全是嚎叫，没人说谢谢。
+Grumph. I was asleep. For four months. I was having a lovely time.	呼噜。我在睡觉。睡了四个月。睡得很好。
+Honey is the best thing in the world. Bees are the worst. It's a hard life.	蜂蜜是世界上最好的东西。蜜蜂是最坏的东西。日子难过啊。
+Everyone runs when they see me. I only wanted to say hello. And maybe eat their lunch.	大家看见我都跑。我只是想打个招呼。顺便吃个午饭。
+Squeak. The cellar's ours. The humans just store things in it for us.	吱吱。地窖是我们的。人类只是替我们往里面放东西。
+I'm not dirty. I wash six times a day. The cellar's dirty. Different thing.	我不脏。我一天洗六次。脏的是地窖。那是两回事。
+Cheese is a lie made up by people who've never met a rat. Give me bread.	奶酪是没见过老鼠的人编的谎话。给我面包。
+Squeak. I'm not upside down. You're upside down.	吱。不是我倒挂着。是你倒过来了。
+I see by shouting at things and listening for the echo. Very rude, I know. It works.	我靠对着东西尖叫、听回声来看。很没礼貌，我知道。我照样这么做。
+Oh! Hello! I was a caterpillar last month. I don't want to talk about it.	哦！你好！上个月我还是条毛毛虫。我不想谈这个。
+Flower. Flower. Flower. Oh, that one's a hat. Flower.	花。花。花。哦，那是一顶帽子。花。
+I'm blue. On purpose. The brown ones say I'm showing off. I am showing off.	我是蓝色的。故意的。棕色的那些说我爱炫耀。我就是爱炫耀。
 Time's up! You snap back into your own body.	时间到了！你弹回了自己的身体。
 Vanish	隐身
 You fade away to a shimmer. No monster will see you for {1} seconds, unless you strike or cast.	你淡化成一道微光。{1} 秒内没有怪物能看见你，除非你攻击或施法。
@@ -8136,7 +8169,7 @@ Origin	来源
 Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}，Python {2}，运行于 {3}
 Sent by: {1}	发送者：{1}
 Playing ({1} of {2}):	正在游玩（{1} / {2}）：
-Your friend {1} has left Ashen.	你的好友 {1} 离开了 Ashen。
+Your friend {1} has left Galmere.	你的好友 {1} 离开了 Galmere。
 1 minute	1 分钟
 Only an admin or the host can do that.	只有管理员或主持者能这样做。
 /maintenance minutes [why] (0 to {1}), or /maintenance off	/maintenance 分钟数 [原因]（0 到 {1}），或 /maintenance off
@@ -8147,7 +8180,7 @@ Friends by account are kept by the central server: come in from the start screen
 Your Hallisium account is banned.	你的 Hallisium 账号已被封禁。
 This game isn't joined to the central server.	这个游戏没有连接到中央服务器。
 {1} is here now.	{1} 现在在这里。
-Your friend {1} has come into Ashen.	你的好友 {1} 来到了 Ashen。
+Your friend {1} has come into Galmere.	你的好友 {1} 来到了 Galmere。
 Who? {1} Name	谁？{1} 名字
 {1} may play again.	{1} 可以重新游玩了。
 {1} has left the game.	{1} 离开了游戏。
@@ -8978,7 +9011,7 @@ Sign in to see the public servers.	登录后才能看到公共服务器。
 A moment...	请稍候...
 The central server didn't answer.	中央服务器没有回应。
 Welcome back, {1}.	欢迎回来，{1}。
-Welcome to Ashen, {1}!	欢迎来到 Ashen，{1}！
+Welcome to Galmere, {1}!	欢迎来到 Galmere，{1}！
 We've emailed you a link. Confirm your email with it to join a game: it's also the only way back in if you forget your password.	我们已给你发送了一个链接。用它确认你的邮箱后才能加入游戏：如果你忘记密码，这也是找回账号的唯一途径。
 This server can't send email just now. Confirm your email from your account once it can, to join a game: it's also the only way back in if you forget your password.	此服务器现在无法发送邮件。等它可以时，请在你的账号中确认邮箱，才能加入游戏：如果你忘记密码，这也是找回账号的唯一途径。
 Carry on	继续

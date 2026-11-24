@@ -33,14 +33,16 @@ CAMP = "2,2,0"
 LOOKOUTS = (((10, 6), "N", 8, 1), ((14, 8), "N", 6, 2))  # (by the chest, and by the west tents: both watch the gate)
 FAR = [("@far",), ("Display.Message", "DarkRed", "You are too far away!", "Denied"), ("End",)]
 
-ORDER = ("A scrap of good paper, folded small, in a careful hand:\\There is a woman on the Isle who came from Galaith "
-         "the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's "
-         "papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\\No name under it. "
-         "Only a hand, pressed in ash.")
-LEDGER = ("A little ledger bound in black, in a careful hand: Shards in, Shards out. Two lines are marked with a "
-          "thumbprint of ash:\\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's "
-          "name. They took the old man, and nothing came of it.'\\And newer, the ink still dark: 'The child has crossed "
-          "the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'")
+ORDER = ("A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\\There "
+         "is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned "
+         "seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and "
+         "the Shards are yours.\\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught "
+         "fire.")
+LEDGER = ("A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles "
+          "(black)'. Two lines are marked with a thumbprint of ash:\\'To the hobgoblins on the Isle, forty Shards, for "
+          "the woman's papers and the child's name. They took the old man, and nothing came of it.'\\And newer, the "
+          "ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond "
+          "the wall is waiting.'\\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'")
 CHARM = ("Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to "
          "it:\\Velvet paw and whisker-wise,\\see the house with Jimmy's eyes.\\And under it: For my little one, when "
          "it's time. Jimmy knows where.")

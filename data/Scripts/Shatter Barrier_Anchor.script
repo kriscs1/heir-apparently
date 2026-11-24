@@ -7,7 +7,7 @@
 06	End
 07	>Got.Item	Staff_of_Ashen	1	24
 08	Toggle.User.Input	OFF
-09	Display.Message	Cyan	You raise the Staff of Ashen and speak Bert's words of Unbinding at the anchor..	-
+09	Display.Message	Cyan	You raise the Staff of Galmere and speak Bert's words of Unbinding at the anchor..	-
 10	Play.Sound	SpellCast
 11	Wait	2
 12	Remove.Entity	640,288	Barrier_Anchor
@@ -22,7 +22,7 @@
 21	Display.Message	Red	A voice like a landslide, inside your head: 'The little heir, in my own cellar. Break what you like. My faithful Hand has fed me Shards through that wall, crumb by crumb, since the day it went up, and the sword you won is fast asleep.'	-
 22	Toggle.User.Input	ON
 23	End
-24	Display.Message	DarkRed	Your bare hands won't break it: it needs the Staff of Ashen.	Denied
+24	Display.Message	DarkRed	Your bare hands won't break it: it needs the Staff of Galmere.	Denied
 25	End
 26	Display.Message	DarkRed	You are too far away!	Denied
 27	End
