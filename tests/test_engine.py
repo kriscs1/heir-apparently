@@ -867,7 +867,7 @@ def test_shop_stock_varies_below_the_rack(world, monkeypatch):
 
 def test_a_cart_goes_round_its_stops_and_takes_you_to_one(world):
     carts = world.carts
-    c = next(c for c in carts.carts if c.key == "Northport")
+    c = next(c for c in carts.carts if c.key == "Drizzleport")
     e = c.e
     assert e is not None and e.alive and len(c.stops) >= 3
     m = world.map_at(c.z, e.cx, e.cy)
@@ -909,7 +909,7 @@ def test_no_spell_strikes_a_friend_or_a_cart_and_a_cart_waits_for_one_wave(world
     """A bolt held ready isn't for a villager, a cat or the cart; a cart somehow gone comes back; a hail holds it once
     a while, never for ever."""
     carts = world.carts
-    c = next(c for c in carts.carts if c.key == "Northport")
+    c = next(c for c in carts.carts if c.key == "Drizzleport")
     m = world.map_at(c.z, c.e.cx, c.e.cy)
     s = join(world, "Bolter", m.name, int(c.e.cx - m.ox), int(c.e.y + c.e.h - m.oy) + 4)
     villager = world.add_npc("Villager", s.player.z, s.player.x + 40, s.player.y, "")
@@ -944,20 +944,20 @@ def test_the_ferries_cross_together_and_carry_you_over():
     east = next(c for c in carts.carts if c.key == "Isle_Ferry_East")
     west = next(c for c in carts.carts if c.key == "Isle_Ferry_West")
     assert east.e.name == west.e.name == "Ferry_Boat" and east.timetable and east.headings == 16
-    assert east.stops[east.i] == "the Isle" and west.stops[west.i] == "Northport"     # (one at each pier)
+    assert east.stops[east.i] == "Muddlesey" and west.stops[west.i] == "Drizzleport"     # (one at each pier)
     t = world.now + 60000                         # (not cast off mid-test: a minute's room, the world's clock being real time)
     east.wait_until, west.wait_until = carts.leave_time(east, t), carts.leave_time(west, t)
     assert east.wait_until == west.wait_until and east.wait_until % 45000 == 0        # (they cast off together)
     e = east.e
     m = world.maps["3,2,0"]
-    s = join(world, "Passenger", "3,2,0", 14 * 32, 13 * 32 + 24)                   # (at the end of the Isle's pier)
+    s = join(world, "Passenger", "3,2,0", 14 * 32, 13 * 32 + 24)                   # (at the end of Muddlesey's pier)
     s.connected = True
     stock(s, **{"Gold_Coin(s)": 5})
     s.out = []
     s.choose_verb("Get In", e, e.cx, e.cy)
     for _ in range(5):
         world.tick(0.05)
-    assert s.ride is None and "To Northport." not in s.responses                  # (no papers yet: not for you,
+    assert s.ride is None and "To Drizzleport." not in s.responses                  # (no papers yet: not for you,
     assert s.ab_mode == "Conversation" and "papers" in s.ab_text.lower()          #  and Wim says why, in a talk)
     assert not any(ev.get("t") == "msg" and "Papers first" in ev.get("text", "") for ev in s.out)
     s.close_action_box(-1)
@@ -969,8 +969,8 @@ def test_the_ferries_cross_together_and_carry_you_over():
     s.choose_verb("Get In", e, e.cx, e.cy)
     for _ in range(5):
         world.tick(0.05)
-    assert s.ab_mode == "Conversation" and "To Northport." in s.responses
-    s.action_box_response_chosen(s.responses.index("To Northport.") + 1)
+    assert s.ab_mode == "Conversation" and "To Drizzleport." in s.responses
+    s.action_box_response_chosen(s.responses.index("To Drizzleport.") + 1)
     assert s.ride is east and s.items_held("Gold_Coin(s)") == 4
     assert east.wait_until == west.wait_until                                     # (no hurrying a timetable)
     heading = east.heading
@@ -982,7 +982,7 @@ def test_the_ferries_cross_together_and_carry_you_over():
         if s.ride is None:
             break
     s.keyboard_direction = 0
-    assert s.ride is None and east.stops[east.i] == "Northport" and turned        # (it turned as it went)
+    assert s.ride is None and east.stops[east.i] == "Drizzleport" and turned        # (it turned as it went)
     assert s.cur_map.name in ("4,4,0", "4,3,0")
     t = s.cur_map
     assert world.entity_can_stand(s.player, s.player.x, s.player.y, s.player.x, s.player.y, s)  # (on the pier, not the sea)
@@ -1005,7 +1005,7 @@ def test_a_connection_lost_at_sea_comes_back_on_the_pier():
     s.choose_verb("Get In", e, e.cx, e.cy)
     for _ in range(5):
         world.tick(0.05)
-    s.action_box_response_chosen(s.responses.index("To Northport.") + 1)
+    s.action_box_response_chosen(s.responses.index("To Drizzleport.") + 1)
     assert s.ride is east
     stood = lambda p: world.pixel_walkable(p.z, p.fx, p.fy, s)
     for _ in range(4000):                                   # (out in the strait, the water all round)
@@ -1013,7 +1013,7 @@ def test_a_connection_lost_at_sea_comes_back_on_the_pier():
         if east.t and not stood(s.player):
             break
     assert s.ride is east and not stood(s.player)
-    st = s.save_state()                                     # (saved as it sails: at Northport's pier)
+    st = s.save_state()                                     # (saved as it sails: at Drizzleport's pier)
     assert st["map"] in ("4,4,0", "4,3,0")
     leave(world, s)                                         # (gone mid-crossing: set down there too)
     assert s.ride is None and stood(s.player) and s.cur_map.name in ("4,4,0", "4,3,0")
@@ -1035,8 +1035,8 @@ def test_the_ferry_comes_back_to_where_it_left(world):
     carts = world.carts
     east = next(c for c in carts.carts if c.key == "Isle_Ferry_East")
     west = next(c for c in carts.carts if c.key == "Isle_Ferry_West")
-    isle = lambda c: next(c.pts[i] for i, n in c.stops.items() if n == "the Isle")
-    port = lambda c: next(c.pts[i] for i, n in c.stops.items() if n == "Northport")
+    isle = lambda c: next(c.pts[i] for i, n in c.stops.items() if n == "Muddlesey")
+    port = lambda c: next(c.pts[i] for i, n in c.stops.items() if n == "Drizzleport")
     assert isle(east) == isle(west) and port(east) == port(west)
     assert east.pts[0] == isle(east) and east.pts[-1] == port(east)          # (there, and back the same way)
     assert not any(ln.startswith("StaticObject	Boat002	") for ln in open(
@@ -1078,7 +1078,7 @@ def test_look_is_kept_and_shown_to_others(world):
 
 
 def test_pvp_only_on_the_arena_sand(world):
-    a, b = join(world, "Ned"), join(world, "Ola")                 # in Ashford's neighbour: no fighting
+    a, b = join(world, "Ned"), join(world, "Ola")                 # in Puddleford's neighbour: no fighting
     assert "Attack" not in a.get_verbs(b.player)
     assert not a.pvp_ok(b)
     # the arena: on the paving, still safe; on the sand, fair game
@@ -1147,7 +1147,7 @@ def test_the_pvp_badge_says_open_ground_or_safe_and_only_while_its_on(world):
     (a,) = open_pair(world, "Wren")
     try:
         assert a.me_state()["pvp"] == 2                             # (out in the wild: you can be fought)
-        for safe in ("1,1,0", "21,4,-10"):                         # (the Isle's a town; the Shardrealm)
+        for safe in ("1,1,0", "21,4,-10"):                         # (Muddlesey's a town; the Shardrealm)
             a.dirty_me = False
             a.teleport(safe, 300, 300)
             a.do_pending_map_change()
@@ -1180,7 +1180,7 @@ def test_open_pvp_is_outside_towns_within_a_level_gap_and_never_a_party(world):
     world.open_pvp = True
     try:
         assert a.pvp_ok(b) and b.pvp_ok(a) and "Attack" in a.get_verbs(b.player)
-        for safe in ("1,1,0", "21,4,-10"):                         # (the Isle's a town; the Shardrealm)
+        for safe in ("1,1,0", "21,4,-10"):                         # (Muddlesey's a town; the Shardrealm)
             b.teleport(safe, 300, 300)
             b.do_pending_map_change()
             a.teleport(safe, 326, 300)
@@ -1467,7 +1467,7 @@ def test_the_settlers_quest_gives_the_crystal(world):
 
     talk(1)
     assert s.get_attribute("HomeQuest") in ("", "0")                 # not before the ferry
-    s.update_attribute("Passage", "=12")                           # (the Isle's quests done)
+    s.update_attribute("Passage", "=12")                           # (Muddlesey's quests done)
     assert talk(1)[0] == "I'll do it!"
     assert s.get_attribute("HomeQuest") == "1"
     stock(s, Plank=10, Stone_Block=4)
@@ -1504,7 +1504,7 @@ def test_each_home_keeps_its_own_land(world):
 
 def test_the_market_is_one_for_everyone(world):
     boards = [e for e in world.ents if e.name == "Market_Board"]
-    assert len(boards) >= 5                                       # (Ashford's market and every shardstone town)
+    assert len(boards) >= 5                                       # (Puddleford's market and every shardstone town)
     ash, far = boards[0], boards[-1]
     ma, mf = world.maps[ash.map], world.maps[far.map]
     seller = join(world, "Seller", ma.name, int(ash.x - ma.ox), int(ash.y - ma.oy + 40))
@@ -1620,10 +1620,10 @@ def test_what_you_dig_up_depends_on_where(world):
     chance, finds = s.dig_finds(world.maps["2,19,0"])                 # (the desert: its own finds, nothing else)
     names = {f[0] for f in finds}
     assert chance == 9 and "Glass" in names and "Potato_Seed" not in names
-    chance, finds = s.dig_finds(world.maps["1,1,0"])                 # (the Isle: worms as well as the usual)
+    chance, finds = s.dig_finds(world.maps["1,1,0"])                 # (Muddlesey: worms as well as the usual)
     names = {f[0] for f in finds}
     assert chance == 12 and {"Bait", "Gold_Coin(s)", "Potato_Seed"} <= names
-    chance, finds = s.dig_finds(world.maps["11,-3,0"])                 # (Ashford: the usual)
+    chance, finds = s.dig_finds(world.maps["11,-3,0"])                 # (Puddleford: the usual)
     assert chance == 7 and "Bait" not in {f[0] for f in finds}
     leave(world, s)
 
@@ -1655,16 +1655,16 @@ def test_tools_wear_out_and_a_broken_one_wont_do(world):
 
 def test_a_wave_attack_comes_in_waves_and_rewards_the_defenders(world):
     waves = world.waves
-    assert "Ashford_Raid" in waves.defs and "Farm_Raid" in waves.defs
-    d = waves.defs["Ashford_Raid"]
+    assert "Puddleford_Raid" in waves.defs and "Farm_Raid" in waves.defs
+    d = waves.defs["Puddleford_Raid"]
     m = world.maps[d["map"]]
     s = join(world, "Defender", m.name, 384, 300)
     s.god_mode = 1
     gold = s.items_held("Gold_Coin(s)")
-    assert waves.start("Ashford_Raid") and not waves.start("Ashford_Raid")
+    assert waves.start("Puddleford_Raid") and not waves.start("Puddleford_Raid")
     for n in range(len(d["waves"])):
         world.tick(0.05, now=world.now + 1000)
-        r = waves.running["Ashford_Raid"]
+        r = waves.running["Puddleford_Raid"]
         assert r["wave"] == n and r["uids"]
         assert any(e.get("t") == "wave" and e.get("wave") == n + 1 for e in s.out)
         for u in list(r["uids"]):                                 # the defender kills this wave
@@ -1674,7 +1674,7 @@ def test_a_wave_attack_comes_in_waves_and_rewards_the_defenders(world):
                 world.remove_entity(e)
         world.tick(0.05, now=world.now + 600)
         world.tick(0.05, now=world.now + 60000)                   # (the gap before the next wave)
-    assert "Ashford_Raid" not in waves.running
+    assert "Puddleford_Raid" not in waves.running
     assert s.items_held("Gold_Coin(s)") > gold + int(d["reward.gold"])   # (the reward, and gold for each kill)
     leave(world, s)
 
@@ -1683,19 +1683,19 @@ def test_every_town_has_a_surprise_raid_that_waits_for_someone_there(world):
     """build_town_raids.py: a raid for every town; waves.py: a surprise one comes while someone's there to meet it."""
     waves = world.waves
     assert len([k for k in waves.defs if k.endswith("_Raid")]) >= 13
-    assert {"Northport_Raid", "Keep_Raid", "Frosthold_Raid", "Dunerest_Raid"} <= set(waves.defs)
+    assert {"Drizzleport_Raid", "Keep_Raid", "Chillingham_Raid", "Dunerest_Raid"} <= set(waves.defs)
     a, b = join(world, "Far_Away", "1,1,0", 300, 300), join(world, "Far_Away_Too", "1,1,0", 340, 300)
     for k in waves.defs:
         waves.next_random[k] = world.now + 10 ** 9
-    waves.next_random["Northport_Raid"] = world.now - 1
+    waves.next_random["Drizzleport_Raid"] = world.now - 1
     waves.random_attacks()
-    assert "Northport_Raid" not in waves.running                    # (nobody in Northport: it waits)
-    assert waves.next_random["Northport_Raid"] > world.now
-    s = join(world, "Northporter", waves.defs["Northport_Raid"]["map"], 384, 300)
-    waves.next_random["Northport_Raid"] = world.now - 1
+    assert "Drizzleport_Raid" not in waves.running                    # (nobody in Drizzleport: it waits)
+    assert waves.next_random["Drizzleport_Raid"] > world.now
+    s = join(world, "Northporter", waves.defs["Drizzleport_Raid"]["map"], 384, 300)
+    waves.next_random["Drizzleport_Raid"] = world.now - 1
     waves.random_attacks()
-    assert "Northport_Raid" in waves.running
-    waves.finish("Northport_Raid", waves.running["Northport_Raid"], False)
+    assert "Drizzleport_Raid" in waves.running
+    waves.finish("Drizzleport_Raid", waves.running["Drizzleport_Raid"], False)
     for who in (a, b, s):
         leave(world, who)
 
@@ -1703,14 +1703,14 @@ def test_every_town_has_a_surprise_raid_that_waits_for_someone_there(world):
 def test_the_towns_gone_and_moved_and_their_quests_with_them(world):
     """remove_towns.py, move_keep.py, move_ashford.py, build_manors.py: what the quests name is where they say."""
     place = world.data.place
-    for gone in ("Fenwick_Square", "Highwatch_Square", "Ravensgate_Square"):
+    for gone in ("Fenwick_Square", "Squintwatch_Square", "Crowgate_Square"):
         assert place(gone) is None, gone
-    for pid in ("Saltmarsh_Elder", "Frosthold_Captain", "Keep_Gravekeeper", "Granny_Bramble", "Rooks_Pier",
+    for pid in ("Brinebottom_Elder", "Chillingham_Captain", "Keep_Gravekeeper", "Granny_Bramble", "Rooks_Pier",
                 "Drowned_Abbey", "Fenmoor_Hall", "Redrock_Manor", "Mire_Tunnel_East", "Mire_Tunnel_West"):
         assert place(pid) is not None, pid
     assert place("Kings_Solar").map == "26,18,1" and place("Keep_Square").map == "25,18,0"
-    assert place("Ashford_Square").map == "12,-2,0" and world.maps.get("12,-6,0") is not None
-    assert place("Granny_Bramble").map == place("Thornwick_Square").map
+    assert place("Puddleford_Square").map == "12,-2,0" and world.maps.get("12,-6,0") is not None
+    assert place("Granny_Bramble").map == place("Nettlewick_Square").map
 
 
 def test_redrock_manor_is_a_maze_of_ladders_and_stairs(world):
@@ -1951,7 +1951,7 @@ def test_a_chest_shows_what_is_in_it_before_it_is_yours(world):
     m = world.maps[chest.map]
     s = join(world, "Looter", m.name, int(chest.x - m.ox), int(chest.y - m.oy + 36))
     gold = s.items_held("Gold_Coin(s)")
-    s.unlocked_chests.add(s.chest_key(chest))                       # (the Isle's chests are locked: picked already)
+    s.unlocked_chests.add(s.chest_key(chest))                       # (Muddlesey's chests are locked: picked already)
     s.do_action("Open", chest)
     for _ in range(10):
         world.tick(0.05)
@@ -2239,7 +2239,7 @@ def tap(s, ms):
 
 
 def isle_helpers(world, s):
-    """run, npc, talk and use for a test that plays through the Isle's quests (time jumps on as it runs)."""
+    """run, npc, talk and use for a test that plays through Muddlesey's quests (time jumps on as it runs)."""
     def run(ticks=30, ms=50):
         for _ in range(ticks):
             world.tick(0.05, now=world.now + ms)
@@ -2592,18 +2592,18 @@ def test_the_towns_are_the_size_they_were_asked_to_be(world):
     import re
     ids = [e.npc_id for e in world.ents if e.npc_id]
     count = lambda town, who: len([i for i in ids if re.fullmatch(r"%s_%s_\d+" % (town, who), i)])
-    for town in ("Northport", "Keep", "Court"):
+    for town in ("Drizzleport", "Keep", "Court"):
         assert count(town, "Barkeep") == 5, town                       # (five taverns)
         assert count(town, "Doctor") == 1, town                        # (a hospital)
-    assert count("Northport", "Speaker") == 1 and count("Northport", "Constable") == 1     # (Parliament; police)
-    for town in ("Frosthold", "Oakhollow", "Thornwick", "Emberwatch"):
+    assert count("Drizzleport", "Speaker") == 1 and count("Drizzleport", "Constable") == 1     # (Parliament; police)
+    for town in ("Chillingham", "Acornby", "Nettlewick", "Emberwatch"):
         assert count(town, "Sheriff") == 1 and count(town, "Doctor") == 1, town
-    for town in ("Greyford", "Dunerest", "Wildwood", "Saltmarsh"):
+    for town in ("Dullford", "Dunerest", "Wildwood", "Brinebottom"):
         assert count(town, "Barkeep") == 1, town                       # (a hamlet: its pub)
 
 
 def test_a_tavern_has_a_room_for_the_night(world):
-    bar = next(e for e in world.ents if (e.npc_id or "").startswith("Northport_Barkeep_"))
+    bar = next(e for e in world.ents if (e.npc_id or "").startswith("Drizzleport_Barkeep_"))
     m = world.maps[bar.map]
     s = join(world, "Lodger2", bar.map, int(bar.x - m.ox), int(bar.y - m.oy) + 40)
     s.connected = True
@@ -2625,7 +2625,7 @@ def test_a_character_from_before_the_heirs_story(world):
     assert [done.quest_done(q) for q in ("LastWill", "DinnerQuest", "AmuletQuest", "Passage")] == [True] * 4
     half = Session(world, "Halfway")
     half.load_state({"map": "2,0,0", "x": 300, "y": 300, "attributes": [["Passage", "7"]]})
-    assert half.get_attribute("Passage") == "0" and half.quest_done("LastWill")      # (the Isle again, after the letter)
+    assert half.get_attribute("Passage") == "0" and half.quest_done("LastWill")      # (Muddlesey again, after the letter)
     assert not half.quest_done("Passage")
 
 
@@ -2636,8 +2636,8 @@ def test_a_save_from_before_greyford_had_its_name(world):
                   "attributes": [["Passage", "12"], ["Waystone.Moorcross", "1"], ["Zone_Chest_Dustlands", "1"],
                                          ["Secret_Sallowcross_2", "1"]],
                   "quest_notes": [["Wolves of the Moor", 0, "Slay six wolves on Greymoor."]]})
-    assert s.get_attribute("Waystone.Greyford") == "1" and s.get_attribute("Zone_Chest_Sallow_Waste") == "1"
-    assert s.get_attribute("Secret_Greyford_2") == "1"
+    assert s.get_attribute("Waystone.Dullford") == "1" and s.get_attribute("Zone_Chest_Sallow_Waste") == "1"
+    assert s.get_attribute("Secret_Dullford_2") == "1"
     assert s.quest_notes[0][0] == "Wolves of the Greyflats" and "Wolves of the Greyflats" in [q for q, _ in world.data.quest_table()]
 
 def test_sneaking_past_the_smugglers(world):
@@ -2673,7 +2673,7 @@ def test_the_smugglers_run(world, monkeypatch):
     monkeypatch.setattr(world, "npc_sees", lambda e, a, s, d: False)   # (a perfect sneak, for the test)
     s = join(world, "Spy", "21,5,0", 10 * 32, 17 * 32)
     s.connected = True
-    s.update_attribute("Passage", "=12")                           # (off the Isle: the ferry's been taken)
+    s.update_attribute("Passage", "=12")                           # (off Muddlesey: the ferry's been taken)
     attr = lambda: int(float(s.get_attribute("SmugglerQuest") or 0))
 
     def run(ticks=30, ms=0):
@@ -2762,7 +2762,7 @@ def test_sending_holt_to_the_wrong_cove_and_under_the_tide(world):
     smugglers_talk(world, s, "Red_Meg", 2)                          # "I'll send Holt to the wrong cove."
     assert s.get_attribute("SmugglerQuest") == "3" and s.get_attribute("SmugglerSide") == "1"
     assert s.side_attitudes.get("SMUGGLERS") == "Good"
-    for pid in ("Meg_Cot", "Meg_Stash", "Meg_Tunnel_Cove", "Meg_Tunnel_Ashford"):
+    for pid in ("Meg_Cot", "Meg_Stash", "Meg_Tunnel_Cove", "Meg_Tunnel_Puddleford"):
         assert world.placed_entity(pid, s) is not None, pid
     other = join(world, "Bystander", "21,5,0", 10 * 32, 17 * 32)
     assert world.placed_entity("Meg_Cot", other) is None            # (hers to you alone)
@@ -2774,7 +2774,7 @@ def test_sending_holt_to_the_wrong_cove_and_under_the_tide(world):
     assert s.get_attribute("SmugglerQuest") == "4" and s.items_held("Gold_Coin(s)") == gold + 60
     assert s.standing("Court") == -5                                # (-15, and the quest's own 10)
     assert "Under the Tide" in names() and "The Tide Turns" not in names()
-    trap = world.placed_entity("Meg_Tunnel_Cove", s)                # Meg's tunnel, to Ashford's fields
+    trap = world.placed_entity("Meg_Tunnel_Cove", s)                # Meg's tunnel, to Puddleford's fields
     m = world.maps[trap.map]
     s.teleport(trap.map, int(trap.x - m.ox) + 20, int(trap.y - m.oy))
     run_for(world, 5)
@@ -2945,7 +2945,7 @@ def test_up_to_the_chapel_loft_and_its_bell(world):
 
 
 def test_the_ferry_runs_at_night(world):
-    s = join(world, "NightOwl", "3,2,0", 14 * 32, 13 * 32)          # (on the Isle's pier)
+    s = join(world, "NightOwl", "3,2,0", 14 * 32, 13 * 32)          # (on Muddlesey's pier)
     day = world.day_fraction()
     world.set_day_fraction(0.95)                                    # (deep in the night: townsfolk go home)
     for _ in range(100):
@@ -2962,7 +2962,7 @@ def test_hens_do_not_keep_you_awake(world):
     hens = [e for e in world.ents if e.name == "Chicken" and e.map == "2,0,0" and e.alive]
     assert hens and any(world.hostile_for(e, s) for e in hens)       # (you may chase them...)
     s.player_last_combat = 0
-    wild = [e for e in world.ents if e.name == "Wolf" and e.alive]   # (the Isle's own wolves, out of it for this)
+    wild = [e for e in world.ents if e.name == "Wolf" and e.alive]   # (Muddlesey's own wolves, out of it for this)
     for e in wild:
         e.alive = False
     assert "enemies" not in s.sleep_refusal()                        # (...but they're no reason not to sleep)
@@ -3139,9 +3139,9 @@ def test_the_admin_panel_goes_anywhere_and_runs_any_command(world):
     s.admin_command({"do": "goto", "place": village})
     world.tick(0.05)
     assert s.cur_map.name == "1,1,0"
-    s.admin_command({"do": "goto", "place": "Waystone_Ashford"})
+    s.admin_command({"do": "goto", "place": "Waystone_Puddleford"})
     for _ in range(5):
-        world.tick(0.05)                                             # (Ashford's own script, as you arrive)
+        world.tick(0.05)                                             # (Puddleford's own script, as you arrive)
     assert s.cur_map.name == "11,-3,0" and not s.script_running
     s.out = []
     s.admin_command({"do": "commands"})
@@ -3205,10 +3205,10 @@ def test_a_bolts_higher_ranks_look_their_own(world):
 
 
 def test_walking_granny_wren_to_her_daughter(world):
-    s = join(world, "Guide", "4,4,0", 13 * 32, 9 * 32)              # (Northport's landing)
+    s = join(world, "Guide", "4,4,0", 13 * 32, 9 * 32)              # (Drizzleport's landing)
     s.connected = True
-    s.update_attribute("Passage", "=5")                              # (over from the Isle: it can start)
-    s.update_attribute("ParliamentQuest", "=2")                      # (the Parliament has spoken: Northport's gates are open)
+    s.update_attribute("Passage", "=5")                              # (over from Muddlesey: it can start)
+    s.update_attribute("ParliamentQuest", "=2")                      # (the Parliament has spoken: Drizzleport's gates are open)
     for _ in range(10):
         world.tick(0.05)
     granny = world.placed_entity("Granny_Wren", s)
@@ -3230,7 +3230,7 @@ def test_walking_granny_wren_to_her_daughter(world):
                not bm.roof[bm.cell(x, y)] and any(bm.tile_is_water(x + dx, y + dy)
                                                   for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1)))]   # (a bridge)
     bridge = min(bridges, key=lambda b: abs(b[0] - (s.player.cx + door[0]) / 2) + abs(b[1] - door[1]))
-    up_the_peninsula = [(gx * 32 + 16, gy * 32 + 16) for gx, gy in ((309, 80), (316, 40), (316, 0))]   # (to Ashford, north)
+    up_the_peninsula = [(gx * 32 + 16, gy * 32 + 16) for gx, gy in ((309, 80), (316, 40), (316, 0))]   # (to Puddleford, north)
     legs = [bridge] + up_the_peninsula + [door]                      # (along the road: over the river's bridge)
     for _ in range(12000):                                           # (a long road: the guide waits for her)
         behind = distance(granny.cx, granny.cy, s.player.cx, s.player.cy)
@@ -3288,8 +3288,8 @@ def test_the_guards_kills_count_and_whoever_fought_is_rewarded(world):
     waves = world.waves
     s = join(world, "Fighter", "11,-3,0", 10 * 32, 12 * 32)
     s.god_mode = True
-    assert waves.start("Ashford_Raid")
-    r = waves.running["Ashford_Raid"]
+    assert waves.start("Puddleford_Raid")
+    r = waves.running["Puddleford_Raid"]
     gold = s.items_held("Gold_Coin(s)")
     for _ in range(20):
         for u in list(r["uids"]):
@@ -3297,16 +3297,16 @@ def test_the_guards_kills_count_and_whoever_fought_is_rewarded(world):
             s.damage_npc(e, 1)                                       # (a blow from the player...)
             world.npc_killed_by_npc(e)                               # (...and the guards finish it)
         world.tick(0.05, now=world.now + 13000)
-        if "Ashford_Raid" not in waves.running:
+        if "Puddleford_Raid" not in waves.running:
             break
-    assert "Ashford_Raid" not in waves.running and r["kills"] == {}  # (won, though the guards made every kill)
+    assert "Puddleford_Raid" not in waves.running and r["kills"] == {}  # (won, though the guards made every kill)
     assert s.items_held("Gold_Coin(s)") >= gold + 60                 # (and the player who fought is paid)
     leave(world, s)
 
 
 def test_mo_sits_for_a_portrait_only_when_sitting(world):
     from dsengine.entity import AI_IDLE, AI_ROAM
-    ottilie = next(e for e in world.ents if e.npc_id == "Ashford_Painter")   # (not the court painter in Galaith)
+    ottilie = next(e for e in world.ents if e.npc_id == "Puddleford_Painter")   # (not the court painter in Galaith)
     pm = world.maps[ottilie.map]
     s = join(world, "Patron", ottilie.map, int(ottilie.x - pm.ox), int(ottilie.y - pm.oy + 40))   # (by her easel)
     s.connected = True
@@ -3316,7 +3316,7 @@ def test_mo_sits_for_a_portrait_only_when_sitting(world):
     s.update_attribute("Passage", "=5")
     for _ in range(5):
         world.tick(0.05)
-    painter = world.placed_entity("Ashford_Painter", s)
+    painter = world.placed_entity("Puddleford_Painter", s)
     mo = world.placed_entity("Mo", s)
     attr = lambda: s.get_attribute("PortraitQuest")
 
@@ -3440,7 +3440,7 @@ def test_every_player_finds_a_chests_loot(world):
     for s in (a, b, a):
         s.connected = True
         s.out = []
-        s.unlocked_chests.add(s.chest_key(chest))                   # (the Isle's chests are locked: picked already)
+        s.unlocked_chests.add(s.chest_key(chest))                   # (Muddlesey's chests are locked: picked already)
         s.choose_verb("Open", chest, int(chest.cx), int(chest.cy))
         for _ in range(60):
             world.tick(0.05)
@@ -3546,11 +3546,11 @@ def test_a_racks_search_finds_across_its_pages(world, monkeypatch):
 
 
 def test_quests_wait_for_the_mainland_and_mark_their_giver(world):
-    """A quest given off the Isle needs the ferry first; one not begun is marked where its own giver stands."""
+    """A quest given off Muddlesey needs the ferry first; one not begun is marked where its own giver stands."""
     import re
     s = join(world, "Planner")
     text = open(os.path.join(ROOT, "data", "Quests.ini"), encoding="cp1252").read()
-    on_isle = lambda mp: int(mp.split(",")[0]) <= 4 and int(mp.split(",")[1]) <= 2      # (the Isle's maps)
+    on_isle = lambda mp: int(mp.split(",")[0]) <= 4 and int(mp.split(",")[1]) <= 2      # (Muddlesey's maps)
     for m in re.finditer(r"(?ms)^\[([^\]]+)\]\s*\n(.*?)(?=^\[|\Z)", text):
         name, body = m.group(1), m.group(2)
         get = lambda k: (re.search(r"(?m)^%s=(.*)$" % re.escape(k), body) or [None, ""])[1].strip()
@@ -3559,7 +3559,7 @@ def test_quests_wait_for_the_mainland_and_mark_their_giver(world):
         if not get("Marker0"):
             assert len(givers) == 1, "%s: %d NPCs called %s - give it a Marker0" % (name, len(givers), giver)
         if name != "Passage to the Mainland" and not get("Requires.Quests"):
-            assert givers and all(on_isle(e.map) for e in givers), "%s is given off the Isle" % name
+            assert givers and all(on_isle(e.map) for e in givers), "%s is given off Muddlesey" % name
     leave(world, s)
 
 
@@ -3750,14 +3750,14 @@ def test_clearing_the_wardhaven_bridge_opens_its_gates(world):
     s.connected = True
     s.god_mode = 1
     run, npc, talk, use = isle_helpers(world, s)
-    story_done_before(s, 7)                                          # (The Ashford Road done)
-    attr = lambda: int(float(s.get_attribute("WardhavenQuest") or 0))
-    mayor = next(e for e in world.ents if e.npc_id == "Ashford_Clerk_13")
+    story_done_before(s, 7)                                          # (The Puddleford Road done)
+    attr = lambda: int(float(s.get_attribute("SulkhavenQuest") or 0))
+    mayor = next(e for e in world.ents if e.npc_id == "Puddleford_Clerk_13")
     talk(mayor, 1)                                                   # "I'll clear the bridge."
     assert attr() == 1
-    gate = world.data.place("Wardhaven_Gate")
+    gate = world.data.place("Sulkhaven_Gate")
     m = world.maps[gate.map]
-    lock = next(lk for lk in m.locks if "WardhavenQuest" in lk.condition)
+    lock = next(lk for lk in m.locks if "SulkhavenQuest" in lk.condition)
     assert s.lock_closed(m, lock)                                    # (barred till it's done)
     near = lambda name: [e for e in world.ents if e.name in name and e.map == gate.map and e.alive and
                          world.visible_to(e, s)]
@@ -4021,18 +4021,18 @@ def test_activating_a_shardstone_costs_shards_once(world):
     a.remove_inventory_item("Shard", a.shards())
     stock(a, Shard=3)
     touch(1)                                                       # ("Activate it": but 5 are needed)
-    assert a.get_attribute("Waystone.Northport") in ("", "0") and a.shards() == 3
+    assert a.get_attribute("Waystone.Drizzleport") in ("", "0") and a.shards() == 3
     assert any(e.get("t") == "sound" and e.get("name") == "Denied" for e in a.out)
     stock(a, Shard=7)
     touch(2)                                                       # ("Leave it": nothing spent)
-    assert a.get_attribute("Waystone.Northport") in ("", "0") and a.shards() == 10
+    assert a.get_attribute("Waystone.Drizzleport") in ("", "0") and a.shards() == 10
     craft = a.skill_xp_of("Shardcraft")
     touch(1)
-    assert a.get_attribute("Waystone.Northport") == "1" and a.shards() == 5
+    assert a.get_attribute("Waystone.Drizzleport") == "1" and a.shards() == 5
     assert a.skill_xp_of("Shardcraft") > craft and ws.uid in a.me_state()["lit"]
     assert any(e.get("t") == "stones" for e in a.out)               # (and its travel map opens)
     touch()                                                        # (active: straight to the travel map)
-    assert not a.ab_mode and any(e.get("t") == "stones" and e["here"] == "Northport" for e in a.out)
+    assert not a.ab_mode and any(e.get("t") == "stones" and e["here"] == "Drizzleport" for e in a.out)
     assert a.shards() == 5 and other.shards() == theirs            # (charged once, and only them)
     assert ws.uid not in other.me_state()["lit"]
     leave(world, a)
@@ -4211,7 +4211,7 @@ def test_a_shard_remnant_nobody_fights_fades(world):
 
 def test_shard_numbers_come_from_shards_ini(world):
     a = join(world, "Counter", "11,-3,0", 384, 300)
-    assert a.shard_setting("Shardstone.Galaith") == 20 and a.shard_setting("Shardstone.Northport") == 5
+    assert a.shard_setting("Shardstone.Galaith") == 20 and a.shard_setting("Shardstone.Drizzleport") == 5
     assert a.shard_setting("Weapon", 0, "Dismantle") == 25 and a.shard_setting("Scroll", 0, "Dismantle") == 10
     assert a.upgrade_scroll("Fire_Bolt", 2) == "Fire_Bolt_Scroll_II"
     assert a.spell_ini_at("Fire_Bolt", "Damage", "", 3) == "6-12" and a.spell_ini_at("Fire_Bolt", "Range", "", 3) == "256"
@@ -4273,7 +4273,7 @@ def test_an_old_save_has_its_skills_out_of_25(world):
 
 def test_a_quest_gives_its_skill_xp_once(world):
     s = join(world, "Learner")
-    name, d = next((n, d) for n, d in s.help_read_ini("Quests.ini") if n == "The Ashford Road")
+    name, d = next((n, d) for n, d in s.help_read_ini("Quests.ini") if n == "The Puddleford Road")
     attr, done = d["ATTRIBUTE"], int(d["DONE"])
     skill = d["REWARD.XP"].split()[0]
     before = s.skill_xp_of(skill)
@@ -4360,22 +4360,22 @@ def test_a_journey_by_shardstone_costs_a_few_shards(world):
     ws = next(e for e in world.ents if e.name == "Shardstone" and e.map == m.name)
     a = join(world, "Traveller", m.name, int(ws.x - m.ox) + 40, int(ws.y - m.oy) + 8)
     a.connected = True
-    a.update_attribute("Waystone.Northport", "=1")
-    a.update_attribute("Waystone.Ashford", "=1")
+    a.update_attribute("Waystone.Drizzleport", "=1")
+    a.update_attribute("Waystone.Puddleford", "=1")
     a.remove_inventory_item("Shard", a.shards())
     stock(a, Shard=10)
     a.out = []
     a.choose_verb("Travel", ws, int(ws.cx), int(ws.cy))
     ticks(world, 40)
     st = next(e for e in a.out if e.get("t") == "stones")          # (the travel map: the stones you've activated)
-    assert {s["k"] for s in st["stones"]} == {"Northport", "Ashford"} and st["cost"] == 2
-    a.handle({"t": "stone_go", "k": "Wardhaven"})                  # (not activated: no journey)
+    assert {s["k"] for s in st["stones"]} == {"Drizzleport", "Puddleford"} and st["cost"] == 2
+    a.handle({"t": "stone_go", "k": "Sulkhaven"})                  # (not activated: no journey)
     ticks(world, 5)
     assert a.shards() == 10 and a.cur_map.name == m.name
-    a.handle({"t": "stone_go", "k": "Ashford"})
+    a.handle({"t": "stone_go", "k": "Puddleford"})
     ticks(world, 5)
     assert a.shards() == 8 and a.cur_map.name == "11,-3,0"          # (2 Shards, and there)
-    a.handle({"t": "stone_go", "k": "Northport"})                  # (not by a stone you've opened the map at)
+    a.handle({"t": "stone_go", "k": "Drizzleport"})                  # (not by a stone you've opened the map at)
     ticks(world, 5)
     assert a.shards() == 8 and a.cur_map.name == "11,-3,0"
     leave(world, a)
@@ -4508,7 +4508,7 @@ def test_the_shardgate_from_bert_to_the_broken_anchor(world):
     s = join(world, "Gatewright", bert.map, 300, 300)
     s.connected = True
     s.god_mode = True                                               # (the realm's remnants: no dying in a test)
-    for q, v in (("Passage", 12), ("ParliamentQuest", 9), ("AshfordQuest", 9), ("HobgoblinQuest", 2), ("BertQuest", 2),
+    for q, v in (("Passage", 12), ("ParliamentQuest", 9), ("PuddlefordQuest", 9), ("HobgoblinQuest", 2), ("BertQuest", 2),
                  ("ShipQuest", 2), ("DragonIsleQuest", 2), ("ValourQuest", 3), ("WizardGift", 1)):
         s.update_attribute(q, "=%d" % v)
     assert s.quest_can_start("ShardgateQuest")
@@ -4530,7 +4530,7 @@ def test_the_shardgate_from_bert_to_the_broken_anchor(world):
     assert s.get_attribute("ShardgateQuest") == "2"                 # (no stones to steady it, nothing to build with)
     assert any("shardstones active" in str(e.get("text", "")) for e in s.out)
     stock(s, Silver_Bar=4, Sapphire=2, Remnant_Core=1, Shard=40)
-    for k in ("Northport", "Ashford", "Wardhaven", "Oakhollow", "Wildwood", "Greyford", "Dunerest", "Court"):
+    for k in ("Drizzleport", "Puddleford", "Sulkhaven", "Acornby", "Wildwood", "Dullford", "Dunerest", "Court"):
         s.update_attribute("Waystone." + k, "=1")
     s.update_skill("Shardcraft", "=1")
     s.out = []
@@ -4824,7 +4824,7 @@ def test_the_deeps_chests_traps_heart_and_shifting(world, monkeypatch):
 
 
 def test_a_secret_by_the_square_is_found_once_and_counted(world):
-    stump = next(e for e in world.ents if e.npc_id == "Secret_Ashford")
+    stump = next(e for e in world.ents if e.npc_id == "Secret_Puddleford")
     s = join(world, "Snoop", stump.map, 300, 300)
     s.connected = True
     near(world, s, stump, 32, 0)
@@ -4975,7 +4975,7 @@ def test_the_mayors_trousers_were_taken_by_a_goose(world):
     s = join(world, "Sleuth", dobbs.map, 300, 300)
     s.connected = True
     s.god_mode = True
-    for q, v in (("Passage", 12), ("AshfordQuest", 99)):
+    for q, v in (("Passage", 12), ("PuddlefordQuest", 99)):
         s.update_attribute(q, "=%d" % v)
     near(world, s, dobbs, 36, 0)
     assert talk_to(world, s, dobbs)
@@ -5052,7 +5052,7 @@ def test_the_hollow_hill_cave_in_and_out_and_its_chest_once(world):
 
 
 def test_doctor_foster_heals_the_hurt_and_tells_the_well_to_keep_their_gold(world):
-    doc = next(e for e in world.ents if e.npc_id == "Northport_Doctor_349")
+    doc = next(e for e in world.ents if e.npc_id == "Drizzleport_Doctor_349")
     s = join(world, "Patient", doc.map, 300, 300)
     s.connected = True
     s.god_mode = True
@@ -5171,7 +5171,7 @@ def test_the_isles_creatures_are_a_level_or_two_under_their_kinds(world):
         if kind and inside(at):
             isle.append((e, kind))
     assert {e.name for e, _ in isle} >= {"Goblin", "Wolf"}
-    hard = {("Skeleton", "3,1,0"): 4, ("Hobgoblin", "2,2,-2"): 2}  # (the Isle's hard fights, the graveyard's
+    hard = {("Skeleton", "3,1,0"): 4, ("Hobgoblin", "2,2,-2"): 2}  # (Muddlesey's hard fights, the graveyard's
     for e, kind in isle:                                # Skeleton and the lair's four, at levels that keep them so)
         want = hard.get((e.name, e.map), max(1, kind - (2 if kind >= 4 else 1)))
         assert e.npc_level == want, (e.name, e.map)
@@ -5355,7 +5355,7 @@ def test_a_shardstone_takes_you_home_and_the_anchor_back(world):
     ws = next(e for e in world.ents if e.name == "Shardstone" and e.map == m.name)
     a = join(world, "Homebody", m.name, int(ws.x - m.ox) + 40, int(ws.y - m.oy) + 8)
     a.connected = True
-    a.update_attribute("Waystone.Ashford", "=1")
+    a.update_attribute("Waystone.Puddleford", "=1")
     a.out = []
     a.choose_verb("Travel", ws, int(ws.cx), int(ws.cy))
     ticks(world, 20)
@@ -5519,7 +5519,7 @@ def test_editor_knows_what_points_at_the_maps():
     assert "WorldMap.ini Edwin & Maren's House" in [label(u) for u in r.of_name("isle_bank")]   # (a label)
     assert ("script", "Read Isle_Bank_Notice") in r.of_name("Isle_Bank_Notice")         # (its own script)
     assert ("script", "3,2,0") in r.of_name("Isle_Ferry_Pier")                          # (a script's place)
-    assert ("Shardstones.ini", "Northport") in r.of_name("Waystone_Northport")
+    assert ("Shardstones.ini", "Drizzleport") in r.of_name("Waystone_Drizzleport")
     assert ("quest", "Dinner at Edwin's") in r.of_kind("Maren")                          # (a quest's giver)
     assert ("script", "3,2,0") in r.of_map("3,2,0")                                      # (its arrival script)
     assert r.tiles and all(len(k) == 3 for k in r.tiles)                                 # (map, tile x, tile y)
@@ -5544,9 +5544,9 @@ def test_editor_shows_the_shared_script_a_thing_runs_and_its_lines_here():
     assert script_for(names, "Pickup", "Gold_Coin(s)", "MapItem") == ("Pickup [MapItem]", "shared")
     assert script_for(names, "Attack", "Trader", "NPC") is None                         # (the game's own)
     cmds = ScriptDoc(P, "Talk to Trader").commands()
-    here = [t for _, t in lines_here(cmds, "9,10,0")]                                   # (Oakhollow's market)
-    assert any("Welcome to Oakhollow!" in t for t in here) and any("SHOP-Oakhollow" in t for t in here)
-    assert not any("Greyford" in t for t in here)
+    here = [t for _, t in lines_here(cmds, "9,10,0")]                                   # (Acornby's market)
+    assert any("Welcome to Acornby!" in t for t in here) and any("SHOP-Acornby" in t for t in here)
+    assert not any("Dullford" in t for t in here)
     away = [t for _, t in lines_here(cmds, "1,1,0")]                                    # (no Trader's town)
     assert any("Nothing to sell here" in t for t in away) and not any("Welcome" in t for t in away)
 
@@ -6071,7 +6071,7 @@ def test_only_a_fence_buys_stolen_goods(world):
     assert "stolen" in said[-1] and s.items_held("Silver_Ring", True) == 3
     s.display_message = real
     # (a fence: half what an honest shop gives)
-    assert s.open_item_rack("SHOP", "Man", "SHOP-Fence_Northport") and s.rack_fence
+    assert s.open_item_rack("SHOP", "Man", "SHOP-Fence_Drizzleport") and s.rack_fence
     assert s.fence_rate() == 0.5 and s.can_sell_here("Silver_Ring", True)
     assert s.sell_price("Silver_Ring", True) == s.item_price("Silver_Ring", s.rack_sell_rate *
                                                               s.data.sell_price_factor * 0.5, 1)
@@ -6092,11 +6092,11 @@ def test_only_a_fence_buys_stolen_goods(world):
 
 
 def test_a_thief_hears_where_the_fences_are(world):
-    s = join(world, "Tipped", "4,4,0", 300, 300)                     # (Northport)
+    s = join(world, "Tipped", "4,4,0", 300, 300)                     # (Drizzleport)
     s.connected = True
     s.clicked_ent = None
     try:
-        scene = world.banter.scenes["Scene.Fence_Northport"]
+        scene = world.banter.scenes["Scene.Fence_Drizzleport"]
         assert not world.banter.applies("Thief", s)                 # (an honest soul hears nothing of it)
         s.got_stolen("Silver_Ring", 1)
         assert world.banter.applies("Thief", s) and world.banter.in_town(scene, s)
@@ -6173,7 +6173,7 @@ def test_a_kill_counts_for_everyone_who_fought(world):
     b = join(world, "Shieldmate", "16,3,0", 340, 300)
     for s in (a, b):
         s.connected = True
-        s.update_attribute("WardhavenQuest", "=1")
+        s.update_attribute("SulkhavenQuest", "=1")
         s.update_attribute("BridgeGoblins", "=0")
     goblin = world.add_npc("Goblin", 0, m.ox + 320, m.oy + 330, "Attitude=Bad", "Bad")
     try:
@@ -6182,7 +6182,7 @@ def test_a_kill_counts_for_everyone_who_fought(world):
         run_for(world, 5)
         assert a.get_attribute("BridgeGoblins") == "1" and b.get_attribute("BridgeGoblins") == "1"
         loner = join(world, "Bystander2", "16,3,0", 360, 300)       # (there, but never fought it: nothing)
-        loner.update_attribute("WardhavenQuest", "=1")
+        loner.update_attribute("SulkhavenQuest", "=1")
         g2 = world.add_npc("Goblin", 0, m.ox + 320, m.oy + 330, "Attitude=Bad", "Bad")
         a.kill_npc(g2)
         run_for(world, 5)
@@ -6213,7 +6213,7 @@ def test_a_party_shares_kills_and_quest_stages(world):
     try:
         for s in (a, b):
             s.connected = True
-            s.update_attribute("WardhavenQuest", "=1")
+            s.update_attribute("SulkhavenQuest", "=1")
             s.update_attribute("BridgeGoblins", "=0")
         assert "Invite to party" in a.get_verbs(b.player)
         a.do_action("Invite to party", b.player)
@@ -6228,17 +6228,17 @@ def test_a_party_shares_kills_and_quest_stages(world):
         b.update_attribute("BridgeGoblins", "=3")
         a.start_script("Kill Goblin", False)                        # (a's fourth: the quest's stage moves on)
         run_for(world, 5)
-        assert a.get_attribute("WardhavenQuest") == "2" and b.get_attribute("WardhavenQuest") == "2"
+        assert a.get_attribute("SulkhavenQuest") == "2" and b.get_attribute("SulkhavenQuest") == "2"
         for s in (a, b):                                            # (again, b busy with a script of their own)
-            s.update_attribute("WardhavenQuest", "=1")
+            s.update_attribute("SulkhavenQuest", "=1")
             s.update_attribute("BridgeGoblins", "=3")
         assert b.run_script_lines("Busy", ["01\tPlay.Minigame\tLOCK\t1\t02", "02\tEnd"])
         b.run_scripts()
         a.start_script("Kill Goblin", False)
         run_for(world, 5)
-        assert a.get_attribute("WardhavenQuest") == "2" and b.get_attribute("WardhavenQuest") == "1"
+        assert a.get_attribute("SulkhavenQuest") == "2" and b.get_attribute("SulkhavenQuest") == "1"
         b.finish_script()                                           # (done: on with the party now)
-        assert b.get_attribute("WardhavenQuest") == "2"
+        assert b.get_attribute("SulkhavenQuest") == "2"
         b.leave_party()
         assert not a.party_id and not b.party_id                    # (one left: no party)
     finally:
@@ -6363,8 +6363,8 @@ def test_northports_clerks_talk_and_their_boards_hold_the_bounty_and_the_records
             world.tick(0.05)
 
     try:
-        bounty = next(e for e in world.ents if e.npc_id == "Bounty_Board_Northport")
-        records = next(e for e in world.ents if e.npc_id == "Records_Board_Northport")
+        bounty = next(e for e in world.ents if e.npc_id == "Bounty_Board_Drizzleport")
+        records = next(e for e in world.ents if e.npc_id == "Records_Board_Drizzleport")
         click("Read", bounty)
         assert s.ab_title == "Bounties" and s.ab_image == "Bounty_Board"
         s.close_action_box(-1)
@@ -6394,7 +6394,7 @@ def test_jimmy_comes_along_and_a_sellsword_can_be_hired(world):
         s.do_pending_map_change()
         run_for(world, 10)
         assert distance(cat.cx, cat.cy, s.player.cx, s.player.cy) < 500   # (he keeps up)
-        sword = next(e for e in world.ents if (e.npc_id or "") == "Sellsword_Northport")
+        sword = next(e for e in world.ents if (e.npc_id or "") == "Sellsword_Drizzleport")
         stock(s, **{"Gold_Coin(s)": 30})
         s.do_action("Hire", sword)
         assert any(getattr(e, "comp_kind", "") == "Sellsword" for e in s.companions())
@@ -6533,7 +6533,7 @@ def test_chests_are_locked_and_never_out_of_reach(world):
     chest = next(e for e in chests if not s.chest_sturdy(e))
     assert "Pick Lock" in s.get_verbs(chest) and "Break Open" in s.get_verbs(chest)
     isle = next(e for e in world.ents if s.is_chest(e) and e.map == "3,1,0")
-    assert s.chest_lock(isle)[0] == 1 and not s.chest_sturdy(isle)  # (the Isle's: the easiest, to learn on)
+    assert s.chest_lock(isle)[0] == 1 and not s.chest_sturdy(isle)  # (Muddlesey's: the easiest, to learn on)
     from dsengine.view import entity_state
     was = getattr(isle, "look", 0), getattr(isle, "look_of", None)
     isle.look, isle.look_of = 2, isle.name                         # (a chest in another colouring still shows its lock)
@@ -6592,7 +6592,7 @@ def test_oakhollows_trader_stands_in_its_market_and_greets_you_so(world):
     s.out = []
     s.choose_verb("Talk to", t, t.cx, t.cy)
     run_for(world, 5)
-    assert "Welcome to Oakhollow!" in str(s.out)
+    assert "Welcome to Acornby!" in str(s.out)
     assert not any(e.name == "Trader" and e.map == "8,11,0" for e in world.ents)
     leave(world, s)
 
@@ -6635,7 +6635,7 @@ def test_doors_can_be_picked_and_some_are_locked_for_good(world, monkeypatch):
     a.teleport(home.name, 9 * 32, 7 * 32 - 8)
     run_for(world, 5)
     assert "Pick Lock" not in a.get_verbs(a.tile_entity_at(hx, hy))
-    # Northport's yard: Stealth 20 to try its gate; its loot in Grasp's reach from the street
+    # Drizzleport's yard: Stealth 20 to try its gate; its loot in Grasp's reach from the street
     yard = world.maps["5,5,0"]
     gate = yard.lock_at[(16, 17)]
     assert gate.pick == 24 and "pick it" in gate.message
@@ -6657,7 +6657,7 @@ def test_doors_can_be_picked_and_some_are_locked_for_good(world, monkeypatch):
 
 def test_no_leaving_the_isle_without_papers_or_knowing_shard_remnants(world):
     """Wim's ferry runs for everyone, but not for you till he's seen your papers, you've absorbed remnants and you're
-    level 3; with the papers, Northport's port guard sends you to the Speaker."""
+    level 3; with the papers, Drizzleport's port guard sends you to the Speaker."""
     s = join(world, "Islander", "3,2,0", 14 * 32, 15 * 32)
     s.connected = True
     wim = next(e for e in world.ents if e.name == "Ferryman" and e.map == "3,2,0" and world.visible_to(e, s))
@@ -6691,7 +6691,7 @@ def test_no_leaving_the_isle_without_papers_or_knowing_shard_remnants(world):
     assert "green as grass" in board()                                              # (nor a green hand: level 3)
     for k in range(len(s.skill_xp)):
         s.skill_xp[k] = max(s.skill_xp[k], 6)
-    assert "Northport, is it" in ask() and board() == ""
+    assert "Drizzleport, is it" in ask() and board() == ""
     leave(world, s)
     m = world.maps["4,4,0"]
     guard = next(e for e in world.ents if e.name == "Port_Guard" and e.map == "4,4,0")
@@ -8122,7 +8122,7 @@ def test_the_isle_has_grown_north_with_its_new_places(world):
     world.set_day_fraction(0.5)
     s = join(world, "Wanderer", camp.map, 300, 300)
     s.connected = True
-    assert s.cur_map.name in s.lock_text("Isle.Maps", "").split()   # (the Isle's easy locks, up there too)
+    assert s.cur_map.name in s.lock_text("Isle.Maps", "").split()   # (Muddlesey's easy locks, up there too)
     hearth = next(e for e in world.ents if e.npc_id == "Old_Beacon_Hearth")
     near(world, s, hearth, 0, 30)
     hm = world.maps[hearth.map]
@@ -8215,7 +8215,7 @@ def test_a_barmaid_who_says_what_every_barmaid_says_passes_on_rumours(world, mon
     s.update_attribute("Passage", "=12")
     shared = [e for e in world.ents if e.type == NPC and e.name == "Barmaid" and e.npc_id and
               not s.script_exists("Talk to " + e.npc_id)]
-    own = next(e for e in world.ents if e.npc_id == "Ashford_Barmaid_17")
+    own = next(e for e in world.ents if e.npc_id == "Puddleford_Barmaid_17")
     assert len(shared) >= 30 and all(s.find_action_script("Talk to", e.name, NPC, e.npc_id) == "Talk to Barmaid"
                                      for e in shared)
     assert s.gossips(shared[0]) and not s.gossips(own)          # (words of her own: never a rumour first)
@@ -8241,8 +8241,8 @@ def test_the_editor_begins_a_barmaids_own_words_from_every_barmaids():
     said = []
     pg = NS(project=Project(ROOT), leave_ok=lambda: True, clear_history=lambda: None, show=lambda: None,
             app=NS(status=lambda text, *a: said.append(text)))
-    ScriptPage.start_from(pg, "Talk to Barmaid", "Talk to Ashford_Barmaid_331")
-    assert pg.doc.name == "Talk to Ashford_Barmaid_331" and not pg.doc.exists      # (not saved till Save)
+    ScriptPage.start_from(pg, "Talk to Barmaid", "Talk to Puddleford_Barmaid_331")
+    assert pg.doc.name == "Talk to Puddleford_Barmaid_331" and not pg.doc.exists      # (not saved till Save)
     assert [l.command for l in pg.doc.lines] == ["Display.Conversation", "End"]
     assert pg.doc.lines[0].args[1].startswith("Sit anywhere you like") and "Talk to Barmaid" in said[-1]
 
@@ -8417,7 +8417,7 @@ def test_the_orchard_gives_fruit_for_the_picking(world):
 
 # ----- random encounters (dsengine/encounters.py)
 def wild_spot(world):
-    """A map out in the wild (no settlement near), past the Isle, with open ground in its middle to stand on."""
+    """A map out in the wild (no settlement near), past Muddlesey, with open ground in its middle to stand on."""
     enc = world.encounters
     fierce = [(e.x, e.y) for e in world.ents if e.type == NPC and e.hostile and e.z == 0]
     for m in world.maps.values():
@@ -8524,7 +8524,7 @@ def test_the_abomination_is_as_strong_as_who_it_found_and_leaves_plenty(world, m
 def test_encounters_keep_off_the_isle_new_players_towns_and_fights(world):
     enc = world.encounters
     s = join(world, "Greenhorn", "1,1,0", 300, 300)
-    assert not any(enc.allowed(k, s) for k in enc.kinds)         # (the Isle's first days are left alone)
+    assert not any(enc.allowed(k, s) for k in enc.kinds)         # (Muddlesey's first days are left alone)
     s.update_attribute("Passage", "=5")
     assert enc.allowed("Jester", s) and enc.allowed("Salesman", s)
     assert not enc.allowed("Abomination", s)                     # (too new, and on a settlement's map)
@@ -9809,34 +9809,34 @@ def test_the_wild_places(world):
 def test_standing_moves_a_towns_rank_and_its_prices(world):
     s = join(world, "Wellknown", "12,-2,0", 300, 300)
     s.connected = True
-    assert s.town_of_map("12,-2,0") == "Ashford" and s.town_of_map("-10,13,-1") == "Galaith"
-    assert s.town_of_map("7,7,-3") == "" and s.rank("Ashford") == "Stranger"
-    keeper = next(e for e in world.ents if e.type == NPC and e.alive and s.town_of_map(e.map) == "Ashford" and
+    assert s.town_of_map("12,-2,0") == "Puddleford" and s.town_of_map("-10,13,-1") == "Galaith"
+    assert s.town_of_map("7,7,-3") == "" and s.rank("Puddleford") == "Stranger"
+    keeper = next(e for e in world.ents if e.type == NPC and e.alive and s.town_of_map(e.map) == "Puddleford" and
                   s.shop_rack_of(e))
     s.clicked_ent = keeper
     assert s.open_item_rack("SHOP", keeper.name, s.shop_rack_of(keeper))
     base = s.rack_buy_rate, s.rack_sell_rate
     s.out.clear()
-    s.change_standing("Ashford", 25)
+    s.change_standing("Puddleford", 25)
     said = [m["text"] for m in s.out if m.get("t") == "msg"]
-    assert any("Ashford thinks better of you" in t and "Welcome" in t for t in said)
-    assert any(m.get("t") == "standing" and m["list"] == [["Ashford", 25, "Welcome"]] for m in s.out)
+    assert any("Puddleford thinks better of you" in t and "Welcome" in t for t in said)
+    assert any(m.get("t") == "standing" and m["list"] == [["Puddleford", 25, "Welcome"]] for m in s.out)
     s.out.clear()
-    s.change_standing("Ashford", 3)                                # (no new rank: nothing said)
+    s.change_standing("Puddleford", 3)                                # (no new rank: nothing said)
     assert not [m for m in s.out if m.get("t") == "msg"]
-    assert s.condition_met("$Standing.Ashford>=28") and s.condition_met("$Standing.Here=28")
+    assert s.condition_met("$Standing.Puddleford>=28") and s.condition_met("$Standing.Here=28")
     assert s.open_item_rack("SHOP", keeper.name, s.shop_rack_of(keeper))
     assert abs(s.rack_buy_rate - base[0] * 0.95) < 1e-9 and abs(s.rack_sell_rate - base[1] * 1.05) < 1e-9
-    s.change_standing("Ashford", -500)                             # (held at the least: an Outlaw)
-    assert s.standing("Ashford") == -100 and s.rank("Ashford") == "Outlaw"
+    s.change_standing("Puddleford", -500)                             # (held at the least: an Outlaw)
+    assert s.standing("Puddleford") == -100 and s.rank("Puddleford") == "Outlaw"
     assert not s.open_item_rack("SHOP", keeper.name, s.shop_rack_of(keeper))   # (not served)
-    s.change_standing("Ashford", 500)
-    assert s.standing("Ashford") == 100 and s.rank("Ashford") == "Honoured"
+    s.change_standing("Puddleford", 500)
+    assert s.standing("Puddleford") == 100 and s.rank("Puddleford") == "Honoured"
     m = world.maps["11,-1,0"]                                      # (a house that opens to friends of the town)
     door = next(lk for lk in m.locks if (lk.x, lk.y) == (10, 7))
     s.lock_cache = {}
     assert not s.lock_closed(m, door)
-    s.change_standing("Ashford", -60)                              # (40: Welcome, not Trusted)
+    s.change_standing("Puddleford", -60)                              # (40: Welcome, not Trusted)
     s.lock_cache = {}
     assert s.lock_closed(m, door)
     leave(world, s)
@@ -9847,12 +9847,12 @@ def test_an_outlaws_town_guards_come_for_them_till_the_fine_is_paid(world):
     other = join(world, "Honest", "12,-2,0", 340, 300)
     s.connected = True
     guard = next(e for e in world.ents if e.type == NPC and e.name == "Guard" and not e.npc_id and
-                 s.town_of_map(e.map) == "Ashford")
-    sheriff = next(e for e in world.ents if e.npc_id == "Ashford_Sheriff_325")
+                 s.town_of_map(e.map) == "Puddleford")
+    sheriff = next(e for e in world.ents if e.npc_id == "Puddleford_Sheriff_325")
     arena = next(e for e in world.ents if e.npc_id == "Arena_Master")
     assert not world.hostile_for(guard, s)
     s.out.clear()
-    s.change_standing("Ashford", -90)
+    s.change_standing("Puddleford", -90)
     assert any("Outlaw" in m["text"] for m in s.out if m.get("t") == "msg")
     assert world.hostile_for(guard, s) and world.stat_for(guard, s, "aggressive")
     assert not world.hostile_for(guard, other)                      # (yours alone)
@@ -9864,7 +9864,7 @@ def test_an_outlaws_town_guards_come_for_them_till_the_fine_is_paid(world):
     assert world.hostile_for(gal, s)
     s.update_attribute("KingQuest", "=0")
     assert not world.hostile_for(gal, s)
-    owed = s.fine_owed("Ashford")
+    owed = s.fine_owed("Puddleford")
     assert owed == 50 + 30 * 5
     s.clicked_ent = sheriff
     assert s.fine_menu(sheriff) and s.responses[0] != "Pay the fine."    # (too poor to pay)
@@ -9872,7 +9872,7 @@ def test_an_outlaws_town_guards_come_for_them_till_the_fine_is_paid(world):
     stock(s, **{"Gold_Coin(s)": owed})
     assert s.fine_menu(sheriff) and s.responses[0] == "Pay the fine."
     s.native_menu_chosen(1)
-    assert s.items_held("Gold_Coin(s)") == 0 and s.standing("Ashford") == -60 and s.rank("Ashford") == "Distrusted"
+    assert s.items_held("Gold_Coin(s)") == 0 and s.standing("Puddleford") == -60 and s.rank("Puddleford") == "Distrusted"
     assert not world.hostile_for(guard, s) and not s.fine_menu(sheriff)  # (talks as ever now)
     leave(world, other)
     leave(world, s)
@@ -9881,16 +9881,16 @@ def test_an_outlaws_town_guards_come_for_them_till_the_fine_is_paid(world):
 def test_caught_thieving_as_the_town_thinks_of_you(world):
     s = join(world, "Known_Face", "12,-2,0", 300, 300)
     s.connected = True
-    shop = next(e for e in world.ents if e.type == NPC and e.alive and s.town_of_map(e.map) == "Ashford" and
+    shop = next(e for e in world.ents if e.type == NPC and e.alive and s.town_of_map(e.map) == "Puddleford" and
                 s.shop_rack_of(e))
-    s.change_standing("Ashford", 50)                               # (Trusted)
-    assert s.caught_by_town(shop, "shop") == "warn" and s.standing("Ashford") == 50
-    assert s.caught_by_town(shop, "shop") == 1 and s.standing("Ashford") == 42   # (once a day: then the guard)
-    s.change_standing("Ashford", 40)                               # (Honoured)
+    s.change_standing("Puddleford", 50)                               # (Trusted)
+    assert s.caught_by_town(shop, "shop") == "warn" and s.standing("Puddleford") == 50
+    assert s.caught_by_town(shop, "shop") == 1 and s.standing("Puddleford") == 42   # (once a day: then the guard)
+    s.change_standing("Puddleford", 40)                               # (Honoured)
     stock(s, **{"Gold_Coin(s)": 30})
     assert s.caught_by_town(shop, "shop") == "fine" and s.items_held("Gold_Coin(s)") == 5
-    assert s.caught_by_town(shop, "house") == 1 and s.standing("Ashford") == 62    # (too poor for the fine now)
-    s.change_standing("Ashford", -100)                             # (Distrusted)
+    assert s.caught_by_town(shop, "house") == 1 and s.standing("Puddleford") == 62    # (too poor for the fine now)
+    s.change_standing("Puddleford", -100)                             # (Distrusted)
     assert s.caught_by_town(shop, "shop") == 2
     wild = next(e for e in world.ents if e.type == NPC and e.alive and not e.hostile and e.map.endswith(",0") and
                 not s.town_of_map(e.map))
@@ -9901,11 +9901,11 @@ def test_caught_thieving_as_the_town_thinks_of_you(world):
 def test_a_blow_at_a_guard_costs_standing_once_in_a_while(world):
     s = join(world, "Brawler", "12,-2,0", 300, 300)
     guard = next(e for e in world.ents if e.type == NPC and e.name == "Guard" and not e.npc_id and
-                 s.town_of_map(e.map) == "Ashford")
+                 s.town_of_map(e.map) == "Puddleford")
     hp = guard.hp
     s.damage_npc(guard, 1)
     s.damage_npc(guard, 1)
-    assert s.standing("Ashford") == -15
+    assert s.standing("Puddleford") == -15
     guard.hp = hp
     guard.in_combat, guard.target = False, None
     leave(world, s)
@@ -9933,15 +9933,15 @@ def test_the_admin_panel_sets_a_towns_standing(world):
     s.out = []
     s.admin_command({"do": "standings"})
     towns = next(ev["towns"] for ev in s.out if ev["t"] == "admin_standings")
-    assert ["Ashford", "Ashford", 0, "Stranger"] in towns and len(towns) >= 16
+    assert ["Puddleford", "Puddleford", 0, "Stranger"] in towns and len(towns) >= 16
     s.out = []
-    s.admin_command({"do": "standing", "town": "Ashford", "value": "80"})
-    assert s.standing("Ashford") == 80 and s.rank("Ashford") == "Honoured"
-    assert any("Ashford thinks better of you" in str(ev.get("text", "")) for ev in s.out)   # (as for any deed)
+    s.admin_command({"do": "standing", "town": "Puddleford", "value": "80"})
+    assert s.standing("Puddleford") == 80 and s.rank("Puddleford") == "Honoured"
+    assert any("Puddleford thinks better of you" in str(ev.get("text", "")) for ev in s.out)   # (as for any deed)
     towns = [ev["towns"] for ev in s.out if ev["t"] == "admin_standings"][-1]
-    assert ["Ashford", "Ashford", 80, "Honoured"] in towns
-    s.admin_command({"do": "standing", "town": "Ashford", "value": "-900"})               # (held at the least)
-    assert s.standing("Ashford") == -100 and s.rank("Ashford") == "Outlaw"
+    assert ["Puddleford", "Puddleford", 80, "Honoured"] in towns
+    s.admin_command({"do": "standing", "town": "Puddleford", "value": "-900"})               # (held at the least)
+    assert s.standing("Puddleford") == -100 and s.rank("Puddleford") == "Outlaw"
     s.out = []
     s.admin_command({"do": "standing", "town": "Nowhere", "value": "5"})
     assert s.out[-1] == {"t": "admin_status", "text": "Pick a town first."}
@@ -10041,14 +10041,14 @@ def test_old_hobs_savings_given_back_or_kept_and_oakhollow_hears(world):
     stock(honest, **{"Gold_Coin(s)": 150})
     choice_talk(world, honest, "OldHob", 1)                         # "Here, take it back."
     assert honest.get_attribute("HobQuest") == "4" and honest.get_attribute("HobAngry") == "0"
-    assert honest.standing("Oakhollow") == 10 and "himself again" in ending_of(honest, "Old Hob")
+    assert honest.standing("Acornby") == 10 and "himself again" in ending_of(honest, "Old Hob")
     leave(world, honest)
     thief = join(world, "Keeper", "3,11,0", 300, 300)
     thief.connected = True
     thief.update_attribute("HobQuest", "=3")
     thief.update_attribute("HobsChest", "=1")
     choice_talk(world, thief, "OldHob", 2)                          # "It's mine now."
-    assert thief.get_attribute("HobAngry") == "1" and thief.standing("Oakhollow") == -15
+    assert thief.get_attribute("HobAngry") == "1" and thief.standing("Acornby") == -15
     assert "madness" in ending_of(thief, "Old Hob")
     leave(world, thief)
 
@@ -10064,7 +10064,7 @@ def test_hales_goods_sold_to_meg_by_her_friends(world):
     choice_talk(world, s, "Red_Meg", 1)                             # "Sell them to Meg."
     assert s.get_attribute("BanditQuest") == "4" and s.get_attribute("BanditWay") == "2"
     assert s.items_held("Gold_Coin(s)") == gold + 300 and s.items_held("Stolen_Goods") == 0
-    assert s.standing("Frosthold") == -10 and "Red Meg" in ending_of(s, "Bandits on the Road")
+    assert s.standing("Chillingham") == -10 and "Red Meg" in ending_of(s, "Bandits on the Road")
     hale = next(e for e in world.ents if e.name == "Captain" and e.map == "17,20,0")
     s.out = []
     choice_talk(world, s, hale)
@@ -10174,7 +10174,7 @@ def test_the_old_grove_felled_or_kept(world):
     gold = s.items_held("Gold_Coin(s)")
     choice_talk(world, s, "Timber_Merchant", 1)
     assert s.get_attribute("GroveWay") == "1" and s.get_attribute("GroveQuest") == "6"
-    assert s.items_held("Gold_Coin(s)") == gold + 150 and s.standing("Oakhollow") == 5
+    assert s.items_held("Gold_Coin(s)") == gold + 150 and s.standing("Acornby") == 5
     s.teleport("9,12,0", 16 * 32, 10 * 32)
     s.do_pending_map_change()
     run_for(world, 10)
@@ -10204,12 +10204,12 @@ def test_the_old_grove_felled_or_kept(world):
 
 
 def by_stone(world, name):
-    """A player beside Northport's shardstone, woken, with its travel map lately opened (what binding needs)."""
+    """A player beside Drizzleport's shardstone, woken, with its travel map lately opened (what binding needs)."""
     m = world.maps["4,6,0"]
     ws = next(e for e in world.ents if e.name == "Shardstone" and e.map == m.name)
     s = join(world, name, m.name, int(ws.x - m.ox) + 40, int(ws.y - m.oy) + 8)
-    s.update_attribute("Waystone.Northport", "=1")
-    s.stone_here = ("Northport", world.now)
+    s.update_attribute("Waystone.Drizzleport", "=1")
+    s.stone_here = ("Drizzleport", world.now)
     assert s.stone_near() is not None
     return s
 
@@ -10286,7 +10286,7 @@ def test_binding_a_form_is_paid_at_a_shardstone_and_six_at_most(world):
     s.stone_here = None                                                # (away from the stone: no binding)
     s.bind_form("Sneaking.Cutpurse")
     assert "Sneaking.Cutpurse" not in s.forms_bound and s.shards() == had - 8
-    s.stone_here = ("Northport", world.now)
+    s.stone_here = ("Drizzleport", world.now)
     s.forms_menu()                                                     # (the Bind forms window: stances, then forms)
     assert s.ab_mode == "Conversation" and s.responses[:3] == ["Fighting forms...", "Channelling forms...",
                                                                 "Sneaking forms..."]
@@ -10681,7 +10681,7 @@ def test_the_kind_stranger_annis_goes_home_or_to_the_hall(world):
     assert seen("Hall_Annis", other) and not seen("House_Annis", other) and not seen("Home_Annis", other)
     assert seen("House_Annis", join(world, "Passerby", "0,0,10", 12 * 32, 6 * 32))   # (hers to each their own)
     leave(world, world.sessions["Passerby"])
-    other.update_attribute("EldestQuest", "=1")                     # (down under Wardhaven with the rest)
+    other.update_attribute("EldestQuest", "=1")                     # (down under Sulkhaven with the rest)
     assert seen("Undercroft_Annis", other) and not seen("Hall_Annis", other)
     leave(world, other)
     leave(world, s)
@@ -10729,7 +10729,7 @@ def test_in_grey_the_robe_the_sermon_the_tithe_and_the_great_shard(world):
     finally:
         world.ents.extend(held)
     assert seen("Sister_Linnet") and seen("House_Shard")
-    mending_do(world, s, world.placed_entity("Ashford_Sheriff_325", s), "Talk to", 1, 1)
+    mending_do(world, s, world.placed_entity("Puddleford_Sheriff_325", s), "Talk to", 1, 1)
     assert attr("GreyQuest") == "5" and attr("GreyEnd") == "1" and attr("MendingShut") == "1"
     assert not seen("Sister_Linnet") and not seen("House_Shard") and seen("Home_Annis")   # (the house shut)
     assert attr("StrangerQuest") == "0"                             # (and Annis taken home, never asked)
@@ -10774,8 +10774,8 @@ def test_the_eldest_takes_a_tither_for_a_friend_and_never_sees_the_first_blow(wo
     s.update_attribute("GalaithQuest", "=2")
     s.update_attribute("GreyQuest", "=5")
     attr = s.get_attribute
-    mending_do(world, s, world.placed_entity("Wardhaven_Priest_309", s), "Talk to", 1)
-    assert attr("EldestQuest") == "1" and world.placed_entity("Wardhaven_Undercroft_Stair", s) is not None
+    mending_do(world, s, world.placed_entity("Sulkhaven_Priest_309", s), "Talk to", 1)
+    assert attr("EldestQuest") == "1" and world.placed_entity("Sulkhaven_Undercroft_Stair", s) is not None
     s.update_attribute("TitheWay", "=1")
     s.teleport("17,1,-1", 7 * 32 + 8, 12 * 32 + 8)                  # (at the foot of the stair)
     s.do_pending_map_change()
@@ -10902,10 +10902,10 @@ def test_an_outlaws_town_gate_is_barred_to_them_at_night(world):
         assert not s.lock_closed(m, gate)
         ward = world.maps["16,3,0"]
         wgate = next(lk for lk in ward.locks if (lk.x, lk.y) == (13, 3))
-        s.change_standing("Wardhaven", -90)
+        s.change_standing("Sulkhaven", -90)
         s.lock_cache = {}
         assert s.lock_closed(ward, wgate) and "Nobody answers" in s.lock_words(wgate)   # (not let in yet)
-        s.update_attribute("WardhavenQuest", "=3")
+        s.update_attribute("SulkhavenQuest", "=3")
         s.lock_cache = {}
         assert not s.lock_closed(ward, wgate)                      # (by day)
         world.set_day_fraction(0.0)
@@ -10919,12 +10919,12 @@ def test_an_outlaws_town_gate_is_barred_to_them_at_night(world):
 def test_a_trusted_door_in_northport_and_its_chest_once(world):
     m = world.maps["2,7,0"]
     door = next(lk for lk in m.locks if (lk.x, lk.y) == (12, 7))
-    chest = next(e for e in world.ents if e.npc_id == "Trusted_Chest_Northport")
+    chest = next(e for e in world.ents if e.npc_id == "Trusted_Chest_Drizzleport")
     s = join(world, "Harbour_Friend", "2,7,0", 300, 300)
     s.connected = True
     s.lock_cache = {}
     assert s.lock_closed(m, door)
-    s.change_standing("Northport", 45)                             # (Trusted: opens without being asked again)
+    s.change_standing("Drizzleport", 45)                             # (Trusted: opens without being asked again)
     assert not s.lock_closed(m, door)
     near(world, s, chest, 0, 30)
     s.do_action("Open", chest)
@@ -10936,7 +10936,7 @@ def test_a_trusted_door_in_northport_and_its_chest_once(world):
     s.do_action("Open", chest)                                     # (once only)
     run_for(world, 10)
     assert s.items_held("Gold_Coin(s)") == gold and s.items_held("Wardbound_Sealskin_Boots") == 1
-    s.change_standing("Northport", -20)
+    s.change_standing("Drizzleport", -20)
     assert s.lock_closed(m, door)
     leave(world, s)
 
@@ -10963,7 +10963,7 @@ def test_the_deserter_told_or_let_go(world):
     choice_talk(world, s, "Deserter_Pip", 1)                       # "Here's 40 gold. Go."
     assert s.get_attribute("DeserterQuest") == "3" and s.items_held("Gold_Coin(s)") == 0
     assert s.standing("Keep") == -10 and "carter's cart" in ending_of(s, "The Deserter")
-    assert world.placed_entity("Saltmarsh_Pip", s) is not None    # (he's in Saltmarsh now)
+    assert world.placed_entity("Brinebottom_Pip", s) is not None    # (he's in Brinebottom now)
     leave(world, s)
 
 
@@ -10997,17 +10997,17 @@ def test_the_dry_spring_bribed_or_broken(world):
 def test_the_eel_traps_blamed_or_mended(world):
     s = mainlander(world, "Blamer", "11,23,0")
     choice_talk(world, s, "Eel_Catcher_Wenna", 1)
-    choice_talk(world, s, "Saltmarsh_Tobin", 1)
+    choice_talk(world, s, "Brinebottom_Tobin", 1)
     choice_talk(world, s, "Eel_Catcher_Wenna")
-    assert s.get_attribute("EelQuest") == "4" and s.standing("Saltmarsh") == 5
+    assert s.get_attribute("EelQuest") == "4" and s.standing("Brinebottom") == 5
     assert "uncle inland" in ending_of(s, "The Eel Traps")
     leave(world, s)
     s = mainlander(world, "Mender", "11,23,0")
     choice_talk(world, s, "Eel_Catcher_Wenna", 1)
-    choice_talk(world, s, "Saltmarsh_Tobin", 2)
+    choice_talk(world, s, "Brinebottom_Tobin", 2)
     stock(s, Plank=3)
     choice_talk(world, s, "Eel_Catcher_Wenna", 1)                 # "Share your catch with him."
-    assert s.get_attribute("EelQuest") == "4" and s.items_held("Plank") == 0 and s.standing("Saltmarsh") == 15
+    assert s.get_attribute("EelQuest") == "4" and s.items_held("Plank") == 0 and s.standing("Brinebottom") == 15
     assert "shares her catch" in ending_of(s, "The Eel Traps")
     leave(world, s)
 
@@ -11141,7 +11141,7 @@ def test_the_herbalists_remedy_wants_mushrooms_and_silk(world):
 
 
 def test_the_demo_keeps_to_the_isle_and_level_5(world):
-    s = join(world, "Tryer", "3,2,0", 14 * 32 + 16, 14 * 32)                       # (on the Isle's pier)
+    s = join(world, "Tryer", "3,2,0", 14 * 32 + 16, 14 * 32)                       # (on Muddlesey's pier)
     s.connected = True
     assert not s.demo()                                                             # (the engine's own: the full game)
     st = s.skill_index("Attack")
@@ -11162,7 +11162,7 @@ def test_the_demo_keeps_to_the_isle_and_level_5(world):
     s.teleport("4,4,0", 300, 300)                                                   # (a scroll, a spell, a portal)
     world.tick(0.05)
     assert s.cur_map.name == "3,2,0" and any(ev.get("t") == "demo" and ev.get("why") == "border" for ev in s.out)
-    s.teleport("1,1,0", 300, 300)                                                   # (but anywhere on the Isle)
+    s.teleport("1,1,0", 300, 300)                                                   # (but anywhere on Muddlesey)
     world.tick(0.05)
     assert s.cur_map.name == "1,1,0"
     s.teleport("3,2,0", 14 * 32 + 16, 14 * 32)
@@ -11180,7 +11180,7 @@ def test_the_demo_keeps_to_the_isle_and_level_5(world):
     s.update_attribute("Passage", "=5")
     s.update_attribute("RemnantsAbsorbed", "=1")
     stock(s, **{"Gold_Coin(s)": 5})
-    to = next(j for j in east.stops if east.stops[j] == "Northport")
+    to = next(j for j in east.stops if east.stops[j] == "Drizzleport")
     at_the_boat()
     world.carts.choose(s, east, to)
     assert s.ride is None and s.items_held("Gold_Coin(s)") == 5                     # (no crossing, and no fare)
@@ -11227,7 +11227,7 @@ def test_a_friend_pass_is_the_full_game_while_an_owner_is_there(world):
     s.out = []
     s.want_friend_pass(False)                                                   # (they've gone: a while to get back)
     assert s.friend_pass and s.pass_ends and s.cur_map.name == "4,4,0"
-    assert any("back to the Isle in" in str(ev.get("text", "")) for ev in s.out)
+    assert any("back to Muddlesey in" in str(ev.get("text", "")) for ev in s.out)
     s.want_friend_pass(True)                                                    # (come back in the while: as before)
     assert s.friend_pass and not s.pass_ends
     s.want_friend_pass(False)
@@ -11238,7 +11238,7 @@ def test_a_friend_pass_is_the_full_game_while_an_owner_is_there(world):
     world.tick(0.05)
     assert not s.friend_pass and s.demo() and s.cur_map.name == "3,2,0" and s.base_skill_level("Attack") == 5
     s.want_friend_pass(True)
-    s.want_friend_pass(False)                                                   # (on the Isle: the demo at once)
+    s.want_friend_pass(False)                                                   # (on Muddlesey: the demo at once)
     assert not s.friend_pass and not s.pass_ends
     s.set_full(True)
     s.want_friend_pass(True)
@@ -11356,7 +11356,7 @@ def test_sneaking_into_the_hobgoblins_camp_for_tobias(world):
     # in at the gate, east behind the tents, round behind the fire, and up to the chest from the west
     assert walk(s, [(13, 3), (13, 4), (17, 4), (17, 8), (16, 8), (16, 10), (12, 10), (12, 7)])
     chest = next(e for e in world.ents if e.npc_id == "Hob_Camp_Chest")
-    s.unlocked_chests.add(s.chest_key(chest))                       # (the Isle's chests are locked: picked already)
+    s.unlocked_chests.add(s.chest_key(chest))                       # (Muddlesey's chests are locked: picked already)
     s.do_action("Open", chest)
     run_for(world, 10)
     assert s.get_attribute("TobiasTin") == "2" and not any(e.in_combat for e in looks)
@@ -11517,7 +11517,7 @@ def test_the_demo_ends_at_the_ferry_with_what_the_isle_gave_you(world):
     s.set_full(False)
     p = s.player
     east = next(c for c in world.carts.carts if c.key == "Isle_Ferry_East")
-    to = next(j for j in east.stops if east.stops[j] == "Northport")
+    to = next(j for j in east.stops if east.stops[j] == "Drizzleport")
 
     def try_the_boat():
         p.x, p.y = east.e.x, east.e.y
@@ -11529,14 +11529,14 @@ def test_the_demo_ends_at_the_ferry_with_what_the_isle_gave_you(world):
     for k, v in (("Passage", 5), ("RemnantsAbsorbed", 1), ("AshenOrder", 1)):
         s.update_attribute(k, "=%d" % v)
     stock(s, **{"Gold_Coin(s)": 5})
-    assert [ev.get("why") for ev in try_the_boat()] == ["border"]  # (the papers not found: the Isle's not done)
+    assert [ev.get("why") for ev in try_the_boat()] == ["border"]  # (the papers not found: Muddlesey's not done)
     s.update_attribute("PapersFound", "=1")
     ends = try_the_boat()
     assert [ev.get("why") for ev in ends] == ["end"] and s.ride is None
     end = ends[0]
     assert [f[0] for f in end["found"]] == ["Marys_Papers", "Ashen_Order"]
     assert any("signs in ash" in q for q in end["ask"]) and not any("crowned man" in q for q in end["ask"])
-    assert "Northport" in end["ahead"]
+    assert "Drizzleport" in end["ahead"]
     assert not any(ev.get("sound") == "Denied" for ev in s.out)
     assert try_the_boat() == []                                    # (the card once a time in; the words again)
     leave(world, s)

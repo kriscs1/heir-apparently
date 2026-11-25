@@ -32,7 +32,7 @@
 31	Update.Attribute	HobQuest	=4
 32	Quest.Note.Done	HobQuest	*
 33	Update.Attribute	HobsDoorOpen	=1
-34	Quest.Note	HobQuest	Hob says the savings in his chest are yours. His house is in Oakhollow, and the door's open now.
+34	Quest.Note	HobQuest	Hob says the savings in his chest are yours. His house is in Acornby, and the door's open now.
 35	Display.Conversation	Hob	You brought me back. I remember the spider, the woods, the hunger. And you.\Thank you, friend. My door is open now, and what's in my chest is yours: you've earned it.	Thank you, Hob.	36
 36	Display.Message	Yellow	Quest complete: Old Hob! His savings are yours: they're in the chest in his house.
 37	End

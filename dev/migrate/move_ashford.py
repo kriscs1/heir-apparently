@@ -1,7 +1,7 @@
-"""Ashford moved seven maps north (the owner's wish), onto new land grown out into the sea for it: a broad peninsula
+"""Puddleford moved seven maps north (the owner's wish), onto new land grown out into the sea for it: a broad peninsula
 off the north coast, its shore wandering, a beach round it, meadow and copses on it.
 
-  * Seven maps north, exactly: everything built in Ashford (its streets, houses, square, port, farms, the Green
+  * Seven maps north, exactly: everything built in Puddleford (its streets, houses, square, port, farms, the Green
     Dragon, the arena's keeper, the homestead yard) and everyone and everything in it keeps its place on its map;
     the maps' names change (12,5,0 is 12,-2,0 now), so zones, scripts and the levels over and under it hold.
   * Its port and the bay beside it come too, water and all, so the harbour still meets the sea.
@@ -10,7 +10,7 @@ off the north coast, its shore wandering, a beach round it, meadow and copses on
   * New maps north of the old coast (the sea, then the land on it); every name of a moved map in the scripts, the data
     (the raids, the homestead's way back, the arena's, a quest's marker, Music.ini and Ambient.ini).
 
-Run it once (a second run finds Ashford moved and stops).
+Run it once (a second run finds Puddleford moved and stops).
 
   python -I "dev\\migrate\\move_ashford.py"
 """
@@ -30,7 +30,7 @@ DATA = os.path.join(ROOT, "data")
 DONE = os.path.join(HERE, ".ashford_moved")
 DY_MAPS = 7
 DY = DY_MAPS * YT
-BOX = (240, 86, 372, 145)                              # (Ashford and its farms)
+BOX = (240, 86, 372, 145)                              # (Puddleford and its farms)
 PORT = (296, 56, 372, 92)                              # (its port and the bay beside it: moved whole, water and all)
 STAYS = ("Watch_Stone_3", "Watch Stone 3")
 NEW_MAPS = (7, -6, 16, 1)                              # (the maps that may be new: the sea, to grow land on)
@@ -94,7 +94,7 @@ def grow(w):
 
 def reshape(w, keep):
     """The peninsula's shore drawn again (land where it says, the sea where it doesn't, above the old coast), never
-    within a few cells of what keep holds (Ashford, its port). Returns the cells changed."""
+    within a few cells of what keep holds (Puddleford, its port). Returns the cells changed."""
     x1, y1, x2, _ = NEW_MAPS
     guard = {(c[0] + dx, c[1] + dy) for c in keep for dx in range(-4, 5) for dy in range(-4, 5)}
     changed = []
@@ -102,7 +102,7 @@ def reshape(w, keep):
         for gy in range(y1 * YT, 52):
             text = w.cell(gx, gy)
             if text is None or (gx, gy) in guard or not W.natural(text) or (gx >= 370 and gy >= 12):
-                continue                                       # (and never Wardhaven's island)
+                continue                                       # (and never Sulkhaven's island)
             want = peninsula(gx, gy)
             if want and W.watery(text):
                 g, d = ground_for(gx, gy, False)
@@ -141,7 +141,7 @@ def moving(w):
         if pid in STAYS or name in STAYS:
             continue
         town = ln.startswith("NPC") and "Attitude=Good" in ln and re.search(r"\b(Zone|Stand|Patrol)=", ln)
-        if c in near or c in whole or pid.startswith("Ashford") or town or (
+        if c in near or c in whole or pid.startswith("Puddleford") or town or (
                 BOX[0] <= c[0] <= BOX[2] and BOX[1] <= c[1] <= BOX[3] and ln.startswith(("Id", "Lock", "Trigger"))):
             lines.append((m, ln, c))
     return cells, whole, lines
@@ -236,7 +236,7 @@ def ambience_for_new(w):
 
 def main():
     if os.path.exists(DONE):
-        print("Ashford's moved already (delete %s to do it again)." % DONE)
+        print("Puddleford's moved already (delete %s to do it again)." % DONE)
         return
     w = W.World(0)
     cells, whole, lines = moving(w)
@@ -262,7 +262,7 @@ def main():
     lv = levels()
     k = words(lv)
     ambience_for_new(w)
-    print("Ashford: %d cells and %d things moved seven maps north onto %d cells of new land; %d roads joined; %d maps "
+    print("Puddleford: %d cells and %d things moved seven maps north onto %d cells of new land; %d roads joined; %d maps "
           "changed; levels moved: %s; %d files named its maps" % (len(cells | whole), len(lines), len(made), n,
                                                                   changed, ", ".join(b for _, b in lv), k))
     print("Its new place: %s" % (dest_box,))

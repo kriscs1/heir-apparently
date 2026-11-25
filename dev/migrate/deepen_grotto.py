@@ -1,4 +1,4 @@
-"""The grotto (the caves under the Isle) a level deeper, its way in only through the chapel. Run it once (again: it
+"""The grotto (the caves under Muddlesey) a level deeper, its way in only through the chapel. Run it once (again: it
 sees it's done).
 
   python -I "dev\\migrate\\deepen_grotto.py"
@@ -125,7 +125,7 @@ def scripts_and_data():
     hx, hy = HOLE
     script("Climb Down Basement_Hole", [
         "01\tPlay.Sound\tLadder",
-        "02\tDisplay.Message\tCyan\tYou climb down the ladder, into the caves under the Isle.",
+        "02\tDisplay.Message\tCyan\tYou climb down the ladder, into the caves under Muddlesey.",
         "03\tTeleport\t%d,%d\t3,1,-2" % ((hx - 1) * TW, hy * TW - 8),
         "04\tEnd"])
     script("Climb Up Cave_Ladder", [

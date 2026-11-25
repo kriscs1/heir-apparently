@@ -31,10 +31,10 @@ PEOPLE = {   # name: base, tint, what it is
     "Mimic_Thing": ("Living_Remnant", (170, 90, 220), "Bad", 8, "It's stopped pretending."),
 }
 NOTES = [   # place Id (near it), what she wrote: each tells of her, the Pact or the place, and points at nothing that isn't there
-    ("Isle_Bank", "Edwin writes the Isle's wills and deeds, and he's never once asked to see mine. Maren checks the "
+    ("Isle_Bank", "Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the "
                   "baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here "
                   "bows to me. I could stay for ever."),
-    ("Northport_Square", "The old men on the quay say the first king set a watch under the sea north of Ashford: the "
+    ("Drizzleport_Square", "The old men on the quay say the first king set a watch under the sea north of Puddleford: the "
                          "Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king "
                          "need watched as badly as that?"),
     ("Court_Square", "I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line "
@@ -44,11 +44,11 @@ NOTES = [   # place Id (near it), what she wrote: each tells of her, the Pact or
                         "enough to bind. Down, they sing. Never dead. So where did the rest of it go?"),
     ("Emberwatch_Square", "I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like "
                           "something asleep. It knows when you're afraid."),
-    ("Frosthold_Square", "They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam "
+    ("Chillingham_Square", "They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam "
                          "will stay where no king ever thinks to look: somewhere small, and still, and full of sky."),
     ("Galaith_City_Hall", "I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of "
                           "washing. If you're reading this, the wall is down and you came home. Forgive me. Look for "
-                          "still water on the Isle, where the sky looks up at itself."),
+                          "still water on Muddlesey, where the sky looks up at itself."),
 ]
 
 
@@ -234,7 +234,7 @@ def scripts():
             "13\tDisplay.Message\tDarkRed\tYou are too far away!\tDenied",
             "14\tEnd"])
     write_script("Read Marys_Map", [
-        "01\tDisplay.Conversation\tLast_Will\t%s The edges meet at a little round shape in the Isle's north, and she's written one word there: still.\tFold it away.\t02" % say,
+        "01\tDisplay.Conversation\tLast_Will\t%s The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.\tFold it away.\t02" % say,
         "02\tEnd"])
     write_script("Search Marys_Cache", [
         "01\t>Distance.From.Clicked.Tile\t64\t11",
@@ -306,7 +306,7 @@ Remnant.Seconds=120
 Message=The air tastes of metal. Wild magic is coming down.
 
 [Ghost_Ship]
-Ports=Northport_Port,Wardhaven_Square,Frosthold_Square,Galaith_Port
+Ports=Drizzleport_Port,Sulkhaven_Square,Chillingham_Square,Galaith_Port
 Foggy.Chance=60
 Clear.Chance=3
 Dead=4
@@ -363,8 +363,8 @@ def data_files():
             "[Mary's Notes]", "Giver=Last_Will", "Attribute=MaryNotesQuest", "Requires.Quests=The Temporary Capital",
             "Stage0=Your mother's hand has turned up somewhere you didn't expect.",
             "Stage1=Your mother left notes, wherever she went. There must be more of them.",
-            "Stage2=Seven notes, and laid edge to edge they make a map. It ends on the Isle, at something still.",
-            "Done=3", "Marker0=Isle_Bank", "Marker1=Northport_Square", "Marker2=Mirror_Tarn", "Type=Side", "Reward.Shards=30",
+            "Stage2=Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.",
+            "Done=3", "Marker0=Isle_Bank", "Marker1=Drizzleport_Square", "Marker2=Mirror_Tarn", "Type=Side", "Reward.Shards=30",
             "Reward.XP=Shardcraft 3", "Rumour=There was a woman asked questions in every library from here to the sea, years back. Left her notes in the oddest places."]) + "\r\n"
         open(path, "wb").write(s.encode("cp1252"))
 

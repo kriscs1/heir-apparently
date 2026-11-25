@@ -1,5 +1,5 @@
-"""Wardhaven: a walled town on its own island (maps 4,2,0 to 5,3,0), over a bridge from the end of the farm road east of
-Ashford (3,3,0). Its gates have been barred since the dragon came, and they stay shut until the Dragon of Ashpeak quest
+"""Sulkhaven: a walled town on its own island (maps 4,2,0 to 5,3,0), over a bridge from the end of the farm road east of
+Puddleford (3,3,0). Its gates have been barred since the dragon came, and they stay shut until the Dragon of Ashpeak quest
 is complete (DragonQuest 4): the gate is a Lock with that condition, and City_Gate001's Tiles.ini Unlocked.Tile makes
 the game draw it open (City_Gate002) once it is.
 
@@ -11,7 +11,7 @@ it adds a branch to) and before build_travel (so the town gets a waystone) and t
   * The town: villages.build() inside a ring of city walls (City_Wall001-005, two tiles tall east-west), towers at the
     corners, half way along and either side of the one gate, in the south wall. Inside: the bank, the Trader's shop
     (dragon-slayer's wares), a smithy, the Settler and a waystone.
-  * Outside the gate: a guard (the Talk to Guard script sends the talk here: Wardhaven Guard) and a notice by the bridge.
+  * Outside the gate: a guard (the Talk to Guard script sends the talk here: Sulkhaven Guard) and a notice by the bridge.
 """
 import math
 import random
@@ -21,18 +21,18 @@ W = C = R = None        # build_world, build_content, build_regions
 MX0, MX1, MY0, MY1 = 4, 5, 2, 3
 GW, GH = 25, 21
 GX0, GX1, GY0, GY1 = MX0 * GW, (MX1 + 1) * GW - 1, MY0 * GH, (MY1 + 1) * GH - 1
-FROM_MAP, FROM_ROW = "3,3,0", 12          # the farm road east of Ashford ends at the sea on this row: the bridge goes on
+FROM_MAP, FROM_ROW = "3,3,0", 12          # the farm road east of Puddleford ends at the sea on this row: the bridge goes on
 BRIDGE_Y = 3 * GH + FROM_ROW - 1           # (world row)
-TOWN = "Wardhaven"
+TOWN = "Sulkhaven"
 CX, CY = 127, 60                           # the middle of the town square (world tiles)
 HALF_W, HALF_H = 14, 12                    # the walls: CX +- HALF_W, CY +- HALF_H
 GATE = (CX, CY + HALF_H)                   # the gates, and over them the arch (both have a Lock)
 GATE_TOP = (CX, CY + HALF_H - 1)
 CONDITION = "$Attr.DragonQuest>=4"
-TOWNS = {TOWN: (CX // GW, CY // GH, None, "SHOP-Wardhaven",
-                "WARDHAVEN\\Safe behind its walls since the dragon came.\\The bridge west goes to Ashford's farms.")}
+TOWNS = {TOWN: (CX // GW, CY // GH, None, "SHOP-Sulkhaven",
+                "SULKHAVEN\\Safe behind its walls since the dragon came.\\The bridge west goes to Puddleford's farms.")}
 SETTLER_LINES = {TOWN: "Twelve years behind these walls, and now Ignaroth is dead! They say it was you. "
-                       "Drinks are on the house at every table in Wardhaven."}
+                       "Drinks are on the house at every table in Sulkhaven."}
 VILLAGES = {}
 TRADER_MAPS = []        # the maps the Trader and the Settler stand on (their scripts branch on the map)
 LAND = {"Grass001", "Sand001", "Dirt001", "Plank001", "Tall_Grass001"}
@@ -181,7 +181,7 @@ def populate(maps, grid, landing):
     # the gate: locked until the dragon is dead; a guard on the road outside it
     for cell in (GATE_TOP, GATE):
         m, x, y = local(*cell)
-        maps[m]["locks"].append((x, y, CONDITION, "The gates of Wardhaven are barred. \"Not while the dragon lives!\" "
+        maps[m]["locks"].append((x, y, CONDITION, "The gates of Sulkhaven are barred. \"Not while the dragon lives!\" "
                                                   "a guard shouts down from the wall."))
     add_npc("Guard", GATE[0] + 2, GATE[1] + 2, "Stand=1")
     # a notice where the bridge comes ashore
@@ -190,7 +190,7 @@ def populate(maps, grid, landing):
         nx += 1
     m, x, y = add(W.obj, "Notice", nx, ny)
     R.S[W.notice_script_name(m, x, y)] = [("Display.Conversation", "Notice",
-        "WARDHAVEN\\East: the walled town. Its gates have been barred since Ignaroth the dragon came to Ashpeak."
+        "SULKHAVEN\\East: the walled town. Its gates have been barred since Ignaroth the dragon came to Ashpeak."
         "\\They open for no one while the dragon lives.", "Okay", "@end"), "end:", ("End",)]
     for my in range(MY0, MY1 + 1):
         for mx in range(MX0, MX1 + 1):
@@ -202,7 +202,7 @@ def populate(maps, grid, landing):
 
 
 def data():
-    C.NEW_SHOPS["SHOP-Wardhaven"] = ("1.3", "0.8", ["Mithril_Sword,1", "Mithril_Platebody,1", "Mithril_Shield,1",
+    C.NEW_SHOPS["SHOP-Sulkhaven"] = ("1.3", "0.8", ["Mithril_Sword,1", "Mithril_Platebody,1", "Mithril_Shield,1",
                                                     "Yew_Bow,2", "Yew_Staff,1", "Arrows,300", "Mega_Potion,3",
                                                     "Super_Potion,6", "Fire_Storm_Scroll,4", "Lightning_Scroll,4",
                                                     "Meat_Pie,10"])
@@ -210,14 +210,14 @@ def data():
 
 def scripts():
     conv = R.conv
-    R.S["Wardhaven Guard"] = [
-        "// The guard at Wardhaven's gate (Talk to Guard comes here on its maps). Generated by build_walled.py",
+    R.S["Sulkhaven Guard"] = [
+        "// The guard at Sulkhaven's gate (Talk to Guard comes here on its maps). Generated by build_walled.py",
         (">Conditional", CONDITION, "@shut"),
-        conv("Guard", "The dragon-slayer! Welcome to Wardhaven. The gates are open, and they're staying open.",
+        conv("Guard", "The dragon-slayer! Welcome to Sulkhaven. The gates are open, and they're staying open.",
              ("Thank you.", "@bye")),
         ("End",),
         "shut:",
-        conv("Guard", "Halt! Wardhaven's gates have been barred since Ignaroth came to Ashpeak, and they stay barred while "
+        conv("Guard", "Halt! Sulkhaven's gates have been barred since Ignaroth came to Ashpeak, and they stay barred while "
                       "it lives.\\Kill the dragon, and the whole town will open its doors to you. Until then: off you go.",
              ("Who could kill a dragon?", "@who"), ("Goodbye.", "@bye")),
         ("End",),
@@ -228,14 +228,14 @@ def scripts():
 
 
 def open_bridge():
-    """The farm road east of Ashford (3,3,0) runs on over the sea: its last cell, in the east column, becomes planks."""
+    """The farm road east of Puddleford (3,3,0) runs on over the sea: its last cell, in the east column, becomes planks."""
     rows = W.MAPS[FROM_MAP]["rows"]
     row = rows[FROM_ROW - 1]
     assert W.LEGEND[row[-1]] == "Water001" and W.LEGEND[row[-2]] == "Dirt001", (row[-2:],)
     rows[FROM_ROW - 1] = row[:-1] + "p"
     W.MAPS[FROM_MAP]["entities"].append(W.obj("Notice", 23, FROM_ROW - 1))
     W.S[W.notice_script_name(FROM_MAP, 23, FROM_ROW - 1)] = [("Display.Conversation", "Notice",
-        "EAST: the bridge to Wardhaven\\(The town's gates are barred while the dragon lives.)", "Okay", "@end"),
+        "EAST: the bridge to Sulkhaven\\(The town's gates are barred while the dragon lives.)", "Okay", "@end"),
         "end:", ("End",)]
 
 
@@ -250,7 +250,7 @@ def extend(world, content, regions):
     populate(maps, grid, landing)
     scripts()
     import build_eastreach
-    build_eastreach.trader_scripts()        # again, now with Wardhaven's branch (TRADER_MAPS)
+    build_eastreach.trader_scripts()        # again, now with Sulkhaven's branch (TRADER_MAPS)
     W.MAPS.update(maps)
     W.SEAMLESS_MAPS.update(m for m in maps if m.endswith(",0"))
     W.S.update(R.S)

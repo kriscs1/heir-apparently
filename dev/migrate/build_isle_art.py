@@ -1,4 +1,4 @@
-"""Pictures for the Isle, drawn here (run it again to draw them again):
+"""Pictures for Muddlesey, drawn here (run it again to draw them again):
 
   python -I "dev\\migrate\\build_isle_art.py"
 

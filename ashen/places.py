@@ -2,10 +2,10 @@
 
 A place is either a tile with an ID (a map line "Id<TAB>Name<TAB>X<TAB>Y", X and Y the tile, 1-25 and 1-21, as for
 a Trigger) or anything placed on a map with Id=Name in its options (an NPC, an item, an object: the Id= that already
-picks its scripts, e.g. Read Ashford). IDs are unique across the whole world, so a name says which map too.
+picks its scripts, e.g. Read Puddleford). IDs are unique across the whole world, so a name says which map too.
 
 Where a script takes coordinates ("X COORDINATE,Y COORDINATE", "TARGET X,TARGET Y", tile coordinates) it can take a
-place's name instead: Teleport  Ashford_Bank_Door  (no map needed), Change.Tile  Old_Well  Well002, Edit.Entity
+place's name instead: Teleport  Puddleford_Bank_Door  (no map needed), Change.Tile  Old_Well  Well002, Edit.Entity
 Lair_Dragon  Dragon  HP  -90. A named NPC or object is found by its ID wherever it has wandered to. Quests.ini
 markers may name places too: Marker1=Ferry_Pier;Milkmaid (the old "<map> <x> <y>" still works)."""
 import os

@@ -22,7 +22,7 @@
 22	Update.Attribute	RemedyQuest	=1
 23	Quest.Note	RemedyQuest	Pick 3 Cave Mushrooms in the old iron mine.
 24	Quest.Note	RemedyQuest	Get 2 Spider Silk from the giant spiders in the mine depths.
-25	Quest.Note	RemedyQuest	Bring them all to the Herbalist's cottage on the Ashford farmlands.
+25	Quest.Note	RemedyQuest	Bring them all to the Herbalist's cottage on the Puddleford farmlands.
 26	Display.Message	Yellow	Quest started: The Herbalist's Remedy.
 27	End
 28	>Conditional	$Variable.1=1	43

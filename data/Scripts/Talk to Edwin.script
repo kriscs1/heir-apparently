@@ -13,7 +13,7 @@
 12	End
 13	>Conditional	$Attr.LastWill>=2	17
 14	Display.Conversation	Edwin	If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	What was my mother like?	15	Goodbye.	18
-15	Display.Conversation	Edwin	She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	Thank you.	18
+15	Display.Conversation	Edwin	She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	Thank you.	18
 16	End
 17	Display.Conversation	Edwin	Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	Goodbye.	18
 18	End

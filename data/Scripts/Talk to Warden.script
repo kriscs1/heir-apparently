@@ -23,7 +23,7 @@
 22	Display.Conversation	Warden	Blue, all three? And tracks to the Hand's camp. Get close enough to hear what's said there. Quietly, mind: they'll not talk in front of you.	I'll go quietly.	32
 23	End
 24	>Conditional	$Variable.2=3	29
-25	Display.Conversation	Warden	Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	Thank you.	26
+25	Display.Conversation	Warden	Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Puddleford. Here, for your trouble, and keep your eyes open.	Thank you.	26
 26	Update.Attribute	ColdFireQuest	=4
 27	Display.Message	Yellow	Quest complete: Cold Fire!
 28	End

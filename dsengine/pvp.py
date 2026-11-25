@@ -5,7 +5,7 @@ healed and wake by the gate (Respawn.Map / Respawn.X / Respawn.Y), and the arena
 ArenaLosses are kept as attributes).
 
 Open PvP (a server's setting: DS_PVP=1, or an admin's /pvp on; World.open_pvp): players may fight anywhere else too,
-but never in a town (Towns.ini's maps: the Isle's too), a homestead or the Shardrealm (Config [PvP] Open.Safe.Maps),
+but never in a town (Towns.ini's maps: Muddlesey's too), a homestead or the Shardrealm (Config [PvP] Open.Safe.Maps),
 nor in a party together, nor more than Open.Level.Gap levels apart. Strike a player who isn't marked and you're
 marked for Open.Mark.Minutes (each blow you give or take while marked starts it again): the towns' guards come for
 you, you can't travel away (shardstones, home, a teleport), and die before it fades and you lose everything you

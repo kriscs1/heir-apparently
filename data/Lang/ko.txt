@@ -5,20 +5,20 @@ Name=한국어
 Galaith, the royal city. Its white towers shine over the rooftops.	왕도 갈라이스. 하얀 탑들이 지붕 너머로 빛난다.
 The arena! Step onto the sand to fight other players (right-click them: Attack). The paving is safe. Beaten, you lose nothing: you wake by the gate.	투기장이다! 모래 위로 올라서면 다른 플레이어와 싸울 수 있다(우클릭: 공격). 포장된 바닥은 안전하다. 져도 잃는 것은 없고, 문 옆에서 깨어난다.
 A damp cellar. The far wall has fallen in, and something squeaks in the dark.	축축한 지하실. 안쪽 벽이 무너져 있고, 어둠 속에서 무언가 찍찍거린다.
-Ashford. You smell fresh bread.	애시퍼드. 갓 구운 빵 냄새가 난다.
-Saltmarsh. The tide hisses in the reeds.	솔트마시. 갈대 사이로 밀물이 쉭쉭거린다.
-Ashford.	애시퍼드.
-The farmlands of Ashford.	애시퍼드의 농지.
-Greyford.	그레이퍼드.
-Wardhaven, on its island.	섬 위의 워드헤이븐.
+Puddleford. You smell fresh bread.	퍼들퍼드. 갓 구운 빵 냄새가 난다.
+Brinebottom. The tide hisses in the reeds.	브라인보텀. 갈대 사이로 밀물이 쉭쉭거린다.
+Puddleford.	퍼들퍼드.
+The farmlands of Puddleford.	퍼들퍼드의 농지.
+Dullford.	덜퍼드.
+Sulkhaven, on its island.	섬 위의 설크헤이븐.
 Cold air, flagstones, and a smell of old barrels.	차가운 공기, 판석, 그리고 오래된 술통 냄새.
-Frosthold. Your breath steams in the cold.	프로스트홀드. 추위에 입김이 하얗게 피어오른다.
+Chillingham. Your breath steams in the cold.	칠링엄. 추위에 입김이 하얗게 피어오른다.
 Sergeant Holt's men are through the camp's gate.	홀트 하사의 부하들이 야영지 문을 뚫고 들어갔다.
-The grotto under the Isle. Water drips into a black pool.	섬 아래의 동굴. 검은 웅덩이로 물이 똑똑 떨어진다.
+The grotto under Muddlesey. Water drips into a black pool.	섬 아래의 동굴. 검은 웅덩이로 물이 똑똑 떨어진다.
 Torchlight, bones and the stink of hobgoblin: their lair!	횃불, 뼈, 그리고 홉고블린의 악취. 놈들의 소굴이다!
 Wildwood.	와일드우드.
 The Wizards' Court. The air tingles with magic.	마법사 궁정. 공기가 마법으로 찌릿거린다.
-Thornwick.	손윅.
+Nettlewick.	네틀윅.
 The wizard's study. Strange smells drift from the bubbling vials.	마법사의 서재. 부글거리는 약병들에서 이상한 냄새가 풍긴다.
 The old iron mine. The air is cold and smells of rust.	오래된 철광산. 공기가 차고 녹 냄새가 난다.
 Something growls in the dark tunnels ahead.	앞쪽의 어두운 굴에서 무언가 으르렁거린다.
@@ -31,8 +31,8 @@ The Cinder Peaks. The air shimmers over the lava, and somewhere above, men are c
 Emberwatch, the last town before the Cinder Peaks. Smoke on the wind.	엠버워치, 신더 산맥 앞의 마지막 마을. 바람에 연기가 섞여 있다.
 Dry air, old paper, and something shuffling between the shelves.	건조한 공기, 오래된 종이, 그리고 서가 사이에서 발을 끄는 무언가.
 Dunerest, at the desert's edge.	사막 끝자락의 듄레스트.
-Northport. Gulls wheel over the harbour.	노스포트. 항구 위로 갈매기들이 맴돈다.
-Oakhollow.	오크할로.
+Drizzleport. Gulls wheel over the harbour.	드리즐포트. 항구 위로 갈매기들이 맴돈다.
+Acornby.	에이콘비.
 Bramble's woodcutters are in the grove, axes ready.	브램블의 나무꾼들이 도끼를 들고 숲에 와 있다.
 Alchemy: pick herbs, berries and mushrooms, and brew potions at an alchemy table.	연금술: 약초, 열매, 버섯을 따서 연금술대에서 물약을 만듭니다.
 The last of the three, burning blue like the others. In the ash round it there are footprints, a lot of them, going off towards the Hand's camp.	셋 중 마지막. 다른 것들처럼 푸르게 타고 있다. 그 주위의 재에는 발자국이 잔뜩, 잿빛 손의 야영지 쪽으로 이어져 있다.
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	이 주목을 베려면 벌목 �
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	읊조리는 소리와 타는 냄새. 마당에서는 연기 나는 로브를 입고 손가락에 불의 반지를 낀 사제가 잿빛 손을 이끌며 용에게 바치는 찬가를 부르고 있다. 2절을 아는 사람은 아무도 없는 모양이다.
 You lift the hatch and climb down into the dark. Somewhere below, boots.	해치를 들어 올리고 어둠 속으로 내려간다. 아래 어딘가에서 장화 소리가 난다.
 The hatch is locked.	해치가 잠겨 있다.
-You climb down the ladder, into the caves under the Isle.	사다리를 타고 섬 아래의 동굴로 내려간다.
+You climb down the ladder, into the caves under Muddlesey.	사다리를 타고 섬 아래의 동굴로 내려간다.
 You go down the steps, into the cellar.	계단을 내려가 지하실로 들어간다.
 You climb down the ladder.	사다리를 타고 내려간다.
 The hatch is shut, and it isn't yours to open.	해치가 닫혀 있고, 당신이 열 수 있는 것이 아니다.
@@ -134,7 +134,7 @@ You go down the steps, into the dark under the sand.	계단을 내려가 모래 
 You climb down into a small stone room. The sea is very close, the other side of the wall.	작은 돌방으로 내려간다. 바다가 아주 가깝다. 벽 바로 너머에.
 The hatch won't move.	해치가 꿈쩍도 하지 않는다.
 You crawl the length of Meg's tunnel, and come up in her camp.	메그의 굴을 끝까지 기어가서 그녀의 야영지로 올라온다.
-You crawl the length of Meg's tunnel, and come up in a field outside Ashford.	메그의 굴을 끝까지 기어가서 애시퍼드 밖의 들판으로 올라온다.
+You crawl the length of Meg's tunnel, and come up in a field outside Puddleford.	메그의 굴을 끝까지 기어가서 퍼들퍼드 밖의 들판으로 올라온다.
 The slab tips on a pin, and there are steps under it, cut in the rock. Down below, people are singing.	판석이 축을 중심으로 기울고, 그 아래 바위를 깎은 계단이 있다. 저 아래에서 사람들이 노래하고 있다.
 You go down the stairs.	계단을 내려간다.
 You promised Maren: not until Brother Aldous says you're ready.	마렌과 약속했다. 올더스 수사님이 준비가 됐다고 하실 때까지는 안 된다.
@@ -152,7 +152,7 @@ You climb up through the barrel, and out by the lake.	술통을 통해 기어올
 You push up a hatch behind stacked cargo... a palisade, tents, a campfire: a smugglers' camp! Keep out of their sight.	쌓인 화물 뒤의 해치를 밀어 올린다... 방책, 천막, 모닥불. 밀수꾼의 야영지다! 눈에 띄지 않게 하자.
 You feel around in the straw...	짚 속을 더듬어 본다...
 ...and find a fresh egg!	...그리고 신선한 달걀을 찾았다!
-Crafting: smelt ore and forge tools at a furnace or anvil (the Ashford smithy, Brokk's hall); shear sheep, then tan, spin and make jewellery at a workbench.	공예: 용광로나 모루에서 광석을 제련하고 도구를 벼립니다(애시퍼드 대장간, 브로크의 전당). 양털을 깎은 뒤 작업대에서 가죽을 무두질하고, 실을 잣고, 장신구를 만듭니다.
+Crafting: smelt ore and forge tools at a furnace or anvil (the Puddleford smithy, Brokk's hall); shear sheep, then tan, spin and make jewellery at a workbench.	공예: 용광로나 모루에서 광석을 제련하고 도구를 벼립니다(퍼들퍼드 대장간, 브로크의 전당). 양털을 깎은 뒤 작업대에서 가죽을 무두질하고, 실을 잣고, 장신구를 만듭니다.
 You dug up Tobin's strongbox. Tell Salt Agnes.	토빈의 금고를 파냈다. 소금 아그네스에게 알리자.
 Under the stones, a strongbox gone green at the corners. Tobin's. He'd want somebody to have it.	돌들 아래, 모서리가 푸르게 녹슨 금고가 있다. 토빈의 것이다. 그는 누군가가 가져가길 바랐을 것이다.
 Stones, on top of stones. Whoever piled them here meant them to stay.	돌 위에 또 돌. 여기에 쌓은 사람은 계속 그대로 두려 했다.
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	광산으로 내려간다
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	몸을 숙여 굴로 들어간다. 앞 어딘가에서 물이 떨어지고, 무언가 바스락거린다.
 You duck into the tunnel. The fen's damp follows you in.	몸을 숙여 굴로 들어간다. 습지의 축축함이 따라 들어온다.
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	'장벽이 솟은 겨울, 장벽 발치에서 발견된 이방인. 도시가 제 사람으로 묻었다.'
-'Agnes Reed. She mended every net on the Isle and swore at every gull.'	'아그네스 리드. 섬의 그물을 모두 기웠고, 갈매기마다 욕을 했다.'
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	'아그네스 리드. 섬의 그물을 모두 기웠고, 갈매기마다 욕을 했다.'
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	'구릉의 양치기 올드윈. 그의 양 떼는 그보다 한 겨울 더 살았다.'
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	'하프의 베아트릭스. 귀족 구역이 그만두라고 했다. 그녀는 그만두지 않았다.'
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	'대장장이 브람. 망치를 함께 묻었으니, 저편에서도 물건을 고칠 것이다.'
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	�
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	'길드장 프라이스. 살아서는 길드의 장부를 지켰고, 죽어서는 바라건대 성질을 지키기를.'
 Two names in a ring of carved ivy: Hal and Bryony.	조각된 담쟁이 고리 안에 두 이름: 할과 브라이어니.
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	'항구의 문지기 할. 들일 배를 이십 년 동안 기다렸다.'
-'Hester Bell, midwife. Half the Isle came into the world through her hands.'	'산파 헤스터 벨. 섬 사람 절반이 그녀의 손을 거쳐 세상에 나왔다.'
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	'산파 헤스터 벨. 섬 사람 절반이 그녀의 손을 거쳐 세상에 나왔다.'
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	'나는 이 언덕들을 사랑했다. 언덕이 보이는 곳에 묻어 다오.' 비석은 해 뜨는 쪽을 향해 있다.
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	'오십 년 동안 도시에서 가장 나쁜 포도주를 팔았고, 몹시 그리운 포도주상 홉 빈트너.'
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	'이솔데 애시비 부인. 재산은 마을에, 성질은 아들에게 남겼다.'
@@ -218,14 +218,14 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	창이 �
 'Little Wren, aged six. Gone to chase the butterflies.'	'여섯 살 꼬마 렌. 나비를 쫓아 떠났다.'
 'Marta of the Quays. She could gut a herring at forty paces.'	'부두의 마르타. 마흔 걸음 밖에서도 청어 배를 갈랐다.'
 'Martha Lark, who sang at every burial in this yard but her own.'	'이 묘지의 모든 장례에서 노래했으나 자기 장례에서만은 못 한 마사 라크.'
-'Mary Croft, beloved mother. She baked the best pies on the Isle.'	'메리 크로프트, 사랑하는 어머니. 섬에서 제일 맛있는 파이를 구웠다.'
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	'메리 크로프트, 사랑하는 어머니. 섬에서 제일 맛있는 파이를 구웠다.'
 So mossed over you can't read it. A wren has nested on top.	이끼가 너무 덮여 읽을 수가 없다. 굴뚝새가 꼭대기에 둥지를 틀었다.
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	'뱃사공 네드 파이크. 사십 년 동안 해협을 건넜고, 승객을 한 명도 잃지 않았다.'
 A bow is carved on it, and one word in the old tongue: 'Steady.'	활이 새겨져 있고, 옛말로 한 단어: '침착하게.'
 'Old Godwin, sexton of this yard. He mowed it for forty years and asks you to keep off the grass.'	'이 묘지의 관리인 노 고드윈. 사십 년 동안 풀을 깎았으니, 잔디에 들어가지 말아 주시길.'
 'Old Wat, who lived alone and liked it. Leave him be.'	'혼자 살았고 그게 좋았던 노 와트. 내버려 두시라.'
 'Osric Raven, first gravekeeper of the Barrowdowns. He dug his own, and dug it well.'	'배로다운스의 첫 묘지기 오스릭 레이븐. 자기 무덤을 직접 팠고, 잘 팠다.'
-A raven is carved where a name should be: the mark of Ravensgate, a town long gone.	이름이 있어야 할 자리에 까마귀가 새겨져 있다. 오래전에 사라진 마을, 레이븐스게이트의 표식이다.
+A crow is carved where a name should be: the mark of Crowgate, a town long gone.	이름이 있어야 할 자리에 까마귀가 새겨져 있다. 오래전에 사라진 마을, 크로게이트의 표식이다.
 'Here lies one who walked every road on the downs, and rests at last beside this one.'	'구릉의 모든 길을 걸은 이가 마침내 이 길가에 잠들다.'
 'The Rowan twins. Born together, buried together. One stone was always enough.'	'로완 쌍둥이. 함께 태어나 함께 묻혔다. 비석 하나면 늘 충분했다.'
 'Sister Oona, who nursed the city through the Grey Winter and caught it last of all.'	'잿빛 겨울 내내 도시를 간호하다 마지막으로 병에 걸린 우나 수녀.'
@@ -254,7 +254,7 @@ A royal cot, carved with little dragons. Every heir of Galaith slept in it, for 
 'Sunniva, firstborn of Queen Ysolde. Taken on her wedding morning.' A ring of dried flowers, kept new.	'이졸데 왕비의 맏이 순니바. 혼례 날 아침에 끌려갔다.' 마른 꽃 고리가 늘 새것으로 놓여 있다.
 A small new stone, and nothing cut in it yet. The grass round it is the shortest in the yard.	아직 아무것도 새기지 않은 작은 새 비석. 그 주위의 풀이 묘지에서 가장 짧다.
 The farmer waves his hat at you: "Come back any time those goblins do!"	농부가 모자를 흔든다. "그 고블린 놈들이 또 오면 언제든 와 주게!"
-The Ashford Road: tell the Mayor the goblins are beaten.	애시퍼드 가도: 시장에게 고블린을 물리쳤다고 알리자.
+The Puddleford Road: tell the Mayor the goblins are beaten.	퍼들퍼드 가도: 시장에게 고블린을 물리쳤다고 알리자.
 The cat eats the raw herring in neat little bites, then washes its whiskers.	고양이가 날청어를 얌전히 조금씩 먹고는 수염을 닦는다.
 The cat eats the raw trout in neat little bites, then washes its whiskers.	고양이가 날송어를 얌전히 조금씩 먹고는 수염을 닦는다.
 The cat eats the raw salmon in neat little bites, then washes its whiskers.	고양이가 날연어를 얌전히 조금씩 먹고는 수염을 닦는다.
@@ -356,7 +356,7 @@ You've heard enough. The Warden in Emberwatch will want to know.	들을 만큼 �
 Voices by the Hand's fire, too low to make out. You'd hear more if you came quietly.	잿빛 손의 불가에서 목소리가 들리지만, 너무 낮아 알아들을 수 없다. 조용히 다가가면 더 들을 수 있을 것이다.
 You cut an armful of wheat...	밀을 한 아름 벤다...
 ...and tie it into a sheaf.	...그리고 한 단으로 묶는다.
-The Heartwood is north-east of Thornwick, where the yews are oldest.	심재석은 손윅 북동쪽, 주목이 가장 오래된 곳에 있다.
+The Heartwood is north-east of Nettlewick, where the yews are oldest.	심재석은 네틀윅 북동쪽, 주목이 가장 오래된 곳에 있다.
 Touch the heart stone, then tell the Druid what you feel.	심장석을 만지고, 드루이드에게 무엇을 느꼈는지 말하자.
 Slay four maddened bears in the Elderwood.	엘더우드에서 미쳐 날뛰는 곰 네 마리를 처치하자.
 The heart stone is cold as a grave... and from the trees, a bear roars. Slay four maddened bears.	심장석이 무덤처럼 차갑다... 그리고 나무들 사이에서 곰이 포효한다. 미쳐 날뛰는 곰 네 마리를 처치하자.
@@ -366,7 +366,7 @@ The wall isn't there. Behind it, a low way runs off under the houses, smelling o
 You lean on the crystal wall and it isn't there. Light, a lot of it, and a hush like held breath.	수정 벽에 기대자 벽이 거기 없다. 빛이, 아주 많은 빛이, 그리고 숨을 죽인 듯한 고요.
 Homesteading: build on your homestead, and sow and harvest crops.	집짓기: 홈스테드에 건물을 짓고, 작물을 심고 거둡니다.
 Slay the Alpha Wolf, the great black brute leading the pack.	무리를 이끄는 거대한 검은 짐승, 우두머리 늑대를 처치하자.
-The Alpha Wolf is dead! Return to the shepherd in Greyford.	우두머리 늑대가 죽었다! 그레이퍼드의 양치기에게 돌아가자.
+The Alpha Wolf is dead! Return to the shepherd in Dullford.	우두머리 늑대가 죽었다! 덜퍼드의 양치기에게 돌아가자.
 Killed what you came to kill.	잡으러 온 것을 잡았다.
 That's the last of them: go back to Warden Oska.	그게 마지막이다. 감시관 오스카에게 돌아가자.
 The acolyte crumples into the ash.	수습 사제가 재 속으로 쓰러진다.
@@ -374,11 +374,11 @@ The Ashen Priest falls, and the Ember Ring rolls from his finger, glowing like a
 Something else falls from his robe: a little ledger, bound in black.	그의 로브에서 다른 것도 떨어진다. 검게 장정한 작은 장부다.
 Bandits slain for Captain Hale: $Variable.2 of 5.	헤일 대장을 위해 처치한 도적: $Variable.2 / 5.
 Bandits rob travellers on the Redrock road and in the hills: slay five.	도적들이 레드록 길과 언덕에서 나그네를 턴다. 다섯을 처치하자.
-Report to Captain Hale in Frosthold.	프로스트홀드의 헤일 대장에게 보고하자.
-Five bandits! Report to Captain Hale in Frosthold.	도적 다섯! 프로스트홀드의 헤일 대장에게 보고하자.
+Report to Captain Hale in Chillingham.	칠링엄의 헤일 대장에게 보고하자.
+Five bandits! Report to Captain Hale in Chillingham.	도적 다섯! 칠링엄의 헤일 대장에게 보고하자.
 The Barrow King crumbles to dust. Return to the Gravekeeper at King Rupert's Keep.	무덤 왕이 먼지가 되어 무너진다. 루퍼트 왕의 성채의 묘지기에게 돌아가자.
 Maddened bears slain for the Druid: $Variable.2 of 4.	드루이드를 위해 처치한 미친 곰: $Variable.2 / 4.
-Four bears! Return to the Druid in Thornwick.	곰 네 마리! 손윅의 드루이드에게 돌아가자.
+Four bears! Return to the Druid in Nettlewick.	곰 네 마리! 네틀윅의 드루이드에게 돌아가자.
 The Brine Mother is dead.	소금물의 어미가 죽었다.
 The Brine Mother sinks into her lake for the last time. Morrow will want to know.	소금물의 어미가 마지막으로 호수 속으로 가라앉는다. 모로가 알고 싶어 할 것이다.
 That's the last of them: go back to Delver Maud.	그게 마지막이다. 탐사꾼 모드에게 돌아가자.
@@ -389,16 +389,16 @@ A Valour Seal falls from the drake's hoard-hide: $Variable.2 of 3.	비룡의 보
 That's the last of them: go back to Old Sal.	그게 마지막이다. 늙은 샐에게 돌아가자.
 The Glassbound comes apart like a dropped jug. In the pieces there's a key of blue glass, and it's for the sanctum's gate.	유리에 묶인 자가 떨어뜨린 항아리처럼 산산이 부서진다. 그 조각들 속에 푸른 유리 열쇠가 있는데, 성소 문의 열쇠다.
 The Forgemother cracks and spills across the floor, and the Foundry's great hearth stands open.	주조의 어미가 갈라져 바닥에 쏟아지고, 주조소의 큰 화로가 활짝 열린다.
-The Frost Troll is on the frozen lake east of Frosthold.	서리 트롤은 프로스트홀드 동쪽의 얼어붙은 호수에 있다.
+The Frost Troll is on the frozen lake east of Chillingham.	서리 트롤은 칠링엄 동쪽의 얼어붙은 호수에 있다.
 Mithril ore needs Mining 13 and a steel pickaxe or better; smelt it at a furnace.	미스릴 광석은 채광 13과 강철 곡괭이 이상이 필요하다. 용광로에서 제련하자.
 The Frost Troll is slain! Bring Brann 2 mithril bars.	서리 트롤을 처치했다! 브란에게 미스릴 주괴 2개를 가져가자.
 The Sword of Valour finds the dragon's heart. With its last breath it hisses: "The Seam... I carried my greatest piece... the rest of me still sleeps... yours now, to keep shut... or wear..." and the black hulk crashes to the scorched earth.	용기의 검이 용의 심장을 찾아낸다. 마지막 숨으로 용이 쉭쉭거린다. "광맥... 나는 가장 큰 조각을 품고 있었다... 나머지는 아직 잠들어 있지... 이제 네 것이다, 닫아 두든지... 걸치든지..." 그리고 검은 거구가 그을린 땅에 쓰러진다.
 Quest complete: The Dragon of Galaith! The gates of Galaith swing open.	퀘스트 완료: 갈라이스의 용! 갈라이스의 문이 활짝 열린다.
 Giant spiders slain for Ranger Ash: $Variable.2 of 5.	레인저 애시를 위해 처치한 거대 거미: $Variable.2 / 5.
 Slay five giant spiders there.	그곳의 거대 거미 다섯 마리를 처치하자.
-Return to Ranger Ash in Oakhollow.	오크할로의 레인저 애시에게 돌아가자.
-Five spiders! Return to Ranger Ash in Oakhollow.	거미 다섯! 오크할로의 레인저 애시에게 돌아가자.
-The last goblin falls: the bridge to Wardhaven is clear. Tell the Mayor.	마지막 고블린이 쓰러진다. 워드헤이븐으로 가는 다리가 뚫렸다. 시장에게 알리자.
+Return to Ranger Ash in Acornby.	에이콘비의 레인저 애시에게 돌아가자.
+Five spiders! Return to Ranger Ash in Acornby.	거미 다섯! 에이콘비의 레인저 애시에게 돌아가자.
+The last goblin falls: the bridge to Sulkhaven is clear. Tell the Mayor.	마지막 고블린이 쓰러진다. 설크헤이븐으로 가는 다리가 뚫렸다. 시장에게 알리자.
 Goblins cleared from the bridge: $Variable.2 of 4.	다리에서 쫓아낸 고블린: $Variable.2 / 4.
 A market rat seen to: $Attr.HexRats of 4.	처리한 시장 쥐: $Attr.HexRats / 4.
 The wild man staggers off into the trees, howling. He'll be back...	야인이 울부짖으며 비틀비틀 숲으로 사라진다. 다시 올 것이다...
@@ -434,8 +434,8 @@ The guardian kneels, and fades into light: "Take it, heir."	수호자가 무릎�
 That's the last of them: go back to Apprentice Ione.	그게 마지막이다. 견습생 이오네에게 돌아가자.
 Wolves slain for the shepherd: $Variable.2 of 6.	양치기를 위해 처치한 늑대: $Variable.2 / 6.
 Slay six wolves on the Greyflats.	그레이플랫에서 늑대 여섯 마리를 처치하자.
-Tell the shepherd in Greyford.	그레이퍼드의 양치기에게 알리자.
-Six wolves! Tell the shepherd in Greyford.	늑대 여섯! 그레이퍼드의 양치기에게 알리자.
+Tell the shepherd in Dullford.	덜퍼드의 양치기에게 알리자.
+Six wolves! Tell the shepherd in Dullford.	늑대 여섯! 덜퍼드의 양치기에게 알리자.
 One of Bramble's woodcutters runs for the village.	브램블의 나무꾼 하나가 마을로 달아난다.
 Bramble's woodcutters are gone. Go back to Ranger Ash.	브램블의 나무꾼들이 떠났다. 레인저 애시에게 돌아가자.
 That's the last of them: go back to Surveyor Nils.	그게 마지막이다. 측량사 닐스에게 돌아가자.
@@ -465,7 +465,7 @@ It sings on, quieter now. The splinter at your neck sings with it.	이제 더 �
 It hums, cold. For a moment you'd swear someone you love is about to say your name.	차갑게 웅웅거린다. 한순간, 사랑하는 누군가가 당신 이름을 부르려 한다고 맹세할 수 있을 것 같다.
 The hum of it fills your head, and then it isn't a hum. It's a woman's voice, and you know it.\"My beloved $Player.Son. Look at you. This is not what your life should have been like, and still you've come so far."\"I was wrong to run. Come home, love. Come and be whole with me, all of us together. It won't hurt."\You know those words. They were in her letter, and the Shard is giving them back to you, out of order.	그 울림이 머릿속을 가득 채우더니, 이윽고 울림이 아니게 된다. 여자의 목소리이고, 당신은 그 목소리를 안다.\"사랑하는 내 $Player.Son. 너를 좀 보렴. 네 삶이 이래서는 안 됐는데, 그래도 이렇게 멀리 왔구나."\"도망친 내가 잘못이었어. 집으로 오렴, 얘야. 와서 나와 함께 온전해지자, 우리 모두 함께. 아프지 않을 거야."\당신은 그 말을 안다. 어머니의 편지에 있던 말이고, 샤드가 그것을 순서를 뒤섞어 당신에게 되돌려 주고 있다.
 Step back.	물러선다.
-Now you know what the Mending wants. Sheriff Flo in Ashford should hear of it, or Sister Linnet would be glad of your silence.	이제 수선회가 무엇을 원하는지 안다. 애시퍼드의 플로 보안관이 이 얘기를 들어야 한다. 아니면 린넷 수녀가 당신의 침묵을 반길 것이다.
+Now you know what the Mending wants. Sheriff Flo in Puddleford should hear of it, or Sister Linnet would be glad of your silence.	이제 수선회가 무엇을 원하는지 안다. 퍼들퍼드의 플로 보안관이 이 얘기를 들어야 한다. 아니면 린넷 수녀가 당신의 침묵을 반길 것이다.
 It's quiet. Something in it is still listening, but it's got nothing left to say.	조용하다. 그 안의 무언가가 아직 귀 기울이고 있지만, 더 할 말은 남아 있지 않다.
 It hums, warm as bread. Annis says she hears her Oswin in it. For a moment, you'd swear someone you miss is about to speak.	빵처럼 따뜻하게 웅웅거린다. 애니스는 그 안에서 남편 오스윈의 목소리가 들린다고 한다. 한순간, 그리운 누군가가 막 말을 하려 한다고 맹세할 수 있을 것 같다.
 You stand very still, and let the Shards round you go quiet, and put your ear to the horn.	아주 가만히 서서 주위의 샤드를 잠잠하게 하고, 뿔에 귀를 댄다.
@@ -618,20 +618,20 @@ You've taken what you dared already.	이미 감히 가져갈 만큼 가져갔다
 Break open their strongbox and take back the stolen goods.	그들의 금고를 부수고 훔친 물건을 되찾자.
 You break open the strongbox: the stolen goods! Take them to Captain Hale.	금고를 부순다. 훔친 물건이다! 헤일 대장에게 가져가자.
 The strongbox is empty.	금고가 비어 있다.
-A chest, and a note in a careful hand: "Ashford doesn't forget a friend."	상자 하나, 그리고 정성 들인 글씨의 쪽지: "애시퍼드는 친구를 잊지 않는다."
+A chest, and a note in a careful hand: "Puddleford doesn't forget a friend."	상자 하나, 그리고 정성 들인 글씨의 쪽지: "퍼들퍼드는 친구를 잊지 않는다."
 The chest is empty: you've had what was left for you.	상자가 비어 있다. 당신을 위해 남겨 둔 것은 이미 가져갔다.
 A wizard's chest, and inside, scrolls sealed with the Court's mark.	마법사의 상자. 안에는 궁정의 표식으로 봉한 두루마리들이 있다.
 The merchant's chest, and a sapphire ring for a friend of Dunerest.	상인의 상자. 듄레스트의 친구를 위한 사파이어 반지가 있다.
 The watch's chest: a helm and tonics, for a friend of the wall.	경비대의 상자. 성벽의 친구를 위한 투구와 강장제가 있다.
 A chest, and a pair of mithril gauntlets wrapped in fur.	상자 하나, 그리고 털가죽에 싼 미스릴 건틀릿 한 켤레.
 A noble's chest, and in it a gift for a friend of the city.	귀족의 상자. 안에는 도시의 친구를 위한 선물이 있다.
-The miners' chest: two bars of mithril, put by for a friend of Greyford.	광부들의 상자. 그레이퍼드의 친구를 위해 따로 둔 미스릴 주괴 두 개.
+The miners' chest: two bars of mithril, put by for a friend of Dullford.	광부들의 상자. 덜퍼드의 친구를 위해 따로 둔 미스릴 주괴 두 개.
 The garrison's chest: a steel shield, and the Keep's thanks.	수비대의 상자. 강철 방패와 성채의 감사.
 A chest, and in it tonics against the marsh fever, and more.	상자 하나, 그리고 안에는 습지 열병에 듣는 강장제와 그 밖의 것들.
 The pilots' chest, and a note on top: "For a friend of the harbour."	도선사들의 상자. 맨 위에 쪽지가 있다: "항구의 친구에게."
 The forester's chest. The village has left you something in it.	산지기의 상자. 마을이 그 안에 당신을 위해 무언가를 남겨 두었다.
 The fishers' chest. They've put by something for you.	어부들의 상자. 당신을 위해 무언가를 따로 두었다.
-The elders' chest. A ruby ring, and a word: "With Thornwick's thanks."	장로들의 상자. 루비 반지와 한마디: "손윅의 감사를 담아."
+The elders' chest. A ruby ring, and a word: "With Nettlewick's thanks."	장로들의 상자. 루비 반지와 한마디: "네틀윅의 감사를 담아."
 A Warden's chest, and a gold ring with their seal.	수호자의 상자. 그들의 인장이 새겨진 금반지가 있다.
 A chest under the bed, and a sprig of oak tied to its lid: Wildwood's thanks.	침대 밑의 상자. 뚜껑에 참나무 잔가지가 묶여 있다. 와일드우드의 감사다.
 The Wardens wrote everything down. Nine journals, I think, left on lecterns all over the Deep, wherever the last of them were standing when they stopped.\I've read three. They don't make sense in threes. Read them all for me? I'll pay, and I'll write it up properly: the first true history of the Glass Wardens.	수호자들은 모든 것을 적어 두었어요. 일지가 아홉 권일 거예요. 심연 곳곳의 독서대 위에, 마지막 수호자들이 멈춘 그 자리에 남아 있죠.\세 권은 읽었어요. 세 권으로는 이해가 안 돼요. 저 대신 전부 읽어 주실래요? 돈은 드릴게요. 그리고 제대로 정리할 거예요. 유리 수호자의 첫 참된 역사로요.
@@ -720,27 +720,27 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	서리 
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	제단의 그릇에서 얼음을 깨고 로드스타를 꺼낸다. 데일 만큼 차갑고, 부드럽게 북쪽으로 당긴다.
 A star of ice glitters in the altar's bowl, frozen fast.	제단의 그릇 속에서 얼음 별 하나가 단단히 얼어붙은 채 반짝인다.
 The altar's bowl is empty.	제단의 그릇이 비어 있다.
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	검은 표지의 작은 장부. 정성스러운 글씨로: 들어온 샤드, 나간 샤드, 그리고 '양초(검은색)' 칸. 두 줄에 재로 찍은 엄지 지문이 표시되어 있다.\'섬의 홉고블린들에게 샤드 마흔 개, 여자의 서류와 아이의 이름 값으로. 놈들은 노인을 잡아갔지만 아무것도 얻지 못했다.'\그리고 더 최근의 것, 잉크가 아직 진하다. '아이가 해협을 건넜다. 회색 무리는 이제 두 배를 낸다. 벽 너머의 그분이 기다리고 있다고 한다.'\페이지 맨 아래, 밑줄 두 번: '분기 재 실적: 목표 미달.'
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	검은 표지의 작은 장부. 정성스러운 글씨로: 들어온 샤드, 나간 샤드, 그리고 '양초(검은색)' 칸. 두 줄에 재로 찍은 엄지 지문이 표시되어 있다.\'섬의 홉고블린들에게 샤드 마흔 개, 여자의 서류와 아이의 이름 값으로. 놈들은 노인을 잡아갔지만 아무것도 얻지 못했다.'\그리고 더 최근의 것, 잉크가 아직 진하다. '아이가 해협을 건넜다. 회색 무리는 이제 두 배를 낸다. 벽 너머의 그분이 기다리고 있다고 한다.'\페이지 맨 아래, 밑줄 두 번: '분기 재 실적: 목표 미달.'
 Close it.	덮는다.
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	접어 둔 좋은 종이 조각. 정성스러운 글씨로. 맨 위에: '청구서. 3부 중 2부.'\섬에 갈라이스가 닫힌 해에 아이를 데리고 온 여자가 있다. 그 여자는 왕관 봉인이 찍힌 서류를 가지고 있거나, 섬의 서류를 쓰는 노인이 대신 맡고 있다. 그것과 아이의 이름을 가져오면 샤드는 너희 것이다.\아래에 이름은 없다. 재로 찍은 손 하나와, 서명에 불이 붙은 그을음 자국뿐.
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	접어 둔 좋은 종이 조각. 정성스러운 글씨로. 맨 위에: '청구서. 3부 중 2부.'\섬에 갈라이스가 닫힌 해에 아이를 데리고 온 여자가 있다. 그 여자는 왕관 봉인이 찍힌 서류를 가지고 있거나, 섬의 서류를 쓰는 노인이 대신 맡고 있다. 그것과 아이의 이름을 가져오면 샤드는 너희 것이다.\아래에 이름은 없다. 재로 찍은 손 하나와, 서명에 불이 붙은 그을음 자국뿐.
 Fold it away.	접어 둔다.
-ASHFORD\West: Northport docks\East: the farmlands\South: King Rupert's Keep	애시퍼드\서쪽: 노스포트 부두\동쪽: 농지\남쪽: 루퍼트 왕의 성채
+PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	퍼들퍼드\서쪽: 드리즐포트 부두\동쪽: 농지\남쪽: 루퍼트 왕의 성채
 Okay	확인
 You can't read that from here!	여기서는 읽을 수 없다!
-ASHFORD IRON MINE\Closed by order of the King's Steward.	애시퍼드 철광산\왕의 집사의 명으로 폐쇄됨.
-THE BLUE BOAR\A tavern of Ashford.	푸른 멧돼지\애시퍼드의 선술집.
-MEDICAL OFFICE\Of Ashford.	진료소\애시퍼드.
-ASHFORD\A small city.	애시퍼드\작은 도시.
-CHURCH OF ASHFORD\All are welcome.	애시퍼드 교회\누구나 환영합니다.
+PUDDLEFORD IRON MINE\Closed by order of the King's Steward.	퍼들퍼드 철광산\왕의 집사의 명으로 폐쇄됨.
+THE BLUE BOAR\A tavern of Puddleford.	푸른 멧돼지\퍼들퍼드의 선술집.
+MEDICAL OFFICE\Of Puddleford.	진료소\퍼들퍼드.
+PUDDLEFORD\A small city.	퍼들퍼드\작은 도시.
+CHURCH OF PUDDLEFORD\All are welcome.	퍼들퍼드 교회\누구나 환영합니다.
 TOWN HALL\Births, marriages and deeds recorded.	마을 회관\출생, 혼인, 증서를 기록합니다.
-THE LAMB AND FLAG\A tavern of Ashford.	양과 깃발\애시퍼드의 선술집.
-THE WAYFARER'S REST\A tavern of Ashford.	나그네의 쉼터\애시퍼드의 선술집.
-SMITHY\The forge of Ashford.	대장간\애시퍼드의 대장간.
+THE LAMB AND FLAG\A tavern of Puddleford.	양과 깃발\퍼들퍼드의 선술집.
+THE WAYFARER'S REST\A tavern of Puddleford.	나그네의 쉼터\퍼들퍼드의 선술집.
+SMITHY\The forge of Puddleford.	대장간\퍼들퍼드의 대장간.
 GREEN LANE & BUTCHERS' ROW\A lane off the market square.	초록 골목 & 푸줏간 거리\장터 광장에서 갈라지는 골목.
-WEST ROW\Houses of Ashford.	서쪽 줄\애시퍼드의 집들.
+WEST ROW\Houses of Puddleford.	서쪽 줄\퍼들퍼드의 집들.
 Oska,\I went up to the Chapel to keep the fire. That's what they said we did. We carried Shards up the pass every week and pushed them through the barrier, and the thing on the other side took them, and we sang.\The Shards sing too, if you hold them long enough. They tell you whatever you want to hear. I wanted to hear that I was warm.\I'm sorry. Cael.	오스카,\저는 불을 지키러 예배당에 올라갔어요. 우리가 하는 일이 그거라고들 했어요. 매주 샤드를 들고 고개를 올라 장벽 너머로 밀어 넣으면, 저편의 그것이 받아 갔고, 우리는 노래했어요.\샤드도 오래 쥐고 있으면 노래해요. 듣고 싶은 말을 뭐든 해 주죠. 저는 따뜻하다는 말을 듣고 싶었어요.\미안해요. 카엘.
 Fold it up.	접는다.
-In Cael's hand, for Annis of Ashford:\I heard my mother in the fire, and she told me to feed it. It said what I wanted to hear, because that's all it can do. It doesn't know you. It only knows what you miss.	애시퍼드의 애니스에게, 카엘의 글씨로:\불 속에서 어머니 목소리를 들었고, 어머니는 불을 먹이라고 했어요. 그건 내가 듣고 싶은 말을 했어요. 그게 그것이 할 수 있는 전부니까요. 그것은 당신을 몰라요. 당신이 그리워하는 것만 알 뿐이에요.
+In Cael's hand, for Annis of Puddleford:\I heard my mother in the fire, and she told me to feed it. It said what I wanted to hear, because that's all it can do. It doesn't know you. It only knows what you miss.	퍼들퍼드의 애니스에게, 카엘의 글씨로:\불 속에서 어머니 목소리를 들었고, 어머니는 불을 먹이라고 했어요. 그건 내가 듣고 싶은 말을 했어요. 그게 그것이 할 수 있는 전부니까요. 그것은 당신을 몰라요. 당신이 그리워하는 것만 알 뿐이에요.
 ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pier.	장미 오두막\큰 폭풍이 부두를 앗아 간 해에 지붕장이 노 탐이 지었다.
 HOLLOW LANE\Houses of The Wizards' Court.	할로 골목\마법사 궁정의 집들.
 TALLOW ROW\Houses of The Wizards' Court.	수지 거리\마법사 궁정의 집들.
@@ -762,18 +762,18 @@ EMBERWATCH\A village.	엠버워치\마을.
 VILLAGE HALL\Meetings, dances and harvest suppers.	마을 회관\모임, 춤, 그리고 수확 만찬.
 DOCTOR'S HOUSE\Of Emberwatch.	의사의 집\엠버워치.
 THE OWL AND IVY\A tavern of Emberwatch.	부엉이와 담쟁이\엠버워치의 선술집.
-WEST: Ashford\SOUTH: GOBLIN CAMP\Travellers beware!	서쪽: 애시퍼드\남쪽: 고블린 야영지\나그네는 조심하시오!
+WEST: Puddleford\SOUTH: GOBLIN CAMP\Travellers beware!	서쪽: 퍼들퍼드\남쪽: 고블린 야영지\나그네는 조심하시오!
 MAREN & BESS'S FATHER'S HOME\Maren & Bess's Father's Home is locked; he has been missing ever since the hobgoblins set up camp just south of here.	마렌과 베스의 아버지 집\마렌과 베스의 아버지 집은 잠겨 있다. 홉고블린들이 바로 남쪽에 야영지를 차린 뒤로 그는 실종 상태다.
 MAREN & BESS'S FATHER'S HOME\Tobias gave it to you when you freed him: it's yours now.	마렌과 베스의 아버지 집\토비아스가 풀려났을 때 당신에게 주었다. 이제 당신 것이다.
-FOX LANE\Houses of Frosthold.	여우 골목\프로스트홀드의 집들.
-QUEEN'S ROW\Houses of Frosthold.	여왕의 거리\프로스트홀드의 집들.
-CLOTH STREET\Houses of Frosthold.	옷감 거리\프로스트홀드의 집들.
-WEAVERS' WAY\Houses of Frosthold.	직공의 길\프로스트홀드의 집들.
-MASON'S ROW\Houses of Frosthold.	석공 거리\프로스트홀드의 집들.
-FROSTHOLD\A town of Brambleton.	프로스트홀드\브램블턴의 마을.
-SHERIFF'S OFFICE\The watch house of Frosthold.	보안관 사무소\프로스트홀드의 경비소.
-DOCTOR'S HOUSE\Of Frosthold.	의사의 집\프로스트홀드.
-THE PLOUGH\A tavern of Frosthold.	쟁기\프로스트홀드의 선술집.
+FOX LANE\Houses of Chillingham.	여우 골목\칠링엄의 집들.
+QUEEN'S ROW\Houses of Chillingham.	여왕의 거리\칠링엄의 집들.
+CLOTH STREET\Houses of Chillingham.	옷감 거리\칠링엄의 집들.
+WEAVERS' WAY\Houses of Chillingham.	직공의 길\칠링엄의 집들.
+MASON'S ROW\Houses of Chillingham.	석공 거리\칠링엄의 집들.
+CHILLINGHAM\A town of Brambleton.	칠링엄\브램블턴의 마을.
+SHERIFF'S OFFICE\The watch house of Chillingham.	보안관 사무소\칠링엄의 경비소.
+DOCTOR'S HOUSE\Of Chillingham.	의사의 집\칠링엄.
+THE PLOUGH\A tavern of Chillingham.	쟁기\칠링엄의 선술집.
 BAKER'S LANE & FISH STREET\A lane off the market square.	빵집 골목 & 생선 거리\장터 광장에서 갈라지는 골목.
 GILT STREET\Houses of Galaith.	금박 거리\갈라이스의 집들.
 GARDEN ROW\Houses of Galaith.	정원 거리\갈라이스의 집들.
@@ -801,14 +801,14 @@ SILK STREET & CORDWAINERS' ROW\A lane off the market square.	비단 거리 & 구
 ARMOURERS' ROW & BLADE STREET\A lane off the market square.	갑옷장이 거리 & 칼날 거리\장터 광장에서 갈라지는 골목.
 CORDWAINERS' ROW\A lane off the market square.	구두장이 거리\장터 광장에서 갈라지는 골목.
 SILK STREET\A lane off the market square.	비단 거리\장터 광장에서 갈라지는 골목.
-FURLONG STREET\Houses of Greyford.	펄롱 거리\그레이퍼드의 집들.
-GREYFORD\A hamlet.	그레이퍼드\작은 마을.
-...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and won't heal.\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get out at night.\If I go wild, someone fetch Morwen in Saltmarsh. She'll know a cure.  - Hob	...서쪽 숲의 오래된 감시석 근처에서 개만 한 거미가 내 팔을 물었다. 물린 데가 화끈거리고 낫지를 않는다.\네 발로 달리는 꿈을 꾼다. 나무들이 부르는 소리가 들린다. 밤에 나가지 못하게 문에 빗장을 질렀다.\내가 야인이 되면, 누가 솔트마시의 모웬을 데려와 다오. 그녀라면 치료법을 알 것이다. - 홉
+FURLONG STREET\Houses of Dullford.	펄롱 거리\덜퍼드의 집들.
+DULLFORD\A hamlet.	덜퍼드\작은 마을.
+...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and won't heal.\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get out at night.\If I go wild, someone fetch Morwen in Brinebottom. She'll know a cure.  - Hob	...서쪽 숲의 오래된 감시석 근처에서 개만 한 거미가 내 팔을 물었다. 물린 데가 화끈거리고 낫지를 않는다.\네 발로 달리는 꿈을 꾼다. 나무들이 부르는 소리가 들린다. 밤에 나가지 못하게 문에 빗장을 질렀다.\내가 야인이 되면, 누가 브라인보텀의 모웬을 데려와 다오. 그녀라면 치료법을 알 것이다. - 홉
 Close the diary.	일기를 덮는다.
-Morwen the witch lives in Saltmarsh, in the fens on the south coast.	마녀 모웬은 남쪽 해안의 습지, 솔트마시에 산다.
+Morwen the witch lives in Brinebottom, in the fens on the south coast.	마녀 모웬은 남쪽 해안의 습지, 브라인보텀에 산다.
 Quest started: Old Hob.	퀘스트 시작: 늙은 홉.
 EDWIN, LAWYER. MAREN, DOCTOR.\A brass plate by the door of a red brick house, built the year the great storm took the pier.	변호사 에드윈. 의사 마렌.\큰 폭풍이 부두를 앗아 간 해에 지은 붉은 벽돌집 문 옆의 놋쇠 명패.
-THE ISLE CHAPEL\Rest in peace, all who sleep in the yard.	섬 예배당\묘지에 잠든 모든 이여, 편히 쉬소서.
+MUDDLESEY CHAPEL\Rest in peace, all who sleep in the yard.	섬 예배당\묘지에 잠든 모든 이여, 편히 쉬소서.
 IVY ROW\Houses of King Rupert's Keep.	담쟁이 거리\루퍼트 왕의 성채의 집들.
 CARTWRIGHT ROW\Houses of King Rupert's Keep.	수레장이 거리\루퍼트 왕의 성채의 집들.
 FOUNTAIN ROW\Houses of King Rupert's Keep.	분수 거리\루퍼트 왕의 성채의 집들.
@@ -827,70 +827,70 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	네 아버지인 왕은 아직 갈라이스의 성벽 뒤에서 기다리고 계시고, 내가 떠난 줄도 모르셔. 아버지께 가거라. 도시는 네가 태어난 날부터 닫혀 있었고, 그 까닭은 나란다. 언젠가는 이해하게 될 거야.\조심하렴. 그리고 아버지께 내가 한 번도 사랑을 멈춘 적이 없다고 전해 주렴.\메리
 Fold the letter.	편지를 접는다.
 Quest complete: The Last Will.	퀘스트 완료: 유언장.
-The door to your house is unlocked now, and the Isle lies before you.	이제 당신 집의 문이 열렸고, 섬이 당신 앞에 펼쳐져 있다.
-Edwin writes the Isle's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	에드윈은 섬의 유언장과 증서를 쓰는데, 내 것은 한 번도 보자고 한 적이 없다. 마렌은 지나갈 때마다 아기의 숨을 살핀다. 무언가 약속되어 있다는 걸 알기라도 하는 것처럼. 여기서는 아무도 내게 절하지 않는다. 영원히 머물 수도 있을 것 같다.
-The old men on the quay say the first king set a watch under the sea north of Ashford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	부두의 노인들 말로는, 첫 왕이 애시퍼드 북쪽 바다 밑에 파수를 세웠다고 한다. 무언가를 잠재워 두는 유리 수호자들을. 백 년 동안 그들을 본 사람은 없다. 왕이 그토록 지켜보게 해야 했던 것이 대체 무엇이었을까?
+The door to your house is unlocked now, and Muddlesey lies before you.	이제 당신 집의 문이 열렸고, 섬이 당신 앞에 펼쳐져 있다.
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	에드윈은 섬의 유언장과 증서를 쓰는데, 내 것은 한 번도 보자고 한 적이 없다. 마렌은 지나갈 때마다 아기의 숨을 살핀다. 무언가 약속되어 있다는 걸 알기라도 하는 것처럼. 여기서는 아무도 내게 절하지 않는다. 영원히 머물 수도 있을 것 같다.
+The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	부두의 노인들 말로는, 첫 왕이 퍼들퍼드 북쪽 바다 밑에 파수를 세웠다고 한다. 무언가를 잠재워 두는 유리 수호자들을. 백 년 동안 그들을 본 사람은 없다. 왕이 그토록 지켜보게 해야 했던 것이 대체 무엇이었을까?
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	궁정의 가장 오래된 책에서, 첫 왕이 직접 쓴 서약을 찾았다. 대마다 그의 혈통에서 맏이 하나, 그러면 용은 평화를 지킨다. 세 번을 읽었다. 그리고 집에 가서 아침까지 아기를 안고 있었다.
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	태양의 사제들은 그것을 승리로 노래했다. 첫 왕이 용을 묶을 수 있을 만큼 작게 베어 쓰러뜨렸다고. 쓰러뜨렸다고 노래한다. 죽였다고는 결코 하지 않는다. 그러면 나머지는 어디로 갔을까?
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	오늘 밤 서약의 인장을 감히 견딜 수 있는 만큼 쥐고 있었다. 반지이고, 잠든 무언가처럼 따뜻하다. 두려워하면 그걸 안다.
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	그들은 내 아이를 데리러 올 것이다. 그러니 나는 달아날 것이고, 계속 달아날 것이다. 그리고 광맥에서 가져온 것은 어떤 왕도 찾아볼 생각을 못 할 곳에 남겨 둘 것이다. 작고, 고요하고, 하늘로 가득한 곳에.
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on the Isle, where the sky looks up at itself.	나는 이 전당에서 왕관을 썼고, 빨랫감 바구니에 잠든 너를 담아 부엌문으로 떠났단다. 이걸 읽고 있다면 장벽은 무너졌고 너는 집에 돌아온 거겠지. 용서하렴. 섬에서 고요한 물을 찾으렴. 하늘이 저 자신을 올려다보는 곳을.
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	나는 이 전당에서 왕관을 썼고, 빨랫감 바구니에 잠든 너를 담아 부엌문으로 떠났단다. 이걸 읽고 있다면 장벽은 무너졌고 너는 집에 돌아온 거겠지. 용서하렴. 섬에서 고요한 물을 찾으렴. 하늘이 저 자신을 올려다보는 곳을.
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	작고 빠른 어머니의 글씨, 마법사 궁정의 종이 조각에. 잉크에 푸른빛이 돈다:\벨벳 발에 수염은 영리하니,\지미의 눈으로 그 집을 보아라.\그리고 그 아래: 내 아이에게, 때가 되면. 지미가 그곳을 알아.
 Read it aloud.	소리 내어 읽는다.
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in the Isle's north, and she's written one word there: still.	어머니의 글씨. 어머니가 가는 곳마다 남긴 일곱 장. 가장자리를 맞대어 놓으면 지도가 된다. 가장자리들은 섬 북쪽의 작고 둥근 모양에서 만나고, 어머니는 거기에 한 단어를 적어 두었다: 고요.
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	어머니의 글씨. 어머니가 가는 곳마다 남긴 일곱 장. 가장자리를 맞대어 놓으면 지도가 된다. 가장자리들은 섬 북쪽의 작고 둥근 모양에서 만나고, 어머니는 거기에 한 단어를 적어 두었다: 고요.
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	메리의 쪽지\작게 접힌, 어머니의 글씨:\궁정에서는 샤드가 그저 쪼개진 마법일 뿐이라고 했다. 그렇지 않다. 그것은 첫 왕이 용을 묶을 수 있을 만큼 베어 냈을 때 떨어져 나간 용의 조각이다. 용의 대부분은 세상 너머에서 잠들어 있고, 조각마다 자라고 싶어 굶주려 있다. 서약은 모든 맏이 후계자의 피로 용을 잠재운다.\나는 내 아이로 그 값을 치르지 않겠다. 베임을 다른 방법으로 닫아 둘 수 있거나, 용을 끝낼 수 있다면, 그 값도 끝날 것이다. 그 방법을 찾으러 간다.\그것이 베인 곳은 도시 뒤의 산 아래에 있다. 광맥을 기억하라.
 Fold them away.	접어 둔다.
-NORTHPORT\North: the ferry to the Isle\East: Ashford village\South: Whispering Woods and the old iron mine	노스포트\북쪽: 섬으로 가는 나룻배\동쪽: 애시퍼드 마을\남쪽: 속삭이는 숲과 오래된 철광산
-SALTWAY\Houses of Northport.	소금길\노스포트의 집들.
-CHURCH STREET\Houses of Northport.	교회 거리\노스포트의 집들.
-MERCERS' LANE\Houses of Northport.	포목상 골목\노스포트의 집들.
-EAST LANE\Houses of Northport.	동쪽 골목\노스포트의 집들.
-LANTERN LANE\Houses of Northport.	등불 골목\노스포트의 집들.
-TANNERS' WAY\Houses of Northport.	무두장이 길\노스포트의 집들.
-CANDLE STREET\Houses of Northport.	양초 거리\노스포트의 집들.
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	드리즐포트\북쪽: 섬으로 가는 나룻배\동쪽: 퍼들퍼드 마을\남쪽: 속삭이는 숲과 오래된 철광산
+SALTWAY\Houses of Drizzleport.	소금길\드리즐포트의 집들.
+CHURCH STREET\Houses of Drizzleport.	교회 거리\드리즐포트의 집들.
+MERCERS' LANE\Houses of Drizzleport.	포목상 골목\드리즐포트의 집들.
+EAST LANE\Houses of Drizzleport.	동쪽 골목\드리즐포트의 집들.
+LANTERN LANE\Houses of Drizzleport.	등불 골목\드리즐포트의 집들.
+TANNERS' WAY\Houses of Drizzleport.	무두장이 길\드리즐포트의 집들.
+CANDLE STREET\Houses of Drizzleport.	양초 거리\드리즐포트의 집들.
 NORTHGATE\A port city.	북문\항구 도시.
-THE BELL AND CANDLE\A tavern of Northport.	종과 양초\노스포트의 선술집.
-HOSPITAL\Of Northport.	병원\노스포트.
-THE MERMAID'S PURSE\A tavern of Northport.	인어의 지갑\노스포트의 선술집.
-THE GULL AND ANCHOR\A tavern of Northport.	갈매기와 닻\노스포트의 선술집.
+THE BELL AND CANDLE\A tavern of Drizzleport.	종과 양초\드리즐포트의 선술집.
+HOSPITAL\Of Drizzleport.	병원\드리즐포트.
+THE MERMAID'S PURSE\A tavern of Drizzleport.	인어의 지갑\드리즐포트의 선술집.
+THE GULL AND ANCHOR\A tavern of Drizzleport.	갈매기와 닻\드리즐포트의 선술집.
 The writing on this notice has faded away.	이 게시문의 글씨는 바래서 사라졌다.
 Ferry to the mainland	본토로 가는 나룻배
-WEST ROW\Houses of Oakhollow.	서쪽 줄\오크할로의 집들.
-NORTH STREET\Houses of Oakhollow.	북쪽 거리\오크할로의 집들.
-THATCHERS' ROW\Houses of Oakhollow.	지붕장이 거리\오크할로의 집들.
-OAKHOLLOW\A village.	오크할로\마을.
-DOCTOR'S HOUSE\Of Oakhollow.	의사의 집\오크할로.
-SMITHY\The forge of Oakhollow.	대장간\오크할로의 대장간.
+WEST ROW\Houses of Acornby.	서쪽 줄\에이콘비의 집들.
+NORTH STREET\Houses of Acornby.	북쪽 거리\에이콘비의 집들.
+THATCHERS' ROW\Houses of Acornby.	지붕장이 거리\에이콘비의 집들.
+ACORNBY\A village.	에이콘비\마을.
+DOCTOR'S HOUSE\Of Acornby.	의사의 집\에이콘비.
+SMITHY\The forge of Acornby.	대장간\에이콘비의 대장간.
 ODILE'S LOG, in an oilskin\Forty years I've cooked for the Wardens. Bread on the first day of the week, fish the rest. The cistern hums. The lake hums louder.\(The writing gets bigger, page by page.) It's warm in the water. I don't need the lamp. I hardly need to breathe.\(The last pages, in letters as tall as your hand.) THEY HEAR IT TOO, THE SAILORS. THEY COME DOWN THROUGH THE ROCK TO IT. I ONLY KEEP THEM FROM GOING TO IT. I'M SORRY. I'M SORRY ABOUT THE BOAT.	오딜의 일지, 유포에 싸여\사십 년 동안 수호자들을 위해 요리했다. 한 주의 첫날엔 빵, 나머지 날엔 생선. 물탱크가 웅웅거린다. 호수는 더 크게 웅웅거린다.\(글씨가 장마다 점점 커진다.) 물속이 따뜻하다. 등불이 필요 없다. 숨도 거의 쉴 필요가 없다.\(마지막 장들, 손바닥만 한 글자로.) 뱃사람들도 그걸 듣는다. 그들은 바위를 뚫고 그것에게 내려온다. 나는 그들이 그것에게 가지 못하게 막을 뿐이다. 미안하다. 배는 미안하다.
 THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens to keep the Shard that fell into the sea. Their orders, kept under the chapel's altar, were to keep it asleep, and never let it be joined to the rest of itself.\For four hundred years they listened to it and never answered. Then Marshal Corvane asked it a question. Half the Order followed him; the cook walked into the lake; the last of them, Ysolde, kept the watch alone.\I don't know yet what 'the rest of itself' is. I'm not sure I want to.	유리 수호자, 참된 역사, 펠 배로 지음\첫 왕은 바다에 떨어진 샤드를 지키라고 수호자들을 세웠다. 예배당 제단 아래 보관된 그들의 명령은, 그것을 잠재워 두고, 결코 그 나머지와 합쳐지게 두지 말라는 것이었다.\사백 년 동안 그들은 그것을 듣되 한 번도 대답하지 않았다. 그러다 코르베인 사령관이 그것에게 질문을 했다. 수호회의 절반이 그를 따랐고, 요리사는 호수로 걸어 들어갔으며, 마지막 남은 이졸데가 홀로 파수를 지켰다.\'그 나머지'가 무엇인지 나는 아직 모른다. 알고 싶은지도 잘 모르겠다.
 ROYAL TREASURY\The Wizards' Court's strongroom.	왕실 금고\마법사 궁정의 금고실.
-STONEGATE\Houses of Saltmarsh.	돌문 거리\솔트마시의 집들.
-SALTMARSH\A hamlet.	솔트마시\작은 마을.
+STONEGATE\Houses of Brinebottom.	돌문 거리\브라인보텀의 집들.
+BRINEBOTTOM\A hamlet.	브라인보텀\작은 마을.
 A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	샤드게이트, 당대 최고의 마법사 버트 지음.\궁정 북쪽 언덕의 오래된 선돌 고리에서: 은괴 네 개로 돌들을 묶고, 룬에 사파이어 두 개를 박고, 고리의 중심에 잔재의 핵을 놓아라.\그다음 당신의 샤드 $Shards.Shardgate개를 바쳐라. 무엇이든 샤드계의 고요한 가장자리로는 미끄러져 들어갈 수 있다. 그 중심을 꿰뚫으려면 고리를 안정시켜야 하니, 먼저 브램블턴의 샤드스톤 $Shards.Shardgate.Stones개를 깨우고, 샤드술을 익혀라(레벨 $Shards.Shardgate.Level 이상).\그리고 들어가라. 수호자를 조심하라.
 Fold the plans.	설계도를 접는다.
-Dunerest: south-west\Saltmarsh: south-east	듄레스트: 남서쪽\솔트마시: 남동쪽
-Northport: west\Oakhollow: south-east\Wildwood: south-west	노스포트: 서쪽\오크할로: 남동쪽\와일드우드: 남서쪽
-Northport: west\Oakhollow: south\Wildwood: south-west\Greyford: east	노스포트: 서쪽\오크할로: 남쪽\와일드우드: 남서쪽\그레이퍼드: 동쪽
-Oakhollow: south\Northport: west\Greyford: east\Wildwood: west	오크할로: 남쪽\노스포트: 서쪽\그레이퍼드: 동쪽\와일드우드: 서쪽
+Dunerest: south-west\Brinebottom: south-east	듄레스트: 남서쪽\브라인보텀: 남동쪽
+Drizzleport: west\Acornby: south-east\Wildwood: south-west	드리즐포트: 서쪽\에이콘비: 남동쪽\와일드우드: 남서쪽
+Drizzleport: west\Acornby: south\Wildwood: south-west\Dullford: east	드리즐포트: 서쪽\에이콘비: 남쪽\와일드우드: 남서쪽\덜퍼드: 동쪽
+Acornby: south\Drizzleport: west\Dullford: east\Wildwood: west	에이콘비: 남쪽\드리즐포트: 서쪽\덜퍼드: 동쪽\와일드우드: 서쪽
 Wildwood: north\Dunerest: south-east\Galaith: west	와일드우드: 북쪽\듄레스트: 남동쪽\갈라이스: 서쪽
-Saltmarsh: south\Oakhollow: north\Frosthold: south-east	솔트마시: 남쪽\오크할로: 북쪽\프로스트홀드: 남동쪽
-Saltmarsh: south\Frosthold: east\Dunerest: west	솔트마시: 남쪽\프로스트홀드: 동쪽\듄레스트: 서쪽
-Greyford: south-east\Wardhaven: north-east\Wizards' Court: east\Ashford: north	그레이퍼드: 남동쪽\워드헤이븐: 북동쪽\마법사 궁정: 동쪽\애시퍼드: 북쪽
-Greyford: north\Thornwick: east\Frosthold: south\Oakhollow: west	그레이퍼드: 북쪽\손윅: 동쪽\프로스트홀드: 남쪽\오크할로: 서쪽
-Greyford: north-west\Thornwick: east\Oakhollow: west\Wardhaven: north	그레이퍼드: 북서쪽\손윅: 동쪽\오크할로: 서쪽\워드헤이븐: 북쪽
-Greyford: north-west\Thornwick: east\Frosthold: south\Wizards' Court: north-east	그레이퍼드: 북서쪽\손윅: 동쪽\프로스트홀드: 남쪽\마법사 궁정: 북동쪽
-Thornwick: east\Greyford: north-west\Wizards' Court: north\Frosthold: south	손윅: 동쪽\그레이퍼드: 북서쪽\마법사 궁정: 북쪽\프로스트홀드: 남쪽
-Thornwick: west\King Rupert's Keep: south-east\Wizards' Court: north-west\Emberwatch: north-east	손윅: 서쪽\루퍼트 왕의 성채: 남동쪽\마법사 궁정: 북서쪽\엠버워치: 북동쪽
-Emberwatch: north\Thornwick: south-west\King Rupert's Keep: south\Wizards' Court: north-west	엠버워치: 북쪽\손윅: 남서쪽\루퍼트 왕의 성채: 남쪽\마법사 궁정: 북서쪽
-King Rupert's Keep: north-west\Frosthold: west	루퍼트 왕의 성채: 북서쪽\프로스트홀드: 서쪽
-THE DEEP SEAM\Ashford Mining Guild: members only.\Coal, iron and gold within.	깊은 광맥\애시퍼드 광부 조합: 조합원 전용.\석탄, 철, 금이 있음.
+Brinebottom: south\Acornby: north\Chillingham: south-east	브라인보텀: 남쪽\에이콘비: 북쪽\칠링엄: 남동쪽
+Brinebottom: south\Chillingham: east\Dunerest: west	브라인보텀: 남쪽\칠링엄: 동쪽\듄레스트: 서쪽
+Dullford: south-east\Sulkhaven: north-east\Wizards' Court: east\Puddleford: north	덜퍼드: 남동쪽\설크헤이븐: 북동쪽\마법사 궁정: 동쪽\퍼들퍼드: 북쪽
+Dullford: north\Nettlewick: east\Chillingham: south\Acornby: west	덜퍼드: 북쪽\네틀윅: 동쪽\칠링엄: 남쪽\에이콘비: 서쪽
+Dullford: north-west\Nettlewick: east\Acornby: west\Sulkhaven: north	덜퍼드: 북서쪽\네틀윅: 동쪽\에이콘비: 서쪽\설크헤이븐: 북쪽
+Dullford: north-west\Nettlewick: east\Chillingham: south\Wizards' Court: north-east	덜퍼드: 북서쪽\네틀윅: 동쪽\칠링엄: 남쪽\마법사 궁정: 북동쪽
+Nettlewick: east\Dullford: north-west\Wizards' Court: north\Chillingham: south	네틀윅: 동쪽\덜퍼드: 북서쪽\마법사 궁정: 북쪽\칠링엄: 남쪽
+Nettlewick: west\King Rupert's Keep: south-east\Wizards' Court: north-west\Emberwatch: north-east	네틀윅: 서쪽\루퍼트 왕의 성채: 남동쪽\마법사 궁정: 북서쪽\엠버워치: 북동쪽
+Emberwatch: north\Nettlewick: south-west\King Rupert's Keep: south\Wizards' Court: north-west	엠버워치: 북쪽\네틀윅: 남서쪽\루퍼트 왕의 성채: 남쪽\마법사 궁정: 북서쪽
+King Rupert's Keep: north-west\Chillingham: west	루퍼트 왕의 성채: 북서쪽\칠링엄: 서쪽
+THE DEEP SEAM\Puddleford Mining Guild: members only.\Coal, iron and gold within.	깊은 광맥\퍼들퍼드 광부 조합: 조합원 전용.\석탄, 철, 금이 있음.
 THE FROSTPEAK CAVERNS\Old mine workings, frozen solid. Mithril in the walls, they say.\And things that like the cold.	서리봉 동굴\꽁꽁 얼어붙은 옛 갱도. 벽에 미스릴이 있다고들 한다.\그리고 추위를 좋아하는 것들도.
 THE WIZARDS' COURT\The old King's Castle, and its tower.	마법사 궁정\옛 왕의 성과 그 탑.
-VINTNER STREET\Houses of Thornwick.	포도주상 거리\손윅의 집들.
-HERON STREET\Houses of Thornwick.	왜가리 거리\손윅의 집들.
-THORNWICK\A village.	손윅\마을.
-CHAPEL OF THORNWICK\All are welcome.	손윅 예배당\누구나 환영합니다.
-SMITHY\The forge of Thornwick.	대장간\손윅의 대장간.
+VINTNER STREET\Houses of Nettlewick.	포도주상 거리\네틀윅의 집들.
+HERON STREET\Houses of Nettlewick.	왜가리 거리\네틀윅의 집들.
+NETTLEWICK\A village.	네틀윅\마을.
+CHAPEL OF NETTLEWICK\All are welcome.	네틀윅 예배당\누구나 환영합니다.
+SMITHY\The forge of Nettlewick.	대장간\네틀윅의 대장간.
 KING RUPERT'S KEEP\The King's keep and its bailey, held by his Steward while the King is away.	루퍼트 왕의 성채\왕의 성채와 그 안뜰. 왕이 없는 동안 집사가 지키고 있다.
 WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the cistern for saying so: carried.	수호자의 일지: 이졸데의 글씨\파수 211년. 회의록. 참석: 전원. 샤드가 조용하다. 코르베인 사령관은 잠들어 있다고 한다. 헤일 수사는 그것이 절대 잠들지 않고 기다릴 뿐이라고 한다. 그렇게 말한 벌로 헤일 수사에게 저수조를 닦게 하자는 안건: 가결.
 That's all nine of the Wardens' journals: back to Pell.	수호자의 일지 아홉 권을 모두 읽었다. 펠에게 돌아가자.
@@ -902,15 +902,15 @@ WARDENS' JOURNAL: the hand of Marshal Corvane\I asked it what it wanted. Four hu
 WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.\(The split took a vote. The vote took eleven days.)	수호자의 일지: 이졸데의 글씨\기사단이 갈라졌다. 파수의 절반은 귀를 연 채 코르베인 편에 섰다. 나머지 우리는 첫 왕의 명령, 제단 아래의 그 명령을 지킨다. 그것을 잠들게 할 것, 그리고 결코, 결코 그 자신의 나머지와 합쳐지게 하지 말 것.\그 자신의 나머지. 한번은 사령관에게 그게 무슨 뜻이냐고 물었다. 그는 몰랐다. 이제는 안다. 그게 더 나쁘다고 생각한다.\(분열은 표결로 정했다. 표결에 열하루가 걸렸다.)
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	수호자의 일지: 요리사 오딜 브라스크의 글씨\들어가겠다. 호수 안으로 말이다. 웅얼거림은 거기서 가장 크고, 무엇이 노래하는지 보고 싶고, 물을 무서워하기엔 나는 너무 늙었다.\이걸 찾는 사람에게: 뱃사람들을 조심하라. 그것은 그들도 부른다. 밤마다 바위를 타고 올라오며 그들을 부르는 소리가 들린다.\스튜를 올려놨다. 누가 좀 저어 줘.
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	수호자의 일지: 마지막 사람, 이졸데의 글씨\나는 그것에 한 번도 대답하지 않은 마지막 사람이다. (한번은 우리 모두 함께 대답하려 했다. 문구를 다듬는 데 사십 년이 걸렸고, 그때쯤엔 우리도 철이 들었다.) 당신이 따뜻하고, 이것을 읽고 있다면, 들어라. 그것의 소리는 들어도 되고, 그것에게서 배워도 된다. 하지만 절대 대답하지 마라. 대답이 그것이 들어오는 길이다.\성유물당 아래에 우리가 번갈아 귀 기울이던 방이 있다. 네 개의 종이 그 방을 닫아 두고 있다. 회랑의 노래하는 돌이 그 순서를 기억한다. 순서는 옛 노래처럼 해마다 바뀐다. 누군가 멈춰 서도록 여기에 돌무더기를 쌓아 두었다.
-ROPE WALK\Houses of Wardhaven.	밧줄 길\워드헤이븐의 집들.
-WARDHAVEN\A town of Brambleton.	워드헤이븐\브램블턴의 마을.
-CHURCH OF WARDHAVEN\All are welcome.	워드헤이븐 교회\누구나 환영합니다.
-SHERIFF'S OFFICE\The watch house of Wardhaven.	보안관 사무소\워드헤이븐의 경비소.
-SMITHY\The forge of Wardhaven.	대장간\워드헤이븐의 대장간.
+ROPE WALK\Houses of Sulkhaven.	밧줄 길\설크헤이븐의 집들.
+SULKHAVEN\A town of Brambleton.	설크헤이븐\브램블턴의 마을.
+CHURCH OF SULKHAVEN\All are welcome.	설크헤이븐 교회\누구나 환영합니다.
+SHERIFF'S OFFICE\The watch house of Sulkhaven.	보안관 사무소\설크헤이븐의 경비소.
+SMITHY\The forge of Sulkhaven.	대장간\설크헤이븐의 대장간.
 SWAN LANE\Houses of Wildwood.	백조 골목\와일드우드의 집들.
 SOUTH ROW\Houses of Wildwood.	남쪽 줄\와일드우드의 집들.
 WILDWOOD\A hamlet.	와일드우드\작은 마을.
-DONNNG... The bell's voice rolls out over the Isle.	뎅... 종소리가 섬 위로 굴러 퍼진다.
+DONNNG... The bell's voice rolls out over Muddlesey.	뎅... 종소리가 섬 위로 굴러 퍼진다.
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	종이 낮고 푸르게 한 번 울리고, 습지의 모든 개구리가 멈춰 귀를 기울인다.
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	물 저편에서 무언가가 조금 음이 낮게 대답하고, 종소리에 흔들려 풀려난 것이 진흙에서 당신 발치로 올라온다.
 The frogs start up again, louder, as if they've been told.	개구리들이 들은 게 있다는 듯 더 크게 다시 울기 시작한다.
@@ -1068,8 +1068,8 @@ Quest started: What Went Wrong at the Reach.	퀘스트 시작: 끝자락에서 �
 Still 5 to go, by my count. $Attr.ReachQuest_Count done.	내 셈으로는 아직 5 남았어요. $Attr.ReachQuest_Count 처리.
 Quest complete: What Went Wrong at the Reach.	퀘스트 완료: 끝자락에서 무엇이 잘못되었나.
 They were my teachers. Thank you. Take these.	그분들은 제 스승이었어요. 고마워요. 이걸 받으세요.
-Had enough? I can take you back to Ashford.	이만하면 됐나요? 애시퍼드로 데려다 드릴 수 있어요.
-Back to Ashford, please.	애시퍼드로 돌아갈게요.
+Had enough? I can take you back to Puddleford.	이만하면 됐나요? 퍼들퍼드로 데려다 드릴 수 있어요.
+Back to Puddleford, please.	퍼들퍼드로 돌아갈게요.
 I'll stay a while.	좀 더 있을게요.
 The Arena Master taps a little rune-token against your hand. "There: the arena's shardstone knows you now. Any stone you've woken will take you to it."	투기장 관리인이 작은 룬 증표를 당신 손에 톡 댄다. "자, 이제 투기장의 샤드스톤이 당신을 압니다. 당신이 깨운 돌이라면 어느 것이든 이리로 데려다줄 겁니다."
 Step up, step up! In the arena you may fight other adventurers, for glory and nothing else: no gold lost, no grave. Only on the sand, mind: the paving round it is for the crowd.	자, 자, 올라오시오! 투기장에서는 오로지 영광을 위해 다른 모험가와 싸울 수 있소. 잃는 금화도 없고, 무덤도 없소. 단, 모래 위에서만이오. 그 둘레의 포장된 바닥은 구경꾼 자리요.
@@ -1079,7 +1079,7 @@ Swords, daggers and bows, sharp and true.	검, 단검, 활. 날카롭고 정확�
 Let me see your goods.	물건 좀 보여 주세요.
 The dragon of Galaith will have its due. It always does.\...Sorry. We have to say that to everyone. It's in the handbook.	갈라이스의 용은 제 몫을 받아 갈 거요. 언제나 그랬지.\...미안해요. 모두에게 이렇게 말해야 해서요. 안내서에 나와 있거든요.
 Fresh bread and pastries, still warm!	갓 구운 빵과 과자, 아직 따뜻해요!
-Welcome to the bank of Ashford. Your valuables are safe with us.	애시퍼드 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 보관합니다.
+Welcome to the bank of Puddleford. Your valuables are safe with us.	퍼들퍼드 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 보관합니다.
 I'd like to use the bank.	은행을 이용하고 싶어요.
 Welcome to The Blue Boar! What'll it be?	푸른 멧돼지에 어서 오세요! 뭘로 드릴까요?
 Something to eat and drink.	먹고 마실 것 좀 주세요.
@@ -1087,26 +1087,26 @@ A room for the night (5 gold).	하룻밤 묵을 방(금화 5개).
 You take a room upstairs and sleep the night through.	위층에 방을 잡고 밤새 푹 잔다.
 You need 5 gold coins for a room.	방을 잡으려면 금화 5개가 필요하다.
 Welcome to The Lamb and Flag! What'll it be?	양과 깃발에 어서 오세요! 뭘로 드릴까요?
-Welcome to The Wayfarer's Rest! The kitchen's shut for good: two taverns feed all of Ashford. But a bed's a bed, and ours are the softest in town.	나그네의 쉼터에 어서 오세요! 부엌은 아주 문을 닫았어요. 애시퍼드는 선술집 두 곳이 다 먹여 살리거든요. 그래도 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
+Welcome to The Wayfarer's Rest! The kitchen's shut for good: two taverns feed all of Puddleford. But a bed's a bed, and ours are the softest in town.	나그네의 쉼터에 어서 오세요! 부엌은 아주 문을 닫았어요. 퍼들퍼드는 선술집 두 곳이 다 먹여 살리거든요. 그래도 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
 Sit anywhere you like, love. The barkeep will see to you.	아무 데나 앉으세요. 주인장이 챙겨 드릴 거예요.
 Prime cuts, and pies to die for!	최상급 고기에, 끝내주는 파이!
 A letter from the Parliament? "Every friend of the crown..." Well, I'm a friend of the crown, and I'd be a better one if the goblins would leave my farms alone.\They come out of the hedges east of town and carry off the hens. Drive them off for me, at the farm crossroads, and I'll give you my pass for the Steward.	의회에서 온 편지? "왕관의 모든 친구는..." 뭐, 나도 왕관의 친구요. 고블린들이 내 농장을 내버려 둔다면 더 좋은 친구가 되겠지만.\놈들이 마을 동쪽 산울타리에서 나와 닭을 물어 가오. 농장 갈림길에서 놈들을 쫓아내 주면, 집사에게 보일 내 통행증을 주겠소.
 I'll deal with the goblins.	고블린은 제가 처리할게요.
-Quest started: The Ashford Road.	퀘스트 시작: 애시퍼드 가도.
+Quest started: The Puddleford Road.	퀘스트 시작: 퍼들퍼드 가도.
 The goblins are still at it! The farm crossroads, east of town.	고블린들이 아직도 설치고 있소! 마을 동쪽 농장 갈림길이오.
 Send them in.	들여보내 주세요.
 I'm on my way.	가는 중이에요.
 Beaten them, have you? Then here's my pass. The Steward at King Rupert's Keep will see you right.	물리쳤다고? 그럼 여기 내 통행증이오. 루퍼트 왕의 성채의 집사가 잘 챙겨 줄 거요.
 Thank you, Mayor.	고맙습니다, 시장님.
-Quest complete: The Ashford Road!	퀘스트 완료: 애시퍼드 가도!
-There's worse news, I'm afraid. Goblins have come up from the farms and taken the bridge to Wardhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\Clear them off the bridge, would you? It's north of the farms.	안타깝지만 더 나쁜 소식이 있소. 고블린들이 농장에서 올라와 워드헤이븐으로 가는 다리를 차지했고, 다리 경비병들은 꽁무니를 빼고 달아났소. 일주일째 아무것도 건너가지 못했지.\다리에서 놈들을 몰아내 주겠소? 농장 북쪽이오.
+Quest complete: The Puddleford Road!	퀘스트 완료: 퍼들퍼드 가도!
+There's worse news, I'm afraid. Goblins have come up from the farms and taken the bridge to Sulkhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\Clear them off the bridge, would you? It's north of the farms.	안타깝지만 더 나쁜 소식이 있소. 고블린들이 농장에서 올라와 설크헤이븐으로 가는 다리를 차지했고, 다리 경비병들은 꽁무니를 빼고 달아났소. 일주일째 아무것도 건너가지 못했지.\다리에서 놈들을 몰아내 주겠소? 농장 북쪽이오.
 I'll clear the bridge.	다리를 뚫어 놓을게요.
-Quest started: The Wardhaven Bridge.	퀘스트 시작: 워드헤이븐 다리.
-The goblins are still on the Wardhaven bridge, north of the farms.	고블린들이 아직 농장 북쪽, 워드헤이븐 다리에 있소.
-The bridge is clear? Then I'll send word, and the guards will be back at their posts by the time you're there. Wardhaven's gates will open to you. Here, for your trouble.	다리가 뚫렸다고? 그럼 소식을 보내겠소. 당신이 거기 닿을 즈음엔 경비병들이 제자리에 돌아와 있을 거요. 워드헤이븐의 문이 당신에게 열릴 거요. 자, 수고비요.
-Quest complete: The Wardhaven Bridge! You receive 80 gold.	퀘스트 완료: 워드헤이븐 다리! 금화 80개를 받았다.
-Ashford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.	애시퍼드 마을 회관: 출생, 혼인, 증서, 그리고 고블린. 대부분 고블린.
-Welcome to Ashford's City Hall. The council meets here: rates, roads and rubbish, mostly.	애시퍼드 시청에 오신 것을 환영합니다. 의회가 여기서 모입니다. 주로 세금, 도로, 쓰레기 얘기지요.
+Quest started: The Sulkhaven Bridge.	퀘스트 시작: 설크헤이븐 다리.
+The goblins are still on the Sulkhaven bridge, north of the farms.	고블린들이 아직 농장 북쪽, 설크헤이븐 다리에 있소.
+The bridge is clear? Then I'll send word, and the guards will be back at their posts by the time you're there. Sulkhaven's gates will open to you. Here, for your trouble.	다리가 뚫렸다고? 그럼 소식을 보내겠소. 당신이 거기 닿을 즈음엔 경비병들이 제자리에 돌아와 있을 거요. 설크헤이븐의 문이 당신에게 열릴 거요. 자, 수고비요.
+Quest complete: The Sulkhaven Bridge! You receive 80 gold.	퀘스트 완료: 설크헤이븐 다리! 금화 80개를 받았다.
+Puddleford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.	퍼들퍼드 마을 회관: 출생, 혼인, 증서, 그리고 고블린. 대부분 고블린.
+Welcome to Puddleford's City Hall. The council meets here: rates, roads and rubbish, mostly.	퍼들퍼드 시청에 오신 것을 환영합니다. 의회가 여기서 모입니다. 주로 세금, 도로, 쓰레기 얘기지요.
 Hurt? Let me see. I'll patch you up for 8 gold.	다쳤어요? 어디 봐요. 금화 8개면 치료해 드릴게요.
 Heal me (8 gold).	치료해 주세요(금화 8개).
 The doctor cleans and binds your wounds. You feel much better.	의사가 상처를 씻고 붕대를 감아 준다. 훨씬 나아졌다.
@@ -1114,7 +1114,7 @@ You need 8 gold coins.	금화 8개가 필요하다.
 Heal you? I've looked you over: not a scratch on you. You're as fit as a fiddle. Keep your gold, and come back when something's actually bleeding.	치료요? 살펴봤는데 긁힌 데 하나 없어요. 아주 쌩쌩하네요. 금화는 넣어 두고, 정말 피가 날 때 다시 오세요.
 Fresh off the boats this morning!	오늘 아침 배에서 막 내렸어요!
 Cabbages, carrots and potatoes, all fresh!	양배추, 당근, 감자, 다 싱싱해요!
-Welcome to the port of Ashford. Mind the ropes.	애시퍼드 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
+Welcome to the port of Puddleford. Mind the ropes.	퍼들퍼드 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
 I'm painting the market, and it wants a cat: that black one with the white socks, Mo. But Mo won't keep still for a moment!\Stroke Mo while Mo's sitting down, and Mo will settle for me. Any other time and Mo's off. Will you try?	장터를 그리고 있는데 고양이가 있어야 해요. 하얀 양말을 신은 그 검은 고양이, 모 말이에요. 그런데 모가 잠시도 가만히 있질 않아요!\모가 앉아 있을 때 쓰다듬어 주면 저를 위해 자리 잡을 거예요. 다른 때는 휙 가 버리고요. 해 보실래요?
 Quest started: A Portrait of Mo. (H: your journal)	퀘스트 시작: 모의 초상화. (H: 일지)
 No luck yet? Wait till Mo sits, then stroke Mo. Not mid-stretch. And not... well. Not that end.	아직이에요? 모가 앉을 때까지 기다렸다가 쓰다듬어요. 기지개 켤 때 말고요. 그리고... 음. 그쪽 끝 말고요.
@@ -1122,7 +1122,7 @@ Look at that: sitting like a loaf! Don't move, puss...\(The brush flicks and dab
 Thank you!	고마워요!
 Quest done: A Portrait of Mo.	퀘스트 완료: 모의 초상화.
 Folk keep asking who the cat in my painting is. I tell them: the market's real owner.	다들 제 그림 속 고양이가 누구냐고 물어요. 그러면 말하죠. 장터의 진짜 주인이라고요.
-Welcome to Ashford's church. All are welcome here.	애시퍼드 교회에 오신 것을 환영합니다. 누구나 환영합니다.
+Welcome to Puddleford's church. All are welcome here.	퍼들퍼드 교회에 오신 것을 환영합니다. 누구나 환영합니다.
 The tavern's lively tonight, I hear. Not that I'd know.	오늘 밤 선술집이 북적인다더군요. 제가 알 바는 아니지만요.
 I've brought your mother from the ferry.	나루터에서 어머님을 모셔 왔어요.
 How's your mother?	어머님은 어떠세요?
@@ -1142,7 +1142,7 @@ Need something forged? Or use my furnace and anvil yourself.	벼려야 할 게 �
 Still warm from the oven!	오븐에서 막 나와 아직 따뜻해요!
 Morning! Everything's fresh out of the oven.\You can cook on my oven fire too, if you've got your own meat.	좋은 아침이에요! 전부 오븐에서 막 나왔어요.\고기를 가져왔다면 제 오븐 불에서 요리해도 돼요.
 Let me see your bread.	빵 좀 보여 주세요.
-Good day. Your valuables are safe with the Bank of Ashford.	안녕하세요. 귀중품은 애시퍼드 은행이 안전하게 보관합니다.
+Good day. Your valuables are safe with the Bank of Puddleford.	안녕하세요. 귀중품은 퍼들퍼드 은행이 안전하게 보관합니다.
 I'd like to use my bank.	은행을 이용하고 싶어요.
 No thanks.	괜찮아요.
 Spare a coin for a poor old man?	불쌍한 늙은이에게 동전 한 닢 주시겠소?
@@ -1164,8 +1164,8 @@ Show me your scrolls.	두루마리를 보여 주세요.
 Can you teleport me?	순간 이동을 해 주실 수 있어요?
 Another heir has come to you, besides me.	저 말고 다른 후계자가 당신을 찾아왔어요.
 Where to? Keep your arms in.	어디로 가겠나? 팔은 안에 넣고.
-To the Isle.	섬으로요.
-To Northport.	노스포트로요.
+To Muddlesey.	섬으로요.
+To Drizzleport.	드리즐포트로요.
 Nowhere, thanks.	괜찮아요.
 Bert waves his hands, and the world spins...	버트가 손을 휘젓자, 세상이 빙글 돈다...
 Has one? Then the blood has been busy. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The dragon only ever counted one of you; the Shards count you all. Between us, it's the only good news I've had in years.	하나 있다고? 그렇다면 혈통이 바빴군. 첫 왕이 용을 베어 쓰러뜨렸을 때, 그 베임을 붙잡아 두는 데 왕의 피가 필요했고, 그 뒤로 그 피는 한 사람보다 많은 혈관에 흘렀지. 용은 언제나 자네들 중 하나만 셌지만, 샤드는 자네들 모두를 세네. 우리끼리 얘기지만, 몇 년 만에 들은 유일한 좋은 소식이야.
@@ -1220,7 +1220,7 @@ Quest complete: Bandits on the Road! You receive 200 gold, a steel platebody and
 Where are the goods? Did you lose them?	물건은 어디 있소? 잃어버렸소?
 I'll get them.	가져올게요.
 The bandits are gone, and so are the town's goods. Word is they turned up on the coast, sold to smugglers. Funny, that.	도적들은 사라졌고, 마을의 물건도 사라졌소. 듣자 하니 해안에서 밀수꾼들에게 팔려 나타났다더군. 묘한 일이지.
-The road is safe again. Frosthold salutes you.	길이 다시 안전해졌소. 프로스트홀드가 당신에게 경례하오.
+The road is safe again. Chillingham salutes you.	길이 다시 안전해졌소. 칠링엄이 당신에게 경례하오.
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	도적이 우글거리는 동안 길은 민간인이 있을 곳이 아니오. 제대로 칼을 휘두를 수 있게 되면 내게 보고하시오.
 Yes, Captain.	예, 대장님.
 Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	용의 섬? 하! 거기로 배를 몰고 갔다가 돌아온 사람은 없소. 나는 두 번 해냈지만. 그 둘레의 암초가 움직이거든, 친구. 물때 따라서가 아니라, 그냥 움직여.\한때 길을 아는 해도가 있었소. 오린의 해도. 브램블턴 최고의 항해사였지. 그가 하늘을 읽으러 마법사 궁정 남쪽의 갈라진 탑에 올라갔는데, 내려오지 않았소. 오린의 해도를 가져오면 당신의 섬을 찾아 주겠소.\그리고 이 배는 어디든 가기 전에 선체부터 고쳐야 하오. 돌아오는 길에 목수 작업대를 지나거든 널빤지 열 개와 못 스무 개요.
@@ -1473,7 +1473,7 @@ Thank you, Maren.	고마워요, 마렌.
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	퀘스트 완료: 에드윈네 저녁 식사! 마렌이 예배당 뚜껑문 열쇠와 치유의 물약 두 병을 주었다.
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	유언장이든 증서든 작성할 게 있으면 저에게 맡기세요. 하지만 유언장이 필요한 날은 아주, 아주 먼 훗날이었으면 좋겠군요.
 What was my mother like?	어머니는 어떤 분이셨어요?
-She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	그녀는 당신을 품에 안고 섬에 왔고, 어디서 왔는지는 끝내 말하지 않았어요. 다정하고, 자존심 강하고, 내색한 것보다 훨씬 영리한 사람이었지요. 한번은 내 수임료를 나 스스로 포기하게 만들었는데, 나는 고맙다고까지 했어요.\오두막 한 채와 고양이 한 마리가 전부인 사람은 아니라고 늘 생각했지요.
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	그녀는 당신을 품에 안고 섬에 왔고, 어디서 왔는지는 끝내 말하지 않았어요. 다정하고, 자존심 강하고, 내색한 것보다 훨씬 영리한 사람이었지요. 한번은 내 수임료를 나 스스로 포기하게 만들었는데, 나는 고맙다고까지 했어요.\오두막 한 채와 고양이 한 마리가 전부인 사람은 아니라고 늘 생각했지요.
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	편지는 천천히 읽어요. 당신만의 것이에요. 나는 궁금하지 않아요. 전혀, 전혀 궁금하지 않아요.
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	세 번째 널빤지 조심하시오. 다섯 번째도. 솔직히 말하면 전부 조심하시오.
 What do you catch out here?	여기선 뭘 잡으세요?
@@ -1488,7 +1488,7 @@ That's the smell of a good eel. Here. Don't ask me how long it's been smoked, I'
 You've had yours. The rest are spoken for. I've spoken for them.	당신 몫은 받았소. 나머지는 임자가 있소. 내가 임자요.
 Three nights now, and every morning my eel traps are cut. Not torn: cut, with a knife.\Find out who's doing it. The reeds east of the village, that's where they'd hide.	사흘 밤째, 아침마다 내 장어 통발이 잘려 있어요. 찢긴 게 아니라, 칼로 잘린 거예요.\누가 그러는지 알아봐 주세요. 마을 동쪽 갈대밭, 숨는다면 거기일 거예요.
 I'll find out.	알아볼게요.
-Someone's been cutting Wenna's eel traps in the night. The reeds east of Saltmarsh are the place to look.	누군가 밤마다 웬나의 장어 통발을 자르고 있다. 솔트마시 동쪽 갈대밭을 찾아보자.
+Someone's been cutting Wenna's eel traps in the night. The reeds east of Brinebottom are the place to look.	누군가 밤마다 웬나의 장어 통발을 자르고 있다. 브라인보텀 동쪽 갈대밭을 찾아보자.
 Quest started: The Eel Traps.	퀘스트 시작: 장어 통발.
 You told Wenna it was Tobin cutting her traps. She paid you 60 gold.	웬나에게 통발을 자른 게 토빈이라고 말했다. 그녀가 금화 60개를 주었다.
 Tobin? That little... His mother will hear of this, and so will the whole village.\Here, 60 gold. You've earned it.	토빈? 그 꼬맹이가... 그 애 엄마한테도, 온 마을에도 알려야겠어요.\자, 금화 60개. 받을 만해요.
@@ -1507,7 +1507,7 @@ Eels! Fresh this morning!	장어요! 오늘 아침 잡은 거예요!
 From Morwen? *cough* ...ugh, vile... but... I feel warmer already. Thank her for me.	모웬이 보냈다고? *콜록* ...윽, 고약해... 그래도... 벌써 따뜻해지는 것 같군. 고맙다고 전해 주게.
 Bog Lights: tell Morwen the Elder has drunk her brew.	습지의 불빛: 장로가 모웬의 약을 마셨다고 그녀에게 알리자.
 *cough* Morwen said she'd send something... have you got it?	*콜록* 모웬이 뭘 보내 준다고 했는데... 가지고 왔나?
-Welcome to Saltmarsh, traveller. Keep to the dry ground.	솔트마시에 오신 것을 환영하오, 나그네. 마른 땅으로만 다니시오.
+Welcome to Brinebottom, traveller. Keep to the dry ground.	브라인보텀에 오신 것을 환영하오, 나그네. 마른 땅으로만 다니시오.
 Welcome to The Owl and Ivy! What'll it be?	부엉이와 담쟁이에 어서 오세요! 뭘로 드릴까요?
 The village hall. Dances on a Saturday, meetings on a Monday.	마을 회관입니다. 토요일엔 춤, 월요일엔 회의.
 You're not from round here, are you? Emberwatch's a friendly place, mostly.	이 근방 사람이 아니죠? 엠버워치는 대체로 친절한 곳이에요.
@@ -1520,17 +1520,17 @@ The farmer points at the hedges: "There! Here they come!"	농부가 산울타리
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	'버섯! 동굴 버섯, 빛나는 종류. 나만큼 어둠을 좋아하는 유일한 작물이지. 자, 몇 개 가져가. 집에서 대접하는 거야. 집이라 봤자 구멍이지만.'
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	'요령은 말을 거는 거야. 상냥하게는 말고. 버섯은 상냥한 걸 안 믿어.'
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	'모드는 드워프가 없으니까 드워프한테 팔 수 없대. 나는 그게 바로 드워프가 믿게 하고 싶은 거라고 했지.'
-Back to the Isle? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	섬으로 돌아가요? 종이 울리면 배들이 부두마다 한 척씩 같이 건너요. 여기 한 척이 묶여 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요.\중간에서 서로 지나쳐요. 원하면 손을 흔들어요. 아무도 안 흔들지만.
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	섬으로 돌아가요? 종이 울리면 배들이 부두마다 한 척씩 같이 건너요. 여기 한 척이 묶여 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요.\중간에서 서로 지나쳐요. 원하면 손을 흔들어요. 아무도 안 흔들지만.
 Thanks, Wim.	고마워요, 윔.
-Northport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	노스포트요? 배가 들어와 있을 때 타고 동전 한 닢 내면 돼요. 종이 울리면 두 부두에서 떠나 해협에서 서로 지나쳐요.\몇 년째 승객을 잃은 적이 없어요. 뭐. 올해는 잃은 적이 없어요.
+Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	드리즐포트요? 배가 들어와 있을 때 타고 동전 한 닢 내면 돼요. 종이 울리면 두 부두에서 떠나 해협에서 서로 지나쳐요.\몇 년째 승객을 잃은 적이 없어요. 뭐. 올해는 잃은 적이 없어요.
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	잠깐만요, 친구. 아직 풋내기인 데다, 보아하니 짐승이 남긴 것을 손에 쥐어 본 적도 없군요. 본토는 당신 같은 사람을 잡아먹어요. 먼저 올더스 수사님을 만나고, 레벨 3이 되면 다시 오세요.
-Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and looks at you for a long while.\Well. That's not my business, and I'll not make it mine. Those'll get you past any guard in Northport.\And when you land: there's a shardstone by the market. Feed it a few Shards and it wakes, and after that it'll carry you to any other shardstone you've woken. Mind your Shards.	서류요? 어디 봅시다.\그가 서류를 펼치다가 인장에서 멈추고, 한참 동안 당신을 바라본다.\음. 내 알 바 아니고, 내 일로 만들지도 않겠어요. 이거면 노스포트의 어떤 경비병도 통과할 수 있어요.\그리고 내리면: 장터 옆에 샤드스톤이 있어요. 샤드 몇 개를 먹이면 깨어나고, 그다음부터는 당신이 깨운 다른 샤드스톤 어디로든 데려다줘요. 샤드 관리 잘하세요.
+Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and looks at you for a long while.\Well. That's not my business, and I'll not make it mine. Those'll get you past any guard in Drizzleport.\And when you land: there's a shardstone by the market. Feed it a few Shards and it wakes, and after that it'll carry you to any other shardstone you've woken. Mind your Shards.	서류요? 어디 봅시다.\그가 서류를 펼치다가 인장에서 멈추고, 한참 동안 당신을 바라본다.\음. 내 알 바 아니고, 내 일로 만들지도 않겠어요. 이거면 드리즐포트의 어떤 경비병도 통과할 수 있어요.\그리고 내리면: 장터 옆에 샤드스톤이 있어요. 샤드 몇 개를 먹이면 깨어나고, 그다음부터는 당신이 깨운 다른 샤드스톤 어디로든 데려다줘요. 샤드 관리 잘하세요.
 Thank you, Wim.	고마워요, 윔.
 Quest complete: Passage to the Mainland!	퀘스트 완료: 본토로 가는 길!
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	배가 들어와 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요. 종이 울리면 두 부두에서 떠나요.
-Cross the strait? Papers first, friend. Since the raids, Northport's guards send back anyone off the Isle without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping the Isle's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	해협을 건너요? 서류부터요, 친구. 습격 이후로 노스포트 경비병들은 서류 없는 섬 사람을 다 돌려보내고, 그 사람들을 다시 집에 데려오는 게 나예요.\섬의 명부를 맡은 토비아스 영감이 늘 서류를 써 줬는데, 홉고블린이 온 뒤로 아무도 그를 못 봤어요. 농장의 베스에게 물어봐요. 그의 딸이에요.
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	해협을 건너요? 서류부터요, 친구. 습격 이후로 드리즐포트 경비병들은 서류 없는 섬 사람을 다 돌려보내고, 그 사람들을 다시 집에 데려오는 게 나예요.\섬의 명부를 맡은 토비아스 영감이 늘 서류를 써 줬는데, 홉고블린이 온 뒤로 아무도 그를 못 봤어요. 농장의 베스에게 물어봐요. 그의 딸이에요.
 Quest started: Passage to the Mainland.	퀘스트 시작: 본토로 가는 길.
-Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	서류 있나? 없어? 그럼 못 건너가, 친구. 노스포트에서 돌려보낼 테고, 다시 데려오는 건 내 일이 될 거야. 노는 두 배로 젓고, 뱃삯은 똑같고.
+Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	서류 있나? 없어? 그럼 못 건너가, 친구. 드리즐포트에서 돌려보낼 테고, 다시 데려오는 건 내 일이 될 거야. 노는 두 배로 젓고, 뱃삯은 똑같고.
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	오늘 물고기가 잘 물어요! 바늘에 지렁이를 꿰면 바다의 뭐든 물어요.\낚싯대를 좀 다룰 줄 알게 되면 송어가 아주 환장하죠.
 Any big catches about?	큰 거 잡힌 적 있어요?
 Cave eels! Pale as ghosts, they live in the black pools deep underground. You'll want real skill (Fishing 8) to land one.\I pay well for them, cooked or raw.	동굴 장어! 유령처럼 하얗고, 땅속 깊은 검은 웅덩이에 살아요. 한 마리 낚으려면 진짜 실력(낚시 8)이 필요해요.\익힌 거든 날 거든 값을 후하게 쳐 줘요.
@@ -1570,12 +1570,12 @@ Our pearl! (He sits on it.) Hear us, marsh: sing! (The marsh sings.) For this, t
 You come before us without our pearl? Bold. Very bold. The heron's nest is east.	진주도 없이 짐 앞에 나타나다니? 대담하구나. 아주 대담해. 왜가리 둥지는 동쪽이다.
 Ah, our friend the frog. Sit. There's a very good fly about somewhere.	아, 짐의 친구 개구리로구나. 앉거라. 어딘가에 아주 좋은 파리가 있다.
 The frog in the crown looks at you, and croaks. Just a croak. It seems to expect more of you.	왕관을 쓴 개구리가 당신을 보고 개굴 운다. 그냥 개굴. 당신에게 무언가를 더 기대하는 것 같다.
-Welcome to the bank of Frosthold. Your valuables are safe with us.	프로스트홀드 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 보관합니다.
+Welcome to the bank of Chillingham. Your valuables are safe with us.	칠링엄 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 보관합니다.
 Welcome to The Plough! What'll it be?	쟁기에 어서 오세요! 뭘로 드릴까요?
-This is Frosthold's Town Hall. Births, weddings and deeds are written here.	여기는 프로스트홀드 마을 회관입니다. 출생, 혼인, 증서를 여기서 기록합니다.
-Welcome to Frosthold's church. All are welcome here.	프로스트홀드 교회에 오신 것을 환영합니다. 누구나 환영합니다.
-Morning! Lovely day in Frosthold, isn't it?	좋은 아침이에요! 프로스트홀드는 날씨가 좋죠?
-Have you tried the bakery? Best bread in Frosthold.	빵집 가 봤어요? 프로스트홀드 최고의 빵이에요.
+This is Chillingham's Town Hall. Births, weddings and deeds are written here.	여기는 칠링엄 마을 회관입니다. 출생, 혼인, 증서를 여기서 기록합니다.
+Welcome to Chillingham's church. All are welcome here.	칠링엄 교회에 오신 것을 환영합니다. 누구나 환영합니다.
+Morning! Lovely day in Chillingham, isn't it?	좋은 아침이에요! 칠링엄은 날씨가 좋죠?
+Have you tried the bakery? Best bread in Chillingham.	빵집 가 봤어요? 칠링엄 최고의 빵이에요.
 Plate, mail and shields. Try something on!	판금, 사슬 갑옷, 방패. 한번 입어 보세요!
 The forge is cold. Two armourers in one street was one too many; I lost the coin toss. Mind the anvil.	대장간이 차가워요. 한 거리에 갑옷장이 둘은 하나가 너무 많았죠. 동전 던지기에서 내가 졌어요. 모루 조심하세요.
 Welcome to the bank of Galaith. Your valuables are safe with us.	갈라이스 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 보관합니다.
@@ -1643,7 +1643,7 @@ Bold. The Queen's child would be eighteen now, and would carry the Amulet of Suc
 I'll go to the Archivist.	기록관에게 가겠습니다.
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	기록관의 초록 인장. 그렇다면 사실이군.\나의 $Player.Lord 이시여. 늙은이의 의심을 용서하십시오. 여기 제 영장이 있습니다. 근위대장에게 보여 주십시오.
 Thank you, Chancellor.	감사합니다, 대법관님.
-The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	길이 열렸으니 브램블턴 의회가 노스포트에서 돌아올 것입니다. 할 일이 많습니다.
+The Parliament of Brambleton will return from Drizzleport, now the road is open. There is much to do.	길이 열렸으니 브램블턴 의회가 드리즐포트에서 돌아올 것입니다. 할 일이 많습니다.
 Pots, pails and tools: a bit of everything for the road.	냄비, 양동이, 연장: 길에 필요한 건 다 조금씩 있어요.
 Cloth and wool, the best!	천과 양모, 최고급이에요!
 Boots that last!	오래 가는 장화!
@@ -1661,7 +1661,7 @@ Quest complete: Granny Bramble's Practice Hex!	퀘스트 완료: 브램블 할�
 Four rats, dearie, and you've seen to $Attr.HexRats. Ran off, did they? Here they come again.	쥐 네 마리야, 얘야. 지금까지 $Attr.HexRats 마리 처리했구나. 도망갔다고? 저기 또 온다.
 I'm on it.	지금 갑니다.
 Mind how you go, dearie. Mind the rats.	조심히 다니렴, 얘야. 쥐 조심하고.
-Oh! Excuse me, dear. I've come over on the ferry to live with my daughter Percy, in Ashford.\But my eyes aren't what they were, and one road looks like another to me. Would you walk me there?	어머! 실례해요, 젊은이. 애시퍼드에 사는 딸 퍼시랑 살려고 배를 타고 건너왔어요.\그런데 눈이 예전 같지 않아서, 이 길이나 저 길이나 다 똑같아 보여요. 거기까지 같이 걸어 줄래요?
+Oh! Excuse me, dear. I've come over on the ferry to live with my daughter Percy, in Puddleford.\But my eyes aren't what they were, and one road looks like another to me. Would you walk me there?	어머! 실례해요, 젊은이. 퍼들퍼드에 사는 딸 퍼시랑 살려고 배를 타고 건너왔어요.\그런데 눈이 예전 같지 않아서, 이 길이나 저 길이나 다 똑같아 보여요. 거기까지 같이 걸어 줄래요?
 Of course. Follow me.	물론이죠. 따라오세요.
 Not now, sorry.	지금은 안 돼요, 미안해요.
 Quest started: Granny Wren's Walk. (H: your journal)	퀘스트 시작: 렌 할머니의 산책. (H: 일지)
@@ -1687,7 +1687,7 @@ Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind yo
 Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you. I've seen it. I didn't care for it.\Unless the Steward sent you, of course.	멈춰라! 이 광산은 왕의 집사 명령으로 폐쇄되었다.\몸 갑옷을 입지 않고는 아무도 이 문을 지나갈 수 없다. 저 아래 홉고블린들이 배를 갈라 버릴 거다. 본 적이 있지. 보기 좋진 않더군.\물론 집사가 보낸 거라면 얘기가 다르지만.
 Where can I get armour?	갑옷은 어디서 구하죠?
 The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe. You'd be surprised how many ask.	성채의 병참관이 가죽과 철 갑옷을 팝니다. 아니면 소가죽을 무두질해서 작업대에서 직접 만드시오.\그리고 입으시오! 짐 속에 있으면 홉고블린의 도끼를 못 막소. 그걸 묻는 사람이 얼마나 많은지 알면 놀랄 거요.
-Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	애시퍼드의 평화를 지키시오, 시민.\일거리를 찾는다면 왕의 집사가 홉고블린 귀에 값을 잘 쳐주오. 그걸로 뭘 하는지는 묻지 마시오.\집사는 여기서 남쪽에 있는 왕의 성채를 맡고 있소.
+Keep the peace in Puddleford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	퍼들퍼드의 평화를 지키시오, 시민.\일거리를 찾는다면 왕의 집사가 홉고블린 귀에 값을 잘 쳐주오. 그걸로 뭘 하는지는 묻지 마시오.\집사는 여기서 남쪽에 있는 왕의 성채를 맡고 있소.
 Any other news?	다른 소식은요?
 Halt! ...ah, you look honest enough. Honest-ish. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	멈춰라! ...아, 정직해 보이는군. 대충 정직해 보여. 들어가시오.\왕이 안 계신 동안 집사가 대전을 맡고 있소.\마당의 병참관이 무기를 팝니다.
 Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them. One of them's still screaming. That's Dennis. Dennis screams at moths.	동료 셋이 옛 광산에서 거대 거미에게 물렸소. 약초꾼이 뭔가 달여 주려 하고 있소. 하나는 아직도 비명을 지르고 있지. 데니스요. 데니스는 나방을 봐도 비명을 지르오.
@@ -1708,7 +1708,7 @@ Bless you, I could use a hand. Three of the King's guards were bitten by giant s
 I'll gather them.	모아 올게요.
 Pick 3 Cave Mushrooms in the old iron mine.	옛 철광산에서 동굴 버섯 3개를 딴다.
 Get 2 Spider Silk from the giant spiders in the mine depths.	광산 깊은 곳의 거대 거미에게서 거미줄 2개를 얻는다.
-Bring them all to the Herbalist's cottage on the Ashford farmlands.	모두 애시퍼드 농지의 약초상 오두막으로 가져간다.
+Bring them all to the Herbalist's cottage on the Puddleford farmlands.	모두 퍼들퍼드 농지의 약초상 오두막으로 가져간다.
 Quest started: The Herbalist's Remedy.	퀘스트 시작: 약초상의 치료제.
 You found them all! The guards will be on their feet in no time.\Take these potions, and let me show you a thing or two about potion making. My alchemy table is yours to use.	다 찾아왔구나! 경비병들이 금방 일어나겠어.\이 물약들을 받고, 물약 만드는 법도 좀 알려 주마. 내 연금술 탁자는 마음껏 써도 된다.
 Quest complete! You receive 2 super potions, 60 gold and Alchemy experience.	퀘스트 완료! 상급 물약 2개, 금화 60개와 연금술 경험치를 받았다.
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	다시 올게요.
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	손님이라니! 여기엔 토끼들 말고는 아무도 안 오는데.\불이 꺼져 가는데, 내 늙은 뼈로는 도끼를 못 휘두르네. 참나무 통나무 다섯 개만 가져다주면 수고비를 주지.\이 숲엔 참나무가 자라. 벌목 5가 필요할 걸세.
 I'll fetch them.	가져올게요.
-His camp is in the Isle's western woods. Oak trees grow all over the Isle.	그의 야영지는 섬 서쪽 숲에 있다. 참나무는 섬 곳곳에 자란다.
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	그의 야영지는 섬 서쪽 숲에 있다. 참나무는 섬 곳곳에 자란다.
 Quest started: The Hermit's Fire.	퀘스트 시작: 은자의 불.
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	아, 좋은 참나무군. 일주일은 타겠어. 자, 내 낡은 지팡이를 받게. 주문에 불을 좀 붙여 줄 걸세.\그리고 친구에게만 알려 주는 비밀: 남동쪽 해안의 선돌들은 이끼보다 더 많은 걸 숨기고 있다네.
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	퀘스트 완료! 참나무 지팡이, 금화 25개와 벌목 경험치를 받았다.
@@ -1746,7 +1746,7 @@ Quest complete: Old Hob! He's himself again, and you're 40 gold the richer.	퀘�
 You kept Hob's savings, and the madness took him again. He's wild for good now.	홉의 모은 돈을 가졌고, 광기가 다시 그를 덮쳤다. 이제 그는 영영 미쳐 버렸다.
 Hob's eyes go wild again. He goes for your throat!	홉의 눈이 다시 사나워진다. 그가 당신의 목을 노린다!
 Quest complete: Old Hob... though not the way anyone hoped.	퀘스트 완료: 늙은 홉... 아무도 바라던 방식은 아니지만.
-Hob says the savings in his chest are yours. His house is in Oakhollow, and the door's open now.	홉은 궤짝 속 모은 돈을 당신에게 주겠다고 한다. 그의 집은 오크할로에 있고, 이제 문이 열려 있다.
+Hob says the savings in his chest are yours. His house is in Acornby, and the door's open now.	홉은 궤짝 속 모은 돈을 당신에게 주겠다고 한다. 그의 집은 에이콘비에 있고, 이제 문이 열려 있다.
 You brought me back. I remember the spider, the woods, the hunger. And you.\Thank you, friend. My door is open now, and what's in my chest is yours: you've earned it.	날 되돌려 놓았구먼. 거미, 숲, 굶주림이 기억나. 그리고 자네도.\고맙네, 친구. 이제 내 집 문은 열려 있고, 궤짝 속 건 자네 거야. 자네가 번 걸세.
 Quest complete: Old Hob! His savings are yours: they're in the chest in his house.	퀘스트 완료: 늙은 홉! 그의 모은 돈은 당신 것이다. 그의 집 궤짝 안에 있다.
 Mind how you go out there. And mind the spiders.	밖에선 조심하게. 그리고 거미 조심하고.
@@ -1801,8 +1801,8 @@ Annis looks up from the Shard on the table, and smiles. "Hush, love: my Oswin's 
 Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agree.	마셔요, 친구. 우물은 목마른 사람 거예요. 드레이크들은 동의하지 않지만.
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	메에! 하, 미안 - 종일 양이랑 얘기하다 보면 양처럼 말하게 돼.\놀라게 하지 마. 양털이 필요하면 살살 하면 깎게 해 줄 거야.
 How do I shear a sheep?	양털은 어떻게 깎아요?
-Use shears on one - the tinker in Ashford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	양에게 가위를 써 - 애시퍼드의 땜장이가 팔고, 가게에서도 팔아. 그다음 물레에서 양털을 잣거나 직조공에게 팔면 돼.
-Welcome to the Isle Store! There's precious little money on the Isle, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	섬 상점에 오신 걸 환영해요! 섬엔 돈이 거의 없어서, 사람들이 없으면 못 사는 것만 갖다 놔요. 연장, 미끼, 먹을 것 조금: 여기 사람들한텐 그게 필요하죠.
+Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	양에게 가위를 써 - 퍼들퍼드의 땜장이가 팔고, 가게에서도 팔아. 그다음 물레에서 양털을 잣거나 직조공에게 팔면 돼.
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	섬 상점에 오신 걸 환영해요! 섬엔 돈이 거의 없어서, 사람들이 없으면 못 사는 것만 갖다 놔요. 연장, 미끼, 먹을 것 조금: 여기 사람들한텐 그게 필요하죠.
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	광대에겐 왕이 필요하고, 왕에겐 왕국이 필요하고, 저는 일자리가 필요했죠.\그래서 돌아다닙니다. 뭘로 할까요, $Player.Lord 아니면 평민?
 Tell me a joke.	농담 하나 해 줘.
 A riddle, then.	그럼 수수께끼.
@@ -1908,9 +1908,9 @@ Quest started: A Golem's Worth of Trouble.	퀘스트 시작: 골렘만큼의 골
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	내 셈으론 아직 4개 남았소. $Attr.GolemQuest_Count 개 부쉈군.
 Quest complete: A Golem's Worth of Trouble.	퀘스트 완료: 골렘만큼의 골칫거리.
 Splendid! And quite safe, now. Mostly.	훌륭하오! 이제 꽤 안전하오. 대체로.
-Northport's a quiet place, mostly. The ferry brings folk over from the Isle, and the fish come in at dawn.	노스포트는 대체로 조용한 곳이에요. 배가 섬에서 사람들을 실어 오고, 물고기는 새벽에 들어오죠.
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	드리즐포트는 대체로 조용한 곳이에요. 배가 섬에서 사람들을 실어 오고, 물고기는 새벽에 들어오죠.
 Ha. Thanks.	하. 고마워요.
-Heading inland? Ashford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	내륙으로 가요? 애시퍼드는 여기 동쪽이에요. 남쪽 숲은 조심해요. 늑대들, 그리고 옛 광산을 지나면 더 나쁜 것들도 있어요.
+Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	내륙으로 가요? 퍼들퍼드는 여기 동쪽이에요. 남쪽 숲은 조심해요. 늑대들, 그리고 옛 광산을 지나면 더 나쁜 것들도 있어요.
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	우리 삼촌이 한번 꿈틀대는 심연에 내려갔는데, 다른 구멍으로 올라왔대요. 다른 고을이었고요.
 Don't trust geese. That's all I'll say. Don't trust them.	거위는 믿지 마요. 그 말만 할게요. 믿지 마요.
 I once saw a cow look at the moon for a whole night. Changed me, that did.	소가 밤새 달을 바라보는 걸 본 적이 있어요. 그게 날 바꿔 놨죠.
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	계속 팰게요.
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	베스네 닭장 달걀을 위층 내 화덕에 부쳐서, 그다음엔 에드윈에게요. 아주 기뻐할 거예요. 안 기쁜 척하겠지만, 기뻐할 거예요.
 I'll see to it.	그렇게 할게요.
-Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	들어와요. 섬에서 아픈 사람은 다 저 침대로 오고, 나는 할 수 있는 걸 해요. 대부분은 나아요. 나머지는 알더스 수사님께 가고요.\에드윈은 창가에 책상을 두고 있어요. 유언장이며 증서며 그런 것들요. 우리 둘이면 인생 전체를 다 맡는 셈이죠.
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	들어와요. 섬에서 아픈 사람은 다 저 침대로 오고, 나는 할 수 있는 걸 해요. 대부분은 나아요. 나머지는 알더스 수사님께 가고요.\에드윈은 창가에 책상을 두고 있어요. 유언장이며 증서며 그런 것들요. 우리 둘이면 인생 전체를 다 맡는 셈이죠.
 How is your father?	아버지는 어떠세요?
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	집에 돌아와서, 무사하고, 우리 집 먹을 걸 다 먹어 치우고 있어요! 매일 밤 세 그릇씩. 아무리 고마워해도 모자라요.\그러니 당분간은 아무도 구하지 말아 줘요.
 I'm glad.	다행이에요.
@@ -1974,7 +1974,7 @@ What's wool for?	양털은 어디에 써요?
 How do I get to the mainland?	본토엔 어떻게 가요?
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	작업대에서 털실 뭉치로 자아. 헛간에 하나 있어. 소가죽도 거기서 무두질해서 가죽으로 만들 수 있어. 아직 소가 쓰고 있는 가죽은 말고.
 Thanks!	고마워요!
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	본토? 윔의 나룻배가 부두에서 건너가지만, 서류 없이는 안 태워 줘. 습격 이후로 노스포트에선 서류 없는 섬사람은 다 돌려보내거든.\섬의 서류는 늘 아버지가 썼어. 내가 태어나기 전부터 명부를 관리했지. 그런데 홉고블린들이 아버지를 잡아갔고, 그 뒤로 아무도 못 봤어. 아버지 집은 마을의 오래된 벽돌집인데, 잠겨 있고, 열쇠도 놈들이 가져갔어. 예배당 아래 동굴에 소굴이 있대.\불쌍한 것들. 아버지가 무릎 얘기를 다 늘어놓고 있을 거야.
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	본토? 윔의 나룻배가 부두에서 건너가지만, 서류 없이는 안 태워 줘. 습격 이후로 드리즐포트에선 서류 없는 섬사람은 다 돌려보내거든.\섬의 서류는 늘 아버지가 썼어. 내가 태어나기 전부터 명부를 관리했지. 그런데 홉고블린들이 아버지를 잡아갔고, 그 뒤로 아무도 못 봤어. 아버지 집은 마을의 오래된 벽돌집인데, 잠겨 있고, 열쇠도 놈들이 가져갔어. 예배당 아래 동굴에 소굴이 있대.\불쌍한 것들. 아버지가 무릎 얘기를 다 늘어놓고 있을 거야.
 I'll find him.	제가 찾을게요.
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	그리고 맨손으로 홉고블린 근처에 가면 안 돼! 우리 프랭크가 대장장이야. 대장간이 내 오두막 바로 옆이야. 검이랑 방패 만드는 걸 도와줄 거야.\말이 별로 없어. 고개를 많이 끄덕여 주면 좋아할 거야.
 Thank you, Bess.	고마워요, 베스.
@@ -1988,7 +1988,7 @@ Careful, friend! The hobgoblins dug up from the deep and drove us all out.\There
 How do I mine?	채광은 어떻게 해요?
 Where did the hobgoblins come from?	홉고블린들은 어디서 왔어요?
 Click a rock with ore in it and swing. Better pickaxes strike more often.\Smelt the ore at a furnace.\At Mining 5 the guild's deep seam opens: coal, silver and gold!	광석이 박힌 바위를 누르고 휘둘러요. 더 좋은 곡괭이일수록 더 자주 맞아요.\광석은 용광로에서 제련해요.\채광 5가 되면 조합의 깊은 광맥이 열려요. 석탄, 은, 금!
-You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Ashford blacksmith sells them too.	곡괭이가 필요해요. 도망칠 때 여분을 사다리 옆에 떨어뜨렸어요.\애시퍼드 대장장이도 팔아요.
+You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Puddleford blacksmith sells them too.	곡괭이가 필요해요. 도망칠 때 여분을 사다리 옆에 떨어뜨렸어요.\퍼들퍼드 대장장이도 팔아요.
 There's a hatch in the tunnels to the east that goes down to their warren.\I saw them carry off all sorts down there. Keys, coins, gems...	동쪽 갱도에 그놈들 굴로 내려가는 뚜껑문이 있어요.\온갖 걸 들고 내려가는 걸 봤어요. 열쇠, 동전, 보석...
 I'll take a look.	한번 볼게요.
 'Water? Gems? A carpet that flies, but only on Tuesdays? Everything's for sale, friend. Especially the things that aren't there.'	"물? 보석? 하늘을 나는 양탄자, 화요일에만? 뭐든 팝니다, 친구. 특히 없는 것들은요."
@@ -2044,36 +2044,36 @@ The Keeper's gone? Then it's the mirrors: the forge only burns with the sun on i
 Quest complete: The Sun-Forge!	퀘스트 완료: 태양 용광로!
 You lit it! I heard it from here, like a bell rung in a kiln.\The third fire isn't ours. The dwarves had an anvil, deep under the mountains in the Stoneways, and the delvers' camp has been digging after it for years. Ask for Maud. Tell her Tarek says she still owes him a goat.	불을 붙였구나! 여기서도 들렸어, 가마 속에서 울린 종소리처럼.\세 번째 불은 우리 게 아니야. 난쟁이들한테 모루가 있었는데, 돌길의 산맥 깊은 곳에 있지. 굴착꾼 야영지가 몇 년째 그걸 찾아 파고 있어. 모드를 찾아. 타렉이 아직 염소 한 마리 빚졌다고 하더라고 전해.
 Noops opens one eye, considers you, and closes it again.	눕스가 한쪽 눈을 뜨고 당신을 살피더니, 다시 감는다.
-Welcome to the bank of Northport. Your valuables are safe with us.	노스포트 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 지킵니다.
+Welcome to the bank of Drizzleport. Your valuables are safe with us.	드리즐포트 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 지킵니다.
 Welcome to The Drover's Rest! What'll it be?	목동의 쉼터에 오신 걸 환영합니다! 뭘 드릴까요?
 Welcome to The Mermaid's Purse! What'll it be?	인어의 지갑에 오신 걸 환영합니다! 뭘 드릴까요?
-Welcome to The Grey Mare! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	회색 암말에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 노스포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
-Welcome to The Crown and Anchor! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	왕관과 닻에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 노스포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
-Welcome to The Gull and Anchor! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	갈매기와 닻에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 노스포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
-Halt. The gates are shut by order of the Parliament: raiders have been seen on the roads, and nobody leaves Northport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing that opens these gates.	멈춰라. 의회 명령으로 성문이 닫혔다. 길에서 약탈자들이 목격되었고, 의회가 허락할 때까지 아무도 노스포트를 떠날 수 없다.\시청의 의장을 찾아가라. 이 문을 여는 건 의회의 말뿐이다.
+Welcome to The Grey Mare! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	회색 암말에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 드리즐포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
+Welcome to The Crown and Anchor! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	왕관과 닻에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 드리즐포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
+Welcome to The Gull and Anchor! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	갈매기와 닻에 오신 걸 환영합니다! 부엌은 아주 닫았어요. 드리즐포트 전체를 술집 두 곳이 먹여 살리거든요. 하지만 침대는 침대고, 우리 침대가 마을에서 제일 푹신해요.
+Halt. The gates are shut by order of the Parliament: raiders have been seen on the roads, and nobody leaves Drizzleport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing that opens these gates.	멈춰라. 의회 명령으로 성문이 닫혔다. 길에서 약탈자들이 목격되었고, 의회가 허락할 때까지 아무도 드리즐포트를 떠날 수 없다.\시청의 의장을 찾아가라. 이 문을 여는 건 의회의 말뿐이다.
 Understood.	알겠습니다.
 The Parliament's word came down: the gates are open to you. Keep your sword close out there.	의회의 결정이 내려왔다. 당신에게 성문이 열렸다. 밖에선 칼을 가까이 두시오.
-The shop's shut. Two butchers nearer the square, and not enough sausages in Northport to go round three. I keep the cleaver sharp, though. Habit.	가게는 닫았소. 광장 가까이에 정육점이 둘 있는데, 노스포트엔 세 집이 나눌 만큼 소시지가 없거든. 그래도 식칼은 날카롭게 갈아 두지. 버릇이오.
-This is Northport's Town Hall. Births, weddings and deeds are written here.	여기는 노스포트 읍사무소입니다. 출생, 혼인, 증서가 여기 기록됩니다.
-Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get along.	노스포트 경비대가 평화를 지킵니다. 칼은 칼집에 넣어 두시면 서로 잘 지낼 수 있을 겁니다.
+The shop's shut. Two butchers nearer the square, and not enough sausages in Drizzleport to go round three. I keep the cleaver sharp, though. Habit.	가게는 닫았소. 광장 가까이에 정육점이 둘 있는데, 드리즐포트엔 세 집이 나눌 만큼 소시지가 없거든. 그래도 식칼은 날카롭게 갈아 두지. 버릇이오.
+This is Drizzleport's Town Hall. Births, weddings and deeds are written here.	여기는 드리즐포트 읍사무소입니다. 출생, 혼인, 증서가 여기 기록됩니다.
+Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll get along.	드리즐포트 경비대가 평화를 지킵니다. 칼은 칼집에 넣어 두시면 서로 잘 지낼 수 있을 겁니다.
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	안녕하쇼. 이렇게 늦게 팔 것도 없이 부두로 내려오는 사람은 드문데.\난 물건이 어디서 왔는지 묻지 않고, 얼굴도 기억 안 해. 값에서 조금 깎일 뿐이지, 그게 다야.
 Let's see what you'll give me.	뭘 줄 건지 보자고.
-Welcome to the port of Northport. Mind the ropes.	노스포트 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	섬 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 노스포트 시청이 지금 브램블턴의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
+Welcome to the port of Drizzleport. Mind the ropes.	드리즐포트 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	섬 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 드리즐포트 시청이 지금 브램블턴의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
 I'll go to the City Hall.	시청으로 가겠습니다.
-Welcome to Northport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	브램블턴의 수도, 노스포트에 오신 것을 환영합니다. 어쨌든 지금은요.\갈라이스는 열여덟 해째 닫혀 있어요. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 그래서 장벽이 무너질 때까지 여기 시청이 의회예요.\갈라이스에 볼일이 있다고요? 그럼 시청에 물어보세요. 왕비님이 사라진 바로 그해에 봉인됐다고들 해요.
+Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	브램블턴의 수도, 드리즐포트에 오신 것을 환영합니다. 어쨌든 지금은요.\갈라이스는 열여덟 해째 닫혀 있어요. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 그래서 장벽이 무너질 때까지 여기 시청이 의회예요.\갈라이스에 볼일이 있다고요? 그럼 시청에 물어보세요. 왕비님이 사라진 바로 그해에 봉인됐다고들 해요.
 Quest started: The Temporary Capital.	퀘스트 시작: 임시 수도.
-Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	장터에선 지갑을 꼭 쥐고, 칼은 칼집에 넣어 두세요. 노스포트는 대체로 좋은 도시예요.
-Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	노스포트 대성당에 오신 것을 환영합니다. 잠시 앉아 계세요. 유리창으로 드는 빛이 아름답답니다.
-You're not from round here, are you? Northport's a friendly place, mostly.	이 근방 분은 아니시죠? 노스포트는 대체로 친절한 곳이에요.
-Have you tried the bakery? Best bread in Northport.	빵집 가 보셨어요? 노스포트 최고의 빵이에요.
+Keep your purse close in the market, and your sword in its scabbard. Drizzleport's a good city, mostly.	장터에선 지갑을 꼭 쥐고, 칼은 칼집에 넣어 두세요. 드리즐포트는 대체로 좋은 도시예요.
+Welcome to the cathedral of Drizzleport. Sit a while: the light through the glass is lovely.	드리즐포트 대성당에 오신 것을 환영합니다. 잠시 앉아 계세요. 유리창으로 드는 빛이 아름답답니다.
+You're not from round here, are you? Drizzleport's a friendly place, mostly.	이 근방 분은 아니시죠? 드리즐포트는 대체로 친절한 곳이에요.
+Have you tried the bakery? Best bread in Drizzleport.	빵집 가 보셨어요? 드리즐포트 최고의 빵이에요.
 So you're the one with the old royal seal: Sergeant Brand sent word up from the pier.\She reads your papers twice over, and hands them back as if they might break.\Keep those close. Very close. Now: what is it you want of us?	그럼 당신이 옛 왕실 인장을 가진 사람이군요. 브랜드 하사가 부두에서 전갈을 보냈어요.\그녀가 당신의 서류를 두 번 읽고는, 깨질세라 조심스럽게 돌려준다.\그건 가까이 두세요. 아주 가까이. 자, 우리에게 원하는 게 뭔가요?
 To go to Galaith.	갈라이스에 가는 것.
 You want to go to Galaith? Half this Parliament wants nothing else.\The barrier is the dragon's: violet light across the pass, hard as glass. No sword, no ram and no spell of ours has so much as scratched it. Only one person living might break it: Bert, the great wizard of the Wizards' Court, far to the east.	갈라이스에 가고 싶다고요? 이 의회 절반이 바라는 게 그것뿐이에요.\장벽은 용의 것이에요. 고개를 가로지른 보랏빛, 유리처럼 단단하죠. 우리 칼도, 공성추도, 주문도 흠집 하나 못 냈어요. 그걸 깰 수 있는 사람은 살아 있는 이 중 단 한 명일지도 몰라요. 저 멀리 동쪽 마법사 궁정의 대마법사, 버트.
 How do I get to him?	그에게 어떻게 가죠?
-Through Ashford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of Ashford can vouch for you to the King's Steward, and the Steward to Bert.\Take the Parliament's letter to the Mayor: it asks every friend of the crown to help you on your way.	애시퍼드와 루퍼트 왕의 성채를 거쳐서요. 버트는 왕실이 보증하지 않은 사람은 만나지 않아요. 애시퍼드 읍장이 왕의 집사에게 당신을 보증하고, 집사가 버트에게 보증해 줄 수 있어요.\의회의 편지를 읍장에게 가져가세요. 왕실의 모든 벗에게 당신의 길을 도우라고 적혀 있어요.
+Through Puddleford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of Puddleford can vouch for you to the King's Steward, and the Steward to Bert.\Take the Parliament's letter to the Mayor: it asks every friend of the crown to help you on your way.	퍼들퍼드와 루퍼트 왕의 성채를 거쳐서요. 버트는 왕실이 보증하지 않은 사람은 만나지 않아요. 퍼들퍼드 읍장이 왕의 집사에게 당신을 보증하고, 집사가 버트에게 보증해 줄 수 있어요.\의회의 편지를 읍장에게 가져가세요. 왕실의 모든 벗에게 당신의 길을 도우라고 적혀 있어요.
 Thank you, Madam Speaker.	감사합니다, 의장님.
-Quest complete: The Temporary Capital! The Speaker gave you the Parliament's letter for the Mayor of Ashford.	퀘스트 완료: 임시 수도! 의장이 애시퍼드 읍장에게 전할 의회의 편지를 주었다.
+Quest complete: The Temporary Capital! The Speaker gave you the Parliament's letter for the Mayor of Puddleford.	퀘스트 완료: 임시 수도! 의장이 퍼들퍼드 읍장에게 전할 의회의 편지를 주었다.
 Order, order! Oh, it's you. The Parliament sits from dawn till the members fall asleep.	정숙, 정숙! 아, 당신이군요. 의회는 새벽부터 의원들이 잠들 때까지 열려요.
 The doctor will see you. Mind the beds.	의사 선생님이 봐 주실 거예요. 침대 조심하세요.
 Look at you. Look at you. I'd have known you anywhere, you know. You have her chin.	이것 좀 봐. 이것 좀 봐. 어디서 봤어도 알아봤을 거야. 그분 턱을 닮았어.
@@ -2081,7 +2081,7 @@ I nursed every royal child born in this palace for forty years. Every one of the
 The cot's kept aired. I keep it aired. Somebody has to.	요람은 늘 바람을 쐬어 둬요. 내가 쐬어 두죠. 누군가는 해야 하니까.
 Mind the rug. The little ones used to slide on it.	깔개 조심해요. 어린것들이 그 위에서 미끄럼을 타곤 했죠.
 Welcome to The Merry Miller! What'll it be?	즐거운 방앗간 주인에 오신 걸 환영합니다! 뭘 드릴까요?
-You're not from round here, are you? Oakhollow's a friendly place, mostly.	이 근방 분은 아니시죠? 오크할로는 대체로 친절한 곳이에요.
+You're not from round here, are you? Acornby's a friendly place, mostly.	이 근방 분은 아니시죠? 에이콘비는 대체로 친절한 곳이에요.
 They ate my boots, stranger. While I was in them. Kill six of those rats, would you?	그놈들이 내 장화를 먹었소, 나그네. 내가 신고 있는데. 저 쥐 여섯 마리만 잡아 주겠소?
 Quest started: Rats of Unusual Size.	퀘스트 시작: 유난히 큰 쥐들.
 Still 6 to go, by my count. $Attr.DustRatQuest_Count done.	내 셈으론 아직 6마리 남았소. $Attr.DustRatQuest_Count 마리 잡았군.
@@ -2230,7 +2230,7 @@ Stumps. Three hundred years of oak, and now stumps.	그루터기. 삼백 년 된
 The grove's quiet, and the rangers' lodge is busy. The Wildwood thanks you.	숲은 조용하고, 레인저 산장은 분주하오. 와일드우드가 당신에게 감사하오.
 Well met. I'm Ash, warden of the Wildwood.\Three old watch stones stand in these woods, and I can't leave the village to check them. Will you visit them for me?	반갑소. 나는 와일드우드의 감시인, 애시요.\이 숲에 오래된 감시석 세 개가 서 있는데, 내가 마을을 비우고 살펴볼 수가 없소. 대신 가 봐 주겠소?
 I'll check the stones.	감시석을 살펴볼게요.
-Watch stone by the north road, between King Rupert's Keep and Oakhollow.	루퍼트 왕의 성채와 오크할로 사이, 북쪽 길가의 감시석.
+Watch stone by the north road, between King Rupert's Keep and Acornby.	루퍼트 왕의 성채와 에이콘비 사이, 북쪽 길가의 감시석.
 Watch stone in the western woods.	서쪽 숲의 감시석.
 Watch stone east of the river.	강 동쪽의 감시석.
 Quest started: The Wildwood Watch.	퀘스트 시작: 와일드우드 감시.
@@ -2243,10 +2243,10 @@ The Wildwood eats the careless. Prove yourself to the King, and come back with a
 Every beast slain, every secret found, every win in the arena: it's all on the board, and I check the sums twice. Ink doesn't lie. People do.	쓰러뜨린 짐승 하나하나, 찾아낸 비밀 하나하나, 투기장의 승리 하나하나: 전부 이 판에 있고, 난 합계를 두 번 확인하지. 잉크는 거짓말을 안 해. 사람이 하지.
 Am I on it?	저도 있어요?
 Anyone who's done anything worth writing down is. Have a look. If your name's not near the top, there's always tomorrow.	적어 둘 만한 일을 한 사람은 누구나 있지. 한번 봐. 이름이 위쪽에 없으면, 내일이 늘 있으니까.
-What's that you're carrying? Frosthold's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Frosthold need ever know where they went.	들고 있는 게 뭐야? 레드록 길에서 나온 프로스트홀드 물건이로군, 내 짐작이 틀리지 않았다면.\헤일은 그걸 받고 등이나 두드려 주겠지. 난 금화 300개를 주고, 프로스트홀드 누구도 그게 어디로 갔는지 영영 모를 거야.
+What's that you're carrying? Chillingham's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Chillingham need ever know where they went.	들고 있는 게 뭐야? 레드록 길에서 나온 칠링엄 물건이로군, 내 짐작이 틀리지 않았다면.\헤일은 그걸 받고 등이나 두드려 주겠지. 난 금화 300개를 주고, 칠링엄 누구도 그게 어디로 갔는지 영영 모를 거야.
 Sell them to Meg.	메그에게 판다.
 They're going back to Hale.	이건 헤일에게 돌아갑니다.
-Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Frosthold won't thank you.	퀘스트 완료: 길 위의 산적들... 붉은 메그에게 금화 300개에 팔았다. 프로스트홀드는 고마워하지 않을 것이다.
+Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Chillingham won't thank you.	퀘스트 완료: 길 위의 산적들... 붉은 메그에게 금화 300개에 팔았다. 칠링엄은 고마워하지 않을 것이다.
 Holt's men had a lovely walk on the wrong beach, I hear. I owe you.\And I've a job for a friend. A cask of my best for Pell, the castle's cellarer: he's in the Court's courtyard. The watch walks there now, and if they see a cask they'll have it off you.	홀트 부하들이 엉뚱한 해변에서 아주 즐거운 산책을 했다더군. 신세 졌어.\그리고 친구한테 맡길 일이 있어. 내 최고급 술 한 통을 성의 술 창고지기 펠에게. 궁정 안뜰에 있어. 요즘 경비대가 거길 돌아다니는데, 통을 보면 빼앗아 갈 거야.
 I'll carry it.	제가 나를게요.
 Show me your goods.	물건을 보여 줘.
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	그에게 부적을 보여 준다.
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	그 부적... 그걸 어디서 얻었나? 내가 아내에게 준 것이네, 그 전날 밤... 그녀가 도망치던 밤.
 Tell him of Mary's will.	메리의 유언을 이야기한다.
-My mother, Mary, died on the Isle, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	제 어머니 메리는 저를 키운 섬에서 돌아가셨습니다. 마지막 유언이 제가 누구인지 알려 주었어요. 당신께 돌아가 어머니의 죽음을 전해 달라고 하셨습니다.\그리고 당신을 사랑하길 한 번도 멈춘 적 없다고 전해 달라고요.
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	제 어머니 메리는 저를 키운 섬에서 돌아가셨습니다. 마지막 유언이 제가 누구인지 알려 주었어요. 당신께 돌아가 어머니의 죽음을 전해 달라고 하셨습니다.\그리고 당신을 사랑하길 한 번도 멈춘 적 없다고 전해 달라고요.
 The King comes down from his throne, and holds you, and weeps.	왕이 옥좌에서 내려와 당신을 안고 운다.
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	메리. 나의 메리. 용이 너를 갖지 못하게 너를 데려간 것인데, 나는 사람들이 그걸 배신이라 부르게 두었구나. 열여덟 해를.\나의 $Player.Son. 나의 $Player.Son.
 Father.	아버지.
@@ -2335,7 +2335,7 @@ Pip gives you two fish pies.	핍이 생선 파이 두 개를 준다.
 That's all I've got, honest.	제가 가진 건 그게 다예요, 정말로.
 I know. Look after yourself.	알아. 몸 잘 챙겨.
 You're a strange one. Thank you, though.	이상한 분이네요. 그래도 고마워요.
-Have you tried the bakery? Best bread in Saltmarsh.	빵집 가 보셨어요? 솔트마시 최고의 빵이에요.
+Have you tried the bakery? Best bread in Brinebottom.	빵집 가 보셨어요? 브라인보텀 최고의 빵이에요.
 All right! It was me! I cut her traps.\Da had this spot for twenty years. He took sick, and Wenna moved in before he was cold in his bed. He's not dead, but he might as well be, for all she cares.	알았어요! 저였어요! 제가 그녀의 덫을 끊었어요.\우리 아빠가 이 자리를 이십 년 썼어요. 아빠가 병이 들자, 침대가 식기도 전에 웬나가 들어왔어요. 돌아가신 건 아니지만, 그녀 입장에선 돌아가신 거나 마찬가지죠.
 I'll have to tell Wenna.	웬나에게 말해야겠어.
 Your secret's safe. I'll talk to her.	비밀은 지켜 줄게. 내가 그녀와 얘기해 볼게.
@@ -2366,7 +2366,7 @@ Qadir's caravan never arrived. Lost in the Sunscar, west of here, with the scorp
 Brann's forge has gone cold. Something huge broke the ice on the lake to the east.	브란의 용광로가 식었어요. 동쪽 호수의 얼음을 뭔가 거대한 게 깨뜨렸대요.
 The Druid says the Heartwood is sickening. Even the bears have gone mad. It's out north-east, deep in the trees.	드루이드 말로는 심재석이 병들고 있대요. 곰들까지 미쳐 버렸어요. 북동쪽, 나무들 깊숙한 곳이에요.
 The old king won't stay in his barrow. The Gravekeeper wants someone brave. The barrow's east, out on the downs.	옛 왕이 무덤에 가만히 있질 않아요. 묘지기가 용감한 사람을 찾고 있어요. 무덤은 동쪽 구릉에 있어요.
-Goblins on the bridge and the guards run off: we thought we'd starve out here. They say it was you who cleared them. Drinks are on the house at every table in Wardhaven!	다리엔 고블린들이 있고 경비병들은 도망쳐서, 여기서 굶어 죽는 줄 알았어요. 그들을 쓸어 낸 게 당신이라더군요. 워드헤이븐 모든 탁자에서 술은 공짜예요!
+Goblins on the bridge and the guards run off: we thought we'd starve out here. They say it was you who cleared them. Drinks are on the house at every table in Sulkhaven!	다리엔 고블린들이 있고 경비병들은 도망쳐서, 여기서 굶어 죽는 줄 알았어요. 그들을 쓸어 낸 게 당신이라더군요. 설크헤이븐 모든 탁자에서 술은 공짜예요!
 The Warden says the cult burnt the shrines first. Then the farms. Now there's a fire in the Cinder Fort every night. Ask her if you want work.	감시인 말로는 교단이 먼저 성소들을 불태웠대요. 그다음엔 농장들. 이제는 밤마다 잿불 요새에 불이 타요. 일거리가 필요하면 그녀에게 물어보세요.
 Safe travels.	안전한 여행 되세요.
 Wolves! Every night another lamb gone. I can't fight them with a crook.\Thin them out for me? Six should make them think twice.	늑대들! 밤마다 어린 양이 한 마리씩 사라져. 지팡이로는 놈들과 싸울 수가 없어.\좀 줄여 주겠나? 여섯 마리면 놈들도 다시 생각하겠지.
@@ -2392,7 +2392,7 @@ There they are, all three, looking like it was my fault. Here, take this, it's n
 They're good as gold now. For a day or two.	이제 아주 얌전해. 하루 이틀은.
 Mind the river.	강 조심하게.
 I'm the sheriff here. Trouble goes in the cells; you don't look like trouble.	난 여기 보안관이야. 말썽은 감방으로 가지. 넌 말썽처럼 보이진 않는군.
-Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	애시퍼드 잡화점에 오신 걸 환영합니다!\연장, 양동이, 낚시 도구. 필요한 거라면 다 있지요. 없는 거라면 필요 없는 거고요.
+Welcome to the Puddleford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	퍼들퍼드 잡화점에 오신 걸 환영합니다!\연장, 양동이, 낚시 도구. 필요한 거라면 다 있지요. 없는 거라면 필요 없는 거고요.
 Show me your wares.	물건을 보여 주세요.
 Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know. We've a robe in every size. We checked."	수선회의 린넷 자매. "추운 데서 들어와요, 친구! 수프가 끓고 있어요. 수프는 언제나 끓고 있죠. 그리고 탁자 위 샤드는 좋은 말동무예요. 잠깐 옆에 앉아서 귀 기울여 봐요. 원하면 신발은 벗어요. 우린 신발에 아주 너그러워요."\"다른 사람들요? 아, 오늘 밤 모임에 갔어요. 어딘지는 말할 수 없어요, 미안해요. 수선회 사람들만 가는 곳이라서요." 그녀가 당신의 외투를 보며 미소 짓는다. "회색은 누구에게나 어울려요. 로브는 모든 치수가 다 있어요. 확인했거든요."
 Where's the gathering?	모임은 어디서 해요?
@@ -2485,7 +2485,7 @@ Pay him.	그에게 낸다.
 Of course. I'll walk with you until it is.	물론이죠. 그때까지 함께 걷겠습니다.
 Oh, good.	아, 좋네요.
 Welcome to The Half Moon! What'll it be?	반달에 오신 걸 환영합니다! 뭘 드릴까요?
-Morning! Lovely day in Thornwick, isn't it?	안녕하세요! 손윅은 날씨가 참 좋죠?
+Morning! Lovely day in Nettlewick, isn't it?	안녕하세요! 네틀윅은 날씨가 참 좋죠?
 Bramble, timber and planks. You look like someone who gets things done.\There's a grove of old oaks south-east of the village: the best wood in the Wildwood, and Ash won't let a soul near it. My men are there now, waiting. Cut my mark into the great oak in the middle of it, and they'll take that as leave to start. There's 150 gold in it, and work for half this village.	브램블이오, 목재와 널빤지. 일을 해내는 사람처럼 보이는군.\마을 남동쪽에 오래된 참나무 숲이 있소. 와일드우드에서 가장 좋은 나무인데, 애시가 아무도 근처에 못 가게 하지. 내 사람들이 지금 거기서 기다리고 있소. 그 한가운데 큰 참나무에 내 표식을 새기면, 그걸 시작해도 된다는 허락으로 알 거요. 금화 150개를 주고, 이 마을 절반에 일거리도 생기지.
 I'll cut your mark: fell the grove.	표식을 새기겠어요. 숲을 베어요.
 I'll hear Ash out first.	애시 얘기부터 들어 보겠어요.
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	고마워요, 토비아스.
 Quest complete: Tobias's Tin!	퀘스트 완료: 토비아스의 깡통!
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	낮고 조용히, 놈들이 보는 쪽은 피해서. 궤짝은 마을 남동쪽 야영지의 모닥불 옆에 있네.
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	날 구해 준 사람이 왔군! 마렌이 날 한여름 거위처럼 먹여 대고 있네. 에드윈은 식료품 창고를 잠그기 시작했어.\집은 자네 걸세, 알겠지. 나는 돌아가지 않을 거야, 그 짐승 같은 놈들이 그렇게 가까이 있는데. 잘 지켜 주게.
-Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	어디 보자.. '섬의 서류를 쓰는 노인'. 그게 나야. 그래서 날 잡아갔구먼! 밤마다 덩치 큰 놈이 메리의 서류가 어디 있냐고 물었지. 한 번도 말 안 했네.\그리고 재로 찍은 손. 북쪽에 그렇게 서명하는 무리가 있어. 잿빛 손이라고들 하지. 엘더우드 너머의 불 숭배자들이야. 끔찍한 사람들이지. 발도 안 닦아.\그런 무리가 자네 어머니한테, 아니 자네한테 무슨 볼일이 있겠나? 그건 간직하고, 저쪽에선 눈을 크게 뜨고 다니게.
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	어디 보자.. '섬의 서류를 쓰는 노인'. 그게 나야. 그래서 날 잡아갔구먼! 밤마다 덩치 큰 놈이 메리의 서류가 어디 있냐고 물었지. 한 번도 말 안 했네.\그리고 재로 찍은 손. 북쪽에 그렇게 서명하는 무리가 있어. 잿빛 손이라고들 하지. 엘더우드 너머의 불 숭배자들이야. 끔찍한 사람들이지. 발도 안 닦아.\그런 무리가 자네 어머니한테, 아니 자네한테 무슨 볼일이 있겠나? 그건 간직하고, 저쪽에선 눈을 크게 뜨고 다니게.
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	멈춰라! 통행료다. (그가 투명한 손을 내민다.) 길은 닫혔지만, 통행료는 그대로다. 요즘은 동전을 받지 않아. 다 빠져 버리거든. 그럼 수수께끼다. 셋을 맞히면 차단봉을 올려 주지.
 I'll go round.	돌아서 갈게요.
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	목은 있고 머리는 없고, 팔은 둘인데 손은 없지. 가득 차서 나가고 빈 채로 돌아와. 나는 뭘까?
@@ -2532,12 +2532,12 @@ Rest well.	편히 쉬세요.
 Wrong! The toll-keeper writes it down in his ledger and turns his back on you. He'll talk to you again in a minute.	틀렸다! 통행료 징수원이 장부에 그걸 적고는 등을 돌린다. 잠시 뒤 다시 말을 걸 것이다.
 The toll-keeper is still writing down your wrong answer.	통행료 징수원이 아직 당신의 틀린 답을 적고 있다.
 Paid in full. Pass, friend. (He doesn't lift the bar. He's forgotten how it goes.)	완납. 지나가게, 친구. (그는 차단봉을 올리지 않는다. 어떻게 하는지 잊어버렸다.)
-Welcome to Oakhollow! Have a look at my wares.	오크할로에 오신 걸 환영해요! 제 물건 구경하세요.
-Welcome to Greyford! Have a look at my wares.	그레이퍼드에 오신 걸 환영해요! 제 물건 구경하세요.
+Welcome to Acornby! Have a look at my wares.	에이콘비에 오신 걸 환영해요! 제 물건 구경하세요.
+Welcome to Dullford! Have a look at my wares.	덜퍼드에 오신 걸 환영해요! 제 물건 구경하세요.
 Welcome to Dunerest! Have a look at my wares.	듄레스트에 오신 걸 환영해요! 제 물건 구경하세요.
-Welcome to Frosthold! Have a look at my wares.	프로스트홀드에 오신 걸 환영해요! 제 물건 구경하세요.
-Welcome to Thornwick! Have a look at my wares.	손윅에 오신 걸 환영해요! 제 물건 구경하세요.
-Welcome to Wardhaven! Have a look at my wares.	워드헤이븐에 오신 걸 환영해요! 제 물건 구경하세요.
+Welcome to Chillingham! Have a look at my wares.	칠링엄에 오신 걸 환영해요! 제 물건 구경하세요.
+Welcome to Nettlewick! Have a look at my wares.	네틀윅에 오신 걸 환영해요! 제 물건 구경하세요.
+Welcome to Sulkhaven! Have a look at my wares.	설크헤이븐에 오신 걸 환영해요! 제 물건 구경하세요.
 Welcome to Emberwatch! Have a look at my wares.	엠버워치에 오신 걸 환영해요! 제 물건 구경하세요.
 Nothing to sell here, I'm afraid.	미안하지만 여기선 팔 게 없어요.
 Best prices between here and anywhere!\Don't ask me where I got it. I don't ask you where you got your gold.	여기서 어디까지든 최고의 가격!\어디서 구했는지는 묻지 마요. 나도 당신 금화를 어디서 구했는지 안 물으니까.
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	그녀가 화로 연기 속을 한참 들여다본다.\"왕관. 무겁지. 일주일 지나면 싫어질 거야, 다들 그렇듯이."
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	그녀가 화로 연기 속을 한참 들여다본다.\"바다 밑에, 노래하는 빛. 대답하지 마."
 You haven't five gold.	금화 다섯 개가 없다.
-Lovely day on the Isle! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	섬은 날씨가 참 좋아요! 심심하면 동쪽 절벽 밑에 구멍이 있어요. 박쥐 조심하고요.
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	섬은 날씨가 참 좋아요! 심심하면 동쪽 절벽 밑에 구멍이 있어요. 박쥐 조심하고요.
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	북쪽 젖 짜는 아가씨가 소랑 양을 키워요. 양털이 필요하면 가위를 팔 거예요.\본토로 가는 배는 남쪽 부두에서 떠나요.
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	남동쪽 해안에 오래된 선돌 고리가 있어요. 우리 할머니가 거긴 절대 파지 말라고 했죠. 그래서 당연히 팠어요. 아무것도 없었어요. 아마 자리를 잘못 골랐나 봐요.
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	북동쪽 바닷가에 오래된 망루가 폐허로 서 있어요. 이제 늑대들 차지예요.
-A hermit lives in the western woods. Odd fellow, but he knows every tree on the Isle.	서쪽 숲에 은자가 살아요. 괴짜지만, 섬의 나무란 나무는 다 알아요.
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	서쪽 숲에 은자가 살아요. 괴짜지만, 섬의 나무란 나무는 다 알아요.
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	해 진 뒤엔 동쪽 묘지 근처에 가지 마요. 해 지기 전에도. 그냥 가지 마요.
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	빵집엔 갓 구운 빵, 잡화점엔 연장, 대장간엔 녹일 광석이 있으면 쓸 용광로가 있어요.
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	속삭이는 숲의 늑대 조심해요. 그리고 고블린도. 홉고블린도. 솔직히, 난 마을 밖으로 안 나가요.
@@ -2613,7 +2613,7 @@ Quest started: Cold Fire.	퀘스트 시작: 차가운 불.
 Three shrines, out on the Ashwold, where the Hand used to sing. Mind the ash.	성소 세 곳, 애시월드에, 잿빛 손이 노래하던 곳이야. 재 조심해.
 Blue, all three? And tracks to the Hand's camp. Get close enough to hear what's said there. Quietly, mind: they'll not talk in front of you.	셋 다 파랗다고? 그리고 잿빛 손 야영지로 이어진 발자국. 거기서 하는 말이 들릴 만큼 가까이 가 봐. 조용히. 네 앞에선 말을 안 할 테니까.
 I'll go quietly.	조용히 갈게요.
-Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	회색 옷 입은 낯선 자들이 잿빛 손한테 돈을 주고 용을 먹이게 한다고? "꿰맨다"... 그 말이 마음에 안 드는군.\올해 길에 회색 옷 사람들이 있었어. 친절한 사람들이지, 수프랑 담요랑. 공짜로 그렇게 친절한 사람은 없어. 마부 하나가 그러는데, 애시퍼드에 조용한 집을 하나 두고 있대. 자, 수고비야. 눈 크게 뜨고 다녀.
+Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Puddleford. Here, for your trouble, and keep your eyes open.	회색 옷 입은 낯선 자들이 잿빛 손한테 돈을 주고 용을 먹이게 한다고? "꿰맨다"... 그 말이 마음에 안 드는군.\올해 길에 회색 옷 사람들이 있었어. 친절한 사람들이지, 수프랑 담요랑. 공짜로 그렇게 친절한 사람은 없어. 마부 하나가 그러는데, 퍼들퍼드에 조용한 집을 하나 두고 있대. 자, 수고비야. 눈 크게 뜨고 다녀.
 Quest complete: Cold Fire!	퀘스트 완료: 차가운 불!
 Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it seasoning.	엠버워치: 잿불땅 앞의 마지막 요새. 바람엔 연기, 빵엔 재. 우린 양념이라고 부르지.
 You? Into the Cinder Fort? The Ashen Hand would have you singing to the dragon by supper.\Whatever Bert wants with that ring, it'll keep. Come back with a few more fights behind you.	당신이? 잿불 요새에? 잿빛 손이 저녁 먹기 전에 당신을 용한테 노래 부르게 만들 거요.\버트가 그 반지로 뭘 하려는지 몰라도, 기다릴 수 있소. 싸움을 몇 번 더 치르고 오시오.
@@ -2638,18 +2638,18 @@ There's one more thing, and I'm sorry for it. Corvane kept the Shard's guardian 
 Quest started: The Fallen Shard.	퀘스트 시작: 떨어진 샤드.
 West, through the Watch Gallery. The light will show you the way. It always does.	서쪽, 감시 회랑을 지나서. 빛이 길을 보여 줄 거요. 늘 그러니까.
 Warm hands, warm feet. You don't belong down here. Go carefully.	따뜻한 손, 따뜻한 발. 당신은 이 아래에 어울리지 않소. 조심해서 가시오.
-Welcome to the bank of Wardhaven. Your valuables are safe with us.	워드헤이븐 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 지킵니다.
+Welcome to the bank of Sulkhaven. Your valuables are safe with us.	설크헤이븐 은행에 오신 것을 환영합니다. 귀중품은 저희가 안전하게 지킵니다.
 Welcome to The Sleeping Giant! What'll it be?	잠든 거인에 오신 걸 환영합니다! 뭘 드릴까요?
-This is Wardhaven's Town Hall. Births, weddings and deeds are written here.	여기는 워드헤이븐 읍사무소입니다. 출생, 혼인, 증서가 여기 기록됩니다.
-Amos keeps his voice down. "Since the dragon died, folk have come back to Wardhaven, and I'm glad of every one. But those two Sisters in grey..."\"They pray with the rest, kind as you like. And at night they go down under my chapel floor. There's a stair there I never knew of, and singing under it, and I've been priest here thirty years."\"Would you go down and see? I'm too old, and I'm afraid."	아모스가 목소리를 낮춘다. "용이 죽은 뒤로 사람들이 워드헤이븐으로 돌아왔고, 한 사람 한 사람이 다 반갑소. 그런데 회색 옷의 저 두 자매가..."\"다른 이들과 함께 기도하지, 더없이 친절하게. 그런데 밤이면 내 예배당 바닥 아래로 내려가오. 거기 내가 몰랐던 계단이 있고, 그 아래서 노래가 들리오. 난 여기서 삼십 년을 사제로 있었는데."\"내려가서 봐 주겠소? 나는 너무 늙었고, 두렵소."
+This is Sulkhaven's Town Hall. Births, weddings and deeds are written here.	여기는 설크헤이븐 읍사무소입니다. 출생, 혼인, 증서가 여기 기록됩니다.
+Amos keeps his voice down. "Since the dragon died, folk have come back to Sulkhaven, and I'm glad of every one. But those two Sisters in grey..."\"They pray with the rest, kind as you like. And at night they go down under my chapel floor. There's a stair there I never knew of, and singing under it, and I've been priest here thirty years."\"Would you go down and see? I'm too old, and I'm afraid."	아모스가 목소리를 낮춘다. "용이 죽은 뒤로 사람들이 설크헤이븐으로 돌아왔고, 한 사람 한 사람이 다 반갑소. 그런데 회색 옷의 저 두 자매가..."\"다른 이들과 함께 기도하지, 더없이 친절하게. 그런데 밤이면 내 예배당 바닥 아래로 내려가오. 거기 내가 몰랐던 계단이 있고, 그 아래서 노래가 들리오. 난 여기서 삼십 년을 사제로 있었는데."\"내려가서 봐 주겠소? 나는 너무 늙었고, 두렵소."
 I'll go down.	내려가 볼게요.
 Quest started: The Eldest of the Mending.	퀘스트 시작: 수선회의 맏이.
-Welcome to Wardhaven's church. All are welcome here.\Amos looks over at the two Sisters in grey, and doesn't say any more.	워드헤이븐 교회에 오신 것을 환영합니다. 누구나 환영합니다.\아모스가 회색 옷의 두 자매를 흘끗 보고는, 더 말하지 않는다.
+Welcome to Sulkhaven's church. All are welcome here.\Amos looks over at the two Sisters in grey, and doesn't say any more.	설크헤이븐 교회에 오신 것을 환영합니다. 누구나 환영합니다.\아모스가 회색 옷의 두 자매를 흘끗 보고는, 더 말하지 않는다.
 The stair's by the wall, where the floor's lifted. Mind yourself down there.	계단은 바닥이 들린 벽 옆에 있소. 거기선 조심하시오.
 It's quiet under the floor now, and I sleep. One of the Sisters came to me yesterday and asked if she could just pray, the ordinary way. I said she could.	이제 바닥 아래가 조용하고, 나도 잠을 자오. 어제 자매 하나가 와서 그냥 평범하게 기도해도 되느냐고 물었소. 된다고 했지.
 It's quiet under the floor now. Mostly. Some nights I'd swear there's still singing.	이제 바닥 아래가 조용하오. 대체로는. 어떤 밤엔 아직도 노래가 들리는 것 같소.
-Welcome to Wardhaven's church. All are welcome here.	워드헤이븐 교회에 오신 것을 환영합니다. 누구나 환영합니다.
-Have you tried the bakery? Best bread in Wardhaven.	빵집 가 보셨어요? 워드헤이븐 최고의 빵이에요.
+Welcome to Sulkhaven's church. All are welcome here.	설크헤이븐 교회에 오신 것을 환영합니다. 누구나 환영합니다.
+Have you tried the bakery? Best bread in Sulkhaven.	빵집 가 보셨어요? 설크헤이븐 최고의 빵이에요.
 You're the one who took the cove with our lads. The watch looks after its own: what do you need?	우리 애들이랑 후미를 차지한 사람이군. 경비대는 제 식구를 챙기지. 뭐가 필요하오?
 The watch's stores. Not for sale, not to you.	경비대 보급품이오. 팔 물건이 아니오, 당신한텐.
 You've been up at the spring. Don't look like that: I saw you on the dunes.\Here's how it is. Leave the stones be, say the spring's dried up, and there's 100 gold in it for you. Water's a business, friend.	샘에 갔다 왔지. 그런 표정 짓지 마. 모래언덕에서 봤어.\얘기는 이래. 돌은 그냥 두고, 샘이 말랐다고 해. 그럼 금화 100개를 주지. 물은 장사야, 친구.
@@ -2670,7 +2670,7 @@ Use the calming draught on him (Use, then click him).	그에게 진정 물약을
 Lost it already? Here's another. Down his throat, mind, not on the ground.	벌써 잃어버렸어? 여기 하나 더. 목구멍으로, 명심해, 땅바닥 말고.
 Heh. A stranger in the bog. Elder Pike is sick with marsh fever, and only my brew will cure him.\Fetch me four sprigs of bog myrtle from the marsh. You'll need a little Alchemy to pick it.	헤헤. 늪에 낯선 이라. 파이크 장로가 늪열에 걸렸는데, 내 약만이 그를 고칠 수 있지.\늪에서 늪도금양 네 줄기를 가져와. 따려면 연금술이 조금 필요할 거야.
 I'll gather some.	모아 올게요.
-Bog myrtle grows in the fens round Saltmarsh (Alchemy 3 to pick it).	늪도금양은 솔트마시 주변 습지에서 자란다 (따려면 연금술 3).
+Bog myrtle grows in the fens round Brinebottom (Alchemy 3 to pick it).	늪도금양은 브라인보텀 주변 습지에서 자란다 (따려면 연금술 3).
 Bring Morwen 4 bog myrtle.	모웬에게 늪도금양 4개를 가져간다.
 Quest started: Bog Lights.	퀘스트 시작: 늪의 도깨비불.
 Good, good. Into the pot... there. Take this to Elder Pike, and don't you dare sip it.	좋아, 좋아. 솥에 넣고... 됐다. 이걸 파이크 장로한테 가져가고, 한 모금이라도 마셔 볼 생각 마.
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	좋은 사람이었지, 자네 어머니는. 우리 모두에게 다정했고, 자기 얘기는 한마디도 안 했어.\십육 년 동안 일요일마다 카드로 나를 이겼지. 어떻게 했는지 끝내 몰랐네.
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	정말 유감이에요. 메리는 이곳 우리 모두의 친구였어요.\가요. 집까지 바래다줄게요. 당신에게 남긴 게 있어요. 당신 혼자에게만, 직접 전하라고요. 그게 그녀의 지시였어요. 밑줄을 두 번이나 그었지요.
 Lead the way.	앞장서 주세요.
-You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	두 사람은 함께 섬을 가로질러 집으로 걸어간다. 에드윈은 가끔 뭔가 법률적인 말을 하려다가, 다시 생각한다.
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	두 사람은 함께 섬을 가로질러 집으로 걸어간다. 에드윈은 가끔 뭔가 법률적인 말을 하려다가, 다시 생각한다.
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	당신 어머니가 마지막 유언장을 내게 맡겼어요. 이 편지를 절대 열지 말라고 했고, 당신도 아무에게도 읽어 주지 말라고 했어요. 당신에게, 오직 당신에게만 남긴 마지막 말이에요.\변호사 삼십 년에, 편지를 이렇게 읽고 싶었던 적이 없어요. 읽지 않았어요. 기록에 남겨 주세요.
 He lays a letter on the table, sealed with your mother's wax.	그가 어머니의 밀랍으로 봉인된 편지를 탁자 위에 놓는다.
 Thank you. If you don't mind, I would like to be left alone to read the letter.	고마워요. 괜찮다면, 혼자 편지를 읽고 싶어요.
@@ -2853,10 +2853,10 @@ The barrier is broken.	장벽이 부서졌다.
 You lay your hand on the plinth. The light in the socket rises to meet it, and the marks on the eight stones flare white. Something answers out of the rock.	받침돌에 손을 얹는다. 홈 속의 빛이 솟아올라 손을 맞이하고, 여덟 개의 돌에 새겨진 표식이 하얗게 타오른다. 바위 속에서 무언가가 대답한다.
 The plinth is cold. The circle's still resting from the last time you woke it.	받침돌이 차갑다. 지난번에 깨운 뒤로 고리가 아직 쉬고 있다.
 The circle's marks dim, satisfied. What was holding them up runs out of the stones and into you.	고리의 표식이 흡족한 듯 흐려진다. 그것들을 받치고 있던 것이 돌에서 흘러나와 당신 안으로 들어온다.
-The dragon of Galaith is dead! Welcome to Wardhaven. The gates are open, and they're staying open.	갈라이스의 용이 죽었다! 워드헤이븐에 오신 것을 환영합니다. 성문이 열렸고, 계속 열려 있을 겁니다.
-Halt! Wardhaven's gates have been barred since the dragon came down on Galaith, and they stay barred while it lives.\Until then: off you go.	멈춰라! 용이 갈라이스에 내려앉은 뒤로 워드헤이븐의 성문은 빗장이 걸려 있고, 용이 살아 있는 한 계속 그럴 것이다.\그때까지는, 돌아가라.
-The spider nest is in the deep woods west of Oakhollow.	거미 둥지는 오크할로 서쪽 깊은 숲에 있다.
-The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Oakhollow. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.	마지막 감시석! 이끼가 찢겨 있고 사방에 거미줄이 오크할로 서쪽 깊은 숲으로 뻗어 있다. 거미들이 거기 둥지를 틀었다. 레인저 애시에게 돌아가기 전에 적어도 다섯 마리는 쓸어 내자.
+The dragon of Galaith is dead! Welcome to Sulkhaven. The gates are open, and they're staying open.	갈라이스의 용이 죽었다! 설크헤이븐에 오신 것을 환영합니다. 성문이 열렸고, 계속 열려 있을 겁니다.
+Halt! Sulkhaven's gates have been barred since the dragon came down on Galaith, and they stay barred while it lives.\Until then: off you go.	멈춰라! 용이 갈라이스에 내려앉은 뒤로 설크헤이븐의 성문은 빗장이 걸려 있고, 용이 살아 있는 한 계속 그럴 것이다.\그때까지는, 돌아가라.
+The spider nest is in the deep woods west of Acornby.	거미 둥지는 에이콘비 서쪽 깊은 숲에 있다.
+The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Acornby. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.	마지막 감시석! 이끼가 찢겨 있고 사방에 거미줄이 에이콘비 서쪽 깊은 숲으로 뻗어 있다. 거미들이 거기 둥지를 틀었다. 레인저 애시에게 돌아가기 전에 적어도 다섯 마리는 쓸어 내자.
 You touch the old watch stone. Watch stones visited: $Variable.3 of 3.	오래된 감시석을 만진다. 찾아간 감시석: $Variable.3 / 3.
 Watchman: "What's in the cask? Brandy, and no duty paid. That's the watch's now. Out you go."	경비병: "통에 뭐가 들었지? 브랜디, 관세도 안 낸 거군. 이제 경비대 거다. 나가."
 The watch took the cask. Red Meg might spare another.	경비대가 통을 가져갔다. 붉은 메그가 하나 더 줄지도 모른다.
@@ -2879,63 +2879,63 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	이제 들었군. 그것을 만지는 이는 누구나 듣지.\감시는 이제 당신 것이오, 따뜻한 이여. 할 수 있다면 쉬고 싶소. 끝내지 못한 게 하나 있는데, 그게 뭔지 생각나지 않는군.
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	북쪽 농장의 젖 짜는 아가씨 베스가 본토로 건너가는 법을 알 것이다.
-Wim won't ferry anyone off the Isle without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	윔은 서류 없는 사람은 섬 밖으로 태워 주지 않는다. 베스의 아버지 토비아스가 서류를 썼지만, 홉고블린들이 그를 잡아갔다. 마을에 있는 그의 집은 잠겨 있고, 열쇠는 그놈들이 가지고 있다.
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	윔은 서류 없는 사람은 섬 밖으로 태워 주지 않는다. 베스의 아버지 토비아스가 서류를 썼지만, 홉고블린들이 그를 잡아갔다. 마을에 있는 그의 집은 잠겨 있고, 열쇠는 그놈들이 가지고 있다.
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	베스의 아버지 토비아스는 홉고블린 소굴의 우리에 갇혀 있다. 자물쇠를 따서 그를 풀어 준다. 그의 집 열쇠도 소굴 어딘가에 있을 것이다.
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	토비아스가 집을 당신에게 주었다. 그의 열쇠로 문을 열고 마루 밑에 숨긴 것을 찾는다.
-Show your papers to Wim the ferryman, on the Isle's pier.	섬의 부두에서 뱃사공 윔에게 서류를 보여 준다.
-Ask the Herbalist in her cottage on the Ashford farmlands if she needs a hand.	애시퍼드 농지 오두막의 약초상에게 일손이 필요한지 묻는다.
+Show your papers to Wim the ferryman, on Muddlesey's pier.	섬의 부두에서 뱃사공 윔에게 서류를 보여 준다.
+Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	퍼들퍼드 농지 오두막의 약초상에게 일손이 필요한지 묻는다.
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	약초상에게 동굴 버섯 3개(옛 철광산에서 딴다)와 거미줄 2개(광산 깊은 곳의 거대 거미가 떨어뜨린다)를 가져간다.
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	깊은 골짜기(홉고블린 굴의 뚜껑문 너머)에서 난쟁이 브로크를 찾아 도움이 필요한지 묻는다.
 Smash four skeletons ($SkeletonsSlain of 4) and slay the cave troll ($TrollSlain of 1) in the Deep Hollow, then return to Brokk.	깊은 골짜기에서 해골 넷을 부수고 ($SkeletonsSlain / 4) 동굴 트롤을 처치한 뒤 ($TrollSlain / 1) 브로크에게 돌아간다.
-Speak to Ranger Ash in Oakhollow, in the Wildwood south of King Rupert's Keep.	루퍼트 왕의 성채 남쪽 와일드우드, 오크할로의 레인저 애시와 이야기한다.
+Speak to Ranger Ash in Acornby, in the Wildwood south of King Rupert's Keep.	루퍼트 왕의 성채 남쪽 와일드우드, 에이콘비의 레인저 애시와 이야기한다.
 Visit the three old watch stones of the Wildwood ($WatchStones of 3): one by the north road, one in the western woods and one by the river.	와일드우드의 오래된 감시석 세 곳을 찾아간다 ($WatchStones / 3): 북쪽 길가, 서쪽 숲, 강가에 하나씩.
-Clear the spider nest in the deep woods west of Oakhollow: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash.	오크할로 서쪽 깊은 숲의 거미 둥지를 쓸어 낸다. 거대 거미 다섯 마리를 처치하고 ($WildSpidersSlain / 5) 레인저 애시에게 돌아간다.
-Ranger Ash and a timber merchant in Oakhollow are at odds over the old oaks south-east of the village.	오크할로의 레인저 애시와 목재상이 마을 남동쪽의 오래된 참나무들을 두고 다투고 있다.
-Master Bramble wants the old oaks south-east of Oakhollow felled for timber; Ranger Ash wants them kept. Side with one of them.	브램블 나리는 오크할로 남동쪽의 오래된 참나무들을 목재로 베길 원하고, 레인저 애시는 지키길 원한다. 둘 중 한 사람 편에 선다.
-Cut Bramble's mark into the great oak in the old grove, south-east of Oakhollow. His men will do the rest.	오크할로 남동쪽 오래된 숲의 큰 참나무에 브램블의 표식을 새긴다. 나머지는 그의 사람들이 할 것이다.
+Clear the spider nest in the deep woods west of Acornby: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash.	에이콘비 서쪽 깊은 숲의 거미 둥지를 쓸어 낸다. 거대 거미 다섯 마리를 처치하고 ($WildSpidersSlain / 5) 레인저 애시에게 돌아간다.
+Ranger Ash and a timber merchant in Acornby are at odds over the old oaks south-east of the village.	에이콘비의 레인저 애시와 목재상이 마을 남동쪽의 오래된 참나무들을 두고 다투고 있다.
+Master Bramble wants the old oaks south-east of Acornby felled for timber; Ranger Ash wants them kept. Side with one of them.	브램블 나리는 에이콘비 남동쪽의 오래된 참나무들을 목재로 베길 원하고, 레인저 애시는 지키길 원한다. 둘 중 한 사람 편에 선다.
+Cut Bramble's mark into the great oak in the old grove, south-east of Acornby. His men will do the rest.	에이콘비 남동쪽 오래된 숲의 큰 참나무에 브램블의 표식을 새긴다. 나머지는 그의 사람들이 할 것이다.
 Bramble's woodcutters are in the old grove already. Drive them off ($GroveCutters of 2).	브램블의 나무꾼들이 벌써 오래된 숲에 와 있다. 그들을 쫓아낸다 ($GroveCutters / 2).
 The old grove is felled. Bramble's sawmill is busy, and half the village has work.	오래된 숲이 베어졌다. 브램블의 제재소는 바쁘고, 마을 절반이 일거리를 얻었다.
 The old grove stands. The rangers keep a lodge there, and half the village is still poor.	오래된 숲은 그대로 서 있다. 레인저들이 그곳에 산장을 두고, 마을 절반은 여전히 가난하다.
-Speak to the shepherd in Greyford, on the Greyflats.	그레이플랫의 그레이퍼드에 있는 양치기와 이야기한다.
+Speak to the shepherd in Dullford, on the Greyflats.	그레이플랫의 덜퍼드에 있는 양치기와 이야기한다.
 Thin out the Greyflats' wolves: slay six wolves ($WolvesSlain of 6), then tell the shepherd.	그레이플랫의 늑대를 줄인다. 늑대 여섯 마리를 처치하고 ($WolvesSlain / 6) 양치기에게 알린다.
 Find the wolf den out east on the flats and slay the great Alpha Wolf.	평원 동쪽의 늑대 굴을 찾아 거대한 알파 늑대를 처치한다.
-Return to the shepherd in Greyford.	그레이퍼드의 양치기에게 돌아간다.
-Speak to Old Morwen the witch in Saltmarsh, in the fens.	습지의 솔트마시에 사는 마녀 모웬 할멈과 이야기한다.
+Return to the shepherd in Dullford.	덜퍼드의 양치기에게 돌아간다.
+Speak to Old Morwen the witch in Brinebottom, in the fens.	습지의 브라인보텀에 사는 마녀 모웬 할멈과 이야기한다.
 Gather 4 bog myrtle in the fens (Alchemy 3) and bring them to Morwen.	습지에서 늪도금양 4개를 모아 (연금술 3) 모웬에게 가져간다.
-Take Morwen's brew to Elder Pike in Saltmarsh.	모웬의 약을 솔트마시의 파이크 장로에게 가져간다.
+Take Morwen's brew to Elder Pike in Brinebottom.	모웬의 약을 브라인보텀의 파이크 장로에게 가져간다.
 Tell Morwen that the Elder has drunk her brew.	장로가 약을 마셨다고 모웬에게 알린다.
-Speak to Captain Hale in Frosthold, on the Redrock road.	레드록 길의 프로스트홀드에 있는 헤일 대장과 이야기한다.
+Speak to Captain Hale in Chillingham, on the Redrock road.	레드록 길의 칠링엄에 있는 헤일 대장과 이야기한다.
 Slay five bandits ($BanditsSlain of 5) on the roads and hills, then report to Captain Hale.	길과 언덕에서 산적 다섯을 처치하고 ($BanditsSlain / 5) 헤일 대장에게 보고한다.
 Find the bandits' camp in the eastern hills and take back the stolen goods from their strongbox.	동쪽 언덕의 산적 야영지를 찾아 금고에서 훔친 물건을 되찾는다.
-Bring the stolen goods to Captain Hale in Frosthold.	훔친 물건을 프로스트홀드의 헤일 대장에게 가져간다.
+Bring the stolen goods to Captain Hale in Chillingham.	훔친 물건을 칠링엄의 헤일 대장에게 가져간다.
 You brought the stolen goods back to Captain Hale.	훔친 물건을 헤일 대장에게 돌려주었다.
-You sold the stolen goods to Red Meg. Frosthold's carts went without.	훔친 물건을 붉은 메그에게 팔았다. 프로스트홀드의 수레는 빈손으로 갔다.
+You sold the stolen goods to Red Meg. Chillingham's carts went without.	훔친 물건을 붉은 메그에게 팔았다. 칠링엄의 수레는 빈손으로 갔다.
 Speak to Qadir the merchant in Dunerest, on the edge of the Sunscar Desert.	선스카 사막 가장자리 듄레스트의 상인 카디르와 이야기한다.
 Search the desert west of Dunerest for Qadir's lost caravan.	듄레스트 서쪽 사막에서 카디르의 사라진 대상을 찾는다.
 Slay the scorpions at the wreck ($ScorpionsSlain of 4), find the caravan's ledger and bring it to Qadir.	잔해에 있는 전갈들을 처치하고 ($ScorpionsSlain / 4) 대상의 장부를 찾아 카디르에게 가져간다.
-Speak to Brann the forgemaster in Frosthold, under Frostpeak.	프로스트봉 아래 프로스트홀드의 대장장이 우두머리 브란과 이야기한다.
+Speak to Brann the forgemaster in Chillingham, under Frostpeak.	프로스트봉 아래 칠링엄의 대장장이 우두머리 브란과 이야기한다.
 Bring Brann 5 coal to light his forge.	브란의 용광로에 불을 붙일 석탄 5개를 가져간다.
-Slay the Frost Troll on the frozen lake east of Frosthold, which smashed Brann's waterwheel.	브란의 물레방아를 부순, 프로스트홀드 동쪽 얼어붙은 호수의 서리 트롤을 처치한다.
+Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	브란의 물레방아를 부순, 칠링엄 동쪽 얼어붙은 호수의 서리 트롤을 처치한다.
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	브란에게 미스릴 주괴 2개를 가져간다 (용광로에서 미스릴 광석을 제련한다).
-Find the hermit at his camp in the Isle's western woods.	섬 서쪽 숲의 야영지에서 은자를 찾는다.
+Find the hermit at his camp in Muddlesey's western woods.	섬 서쪽 숲의 야영지에서 은자를 찾는다.
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	은자에게 참나무 통나무 5개를 가져간다 (참나무를 벤다: 벌목 5).
-Speak to the Druid in Thornwick, in the Elderwood over the old bridge east of the Greyflats.	그레이플랫 동쪽 옛 다리 너머 엘더우드, 손윅의 드루이드와 이야기한다.
-Find the Heartwood, the old heart stone of the Elderwood, north-east of Thornwick, and touch it.	손윅 북동쪽에서 엘더우드의 오래된 심장석, 심재석을 찾아 만진다.
+Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	그레이플랫 동쪽 옛 다리 너머 엘더우드, 네틀윅의 드루이드와 이야기한다.
+Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	네틀윅 북동쪽에서 엘더우드의 오래된 심장석, 심재석을 찾아 만진다.
 The blight has maddened the bears: slay four of them ($BlightBears of 4), then return to the Druid.	마름병이 곰들을 미치게 했다. 곰 넷을 처치하고 ($BlightBears / 4) 드루이드에게 돌아간다.
-Return to the Druid in Thornwick.	손윅의 드루이드에게 돌아간다.
+Return to the Druid in Nettlewick.	네틀윅의 드루이드에게 돌아간다.
 Speak to the Gravekeeper at King Rupert's Keep, on the Barrowdowns.	무덤 구릉의 루퍼트 왕의 성채에 있는 묘지기와 이야기한다.
 Find the old king's barrow, out on the downs west of King Rupert's Keep.	루퍼트 왕의 성채 서쪽 구릉에서 옛 왕의 무덤을 찾는다.
 Lay the Barrow King to rest.	무덤 왕을 잠재운다.
 Return to the Gravekeeper at King Rupert's Keep.	루퍼트 왕의 성채의 묘지기에게 돌아간다.
-Old Hob of Oakhollow went missing, and his house is boarded up. One of its shutters hangs loose...	오크할로의 늙은 홉이 사라졌고, 그의 집은 판자로 막혀 있다. 덧문 하나가 헐겁게 매달려 있다...
-Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Saltmarsh for a cure.	늙은 홉의 일기: 거대 거미에게 물려서 점점 미쳐 가는 게 느껴진다고 한다. 솔트마시의 마녀 모웬에게 치료법을 묻는다.
+Old Hob of Acornby went missing, and his house is boarded up. One of its shutters hangs loose...	에이콘비의 늙은 홉이 사라졌고, 그의 집은 판자로 막혀 있다. 덧문 하나가 헐겁게 매달려 있다...
+Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Brinebottom for a cure.	늙은 홉의 일기: 거대 거미에게 물려서 점점 미쳐 가는 게 느껴진다고 한다. 브라인보텀의 마녀 모웬에게 치료법을 묻는다.
 Find the wild man in the western woods of the Wildwood and use Morwen's calming draught on him.	와일드우드 서쪽 숲에서 야인을 찾아 모웬의 진정 물약을 쓴다.
 Hob is himself again! Talk to him.	홉이 제정신으로 돌아왔다! 그에게 말을 건다.
 Hob is himself again, and his door is open to you.	홉이 제정신으로 돌아왔고, 그의 집 문은 당신에게 열려 있다.
 You kept Hob's savings, and the madness took him again.	홉의 모은 돈을 가졌고, 광기가 다시 그를 덮쳤다.
 Speak to the Scout in Emberwatch: her patrol went out on the Ashwold and didn't come back.	엠버워치의 정찰병과 이야기한다. 그녀의 순찰대가 애시월드로 나가 돌아오지 않았다.
 Recover three Scout's Tags from the ember hounds on the Ashwold and bring them to the Scout.	애시월드의 잿불 사냥개들에게서 정찰병 인식표 세 개를 되찾아 정찰병에게 가져간다.
-Speak to the settler by the shardstone in Ashford.	애시퍼드 샤드스톤 옆의 정착민과 이야기한다.
+Speak to the settler by the shardstone in Puddleford.	퍼들퍼드 샤드스톤 옆의 정착민과 이야기한다.
 Bring the settler 10 planks and 4 stone blocks. Make them at her carpenter's bench: planks from logs, blocks from stone you mine from rocks with a pickaxe.	정착민에게 널빤지 10개와 석재 블록 4개를 가져간다. 그녀의 목공 작업대에서 만든다. 널빤지는 통나무로, 블록은 곡괭이로 바위에서 캔 돌로.
 Sergeant Holt, at the King's castle's south gate, wants to know how smuggled goods get into town.	왕의 성 남문의 홀트 하사가 밀수품이 어떻게 마을로 들어오는지 알고 싶어 한다.
 The fishermen talk of an old barrel on the lake path, south-west of the castle, that nobody ever moves. Search it.	어부들 말로는 성 남서쪽 호숫가 길에 아무도 옮기지 않는 낡은 통이 있다. 그것을 뒤진다.
@@ -2953,31 +2953,31 @@ The Warden in Emberwatch has had word from the Ashwold.	엠버워치의 감시�
 The Warden says the Ashen Hand's burnt shrines on the Ashwold are lit again, and the fire's blue. There are three of them. Go and see.	감시인 말로는 애시월드에 있는 잿빛 손의 불탄 성소들에 다시 불이 붙었고, 그 불이 파랗다. 세 곳이다. 가서 본다.
 All three shrines burn cold and blue, and the Hand never lit a fire like that. Footprints lead from them to the Hand's camp on the Ashwold. Get near enough to hear what's said there, without being seen.	성소 세 곳 모두 차갑고 파랗게 타고 있고, 잿빛 손은 그런 불을 피운 적이 없다. 성소에서 애시월드의 잿빛 손 야영지로 발자국이 이어진다. 들키지 않고, 거기서 하는 말이 들릴 만큼 가까이 간다.
 Strangers in grey are paying the Hand in Shards, to push them through the wall "for the one beyond the wall". Tell the Warden.	회색 옷의 낯선 자들이 잿빛 손에게 샤드를 주며 "벽 너머의 그분을 위해" 벽 너머로 밀어 넣게 하고 있다. 감시인에게 알린다.
-Tam, the cooper in Ashford, is worried about his mother.	애시퍼드의 통장이 탐이 어머니를 걱정하고 있다.
-Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Ashford, where she says her late husband talks to her. Go and see her.	탐의 어머니 애니스는 매일 애시퍼드 루퍼스네 마당 뒤 조용한 집에 가는데, 거기서 죽은 남편이 말을 건다고 한다. 가서 그녀를 만난다.
+Tam, the cooper in Puddleford, is worried about his mother.	퍼들퍼드의 통장이 탐이 어머니를 걱정하고 있다.
+Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Puddleford, where she says her late husband talks to her. Go and see her.	탐의 어머니 애니스는 매일 퍼들퍼드 루퍼스네 마당 뒤 조용한 집에 가는데, 거기서 죽은 남편이 말을 건다고 한다. 가서 그녀를 만난다.
 Annis won't hear a word against the Shard from you. Cael, the penitent at the Cinder Chapel on the Ashwold, was fooled by strangers in grey once: he might find the words.	애니스는 당신이 샤드를 나쁘게 말하는 걸 한마디도 들으려 하지 않는다. 애시월드 잿불 예배당의 참회자 카엘은 한때 회색 옷의 낯선 자들에게 속았다. 그라면 할 말을 찾을지도 모른다.
-Cael wrote a few lines for Annis. Take them to her, at the quiet house in Ashford.	카엘이 애니스에게 몇 줄을 적어 주었다. 애시퍼드의 조용한 집에 있는 그녀에게 가져간다.
+Cael wrote a few lines for Annis. Take them to her, at the quiet house in Puddleford.	카엘이 애니스에게 몇 줄을 적어 주었다. 퍼들퍼드의 조용한 집에 있는 그녀에게 가져간다.
 You read Annis what Cael wrote, and walked her home to Tam.	카엘이 쓴 것을 애니스에게 읽어 주고, 그녀를 탐에게 바래다주었다.
 You left Annis with her Shard. She's gone to the Mending's hall.	애니스를 그녀의 샤드와 함께 두고 왔다. 그녀는 수선회의 회당으로 갔다.
 The watch brought Annis home when they shut the Mending's house.	경비대가 수선회의 집을 닫을 때 애니스를 집에 데려왔다.
-Sister Linnet of the Mending keeps a quiet house in Ashford.	수선회의 린넷 자매가 애시퍼드에 조용한 집을 두고 있다.
+Sister Linnet of the Mending keeps a quiet house in Puddleford.	수선회의 린넷 자매가 퍼들퍼드에 조용한 집을 두고 있다.
 Sister Linnet won't tell an outsider where the Mending gathers. In one of their grey robes, she might take you for one of them.	린넷 자매는 외부인에게 수선회가 어디서 모이는지 말하지 않는다. 그들의 회색 로브를 입고 있으면, 당신을 그들 중 하나로 여길지도 모른다.
 Sister Linnet took you for one of the Mending. They gather under Shardglass Field, through a slab of glass at its east end. Keep the robe on, and they'll take you for one of their own.	린넷 자매가 당신을 수선회 사람으로 여겼다. 그들은 샤드유리 들판 아래, 동쪽 끝의 유리판을 지나 모인다. 로브를 입고 있으면, 그들은 당신을 자기 사람으로 여길 것이다.
 Cantor Ivo of the Mending says the great Shard waits in the sanctum, past the Font, for the faithful. Listen to it.	수선회의 이보 성가대장이 위대한 샤드가 성수반 너머 성소에서 신자들을 기다린다고 한다. 그것에 귀를 기울인다.
-The great Shard spoke to you in your mother's voice, and now you know what the Mending wants: the King's Seam opened, under Galaith. Tell Sheriff Flo in Ashford, or tell Sister Linnet you'll keep their secret.	위대한 샤드가 어머니의 목소리로 당신에게 말했고, 이제 수선회가 원하는 걸 안다. 갈라이스 아래 왕의 광맥을 여는 것. 애시퍼드의 플로 보안관에게 알리거나, 린넷 자매에게 비밀을 지키겠다고 말한다.
-You told Sheriff Flo. The Mending's house in Ashford is shut, and Galaith's watch knows of the hall.	플로 보안관에게 알렸다. 애시퍼드의 수선회 집은 닫혔고, 갈라이스 경비대는 회당을 알고 있다.
+The great Shard spoke to you in your mother's voice, and now you know what the Mending wants: the King's Seam opened, under Galaith. Tell Sheriff Flo in Puddleford, or tell Sister Linnet you'll keep their secret.	위대한 샤드가 어머니의 목소리로 당신에게 말했고, 이제 수선회가 원하는 걸 안다. 갈라이스 아래 왕의 광맥을 여는 것. 퍼들퍼드의 플로 보안관에게 알리거나, 린넷 자매에게 비밀을 지키겠다고 말한다.
+You told Sheriff Flo. The Mending's house in Puddleford is shut, and Galaith's watch knows of the hall.	플로 보안관에게 알렸다. 퍼들퍼드의 수선회 집은 닫혔고, 갈라이스 경비대는 회당을 알고 있다.
 You kept the Mending's secret. Their house is open to you, in grey.	수선회의 비밀을 지켰다. 회색 옷을 입고 있으면 그들의 집이 당신에게 열려 있다.
 An iron gate shuts the Mending's sanctum, and it opens to those who pour their Shards into the Font. A lock can be picked, too, and the Font's keeper is a big one.	철문이 수선회의 성소를 막고 있고, 성수반에 샤드를 붓는 이에게 열린다. 자물쇠를 딸 수도 있고, 성수반의 수호자는 덩치가 크다.
 You poured your Shards into the Font, and the gate opened for one of the faithful.	성수반에 샤드를 부었고, 신자 한 사람을 위해 문이 열렸다.
 You picked the sanctum's lock.	성소의 자물쇠를 땄다.
 You broke the Font's keeper, and went through by force.	성수반의 수호자를 부수고, 힘으로 지나갔다.
-Amos, the priest of Wardhaven, doesn't sleep well since the Sisters came.	워드헤이븐의 사제 아모스는 자매들이 온 뒤로 잠을 잘 못 잔다.
+Amos, the priest of Sulkhaven, doesn't sleep well since the Sisters came.	설크헤이븐의 사제 아모스는 자매들이 온 뒤로 잠을 잘 못 잔다.
 Amos says the two Sisters in grey in his chapel go down under its floor at night, where there's a stair he never knew of, and singing. Go down and see.	아모스 말로는 그의 예배당에 있는 회색 옷의 두 자매가 밤이면 바닥 아래로 내려가는데, 거기엔 그가 몰랐던 계단과 노래가 있다고 한다. 내려가서 본다.
 The Eldest of the Mending is dead. The great Shard is still singing.	수선회의 맏이가 죽었다. 위대한 샤드는 아직 노래하고 있다.
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	위대한 샤드를 부쉈다. 수선회는 흩어졌고, 그중 몇은 집으로 돌아갔다.
 You kept a splinter of the great Shard: Mary's Whisper.	위대한 샤드의 조각 하나를 간직했다: 메리의 속삭임.
 Read the letter your mother left you, on the table in your cottage.	오두막 탁자 위에 어머니가 남긴 편지를 읽는다.
-Edwin the lawyer asked you to dinner. He and his wife Maren, the Isle's doctor, live in the brick house in the Isle's north-west, by the sea.	변호사 에드윈이 당신을 저녁에 초대했다. 그와 섬의 의사인 아내 마렌은 섬 북서쪽 바닷가의 벽돌집에 산다.
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	변호사 에드윈이 당신을 저녁에 초대했다. 그와 섬의 의사인 아내 마렌은 섬 북서쪽 바닷가의 벽돌집에 산다.
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	마렌이 빌려준 도끼로 그녀의 화덕에 쓸 통나무 3개를 패서 (나무를 벤다) 그녀에게 가져간다.
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	북쪽 베스네 농장의 닭장에서 달걀을 하나 가져와, 그들 집 위층의 마렌의 화덕에서 부친다 (달걀을 화덕에 쓴다).
 Give the fried egg to Edwin, at his house.	부친 달걀을 그의 집에 있는 에드윈에게 준다.
@@ -2987,12 +2987,12 @@ Make a wooden sword and a wooden shield at Frank's workbench, then show them to 
 Wield your sword and shield, and train until your Attack and Defence are level 2. Then ask Brother Aldous, at the chapel, about the trapdoor in its cellar.	칼과 방패를 들고, 공격과 방어가 레벨 2가 될 때까지 수련한다. 그다음 예배당의 올더스 수사에게 지하실의 뚜껑문에 대해 묻는다.
 Something of your mother's lies in the caves under the chapel.	예배당 아래 동굴에 어머니의 무언가가 있다.
 Something gold glints behind iron bars, out of reach of any hand.	쇠창살 너머에서 금빛 무언가가 반짝인다. 어떤 손도 닿지 않는 곳이다.
-Speak to the city guard at Northport's port.	노스포트 항구의 도시 경비병과 이야기한다.
-Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	갈라이스가 다시 열릴 때까지 브램블턴 의회가 열리는 노스포트 시청으로 간다.
-Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	의회의 편지를 애시퍼드 읍사무소의 애시퍼드 읍장에게 가져간다.
-Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	고블린들이 애시퍼드 동쪽 농장들을 습격한다. 그들을 쫓아낸다. 농장 갈림길에서 기다린다.
+Speak to the city guard at Drizzleport's port.	드리즐포트 항구의 도시 경비병과 이야기한다.
+Go to Drizzleport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	갈라이스가 다시 열릴 때까지 브램블턴 의회가 열리는 드리즐포트 시청으로 간다.
+Take the Parliament's letter to the Mayor of Puddleford, in Puddleford's Town Hall.	의회의 편지를 퍼들퍼드 읍사무소의 퍼들퍼드 읍장에게 가져간다.
+Goblins raid the farms east of Puddleford. Drive them off: wait for them at the farm's crossroads.	고블린들이 퍼들퍼드 동쪽 농장들을 습격한다. 그들을 쫓아낸다. 농장 갈림길에서 기다린다.
 Tell the Mayor the goblins are beaten.	고블린들을 물리쳤다고 읍장에게 알린다.
-Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	애시퍼드 남쪽 루퍼트 왕의 성채에 있는 왕의 집사에게 읍장의 통행증을 보여 준다.
+Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Puddleford.	퍼들퍼드 남쪽 루퍼트 왕의 성채에 있는 왕의 집사에게 읍장의 통행증을 보여 준다.
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	옛 철광산, 광산 깊은 곳, 또는 굴에서 홉고블린 다섯을 처치하고 ($HobgoblinsSlain / 5) 집사에게 돌아간다.
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	마법사 궁정 탑 꼭대기에서 대마법사 버트를 찾는다.
 Bring Bert the Staff of Brambleton, the Grimoire of Unbinding and the Ember Ring.	버트에게 브램블턴의 지팡이, 풀림의 마도서, 불씨 반지를 가져간다.
@@ -3053,16 +3053,16 @@ The Archivist believes the Chancellor hoarded the city's grain while Galaith sta
 You have the Chancellor's ledger. Captain Hart, at the palace door, answers to the King, not to the Chancellor.	대법관의 장부를 손에 넣었다. 궁전 문의 하트 대장은 대법관이 아니라 왕에게 답한다.
 You sold the Chancellor his ledger back. He's richer, you're richer, and the Archivist won't speak to you.	대법관에게 장부를 되팔았다. 그도 부자가 되고, 당신도 부자가 되었지만, 기록관은 당신과 말하지 않는다.
 You gave the ledger to Captain Hart. The Chancellor is in a cell, and the Archivist sits in his chair.	하트 대장에게 장부를 주었다. 대법관은 감방에 있고, 기록관이 그의 자리에 앉았다.
-An old woman at Northport's landing looks lost.	노스포트 선착장의 한 할머니가 길을 잃은 듯하다.
-Walk Granny Wren to her daughter Percy's door in Ashford, east along the road. Go slowly: she can't keep up with you. (Lose her, and she'll be back at the landing.)	렌 할머니를 동쪽 길을 따라 애시퍼드에 있는 딸 퍼시의 집 문 앞까지 바래다준다. 천천히 간다. 할머니는 당신을 따라오지 못한다. (할머니를 놓치면, 선착장으로 돌아가 버린다.)
-A painter at an easel in Ashford's market square looks fed up.	애시퍼드 장터 광장에서 이젤 앞에 선 화가가 지쳐 보인다.
-Get Mo, the black-and-white cat in Ashford's market square, to keep still for Ottilie's painting: stroke Mo while Mo is sitting down.	애시퍼드 장터 광장의 흑백 고양이 모가 오틸리의 그림을 위해 가만히 있게 한다. 모가 앉아 있을 때 쓰다듬는다.
+An old woman at Drizzleport's landing looks lost.	드리즐포트 선착장의 한 할머니가 길을 잃은 듯하다.
+Walk Granny Wren to her daughter Percy's door in Puddleford, east along the road. Go slowly: she can't keep up with you. (Lose her, and she'll be back at the landing.)	렌 할머니를 동쪽 길을 따라 퍼들퍼드에 있는 딸 퍼시의 집 문 앞까지 바래다준다. 천천히 간다. 할머니는 당신을 따라오지 못한다. (할머니를 놓치면, 선착장으로 돌아가 버린다.)
+A painter at an easel in Puddleford's market square looks fed up.	퍼들퍼드 장터 광장에서 이젤 앞에 선 화가가 지쳐 보인다.
+Get Mo, the black-and-white cat in Puddleford's market square, to keep still for Ottilie's painting: stroke Mo while Mo is sitting down.	퍼들퍼드 장터 광장의 흑백 고양이 모가 오틸리의 그림을 위해 가만히 있게 한다. 모가 앉아 있을 때 쓰다듬는다.
 Mo is sitting still at last. Tell Ottilie.	모가 드디어 가만히 앉아 있다. 오틸리에게 알린다.
-Speak to Mayor Hollis in Ashford's Town Hall.	애시퍼드 읍사무소의 홀리스 읍장과 이야기한다.
-Goblins hold the bridge to Wardhaven, south-east of Ashford, below its peninsula, and its guards have fled. Clear the goblins off the bridge ($BridgeGoblins of 4).	애시퍼드 남동쪽, 반도 아래 워드헤이븐으로 가는 다리를 고블린들이 차지했고, 경비병들은 달아났다. 다리에서 고블린을 쓸어 낸다 ($BridgeGoblins / 4).
+Speak to Mayor Hollis in Puddleford's Town Hall.	퍼들퍼드 읍사무소의 홀리스 읍장과 이야기한다.
+Goblins hold the bridge to Sulkhaven, south-east of Puddleford, below its peninsula, and its guards have fled. Clear the goblins off the bridge ($BridgeGoblins of 4).	퍼들퍼드 남동쪽, 반도 아래 설크헤이븐으로 가는 다리를 고블린들이 차지했고, 경비병들은 달아났다. 다리에서 고블린을 쓸어 낸다 ($BridgeGoblins / 4).
 Tell Mayor Hollis the bridge is clear.	다리가 뚫렸다고 홀리스 읍장에게 알린다.
-Speak to the Wyrmsmith in Wardhaven.	워드헤이븐의 용대장장이와 이야기한다.
-Bring the Wyrmsmith of Wardhaven three scales of Galaith's dragon.	워드헤이븐의 용대장장이에게 갈라이스 용의 비늘 세 장을 가져간다.
+Speak to the Wyrmsmith in Sulkhaven.	설크헤이븐의 용대장장이와 이야기한다.
+Bring the Wyrmsmith of Sulkhaven three scales of Galaith's dragon.	설크헤이븐의 용대장장이에게 갈라이스 용의 비늘 세 장을 가져간다.
 Magister Quill, in the Wizards' Court's great hall, studies the Shards.	마법사 궁정 대전의 마기스터 퀼이 샤드를 연구한다.
 Bring Magister Quill fifteen Shards for the Court's study (talk to him to give them).	마기스터 퀼에게 궁정의 연구를 위해 샤드 15개를 가져간다 (그에게 말을 걸어 건넨다).
 Magister Quill wonders how a Shard holds the shape of a spell.	마기스터 퀼은 샤드가 어떻게 주문의 형태를 담는지 궁금해한다.
@@ -3070,22 +3070,22 @@ Bring Magister Quill the core of a Shard Remnant. They rise, now and then, from 
 Pick up twenty more Shards where beasts fall, then tell Magister Quill how it felt.	짐승이 쓰러지는 곳에서 샤드를 20개 더 주운 다음, 어떤 느낌이었는지 마기스터 퀼에게 말한다.
 Someone in the Wizards' Court's great hall keeps saying hello. There's no one there.	마법사 궁정 대전의 누군가가 자꾸 인사를 한다. 거긴 아무도 없다.
 Bring Pip what he needs to be seen again: an egg, a feather and two cave mushrooms.	핍이 다시 보이게 되는 데 필요한 것을 가져다준다. 달걀 하나, 깃털 하나, 동굴 버섯 두 개.
-A lady on Goose Green, east of Northport, is shouting at some geese.	노스포트 동쪽 거위 풀밭에서 한 부인이 거위들에게 소리치고 있다.
+A lady on Goose Green, east of Drizzleport, is shouting at some geese.	드리즐포트 동쪽 거위 풀밭에서 한 부인이 거위들에게 소리치고 있다.
 Get Lady Pettigrew's hat back from the geese's nest on Goose Green. They are not reasonable geese: go unseen, or go as a goose.	거위 풀밭의 거위 둥지에서 페티그루 부인의 모자를 되찾는다. 말이 통하는 거위들이 아니다. 들키지 않게 가거나, 거위가 되어서 간다.
-An old woman on Thornwick's green is looking for someone to practise a hex on.	손윅 풀밭의 한 할머니가 저주를 연습할 상대를 찾고 있다.
-Granny Bramble has hexed you weak as a kitten. Clear the rats round Thornwick's green anyway ($HexRats of 4): your sword arm's no use. A spell, a potion, or someone else's body.	브램블 할머니의 저주로 새끼 고양이처럼 약해졌다. 그래도 손윅 풀밭 주변의 쥐를 쓸어 낸다 ($HexRats / 4). 칼 쥔 팔은 쓸모가 없다. 주문, 물약, 아니면 다른 누군가의 몸.
-A scarecrow outside Oakhollow is deep in thought. Out loud.	오크할로 밖의 허수아비가 깊은 생각에 잠겨 있다. 소리 내어.
-Find the philosophical scarecrow outside Oakhollow a hat. Any hat. He's not fussy. He says he's not fussy.	오크할로 밖의 철학적인 허수아비에게 모자를 찾아 준다. 아무 모자나. 까다롭지 않다. 까다롭지 않다고 본인이 말한다.
-A cow outside Ashford has something to say. Literally.	애시퍼드 밖의 소가 할 말이 있다. 말 그대로.
+An old woman on Nettlewick's green is looking for someone to practise a hex on.	네틀윅 풀밭의 한 할머니가 저주를 연습할 상대를 찾고 있다.
+Granny Bramble has hexed you weak as a kitten. Clear the rats round Nettlewick's green anyway ($HexRats of 4): your sword arm's no use. A spell, a potion, or someone else's body.	브램블 할머니의 저주로 새끼 고양이처럼 약해졌다. 그래도 네틀윅 풀밭 주변의 쥐를 쓸어 낸다 ($HexRats / 4). 칼 쥔 팔은 쓸모가 없다. 주문, 물약, 아니면 다른 누군가의 몸.
+A scarecrow outside Acornby is deep in thought. Out loud.	에이콘비 밖의 허수아비가 깊은 생각에 잠겨 있다. 소리 내어.
+Find the philosophical scarecrow outside Acornby a hat. Any hat. He's not fussy. He says he's not fussy.	에이콘비 밖의 철학적인 허수아비에게 모자를 찾아 준다. 아무 모자나. 까다롭지 않다. 까다롭지 않다고 본인이 말한다.
+A cow outside Puddleford has something to say. Literally.	퍼들퍼드 밖의 소가 할 말이 있다. 말 그대로.
 Bring Duchess the cow three bunches of herbs: 'the good grass'. She has standards.	소 공작부인에게 약초 세 다발을 가져간다. '좋은 풀'. 그녀에겐 기준이 있다.
-Constable Dobbs, in Ashford's square, has a case. A very embarrassing case.	애시퍼드 광장의 돕스 순경에게 사건이 있다. 아주 민망한 사건이.
-The Mayor's trousers are gone. Look round Ashford's square for three clues, then tell Constable Dobbs who did it.	읍장의 바지가 사라졌다. 애시퍼드 광장을 둘러보며 단서 세 개를 찾고, 누가 그랬는지 돕스 순경에게 말한다.
+Constable Dobbs, in Puddleford's square, has a case. A very embarrassing case.	퍼들퍼드 광장의 돕스 순경에게 사건이 있다. 아주 민망한 사건이.
+The Mayor's trousers are gone. Look round Puddleford's square for three clues, then tell Constable Dobbs who did it.	읍장의 바지가 사라졌다. 퍼들퍼드 광장을 둘러보며 단서 세 개를 찾고, 누가 그랬는지 돕스 순경에게 말한다.
 You've found the clues. Tell Constable Dobbs who took the Mayor's trousers.	단서를 찾았다. 누가 읍장의 바지를 가져갔는지 돕스 순경에게 말한다.
 An old man in a faded livery waits on the road by Redrock Manor's gate.	빛바랜 제복을 입은 노인이 레드록 저택 문 옆 길에서 기다리고 있다.
 Bring Ambrose, the last steward of Redrock Manor, the family's signet from the manor's vault. The old lord built the house so that no thief could find his way about it.	레드록 저택의 마지막 집사 앰브로즈에게 저택 금고에서 가문의 인장 반지를 가져다준다. 옛 영주는 어떤 도둑도 집 안에서 길을 찾지 못하게 집을 지었다.
 You sold the Redrock signet to Spleen. The bandits keep the manor, and you're welcome in it.	레드록 인장 반지를 스플린에게 팔았다. 산적들이 저택을 차지하고, 당신은 그곳에서 환영받는다.
 You gave the signet back to Ambrose. The manor is his again.	인장 반지를 앰브로즈에게 돌려주었다. 저택이 다시 그의 것이 되었다.
-Osric, in Wardhaven, is standing outside his own front door, looking at it.	워드헤이븐의 오스릭이 자기 집 현관문 밖에 서서 문을 바라보고 있다.
+Osric, in Sulkhaven, is standing outside his own front door, looking at it.	설크헤이븐의 오스릭이 자기 집 현관문 밖에 서서 문을 바라보고 있다.
 Osric has bolted himself out of his house. Old Hilde next door says she knows a way in.	오스릭이 집 밖에서 빗장을 걸어 버렸다. 옆집 힐데 할멈이 들어갈 길을 안다고 한다.
 Hilde has opened the hatch in her floor, and says her gran's cellar never did stop at her wall.	힐데가 바닥의 뚜껑문을 열고는, 할머니의 지하실이 끝내 자기 집 벽에서 멈추지 않았다고 한다.
 You've drawn the bolts on Osric's door. Tell him.	오스릭의 문 빗장을 풀었다. 그에게 알린다.
@@ -3115,8 +3115,8 @@ Delver Maud wants 2 Cave Horror dead.	굴착꾼 모드가 동굴 공포 2마리�
 Done. Go back to Delver Maud.	완료. 굴착꾼 모드에게 돌아간다.
 Your mother's hand has turned up somewhere you didn't expect.	생각지도 못한 곳에서 어머니의 필체가 나타났다.
 Your mother left notes, wherever she went. There must be more of them.	어머니는 가는 곳마다 쪽지를 남겼다. 더 있을 것이다.
-Seven notes, and laid edge to edge they make a map. It ends on the Isle, at something still.	쪽지 일곱 장, 가장자리를 맞대어 놓으면 지도가 된다. 지도는 섬의, 고요한 무언가에서 끝난다.
-A fisherwoman at Gull Point, the tip of Ashford's peninsula, has been pulling glass out of the sea. It glows.	애시퍼드 반도 끝 갈매기 곶의 한 어부 아낙이 바다에서 유리를 건져 올리고 있다. 그것은 빛난다.
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	쪽지 일곱 장, 가장자리를 맞대어 놓으면 지도가 된다. 지도는 섬의, 고요한 무언가에서 끝난다.
+A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	퍼들퍼드 반도 끝 갈매기 곶의 한 어부 아낙이 바다에서 유리를 건져 올리고 있다. 그것은 빛난다.
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	넬 태로의 그물이 빛나는 유리로 가득 차서 올라온다. 그것이 어디서 오는지 알아낸다.
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	갈매기 곶 아래, 봉인된 검은 유리문, 한가운데 작고 둥근 홈. 넬에게 알린다.
 Nell says her grandmother Bryony remembers the old stories. Ask her.	넬 말로는 할머니 브라이어니가 옛이야기들을 기억한다. 그녀에게 묻는다.
@@ -3177,7 +3177,7 @@ You paid Pip's way south on a carter's cart. The Keep is a deserter short, and B
 Elder Sabra of Dunerest is worried about the town's water.	듄레스트의 사브라 장로가 마을의 물을 걱정하고 있다.
 The spring that feeds Dunerest's well has failed, and Corvin sells water by the cup. Elder Sabra wants to know why. The spring is north of the town.	듄레스트 우물을 채우던 샘이 말랐고, 코빈이 물을 잔으로 판다. 사브라 장로는 그 이유를 알고 싶어 한다. 샘은 마을 북쪽에 있다.
 You took Corvin's gold to leave his dam be. Dunerest still buys its water by the cup.	코빈의 금화를 받고 그의 둑을 그대로 두었다. 듄레스트는 여전히 물을 잔으로 산다.
-Wenna, an eel-catcher in Saltmarsh, has trouble with her traps.	솔트마시의 장어잡이 웬나의 덫에 문제가 생겼다.
+Wenna, an eel-catcher in Brinebottom, has trouble with her traps.	브라인보텀의 장어잡이 웬나의 덫에 문제가 생겼다.
 Someone's been cutting Wenna's eel traps in the night. Find out who: the reeds east of the village are the place to look.	누군가 밤마다 웬나의 장어 덫을 끊고 있다. 누군지 알아낸다. 마을 동쪽 갈대숲을 살펴본다.
 You told Wenna it was Tobin. His mother's sent him to an uncle inland.	웬나에게 토빈이라고 말했다. 그의 어머니가 그를 내륙의 삼촌에게 보냈다.
 You mended Wenna's traps, and she shares her catch with Tobin's father now.	웬나의 덫을 고쳐 주었고, 이제 그녀는 토빈의 아버지와 잡은 것을 나눈다.
@@ -3373,7 +3373,7 @@ Is there such a thing?	그런 게 있어?
 Ask my purse.	내 지갑한테 물어봐.
 Not today, thank you.	오늘은 됐어요, 고마워요.
 We've got soup.	수프 있어요.
-Shut the grey house in Ashford.	애시퍼드의 회색 집을 닫았어.
+Shut the grey house in Puddleford.	퍼들퍼드의 회색 집을 닫았어.
 Any trouble?	말썽은 없었어?
 They offered us soup.	우리한테 수프를 권하더라.
 Saw one of them in grey crying in the road.	회색 옷 입은 사람 하나가 길에서 울고 있더라.
@@ -3472,7 +3472,7 @@ Water	물
 A rock	바위
 A sapling	묘목
 A Shard Bloom	샤드 꽃
-Northport	노스포트
+Drizzleport	드리즐포트
 the City Hall	시청
 the market	장터
 the port	항구
@@ -3482,9 +3482,9 @@ the hovels	오두막촌
 the fountain	분수
 the palace	궁전
 The strait ferry	해협 나룻배
-The ferryman shakes his head. "Papers first, friend. Since the raids, Northport sends back anyone off the Isle without them. Wim on the pier will look them over."	뱃사공이 고개를 젓는다. "서류부터, 친구. 습격 이후로 노스포트는 서류 없는 섬사람은 다 돌려보내. 부두의 윔이 서류를 봐 줄 거야."
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	뱃사공이 고개를 젓는다. "서류부터, 친구. 습격 이후로 드리즐포트는 서류 없는 섬사람은 다 돌려보내. 부두의 윔이 서류를 봐 줄 거야."
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	뱃사공이 손을 든다. "아직 풀처럼 풋내 나는데, 보아하니 짐승이 남긴 걸 손에 쥐어 본 적도 없군. 올더스 수사를 만나고, 레벨 3이 되면 다시 와."
-the Isle	섬
+Muddlesey	머들지
 Malaria	말라리아
 Fever comes back until it's cured: only a Fever Tonic will do it	치료될 때까지 열이 다시 온다. 열병 강장제만이 고칠 수 있다
 That bite itches worse than the rest. You feel it in your blood.	그 물린 자리가 다른 데보다 더 가렵다. 피 속에서 그게 느껴진다.
@@ -3520,7 +3520,7 @@ On a hook, for fish	낚싯바늘에 꿰어, 물고기용
 Fishing	낚시
 Baker	제빵사
 Talk to	말 걸기
-The Ashford baker, dusted in flour.	밀가루를 뒤집어쓴 애시퍼드의 제빵사.
+The Puddleford baker, dusted in flour.	밀가루를 뒤집어쓴 퍼들퍼드의 제빵사.
 Sells bread, pies and flour	빵, 파이, 밀가루를 판다
 Banker	은행원
 Bank	은행
@@ -3598,7 +3598,7 @@ Iron Bar	철 주괴
 A bar of solid iron. A smith could use this.	단단한 쇠 주괴. 대장장이가 쓸 만하다.
 Smithing	대장일
 Beggar's House Key	거지의 집 열쇠
-An old iron key: the beggar in Ashford lost the key to his house on the Isle. This must be it.	낡은 쇠 열쇠. 애시퍼드의 거지가 섬에 있는 집 열쇠를 잃어버렸다. 이게 그것일 것이다.
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	낡은 쇠 열쇠. 퍼들퍼드의 거지가 섬에 있는 집 열쇠를 잃어버렸다. 이게 그것일 것이다.
 A key	열쇠
 The beggar's	거지의 것
 Chef's Hat	요리사 모자
@@ -3638,7 +3638,7 @@ A beautiful red gem.	아름다운 붉은 보석.
 Gem	보석
 Jewellery	장신구
 Shopkeeper	가게 주인
-He runs the Ashford General Store.	애시퍼드 잡화점을 운영한다.
+He runs the Puddleford General Store.	퍼들퍼드 잡화점을 운영한다.
 Sells a bit of everything	이것저것 다 판다
 Tinderbox	부싯깃 통
 Lights a fire from logs	통나무로 불을 붙인다
@@ -3768,7 +3768,7 @@ Villager	마을 사람
 A local, going about their business.	제 볼일을 보는 이 동네 사람.
 A local	동네 사람
 Milkmaid	젖 짜는 처녀
-The milkmaid, who looks after the Isle's cows and sheep.	섬의 소와 양을 돌보는 젖 짜는 처녀.
+The milkmaid, who looks after Muddlesey's cows and sheep.	섬의 소와 양을 돌보는 젖 짜는 처녀.
 Bess, the milkmaid	젖 짜는 처녀, 베스
 Fisherman	어부
 An old fisherman in a yellow oilskin. He smells of the sea.	노란 방수복을 입은 늙은 어부. 바다 냄새가 난다.
@@ -3997,8 +3997,8 @@ Witch	마녀
 Old Morwen, the bog witch. Her cottage smells of smoke and herbs.	늪 마녀, 늙은 모웬. 오두막에서 연기와 약초 냄새가 난다.
 Morwen, the bog witch	늪 마녀, 모웬
 Elder	장로
-Elder Pike of Saltmarsh. He looks pale and tired.	솔트마시의 파이크 장로. 창백하고 지쳐 보인다.
-Elder Pike of Saltmarsh	솔트마시의 파이크 장로
+Elder Pike of Brinebottom. He looks pale and tired.	브라인보텀의 파이크 장로. 창백하고 지쳐 보인다.
+Elder Pike of Brinebottom	브라인보텀의 파이크 장로
 Captain	대장
 Captain Hale of the Redrock road, in battered armour.	레드록 길의 헤일 대장. 갑옷이 찌그러져 있다.
 Captain Hale of the Redrock road	레드록 길의 헤일 대장
@@ -4030,7 +4030,7 @@ Strongbox	금고
 The bandits' iron strongbox.	도적들의 쇠 금고.
 A strongbox	금고
 Ferry Ticket	나룻배 표
-A ticket for the Northport ferry, stamped by the milkmaid. Good for one crossing.	젖 짜는 처녀가 도장을 찍은 노스포트행 나룻배 표. 한 번 건널 수 있다.
+A ticket for the Drizzleport ferry, stamped by the milkmaid. Good for one crossing.	젖 짜는 처녀가 도장을 찍은 드리즐포트행 나룻배 표. 한 번 건널 수 있다.
 One crossing on the ferry	나룻배로 한 번 건넌다
 Dragon	용
 Ignaroth, the dragon of Ashpeak: red scales, burning eyes and a hoard to match.	애시피크의 용, 이그나로스: 붉은 비늘, 불타는 눈, 그에 걸맞은 보물 더미.
@@ -4059,8 +4059,8 @@ Glass	유리
 A slab of clear glass, ready to be blown into vials at a workbench.	투명한 유리 판. 작업대에서 불어 약병으로 만들 수 있다.
 Make vials of it at a workbench	작업대에서 약병으로 만든다
 Druid	드루이드
-The Druid of Thornwick, in robes the colour of moss.	이끼색 로브를 입은 손윅의 드루이드.
-The Druid of Thornwick	손윅의 드루이드
+The Druid of Nettlewick, in robes the colour of moss.	이끼색 로브를 입은 네틀윅의 드루이드.
+The Druid of Nettlewick	네틀윅의 드루이드
 Gravekeeper	묘지기
 The Gravekeeper of the Barrowdowns. He smells faintly of earth.	배로다운의 묘지기. 희미하게 흙냄새가 난다.
 Keeps the Barrowdowns	배로다운을 지킨다
@@ -4147,7 +4147,7 @@ A scout of Emberwatch, ash in her hair and a bow on her back.	머리에 재가 �
 A scout of Emberwatch	엠버워치의 척후병
 Wyrmsmith	용대장장이
 Forge	단조
-The Wyrmsmith of Wardhaven: she keeps a forge hot enough to work dragon scale.	워드헤이븐의 용대장장이: 용 비늘을 다룰 만큼 뜨거운 대장간을 지킨다.
+The Wyrmsmith of Sulkhaven: she keeps a forge hot enough to work dragon scale.	설크헤이븐의 용대장장이: 용 비늘을 다룰 만큼 뜨거운 대장간을 지킨다.
 Works dragon scale	용 비늘을 다룬다
 Ashen Cultist	잿빛 광신도
 A cultist of the Ashen Hand. The ash on his hands is still warm.	잿빛 손의 광신도. 손에 묻은 재가 아직 따뜻하다.
@@ -4360,14 +4360,14 @@ Chimney Smoke	굴뚝 연기
 Smoke from the forge. It smells of hot iron and somebody's lunch.	대장간의 연기. 뜨거운 쇠와 누군가의 점심 냄새가 난다.
 Smoke	연기
 Edwin	에드윈
-Edwin, the Isle's lawyer. His wife Maren is its doctor.	섬의 변호사 에드윈. 그의 아내 마렌은 섬의 의사다.
-Edwin, the Isle's lawyer	섬의 변호사, 에드윈
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	섬의 변호사 에드윈. 그의 아내 마렌은 섬의 의사다.
+Edwin, Muddlesey's lawyer	섬의 변호사, 에드윈
 Maren	마렌
-Maren, the Isle's doctor, married to Edwin. Her sister is Bess the milkmaid.	섬의 의사 마렌. 에드윈과 결혼했다. 동생은 젖 짜는 처녀 베스다.
-Maren, the Isle's doctor	섬의 의사, 마렌
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	섬의 의사 마렌. 에드윈과 결혼했다. 동생은 젖 짜는 처녀 베스다.
+Maren, Muddlesey's doctor	섬의 의사, 마렌
 Frank	프랭크
-Frank, the Isle's blacksmith: arms like hams, and soot to the elbows.	섬의 대장장이 프랭크: 햄 같은 팔에, 팔꿈치까지 검댕투성이다.
-Frank, the Isle's blacksmith	섬의 대장장이, 프랭크
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	섬의 대장장이 프랭크: 햄 같은 팔에, 팔꿈치까지 검댕투성이다.
+Frank, Muddlesey's blacksmith	섬의 대장장이, 프랭크
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	베스와 마렌의 아버지 토비아스. 홉고블린들이 그를 우리에 가둬 두었다.
 Tobias, Bess and Maren's father	베스와 마렌의 아버지, 토비아스
 Ferryman	뱃사공
@@ -4377,8 +4377,8 @@ Mourner	조문객
 A mourner in black.	검은 옷을 입은 조문객.
 A mourner	조문객
 Port Guard	항구 경비병
-One of Northport's city guard, in the city's blue.	노스포트의 푸른 제복을 입은 도시 경비병.
-Northport's guard	노스포트의 경비병
+One of Drizzleport's city guard, in the city's blue.	드리즐포트의 푸른 제복을 입은 도시 경비병.
+Drizzleport's guard	드리즐포트의 경비병
 Speaker	의장
 The Speaker of Brambleton's Parliament, in its crimson robes.	진홍빛 로브를 입은 브램블턴 의회의 의장.
 The Speaker of Parliament	의회 의장
@@ -4479,10 +4479,10 @@ Barrier Light	결계의 빛
 The dragon's barrier: a wall of violet light across the pass.	용의 결계: 고개를 가로막은 보랏빛 벽.
 A wall of violet light	보랏빛 벽
 Parliament Letter	의회 서한
-The Parliament's letter, sealed in crimson, for the Mayor of Ashford.	애시퍼드 읍장에게 보내는, 진홍색으로 봉인된 의회의 서한.
+The Parliament's letter, sealed in crimson, for the Mayor of Puddleford.	퍼들퍼드 읍장에게 보내는, 진홍색으로 봉인된 의회의 서한.
 A letter, sealed in crimson	진홍색으로 봉인된 서한
 Mayor's Pass	읍장의 통행증
-The Mayor of Ashford's pass, sealed in blue: the road east is yours.	파란색으로 봉인된 애시퍼드 읍장의 통행증: 동쪽 길이 당신에게 열린다.
+The Mayor of Puddleford's pass, sealed in blue: the road east is yours.	파란색으로 봉인된 퍼들퍼드 읍장의 통행증: 동쪽 길이 당신에게 열린다.
 A pass, sealed in blue	파란색으로 봉인된 통행증
 Archivist's Attestation	기록관의 증명서
 The Royal Archivist's word, in green wax: the amulet is the true seal of succession.	초록 밀랍으로 찍은 왕실 기록관의 보증: 그 부적은 진정한 계승의 인장이다.
@@ -4536,10 +4536,10 @@ Painter	화가
 A painter with paint on everything but the canvas.	캔버스만 빼고 온통 물감투성이인 화가.
 A painter	화가
 Easel	이젤
-Ashford's market, painted in quick strokes. There's a cat-shaped gap in the middle.	재빠른 붓질로 그린 애시퍼드의 장터. 한가운데에 고양이 모양의 빈자리가 있다.
+Puddleford's market, painted in quick strokes. There's a cat-shaped gap in the middle.	재빠른 붓질로 그린 퍼들퍼드의 장터. 한가운데에 고양이 모양의 빈자리가 있다.
 A painting of the market	장터 그림
 Portrait of Mo	모의 초상화
-A little oil painting of Mo, sitting like a loaf in Ashford's market.	애시퍼드 장터에서 식빵처럼 앉아 있는 모를 그린 작은 유화.
+A little oil painting of Mo, sitting like a loaf in Puddleford's market.	퍼들퍼드 장터에서 식빵처럼 앉아 있는 모를 그린 작은 유화.
 A little painting of a cat	고양이를 그린 작은 그림
 Otter	수달
 An otter, sleek and wet, never still for long.	매끈하고 젖은, 잠시도 가만있지 않는 수달.
@@ -5230,7 +5230,7 @@ One of the Mending	수선회의 일원
 A traveller in a plain grey robe, a sliver of glass at the collar, smiling at you as if you'd met before.	옷깃에 유리 조각을 단 수수한 회색 로브의 여행자. 전에 만난 적 있다는 듯 당신에게 미소 짓는다.
 A traveller of the Mending	수선회의 여행자
 Cael's Lines	카엘의 글
-A few lines in Cael's hand, for Annis of Ashford.	애시퍼드의 애니스에게 쓴, 카엘의 글씨로 된 몇 줄.
+A few lines in Cael's hand, for Annis of Puddleford.	퍼들퍼드의 애니스에게 쓴, 카엘의 글씨로 된 몇 줄.
 A few lines, for Annis	애니스에게 쓴 몇 줄
 Mending House Shard	수선회 집의 샤드
 A Shard the size of a loaf, on a cloth on the table. It's warm, and there's a hum in it, like someone about to speak.	탁자 위 천에 놓인 빵 덩이만 한 샤드. 따뜻하고, 누군가 막 말하려는 듯한 웅웅거림이 있다.
@@ -5518,36 +5518,36 @@ Today's bounty	오늘의 현상금
 Records Board	기록 게시판
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	옅은 돌에 새기고 금칠한 기록의 전당: 브램블턴에서 가장 많은 일을 해낸 이름들.
 The names that have done the most	가장 많은 일을 해낸 이름들
-Trees all over the Isle and the Southlands	섬과 남쪽 땅 곳곳의 나무
+Trees all over Muddlesey and the Southlands	섬과 남쪽 땅 곳곳의 나무
 Fallen logs lying in the meadows and woods	초원과 숲에 쓰러져 있는 통나무
-Oaks in the Isle's woods, around Northport and Ashford and in the Whispering Woods	섬의 숲, 노스포트와 애시퍼드 주변, 속삭이는 숲의 참나무
-Willows grow by the water: the Isle's woods, the shores of the Southlands	버드나무는 물가에서 자란다: 섬의 숲, 남쪽 땅의 물가
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	섬의 숲, 드리즐포트와 퍼들퍼드 주변, 속삭이는 숲의 참나무
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	버드나무는 물가에서 자란다: 섬의 숲, 남쪽 땅의 물가
 A few ancient yews deep in the Whispering Woods and the eastern woods	속삭이는 숲과 동쪽 숲 깊은 곳의 오래된 주목 몇 그루
 Any shore or cave pool	어느 물가든, 동굴 웅덩이든
-The old iron mine, the mine depths, the grotto under the Isle and the warren	오래된 철광산, 광산 깊은 곳, 섬 밑의 동굴, 굴
-The cellar grotto under the Isle and the old iron mine	섬 밑의 지하실 동굴과 오래된 철광산
-The cellar grotto under the Isle and the old iron mine. Smelt it with copper ore for bronze	섬 밑의 지하실 동굴과 오래된 철광산. 구리 광석과 함께 제련하면 청동
-The cellar grotto under the Isle, the mine depths and the guild's deep seam	섬 밑의 지하실 동굴, 광산 깊은 곳, 조합의 깊은 광맥
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	오래된 철광산, 광산 깊은 곳, 섬 밑의 동굴, 굴
+The cellar grotto under Muddlesey and the old iron mine	섬 밑의 지하실 동굴과 오래된 철광산
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	섬 밑의 지하실 동굴과 오래된 철광산. 구리 광석과 함께 제련하면 청동
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	섬 밑의 지하실 동굴, 광산 깊은 곳, 조합의 깊은 광맥
 The mine depths, the guild's deep seam and the hobgoblin warren	광산 깊은 곳, 조합의 깊은 광맥, 홉고블린 굴
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	홉고블린 굴 아래 깊은 골짜기의 수정 동굴, 그리고 광산 깊은 곳의 조합 깊은 광맥 (들어가려면 채광 5)
 The crystal cavern in the Deep Hollow, and Brokk's vault	깊은 골짜기의 수정 동굴과 브로크의 금고
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	깊은 골짜기의 동굴 트롤 소굴과 브로크의 금고. 강철이나 미스릴 곡괭이로만 깰 수 있다
 Damp corners of every cave and mine	모든 동굴과 광산의 축축한 구석
-Herb patches in the grass on the Isle and in the Southlands	섬과 남쪽 땅 풀밭의 약초밭
+Herb patches in the grass on Muddlesey and in the Southlands	섬과 남쪽 땅 풀밭의 약초밭
 Loose herbs lying about in the Southlands (they grow back after a while)	남쪽 땅 여기저기 떨어져 있는 약초 (한동안 지나면 다시 자란다)
-Berry bushes on the Isle, around Northport and in the Whispering Woods	섬, 노스포트 주변, 속삭이는 숲의 열매 덤불
-The wheat field on the Ashford farmlands	애시퍼드 농지의 밀밭
-The cabbage rows on the Ashford farmlands	애시퍼드 농지의 양배추 이랑
-Hens' nests on the Isle's farm and by the Ashford farmhouse	섬의 농장과 애시퍼드 농가 옆의 암탉 둥지
-The cows on the Isle's farm and the Ashford farmlands	섬의 농장과 애시퍼드 농지의 소
-The sheep on the Isle and the Ashford farmlands	섬과 애시퍼드 농지의 양
-Bog myrtle bushes in the Saltmarsh	솔트마시의 늪 도금양 덤불
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	섬, 드리즐포트 주변, 속삭이는 숲의 열매 덤불
+The wheat field on the Puddleford farmlands	퍼들퍼드 농지의 밀밭
+The cabbage rows on the Puddleford farmlands	퍼들퍼드 농지의 양배추 이랑
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	섬의 농장과 퍼들퍼드 농가 옆의 암탉 둥지
+The cows on Muddlesey's farm and the Puddleford farmlands	섬의 농장과 퍼들퍼드 농지의 소
+The sheep on Muddlesey and the Puddleford farmlands	섬과 퍼들퍼드 농지의 양
+Bog myrtle bushes in the Brinebottom	브라인보텀의 늪 도금양 덤불
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	어느 모래 해변이나 사막 (모래를 오른쪽 클릭). 용광로에서 녹여 유리로 만든 뒤, 작업대에서 빈 약병을 만든다
 Sage clumps on the moors, the hills and the downs	황야, 언덕, 구릉의 세이지 덤불
 Marigolds in the meadows of the Southlands	남쪽 땅 초원의 금잔화
 Nightshade in the deep woods of the Wildwood and the Elderwood	와일드우드와 엘더우드 깊은 숲의 가지속 독초
 Emberroot in the ash of the Ashwold	애시월드의 재 속의 불씨 뿌리
-Sow the seeds in tilled soil: the farmer's furrows by Ashford, or your homestead	갈아 놓은 흙에 씨를 뿌린다: 애시퍼드 옆 농부의 밭고랑, 또는 당신의 홈스테드
+Sow the seeds in tilled soil: the farmer's furrows by Puddleford, or your homestead	갈아 놓은 흙에 씨를 뿌린다: 퍼들퍼드 옆 농부의 밭고랑, 또는 당신의 홈스테드
 I heard $Player.Name was killed by a goose. An actual goose. I'd not have mentioned it, only everyone else has.	$Player.Name 그 사람이 거위한테 죽었다던데. 진짜 거위한테. 말 안 하려 했는데, 다들 하길래.
 They say $Player.Name was seen off by a rat. A single rat. It's got a name now, that rat.	$Player.Name 그 사람이 쥐한테 쫓겨났대. 쥐 한 마리한테. 그 쥐한테 이제 이름도 생겼어.
 Goblins have a song about $Player.Name, you know. It's mostly about running.	고블린들한테 $Player.Name 그 사람에 관한 노래가 있다더라. 대부분 도망치는 얘기야.
@@ -5558,41 +5558,41 @@ It was $Player.Name who killed the dragon, or so they tell me. Thought they'd be
 I had a coin on $Player.Name at the arena. Paid for the roof, that did.	투기장에서 $Player.Name 그 사람한테 돈을 걸었지. 그걸로 지붕을 고쳤어.
 That business with the Mayor's trousers. Everyone knows it was $Player.Name who cracked it. A goose, was it?	읍장 바지 사건 말이야. 그거 해결한 게 $Player.Name 그 사람인 거 다들 알아. 거위였다며?
 Something's after $Player.Name, I hear. Big, scarred, and it knows their name.	$Player.Name 그 사람을 뭔가가 쫓고 있다더라. 크고, 흉터투성이에, 이름까지 안대.
-Northport's harbour	노스포트 항구
+Drizzleport's harbour	드리즐포트 항구
 Galaith's market	갈라이스 장터
 Mirefold's boardwalks	마이어폴드 판자길
 Passage to the Mainland	본토로 가는 길
 The Herbalist's Remedy	약초상의 처방
-The herbalist out on Ashford's farmlands could do with a hand, I hear.	애시퍼드 농지에 있는 약초상이 일손이 필요하다더군.
+The herbalist out on Puddleford's farmlands could do with a hand, I hear.	퍼들퍼드 농지에 있는 약초상이 일손이 필요하다더군.
 The Dwarf's Grudge	드워프의 원한
 Miners swear there's a dwarf deep under the hobgoblin warren, nursing a grudge as old as the hills.	광부들 말로는 홉고블린 굴 저 아래에 언덕만큼 오래된 원한을 품은 드워프가 있대.
 The Wildwood Watch	와일드우드 감시
-Ranger Ash in Oakhollow is short of eyes in the Wildwood. Strange goings on, they say.	오크할로의 레인저 애시가 와일드우드를 지켜볼 눈이 모자란대. 이상한 일이 벌어진다나.
+Ranger Ash in Acornby is short of eyes in the Wildwood. Strange goings on, they say.	에이콘비의 레인저 애시가 와일드우드를 지켜볼 눈이 모자란대. 이상한 일이 벌어진다나.
 The Old Grove	오래된 숲
-There's talk of felling the old oaks by Oakhollow. Ranger Ash won't hear of it.	오크할로 옆의 오래된 참나무들을 베어 낸다는 얘기가 있어. 레인저 애시는 들으려고도 안 해.
+There's talk of felling the old oaks by Acornby. Ranger Ash won't hear of it.	에이콘비 옆의 오래된 참나무들을 베어 낸다는 얘기가 있어. 레인저 애시는 들으려고도 안 해.
 Wolves of the Greyflats	그레이플랫의 늑대들
-The shepherd in Greyford is losing sheep to the wolves on the Greyflats.	그레이퍼드의 양치기가 그레이플랫 늑대들한테 양을 잃고 있대.
-Wolves on the Greyflats again. The Greyford shepherd's at his wits' end.	그레이플랫에 또 늑대야. 그레이퍼드 양치기가 속이 타들어 가.
+The shepherd in Dullford is losing sheep to the wolves on the Greyflats.	덜퍼드의 양치기가 그레이플랫 늑대들한테 양을 잃고 있대.
+Wolves on the Greyflats again. The Dullford shepherd's at his wits' end.	그레이플랫에 또 늑대야. 덜퍼드 양치기가 속이 타들어 가.
 Bog Lights	늪의 불빛
-Old Morwen the witch in Saltmarsh wants bog myrtle, and someone daft enough to fetch it.	솔트마시의 늙은 마녀 모웬이 늪 도금양을 원한대. 그리고 그걸 가져올 만큼 멍청한 사람도.
+Old Morwen the witch in Brinebottom wants bog myrtle, and someone daft enough to fetch it.	브라인보텀의 늙은 마녀 모웬이 늪 도금양을 원한대. 그리고 그걸 가져올 만큼 멍청한 사람도.
 Bandits on the Road	길 위의 도적들
-Captain Hale in Frosthold wants the bandits off the Redrock road, and he's paying.	프로스트홀드의 헤일 대장이 레드록 길에서 도적들을 몰아내고 싶어 해. 돈도 준대.
+Captain Hale in Chillingham wants the bandits off the Redrock road, and he's paying.	칠링엄의 헤일 대장이 레드록 길에서 도적들을 몰아내고 싶어 해. 돈도 준대.
 The Lost Caravan	사라진 대상
 Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole one!	듄레스트의 상인 카디르가 선스카에서 대상을 통째로 잃었대. 통째로!
 The Frozen Forge	얼어붙은 대장간
-Brann the forgemaster in Frosthold can't keep his forge lit, and he's not taking it well.	프로스트홀드의 대장장이 장인 브란이 대장간 불을 계속 지피지 못하고 있어. 잘 받아들이지도 못하고.
+Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	칠링엄의 대장장이 장인 브란이 대장간 불을 계속 지피지 못하고 있어. 잘 받아들이지도 못하고.
 The Hermit's Fire	은둔자의 불
-The hermit in the Isle's western woods could do with good wood for his fire.	섬 서쪽 숲의 은둔자가 불 땔 좋은 나무가 필요하대.
+The hermit in Muddlesey's western woods could do with good wood for his fire.	섬 서쪽 숲의 은둔자가 불 땔 좋은 나무가 필요하대.
 The Withering Wood	시들어 가는 숲
-The druid in Thornwick says the Elderwood is dying, and nobody listens.	손윅의 드루이드가 엘더우드가 죽어 간다는데, 아무도 귀 기울이지 않아.
+The druid in Nettlewick says the Elderwood is dying, and nobody listens.	네틀윅의 드루이드가 엘더우드가 죽어 간다는데, 아무도 귀 기울이지 않아.
 The Barrow King	무덤 왕
 The gravekeeper at King Rupert's Keep won't go near the barrows on the downs any more. Says they've woken.	루퍼트 왕의 성채 묘지기가 이제 구릉의 무덤 근처엔 안 가려고 해. 무덤들이 깨어났대.
 Old Hob	늙은 홉
-Old Hob of Oakhollow's gone missing, and his house is boarded up tight. Odd, that.	오크할로의 늙은 홉이 사라졌고, 집은 판자로 꽁꽁 막혀 있어. 이상하지.
+Old Hob of Acornby's gone missing, and his house is boarded up tight. Odd, that.	에이콘비의 늙은 홉이 사라졌고, 집은 판자로 꽁꽁 막혀 있어. 이상하지.
 The Lost Patrol	사라진 순찰대
 The scout in Emberwatch is waiting on a patrol that never came back from the Ashwold.	엠버워치의 척후병이 애시월드에서 끝내 돌아오지 않은 순찰대를 기다리고 있어.
 A Place of Your Own	나만의 집
-There's a settler by Ashford's shardstone talking about a place of your own. Land you can't walk to, whatever that means.	애시퍼드 샤드스톤 옆에 정착민 하나가 나만의 집 얘기를 하고 있어. 걸어서는 못 가는 땅이래. 그게 무슨 뜻이든.
+There's a settler by Puddleford's shardstone talking about a place of your own. Land you can't walk to, whatever that means.	퍼들퍼드 샤드스톤 옆에 정착민 하나가 나만의 집 얘기를 하고 있어. 걸어서는 못 가는 땅이래. 그게 무슨 뜻이든.
 The Smugglers' Run	밀수꾼의 뱃길
 Sergeant Holt at the castle's south gate is tearing his hair out. Goods turn up in town that never came through his gate.	성 남문의 홀트 하사가 머리를 쥐어뜯고 있어. 자기 문을 통과한 적 없는 물건이 마을에 나타난대.
 The Tide Turns	물때가 바뀌다
@@ -5600,16 +5600,16 @@ Under the Tide	물결 아래
 Cold Fire	차가운 불
 A shepherd on the Ashwold swears the Hand's old shrines are lit again, and the fire's the wrong colour.	애시월드의 한 양치기가 손의 옛 성소에 다시 불이 켜졌고, 불 색깔이 이상하다고 맹세해.
 The Kind Stranger	친절한 낯선 이
-Tam the cooper's been asking all over Ashford after his mother. She's taken up with them in grey.	통장이 탐이 애시퍼드 곳곳을 돌며 어머니를 찾고 있어. 어머니가 회색 옷 입은 사람들이랑 어울린대.
+Tam the cooper's been asking all over Puddleford after his mother. She's taken up with them in grey.	통장이 탐이 퍼들퍼드 곳곳을 돌며 어머니를 찾고 있어. 어머니가 회색 옷 입은 사람들이랑 어울린대.
 In Grey	회색 옷
 The Tithe	십일조
 The Eldest of the Mending	수선회의 최고 연장자
-Old Amos in Wardhaven says there's singing under his chapel at night.	워드헤이븐의 늙은 아모스가 밤이면 자기 예배당 밑에서 노랫소리가 난대.
+Old Amos in Sulkhaven says there's singing under his chapel at night.	설크헤이븐의 늙은 아모스가 밤이면 자기 예배당 밑에서 노랫소리가 난대.
 The Last Will	유언장
 Dinner at Edwin's	에드윈 집에서의 저녁
 The Amulet of Succession	계승의 부적
 The Temporary Capital	임시 수도
-The Ashford Road	애시퍼드 길
+The Puddleford Road	퍼들퍼드 길
 The Steward's Hunt	집사의 수색
 Bert's Three Treasures	버트의 세 가지 보물
 The Staff of Brambleton	브램블턴의 지팡이
@@ -5630,13 +5630,13 @@ The True Heir	진정한 후계자
 The Chancellor's Grain	대법관의 곡물
 They say the Chancellor's cellars are full, and the city's bakers can't get flour.	대법관 지하실은 가득한데, 도시 빵집들은 밀가루를 못 구한대.
 Granny Wren's Walk	렌 할머니의 산책
-There's an old dear down at Northport's landing who looks like she's lost her way. Somebody ought to see her home.	노스포트 선착장에 길을 잃은 듯한 할머니가 계셔. 누가 댁까지 모셔다 드려야 할 텐데.
+There's an old dear down at Drizzleport's landing who looks like she's lost her way. Somebody ought to see her home.	드리즐포트 선착장에 길을 잃은 듯한 할머니가 계셔. 누가 댁까지 모셔다 드려야 할 텐데.
 A Portrait of Mo	모의 초상화
-That painter in Ashford's market square can't get his sitter to sit still. Mo, the sitter's called. I won't say more.	애시퍼드 장터 광장의 그 화가가 모델을 가만히 앉혀 두질 못해. 모델 이름은 모야. 더는 말 안 할게.
-The Wardhaven Bridge	워드헤이븐 다리
-Mayor Hollis in Ashford is after help with the Wardhaven bridge. Hands are short, I hear.	애시퍼드의 홀리스 읍장이 워드헤이븐 다리 일로 도움을 구하고 있어. 일손이 모자란대.
+That painter in Puddleford's market square can't get his sitter to sit still. Mo, the sitter's called. I won't say more.	퍼들퍼드 장터 광장의 그 화가가 모델을 가만히 앉혀 두질 못해. 모델 이름은 모야. 더는 말 안 할게.
+The Sulkhaven Bridge	설크헤이븐 다리
+Mayor Hollis in Puddleford is after help with the Sulkhaven bridge. Hands are short, I hear.	퍼들퍼드의 홀리스 읍장이 설크헤이븐 다리 일로 도움을 구하고 있어. 일손이 모자란대.
 The Dragonforge	용의 대장간
-The Wyrmsmith over in Wardhaven wants someone brave. Something about a forge hot enough for dragon scale.	워드헤이븐의 용대장장이가 용감한 사람을 찾고 있어. 용 비늘을 다룰 만큼 뜨거운 대장간이 어쩌고 하던데.
+The Wyrmsmith over in Sulkhaven wants someone brave. Something about a forge hot enough for dragon scale.	설크헤이븐의 용대장장이가 용감한 사람을 찾고 있어. 용 비늘을 다룰 만큼 뜨거운 대장간이 어쩌고 하던데.
 The Shard Scholar	샤드 학자
 Magister Quill at the Wizards' Court talks about nothing but Shards. He's always wanting something fetched.	마법사 궁정의 퀼 마기스터는 샤드 얘기밖에 안 해. 늘 뭘 가져와 달라고 하지.
 The Spellwright	주문 장인
@@ -5644,20 +5644,20 @@ They say Magister Quill can teach a body to write a spell of their own, if you h
 The Invisible Apprentice	투명한 견습생
 Folk at the Wizards' Court say there's a voice in the great hall with nobody attached to it.	마법사 궁정 사람들 말로는, 대강당에 주인 없는 목소리가 있대.
 Lady Pettigrew's Hat	페티그루 부인의 모자
-There's a lady out on Goose Green, east of Northport, losing a war with some geese.	노스포트 동쪽 거위 풀밭에서 웬 부인이 거위들과 전쟁을 벌이다 지고 있어.
+There's a lady out on Goose Green, east of Drizzleport, losing a war with some geese.	드리즐포트 동쪽 거위 풀밭에서 웬 부인이 거위들과 전쟁을 벌이다 지고 있어.
 Lady Pettigrew's been shouting at geese all morning. The geese are winning.	페티그루 부인이 아침 내내 거위들한테 소리치고 있어. 거위들이 이기는 중이야.
 Granny Bramble's Practice Hex	브램블 할머니의 저주 연습
-Granny Bramble on Thornwick's green wants someone to practise a hex on. Don't stand still near her.	손윅 풀밭의 브램블 할머니가 저주를 연습할 상대를 찾고 있어. 그 근처에서 가만히 서 있지 마.
+Granny Bramble on Nettlewick's green wants someone to practise a hex on. Don't stand still near her.	네틀윅 풀밭의 브램블 할머니가 저주를 연습할 상대를 찾고 있어. 그 근처에서 가만히 서 있지 마.
 The Scarecrow's Hat	허수아비의 모자
-The scarecrow outside Oakhollow has been talking again. Big questions, apparently. Very big.	오크할로 밖의 허수아비가 또 말을 하고 있어. 거창한 질문들을 한다나. 아주 거창한.
+The scarecrow outside Acornby has been talking again. Big questions, apparently. Very big.	에이콘비 밖의 허수아비가 또 말을 하고 있어. 거창한 질문들을 한다나. 아주 거창한.
 Duchess Has Opinions	공작 부인의 소신
-There's a cow outside Ashford with opinions, and she says them out loud.	애시퍼드 밖에 소신 있는 소가 있는데, 그걸 큰 소리로 말해.
+There's a cow outside Puddleford with opinions, and she says them out loud.	퍼들퍼드 밖에 소신 있는 소가 있는데, 그걸 큰 소리로 말해.
 The Mayor's Missing Trousers	읍장의 사라진 바지
-Constable Dobbs in Ashford has a case he won't talk about. Something to do with the Mayor. And trousers.	애시퍼드의 돕스 순경이 말하고 싶어 하지 않는 사건을 맡았어. 읍장이랑 관련된 거래. 그리고 바지랑.
+Constable Dobbs in Puddleford has a case he won't talk about. Something to do with the Mayor. And trousers.	퍼들퍼드의 돕스 순경이 말하고 싶어 하지 않는 사건을 맡았어. 읍장이랑 관련된 거래. 그리고 바지랑.
 The Redrock Signet	레드록 인장 반지
 An old steward sits by the road at Redrock Manor's gate, waiting for someone brave enough to go in.	늙은 집사가 레드록 저택 문 앞 길가에 앉아, 안에 들어갈 만큼 용감한 사람을 기다리고 있어.
 Locked Out	문밖에 갇히다
-There's a man in Wardhaven who's spent all week looking at his own front door. Nobody likes to ask.	워드헤이븐에 일주일 내내 자기 집 현관문만 쳐다보는 남자가 있어. 아무도 묻고 싶어 하지 않아.
+There's a man in Sulkhaven who's spent all week looking at his own front door. Nobody likes to ask.	설크헤이븐에 일주일 내내 자기 집 현관문만 쳐다보는 남자가 있어. 아무도 묻고 싶어 하지 않아.
 Rats of Unusual Size	보기 드문 크기의 쥐들
 Scavenger Season	약탈자의 계절
 What Went Wrong at the Reach	리치에서 무엇이 잘못되었나
@@ -5668,7 +5668,7 @@ The Thing in the Sand	모래 속의 그것
 What Lives in the Stoneways	돌길에 사는 것
 There was a woman asked questions in every library from here to the sea, years back. Left her notes in the oddest places.	몇 해 전에, 여기서 바다까지 모든 도서관에서 질문을 하고 다니던 여자가 있었어. 가장 이상한 곳에 쪽지를 남겼지.
 Glass in the Nets	그물 속의 유리
-They say the nets come up glowing off Gull Point, north of Ashford.	애시퍼드 북쪽 갈매기 곶 앞바다에서 그물이 빛나며 올라온대.
+They say the nets come up glowing off Gull Point, north of Puddleford.	퍼들퍼드 북쪽 갈매기 곶 앞바다에서 그물이 빛나며 올라온대.
 There's a fisherwoman out on Gull Point selling sea glass that shines in the dark. Won't say where she gets it.	갈매기 곶에 어둠 속에서 빛나는 바다 유리를 파는 여자 어부가 있어. 어디서 구하는지는 말 안 해.
 Charting the Deep	깊은 곳의 지도
 A cartographer went down under Gull Point with a lantern and a great deal of paper. She's still down there, they say, drawing.	지도 제작자 하나가 등불과 종이 한 무더기를 들고 갈매기 곶 아래로 내려갔대. 아직도 거기서 그리고 있다더라.
@@ -5705,24 +5705,24 @@ They say a boy ran from the Keep's levy, and the sergeant's out for him.	성채 
 The Dry Spring	마른 샘
 Dunerest's well is low, they say, and Corvin the water-seller has never been richer.	듄레스트 우물 물이 줄었는데, 물장수 코르빈은 그 어느 때보다 부자래.
 The Eel Traps	장어 덫
-Somebody's cutting the eel traps at Saltmarsh, they say.	누가 솔트마시의 장어 덫을 끊고 있대.
+Somebody's cutting the eel traps at Brinebottom, they say.	누가 브라인보텀의 장어 덫을 끊고 있대.
 Marsh Fever	습지 열병
 There's a doctor in Mirefold with a cure for the fever. Bryony the healer doesn't think much of it.	마이어폴드에 열병 치료제를 가진 의사가 있어. 치유사 브라이오니는 그걸 별로 좋게 안 봐.
 What Jimmy Kept	지미가 지킨 것
 Brother Aldous at the chapel was asking after you. Something of your mother's, he said.	예배당의 올더스 수사가 당신을 찾더라. 당신 어머니의 물건이 있다던데.
 Old Tobias is safe at Edwin's, they say, but them hobgoblins had every penny he owned.	늙은 토비아스는 에드윈 집에서 무사하대. 그런데 홉고블린들이 그의 돈을 한 푼도 남김없이 가져갔대.
-Ashford	애시퍼드
-Wardhaven	워드헤이븐
-Oakhollow	오크할로
+Puddleford	퍼들퍼드
+Sulkhaven	설크헤이븐
+Acornby	에이콘비
 Wildwood	와일드우드
-Greyford	그레이퍼드
+Dullford	덜퍼드
 Dunerest	듄레스트
-Saltmarsh	솔트마시
+Brinebottom	브라인보텀
 Wizards' Court	마법사 궁정
 Emberwatch	엠버워치
-Thornwick	손윅
+Nettlewick	네틀윅
 King Rupert's Keep	루퍼트 왕의 성채
-Frosthold	프로스트홀드
+Chillingham	칠링엄
 The Arena	투기장
 Mirefold	마이어폴드
 The Shardfall Deep	샤드낙하지 심연
@@ -5739,7 +5739,7 @@ Fish with a rod and bait where the water ripples (each catch takes a bait). Bett
 Mine rocks with a pickaxe, in the mines and caves. Digging with a spade teaches you a little too.	광산과 동굴에서 곡괭이로 바위를 캔다. 삽으로 땅을 파도 조금 배운다.
 Chop trees with an axe.	도끼로 나무를 벤다.
 Pick herbs, berries and mushrooms, and brew draughts and potions from them at an alchemy table.	약초, 열매, 버섯을 따고, 연금술 탁자에서 그것으로 물약을 만든다.
-Build on your homestead, and sow and harvest crops: in your own soil, or the farmer's furrows by Ashford.	홈스테드에 집을 짓고, 작물을 뿌리고 거둔다: 당신의 땅에서, 또는 애시퍼드 옆 농부의 밭고랑에서.
+Build on your homestead, and sow and harvest crops: in your own soil, or the farmer's furrows by Puddleford.	홈스테드에 집을 짓고, 작물을 뿌리고 거둔다: 당신의 땅에서, 또는 퍼들퍼드 옆 농부의 밭고랑에서.
 Stealth	은신
 Go unseen and light-fingered: sneak past those watching, strike before you're seen, pick pockets and locks, lift wares from shelves and valuables from houses, and spot traps and secrets (and disarm the traps).	들키지 않고 손을 놀린다: 지켜보는 이들을 몰래 지나치고, 들키기 전에 치고, 주머니와 자물쇠를 털고, 선반의 물건과 집 안의 귀중품을 슬쩍하고, 덫과 비밀을 찾아낸다 (덫은 해제도 한다).
 Fire Bolt	화염 화살
@@ -5793,7 +5793,7 @@ Quicker on foot, and out of a fight sooner (you start to heal sooner after one).
 "You walk like a landsman, matey," Rook says. "Light on the feet: a deck pitches, and so does a fight. Step back, breathe, and it's behind you."	"뭍사람처럼 걷는구먼, 친구," 룩이 말한다. "발을 가볍게: 갑판도 흔들리고, 싸움도 흔들려. 한 발 물러서서 숨 쉬면, 그건 지나간 일이야."
 Riposte	반격
 "You held off those bandits better than my own lads," Hale says. "Here's one more thing: when you turn a blow, don't wait. Answer it, while they're still open."	"그 도적들을 우리 녀석들보다 잘 막아 내더군," 헤일이 말한다. "하나만 더: 공격을 비껴 냈으면 기다리지 마. 상대가 아직 빈틈을 보일 때 되받아쳐."
-Folk say there's a man on Northport's docks after dark who doesn't ask questions.	노스포트 부두에 날 저물면 아무것도 묻지 않는 남자가 있대.
+Folk say there's a man on Drizzleport's docks after dark who doesn't ask questions.	드리즐포트 부두에 날 저물면 아무것도 묻지 않는 남자가 있대.
 Try the docks after dark, if you must. Not here.	꼭 그래야겠다면 날 저문 뒤 부두로 가 봐. 여기선 안 돼.
 Old Sully, in the tavern's corner, if you must. Not here.	꼭 그래야겠다면 술집 구석의 늙은 설리한테. 여기선 안 돼.
 Black	검정
@@ -6787,33 +6787,33 @@ Toadstool	독버섯
 Toadstools, red and spotted white, in a ring that's too round.	너무 동그란 고리를 이룬, 흰 점이 박힌 빨간 독버섯.
 Cult Shrine Cold	차가운 광신도 성소
 An altar of the Ashen Hand, lit again: its candles burn blue, and give no warmth.	다시 불이 켜진 잿빛 손의 제단: 초가 푸르게 타고, 온기를 전혀 내지 않는다.
-Ashford Raid	애시퍼드 습격
-Goblin raid on Ashford	애시퍼드 고블린 습격
-A horn sounds from the woods: goblins are attacking Ashford! Defend the market square!	숲에서 뿔나팔 소리가 울린다: 고블린들이 애시퍼드를 공격한다! 장터 광장을 지켜라!
-The goblins flee into the trees. Ashford is safe - thanks to its defenders!	고블린들이 나무 사이로 달아난다. 애시퍼드는 무사하다 - 지켜 준 이들 덕분이다!
+Puddleford Raid	퍼들퍼드 습격
+Goblin raid on Puddleford	퍼들퍼드 고블린 습격
+A horn sounds from the woods: goblins are attacking Puddleford! Defend the market square!	숲에서 뿔나팔 소리가 울린다: 고블린들이 퍼들퍼드를 공격한다! 장터 광장을 지켜라!
+The goblins flee into the trees. Puddleford is safe - thanks to its defenders!	고블린들이 나무 사이로 달아난다. 퍼들퍼드는 무사하다 - 지켜 준 이들 덕분이다!
 The goblins loot what they can and slip away into the woods.	고블린들이 챙길 수 있는 걸 챙겨 숲으로 빠져나간다.
 Farm Raid	농장 습격
 Goblins at the farm	농장의 고블린
 Here they come - goblins, out of the hedges! Keep them off the hen house!	온다 - 산울타리에서 고블린들이! 닭장에 못 오게 막아라!
 The last goblin bolts for its camp. The farmer's eggs are safe!	마지막 고블린이 야영지로 줄행랑친다. 농부의 달걀은 무사하다!
 The goblins make off with a sack of eggs.	고블린들이 달걀 한 자루를 들고 달아난다.
-Northport Raid	노스포트 습격
-Sea raid on Northport	노스포트 해상 습격
-A horn sounds: raiders off the sea are attacking Northport! Defend the square!	뿔나팔 소리가 울린다: 바다에서 온 약탈자들이 노스포트를 공격한다! 광장을 지켜라!
-The raiders flee. Northport is safe - thanks to its defenders!	약탈자들이 달아난다. 노스포트는 무사하다 - 지켜 준 이들 덕분이다!
+Drizzleport Raid	드리즐포트 습격
+Sea raid on Drizzleport	드리즐포트 해상 습격
+A horn sounds: raiders off the sea are attacking Drizzleport! Defend the square!	뿔나팔 소리가 울린다: 바다에서 온 약탈자들이 드리즐포트를 공격한다! 광장을 지켜라!
+The raiders flee. Drizzleport is safe - thanks to its defenders!	약탈자들이 달아난다. 드리즐포트는 무사하다 - 지켜 준 이들 덕분이다!
 The raiders take what they can and are gone.	약탈자들이 챙길 수 있는 걸 챙겨 사라졌다.
-Oakhollow Raid	오크할로 습격
-Wolf raid on Oakhollow	오크할로 늑대 습격
-A horn sounds: wolves are attacking Oakhollow! Defend the square!	뿔나팔 소리가 울린다: 늑대들이 오크할로를 공격한다! 광장을 지켜라!
-The raiders flee. Oakhollow is safe - thanks to its defenders!	약탈자들이 달아난다. 오크할로는 무사하다 - 지켜 준 이들 덕분이다!
-Greyford Raid	그레이포드 습격
-Goblin raid on Greyford	그레이포드 고블린 습격
-A horn sounds: goblins are attacking Greyford! Defend the square!	뿔나팔 소리가 울린다: 고블린들이 그레이포드를 공격한다! 광장을 지켜라!
-The raiders flee. Greyford is safe - thanks to its defenders!	약탈자들이 달아난다. 그레이포드는 무사하다 - 지켜 준 이들 덕분이다!
-Frosthold Raid	프로스트홀드 습격
-Snow wolf raid on Frosthold	프로스트홀드 설원 늑대 습격
-A horn sounds: snow wolves are attacking Frosthold! Defend the square!	뿔나팔 소리가 울린다: 설원 늑대들이 프로스트홀드를 공격한다! 광장을 지켜라!
-The raiders flee. Frosthold is safe - thanks to its defenders!	약탈자들이 달아난다. 프로스트홀드는 무사하다 - 지켜 준 이들 덕분이다!
+Acornby Raid	에이콘비 습격
+Wolf raid on Acornby	에이콘비 늑대 습격
+A horn sounds: wolves are attacking Acornby! Defend the square!	뿔나팔 소리가 울린다: 늑대들이 에이콘비를 공격한다! 광장을 지켜라!
+The raiders flee. Acornby is safe - thanks to its defenders!	약탈자들이 달아난다. 에이콘비는 무사하다 - 지켜 준 이들 덕분이다!
+Dullford Raid	그레이포드 습격
+Goblin raid on Dullford	그레이포드 고블린 습격
+A horn sounds: goblins are attacking Dullford! Defend the square!	뿔나팔 소리가 울린다: 고블린들이 그레이포드를 공격한다! 광장을 지켜라!
+The raiders flee. Dullford is safe - thanks to its defenders!	약탈자들이 달아난다. 그레이포드는 무사하다 - 지켜 준 이들 덕분이다!
+Chillingham Raid	칠링엄 습격
+Snow wolf raid on Chillingham	칠링엄 설원 늑대 습격
+A horn sounds: snow wolves are attacking Chillingham! Defend the square!	뿔나팔 소리가 울린다: 설원 늑대들이 칠링엄을 공격한다! 광장을 지켜라!
+The raiders flee. Chillingham is safe - thanks to its defenders!	약탈자들이 달아난다. 칠링엄은 무사하다 - 지켜 준 이들 덕분이다!
 Dunerest Raid	듄레스트 습격
 Scorpion raid on Dunerest	듄레스트 전갈 습격
 A horn sounds: scorpions are attacking Dunerest! Defend the square!	뿔나팔 소리가 울린다: 전갈들이 듄레스트를 공격한다! 광장을 지켜라!
@@ -6822,10 +6822,10 @@ Emberwatch Raid	엠버워치 습격
 Ember hound raid on Emberwatch	엠버워치 불씨 사냥개 습격
 A horn sounds: ember hounds are attacking Emberwatch! Defend the square!	뿔나팔 소리가 울린다: 불씨 사냥개들이 엠버워치를 공격한다! 광장을 지켜라!
 The raiders flee. Emberwatch is safe - thanks to its defenders!	약탈자들이 달아난다. 엠버워치는 무사하다 - 지켜 준 이들 덕분이다!
-Thornwick Raid	손윅 습격
-Wolf raid on Thornwick	손윅 늑대 습격
-A horn sounds: wolves are attacking Thornwick! Defend the square!	뿔나팔 소리가 울린다: 늑대들이 손윅을 공격한다! 광장을 지켜라!
-The raiders flee. Thornwick is safe - thanks to its defenders!	약탈자들이 달아난다. 손윅은 무사하다 - 지켜 준 이들 덕분이다!
+Nettlewick Raid	네틀윅 습격
+Wolf raid on Nettlewick	네틀윅 늑대 습격
+A horn sounds: wolves are attacking Nettlewick! Defend the square!	뿔나팔 소리가 울린다: 늑대들이 네틀윅을 공격한다! 광장을 지켜라!
+The raiders flee. Nettlewick is safe - thanks to its defenders!	약탈자들이 달아난다. 네틀윅은 무사하다 - 지켜 준 이들 덕분이다!
 Court Raid	궁정 습격
 Goblin raid on Wizards' Court	마법사 궁정 고블린 습격
 A horn sounds: goblins are attacking Wizards' Court! Defend the square!	뿔나팔 소리가 울린다: 고블린들이 마법사 궁정을 공격한다! 광장을 지켜라!
@@ -6838,14 +6838,14 @@ Wildwood Raid	와일드우드 습격
 Wolf raid on Wildwood	와일드우드 늑대 습격
 A horn sounds: wolves are attacking Wildwood! Defend the square!	뿔나팔 소리가 울린다: 늑대들이 와일드우드를 공격한다! 광장을 지켜라!
 The raiders flee. Wildwood is safe - thanks to its defenders!	약탈자들이 달아난다. 와일드우드는 무사하다 - 지켜 준 이들 덕분이다!
-Saltmarsh Raid	솔트마시 습격
-Bog raid on Saltmarsh	솔트마시 늪지 습격
-A horn sounds: things out of the bog are attacking Saltmarsh! Defend the square!	뿔나팔 소리가 울린다: 늪에서 나온 것들이 솔트마시를 공격한다! 광장을 지켜라!
-The raiders flee. Saltmarsh is safe - thanks to its defenders!	약탈자들이 달아난다. 솔트마시는 무사하다 - 지켜 준 이들 덕분이다!
-Wardhaven Raid	워드헤이븐 습격
-Goblin raid on Wardhaven	워드헤이븐 고블린 습격
-A horn sounds: goblins are attacking Wardhaven! Defend the square!	뿔나팔 소리가 울린다: 고블린들이 워드헤이븐을 공격한다! 광장을 지켜라!
-The raiders flee. Wardhaven is safe - thanks to its defenders!	약탈자들이 달아난다. 워드헤이븐은 무사하다 - 지켜 준 이들 덕분이다!
+Brinebottom Raid	브라인보텀 습격
+Bog raid on Brinebottom	브라인보텀 늪지 습격
+A horn sounds: things out of the bog are attacking Brinebottom! Defend the square!	뿔나팔 소리가 울린다: 늪에서 나온 것들이 브라인보텀을 공격한다! 광장을 지켜라!
+The raiders flee. Brinebottom is safe - thanks to its defenders!	약탈자들이 달아난다. 브라인보텀은 무사하다 - 지켜 준 이들 덕분이다!
+Sulkhaven Raid	설크헤이븐 습격
+Goblin raid on Sulkhaven	설크헤이븐 고블린 습격
+A horn sounds: goblins are attacking Sulkhaven! Defend the square!	뿔나팔 소리가 울린다: 고블린들이 설크헤이븐을 공격한다! 광장을 지켜라!
+The raiders flee. Sulkhaven is safe - thanks to its defenders!	약탈자들이 달아난다. 설크헤이븐은 무사하다 - 지켜 준 이들 덕분이다!
 Ward Circle Trial	결계 원의 시험
 The Ward-Circle wakes	결계 원이 깨어난다
 The Ward-Circle wakes: what it was set to keep out is coming in. Hold the circle!	결계 원이 깨어난다: 막으려고 세운 것이 들어오고 있다. 원을 지켜라!
@@ -6879,9 +6879,9 @@ The Ashfall	재낙하지
 The Rime	서리땅
 The Shattered Reach	산산조각 난 끝자락
 The Sallow Waste	누런 황무지
-The Isle	섬
+Muddlesey	머들지
 Sunscar Desert	선스카 사막
-Saltmarsh Fens	솔트마시 습지
+Brinebottom Fens	브라인보텀 습지
 Cinder Peaks	잿불 봉우리
 Frostpeak	프로스트피크
 The Pass of Galaith	갈라이스 고개
@@ -7105,12 +7105,12 @@ Frailty	허약
 The floor gives way! You fall, and land hard a floor below.	바닥이 꺼진다! 떨어져서 한 층 아래에 세게 부딪힌다.
 That's as far as the demo goes: the full game goes on from here.	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다.
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	체험판은 여기까지다: 레벨 %d. 지금부터 배우는 것은 정식 게임에 그대로 남는다.
-The Isle's story is told, as far as the demo goes: the crossing to Northport is the full game's.	섬의 이야기는 체험판이 닿는 데까지 다 했다: 노스포트로 건너가는 것은 정식 게임의 몫이다.
-Why would hobgoblins raid the Isle for your mother's papers?	홉고블린들이 왜 어머니의 서류를 노리고 섬을 습격할까?
-Across the strait: Northport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	해협 건너: 노스포트, 본토의 마을과 길, 마법사 궁정, 그리고 이야기의 나머지.
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	섬의 이야기는 체험판이 닿는 데까지 다 했다: 드리즐포트로 건너가는 것은 정식 게임의 몫이다.
+Why would hobgoblins raid Muddlesey for your mother's papers?	홉고블린들이 왜 어머니의 서류를 노리고 섬을 습격할까?
+Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	해협 건너: 드리즐포트, 본토의 마을과 길, 마법사 궁정, 그리고 이야기의 나머지.
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	친구 패스: 여기 누군가 정식 게임을 갖고 있으니, 그 사람이 게임에 있는 동안 당신 것이기도 하다.
-Nobody here has the full game now: back to the Isle in %d seconds.	지금 여기엔 정식 게임을 가진 사람이 없다: %d초 뒤에 섬으로 돌아간다.
-Nobody here has the full game now: you're back in the demo, the Isle and level %d.	지금 여기엔 정식 게임을 가진 사람이 없다: 다시 체험판, 섬과 레벨 %d로 돌아왔다.
+Nobody here has the full game now: back to Muddlesey in %d seconds.	지금 여기엔 정식 게임을 가진 사람이 없다: %d초 뒤에 섬으로 돌아간다.
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	지금 여기엔 정식 게임을 가진 사람이 없다: 다시 체험판, 섬과 레벨 %d로 돌아왔다.
 Your mother's papers, under a crowned seal	왕관 봉인 아래의 어머니 서류
 An order for her papers and her child's name, signed with a hand pressed in ash	그녀의 서류와 아이의 이름을 내놓으라는 명령서, 재 묻은 손도장으로 서명됨
 A miniature from where only a cat could go: a crowned man, a baby in his arms	고양이만 갈 수 있는 곳에서 나온 세밀화: 왕관을 쓴 남자, 그 품의 아기
@@ -8438,7 +8438,7 @@ Shop signs	상점 간판
 Every shop has a sign by its door with a picture of what it sells.	모든 상점은 문 옆에 파는 물건 그림이 있는 간판이 있다.
 Dropping things	물건 버리기
 Your homestead	당신의 집터
-The settler by Ashford's homestone gives you an Access Crystal for a little building work. Touch a homestone (by every shardstone) to go home, or to visit a friend's. At home its homestone says who may visit: only you, friends, or anyone.	애시퍼드 집돌 옆의 정착민이 간단한 건축 일을 해 주면 접근 수정을 준다. 집돌(샤드석마다 옆에 있다)을 만지면 집에 가거나 친구 집을 방문할 수 있다. 집에서는 집돌로 누가 방문할 수 있는지 정한다: 나만, 친구, 또는 누구나.
+The settler by Puddleford's homestone gives you an Access Crystal for a little building work. Touch a homestone (by every shardstone) to go home, or to visit a friend's. At home its homestone says who may visit: only you, friends, or anyone.	퍼들퍼드 집돌 옆의 정착민이 간단한 건축 일을 해 주면 접근 수정을 준다. 집돌(샤드석마다 옆에 있다)을 만지면 집에 가거나 친구 집을 방문할 수 있다. 집에서는 집돌로 누가 방문할 수 있는지 정한다: 나만, 친구, 또는 누구나.
 Arrows or W A S D	화살표 또는 W A S D
 Walk (two at once walks diagonally).	걷기 (두 개를 함께 누르면 대각선으로 걷는다).
 Talk to the other players (the chat).	다른 플레이어와 대화 (채팅).
@@ -8582,7 +8582,7 @@ not begun	시작 안 함
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	정식 게임은 시작 화면에서 Hallisium 계정으로 한 번 구매한다: 그러면
 in the app and in a browser too, and your character keeps everything they've done.	앱에서도 브라우저에서도 당신 것이고, 캐릭터는 해 온 모든 것을 간직한다.
 The demo	체험판
-That's as far as the demo goes: the full game goes on from here, past the Isle to the	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다, 섬을 지나
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다, 섬을 지나
 mainland, its towns and the rest of the story.	본토로, 그 마을들과 이야기의 나머지로.
 That's level {1}, as far as the demo goes. What you learn from here is kept,	여기가 레벨 {1}, 체험판이 닿는 데까지다. 지금부터 배우는 것은 간직되고,
 and counts as soon as you have the full game.	정식 게임을 갖는 순간부터 반영된다.
@@ -8614,7 +8614,7 @@ Bring a character from a file	파일에서 캐릭터 가져오기
 Signed in as {1}	{1}(으)로 로그인됨
 Playing without a Hallisium account: your characters here are this device's.	Hallisium 계정 없이 플레이 중: 여기 캐릭터는 이 기기의 것이다.
 Play as {1}	{1}(으)로 플레이
-Level {1} · Demo: the Isle, level {2}	레벨 {1} · 체험판: 섬, 레벨 {2}
+Level {1} · Demo: Muddlesey, level {2}	레벨 {1} · 체험판: 섬, 레벨 {2}
 Level {1}	레벨 {1}
 Copy to device	기기로 복사
 Copy {1} to your own device. The copy can't come back to this server.	{1}을(를) 자기 기기로 복사한다. 복사본은 이 서버로 돌아올 수 없다.
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	{1} 레벨이 이제 {2}이다!
 Online {1}/{2}: {3}	접속 {1}/{2}: {3}
 PvP here	여기는 PvP
 Safe here	여기는 안전
-Demo: the Isle, level {1}	체험판: 섬, 레벨 {1}
-Friend Pass: back to the Isle in {1}s	친구 패스: {1}초 뒤 섬으로
+Demo: Muddlesey, level {1}	체험판: 섬, 레벨 {1}
+Friend Pass: back to Muddlesey in {1}s	친구 패스: {1}초 뒤 섬으로
 Friend Pass: {1}'s game	친구 패스: {1}의 게임
 Friend Pass	친구 패스
 ARENA - other players can fight you here	투기장 - 다른 플레이어가 당신과 싸울 수 있다
@@ -8945,8 +8945,8 @@ no fog (see everything round you)	안개 없음 (주위 전부 보기)
 Save skills	기술 저장
 Rewards	보상
 The end of the demo	체험판의 끝
-Wim looks your papers over and nods you aboard. Across the strait, Northport's roofs catch the light.	윔이 서류를 훑어보고 고개를 끄덕이며 배에 태워 준다. 해협 건너, 노스포트의 지붕들이 빛을 받는다.
-What the Isle gave you	섬이 당신에게 준 것
+Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	윔이 서류를 훑어보고 고개를 끄덕이며 배에 태워 준다. 해협 건너, 드리즐포트의 지붕들이 빛을 받는다.
+What Muddlesey gave you	섬이 당신에게 준 것
 What's left to ask	아직 남은 물음
 Until then	그때까지
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	먼저 이용약�
 The browser wouldn't go full screen.	브라우저가 전체 화면으로 바뀌지 않았다.
 What every game you join starts with. A game's own Options change them there.	참가하는 모든 게임의 시작 설정. 게임 안의 옵션에서 그 게임 것을 바꾼다.
 The full game: yours ({1}).	정식 게임: 당신 것 ({1}).
-The demo: the Isle, up to level {1}.	체험판: 섬, 레벨 {1}까지.
+The demo: Muddlesey, up to level {1}.	체험판: 섬, 레벨 {1}까지.
 Waiting for you to confirm {1}: the link's in that inbox.	{1} 확인을 기다리는 중: 링크는 그 받은편지함에 있다.
 Until then a code goes to {1}.	그때까지는 코드가 {1}(으)로 간다.
 You can join games once it's confirmed.	확인되면 게임에 참가할 수 있다.
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	Steam에 묻는 중...
 Shards of Ashen is bought once,	Shards of Ashen은 한 번 구매한다,
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	Steam, itch.io 또는 Epic에서, 그리고 거기서 플레이한다: 구매한 계정으로 로그인한 Steam에서 시작해라.
-The demo: the Isle, up to level {1}. The full game goes on to the mainland and the rest of the story.	체험판: 섬, 레벨 {1}까지. 정식 게임은 본토와 이야기의 나머지로 이어진다.
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	체험판: 섬, 레벨 {1}까지. 정식 게임은 본토와 이야기의 나머지로 이어진다.
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Hallisium 계정으로 한 번 구매한다: 그러면 어디서나 당신 것이다, Android 앱에서도.
 Buy it with your account's email, then come back here.	계정의 이메일로 구매하고, 여기로 돌아와라.
 Log in first, to have it on your account.	계정에 두려면 먼저 로그인해라.

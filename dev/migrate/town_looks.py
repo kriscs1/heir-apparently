@@ -1,13 +1,13 @@
 """Each town its own look (dev\\Roadmap.md group 10): its houses' roofs and walls of the town's own kind, four in five
 of them (the rest as they were, so no street's all one), the same piece of each (a roof's slope, a wall's corner):
 
-  Northport slate and brick; the Keep shingle and stone; the Wizards' Court copper and stone; Fenwick thatch and
-  plaster; Ravensgate slate and stone; Ashford clay and brick; Highwatch shingle and stone; Frosthold slate and stone;
-  Wardhaven clay and stone; Oakhollow thatch and timber; Thornwick thatch and plaster; Emberwatch slate and stone;
-  Greyford shingle and stone; Wildwood and Saltmarsh thatch and timber; Dunerest clay and sandstone. Galaith by
+  Drizzleport slate and brick; the Keep shingle and stone; the Wizards' Court copper and stone; Fenwick thatch and
+  plaster; Crowgate slate and stone; Puddleford clay and brick; Squintwatch shingle and stone; Chillingham slate and stone;
+  Sulkhaven clay and stone; Acornby thatch and timber; Nettlewick thatch and plaster; Emberwatch slate and stone;
+  Dullford shingle and stone; Wildwood and Brinebottom thatch and timber; Dunerest clay and sandstone. Galaith by
   quarter: the nobles' slate and stone, the merchants' clay and brick, the commons' thatch and timber.
 
-Only houses (no shop, hall or tavern: their keepers' trades), never the Isle. Safe to run again (it's chosen by place).
+Only houses (no shop, hall or tavern: their keepers' trades), never Muddlesey. Safe to run again (it's chosen by place).
 
   python -I "dev\\migrate\\town_looks.py"
 """
@@ -24,11 +24,11 @@ import layout as L                                      # noqa: E402
 from upper_floors import groups, TRADES                 # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(HERE))
-STYLE = {"Northport": ("Slate", "Brick"), "Keep": ("Shingle", "Stone_Wall"), "Court": ("Copper", "Stone_Wall"),
-         "Fenwick": ("Thatch", "Plaster"), "Ravensgate": ("Slate", "Stone_Wall"), "Ashford": ("Clay", "Brick"),
-         "Highwatch": ("Shingle", "Stone_Wall"), "Frosthold": ("Slate", "Stone_Wall"), "Wardhaven": ("Clay", "Stone_Wall"),
-         "Oakhollow": ("Thatch", "Timber"), "Thornwick": ("Thatch", "Plaster"), "Emberwatch": ("Slate", "Stone_Wall"),
-         "Greyford": ("Shingle", "Stone_Wall"), "Wildwood": ("Thatch", "Timber"), "Saltmarsh": ("Thatch", "Timber"),
+STYLE = {"Drizzleport": ("Slate", "Brick"), "Keep": ("Shingle", "Stone_Wall"), "Court": ("Copper", "Stone_Wall"),
+         "Fenwick": ("Thatch", "Plaster"), "Crowgate": ("Slate", "Stone_Wall"), "Puddleford": ("Clay", "Brick"),
+         "Squintwatch": ("Shingle", "Stone_Wall"), "Chillingham": ("Slate", "Stone_Wall"), "Sulkhaven": ("Clay", "Stone_Wall"),
+         "Acornby": ("Thatch", "Timber"), "Nettlewick": ("Thatch", "Plaster"), "Emberwatch": ("Slate", "Stone_Wall"),
+         "Dullford": ("Shingle", "Stone_Wall"), "Wildwood": ("Thatch", "Timber"), "Brinebottom": ("Thatch", "Timber"),
          "Dunerest": ("Clay", "Sandstone")}
 GALAITH = [(304, ("Slate", "Stone_Wall")), (346, ("Clay", "Brick")), (999, ("Thatch", "Timber"))]   # (by row: quarters)
 ROOFS = "Thatch|Shingle|Slate|Clay|Copper"

@@ -4,7 +4,7 @@
 03	>Quest.Can.Start	KingQuest	18
 04	Display.Conversation	King_Rupert	They tell me the dragon is dead, and that the one who killed it asks to see me.\Come closer. Let me see your face.	Show him the amulet.	05
 05	Display.Conversation	King_Rupert	That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	Tell him of Mary's will.	06
-06	Display.Conversation	Player	My mother, Mary, died on the Isle, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	...	07
+06	Display.Conversation	Player	My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	...	07
 07	Play.Sound	Quest
 08	Display.Message	Cyan	The King comes down from his throne, and holds you, and weeps.	-
 09	Display.Conversation	King_Rupert	Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Father.	10

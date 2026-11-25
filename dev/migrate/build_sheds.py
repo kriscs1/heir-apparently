@@ -1,7 +1,7 @@
 """Sheds: a roof on two posts, open all round. The posts stand at the front corners (Shed_Post001 on the left, 002 on
 the right, each with a brace towards the other), placed as objects so you walk in front of them or behind; the roof
 covers the floor behind them and hides as you step in under it. shed() builds one on any map.
-The carpenter's shed in Ashford (2,3,0, by the main road east of the smithy) has the carpenter's bench under it.
+The carpenter's shed in Puddleford (2,3,0, by the main road east of the smithy) has the carpenter's bench under it.
 Run it again to draw the posts again; the shed is only built once.
 
   python -I "dev\\migrate\\build_sheds.py"
@@ -94,16 +94,16 @@ def shed(m, x1, y1, x2, y2, roof="Shingle", floor="Dirt001"):
 
 def ashford():
     m = Map("2,3,0")
-    if m.has_line("Id\tAshford_Carpenters_Shed"):
-        print("Ashford's carpenter's shed is built already")
+    if m.has_line("Id\tPuddleford_Carpenters_Shed"):
+        print("Puddleford's carpenter's shed is built already")
         return
     shed(m, 24, 13, 25, 16)
     old = [ln for ln in m.ents if ln.startswith("StaticObject\tCarpenters_Bench\t")]
     m.ents = [ln for ln in m.ents if ln not in old]
     m.ents.append(obj_line("StaticObject", "Carpenters_Bench", 25, 13))       # (under the roof, at the back)
-    m.ents.append("Id\tAshford_Carpenters_Shed\t24\t14")
+    m.ents.append("Id\tPuddleford_Carpenters_Shed\t24\t14")
     m.save()
-    print("Ashford: the carpenter's shed east of the smithy, the bench moved into it")
+    print("Puddleford: the carpenter's shed east of the smithy, the bench moved into it")
 
 
 def main():

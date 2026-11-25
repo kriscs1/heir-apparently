@@ -19,10 +19,10 @@ Marsh001:Timber_Thin_Plank004+Roof(Timber_Upper002.01):Plank001+Roof(Timber_Uppe
 Marsh001:Timber001:Door004:Timber001:Timber001+Decor(Timber_Window001):Timber001:Marsh009:Marsh010:Marsh003:Marsh004:Marsh003:Marsh004:Marsh006:Marsh001:Marsh009:Marsh005:Marsh007:Marsh005:Marsh001:Marsh001:Marsh001:Marsh001:Marsh009:Marsh001:Marsh006
 Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Marsh001:Marsh003:Marsh001:Marsh010:Marsh003:Marsh004:Marsh001:Marsh004:Marsh003:Marsh003:Marsh001:Marsh008:Marsh003:Marsh005:Marsh009:Marsh002:Marsh001:Marsh001:Marsh001:Marsh007
 Marsh004:Marsh002:Marsh001:Marsh007:Dirt001:Dirt001:Marsh009:Marsh008:Marsh003:Marsh007:Marsh002:Marsh001:Marsh008:Marsh002:Marsh002:Marsh010:Marsh009:Marsh009:Marsh001+Decor(Willow_Tree001):Marsh001:Marsh009:Marsh006:Marsh003:Marsh001:Marsh001
-StaticObject	Notice	192	546	Id=Saltmarsh_Notice_301
+StaticObject	Notice	192	546	Id=Brinebottom_Notice_301
 NPC	Frog	256	56	Attitude=Passive Zone=4,2,14,7
 NPC	Frog	64	248	Attitude=Passive Zone=2,5,8,13
 NPC	Duck	384	56	Attitude=Passive Zone=8,2,18,7
 NPC	Mosquito	256	320	Attitude=Bad Zone=5,7,13,15
 NPC	Mosquito	672	640	Attitude=Bad Zone=18,17,25,21
-NPC	Villager	128	344	Attitude=Good Stand=1 Face=S Id=Saltmarsh_Tobin Name=Tobin Here.After=EelQuest:1 Gone.After=EelWay:1
+NPC	Villager	128	344	Attitude=Good Stand=1 Face=S Id=Brinebottom_Tobin Name=Tobin Here.After=EelQuest:1 Gone.After=EelWay:1

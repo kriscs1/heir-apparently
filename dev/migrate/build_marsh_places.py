@@ -7,7 +7,7 @@
     box, the man they dug up (Search him), and the Bog Troll that saw them off.
   * The Wisp Ring (-49,137): a ring of leaning stones and the lights that hang in it. Reach for them, more than once.
 
-  In the marsh round Saltmarsh:
+  In the marsh round Brinebottom:
   * The Eel-Catcher's Hut (map 10,21): Old Silt, his hut and his jetty on the stream, an eel spot off the end of it.
   * The Drowned Bell (214,393): the Abbey's bell, as far as whoever stole it got. Ring it.
 

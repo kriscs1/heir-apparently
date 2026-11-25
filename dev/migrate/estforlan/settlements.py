@@ -952,7 +952,7 @@ def house(plan, lot):
 
 
 def church(plan, lot):
-    """A church (a cathedral, a chapel), as the Isle's chapel is built: stone, stained glass in its front, its steeple
+    """A church (a cathedral, a chapel), as Muddlesey's chapel is built: stone, stained glass in its front, its steeple
     over the door (a cathedral three), pews either side of the aisle, the altar and candles at the back, the priest."""
     m, x1, y1, x2, y2, door = interior(plan, lot)
     K.building(m, x1, y1, x2, y2, door, wall="Stone_Wall001", roof="Slate", windows=[], floor="Tile001")

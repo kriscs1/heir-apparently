@@ -9,6 +9,6 @@
 08	Display.Message	Yellow	Giant spiders slain for Ranger Ash: $Variable.2 of 5.
 09	End
 10	Quest.Note.Done	RangerQuest	Slay five giant spiders there.
-11	Quest.Note	RangerQuest	Return to Ranger Ash in Oakhollow.
-12	Display.Message	Yellow	Five spiders! Return to Ranger Ash in Oakhollow.
+11	Quest.Note	RangerQuest	Return to Ranger Ash in Acornby.
+12	Display.Message	Yellow	Five spiders! Return to Ranger Ash in Acornby.
 13	End

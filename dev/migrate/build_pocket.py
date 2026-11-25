@@ -1,7 +1,7 @@
 """Your homestead is a pocket of the Shardrealm's calm rim (dsengine/homes.py), held by an anchor of your own:
 
   * the story: shardstones reach only the realm's rim, where it's thin and still and small things hold; its core is
-    a storm, and only the Shardgate pierces that (build_shardgate.py). The settler in Ashford calls the pockets the
+    a storm, and only the Shardgate pierces that (build_shardgate.py). The settler in Puddleford calls the pockets the
     Stillwater and gives you a Hearth Anchor (it was the Access Crystal); Bert, in chapter 15, says what they are;
   * no homestones: a shardstone takes you home ("Your homestead" on its travel map, dsengine/shardcraft.py), and the
     Pocket Anchor in your pocket (it was its homestone) takes you back and says who may visit. A pocket is always
@@ -272,7 +272,7 @@ def settler():
             ("I will.", "@end")),
         ("@end",), ("End",)], MAKER)
     SK.section(p("data", "Quests.ini"), "A Place of Your Own",
-               [("Stage0", "Speak to the settler by the shardstone in Ashford.")])
+               [("Stage0", "Speak to the settler by the shardstone in Puddleford.")])
 
 
 def main():

@@ -1,11 +1,11 @@
 """Creatures of the water's edge: they swim (Swims=1: the water is theirs as well as the land), and now and then come
 out onto the bank, a beach or a rock for a while, then slip back in.
 
-  * Otter (the river by Ashford, the Saltmarsh): sits up on the bank. Drops Otter_Pelt (two make a Fur_Cap: Crafting),
+  * Otter (the river by Puddleford, the Brinebottom): sits up on the bank. Drops Otter_Pelt (two make a Fur_Cap: Crafting),
     and now and then the trout it was eating.
-  * Seal (Northport's harbour): hauls out to lie on the beach, and barks (Calls=Seal_Bark). Drops Seal_Pelt (two make
+  * Seal (Drizzleport's harbour): hauls out to lie on the beach, and barks (Calls=Seal_Bark). Drops Seal_Pelt (two make
     Sealskin_Boots: Crafting) and Seal_Blubber: oily bait the salmon and the swordfish like better than worms.
-  * Frog (Ashford's lily pond, the Isle's pond, the Saltmarsh): hops, croaks (Calls=Croak). Drops Frog_Legs: cook them
+  * Frog (Puddleford's lily pond, Muddlesey's pond, the Brinebottom): hops, croaks (Calls=Croak). Drops Frog_Legs: cook them
     on a fire, a fireplace or a range (Cooked_Frog_Legs).
 Sprites: <Name>.png, the walk frames <Name>2a-c / 8a-c, <Name>_Swim2 / 8 (in the water: head and back above it),
 the resting pose (Otter_Sit, Seal_Lie); the items. (Croak.wav and Seal_Bark.wav: build_voices.py CALLS.)
@@ -404,16 +404,16 @@ def scripts():
 
 # ---------------------------------------------------------------- where they live
 PLACES = [   # map, the zone (tiles: water and the bank by it), how many of what
-    ("1,3,0", (14, 2, 24, 8), "Seal", 2),          # (Northport's harbour and its beach)
-    ("3,3,0", (14, 11, 21, 19), "Otter", 2),       # (the river past Ashford)
-    ("3,4,0", (9, 15, 14, 20), "Frog", 2),         # (Ashford's lily pond)
-    ("1,7,0", (6, 4, 18, 12), "Otter", 1),         # (the Saltmarsh)
+    ("1,3,0", (14, 2, 24, 8), "Seal", 2),          # (Drizzleport's harbour and its beach)
+    ("3,3,0", (14, 11, 21, 19), "Otter", 2),       # (the river past Puddleford)
+    ("3,4,0", (9, 15, 14, 20), "Frog", 2),         # (Puddleford's lily pond)
+    ("1,7,0", (6, 4, 18, 12), "Otter", 1),         # (the Brinebottom)
     ("1,7,0", (6, 4, 18, 12), "Frog", 2),
 ]
 
 
 def isle_pond():
-    """The Isle's pond (Id=Isle_Pond on 2,1,0), round it."""
+    """Muddlesey's pond (Id=Isle_Pond on 2,1,0), round it."""
     m = Map("2,1,0")
     for ln in m.ents:
         p = ln.split("\t")

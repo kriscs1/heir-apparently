@@ -32,5 +32,5 @@
 31	Update.Attribute	GuardQuest	=4
 32	Display.Conversation	Chancellor	The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	Thank you, Chancellor.	35
 33	End
-34	Display.Conversation	Chancellor	The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	Goodbye.	35
+34	Display.Conversation	Chancellor	The Parliament of Brambleton will return from Drizzleport, now the road is open. There is much to do.	Goodbye.	35
 35	End

@@ -1192,7 +1192,7 @@ def test_a_servers_name_is_what_its_given_and_never_a_containers_number(monkeypa
 
 def test_the_ticket_says_whether_a_player_has_the_full_game(tmp_path, monkeypatch):
     """The central server's word, with the ticket (dsengine/demo.py): no demo till it says there is one; then an account
-    without the full game plays the Isle, one with it everything, and a friend of one who has it while they're both
+    without the full game plays Muddlesey, one with it everything, and a friend of one who has it while they're both
     in the game (the Friend Pass); the last it said counts for a reload without a ticket."""
     async def go():
         runner, app, url = await start(str(tmp_path / "t.db"))
@@ -1233,7 +1233,7 @@ def test_the_ticket_says_whether_a_player_has_the_full_game(tmp_path, monkeypatc
                         break
                     await asyncio.sleep(0.05)
                 game.friend_passes()
-                assert not s.friend_pass and s.demo()                       # (gone: on the Isle, the demo at once)
+                assert not s.friend_pass and s.demo()                       # (gone: on Muddlesey, the demo at once)
                 await ws.close()
                 assert game.store.setting("full:buyer") == "1"
                 ws, m = await login(http, url, "Buyer", mode="login")       # (a reload by the device: no ticket)
@@ -1285,7 +1285,7 @@ def test_an_apps_own_game_is_the_full_game_for_its_guests_while_its_host_owns_it
                         break
                     await asyncio.sleep(0.05)
                 game.friend_passes()
-                assert not g.friend_pass and g.demo()                       # (gone: the demo again, on the Isle)
+                assert not g.friend_pass and g.demo()                       # (gone: the demo again, on Muddlesey)
                 await wg.close()
         finally:
             await runner.cleanup()

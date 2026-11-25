@@ -21,9 +21,9 @@ import build_places as PL
 W = C = R = None        # build_world, build_content, build_regions
 
 
-# Only a few shardstones, far apart, and none on the Isle: Ashford (the Southlands), Highwatch (the middle of the
-# Wildlands), Dunerest (the desert's edge) and Thornwick (the Eastreach)
-SHARDSTONES = ("Ashford", "Highwatch", "Dunerest", "Thornwick", "Emberwatch")
+# Only a few shardstones, far apart, and none on Muddlesey: Puddleford (the Southlands), Squintwatch (the middle of the
+# Wildlands), Dunerest (the desert's edge) and Nettlewick (the Eastreach)
+SHARDSTONES = ("Puddleford", "Squintwatch", "Dunerest", "Nettlewick", "Emberwatch")
 
 
 def town_spots():
@@ -34,9 +34,9 @@ def town_spots():
 def all_spots():
     """Key -> (label, map, shardstone tile, arrival tile) for every place that could have a shardstone."""
     out = {
-        "Isle": ("The Isle", "1,1,0", (13, 11), (13, 12)),
-        "Northport": ("Northport", "1,3,0", (16, 11), (13, 11)),
-        "Ashford": ("Ashford", "2,3,0", (10, 13), (10, 12)),
+        "Isle": ("Muddlesey", "1,1,0", (13, 11), (13, 12)),
+        "Drizzleport": ("Drizzleport", "1,3,0", (16, 11), (13, 11)),
+        "Puddleford": ("Puddleford", "2,3,0", (10, 13), (10, 12)),
         "Keep": ("Tyron's Keep", "2,4,0", (11, 19), (13, 20)),
     }
     import build_eastreach
@@ -52,7 +52,7 @@ def all_spots():
 
 
 def short_name(label):
-    """"The Isle" -> "Isle", so "the <name> shardstone" reads right."""
+    """"Muddlesey" -> "Isle", so "the <name> shardstone" reads right."""
     return label[4:] if label.startswith("The ") else label
 
 
@@ -124,17 +124,17 @@ def quest_markers():
         "The Herbalist's Remedy": {1: mine},
         "The Dwarf's Grudge": {1: PL.marker("Deep_Seam_Troll", "2,4,-3 21 16")},
         "The Hermit's Fire": {1: PL.marker("Hermit_Hut", "0,1,0 17 4")},
-        "The Wildwood Watch": {1: ";".join(site("WatchStone%d" % k) for k in (1, 2, 3)), 2: town("Oakhollow"),
+        "The Wildwood Watch": {1: ";".join(site("WatchStone%d" % k) for k in (1, 2, 3)), 2: town("Acornby"),
                                3: site("SpiderNest")},
-        "Wolves of the Greyflats": {1: town("Greyford"), 2: site("WolfDen"), 3: town("Greyford")},
+        "Wolves of the Greyflats": {1: town("Dullford"), 2: site("WolfDen"), 3: town("Dullford")},
         "Bog Lights": {1: town("Fenwick"), 2: town("Fenwick", -7, 5, "Fenwick_Elder"), 3: town("Fenwick")},
-        "Bandits on the Road": {1: town("Highwatch"), 2: site("BanditCamp"), 3: town("Highwatch")},
+        "Bandits on the Road": {1: town("Squintwatch"), 2: site("BanditCamp"), 3: town("Squintwatch")},
         "The Lost Caravan": {1: site("CaravanWreck"), 2: town("Dunerest")},
-        "The Frozen Forge": {1: town("Frosthold"), 2: site("TrollLair"), 3: town("Frosthold")},
+        "The Frozen Forge": {1: town("Chillingham"), 2: site("TrollLair"), 3: town("Chillingham")},
         "The Dragon of Ashpeak": {1: PL.marker("Court_Wizard", "4,4,1 20 8"), 2: PL.marker("Dragon_Lair", "0,0,-9 13 6"),
                                   3: PL.marker("Lair_Portal", "0,0,-9 14 19")},
-        "The Withering Wood": {1: east_site("Heartwood"), 2: east_site("Heartwood"), 3: east_town("Thornwick")},
-        "The Barrow King": {1: east_site("Barrow"), 2: east_site("Barrow"), 3: east_town("Ravensgate")},
+        "The Withering Wood": {1: east_site("Heartwood"), 2: east_site("Heartwood"), 3: east_town("Nettlewick")},
+        "The Barrow King": {1: east_site("Barrow"), 2: east_site("Barrow"), 3: east_town("Crowgate")},
     }
 
 

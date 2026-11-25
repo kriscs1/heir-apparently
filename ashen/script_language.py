@@ -178,7 +178,7 @@ HELP = {
     'QUANTITY (+, - or =)': "The quantity to update the skill to or by:|Use: '=Q' '+Q' or '-Q' to set the quantity",
     'Update.Attribute': 'COMMAND: Updates the value of a player attribute',
     'Change.Standing': 'COMMAND: A town thinks better or worse of the player (dsengine/standing.py): a line and a sound|if their rank there changes',
-    'TOWN': 'A town: a section of data\\Towns.ini (Ashford, Court, Isle...), or Here for wherever the player is',
+    'TOWN': 'A town: a section of data\\Towns.ini (Puddleford, Court, Isle...), or Here for wherever the player is',
     'STANDING CHANGE': 'How much: +10 better, -8 worse (standing runs from -100, an Outlaw, to 100, Honoured)',
     'ATTRIBUTE NAME': 'The name of the attribute to update:|(Attribute names are assigned by you and stored in the save file)',
     'Edit.Entity': "COMMAND: Edits an entity's parameters",
@@ -347,7 +347,7 @@ VARIABLES = [
     ('$Item.Name', 'How many of the item Name the player has (carried plus equipped), e.g. $Item.Key>=1.'),
     ('$Skill.Name', "The player's level in the skill Name, e.g. $Skill.Mining>=10."),
     ('$Equipped.Slot', 'The item worn in Slot (Weapon, Shield, Head, Body, Legs, Feet, Hands, Ring), or none.'),
-    ('$Standing.Town', "A town's standing with the player, -100 to 100 (data\\Towns.ini: Outlaw, Distrusted, Stranger, Welcome at 20, Trusted at 45, Honoured at 75), e.g. $Standing.Ashford>=45; $Standing.Here is where they are."),
+    ('$Standing.Town', "A town's standing with the player, -100 to 100 (data\\Towns.ini: Outlaw, Distrusted, Stranger, Welcome at 20, Trusted at 45, Honoured at 75), e.g. $Standing.Puddleford>=45; $Standing.Here is where they are."),
     ('$Side.Name', "Good or Bad, as this player's Set.Side.Attitude made the side Name, or none if it never did, e.g. $Side.Smugglers=Good."),
 ]
 

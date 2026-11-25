@@ -2027,11 +2027,11 @@ function drawPvpBadge(ctx) {
 
 function drawDemoBadge(ctx, now) {
   // The demo, or a Friend Pass (dsengine/demo.py): under the Online line (and the PvP badge), what this character
-  // plays just now. A pass ending outside the Isle counts down to going back
+  // plays just now. A pass ending outside Muddlesey counts down to going back
   const d = S.me?.demo;
   if (!d || (!d.on && !d.pass)) return;
   const left = d.ends ? Math.max(0, Math.ceil((d.ends - (now - (S.boostAt || now))) / 1000)) : 0;
-  const text = d.on ? `Demo: the Isle, level ${d.level}` : left ? `Friend Pass: back to the Isle in ${left}s` :
+  const text = d.on ? `Demo: Muddlesey, level ${d.level}` : left ? `Friend Pass: back to Muddlesey in ${left}s` :
     d.from ? `Friend Pass: ${d.from}'s game` : "Friend Pass";
   const col = d.on ? [212, 191, 126] : left ? [255, 150, 120] : [255, 215, 90];
   const oy = S.me.pvp ? 92 : 72, w = textWidth(ctx, text, 8, true) + 12;

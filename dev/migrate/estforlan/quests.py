@@ -1,10 +1,10 @@
-"""The new mainland's side quests about Wardhaven, and the old chapter's words about it gone:
+"""The new mainland's side quests about Sulkhaven, and the old chapter's words about it gone:
 
-  * The Wardhaven Bridge (WardhavenQuest): after The Ashford Road, Mayor Hollis tells you goblins have taken the bridge
-    to Wardhaven and its guards have fled. The goblins are on the bridge only while you're at it (the gate's map's
+  * The Sulkhaven Bridge (SulkhavenQuest): after The Puddleford Road, Mayor Hollis tells you goblins have taken the bridge
+    to Sulkhaven and its guards have fled. The goblins are on the bridge only while you're at it (the gate's map's
     entry script puts them there, for you, as many as are left); kill four ($BridgeGoblins), tell the Mayor, and the
     gates open (their Lock) and the bridge guards are back at their posts whenever you come by again.
-  * The Dragonforge (DragonforgeQuest): once Galaith's dragon is dead, the Wyrmsmith of Wardhaven asks for three of its
+  * The Dragonforge (DragonforgeQuest): once Galaith's dragon is dead, the Wyrmsmith of Sulkhaven asks for three of its
     scales, makes you a dragonscale helm of them, and lets you use her forge from then on.
 """
 import os
@@ -22,19 +22,19 @@ def at(atlas, c):
 
 
 def bridge(atlas, info):
-    """The Wardhaven Bridge: its quest, the Mayor's words, the goblins' and the guards' entry script lines, the kills.
+    """The Sulkhaven Bridge: its quest, the Mayor's words, the goblins' and the guards' entry script lines, the kills.
     Returns {map: entry script rows}."""
-    K.quest("The Wardhaven Bridge", "Mayor", "WardhavenQuest", {
-        0: "Speak to Mayor Hollis in Ashford's Town Hall.",
-        1: "Goblins hold the bridge to Wardhaven, north of Ashford's farms, and its guards have fled. Clear the "
+    K.quest("The Sulkhaven Bridge", "Mayor", "SulkhavenQuest", {
+        0: "Speak to Mayor Hollis in Puddleford's Town Hall.",
+        1: "Goblins hold the bridge to Sulkhaven, north of Puddleford's farms, and its guards have fled. Clear the "
            "goblins off the bridge ($BridgeGoblins of %d)." % GOBLINS,
         2: "Tell Mayor Hollis the bridge is clear."}, 3,
-        markers={0: "Ashford_Town_Hall", 1: "Wardhaven_Bridge_Span", 2: "Ashford_Town_Hall"},
-        kind="Side", requires="The Ashford Road")
+        markers={0: "Puddleford_Town_Hall", 1: "Sulkhaven_Bridge_Span", 2: "Puddleford_Town_Hall"},
+        kind="Side", requires="The Puddleford Road")
     gate_map, _, _ = at(atlas, info["gate"])
     on_gate = [c for c in info["shore"] + info["bridge"] if atlas.at(*c)[0].name == gate_map]
     spots = [on_gate[int(i * (len(on_gate) - 1) / max(1, GOBLINS - 1))] for i in range(GOBLINS)]
-    rows = [("Get.Value", "ATTRIBUTE", "WardhavenQuest", "Variable.1$"),
+    rows = [("Get.Value", "ATTRIBUTE", "SulkhavenQuest", "Variable.1$"),
             (">Conditional", "$Variable.1=1", "@guards"),
             ("Get.Value", "ATTRIBUTE", "BridgeGoblins", "Variable.2$")]
     for i, c in enumerate(spots, 1):
@@ -53,40 +53,40 @@ def bridge(atlas, info):
     rows += [("@end",), ("End",)]
     K.write_script("Kill Goblin", [
         (">On.Map", gate_map, "@end"),
-        ("Get.Value", "ATTRIBUTE", "WardhavenQuest", "Variable.1$"),
+        ("Get.Value", "ATTRIBUTE", "SulkhavenQuest", "Variable.1$"),
         (">Conditional", "$Variable.1=1", "@end"),
         ("Update.Attribute", "BridgeGoblins", "+1"),
         ("Get.Value", "ATTRIBUTE", "BridgeGoblins", "Variable.2$"),
         (">Conditional", "$Variable.2>=%d" % GOBLINS, "@more"),
-        ("Update.Attribute", "WardhavenQuest", "=2"),
-        ("Display.Message", "Yellow", "The last goblin falls: the bridge to Wardhaven is clear. Tell the Mayor.",
+        ("Update.Attribute", "SulkhavenQuest", "=2"),
+        ("Display.Message", "Yellow", "The last goblin falls: the bridge to Sulkhaven is clear. Tell the Mayor.",
          "Quest"),
         ("End",),
         ("@more",), ("Display.Message", "Yellow", "Goblins cleared from the bridge: $Variable.2 of %d." % GOBLINS),
         ("@end",), ("End",)], MAKER)
     K.write_script("Kill Goblin_Archer", [("Goto.Script", "Kill Goblin")], MAKER)     # (they count the same)
-    K.write_script("Wardhaven Guard", [
+    K.write_script("Sulkhaven Guard", [
         K.say("Guard", "We ran when the goblins came over the bridge, and I'm not proud of it. Thanks to you we're back "
-                       "at our posts.\\Welcome to Wardhaven.", ("Thank you.", "@end")),
+                       "at our posts.\\Welcome to Sulkhaven.", ("Thank you.", "@end")),
         ("@end",), ("End",)], MAKER)
     mayor()
     return {gate_map: rows}
 
 
 def mayor():
-    """Mayor Hollis (Ashford's Town Hall): The Ashford Road as it was (build_heir_mainland.py wrote it), then The
-    Wardhaven Bridge."""
-    K.write_script("Talk to Ashford_Clerk_13", [
-        ("Get.Value", "ATTRIBUTE", "AshfordQuest", "Variable.1$"),
+    """Mayor Hollis (Puddleford's Town Hall): The Puddleford Road as it was (build_heir_mainland.py wrote it), then The
+    Sulkhaven Bridge."""
+    K.write_script("Talk to Puddleford_Clerk_13", [
+        ("Get.Value", "ATTRIBUTE", "PuddlefordQuest", "Variable.1$"),
         (">Conditional", "$Variable.1=0 and $Item.Parliament_Letter>=1", "@a1"),
-        (">Quest.Can.Start", "AshfordQuest", "@end"),
+        (">Quest.Can.Start", "PuddlefordQuest", "@end"),
         K.say("Mayor", "A letter from the Parliament? \"Every friend of the crown...\" Well, I'm a friend of the crown, "
                        "and I'd be a better one if the goblins would leave my farms alone.\\They come out of the hedges "
                        "east of town and carry off the hens. Drive them off for me, at the farm crossroads, and I'll "
                        "give you my pass for the Steward.", ("I'll deal with the goblins.", "@a0")),
         ("@a0",), ("Take.Item", "Parliament_Letter", "1"),        # (taken only once it's read: closed, it's kept)
-        ("Update.Attribute", "AshfordQuest", "=1"),
-        ("Display.Message", "Yellow", "Quest started: The Ashford Road.", "Quest"),
+        ("Update.Attribute", "PuddlefordQuest", "=1"),
+        ("Display.Message", "Yellow", "Quest started: The Puddleford Road.", "Quest"),
         ("Start.Wave", "Farm_Raid"),
         ("End",),
         ("@a1",), (">Conditional", "$Variable.1=1", "@a2"),
@@ -95,34 +95,34 @@ def mayor():
         ("@raid",), ("Start.Wave", "Farm_Raid"),
         ("End",),
         ("@a2",), (">Conditional", "$Variable.1=2", "@w"),
-        ("Update.Attribute", "AshfordQuest", "=3"),
+        ("Update.Attribute", "PuddlefordQuest", "=3"),
         ("Give.Item", "Mayors_Pass", "1"),
         K.say("Mayor", "Beaten them, have you? Then here's my pass. The Steward at King Rupert's Keep will see you "
                        "right.", ("Thank you, Mayor.", "@a3")),
-        ("@a3",), ("Display.Message", "Yellow", "Quest complete: The Ashford Road!", "Quest"),
+        ("@a3",), ("Display.Message", "Yellow", "Quest complete: The Puddleford Road!", "Quest"),
         ("End",),
-        ("@w",), ("Get.Value", "ATTRIBUTE", "WardhavenQuest", "Variable.2$"),
+        ("@w",), ("Get.Value", "ATTRIBUTE", "SulkhavenQuest", "Variable.2$"),
         (">Conditional", "$Variable.2=0", "@w1"),
-        (">Quest.Can.Start", "WardhavenQuest", "@chat"),
+        (">Quest.Can.Start", "SulkhavenQuest", "@chat"),
         K.say("Mayor", "There's worse news, I'm afraid. Goblins have come up from the farms and taken the bridge to "
-                       "Wardhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\\Clear "
+                       "Sulkhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\\Clear "
                        "them off the bridge, would you? It's north of the farms.", ("I'll clear the bridge.", "@w0"),
               ("Not now.", "@end")),
-        ("@w0",), ("Update.Attribute", "WardhavenQuest", "=1"),
-        ("Display.Message", "Yellow", "Quest started: The Wardhaven Bridge.", "Quest"),
+        ("@w0",), ("Update.Attribute", "SulkhavenQuest", "=1"),
+        ("Display.Message", "Yellow", "Quest started: The Sulkhaven Bridge.", "Quest"),
         ("End",),
         ("@w1",), (">Conditional", "$Variable.2=1", "@w2"),
-        K.say("Mayor", "The goblins are still on the Wardhaven bridge, north of the farms.", ("I'm on my way.", "@end")),
+        K.say("Mayor", "The goblins are still on the Sulkhaven bridge, north of the farms.", ("I'm on my way.", "@end")),
         ("End",),
         ("@w2",), (">Conditional", "$Variable.2=2", "@chat"),
-        ("Update.Attribute", "WardhavenQuest", "=3"),
+        ("Update.Attribute", "SulkhavenQuest", "=3"),
         ("Give.Item", "Gold_Coin(s)", "80"),
         K.say("Mayor", "The bridge is clear? Then I'll send word, and the guards will be back at their posts by the time "
-                       "you're there. Wardhaven's gates will open to you. Here, for your trouble.",
+                       "you're there. Sulkhaven's gates will open to you. Here, for your trouble.",
               ("Thank you, Mayor.", "@w3")),
-        ("@w3",), ("Display.Message", "Yellow", "Quest complete: The Wardhaven Bridge! You receive 80 gold.", "Quest"),
+        ("@w3",), ("Display.Message", "Yellow", "Quest complete: The Sulkhaven Bridge! You receive 80 gold.", "Quest"),
         ("End",),
-        ("@chat",), K.say("Mayor", "Ashford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.",
+        ("@chat",), K.say("Mayor", "Puddleford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.",
                           ("Goodbye.", "@end")),
         ("@end",), ("End",)], MAKER)
 
@@ -130,9 +130,9 @@ def mayor():
 def dragonforge():
     """The Dragonforge: the Wyrmsmith's quest, after Galaith's dragon."""
     K.quest("The Dragonforge", "Wyrmsmith", "DragonforgeQuest", {
-        0: "Speak to the Wyrmsmith in Wardhaven.",
-        1: "Bring the Wyrmsmith of Wardhaven three scales of Galaith's dragon."}, 2,
-        markers={0: "Wardhaven_Wyrmsmith", 1: "Wardhaven_Wyrmsmith"}, kind="Side", requires="The Dragon of Galaith")
+        0: "Speak to the Wyrmsmith in Sulkhaven.",
+        1: "Bring the Wyrmsmith of Sulkhaven three scales of Galaith's dragon."}, 2,
+        markers={0: "Sulkhaven_Wyrmsmith", 1: "Sulkhaven_Wyrmsmith"}, kind="Side", requires="The Dragon of Galaith")
     K.write_script("Talk to Wyrmsmith", [
         ("Get.Value", "ATTRIBUTE", "DragonforgeQuest", "Variable.1$"),
         (">Conditional", "$Variable.1=0", "@d1"),
@@ -175,17 +175,17 @@ def dragonforge():
 
 
 def leftovers():
-    """The old chapter's words about Wardhaven (Ignaroth, twelve years behind its walls): gone."""
-    K.section(K.ENTS, "Wyrmsmith", [("Examine.Info", "The Wyrmsmith of Wardhaven: she keeps a forge hot enough to "
+    """The old chapter's words about Sulkhaven (Ignaroth, twelve years behind its walls): gone."""
+    K.section(K.ENTS, "Wyrmsmith", [("Examine.Info", "The Wyrmsmith of Sulkhaven: she keeps a forge hot enough to "
                                                      "work dragon scale.")])
     K.section(K.ENTS, "Dragon_Scale", [("Examine.Info", "A scale from the hide of Galaith's dragon, still warm. "
                                                         "No ordinary fire will touch it.")])
     path = os.path.join(K.SCRIPTS, "Talk to Settler.script")
     text = open(path, "rb").read().decode("cp1252")
     old = ("Twelve years behind these walls, and now Ignaroth is dead! They say it was you. Drinks are on the house "
-           "at every table in Wardhaven.")
+           "at every table in Sulkhaven.")
     new = ("Goblins on the bridge and the guards run off: we thought we'd starve out here. They say it was you who "
-           "cleared them. Drinks are on the house at every table in Wardhaven!")
+           "cleared them. Drinks are on the house at every table in Sulkhaven!")
     if old in text:
         open(path, "wb").write(text.replace(old, new).encode("cp1252"))
     statue = os.path.join(K.SCRIPTS, "Examine Hero_Statue.script")

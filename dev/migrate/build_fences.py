@@ -4,7 +4,7 @@
     [Fence.<rack>] a fence's own (Red Meg: better, and best to those on her side). Only the keys missing are added.
   * data\\ItemRacks.ini: Fence=1 on Red Meg's goods, and the two new fences' own.
   * The smugglers' side (Side=Smugglers: the Smuggler kind and Red Meg), for Red Meg's best price.
-  * The fences: Wick, who walks Northport's docks at night (the man who was already there), and Old Sully in the corner
+  * The fences: Wick, who walks Drizzleport's docks at night (the man who was already there), and Old Sully in the corner
     of a Galaith tavern (-7,15,0), each with their Talk script. An honest shopkeeper who won't buy stolen goods says
     where they'd sell ([Fence] Hint, Hint.<Town>); townsfolk's talk of them is build_banter.py's.
 
@@ -25,9 +25,9 @@ MAKER = "build_fences.py"
 FENCE = [   # data\Thieving.ini: (section, key, value, what it means)
     ("Fence", "Rate", "0.5", "What a fence gives for stolen goods (its rack has Fence=1): this share of an honest "
                              "shop's price; its own, [Fence.<rack>] (Side.Rate: to those on its side)"),
-    ("Fence", "Hint", "Folk say there's a man on Northport's docks after dark who doesn't ask questions.",
+    ("Fence", "Hint", "Folk say there's a man on Drizzleport's docks after dark who doesn't ask questions.",
      "What an honest shopkeeper says of where it would sell; Hint.<Town>, in that town"),
-    ("Fence", "Hint.Northport", "Try the docks after dark, if you must. Not here.", None),
+    ("Fence", "Hint.Drizzleport", "Try the docks after dark, if you must. Not here.", None),
     ("Fence", "Hint.Galaith", "Old Sully, in the tavern's corner, if you must. Not here.", None),
     ("Fence.SHOP-Smugglers", "Rate", "0.6", "Red Meg"),
     ("Fence.SHOP-Smugglers", "Side", "Smugglers", None),
@@ -35,13 +35,13 @@ FENCE = [   # data\Thieving.ini: (section, key, value, what it means)
 ]
 
 RACKS = {
-    "SHOP-Fence_Northport": ["Type=Shop", "Buy.Rate=1.3", "Sell.Rate=0.8", "Specific=0", "Fence=1",
+    "SHOP-Fence_Drizzleport": ["Type=Shop", "Buy.Rate=1.3", "Sell.Rate=0.8", "Specific=0", "Fence=1",
                              "Item1=Silver_Ring,1", "Item2=Sapphire,1", "Item3=Owl_Potion,2"],
     "SHOP-Fence_Galaith": ["Type=Shop", "Buy.Rate=1.3", "Sell.Rate=0.8", "Specific=0", "Fence=1",
                            "Item1=Gold_Ring,1", "Item2=Silver_Ring,2", "Item3=Emerald,1"],
 }
 
-WICK = "NPC\tMan\t512\t256\tAttitude=Good Zone=14,7,24,9 Schedule=Night"      # (Northport's docks, by night)
+WICK = "NPC\tMan\t512\t256\tAttitude=Good Zone=14,7,24,9 Schedule=Night"      # (Drizzleport's docks, by night)
 SULLY = ("NPC\tMan\t704\t216\tAttitude=Good Stand=1 Face=W Schedule=Always Id=Galaith_Fence Name=Old_Sully "
          "Look=0")                                                             # (as drawn: all in dark cloth)
 
@@ -68,10 +68,10 @@ def racks():
 
 def place():
     m = Map("4,4,0")
-    if not K.has_id(m, "Northport_Fence"):
+    if not K.has_id(m, "Drizzleport_Fence"):
         at = [i for i, ln in enumerate(m.ents) if ln.startswith(WICK)]
         assert at, "4,4,0: the man on the docks at night isn't there"
-        m.ents[at[0]] = WICK + " Id=Northport_Fence Name=Wick"
+        m.ents[at[0]] = WICK + " Id=Drizzleport_Fence Name=Wick"
         m.save()
         print("4,4,0: Wick, on the docks at night")
     m = Map("-7,15,0")
@@ -82,12 +82,12 @@ def place():
 
 
 def scripts():
-    K.write_script("Talk to Northport_Fence", [
+    K.write_script("Talk to Drizzleport_Fence", [
         K.say("Man", "Evening. Not many come down the docks this late with nothing to sell.\\I don't ask where a "
                       "thing's been, and I don't remember faces. It costs you a little off the price, that's all.",
               ("Let's see what you'll give me.", "@shop"), ("Goodbye.", "@end")),
         ("@shop",),
-        ("Display.Item.Rack", "GENERAL", "Man", "SHOP-Fence_Northport", "@end"),
+        ("Display.Item.Rack", "GENERAL", "Man", "SHOP-Fence_Drizzleport", "@end"),
         ("@end",),
         ("End",),
     ], MAKER)

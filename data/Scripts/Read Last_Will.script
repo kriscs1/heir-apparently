@@ -7,5 +7,5 @@
 06	>Conditional	$Variable.1<2	10
 07	Update.Attribute	LastWill	=2
 08	Display.Message	Yellow	Quest complete: The Last Will.	Quest
-09	Display.Message	Cyan	The door to your house is unlocked now, and the Isle lies before you.	-
+09	Display.Message	Cyan	The door to your house is unlocked now, and Muddlesey lies before you.	-
 10	End

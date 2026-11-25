@@ -5,7 +5,7 @@
     lead his men in (Holt's way: SmugglerSide 2): the smugglers are your foes, four of them must fall (your men's kills
     count as yours: npcs.npc_killed_by_npc), and Meg gets away by sea.
   * Meg's way: Holt pays and thinks less of you (Court standing); Meg's camp is yours (a cot, a stash that's your bank,
-    a trapdoor to a tunnel coming up in Ashford's fields), and she has a job: Under the Tide, a cask carried past the
+    a trapdoor to a tunnel coming up in Puddleford's fields), and she has a job: Under the Tide, a cask carried past the
     watch in the Wizards' Court (watchmen with Spotted.Script=Watch_Search take it if they see you).
   * Holt's way: the Court thinks better of you, the watch's quartermaster sells to you (SHOP-Watch), and Holt has a
     last job: The Tide Turns, rowing out to the sandbar where Meg hides, and bringing her in.
@@ -157,8 +157,8 @@ PLACES = {   # map: [(an Id or a test that finds the line, the line)]
                                          "Id=Watch_Quartermaster Name=Quartermaster_Brand", dy=-8)),
     ],
     FIELDS: [
-        ("Meg_Tunnel_Ashford", obj_line("StaticObject", "Smugglers_Trapdoor", 5, 18,
-                                        "Id=Meg_Tunnel_Ashford Here.After=SmugglerSide:1")),
+        ("Meg_Tunnel_Puddleford", obj_line("StaticObject", "Smugglers_Trapdoor", 5, 18,
+                                        "Id=Meg_Tunnel_Puddleford Here.After=SmugglerSide:1")),
     ],
 }
 PLACE_IDS = {SANDBAR: [("Megs_Sandbar", 13, 4)], COURT: [("Castle_Cellar", 7, 13)]}
@@ -270,14 +270,14 @@ def meg():
         (">Conditional", "$Variable.2=1", "@plain"),
         get("BanditQuest", 4),                                         # (Hale's stolen goods: a friend's price)
         (">Conditional", "$Variable.4=3 and $Item.Stolen_Goods>=1", "@job"),
-        say("What's that you're carrying? Frosthold's goods, off the Redrock road, unless I miss my guess.\\Hale will "
-            "give you a pat on the back for them. I'll give you 300 gold, and nobody in Frosthold need ever know "
+        say("What's that you're carrying? Chillingham's goods, off the Redrock road, unless I miss my guess.\\Hale will "
+            "give you a pat on the back for them. I'll give you 300 gold, and nobody in Chillingham need ever know "
             "where they went.", ("Sell them to Meg.", "@goods"), ("They're going back to Hale.", "@end")),
         ("End",),
         ("@goods",), ("Take.Item", "Stolen_Goods", "1"), ("Give.Item", "Gold_Coin(s)", "300"),
         ("Update.Attribute", "BanditWay", "=2"), ("Update.Attribute", "BanditQuest", "=4"),
         ("Quest.Note.Done", "BanditQuest", "*"),
-        msg("Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Frosthold won't thank you."),
+        msg("Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Chillingham won't thank you."),
         ("End",),
         ("@job",), get("UnderTideQuest", 3), (">Conditional", "$Variable.3=0", "@under1"),
         (">Quest.Can.Start", "UnderTideQuest", "@plain"),               # (not till Holt's been sent the wrong way)
@@ -408,10 +408,10 @@ def scripts():
         ("@end",), ("End",),
     ], MAKER)
     K.write_script("Climb Down Meg_Tunnel_Cove", [
-        msg("You crawl the length of Meg's tunnel, and come up in a field outside Ashford.", "Cyan"),
+        msg("You crawl the length of Meg's tunnel, and come up in a field outside Puddleford.", "Cyan"),
         ("Teleport", px(6, 18), FIELDS), ("End",),
     ], MAKER)
-    K.write_script("Climb Down Meg_Tunnel_Ashford", [
+    K.write_script("Climb Down Meg_Tunnel_Puddleford", [
         msg("You crawl the length of Meg's tunnel, and come up in her camp.", "Cyan"),
         ("Teleport", px(10, 12), COVE), ("End",),
     ], MAKER)

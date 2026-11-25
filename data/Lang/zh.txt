@@ -5,20 +5,20 @@ Name=简体中文
 Galaith, the royal city. Its white towers shine over the rooftops.	Galaith，王都。它的白色塔楼在屋顶上方闪耀。
 The arena! Step onto the sand to fight other players (right-click them: Attack). The paving is safe. Beaten, you lose nothing: you wake by the gate.	竞技场！踏上沙地就能和其他玩家战斗（右键点击他们：攻击）。铺路的地方是安全的。被打败了你什么也不会失去：你会在大门旁醒来。
 A damp cellar. The far wall has fallen in, and something squeaks in the dark.	一间潮湿的地窖。远处的墙塌了，黑暗中有东西在吱吱叫。
-Ashford. You smell fresh bread.	Ashford。你闻到了新鲜面包的香味。
-Saltmarsh. The tide hisses in the reeds.	Saltmarsh。潮水在芦苇丛中嘶嘶作响。
-Ashford.	Ashford。
-The farmlands of Ashford.	Ashford 的农田。
-Greyford.	Greyford。
-Wardhaven, on its island.	Wardhaven，在它的岛上。
+Puddleford. You smell fresh bread.	Puddleford。你闻到了新鲜面包的香味。
+Brinebottom. The tide hisses in the reeds.	Brinebottom。潮水在芦苇丛中嘶嘶作响。
+Puddleford.	Puddleford。
+The farmlands of Puddleford.	Puddleford 的农田。
+Dullford.	Dullford。
+Sulkhaven, on its island.	Sulkhaven，在它的岛上。
 Cold air, flagstones, and a smell of old barrels.	冷空气，石板地，还有一股陈年木桶的味道。
-Frosthold. Your breath steams in the cold.	Frosthold。你的呼吸在寒气中冒着白雾。
+Chillingham. Your breath steams in the cold.	Chillingham。你的呼吸在寒气中冒着白雾。
 Sergeant Holt's men are through the camp's gate.	Holt 中士的人已经冲进了营地的大门。
-The grotto under the Isle. Water drips into a black pool.	小岛下的洞穴。水滴进一个漆黑的水池。
+The grotto under Muddlesey. Water drips into a black pool.	小岛下的洞穴。水滴进一个漆黑的水池。
 Torchlight, bones and the stink of hobgoblin: their lair!	火把的光、骨头，还有大地精的臭味：它们的巢穴！
 Wildwood.	Wildwood。
 The Wizards' Court. The air tingles with magic.	巫师庭。空气中弥漫着魔法的刺痛感。
-Thornwick.	Thornwick。
+Nettlewick.	Nettlewick。
 The wizard's study. Strange smells drift from the bubbling vials.	巫师的书房。冒泡的药瓶里飘出奇怪的气味。
 The old iron mine. The air is cold and smells of rust.	旧铁矿。空气冰冷，有股铁锈味。
 Something growls in the dark tunnels ahead.	前方黑暗的隧道里有东西在咆哮。
@@ -31,8 +31,8 @@ The Cinder Peaks. The air shimmers over the lava, and somewhere above, men are c
 Emberwatch, the last town before the Cinder Peaks. Smoke on the wind.	Emberwatch，Cinder Peaks 前的最后一座小镇。风中有烟。
 Dry air, old paper, and something shuffling between the shelves.	干燥的空气，陈旧的纸张，还有东西在书架间拖着脚步走动。
 Dunerest, at the desert's edge.	Dunerest，在沙漠的边缘。
-Northport. Gulls wheel over the harbour.	Northport。海鸥在港口上空盘旋。
-Oakhollow.	Oakhollow。
+Drizzleport. Gulls wheel over the harbour.	Drizzleport。海鸥在港口上空盘旋。
+Acornby.	Acornby。
 Bramble's woodcutters are in the grove, axes ready.	Bramble 的伐木工已经在林子里了，斧头准备就绪。
 Alchemy: pick herbs, berries and mushrooms, and brew potions at an alchemy table.	炼金：采摘草药、浆果和蘑菇，然后在炼金台上酿造药水。
 The last of the three, burning blue like the others. In the ash round it there are footprints, a lot of them, going off towards the Hand's camp.	三座中的最后一座，和其他的一样燃着蓝火。它周围的灰烬里有脚印，很多脚印，朝灰烬之手的营地走去。
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	你需要伐木 18 级才能砍�
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	吟唱声，还有燃烧的气味。院子里，一个长袍冒着烟、手指上戴着火焰戒指的祭司，正带领灰烬之手唱一首献给龙的圣歌。似乎没有人知道第二段。
 You lift the hatch and climb down into the dark. Somewhere below, boots.	你掀开舱口，爬下去进入黑暗。下面某处，有靴子的声音。
 The hatch is locked.	舱口锁着。
-You climb down the ladder, into the caves under the Isle.	你顺着梯子爬下去，进入小岛下的洞穴。
+You climb down the ladder, into the caves under Muddlesey.	你顺着梯子爬下去，进入小岛下的洞穴。
 You go down the steps, into the cellar.	你走下台阶，进入地窖。
 You climb down the ladder.	你顺着梯子爬下去。
 The hatch is shut, and it isn't yours to open.	舱口关着，而且不是你能打开的。
@@ -134,7 +134,7 @@ You go down the steps, into the dark under the sand.	你走下台阶，进入沙
 You climb down into a small stone room. The sea is very close, the other side of the wall.	你爬下去，进入一间小石室。大海非常近，就在墙的另一边。
 The hatch won't move.	舱口纹丝不动。
 You crawl the length of Meg's tunnel, and come up in her camp.	你爬完了梅格的整条地道，从她的营地里冒了出来。
-You crawl the length of Meg's tunnel, and come up in a field outside Ashford.	你爬完了梅格的整条地道，从 Ashford 外的一片田里冒了出来。
+You crawl the length of Meg's tunnel, and come up in a field outside Puddleford.	你爬完了梅格的整条地道，从 Puddleford 外的一片田里冒了出来。
 The slab tips on a pin, and there are steps under it, cut in the rock. Down below, people are singing.	石板绕着一根轴翻转过来，下面有台阶，凿在岩石里。下面，有人在唱歌。
 You go down the stairs.	你走下楼梯。
 You promised Maren: not until Brother Aldous says you're ready.	你答应过 Maren：要等 Aldous 修士说你准备好了才行。
@@ -152,7 +152,7 @@ You climb up through the barrel, and out by the lake.	你从木桶里爬上去�
 You push up a hatch behind stacked cargo... a palisade, tents, a campfire: a smugglers' camp! Keep out of their sight.	你推开堆着的货物后面的一个舱口……一道栅栏、帐篷、一堆营火：一个走私者的营地！别让他们看见你。
 You feel around in the straw...	你在稻草里摸索...
 ...and find a fresh egg!	...找到了一个新鲜的鸡蛋！
-Crafting: smelt ore and forge tools at a furnace or anvil (the Ashford smithy, Brokk's hall); shear sheep, then tan, spin and make jewellery at a workbench.	制作：在熔炉或铁砧上冶炼矿石和锻造工具（Ashford 的铁匠铺，Brokk 的大厅）；剪羊毛，然后在工作台上鞣皮、纺线和制作珠宝。
+Crafting: smelt ore and forge tools at a furnace or anvil (the Puddleford smithy, Brokk's hall); shear sheep, then tan, spin and make jewellery at a workbench.	制作：在熔炉或铁砧上冶炼矿石和锻造工具（Puddleford 的铁匠铺，Brokk 的大厅）；剪羊毛，然后在工作台上鞣皮、纺线和制作珠宝。
 You dug up Tobin's strongbox. Tell Salt Agnes.	你挖出了 Tobin 的保险箱。告诉 Salt Agnes。
 Under the stones, a strongbox gone green at the corners. Tobin's. He'd want somebody to have it.	石头下面有一个角上已经发绿的保险箱。是 Tobin 的。他会希望有人拿到它。
 Stones, on top of stones. Whoever piled them here meant them to stay.	石头，一块叠着一块。把它们堆在这里的人，是想让它们留在这里的。
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	你下到矿井里：墙�
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	你钻进隧道。前方某处有水在滴，还有东西在沙沙作响。
 You duck into the tunnel. The fen's damp follows you in.	你钻进隧道。沼泽的湿气跟着你钻了进来。
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	“一个陌生人，在屏障升起的那个冬天被发现倒在屏障脚下。这座城市把他当作自己人安葬了。”
-'Agnes Reed. She mended every net on the Isle and swore at every gull.'	“Agnes Reed。她补过小岛上的每一张网，骂过每一只海鸥。”
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	“Agnes Reed。她补过小岛上的每一张网，骂过每一只海鸥。”
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	“Aldwin，高地的牧羊人。他的羊群比他多活了一个冬天。”
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	“竖琴的 Beatrix。贵族区请她别弹了。她没有停。”
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	“Bram，铁匠。他的锤子和他葬在一起，好让他在另一边也能修东西。”
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	�
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	“行会会长 Pryce。生前他掌管行会的账目；死后，但愿他能管住自己的脾气。”
 Two names in a ring of carved ivy: Hal and Bryony.	一圈雕刻的常春藤里有两个名字：Hal 和 Bryony。
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	“Hal，港口的守门人。他等了二十年，等一艘可以放进来的船。”
-'Hester Bell, midwife. Half the Isle came into the world through her hands.'	“Hester Bell，接生婆。小岛上一半的人是经她的手来到这个世界的。”
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	“Hester Bell，接生婆。小岛上一半的人是经她的手来到这个世界的。”
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	“我爱这些山丘。把我葬在能看见它们的地方。”这块石头朝着日出。
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	“Hobb Vintner，他卖了五十年全城最难喝的酒，人们非常怀念他。”
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	“Isolde Ashby 夫人。她把财产留给了小镇，把脾气留给了她儿子。”
@@ -218,14 +218,14 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	上面�
 'Little Wren, aged six. Gone to chase the butterflies.'	“小 Wren，六岁。追蝴蝶去了。”
 'Marta of the Quays. She could gut a herring at forty paces.'	“码头的 Marta。她能在四十步外剖开一条鲱鱼。”
 'Martha Lark, who sang at every burial in this yard but her own.'	“Martha Lark，她在这片墓地的每一场葬礼上都唱过歌，除了她自己的。”
-'Mary Croft, beloved mother. She baked the best pies on the Isle.'	“Mary Croft，挚爱的母亲。她烤的馅饼是小岛上最好的。”
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	“Mary Croft，挚爱的母亲。她烤的馅饼是小岛上最好的。”
 So mossed over you can't read it. A wren has nested on top.	长满了苔藓，读不出来了。一只鹪鹩在上面筑了巢。
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	“Ned Pike，渡船夫。在海峡上来回四十年，从没丢过一位乘客。”
 A bow is carved on it, and one word in the old tongue: 'Steady.'	上面刻着一把弓，还有一个古语单词：“稳住。”
 'Old Godwin, sexton of this yard. He mowed it for forty years and asks you to keep off the grass.'	“老 Godwin，这片墓地的教堂司事。他在这里割了四十年草，请你不要践踏草坪。”
 'Old Wat, who lived alone and liked it. Leave him be.'	“老 Wat，他一个人住，而且喜欢这样。别打扰他。”
 'Osric Raven, first gravekeeper of the Barrowdowns. He dug his own, and dug it well.'	“Osric Raven，Barrowdowns 的第一位守墓人。他给自己挖了墓，挖得很好。”
-A raven is carved where a name should be: the mark of Ravensgate, a town long gone.	本该刻名字的地方刻着一只渡鸦：Ravensgate 的标记，一座早已消失的小镇。
+A crow is carved where a name should be: the mark of Crowgate, a town long gone.	本该刻名字的地方刻着一只渡鸦：Crowgate 的标记，一座早已消失的小镇。
 'Here lies one who walked every road on the downs, and rests at last beside this one.'	“这里安息着一个走遍高地每一条路的人，最后在这条路旁安息。”
 'The Rowan twins. Born together, buried together. One stone was always enough.'	“Rowan 双胞胎。一起出生，一起下葬。一块石头总是够用的。”
 'Sister Oona, who nursed the city through the Grey Winter and caught it last of all.'	“Oona 修女，她在灰色寒冬中照顾全城的人，最后一个染上了病。”
@@ -254,7 +254,7 @@ A royal cot, carved with little dragons. Every heir of Galaith slept in it, for 
 'Sunniva, firstborn of Queen Ysolde. Taken on her wedding morning.' A ring of dried flowers, kept new.	“Sunniva，Ysolde 王后的长女。在她婚礼的早晨被带走。”一圈干花，一直换着新的。
 A small new stone, and nothing cut in it yet. The grass round it is the shortest in the yard.	一块新的小石头，上面还什么都没刻。它周围的草是整片墓地里最短的。
 The farmer waves his hat at you: "Come back any time those goblins do!"	农夫冲你挥着帽子：“那些哥布林什么时候再来，你就什么时候再来！”
-The Ashford Road: tell the Mayor the goblins are beaten.	Ashford 之路：告诉镇长哥布林被打败了。
+The Puddleford Road: tell the Mayor the goblins are beaten.	Puddleford 之路：告诉镇长哥布林被打败了。
 The cat eats the raw herring in neat little bites, then washes its whiskers.	猫小口小口地把生鲱鱼吃完，然后洗了洗胡子。
 The cat eats the raw trout in neat little bites, then washes its whiskers.	猫小口小口地把生鳟鱼吃完，然后洗了洗胡子。
 The cat eats the raw salmon in neat little bites, then washes its whiskers.	猫小口小口地把生鲑鱼吃完，然后洗了洗胡子。
@@ -356,7 +356,7 @@ You've heard enough. The Warden in Emberwatch will want to know.	你听够了。
 Voices by the Hand's fire, too low to make out. You'd hear more if you came quietly.	灰烬之手的火旁有说话声，太低了听不清。要是你悄悄靠近，就能听到更多。
 You cut an armful of wheat...	你割下一抱小麦...
 ...and tie it into a sheaf.	...把它扎成一捆。
-The Heartwood is north-east of Thornwick, where the yews are oldest.	心木石在 Thornwick 东北边，那里的紫杉最古老。
+The Heartwood is north-east of Nettlewick, where the yews are oldest.	心木石在 Nettlewick 东北边，那里的紫杉最古老。
 Touch the heart stone, then tell the Druid what you feel.	触摸心之石，然后告诉德鲁伊你感觉到了什么。
 Slay four maddened bears in the Elderwood.	在 Elderwood 杀死四头发狂的熊。
 The heart stone is cold as a grave... and from the trees, a bear roars. Slay four maddened bears.	心之石冷得像坟墓……树林里传来一声熊吼。杀死四头发狂的熊。
@@ -366,7 +366,7 @@ The wall isn't there. Behind it, a low way runs off under the houses, smelling o
 You lean on the crystal wall and it isn't there. Light, a lot of it, and a hush like held breath.	你靠在水晶墙上，它却不在那里。光，很多的光，还有一种屏住呼吸般的寂静。
 Homesteading: build on your homestead, and sow and harvest crops.	家园建造：在你的家园上建造，播种和收获作物。
 Slay the Alpha Wolf, the great black brute leading the pack.	杀死头狼，那头率领狼群的巨大黑色野兽。
-The Alpha Wolf is dead! Return to the shepherd in Greyford.	头狼死了！回到 Greyford 的牧羊人那里。
+The Alpha Wolf is dead! Return to the shepherd in Dullford.	头狼死了！回到 Dullford 的牧羊人那里。
 Killed what you came to kill.	杀死了你要杀的东西。
 That's the last of them: go back to Warden Oska.	那是最后一个了：回到守望者 Oska 那里。
 The acolyte crumples into the ash.	侍僧倒在了灰烬里。
@@ -374,11 +374,11 @@ The Ashen Priest falls, and the Ember Ring rolls from his finger, glowing like a
 Something else falls from his robe: a little ledger, bound in black.	他的长袍里还掉出了别的东西：一本小账本，黑色封皮。
 Bandits slain for Captain Hale: $Variable.2 of 5.	为 Hale 队长杀死的强盗：$Variable.2 / 5。
 Bandits rob travellers on the Redrock road and in the hills: slay five.	强盗在 Redrock 路上和丘陵里抢劫旅人：杀死五个。
-Report to Captain Hale in Frosthold.	向 Frosthold 的 Hale 队长报告。
-Five bandits! Report to Captain Hale in Frosthold.	五个强盗！向 Frosthold 的 Hale 队长报告。
+Report to Captain Hale in Chillingham.	向 Chillingham 的 Hale 队长报告。
+Five bandits! Report to Captain Hale in Chillingham.	五个强盗！向 Chillingham 的 Hale 队长报告。
 The Barrow King crumbles to dust. Return to the Gravekeeper at King Rupert's Keep.	古冢之王化为了尘土。回到鲁珀特王堡的守墓人那里。
 Maddened bears slain for the Druid: $Variable.2 of 4.	为德鲁伊杀死的发狂的熊：$Variable.2 / 4。
-Four bears! Return to the Druid in Thornwick.	四头熊！回到 Thornwick 的德鲁伊那里。
+Four bears! Return to the Druid in Nettlewick.	四头熊！回到 Nettlewick 的德鲁伊那里。
 The Brine Mother is dead.	盐水之母死了。
 The Brine Mother sinks into her lake for the last time. Morrow will want to know.	盐水之母最后一次沉入她的湖中。Morrow 会想知道的。
 That's the last of them: go back to Delver Maud.	那是最后一个了：回到矿工 Maud 那里。
@@ -389,16 +389,16 @@ A Valour Seal falls from the drake's hoard-hide: $Variable.2 of 3.	一枚勇气�
 That's the last of them: go back to Old Sal.	那是最后一个了：回到老 Sal 那里。
 The Glassbound comes apart like a dropped jug. In the pieces there's a key of blue glass, and it's for the sanctum's gate.	玻璃缚者像一个摔落的水罐一样碎开了。碎片中有一把蓝玻璃钥匙，是圣所大门的钥匙。
 The Forgemother cracks and spills across the floor, and the Foundry's great hearth stands open.	铸炉之母裂开了，洒了一地，铸造厂的大炉膛敞开了。
-The Frost Troll is on the frozen lake east of Frosthold.	冰霜巨魔在 Frosthold 东边的冰湖上。
+The Frost Troll is on the frozen lake east of Chillingham.	冰霜巨魔在 Chillingham 东边的冰湖上。
 Mithril ore needs Mining 13 and a steel pickaxe or better; smelt it at a furnace.	秘银矿石需要采矿 13 级和钢镐或更好的镐；在熔炉里冶炼它。
 The Frost Troll is slain! Bring Brann 2 mithril bars.	冰霜巨魔被杀死了！给 Brann 带去 2 根秘银锭。
 The Sword of Valour finds the dragon's heart. With its last breath it hisses: "The Seam... I carried my greatest piece... the rest of me still sleeps... yours now, to keep shut... or wear..." and the black hulk crashes to the scorched earth.	勇气之剑找到了龙的心脏。它用最后一口气嘶嘶地说：“缝隙……我带走了我最大的一块……我其余的部分还在沉睡……现在归你了，去守住它……或者穿上它……”然后那黑色的庞然大物轰然倒在焦土上。
 Quest complete: The Dragon of Galaith! The gates of Galaith swing open.	任务完成：Galaith 之龙！Galaith 的城门敞开了。
 Giant spiders slain for Ranger Ash: $Variable.2 of 5.	为游侠 Ash 杀死的巨型蜘蛛：$Variable.2 / 5。
 Slay five giant spiders there.	在那里杀死五只巨型蜘蛛。
-Return to Ranger Ash in Oakhollow.	回到 Oakhollow 的游侠 Ash 那里。
-Five spiders! Return to Ranger Ash in Oakhollow.	五只蜘蛛！回到 Oakhollow 的游侠 Ash 那里。
-The last goblin falls: the bridge to Wardhaven is clear. Tell the Mayor.	最后一只哥布林倒下了：通往 Wardhaven 的桥畅通了。告诉镇长。
+Return to Ranger Ash in Acornby.	回到 Acornby 的游侠 Ash 那里。
+Five spiders! Return to Ranger Ash in Acornby.	五只蜘蛛！回到 Acornby 的游侠 Ash 那里。
+The last goblin falls: the bridge to Sulkhaven is clear. Tell the Mayor.	最后一只哥布林倒下了：通往 Sulkhaven 的桥畅通了。告诉镇长。
 Goblins cleared from the bridge: $Variable.2 of 4.	从桥上清除的哥布林：$Variable.2 / 4。
 A market rat seen to: $Attr.HexRats of 4.	处理掉的集市老鼠：$Attr.HexRats / 4。
 The wild man staggers off into the trees, howling. He'll be back...	野人嚎叫着踉踉跄跄地跑进了树林。他还会回来的...
@@ -434,8 +434,8 @@ The guardian kneels, and fades into light: "Take it, heir."	守护者跪下，�
 That's the last of them: go back to Apprentice Ione.	那是最后一个了：回到学徒 Ione 那里。
 Wolves slain for the shepherd: $Variable.2 of 6.	为牧羊人杀死的狼：$Variable.2 / 6。
 Slay six wolves on the Greyflats.	在 Greyflats 杀死六只狼。
-Tell the shepherd in Greyford.	告诉 Greyford 的牧羊人。
-Six wolves! Tell the shepherd in Greyford.	六只狼！告诉 Greyford 的牧羊人。
+Tell the shepherd in Dullford.	告诉 Dullford 的牧羊人。
+Six wolves! Tell the shepherd in Dullford.	六只狼！告诉 Dullford 的牧羊人。
 One of Bramble's woodcutters runs for the village.	Bramble 的一个伐木工朝村子跑去了。
 Bramble's woodcutters are gone. Go back to Ranger Ash.	Bramble 的伐木工都走了。回到游侠 Ash 那里。
 That's the last of them: go back to Surveyor Nils.	那是最后一个了：回到测量员 Nils 那里。
@@ -465,7 +465,7 @@ It sings on, quieter now. The splinter at your neck sings with it.	它继续唱�
 It hums, cold. For a moment you'd swear someone you love is about to say your name.	它冰冷地嗡鸣着。有那么一刻，你敢发誓某个你爱的人就要叫出你的名字。
 The hum of it fills your head, and then it isn't a hum. It's a woman's voice, and you know it.\"My beloved $Player.Son. Look at you. This is not what your life should have been like, and still you've come so far."\"I was wrong to run. Come home, love. Come and be whole with me, all of us together. It won't hurt."\You know those words. They were in her letter, and the Shard is giving them back to you, out of order.	它的嗡鸣充满了你的脑袋，然后它不再是嗡鸣了。那是一个女人的声音，你认得它。\“我亲爱的 $Player.Son。看看你。你的人生本不该是这个样子，可你还是走了这么远。”\“我不该逃走的。回家吧，亲爱的。来和我一起变得完整，我们所有人在一起。不会痛的。”\你认得那些话。它们在她的信里，而碎片正在把它们还给你，顺序是乱的。
 Step back.	后退。
-Now you know what the Mending wants. Sheriff Flo in Ashford should hear of it, or Sister Linnet would be glad of your silence.	现在你知道弥合会想要什么了。Ashford 的 Flo 警长应该听听这个，或者 Linnet 修女会很高兴你保持沉默。
+Now you know what the Mending wants. Sheriff Flo in Puddleford should hear of it, or Sister Linnet would be glad of your silence.	现在你知道弥合会想要什么了。Puddleford 的 Flo 警长应该听听这个，或者 Linnet 修女会很高兴你保持沉默。
 It's quiet. Something in it is still listening, but it's got nothing left to say.	它很安静。里面有什么东西还在聆听，但它已经无话可说了。
 It hums, warm as bread. Annis says she hears her Oswin in it. For a moment, you'd swear someone you miss is about to speak.	它嗡鸣着，像面包一样温暖。Annis 说她能在里面听到她的 Oswin。有那么一刻，你敢发誓某个你想念的人就要开口了。
 You stand very still, and let the Shards round you go quiet, and put your ear to the horn.	你非常安静地站着，让你周围的碎片安静下来，把耳朵贴到号角上。
@@ -618,20 +618,20 @@ You've taken what you dared already.	你已经拿过你敢拿的了。
 Break open their strongbox and take back the stolen goods.	撬开他们的保险箱，把被偷的货物拿回来。
 You break open the strongbox: the stolen goods! Take them to Captain Hale.	你撬开了保险箱：被偷的货物！把它们带给 Hale 队长。
 The strongbox is empty.	保险箱是空的。
-A chest, and a note in a careful hand: "Ashford doesn't forget a friend."	一个箱子，还有一张字迹工整的便条：“Ashford 不会忘记朋友。”
+A chest, and a note in a careful hand: "Puddleford doesn't forget a friend."	一个箱子，还有一张字迹工整的便条：“Puddleford 不会忘记朋友。”
 The chest is empty: you've had what was left for you.	箱子是空的：留给你的东西你已经拿走了。
 A wizard's chest, and inside, scrolls sealed with the Court's mark.	一个巫师的箱子，里面是盖着巫师庭印记的卷轴。
 The merchant's chest, and a sapphire ring for a friend of Dunerest.	商人的箱子，还有一枚给 Dunerest 之友的蓝宝石戒指。
 The watch's chest: a helm and tonics, for a friend of the wall.	守卫队的箱子：一顶头盔和几瓶补药，给城墙之友。
 A chest, and a pair of mithril gauntlets wrapped in fur.	一个箱子，还有一副用毛皮包着的秘银护手。
 A noble's chest, and in it a gift for a friend of the city.	一个贵族的箱子，里面是给城市之友的礼物。
-The miners' chest: two bars of mithril, put by for a friend of Greyford.	矿工们的箱子：两根秘银锭，留给 Greyford 之友。
+The miners' chest: two bars of mithril, put by for a friend of Dullford.	矿工们的箱子：两根秘银锭，留给 Dullford 之友。
 The garrison's chest: a steel shield, and the Keep's thanks.	驻军的箱子：一面钢盾，还有王堡的谢意。
 A chest, and in it tonics against the marsh fever, and more.	一个箱子，里面是治沼泽热病的补药，还有别的东西。
 The pilots' chest, and a note on top: "For a friend of the harbour."	领航员们的箱子，顶上有一张便条：“给港口之友。”
 The forester's chest. The village has left you something in it.	林务官的箱子。村子在里面给你留了些东西。
 The fishers' chest. They've put by something for you.	渔民们的箱子。他们给你留了些东西。
-The elders' chest. A ruby ring, and a word: "With Thornwick's thanks."	长老们的箱子。一枚红宝石戒指，还有一句话：“Thornwick 的谢意。”
+The elders' chest. A ruby ring, and a word: "With Nettlewick's thanks."	长老们的箱子。一枚红宝石戒指，还有一句话：“Nettlewick 的谢意。”
 A Warden's chest, and a gold ring with their seal.	一个守卫的箱子，还有一枚刻着他们印章的金戒指。
 A chest under the bed, and a sprig of oak tied to its lid: Wildwood's thanks.	床底下的一个箱子，盖子上绑着一根橡树枝：Wildwood 的谢意。
 The Wardens wrote everything down. Nine journals, I think, left on lecterns all over the Deep, wherever the last of them were standing when they stopped.\I've read three. They don't make sense in threes. Read them all for me? I'll pay, and I'll write it up properly: the first true history of the Glass Wardens.	守卫们什么都写下来了。我想有九本日志，留在深渊各处的读经台上，就在他们最后几个人停下来时站着的地方。\我读了三本。三本连起来读不通。你能帮我把它们全读了吗？我会付钱，还会好好地把它写下来：第一部真正的玻璃守卫历史。
@@ -720,27 +720,27 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	冰霜�
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	你敲碎祭坛碗里的冰，取出了天磁石。它冷得烫手，还轻轻地往北拽。
 A star of ice glitters in the altar's bowl, frozen fast.	祭坛的碗里闪着一颗冰之星，冻得结结实实。
 The altar's bowl is empty.	祭坛的碗是空的。
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on the Isle, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出，还有一栏“蜡烛（黑色）”。有两行用一个灰烬指印做了记号：\“给小岛上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”\页脚画了两道下划线：“本季度灰烬指标：未完成。”
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出，还有一栏“蜡烛（黑色）”。有两行用一个灰烬指印做了记号：\“给小岛上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”\页脚画了两道下划线：“本季度灰烬指标：未完成。”
 Close it.	合上它。
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	一张上好的纸片，折得小小的，字迹工整。顶上写着：“账单，一式三份之第二份。”\小岛上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给小岛写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个按在灰烬里的手印，和一块签名着了火留下的焦痕。
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	一张上好的纸片，折得小小的，字迹工整。顶上写着：“账单，一式三份之第二份。”\小岛上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给小岛写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个按在灰烬里的手印，和一块签名着了火留下的焦痕。
 Fold it away.	把它折起来收好。
-ASHFORD\West: Northport docks\East: the farmlands\South: King Rupert's Keep	Ashford\西：Northport 码头\东：农田\南：鲁珀特王堡
+PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	Puddleford\西：Drizzleport 码头\东：农田\南：鲁珀特王堡
 Okay	好的
 You can't read that from here!	你在这里看不清那个！
-ASHFORD IRON MINE\Closed by order of the King's Steward.	Ashford 铁矿\奉国王总管之命关闭。
-THE BLUE BOAR\A tavern of Ashford.	蓝野猪酒馆\Ashford 的一家酒馆。
-MEDICAL OFFICE\Of Ashford.	诊所\Ashford。
-ASHFORD\A small city.	Ashford\一座小城。
-CHURCH OF ASHFORD\All are welcome.	Ashford 教堂\欢迎所有人。
+PUDDLEFORD IRON MINE\Closed by order of the King's Steward.	Puddleford 铁矿\奉国王总管之命关闭。
+THE BLUE BOAR\A tavern of Puddleford.	蓝野猪酒馆\Puddleford 的一家酒馆。
+MEDICAL OFFICE\Of Puddleford.	诊所\Puddleford。
+PUDDLEFORD\A small city.	Puddleford\一座小城。
+CHURCH OF PUDDLEFORD\All are welcome.	Puddleford 教堂\欢迎所有人。
 TOWN HALL\Births, marriages and deeds recorded.	镇公所\登记出生、婚姻和地契。
-THE LAMB AND FLAG\A tavern of Ashford.	羔羊与旗酒馆\Ashford 的一家酒馆。
-THE WAYFARER'S REST\A tavern of Ashford.	旅人之憩酒馆\Ashford 的一家酒馆。
-SMITHY\The forge of Ashford.	铁匠铺\Ashford 的熔炉。
+THE LAMB AND FLAG\A tavern of Puddleford.	羔羊与旗酒馆\Puddleford 的一家酒馆。
+THE WAYFARER'S REST\A tavern of Puddleford.	旅人之憩酒馆\Puddleford 的一家酒馆。
+SMITHY\The forge of Puddleford.	铁匠铺\Puddleford 的熔炉。
 GREEN LANE & BUTCHERS' ROW\A lane off the market square.	绿巷和屠夫街\集市广场旁的一条小巷。
-WEST ROW\Houses of Ashford.	西排\Ashford 的住宅。
+WEST ROW\Houses of Puddleford.	西排\Puddleford 的住宅。
 Oska,\I went up to the Chapel to keep the fire. That's what they said we did. We carried Shards up the pass every week and pushed them through the barrier, and the thing on the other side took them, and we sang.\The Shards sing too, if you hold them long enough. They tell you whatever you want to hear. I wanted to hear that I was warm.\I'm sorry. Cael.	Oska：\我上礼拜堂去看守火了。他们说那是我们要做的事。我们每个星期都把碎片背上山口，推过屏障，屏障那边的东西就把它们拿走，然后我们唱歌。\碎片也会唱歌，只要你握得够久。它们会告诉你任何你想听的话。我想听到的是我很温暖。\对不起。Cael。
 Fold it up.	把它折起来。
-In Cael's hand, for Annis of Ashford:\I heard my mother in the fire, and she told me to feed it. It said what I wanted to hear, because that's all it can do. It doesn't know you. It only knows what you miss.	Cael 的笔迹，写给 Ashford 的 Annis：\我在火里听到了我母亲的声音，她叫我喂它。它说的是我想听的话，因为它只会这个。它不认识你。它只知道你想念什么。
+In Cael's hand, for Annis of Puddleford:\I heard my mother in the fire, and she told me to feed it. It said what I wanted to hear, because that's all it can do. It doesn't know you. It only knows what you miss.	Cael 的笔迹，写给 Puddleford 的 Annis：\我在火里听到了我母亲的声音，她叫我喂它。它说的是我想听的话，因为它只会这个。它不认识你。它只知道你想念什么。
 ROSE COTTAGE\Built by old Tam the thatcher, the year the great storm took the pier.	玫瑰小屋\由盖茅草屋顶的老 Tam 建造，就在大风暴卷走码头的那一年。
 HOLLOW LANE\Houses of The Wizards' Court.	空心巷\巫师庭的住宅。
 TALLOW ROW\Houses of The Wizards' Court.	牛脂排\巫师庭的住宅。
@@ -762,18 +762,18 @@ EMBERWATCH\A village.	Emberwatch\一座村庄。
 VILLAGE HALL\Meetings, dances and harvest suppers.	村公所\集会、舞会和丰收晚宴。
 DOCTOR'S HOUSE\Of Emberwatch.	医生之家\Emberwatch。
 THE OWL AND IVY\A tavern of Emberwatch.	猫头鹰与常春藤酒馆\Emberwatch 的一家酒馆。
-WEST: Ashford\SOUTH: GOBLIN CAMP\Travellers beware!	西：Ashford\南：哥布林营地\旅人当心！
+WEST: Puddleford\SOUTH: GOBLIN CAMP\Travellers beware!	西：Puddleford\南：哥布林营地\旅人当心！
 MAREN & BESS'S FATHER'S HOME\Maren & Bess's Father's Home is locked; he has been missing ever since the hobgoblins set up camp just south of here.	Maren 和 Bess 父亲的家\Maren 和 Bess 父亲的家锁着；自从大地精在这里南边扎营以后，他就一直失踪了。
 MAREN & BESS'S FATHER'S HOME\Tobias gave it to you when you freed him: it's yours now.	Maren 和 Bess 父亲的家\Tobias 在你救出他时把它给了你：现在它是你的了。
-FOX LANE\Houses of Frosthold.	狐狸巷\Frosthold 的住宅。
-QUEEN'S ROW\Houses of Frosthold.	王后排\Frosthold 的住宅。
-CLOTH STREET\Houses of Frosthold.	布街\Frosthold 的住宅。
-WEAVERS' WAY\Houses of Frosthold.	织工路\Frosthold 的住宅。
-MASON'S ROW\Houses of Frosthold.	石匠排\Frosthold 的住宅。
-FROSTHOLD\A town of Brambleton.	Frosthold\Brambleton 的一座小镇。
-SHERIFF'S OFFICE\The watch house of Frosthold.	警长办公室\Frosthold 的守卫所。
-DOCTOR'S HOUSE\Of Frosthold.	医生之家\Frosthold。
-THE PLOUGH\A tavern of Frosthold.	犁酒馆\Frosthold 的一家酒馆。
+FOX LANE\Houses of Chillingham.	狐狸巷\Chillingham 的住宅。
+QUEEN'S ROW\Houses of Chillingham.	王后排\Chillingham 的住宅。
+CLOTH STREET\Houses of Chillingham.	布街\Chillingham 的住宅。
+WEAVERS' WAY\Houses of Chillingham.	织工路\Chillingham 的住宅。
+MASON'S ROW\Houses of Chillingham.	石匠排\Chillingham 的住宅。
+CHILLINGHAM\A town of Brambleton.	Chillingham\Brambleton 的一座小镇。
+SHERIFF'S OFFICE\The watch house of Chillingham.	警长办公室\Chillingham 的守卫所。
+DOCTOR'S HOUSE\Of Chillingham.	医生之家\Chillingham。
+THE PLOUGH\A tavern of Chillingham.	犁酒馆\Chillingham 的一家酒馆。
 BAKER'S LANE & FISH STREET\A lane off the market square.	面包师巷和鱼街\集市广场旁的一条小巷。
 GILT STREET\Houses of Galaith.	镀金街\Galaith 的住宅。
 GARDEN ROW\Houses of Galaith.	花园排\Galaith 的住宅。
@@ -801,14 +801,14 @@ SILK STREET & CORDWAINERS' ROW\A lane off the market square.	丝绸街和鞋匠�
 ARMOURERS' ROW & BLADE STREET\A lane off the market square.	铠甲匠排和刀刃街\集市广场旁的一条小巷。
 CORDWAINERS' ROW\A lane off the market square.	鞋匠排\集市广场旁的一条小巷。
 SILK STREET\A lane off the market square.	丝绸街\集市广场旁的一条小巷。
-FURLONG STREET\Houses of Greyford.	弗隆街\Greyford 的住宅。
-GREYFORD\A hamlet.	Greyford\一座小村庄。
-...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and won't heal.\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get out at night.\If I go wild, someone fetch Morwen in Saltmarsh. She'll know a cure.  - Hob	...在西边树林里那块旧守望石旁边，一只狗那么大的蜘蛛咬住了我的胳膊。咬伤火辣辣的，一直好不了。\我梦见自己四脚着地奔跑。我听见树木在呼唤我。我把门闩上了，这样夜里我就出不去。\要是我变野了，谁去 Saltmarsh 把 Morwen 找来。她会知道怎么治。—— Hob
+FURLONG STREET\Houses of Dullford.	弗隆街\Dullford 的住宅。
+DULLFORD\A hamlet.	Dullford\一座小村庄。
+...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and won't heal.\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get out at night.\If I go wild, someone fetch Morwen in Brinebottom. She'll know a cure.  - Hob	...在西边树林里那块旧守望石旁边，一只狗那么大的蜘蛛咬住了我的胳膊。咬伤火辣辣的，一直好不了。\我梦见自己四脚着地奔跑。我听见树木在呼唤我。我把门闩上了，这样夜里我就出不去。\要是我变野了，谁去 Brinebottom 把 Morwen 找来。她会知道怎么治。—— Hob
 Close the diary.	合上日记。
-Morwen the witch lives in Saltmarsh, in the fens on the south coast.	女巫 Morwen 住在 Saltmarsh，在南海岸的沼泽地里。
+Morwen the witch lives in Brinebottom, in the fens on the south coast.	女巫 Morwen 住在 Brinebottom，在南海岸的沼泽地里。
 Quest started: Old Hob.	任务开始：老 Hob。
 EDWIN, LAWYER. MAREN, DOCTOR.\A brass plate by the door of a red brick house, built the year the great storm took the pier.	Edwin，律师。Maren，医生。\一座红砖房子门边的一块黄铜牌子，房子建于大风暴卷走码头的那一年。
-THE ISLE CHAPEL\Rest in peace, all who sleep in the yard.	小岛礼拜堂\愿所有长眠于墓园的人安息。
+MUDDLESEY CHAPEL\Rest in peace, all who sleep in the yard.	小岛礼拜堂\愿所有长眠于墓园的人安息。
 IVY ROW\Houses of King Rupert's Keep.	常春藤排\鲁珀特王堡的住宅。
 CARTWRIGHT ROW\Houses of King Rupert's Keep.	车匠排\鲁珀特王堡的住宅。
 FOUNTAIN ROW\Houses of King Rupert's Keep.	喷泉排\鲁珀特王堡的住宅。
@@ -827,70 +827,70 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	你的父亲，国王，仍在 Galaith 的城墙后面等待，他不知道我已经走了。去找他吧。从你出生那天起，这座城就关闭了，而原因就是我。总有一天你会明白的。\要小心，告诉你父亲，我从未停止爱他。\Mary
 Fold the letter.	把信折起来。
 Quest complete: The Last Will.	任务完成：遗嘱。
-The door to your house is unlocked now, and the Isle lies before you.	你家的门现在开了，小岛就在你面前。
-Edwin writes the Isle's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin 给小岛写遗嘱和地契，他一次也没要求看我的。Maren 每次路过都会看看宝宝的呼吸，好像她能看出有什么被许诺了出去。这里没有人向我鞠躬。我可以永远待下去。
-The old men on the quay say the first king set a watch under the sea north of Ashford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	码头上的老人们说，第一位国王在 Ashford 北边的海底下设了一支守卫：玻璃守卫，让某个东西一直沉睡。一百年来没人见过他们中的任何一个。一位国王需要什么东西被看守得这么紧？
+The door to your house is unlocked now, and Muddlesey lies before you.	你家的门现在开了，小岛就在你面前。
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin 给小岛写遗嘱和地契，他一次也没要求看我的。Maren 每次路过都会看看宝宝的呼吸，好像她能看出有什么被许诺了出去。这里没有人向我鞠躬。我可以永远待下去。
+The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	码头上的老人们说，第一位国王在 Puddleford 北边的海底下设了一支守卫：玻璃守卫，让某个东西一直沉睡。一百年来没人见过他们中的任何一个。一位国王需要什么东西被看守得这么紧？
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	我在巫师庭最古老的书里找到了契约，是第一位国王的亲笔：他的血脉每一代献出一个长子，龙就保持安宁。我读了三遍。然后我回了家，抱着我的宝宝直到天亮。
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	太阳祭司们把它当作一场胜利来歌颂：第一位国王把龙砍小到足以缚住。砍小，他们唱道。从来不是死去。那它其余的部分去哪儿了？
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	今晚我拿着契约的印章，拿了我敢拿的那么久。它是一枚戒指，是温暖的，像某个沉睡的东西。你害怕时它知道。
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	他们会来抓我的孩子。所以我要逃，一直逃，我从缝隙里拿走的东西会留在一个国王永远想不到去找的地方：一个小小的、静止的、满是天空的地方。
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on the Isle, where the sky looks up at itself.	我在这座大厅里加冕，又从厨房门离开了它，你睡在一篮待洗的衣服里。如果你在读这个，那屏障已经倒下，你回家了。原谅我。在小岛上找静止的水，在天空仰望自己的地方。
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	我在这座大厅里加冕，又从厨房门离开了它，你睡在一篮待洗的衣服里。如果你在读这个，那屏障已经倒下，你回家了。原谅我。在小岛上找静止的水，在天空仰望自己的地方。
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	你母亲的笔迹，小而急促，写在一张巫师庭的纸片上。墨水泛着蓝光：\天鹅绒爪胡须灵，\借 Jimmy 眼看屋形。\下面写着：给我的小家伙，到时候看。Jimmy 知道在哪儿。
 Read it aloud.	大声读出来。
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in the Isle's north, and she's written one word there: still.	你母亲的笔迹。一共七张，她走到哪里就留到哪里。把它们边对边拼起来，就是一张地图。边缘交汇在小岛北部一个小小的圆形上，她在那里写了一个词：静。
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	你母亲的笔迹。一共七张，她走到哪里就留到哪里。把它们边对边拼起来，就是一张地图。边缘交汇在小岛北部一个小小的圆形上，她在那里写了一个词：静。
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	Mary 的笔记\折得小小的，是你母亲的笔迹：\他们在巫师庭告诉我，碎片只是碎裂的魔法。不是的。它们是龙的残片，是第一位国王把它砍小到可以缚住时甩落的。它的大部分在世界之外沉睡，每一块残片都饥饿地想要生长；契约用每一位长子继承人的血让龙保持安静。\我不会用我的孩子来偿还它。如果切口能用别的办法保持闭合，或者龙能被终结，代价就会终结。我去找出办法。\它被切开的地方在城市后面的山下。记住缝隙。
 Fold them away.	把它们收起来。
-NORTHPORT\North: the ferry to the Isle\East: Ashford village\South: Whispering Woods and the old iron mine	Northport\北：去小岛的渡船\东：Ashford 村\南：低语森林和旧铁矿
-SALTWAY\Houses of Northport.	盐路\Northport 的住宅。
-CHURCH STREET\Houses of Northport.	教堂街\Northport 的住宅。
-MERCERS' LANE\Houses of Northport.	布商巷\Northport 的住宅。
-EAST LANE\Houses of Northport.	东巷\Northport 的住宅。
-LANTERN LANE\Houses of Northport.	灯笼巷\Northport 的住宅。
-TANNERS' WAY\Houses of Northport.	制革匠路\Northport 的住宅。
-CANDLE STREET\Houses of Northport.	蜡烛街\Northport 的住宅。
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	Drizzleport\北：去小岛的渡船\东：Puddleford 村\南：低语森林和旧铁矿
+SALTWAY\Houses of Drizzleport.	盐路\Drizzleport 的住宅。
+CHURCH STREET\Houses of Drizzleport.	教堂街\Drizzleport 的住宅。
+MERCERS' LANE\Houses of Drizzleport.	布商巷\Drizzleport 的住宅。
+EAST LANE\Houses of Drizzleport.	东巷\Drizzleport 的住宅。
+LANTERN LANE\Houses of Drizzleport.	灯笼巷\Drizzleport 的住宅。
+TANNERS' WAY\Houses of Drizzleport.	制革匠路\Drizzleport 的住宅。
+CANDLE STREET\Houses of Drizzleport.	蜡烛街\Drizzleport 的住宅。
 NORTHGATE\A port city.	北门\一座港口城市。
-THE BELL AND CANDLE\A tavern of Northport.	钟与烛酒馆\Northport 的一家酒馆。
-HOSPITAL\Of Northport.	医院\Northport。
-THE MERMAID'S PURSE\A tavern of Northport.	美人鱼钱袋酒馆\Northport 的一家酒馆。
-THE GULL AND ANCHOR\A tavern of Northport.	海鸥与锚酒馆\Northport 的一家酒馆。
+THE BELL AND CANDLE\A tavern of Drizzleport.	钟与烛酒馆\Drizzleport 的一家酒馆。
+HOSPITAL\Of Drizzleport.	医院\Drizzleport。
+THE MERMAID'S PURSE\A tavern of Drizzleport.	美人鱼钱袋酒馆\Drizzleport 的一家酒馆。
+THE GULL AND ANCHOR\A tavern of Drizzleport.	海鸥与锚酒馆\Drizzleport 的一家酒馆。
 The writing on this notice has faded away.	这张告示上的字已经褪光了。
 Ferry to the mainland	去大陆的渡船
-WEST ROW\Houses of Oakhollow.	西排\Oakhollow 的住宅。
-NORTH STREET\Houses of Oakhollow.	北街\Oakhollow 的住宅。
-THATCHERS' ROW\Houses of Oakhollow.	茅草匠排\Oakhollow 的住宅。
-OAKHOLLOW\A village.	Oakhollow\一座村庄。
-DOCTOR'S HOUSE\Of Oakhollow.	医生之家\Oakhollow。
-SMITHY\The forge of Oakhollow.	铁匠铺\Oakhollow 的熔炉。
+WEST ROW\Houses of Acornby.	西排\Acornby 的住宅。
+NORTH STREET\Houses of Acornby.	北街\Acornby 的住宅。
+THATCHERS' ROW\Houses of Acornby.	茅草匠排\Acornby 的住宅。
+ACORNBY\A village.	Acornby\一座村庄。
+DOCTOR'S HOUSE\Of Acornby.	医生之家\Acornby。
+SMITHY\The forge of Acornby.	铁匠铺\Acornby 的熔炉。
 ODILE'S LOG, in an oilskin\Forty years I've cooked for the Wardens. Bread on the first day of the week, fish the rest. The cistern hums. The lake hums louder.\(The writing gets bigger, page by page.) It's warm in the water. I don't need the lamp. I hardly need to breathe.\(The last pages, in letters as tall as your hand.) THEY HEAR IT TOO, THE SAILORS. THEY COME DOWN THROUGH THE ROCK TO IT. I ONLY KEEP THEM FROM GOING TO IT. I'M SORRY. I'M SORRY ABOUT THE BOAT.	Odile 的日志，裹在油布里\我给守卫们做了四十年饭。每周第一天做面包，其余几天做鱼。蓄水池在嗡鸣。湖嗡鸣得更响。\（字迹一页比一页大。）水里很暖。我不需要灯了。我几乎不需要呼吸了。\（最后几页，字有你的手那么高。）他们也听到了，那些水手。他们穿过岩石下来找它。我只是不让他们走到它那里去。对不起。我很抱歉那条船的事。
 THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens to keep the Shard that fell into the sea. Their orders, kept under the chapel's altar, were to keep it asleep, and never let it be joined to the rest of itself.\For four hundred years they listened to it and never answered. Then Marshal Corvane asked it a question. Half the Order followed him; the cook walked into the lake; the last of them, Ysolde, kept the watch alone.\I don't know yet what 'the rest of itself' is. I'm not sure I want to.	玻璃守卫，一部真实的历史，Pell Varrow 著\第一位国王派守卫们看守那块落进海里的碎片。他们的命令藏在礼拜堂的祭坛下面，是让它保持沉睡，永远不让它与它自身的其余部分结合。\四百年来，他们聆听它，却从不回答。后来 Corvane 元帅问了它一个问题。一半的骑士团追随了他；厨娘走进了湖里；他们中的最后一人，Ysolde，独自守望。\我还不知道“它自身的其余部分”是什么。我不确定我想知道。
 ROYAL TREASURY\The Wizards' Court's strongroom.	王家金库\巫师庭的保险库。
-STONEGATE\Houses of Saltmarsh.	石门\Saltmarsh 的住宅。
-SALTMARSH\A hamlet.	Saltmarsh\一座小村庄。
+STONEGATE\Houses of Brinebottom.	石门\Brinebottom 的住宅。
+BRINEBOTTOM\A hamlet.	Brinebottom\一座小村庄。
 A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	碎片之门，当代最伟大的巫师 Bert 著。\在巫师庭北边山上那圈古老的立石里：用四根银锭把石头连起来，把两颗蓝宝石嵌进符文，在石环的中心放上一颗残迹核心。\然后献给它 $Shards.Shardgate 枚你自己的碎片。任何东西都能滑到界域平静的边缘；要刺穿它的核心，石环必须被稳住，所以要先唤醒 Brambleton 的 $Shards.Shardgate.Stones 块碎片石，还要懂碎片术（至少 $Shards.Shardgate.Level 级）。\然后走进去。小心守护者。
 Fold the plans.	把图纸折起来。
-Dunerest: south-west\Saltmarsh: south-east	Dunerest：西南\Saltmarsh：东南
-Northport: west\Oakhollow: south-east\Wildwood: south-west	Northport：西\Oakhollow：东南\Wildwood：西南
-Northport: west\Oakhollow: south\Wildwood: south-west\Greyford: east	Northport：西\Oakhollow：南\Wildwood：西南\Greyford：东
-Oakhollow: south\Northport: west\Greyford: east\Wildwood: west	Oakhollow：南\Northport：西\Greyford：东\Wildwood：西
+Dunerest: south-west\Brinebottom: south-east	Dunerest：西南\Brinebottom：东南
+Drizzleport: west\Acornby: south-east\Wildwood: south-west	Drizzleport：西\Acornby：东南\Wildwood：西南
+Drizzleport: west\Acornby: south\Wildwood: south-west\Dullford: east	Drizzleport：西\Acornby：南\Wildwood：西南\Dullford：东
+Acornby: south\Drizzleport: west\Dullford: east\Wildwood: west	Acornby：南\Drizzleport：西\Dullford：东\Wildwood：西
 Wildwood: north\Dunerest: south-east\Galaith: west	Wildwood：北\Dunerest：东南\Galaith：西
-Saltmarsh: south\Oakhollow: north\Frosthold: south-east	Saltmarsh：南\Oakhollow：北\Frosthold：东南
-Saltmarsh: south\Frosthold: east\Dunerest: west	Saltmarsh：南\Frosthold：东\Dunerest：西
-Greyford: south-east\Wardhaven: north-east\Wizards' Court: east\Ashford: north	Greyford：东南\Wardhaven：东北\巫师庭：东\Ashford：北
-Greyford: north\Thornwick: east\Frosthold: south\Oakhollow: west	Greyford：北\Thornwick：东\Frosthold：南\Oakhollow：西
-Greyford: north-west\Thornwick: east\Oakhollow: west\Wardhaven: north	Greyford：西北\Thornwick：东\Oakhollow：西\Wardhaven：北
-Greyford: north-west\Thornwick: east\Frosthold: south\Wizards' Court: north-east	Greyford：西北\Thornwick：东\Frosthold：南\巫师庭：东北
-Thornwick: east\Greyford: north-west\Wizards' Court: north\Frosthold: south	Thornwick：东\Greyford：西北\巫师庭：北\Frosthold：南
-Thornwick: west\King Rupert's Keep: south-east\Wizards' Court: north-west\Emberwatch: north-east	Thornwick：西\鲁珀特王堡：东南\巫师庭：西北\Emberwatch：东北
-Emberwatch: north\Thornwick: south-west\King Rupert's Keep: south\Wizards' Court: north-west	Emberwatch：北\Thornwick：西南\鲁珀特王堡：南\巫师庭：西北
-King Rupert's Keep: north-west\Frosthold: west	鲁珀特王堡：西北\Frosthold：西
-THE DEEP SEAM\Ashford Mining Guild: members only.\Coal, iron and gold within.	深矿脉\Ashford 采矿行会：仅限会员。\内有煤、铁和金。
+Brinebottom: south\Acornby: north\Chillingham: south-east	Brinebottom：南\Acornby：北\Chillingham：东南
+Brinebottom: south\Chillingham: east\Dunerest: west	Brinebottom：南\Chillingham：东\Dunerest：西
+Dullford: south-east\Sulkhaven: north-east\Wizards' Court: east\Puddleford: north	Dullford：东南\Sulkhaven：东北\巫师庭：东\Puddleford：北
+Dullford: north\Nettlewick: east\Chillingham: south\Acornby: west	Dullford：北\Nettlewick：东\Chillingham：南\Acornby：西
+Dullford: north-west\Nettlewick: east\Acornby: west\Sulkhaven: north	Dullford：西北\Nettlewick：东\Acornby：西\Sulkhaven：北
+Dullford: north-west\Nettlewick: east\Chillingham: south\Wizards' Court: north-east	Dullford：西北\Nettlewick：东\Chillingham：南\巫师庭：东北
+Nettlewick: east\Dullford: north-west\Wizards' Court: north\Chillingham: south	Nettlewick：东\Dullford：西北\巫师庭：北\Chillingham：南
+Nettlewick: west\King Rupert's Keep: south-east\Wizards' Court: north-west\Emberwatch: north-east	Nettlewick：西\鲁珀特王堡：东南\巫师庭：西北\Emberwatch：东北
+Emberwatch: north\Nettlewick: south-west\King Rupert's Keep: south\Wizards' Court: north-west	Emberwatch：北\Nettlewick：西南\鲁珀特王堡：南\巫师庭：西北
+King Rupert's Keep: north-west\Chillingham: west	鲁珀特王堡：西北\Chillingham：西
+THE DEEP SEAM\Puddleford Mining Guild: members only.\Coal, iron and gold within.	深矿脉\Puddleford 采矿行会：仅限会员。\内有煤、铁和金。
 THE FROSTPEAK CAVERNS\Old mine workings, frozen solid. Mithril in the walls, they say.\And things that like the cold.	Frostpeak 洞窟\古老的矿坑，冻得结结实实。据说墙里有秘银。\还有喜欢寒冷的东西。
 THE WIZARDS' COURT\The old King's Castle, and its tower.	巫师庭\老国王的城堡，和它的塔楼。
-VINTNER STREET\Houses of Thornwick.	酒商街\Thornwick 的住宅。
-HERON STREET\Houses of Thornwick.	苍鹭街\Thornwick 的住宅。
-THORNWICK\A village.	Thornwick\一座村庄。
-CHAPEL OF THORNWICK\All are welcome.	Thornwick 礼拜堂\欢迎所有人。
-SMITHY\The forge of Thornwick.	铁匠铺\Thornwick 的熔炉。
+VINTNER STREET\Houses of Nettlewick.	酒商街\Nettlewick 的住宅。
+HERON STREET\Houses of Nettlewick.	苍鹭街\Nettlewick 的住宅。
+NETTLEWICK\A village.	Nettlewick\一座村庄。
+CHAPEL OF NETTLEWICK\All are welcome.	Nettlewick 礼拜堂\欢迎所有人。
+SMITHY\The forge of Nettlewick.	铁匠铺\Nettlewick 的熔炉。
 KING RUPERT'S KEEP\The King's keep and its bailey, held by his Steward while the King is away.	鲁珀特王堡\国王的城堡和外庭，国王不在时由他的总管掌管。
 WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the cistern for saying so: carried.	守卫日志：Ysolde 的笔迹\守望第 211 年。会议记录。出席：全体。碎片很安静。Corvane 元帅说它在沉睡。Hale 修士说它从不沉睡，它只是在等待。动议：因为这么说，罚 Hale 修士去刷蓄水池。通过。
 That's all nine of the Wardens' journals: back to Pell.	九本守卫日志都齐了：回到 Pell 那里。
@@ -902,15 +902,15 @@ WARDENS' JOURNAL: the hand of Marshal Corvane\I asked it what it wanted. Four hu
 WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand with Corvane, ears open. The rest of us keep the first king's orders, the ones under the altar: keep it asleep, and never, ever let it be joined to the rest of itself.\The rest of itself. I asked the Marshal once what that meant. He didn't know. He knows now, and I think that's worse.\(The split took a vote. The vote took eleven days.)	守卫日志：Ysolde 的笔迹\骑士团分裂了。一半的守卫站在 Corvane 一边，耳朵敞开着。我们其余的人遵守第一位国王的命令，祭坛下面的那些：让它保持沉睡，永远、永远不让它与它自身的其余部分结合。\它自身的其余部分。我曾经问过元帅那是什么意思。他不知道。他现在知道了，我觉得这更糟。\（分裂是投票决定的。投票花了十一天。）
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	守卫日志：厨娘 Odile Brask 的笔迹\我要进去了。我是说，进湖里。那里的嗡鸣声最响，我想看看是什么在唱歌，而且我老得不会怕水了。\不管谁找到这个：小心那些水手。它也在呼唤他们。我能听到它在呼唤他们，每天夜里，穿过岩石往上传。\炖菜在火上。谁来搅一搅。
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	守卫日志：最后的 Ysolde 的笔迹\我是最后一个从未回答过它的人。（有一次我们想一起回答。措辞商量了四十年，到那时我们都懂事了。）如果你是温暖的，正在读这个，那就听着：你能听到它，你能从它那里学到东西，但永远别回答。回答就是它进来的方式。\圣物堂下面有一个房间，我们在那里轮流聆听。四声钟鸣让它保持关闭。长廊里那块会唱歌的石头记得它们的顺序；它随着年份变化，就像那首老歌一样。我在这里堆了一座石冢，好让有人停下来。
-ROPE WALK\Houses of Wardhaven.	绳索路\Wardhaven 的住宅。
-WARDHAVEN\A town of Brambleton.	Wardhaven\Brambleton 的一座小镇。
-CHURCH OF WARDHAVEN\All are welcome.	Wardhaven 教堂\欢迎所有人。
-SHERIFF'S OFFICE\The watch house of Wardhaven.	警长办公室\Wardhaven 的守卫所。
-SMITHY\The forge of Wardhaven.	铁匠铺\Wardhaven 的熔炉。
+ROPE WALK\Houses of Sulkhaven.	绳索路\Sulkhaven 的住宅。
+SULKHAVEN\A town of Brambleton.	Sulkhaven\Brambleton 的一座小镇。
+CHURCH OF SULKHAVEN\All are welcome.	Sulkhaven 教堂\欢迎所有人。
+SHERIFF'S OFFICE\The watch house of Sulkhaven.	警长办公室\Sulkhaven 的守卫所。
+SMITHY\The forge of Sulkhaven.	铁匠铺\Sulkhaven 的熔炉。
 SWAN LANE\Houses of Wildwood.	天鹅巷\Wildwood 的住宅。
 SOUTH ROW\Houses of Wildwood.	南排\Wildwood 的住宅。
 WILDWOOD\A hamlet.	Wildwood\一座小村庄。
-DONNNG... The bell's voice rolls out over the Isle.	当——嗡……钟声在小岛上空回荡。
+DONNNG... The bell's voice rolls out over Muddlesey.	当——嗡……钟声在小岛上空回荡。
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	钟响了一声，低沉而青绿，沼泽里的每一只青蛙都停下来聆听。
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	水里有什么东西回应了，有点走调，被钟声震松的东西从你脚边的泥里冒了出来。
 The frogs start up again, louder, as if they've been told.	青蛙们又叫了起来，更响了，好像它们被告知了什么。
@@ -1068,8 +1068,8 @@ Quest started: What Went Wrong at the Reach.	任务开始：边陲出了什么�
 Still 5 to go, by my count. $Attr.ReachQuest_Count done.	按我算还剩 5 个。已经完成 $Attr.ReachQuest_Count 个。
 Quest complete: What Went Wrong at the Reach.	任务完成：边陲出了什么事。
 They were my teachers. Thank you. Take these.	他们是我的老师。谢谢你。拿着这些。
-Had enough? I can take you back to Ashford.	够了吗？我可以带你回 Ashford。
-Back to Ashford, please.	请带我回 Ashford。
+Had enough? I can take you back to Puddleford.	够了吗？我可以带你回 Puddleford。
+Back to Puddleford, please.	请带我回 Puddleford。
 I'll stay a while.	我再待一会儿。
 The Arena Master taps a little rune-token against your hand. "There: the arena's shardstone knows you now. Any stone you've woken will take you to it."	竞技场主管用一枚小符文令牌碰了碰你的手。“好了：竞技场的碎片石现在认识你了。任何你唤醒过的碎片石都能把你带到那里。”
 Step up, step up! In the arena you may fight other adventurers, for glory and nothing else: no gold lost, no grave. Only on the sand, mind: the paving round it is for the crowd.	来吧，来吧！在竞技场里你可以和其他冒险者战斗，只为荣耀，别无其他：不会丢失金币，也不会有坟墓。只限沙地上，注意：周围的铺路是给观众的。
@@ -1079,7 +1079,7 @@ Swords, daggers and bows, sharp and true.	剑、匕首和弓，锋利又精准�
 Let me see your goods.	让我看看你的货。
 The dragon of Galaith will have its due. It always does.\...Sorry. We have to say that to everyone. It's in the handbook.	Galaith 的龙会得到它应得的。它总是如此。\……抱歉。我得对每个人都这么说。手册上写着的。
 Fresh bread and pastries, still warm!	新鲜面包和糕点，还热着呢！
-Welcome to the bank of Ashford. Your valuables are safe with us.	欢迎来到 Ashford 银行。你的贵重物品在我们这里很安全。
+Welcome to the bank of Puddleford. Your valuables are safe with us.	欢迎来到 Puddleford 银行。你的贵重物品在我们这里很安全。
 I'd like to use the bank.	我想用一下银行。
 Welcome to The Blue Boar! What'll it be?	欢迎来到蓝野猪酒馆！要点什么？
 Something to eat and drink.	吃的喝的。
@@ -1087,26 +1087,26 @@ A room for the night (5 gold).	住一晚（5 金币）。
 You take a room upstairs and sleep the night through.	你在楼上要了一间房，一觉睡到天亮。
 You need 5 gold coins for a room.	你需要 5 枚金币才能住一间房。
 Welcome to The Lamb and Flag! What'll it be?	欢迎来到羔羊与旗酒馆！要点什么？
-Welcome to The Wayfarer's Rest! The kitchen's shut for good: two taverns feed all of Ashford. But a bed's a bed, and ours are the softest in town.	欢迎来到旅人之憩酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Ashford 了。不过床就是床，我们的床是全镇最软的。
+Welcome to The Wayfarer's Rest! The kitchen's shut for good: two taverns feed all of Puddleford. But a bed's a bed, and ours are the softest in town.	欢迎来到旅人之憩酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Puddleford 了。不过床就是床，我们的床是全镇最软的。
 Sit anywhere you like, love. The barkeep will see to you.	随便坐，亲爱的。酒保会招呼你的。
 Prime cuts, and pies to die for!	上等肉块，还有好吃得要命的馅饼！
 A letter from the Parliament? "Every friend of the crown..." Well, I'm a friend of the crown, and I'd be a better one if the goblins would leave my farms alone.\They come out of the hedges east of town and carry off the hens. Drive them off for me, at the farm crossroads, and I'll give you my pass for the Steward.	议会的信？“王冠的每一位朋友……”嗯，我是王冠的朋友，要是哥布林别来骚扰我的农场，我会是个更好的朋友。\它们从镇子东边的树篱里钻出来，把母鸡都叼走了。去农场的十字路口帮我把它们赶走，我就把我给总管的通行证给你。
 I'll deal with the goblins.	我会对付那些哥布林。
-Quest started: The Ashford Road.	任务开始：Ashford 之路。
+Quest started: The Puddleford Road.	任务开始：Puddleford 之路。
 The goblins are still at it! The farm crossroads, east of town.	哥布林还在闹！农场的十字路口，在镇子东边。
 Send them in.	让他们进来。
 I'm on my way.	我这就去。
 Beaten them, have you? Then here's my pass. The Steward at King Rupert's Keep will see you right.	把它们打败了，是吗？那这是我的通行证。鲁珀特王堡的总管会好好照顾你的。
 Thank you, Mayor.	谢谢你，镇长。
-Quest complete: The Ashford Road!	任务完成：Ashford 之路！
-There's worse news, I'm afraid. Goblins have come up from the farms and taken the bridge to Wardhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\Clear them off the bridge, would you? It's north of the farms.	恐怕还有更糟的消息。哥布林从农场那边上来，占领了通往 Wardhaven 的桥，桥上的守卫掉头就跑了。一个星期都没有东西过去了。\你能把它们从桥上清走吗？桥在农场北边。
+Quest complete: The Puddleford Road!	任务完成：Puddleford 之路！
+There's worse news, I'm afraid. Goblins have come up from the farms and taken the bridge to Sulkhaven, and the bridge guards turned tail and ran. Nothing's gone across in a week.\Clear them off the bridge, would you? It's north of the farms.	恐怕还有更糟的消息。哥布林从农场那边上来，占领了通往 Sulkhaven 的桥，桥上的守卫掉头就跑了。一个星期都没有东西过去了。\你能把它们从桥上清走吗？桥在农场北边。
 I'll clear the bridge.	我会清理那座桥。
-Quest started: The Wardhaven Bridge.	任务开始：Wardhaven 之桥。
-The goblins are still on the Wardhaven bridge, north of the farms.	哥布林还在 Wardhaven 的桥上，在农场北边。
-The bridge is clear? Then I'll send word, and the guards will be back at their posts by the time you're there. Wardhaven's gates will open to you. Here, for your trouble.	桥清干净了？那我会送信去，等你到那里时，守卫们会回到岗位上的。Wardhaven 的城门会为你打开。给，辛苦费。
-Quest complete: The Wardhaven Bridge! You receive 80 gold.	任务完成：Wardhaven 之桥！你获得了 80 金币。
-Ashford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.	Ashford 的镇公所：出生、婚礼、地契和哥布林。主要是哥布林。
-Welcome to Ashford's City Hall. The council meets here: rates, roads and rubbish, mostly.	欢迎来到 Ashford 市政厅。议会在这里开会：主要是税费、道路和垃圾。
+Quest started: The Sulkhaven Bridge.	任务开始：Sulkhaven 之桥。
+The goblins are still on the Sulkhaven bridge, north of the farms.	哥布林还在 Sulkhaven 的桥上，在农场北边。
+The bridge is clear? Then I'll send word, and the guards will be back at their posts by the time you're there. Sulkhaven's gates will open to you. Here, for your trouble.	桥清干净了？那我会送信去，等你到那里时，守卫们会回到岗位上的。Sulkhaven 的城门会为你打开。给，辛苦费。
+Quest complete: The Sulkhaven Bridge! You receive 80 gold.	任务完成：Sulkhaven 之桥！你获得了 80 金币。
+Puddleford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.	Puddleford 的镇公所：出生、婚礼、地契和哥布林。主要是哥布林。
+Welcome to Puddleford's City Hall. The council meets here: rates, roads and rubbish, mostly.	欢迎来到 Puddleford 市政厅。议会在这里开会：主要是税费、道路和垃圾。
 Hurt? Let me see. I'll patch you up for 8 gold.	受伤了？让我看看。8 金币我给你包扎好。
 Heal me (8 gold).	给我治疗（8 金币）。
 The doctor cleans and binds your wounds. You feel much better.	医生清洗并包扎了你的伤口。你感觉好多了。
@@ -1114,7 +1114,7 @@ You need 8 gold coins.	你需要 8 枚金币。
 Heal you? I've looked you over: not a scratch on you. You're as fit as a fiddle. Keep your gold, and come back when something's actually bleeding.	给你治疗？我给你检查过了：你身上一道划痕都没有。你健康得很。留着你的金币吧，等你真的在流血了再来。
 Fresh off the boats this morning!	今天早上刚从船上下来的！
 Cabbages, carrots and potatoes, all fresh!	卷心菜、胡萝卜和土豆，都是新鲜的！
-Welcome to the port of Ashford. Mind the ropes.	欢迎来到 Ashford 港。小心绳子。
+Welcome to the port of Puddleford. Mind the ropes.	欢迎来到 Puddleford 港。小心绳子。
 I'm painting the market, and it wants a cat: that black one with the white socks, Mo. But Mo won't keep still for a moment!\Stroke Mo while Mo's sitting down, and Mo will settle for me. Any other time and Mo's off. Will you try?	我在画集市，画里需要一只猫：那只穿着白袜子的黑猫，Mo。可 Mo 一刻也不肯安静！\趁 Mo 坐着的时候摸摸 Mo，Mo 就会为我安顿下来。别的时候 Mo 就跑了。你愿意试试吗？
 Quest started: A Portrait of Mo. (H: your journal)	任务开始：Mo 的肖像。（H：你的日志）
 No luck yet? Wait till Mo sits, then stroke Mo. Not mid-stretch. And not... well. Not that end.	还没成功？等 Mo 坐下，再摸 Mo。别在它伸懒腰的时候。也别……嗯。别摸那一头。
@@ -1122,7 +1122,7 @@ Look at that: sitting like a loaf! Don't move, puss...\(The brush flicks and dab
 Thank you!	谢谢你！
 Quest done: A Portrait of Mo.	任务完成：Mo 的肖像。
 Folk keep asking who the cat in my painting is. I tell them: the market's real owner.	人们总问我画里的猫是谁。我告诉他们：集市真正的主人。
-Welcome to Ashford's church. All are welcome here.	欢迎来到 Ashford 的教堂。这里欢迎所有人。
+Welcome to Puddleford's church. All are welcome here.	欢迎来到 Puddleford 的教堂。这里欢迎所有人。
 The tavern's lively tonight, I hear. Not that I'd know.	我听说今晚酒馆很热闹。不过我可不知道。
 I've brought your mother from the ferry.	我把你母亲从渡口接来了。
 How's your mother?	你母亲还好吗？
@@ -1142,7 +1142,7 @@ Need something forged? Or use my furnace and anvil yourself.	需要锻造什么�
 Still warm from the oven!	刚出炉还热着呢！
 Morning! Everything's fresh out of the oven.\You can cook on my oven fire too, if you've got your own meat.	早上好！所有东西都是刚出炉的。\如果你有自己的肉，也可以在我的炉火上做饭。
 Let me see your bread.	让我看看你的面包。
-Good day. Your valuables are safe with the Bank of Ashford.	日安。你的贵重物品在 Ashford 银行很安全。
+Good day. Your valuables are safe with the Bank of Puddleford.	日安。你的贵重物品在 Puddleford 银行很安全。
 I'd like to use my bank.	我想用一下我的银行。
 No thanks.	不用了，谢谢。
 Spare a coin for a poor old man?	给可怜的老人一个硬币吧？
@@ -1164,8 +1164,8 @@ Show me your scrolls.	给我看看你的卷轴。
 Can you teleport me?	你能把我传送过去吗？
 Another heir has come to you, besides me.	除了我，还有另一个继承人来找过你。
 Where to? Keep your arms in.	去哪儿？手脚收好。
-To the Isle.	去小岛。
-To Northport.	去 Northport。
+To Muddlesey.	去小岛。
+To Drizzleport.	去 Drizzleport。
 Nowhere, thanks.	哪儿都不去，谢谢。
 Bert waves his hands, and the world spins...	Bert 挥了挥手，世界旋转起来...
 Has one? Then the blood has been busy. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The dragon only ever counted one of you; the Shards count you all. Between us, it's the only good news I've had in years.	有一个？那血脉可一直很忙啊。第一位国王把龙砍倒时，需要王室的血来守住切口，从那以后，那血流进的血管可不止一条。龙只算过你们中的一个；碎片却把你们全都算上了。咱们私下说，这是我这些年来听到的唯一的好消息。
@@ -1220,7 +1220,7 @@ Quest complete: Bandits on the Road! You receive 200 gold, a steel platebody and
 Where are the goods? Did you lose them?	货物在哪儿？你弄丢了吗？
 I'll get them.	我会拿回来的。
 The bandits are gone, and so are the town's goods. Word is they turned up on the coast, sold to smugglers. Funny, that.	强盗没了，镇上的货物也没了。听说它们出现在了海岸上，卖给了走私者。真有意思。
-The road is safe again. Frosthold salutes you.	路又安全了。Frosthold 向你致敬。
+The road is safe again. Chillingham salutes you.	路又安全了。Chillingham 向你致敬。
 The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	路上到处都是强盗，平民可不该去。等你能像模像样地挥剑了，再来向我报告。
 Yes, Captain.	是，队长。
 Dragon Island? Ha! Nobody sails there and comes back, and I've done it twice. The reefs round it move, matey. Not with the tide: they move.\There was a chart that knew the way, once: Orrin's. Best navigator Brambleton ever had. He went up the Sundered Tower, south of the Wizards' Court, to read the sky, and he never came down. Bring me Orrin's chart and I'll find your island.\And she'll want her hull mended before she goes anywhere: ten planks and twenty nails, if you pass a carpenter's bench on your way back.	龙岛？哈！没人航行到那里还能回来，而我回来过两次。它周围的礁石会动，伙计。不是随着潮水：它们自己会动。\以前有一张海图认得路：Orrin 的。Brambleton 有过的最好的领航员。他登上了巫师庭南边的裂塔去观天，就再也没下来。把 Orrin 的海图给我带来，我就能找到你的岛。\还有，她出发去任何地方之前都得先补好船体：十块木板和二十根钉子，如果你回来的路上经过木匠工作台的话。
@@ -1473,7 +1473,7 @@ Thank you, Maren.	谢谢你，Maren。
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	任务完成：在 Edwin 家吃晚饭！Maren 给了你礼拜堂活板门的钥匙和两瓶治疗药剂。
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	如果你需要起草什么东西，遗嘱或地契，找我就对了。不过我希望你要用遗嘱的那天还很远、很远。
 What was my mother like?	我母亲是个什么样的人？
-She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	她抱着你来到小岛，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。有一次她说得我自己免掉了我的费用，我还道了谢。\我总觉得她不只是一间小屋和一只猫那么简单。
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	她抱着你来到小岛，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。有一次她说得我自己免掉了我的费用，我还道了谢。\我总觉得她不只是一间小屋和一只猫那么简单。
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	慢慢读那封信吧。它只属于你一个人。我不好奇。一点、一点都不好奇。
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	小心第三块木板。还有第五块。说实话，每一块都要小心。
 What do you catch out here?	你在这儿钓什么？
@@ -1488,7 +1488,7 @@ That's the smell of a good eel. Here. Don't ask me how long it's been smoked, I'
 You've had yours. The rest are spoken for. I've spoken for them.	你已经拿过你的了。剩下的都有主了。是我做的主。
 Three nights now, and every morning my eel traps are cut. Not torn: cut, with a knife.\Find out who's doing it. The reeds east of the village, that's where they'd hide.	已经三个晚上了，每天早上我的鳗鱼笼都被割破了。不是扯破的：是割破的，用刀。\帮我查出是谁干的。村子东边的芦苇丛，他们会躲在那里。
 I'll find out.	我会查出来的。
-Someone's been cutting Wenna's eel traps in the night. The reeds east of Saltmarsh are the place to look.	有人在夜里割 Wenna 的鳗鱼笼。该去 Saltmarsh 东边的芦苇丛里找找。
+Someone's been cutting Wenna's eel traps in the night. The reeds east of Brinebottom are the place to look.	有人在夜里割 Wenna 的鳗鱼笼。该去 Brinebottom 东边的芦苇丛里找找。
 Quest started: The Eel Traps.	任务开始：鳗鱼笼。
 You told Wenna it was Tobin cutting her traps. She paid you 60 gold.	你告诉 Wenna 是 Tobin 割了她的笼子。她付了你 60 金币。
 Tobin? That little... His mother will hear of this, and so will the whole village.\Here, 60 gold. You've earned it.	Tobin？那个小……他母亲会知道这件事的，全村人都会知道。\给，60 金币。这是你应得的。
@@ -1507,7 +1507,7 @@ Eels! Fresh this morning!	鳗鱼！今天早上新鲜的！
 From Morwen? *cough* ...ugh, vile... but... I feel warmer already. Thank her for me.	Morwen 送来的？*咳嗽* ……呃，真难喝……不过……我已经觉得暖和些了。替我谢谢她。
 Bog Lights: tell Morwen the Elder has drunk her brew.	沼泽之光：告诉 Morwen，长老喝了她的药。
 *cough* Morwen said she'd send something... have you got it?	*咳嗽* Morwen 说过她会送东西来……你拿来了吗？
-Welcome to Saltmarsh, traveller. Keep to the dry ground.	欢迎来到 Saltmarsh，旅人。走在干的地方。
+Welcome to Brinebottom, traveller. Keep to the dry ground.	欢迎来到 Brinebottom，旅人。走在干的地方。
 Welcome to The Owl and Ivy! What'll it be?	欢迎来到猫头鹰与常春藤酒馆！要点什么？
 The village hall. Dances on a Saturday, meetings on a Monday.	村公所。周六跳舞，周一开会。
 You're not from round here, are you? Emberwatch's a friendly place, mostly.	你不是本地人，是吧？Emberwatch 大体上是个友好的地方。
@@ -1520,17 +1520,17 @@ The farmer points at the hedges: "There! Here they come!"	农夫指着树篱：�
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	“蘑菇！洞穴蘑菇，会发光的那种：唯一一种和我一样喜欢黑暗的作物。给，拿几个。我请客。我的家就是个洞。”
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	“诀窍是，你要和它们说话。不要客气。蘑菇不相信客气。”
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	“Maud 说我不能把它们卖给矮人，因为根本没有矮人。我说那正是矮人想让你以为的。”
-Back to the Isle? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	回小岛？两条船一起渡海，每个码头一条，钟一响就出发。有船停在这里时就上船，一枚硬币就是船费。\它们在半路上相互交错。你愿意的话就挥挥手。没人挥。
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	回小岛？两条船一起渡海，每个码头一条，钟一响就出发。有船停在这里时就上船，一枚硬币就是船费。\它们在半路上相互交错。你愿意的话就挥挥手。没人挥。
 Thanks, Wim.	谢谢，Wim。
-Northport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	去 Northport，是吗？有船靠岸时就上船，付一枚硬币。它们听钟声从两个码头出发，在海峡里交错。\这些年没丢过一位乘客。嗯。今年没丢过。
+Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	去 Drizzleport，是吗？有船靠岸时就上船，付一枚硬币。它们听钟声从两个码头出发，在海峡里交错。\这些年没丢过一位乘客。嗯。今年没丢过。
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	等等，朋友。你还嫩得跟草一样，看样子你手里还从没拿过野兽留下的东西。大陆会把你这样的人吃掉的：先去找 Aldous 修士，到 3 级再回来。
-Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and looks at you for a long while.\Well. That's not my business, and I'll not make it mine. Those'll get you past any guard in Northport.\And when you land: there's a shardstone by the market. Feed it a few Shards and it wakes, and after that it'll carry you to any other shardstone you've woken. Mind your Shards.	文书？那让我看看。\他把文书展开，停在了印章上，盯着你看了很久。\好吧。那不关我的事，我也不会把它变成我的事。有了这些，Northport 的任何守卫都会放你过去。\还有，你上岸以后：集市旁边有一块碎片石。喂它几枚碎片它就会苏醒，以后它就能把你带到你唤醒过的任何其他碎片石。看好你的碎片。
+Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and looks at you for a long while.\Well. That's not my business, and I'll not make it mine. Those'll get you past any guard in Drizzleport.\And when you land: there's a shardstone by the market. Feed it a few Shards and it wakes, and after that it'll carry you to any other shardstone you've woken. Mind your Shards.	文书？那让我看看。\他把文书展开，停在了印章上，盯着你看了很久。\好吧。那不关我的事，我也不会把它变成我的事。有了这些，Drizzleport 的任何守卫都会放你过去。\还有，你上岸以后：集市旁边有一块碎片石。喂它几枚碎片它就会苏醒，以后它就能把你带到你唤醒过的任何其他碎片石。看好你的碎片。
 Thank you, Wim.	谢谢你，Wim。
 Quest complete: Passage to the Mainland!	任务完成：前往大陆！
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	有船靠岸时就上船，一枚硬币就是船费。它们听钟声从两个码头出发。
-Cross the strait? Papers first, friend. Since the raids, Northport's guards send back anyone off the Isle without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping the Isle's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	渡海峡？先要文书，朋友。自从那几次袭击以后，Northport 的守卫会把任何没有文书的小岛人送回来，而把他们送回家的人是我。\以前一直是老 Tobias 写文书，他管着小岛的名册，可自从大地精来了以后就没人见过他了。去问问农场上的 Bess：她是他女儿。
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	渡海峡？先要文书，朋友。自从那几次袭击以后，Drizzleport 的守卫会把任何没有文书的小岛人送回来，而把他们送回家的人是我。\以前一直是老 Tobias 写文书，他管着小岛的名册，可自从大地精来了以后就没人见过他了。去问问农场上的 Bess：她是他女儿。
 Quest started: Passage to the Mainland.	任务开始：前往大陆。
-Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	有文书了吗？没有？那就不能渡海，朋友。Northport 只会把你送回来，而把你送回来的人是我。划双倍的桨，收一样的船钱。
+Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	有文书了吗？没有？那就不能渡海，朋友。Drizzleport 只会把你送回来，而把你送回来的人是我。划双倍的桨，收一样的船钱。
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	今天鱼咬钩！在钩子上挂条虫子，海里什么都会咬。\等你用钓竿熟练了，鳟鱼会疯了一样咬钩。
 Any big catches about?	最近有什么大鱼吗？
 Cave eels! Pale as ghosts, they live in the black pools deep underground. You'll want real skill (Fishing 8) to land one.\I pay well for them, cooked or raw.	洞穴鳗！白得像鬼一样，它们住在地下深处的黑水池里。你得有真本事（钓鱼 8 级）才能钓上一条。\我出高价收，熟的生的都要。
@@ -1570,12 +1570,12 @@ Our pearl! (He sits on it.) Hear us, marsh: sing! (The marsh sings.) For this, t
 You come before us without our pearl? Bold. Very bold. The heron's nest is east.	你没带着我们的珍珠就来见我们？大胆。非常大胆。苍鹭的巢在东边。
 Ah, our friend the frog. Sit. There's a very good fly about somewhere.	啊，我们的朋友青蛙。坐吧。附近某处有一只非常好的苍蝇。
 The frog in the crown looks at you, and croaks. Just a croak. It seems to expect more of you.	戴着王冠的青蛙看着你，呱了一声。只是一声呱。它似乎对你有更多的期待。
-Welcome to the bank of Frosthold. Your valuables are safe with us.	欢迎来到 Frosthold 银行。你的贵重物品在我们这里很安全。
+Welcome to the bank of Chillingham. Your valuables are safe with us.	欢迎来到 Chillingham 银行。你的贵重物品在我们这里很安全。
 Welcome to The Plough! What'll it be?	欢迎来到犁酒馆！要点什么？
-This is Frosthold's Town Hall. Births, weddings and deeds are written here.	这里是 Frosthold 镇公所。出生、婚礼和地契都在这里登记。
-Welcome to Frosthold's church. All are welcome here.	欢迎来到 Frosthold 的教堂。这里欢迎所有人。
-Morning! Lovely day in Frosthold, isn't it?	早上好！Frosthold 天气真好，不是吗？
-Have you tried the bakery? Best bread in Frosthold.	你试过那家面包房吗？Frosthold 最好的面包。
+This is Chillingham's Town Hall. Births, weddings and deeds are written here.	这里是 Chillingham 镇公所。出生、婚礼和地契都在这里登记。
+Welcome to Chillingham's church. All are welcome here.	欢迎来到 Chillingham 的教堂。这里欢迎所有人。
+Morning! Lovely day in Chillingham, isn't it?	早上好！Chillingham 天气真好，不是吗？
+Have you tried the bakery? Best bread in Chillingham.	你试过那家面包房吗？Chillingham 最好的面包。
 Plate, mail and shields. Try something on!	板甲、锁子甲和盾牌。试穿一下吧！
 The forge is cold. Two armourers in one street was one too many; I lost the coin toss. Mind the anvil.	熔炉冷了。一条街上两个铠甲匠就多了一个；我掷硬币输了。小心铁砧。
 Welcome to the bank of Galaith. Your valuables are safe with us.	欢迎来到 Galaith 银行。你的贵重物品在我们这里很安全。
@@ -1643,7 +1643,7 @@ Bold. The Queen's child would be eighteen now, and would carry the Amulet of Suc
 I'll go to the Archivist.	我去找档案官。
 The Archivist's seal, in green. Then it is true.\My $Player.Lord. Forgive an old man his doubts. Here is my warrant: show it to the captain of the guard.	档案官的印章，绿色的。那么这是真的了。\我的 $Player.Lord。原谅一个老人的怀疑。这是我的手令：把它拿给卫队队长看。
 Thank you, Chancellor.	谢谢你，大法官。
-The Parliament of Brambleton will return from Northport, now the road is open. There is much to do.	既然道路通了，Brambleton 议会将从 Northport 回来。有很多事要做。
+The Parliament of Brambleton will return from Drizzleport, now the road is open. There is much to do.	既然道路通了，Brambleton 议会将从 Drizzleport 回来。有很多事要做。
 Pots, pails and tools: a bit of everything for the road.	锅、桶和工具：路上用的什么都有一点。
 Cloth and wool, the best!	布料和羊毛，最好的！
 Boots that last!	经穿的靴子！
@@ -1661,7 +1661,7 @@ Quest complete: Granny Bramble's Practice Hex!	任务完成：Bramble 奶奶的�
 Four rats, dearie, and you've seen to $Attr.HexRats. Ran off, did they? Here they come again.	四只老鼠，亲爱的，你已经解决了 $Attr.HexRats 只。跑掉了，是吗？它们又来了。
 I'm on it.	马上去。
 Mind how you go, dearie. Mind the rats.	路上小心，亲爱的。小心老鼠。
-Oh! Excuse me, dear. I've come over on the ferry to live with my daughter Percy, in Ashford.\But my eyes aren't what they were, and one road looks like another to me. Would you walk me there?	哦！打扰一下，亲爱的。我坐渡船过来，要去 Ashford 和我女儿 Percy 一起住。\可我的眼睛大不如前了，在我看来每条路都一个样。你能陪我走过去吗？
+Oh! Excuse me, dear. I've come over on the ferry to live with my daughter Percy, in Puddleford.\But my eyes aren't what they were, and one road looks like another to me. Would you walk me there?	哦！打扰一下，亲爱的。我坐渡船过来，要去 Puddleford 和我女儿 Percy 一起住。\可我的眼睛大不如前了，在我看来每条路都一个样。你能陪我走过去吗？
 Of course. Follow me.	当然。跟我来。
 Not now, sorry.	现在不行，抱歉。
 Quest started: Granny Wren's Walk. (H: your journal)	任务开始：Wren 奶奶的散步。（H：你的日志）
@@ -1687,7 +1687,7 @@ Welcome to the Wizards' Court. The wizards hold court in the great hall.\Mind yo
 Halt! The mine is closed by order of the King's Steward.\No one goes through this gate without body armour on. The hobgoblins down there would gut you. I've seen it. I didn't care for it.\Unless the Steward sent you, of course.	站住！奉国王总管之命，矿井关闭。\没穿护甲的人谁也不能过这道门。下面的大地精会把你开膛破肚。我见过。可不好看。\当然，除非是总管派你来的。
 Where can I get armour?	我在哪里能弄到盔甲？
 The quartermaster at the keep sells leather and iron. Or tan some cowhide and make your own on a workbench.\And wear it! In your pack it won't stop a hobgoblin's axe. You'd be surprised how many ask.	王堡的军需官卖皮甲和铁甲。或者鞣一些牛皮，在工作台上自己做。\还有要穿上！放在包里可挡不住大地精的斧头。问这个的人多得你都不敢信。
-Keep the peace in Ashford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	在 Ashford 遵守秩序，公民。\如果你在找活干，国王的总管会为大地精的耳朵付高价。别问他拿它们做什么。\总管掌管着国王的城堡，在这里南边。
+Keep the peace in Puddleford, citizen.\If you're looking for work, the King's Steward pays well for hobgoblin ears. Don't ask me what he does with them.\The Steward keeps the King's keep, south of here.	在 Puddleford 遵守秩序，公民。\如果你在找活干，国王的总管会为大地精的耳朵付高价。别问他拿它们做什么。\总管掌管着国王的城堡，在这里南边。
 Any other news?	还有别的消息吗？
 Halt! ...ah, you look honest enough. Honest-ish. Go on in.\The Steward holds the hall while the King is away.\The quartermaster in the courtyard sells arms.	站住！……啊，你看起来够老实。大致够老实。进去吧。\国王不在时，总管掌管着大厅。\院子里的军需官卖武器。
 Three of the lads were bitten by giant spiders down the old mine. The herbalist is trying to brew something for them. One of them's still screaming. That's Dennis. Dennis screams at moths.	有三个小伙子在旧矿井下面被巨型蜘蛛咬了。草药师正在试着给他们熬点什么。有一个还在尖叫。是 Dennis。Dennis 看见飞蛾也会尖叫。
@@ -1708,7 +1708,7 @@ Bless you, I could use a hand. Three of the King's guards were bitten by giant s
 I'll gather them.	我去收集。
 Pick 3 Cave Mushrooms in the old iron mine.	在旧铁矿里采 3 朵洞穴蘑菇。
 Get 2 Spider Silk from the giant spiders in the mine depths.	从矿井深处的巨型蜘蛛身上取得 2 份蜘蛛丝。
-Bring them all to the Herbalist's cottage on the Ashford farmlands.	把它们都带到 Ashford 农田上草药师的小屋。
+Bring them all to the Herbalist's cottage on the Puddleford farmlands.	把它们都带到 Puddleford 农田上草药师的小屋。
 Quest started: The Herbalist's Remedy.	任务开始：草药师的药方。
 You found them all! The guards will be on their feet in no time.\Take these potions, and let me show you a thing or two about potion making. My alchemy table is yours to use.	你都找到了！守卫们很快就能站起来了。\拿着这些药水，我来教你一两手酿药的本事。我的炼金台你随便用。
 Quest complete! You receive 2 super potions, 60 gold and Alchemy experience.	任务完成！你获得了 2 瓶超级药水、60 金币和炼金经验。
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	我会回来的。
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	有客人！除了兔子，没人会来这里。\我的火快灭了，我这把老骨头抡不动斧头了。给我拿五根橡木原木来，我会给你点辛苦费。\这片树林里长着橡树。你需要伐木 5 级。
 I'll fetch them.	我去拿。
-His camp is in the Isle's western woods. Oak trees grow all over the Isle.	他的营地在小岛西边的树林里。小岛上到处都长着橡树。
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	他的营地在小岛西边的树林里。小岛上到处都长着橡树。
 Quest started: The Hermit's Fire.	任务开始：隐士的火。
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	啊，好橡木。够烧一个星期了。给，拿着我的旧法杖：它会给你的法术添点火力。\还有一个秘密，送给朋友：东南岸边的立石下面藏着的不只是苔藓。
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	任务完成！你获得了一根橡木法杖、25 金币和伐木经验。
@@ -1746,7 +1746,7 @@ Quest complete: Old Hob! He's himself again, and you're 40 gold the richer.	任�
 You kept Hob's savings, and the madness took him again. He's wild for good now.	你留下了 Hob 的积蓄，疯狂又夺走了他。他永远变野了。
 Hob's eyes go wild again. He goes for your throat!	Hob 的眼睛又变得狂野起来。他扑向你的喉咙！
 Quest complete: Old Hob... though not the way anyone hoped.	任务完成：老 Hob……虽然不是任何人希望的那样。
-Hob says the savings in his chest are yours. His house is in Oakhollow, and the door's open now.	Hob 说他箱子里的积蓄归你了。他的房子在 Oakhollow，现在门开着。
+Hob says the savings in his chest are yours. His house is in Acornby, and the door's open now.	Hob 说他箱子里的积蓄归你了。他的房子在 Acornby，现在门开着。
 You brought me back. I remember the spider, the woods, the hunger. And you.\Thank you, friend. My door is open now, and what's in my chest is yours: you've earned it.	你把我带回来了。我记得那只蜘蛛，那片树林，那种饥饿。还有你。\谢谢你，朋友。我的门现在开着，我箱子里的东西归你了：这是你应得的。
 Quest complete: Old Hob! His savings are yours: they're in the chest in his house.	任务完成：老 Hob！他的积蓄归你了：在他房子里的箱子里。
 Mind how you go out there. And mind the spiders.	在外面要小心。还有，小心蜘蛛。
@@ -1801,8 +1801,8 @@ Annis looks up from the Shard on the table, and smiles. "Hush, love: my Oswin's 
 Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agree.	喝吧，朋友。井属于任何口渴的人，可那些龙蜥不同意。
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	咩！哈，抱歉——你整天跟羊说话，说起话来也像羊了。\注意别吓着它们。如果你想要羊毛，只要你温柔点，它们会让你剪的。
 How do I shear a sheep?	我怎么剪羊毛？
-Use shears on one - the tinker in Ashford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	对一只羊使用大剪刀——Ashford 的补锅匠有卖，商店也有。然后在纺车上纺羊毛，或者卖给织工。
-Welcome to the Isle Store! There's precious little money on the Isle, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	欢迎来到小岛商店！小岛上钱少得可怜，所以我只卖大家离不了的东西。工具、鱼饵和吃的：这里的人需要的就是这些。
+Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	对一只羊使用大剪刀——Puddleford 的补锅匠有卖，商店也有。然后在纺车上纺羊毛，或者卖给织工。
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	欢迎来到小岛商店！小岛上钱少得可怜，所以我只卖大家离不了的东西。工具、鱼饵和吃的：这里的人需要的就是这些。
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	弄臣需要一个国王，国王需要一个王国，而我需要一份工作。\所以我到处走走。您想要什么，$Player.Lord 还是平民？
 Tell me a joke.	给我讲个笑话。
 A riddle, then.	那出个谜语吧。
@@ -1908,9 +1908,9 @@ Quest started: A Golem's Worth of Trouble.	任务开始：一个魔像的麻烦�
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	按我算还剩 4 个。已经完成 $Attr.GolemQuest_Count 个。
 Quest complete: A Golem's Worth of Trouble.	任务完成：一个魔像的麻烦。
 Splendid! And quite safe, now. Mostly.	太棒了！现在相当安全了。大体上。
-Northport's a quiet place, mostly. The ferry brings folk over from the Isle, and the fish come in at dawn.	Northport 大体上是个安静的地方。渡船把人们从小岛送过来，鱼在黎明时进港。
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	Drizzleport 大体上是个安静的地方。渡船把人们从小岛送过来，鱼在黎明时进港。
 Ha. Thanks.	哈。谢谢。
-Heading inland? Ashford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	要往内陆去？Ashford 在这里东边。小心南边的树林：有狼，过了旧矿井还有更糟的。
+Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	要往内陆去？Puddleford 在这里东边。小心南边的树林：有狼，过了旧矿井还有更糟的。
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	我叔叔有一次下到流变深渊里。从另一个洞里上来的。还换了个郡。
 Don't trust geese. That's all I'll say. Don't trust them.	别相信鹅。我只说这么多。别相信它们。
 I once saw a cow look at the moon for a whole night. Changed me, that did.	我有一次看到一头牛望着月亮望了一整夜。那改变了我。
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	我继续砍。
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	从 Bess 的鸡舍拿一个鸡蛋，在我楼上的炉灶上煎好，然后给 Edwin。他会很高兴的。他会装作不高兴，但他会很高兴的。
 I'll see to it.	我来办。
-Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	进来吧，亲爱的。小岛上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。大多数都好了。剩下的就交给 Aldous 修士。\Edwin 的书桌在窗边：遗嘱、地契之类的。我们俩加起来，管的是人的一辈子。
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	进来吧，亲爱的。小岛上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。大多数都好了。剩下的就交给 Aldous 修士。\Edwin 的书桌在窗边：遗嘱、地契之类的。我们俩加起来，管的是人的一辈子。
 How is your father?	你父亲怎么样了？
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	回家了，安全了，还把我们吃得家徒四壁！每天晚上三碗。我怎么感谢你都不够。\所以暂时请别再救别人了。
 I'm glad.	我很高兴。
@@ -1974,7 +1974,7 @@ What's wool for?	羊毛有什么用？
 How do I get to the mainland?	我怎么去大陆？
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	在工作台上把它纺成羊毛球，谷仓里就有一个。牛皮也可以在那里鞣成皮革。还在牛身上用着的那些不行。
 Thanks!	谢谢！
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Northport sends back anyone off the Isle who hasn't any.\Father always wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Northport 会把任何没有文书的小岛人送回来。\以前一直是我父亲写小岛的文书。从我出生前他就管着小岛的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。听说他们在礼拜堂下面的洞穴里有个巢穴。\可怜的家伙们。他现在大概正跟他们讲他的膝盖呢。
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Drizzleport 会把任何没有文书的小岛人送回来。\以前一直是我父亲写小岛的文书。从我出生前他就管着小岛的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。听说他们在礼拜堂下面的洞穴里有个巢穴。\可怜的家伙们。他现在大概正跟他们讲他的膝盖呢。
 I'll find him.	我会找到他的。
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	你可别空手去接近大地精！我的 Frank 是铁匠：他的铁匠铺就在我的小屋旁边。他会帮你做一把剑和一面盾。\他话不多。多点点头，他会喜欢的。
 Thank you, Bess.	谢谢你，Bess。
@@ -1988,7 +1988,7 @@ Careful, friend! The hobgoblins dug up from the deep and drove us all out.\There
 How do I mine?	我怎么采矿？
 Where did the hobgoblins come from?	大地精是从哪儿来的？
 Click a rock with ore in it and swing. Better pickaxes strike more often.\Smelt the ore at a furnace.\At Mining 5 the guild's deep seam opens: coal, silver and gold!	点击一块有矿的岩石，然后挥镐。更好的镐敲得更频繁。\在熔炉里冶炼矿石。\采矿 5 级时，行会的深矿脉就开放了：煤、银和金！
-You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Ashford blacksmith sells them too.	你需要一把镐。我逃跑的时候把我的备用镐掉在梯子旁边了。\Ashford 的铁匠也有卖。
+You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Puddleford blacksmith sells them too.	你需要一把镐。我逃跑的时候把我的备用镐掉在梯子旁边了。\Puddleford 的铁匠也有卖。
 There's a hatch in the tunnels to the east that goes down to their warren.\I saw them carry off all sorts down there. Keys, coins, gems...	东边的隧道里有个舱口，通往下面它们的地洞。\我看到它们把各种东西都搬了下去。钥匙、硬币、宝石...
 I'll take a look.	我去看看。
 'Water? Gems? A carpet that flies, but only on Tuesdays? Everything's for sale, friend. Especially the things that aren't there.'	“水？宝石？一张会飞的地毯，不过只在星期二飞？什么都卖，朋友。尤其是那些不存在的东西。”
@@ -2044,36 +2044,36 @@ The Keeper's gone? Then it's the mirrors: the forge only burns with the sun on i
 Quest complete: The Sun-Forge!	任务完成：太阳熔炉！
 You lit it! I heard it from here, like a bell rung in a kiln.\The third fire isn't ours. The dwarves had an anvil, deep under the mountains in the Stoneways, and the delvers' camp has been digging after it for years. Ask for Maud. Tell her Tarek says she still owes him a goat.	你点燃了它！我在这儿都听到了，像窑里敲响了一口钟。\第三团火不是我们的。矮人有一个铁砧，在 Stoneways 的山底深处，掘地者的营地已经挖了好多年了。找 Maud。告诉她 Tarek 说她还欠他一只山羊。
 Noops opens one eye, considers you, and closes it again.	Noops 睁开一只眼睛，打量了你一下，又闭上了。
-Welcome to the bank of Northport. Your valuables are safe with us.	欢迎来到 Northport 银行。你的贵重物品在我们这里很安全。
+Welcome to the bank of Drizzleport. Your valuables are safe with us.	欢迎来到 Drizzleport 银行。你的贵重物品在我们这里很安全。
 Welcome to The Drover's Rest! What'll it be?	欢迎来到赶牲人之憩酒馆！要点什么？
 Welcome to The Mermaid's Purse! What'll it be?	欢迎来到美人鱼钱袋酒馆！要点什么？
-Welcome to The Grey Mare! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	欢迎来到灰母马酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Northport 了。不过床就是床，我们的床是全镇最软的。
-Welcome to The Crown and Anchor! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	欢迎来到王冠与锚酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Northport 了。不过床就是床，我们的床是全镇最软的。
-Welcome to The Gull and Anchor! The kitchen's shut for good: two taverns feed all of Northport. But a bed's a bed, and ours are the softest in town.	欢迎来到海鸥与锚酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Northport 了。不过床就是床，我们的床是全镇最软的。
-Halt. The gates are shut by order of the Parliament: raiders have been seen on the roads, and nobody leaves Northport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing that opens these gates.	站住。奉议会之命，城门关闭：路上有人看到了袭击者，在议会发话之前，谁都不能离开 Northport。\去市政厅找议长吧；只有议会的话才能打开这些城门。
+Welcome to The Grey Mare! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	欢迎来到灰母马酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Drizzleport 了。不过床就是床，我们的床是全镇最软的。
+Welcome to The Crown and Anchor! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	欢迎来到王冠与锚酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Drizzleport 了。不过床就是床，我们的床是全镇最软的。
+Welcome to The Gull and Anchor! The kitchen's shut for good: two taverns feed all of Drizzleport. But a bed's a bed, and ours are the softest in town.	欢迎来到海鸥与锚酒馆！厨房永远关门了：两家酒馆就够喂饱整个 Drizzleport 了。不过床就是床，我们的床是全镇最软的。
+Halt. The gates are shut by order of the Parliament: raiders have been seen on the roads, and nobody leaves Drizzleport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing that opens these gates.	站住。奉议会之命，城门关闭：路上有人看到了袭击者，在议会发话之前，谁都不能离开 Drizzleport。\去市政厅找议长吧；只有议会的话才能打开这些城门。
 Understood.	明白了。
 The Parliament's word came down: the gates are open to you. Keep your sword close out there.	议会的话下来了：城门为你打开了。在外面把剑带在身边。
-The shop's shut. Two butchers nearer the square, and not enough sausages in Northport to go round three. I keep the cleaver sharp, though. Habit.	店关门了。离广场更近的地方有两家肉铺，Northport 的香肠可不够分给三家。不过我还是把切肉刀磨得很快。习惯了。
-This is Northport's Town Hall. Births, weddings and deeds are written here.	这里是 Northport 镇公所。出生、婚礼和地契都在这里登记。
-Northport's watch keeps the peace. Keep your sword in its scabbard and we'll get along.	Northport 的守卫维持着治安。把你的剑留在鞘里，我们就能相安无事。
+The shop's shut. Two butchers nearer the square, and not enough sausages in Drizzleport to go round three. I keep the cleaver sharp, though. Habit.	店关门了。离广场更近的地方有两家肉铺，Drizzleport 的香肠可不够分给三家。不过我还是把切肉刀磨得很快。习惯了。
+This is Drizzleport's Town Hall. Births, weddings and deeds are written here.	这里是 Drizzleport 镇公所。出生、婚礼和地契都在这里登记。
+Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll get along.	Drizzleport 的守卫维持着治安。把你的剑留在鞘里，我们就能相安无事。
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	晚上好。这么晚还来码头、又没东西卖的人可不多。\我不问一样东西去过哪里，我也不记得人脸。只是会让你在价钱上吃点亏，就这样。
 Let's see what you'll give me.	看看你能给我什么。
-Welcome to the port of Northport. Mind the ropes.	欢迎来到 Northport 港。小心绳子。
-Off the Isle ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Northport 的市政厅就是 Brambleton 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
+Welcome to the port of Drizzleport. Mind the ropes.	欢迎来到 Drizzleport 港。小心绳子。
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Drizzleport 的市政厅就是 Brambleton 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
 I'll go to the City Hall.	我去市政厅。
-Welcome to Northport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Northport，Brambleton 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
+Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Drizzleport，Brambleton 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
 Quest started: The Temporary Capital.	任务开始：临时首都。
-Keep your purse close in the market, and your sword in its scabbard. Northport's a good city, mostly.	在集市里看好你的钱袋，把你的剑留在鞘里。Northport 大体上是座好城市。
-Welcome to the cathedral of Northport. Sit a while: the light through the glass is lovely.	欢迎来到 Northport 大教堂。坐一会儿吧：透过玻璃照进来的光很美。
-You're not from round here, are you? Northport's a friendly place, mostly.	你不是本地人，是吧？Northport 大体上是个友好的地方。
-Have you tried the bakery? Best bread in Northport.	你试过那家面包房吗？Northport 最好的面包。
+Keep your purse close in the market, and your sword in its scabbard. Drizzleport's a good city, mostly.	在集市里看好你的钱袋，把你的剑留在鞘里。Drizzleport 大体上是座好城市。
+Welcome to the cathedral of Drizzleport. Sit a while: the light through the glass is lovely.	欢迎来到 Drizzleport 大教堂。坐一会儿吧：透过玻璃照进来的光很美。
+You're not from round here, are you? Drizzleport's a friendly place, mostly.	你不是本地人，是吧？Drizzleport 大体上是个友好的地方。
+Have you tried the bakery? Best bread in Drizzleport.	你试过那家面包房吗？Drizzleport 最好的面包。
 So you're the one with the old royal seal: Sergeant Brand sent word up from the pier.\She reads your papers twice over, and hands them back as if they might break.\Keep those close. Very close. Now: what is it you want of us?	那么你就是带着古老王室印章的那个人：Brand 中士从码头上送信来了。\她把你的文书读了两遍，递回来的样子好像它们会碎掉。\把这些收好。非常好地收好。那么：你想要我们做什么？
 To go to Galaith.	去 Galaith。
 You want to go to Galaith? Half this Parliament wants nothing else.\The barrier is the dragon's: violet light across the pass, hard as glass. No sword, no ram and no spell of ours has so much as scratched it. Only one person living might break it: Bert, the great wizard of the Wizards' Court, far to the east.	你想去 Galaith？这个议会里有一半的人别的什么都不想。\屏障是龙的：一道紫色的光横在山口上，硬得像玻璃。我们的剑、攻城锤、法术，连划都没划伤过它。活着的人里只有一个可能打破它：Bert，巫师庭的大巫师，在很远的东边。
 How do I get to him?	我怎么才能找到他？
-Through Ashford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of Ashford can vouch for you to the King's Steward, and the Steward to Bert.\Take the Parliament's letter to the Mayor: it asks every friend of the crown to help you on your way.	经过 Ashford 和鲁珀特王堡。王冠没有作保的人 Bert 一概不见：Ashford 的镇长可以向国王的总管为你作保，总管再向 Bert 为你作保。\把议会的信带给镇长：信里请求王冠的每一位朋友帮助你上路。
+Through Puddleford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of Puddleford can vouch for you to the King's Steward, and the Steward to Bert.\Take the Parliament's letter to the Mayor: it asks every friend of the crown to help you on your way.	经过 Puddleford 和鲁珀特王堡。王冠没有作保的人 Bert 一概不见：Puddleford 的镇长可以向国王的总管为你作保，总管再向 Bert 为你作保。\把议会的信带给镇长：信里请求王冠的每一位朋友帮助你上路。
 Thank you, Madam Speaker.	谢谢你，议长女士。
-Quest complete: The Temporary Capital! The Speaker gave you the Parliament's letter for the Mayor of Ashford.	任务完成：临时首都！议长给了你议会写给 Ashford 镇长的信。
+Quest complete: The Temporary Capital! The Speaker gave you the Parliament's letter for the Mayor of Puddleford.	任务完成：临时首都！议长给了你议会写给 Puddleford 镇长的信。
 Order, order! Oh, it's you. The Parliament sits from dawn till the members fall asleep.	肃静，肃静！哦，是你。议会从黎明一直开到议员们睡着为止。
 The doctor will see you. Mind the beds.	医生会见你的。小心那些床。
 Look at you. Look at you. I'd have known you anywhere, you know. You have her chin.	看看你。看看你。你知道吗，我在哪里都能认出你来。你有她的下巴。
@@ -2081,7 +2081,7 @@ I nursed every royal child born in this palace for forty years. Every one of the
 The cot's kept aired. I keep it aired. Somebody has to.	摇篮一直保持通风。是我让它保持通风的。总得有人做。
 Mind the rug. The little ones used to slide on it.	小心地毯。小家伙们以前常在上面滑。
 Welcome to The Merry Miller! What'll it be?	欢迎来到快乐磨坊主酒馆！要点什么？
-You're not from round here, are you? Oakhollow's a friendly place, mostly.	你不是本地人，是吧？Oakhollow 大体上是个友好的地方。
+You're not from round here, are you? Acornby's a friendly place, mostly.	你不是本地人，是吧？Acornby 大体上是个友好的地方。
 They ate my boots, stranger. While I was in them. Kill six of those rats, would you?	它们吃了我的靴子，陌生人。我还穿着呢。你能杀掉六只那种老鼠吗？
 Quest started: Rats of Unusual Size.	任务开始：大得出奇的老鼠。
 Still 6 to go, by my count. $Attr.DustRatQuest_Count done.	按我算还剩 6 个。已经完成 $Attr.DustRatQuest_Count 个。
@@ -2230,7 +2230,7 @@ Stumps. Three hundred years of oak, and now stumps.	树桩。三百年的橡树�
 The grove's quiet, and the rangers' lodge is busy. The Wildwood thanks you.	林子很安静，游侠的小屋很热闹。Wildwood 感谢你。
 Well met. I'm Ash, warden of the Wildwood.\Three old watch stones stand in these woods, and I can't leave the village to check them. Will you visit them for me?	幸会。我是 Ash，Wildwood 的守护者。\这片树林里立着三块古老的守望石，我没法离开村子去查看它们。你能替我去看看吗？
 I'll check the stones.	我去查看那些石头。
-Watch stone by the north road, between King Rupert's Keep and Oakhollow.	北路旁的守望石，在鲁珀特王堡和 Oakhollow 之间。
+Watch stone by the north road, between King Rupert's Keep and Acornby.	北路旁的守望石，在鲁珀特王堡和 Acornby 之间。
 Watch stone in the western woods.	西边树林里的守望石。
 Watch stone east of the river.	河东边的守望石。
 Quest started: The Wildwood Watch.	任务开始：Wildwood 守望。
@@ -2243,10 +2243,10 @@ The Wildwood eats the careless. Prove yourself to the King, and come back with a
 Every beast slain, every secret found, every win in the arena: it's all on the board, and I check the sums twice. Ink doesn't lie. People do.	每一头被杀的野兽，每一个被找到的秘密，竞技场里的每一场胜利：全都记在榜上，每笔账我都核对两遍。墨水不会撒谎。人会。
 Am I on it?	我在上面吗？
 Anyone who's done anything worth writing down is. Have a look. If your name's not near the top, there's always tomorrow.	任何做过值得记下来的事的人都在上面。看看吧。如果你的名字不在前面，总还有明天。
-What's that you're carrying? Frosthold's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Frosthold need ever know where they went.	你拿着的是什么？要是我没猜错，是 Frosthold 的货物，从 Redrock 路上来的。\Hale 会为它们拍拍你的背。我会给你 300 金币，Frosthold 的人谁也不用知道它们去了哪儿。
+What's that you're carrying? Chillingham's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Chillingham need ever know where they went.	你拿着的是什么？要是我没猜错，是 Chillingham 的货物，从 Redrock 路上来的。\Hale 会为它们拍拍你的背。我会给你 300 金币，Chillingham 的人谁也不用知道它们去了哪儿。
 Sell them to Meg.	把它们卖给梅格。
 They're going back to Hale.	它们要还给 Hale。
-Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Frosthold won't thank you.	任务完成：路上的强盗……卖给了红发梅格，换了 300 金币。Frosthold 不会感谢你的。
+Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Chillingham won't thank you.	任务完成：路上的强盗……卖给了红发梅格，换了 300 金币。Chillingham 不会感谢你的。
 Holt's men had a lovely walk on the wrong beach, I hear. I owe you.\And I've a job for a friend. A cask of my best for Pell, the castle's cellarer: he's in the Court's courtyard. The watch walks there now, and if they see a cask they'll have it off you.	我听说 Holt 的人在错误的海滩上好好散了个步。我欠你的。\我还有一份给朋友的活儿。一桶我最好的酒，给城堡的酒窖总管 Pell：他在巫师庭的院子里。现在守卫在那里巡逻，要是他们看到一个桶，就会从你手里拿走。
 I'll carry it.	我来搬。
 Show me your goods.	给我看看你的货。
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	给他看护身符。
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	那枚护身符……你是从哪里得来的？那是我送给我妻子的，在那天晚上之前……她逃走的那天晚上。
 Tell him of Mary's will.	告诉他 Mary 的遗嘱。
-My mother, Mary, died on the Isle, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	我的母亲，Mary，死在了小岛上，她在那里把我养大。她的遗嘱告诉了我我是谁。她让我回到你身边，告诉你她的死讯。\还要告诉你，她从未停止爱你。
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	我的母亲，Mary，死在了小岛上，她在那里把我养大。她的遗嘱告诉了我我是谁。她让我回到你身边，告诉你她的死讯。\还要告诉你，她从未停止爱你。
 The King comes down from his throne, and holds you, and weeps.	国王从王座上走下来，抱住你，哭了。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary。我的 Mary。她把你带走，好让龙得不到你，而我任由他们把那叫作背叛。十八年了。\我的 $Player.Son。我的 $Player.Son。
 Father.	父亲。
@@ -2335,7 +2335,7 @@ Pip gives you two fish pies.	Pip 给了你两个鱼馅饼。
 That's all I've got, honest.	我就只有这些了，真的。
 I know. Look after yourself.	我知道。照顾好自己。
 You're a strange one. Thank you, though.	你真是个怪人。不过还是谢谢你。
-Have you tried the bakery? Best bread in Saltmarsh.	你试过那家面包房吗？Saltmarsh 最好的面包。
+Have you tried the bakery? Best bread in Brinebottom.	你试过那家面包房吗？Brinebottom 最好的面包。
 All right! It was me! I cut her traps.\Da had this spot for twenty years. He took sick, and Wenna moved in before he was cold in his bed. He's not dead, but he might as well be, for all she cares.	好吧！是我！是我割了她的笼子。\我爹在这个地方干了二十年。他病倒了，他的床还没凉，Wenna 就搬了进来。他没死，可在她看来跟死了也差不多。
 I'll have to tell Wenna.	我得告诉 Wenna。
 Your secret's safe. I'll talk to her.	你的秘密很安全。我去和她谈谈。
@@ -2366,7 +2366,7 @@ Qadir's caravan never arrived. Lost in the Sunscar, west of here, with the scorp
 Brann's forge has gone cold. Something huge broke the ice on the lake to the east.	Brann 的熔炉冷了。某个巨大的东西打破了东边湖上的冰。
 The Druid says the Heartwood is sickening. Even the bears have gone mad. It's out north-east, deep in the trees.	德鲁伊说心木石正在生病。连熊都发狂了。它在东北边，树林深处。
 The old king won't stay in his barrow. The Gravekeeper wants someone brave. The barrow's east, out on the downs.	老国王不肯待在他的古冢里。守墓人想找个勇敢的人。古冢在东边，在外面的高地上。
-Goblins on the bridge and the guards run off: we thought we'd starve out here. They say it was you who cleared them. Drinks are on the house at every table in Wardhaven!	哥布林占了桥，守卫跑了：我们还以为要在这里饿死了。据说是你把它们清走的。在 Wardhaven 的每一张桌子上，酒都算店里的！
+Goblins on the bridge and the guards run off: we thought we'd starve out here. They say it was you who cleared them. Drinks are on the house at every table in Sulkhaven!	哥布林占了桥，守卫跑了：我们还以为要在这里饿死了。据说是你把它们清走的。在 Sulkhaven 的每一张桌子上，酒都算店里的！
 The Warden says the cult burnt the shrines first. Then the farms. Now there's a fire in the Cinder Fort every night. Ask her if you want work.	守望者说，邪教先烧了神龛。然后是农场。现在余烬堡垒每天晚上都有火。如果你想找活干就去问她。
 Safe travels.	一路平安。
 Wolves! Every night another lamb gone. I can't fight them with a crook.\Thin them out for me? Six should make them think twice.	狼！每天晚上都少一只羊羔。我拿着牧羊杖可打不过它们。\帮我把它们杀掉一些？六只应该能让它们三思。
@@ -2392,7 +2392,7 @@ There they are, all three, looking like it was my fault. Here, take this, it's n
 They're good as gold now. For a day or two.	它们现在乖得很。乖个一两天吧。
 Mind the river.	小心那条河。
 I'm the sheriff here. Trouble goes in the cells; you don't look like trouble.	我是这里的警长。惹麻烦的进牢房；你看起来不像麻烦。
-Welcome to the Ashford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	欢迎来到 Ashford 杂货店！\工具、桶、渔具：你需要什么，我这里都有。我这里没有的，你就不需要。
+Welcome to the Puddleford General Store!\Tools, buckets, fishing gear: if you need it, I've got it. If I haven't got it, you don't need it.	欢迎来到 Puddleford 杂货店！\工具、桶、渔具：你需要什么，我这里都有。我这里没有的，你就不需要。
 Show me your wares.	给我看看你的货物。
 Sister Linnet of the Mending. "Come in out of the cold, friend! There's soup on. There's always soup on. And the Shard on the table is good company: sit by it a while, and listen. Shoes off if you like. We're very relaxed about shoes."\"The others? Oh, they're at the gathering tonight. I mustn't say where, I'm sorry: it's only for those of the Mending." She smiles at your coat. "Grey suits everyone, you know. We've a robe in every size. We checked."	弥合会的 Linnet 修女。“进来吧，别在外面受冻，朋友！汤煮好了。汤总是煮好的。桌上的碎片是很好的伴：在它旁边坐一会儿，听一听。想脱鞋就脱吧，我们对鞋子很宽容。”\“其他人？哦，他们今晚在聚会。我不能说在哪里，抱歉：那只对弥合会的人开放。”她冲你的外套笑了笑。“灰色适合每个人，你知道的。我们的袍子什么尺码都有。我查过了。”
 Where's the gathering?	聚会在哪里？
@@ -2485,7 +2485,7 @@ Pay him.	付给他。
 Of course. I'll walk with you until it is.	当然。那我就陪你走一段，直到你付为止。
 Oh, good.	哦，很好。
 Welcome to The Half Moon! What'll it be?	欢迎来到半月酒馆！要点什么？
-Morning! Lovely day in Thornwick, isn't it?	早上好！Thornwick 今天天气真好，是不是？
+Morning! Lovely day in Nettlewick, isn't it?	早上好！Nettlewick 今天天气真好，是不是？
 Bramble, timber and planks. You look like someone who gets things done.\There's a grove of old oaks south-east of the village: the best wood in the Wildwood, and Ash won't let a soul near it. My men are there now, waiting. Cut my mark into the great oak in the middle of it, and they'll take that as leave to start. There's 150 gold in it, and work for half this village.	Bramble，木材和木板。你看起来像个能把事办成的人。\村子东南边有一片古老的橡树林：Wildwood 最好的木头，可 Ash 不让任何人靠近。我的人现在就在那儿等着。在林子中间那棵大橡树上刻下我的记号，他们就会当作可以动手了。有 150 金币给你，还有村里一半人的活计。
 I'll cut your mark: fell the grove.	我去刻你的记号：砍掉那片林子。
 I'll hear Ash out first.	我先听听 Ash 怎么说。
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	谢谢你，Tobias。
 Quest complete: Tobias's Tin!	任务完成：Tobias 的铁罐！
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	压低，轻手轻脚，别待在它们看着的方向上。箱子在它们的火堆旁，在村子东南边的营地里。
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。Edwin 已经开始给储藏室上锁了。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。
-Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看.. “那个给小岛写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。可怕的人。从来不擦脚。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看.. “那个给小岛写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。可怕的人。从来不擦脚。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	站住！过路费。（他伸出一只透明的手。）路关了，可过路费照收。这些日子我不收硬币：它们会掉下去。那就来个谜语吧。答对三个，我就抬起栏杆。
 I'll go round.	我绕过去。
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	我有脖子没有头，有两条胳膊没有手。我满着出门，空着回家。我是什么？
@@ -2532,12 +2532,12 @@ Rest well.	好好安息吧。
 Wrong! The toll-keeper writes it down in his ledger and turns his back on you. He'll talk to you again in a minute.	错了！收费人把它记在账本上，转过身去不理你。过一会儿他会再跟你说话的。
 The toll-keeper is still writing down your wrong answer.	收费人还在记你答错的答案。
 Paid in full. Pass, friend. (He doesn't lift the bar. He's forgotten how it goes.)	全部付清。过去吧，朋友。（他没有抬起栏杆。他忘了怎么抬了。）
-Welcome to Oakhollow! Have a look at my wares.	欢迎来到 Oakhollow！看看我的货吧。
-Welcome to Greyford! Have a look at my wares.	欢迎来到 Greyford！看看我的货吧。
+Welcome to Acornby! Have a look at my wares.	欢迎来到 Acornby！看看我的货吧。
+Welcome to Dullford! Have a look at my wares.	欢迎来到 Dullford！看看我的货吧。
 Welcome to Dunerest! Have a look at my wares.	欢迎来到 Dunerest！看看我的货吧。
-Welcome to Frosthold! Have a look at my wares.	欢迎来到 Frosthold！看看我的货吧。
-Welcome to Thornwick! Have a look at my wares.	欢迎来到 Thornwick！看看我的货吧。
-Welcome to Wardhaven! Have a look at my wares.	欢迎来到 Wardhaven！看看我的货吧。
+Welcome to Chillingham! Have a look at my wares.	欢迎来到 Chillingham！看看我的货吧。
+Welcome to Nettlewick! Have a look at my wares.	欢迎来到 Nettlewick！看看我的货吧。
+Welcome to Sulkhaven! Have a look at my wares.	欢迎来到 Sulkhaven！看看我的货吧。
 Welcome to Emberwatch! Have a look at my wares.	欢迎来到 Emberwatch！看看我的货吧。
 Nothing to sell here, I'm afraid.	恐怕这里没什么可卖的。
 Best prices between here and anywhere!\Don't ask me where I got it. I don't ask you where you got your gold.	从这里到哪里都是最好的价钱！\别问我从哪儿弄来的。我也不问你的金子是从哪儿弄来的。
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	她久久地凝视着火盆里的烟。\“一顶王冠。很沉。戴一个星期你就会讨厌它，人人都这样。”
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	她久久地凝视着火盆里的烟。\“在海底下，有一道会唱歌的光。别回答它。”
 You haven't five gold.	你没有五个金币。
-Lovely day on the Isle! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	小岛上天气真好！要是你闷得慌，东边的悬崖底下有个洞。不过当心，下面有蝙蝠。
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	小岛上天气真好！要是你闷得慌，东边的悬崖底下有个洞。不过当心，下面有蝙蝠。
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	北边的挤奶女工养着牛和羊。你要是想要羊毛，她会卖给你剪刀。\去大陆的渡船从南边的码头出发。
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	东南边的海岸旁有一圈古老的石头。我奶奶说千万别在那儿挖。所以我当然挖了。什么都没找到。大概是挖错地方了。
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	东北边的海边立着一座破败的旧瞭望塔。现在是狼的地盘了。
-A hermit lives in the western woods. Odd fellow, but he knows every tree on the Isle.	西边的树林里住着一个隐士。是个怪人，不过他认识小岛上的每一棵树。
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	西边的树林里住着一个隐士。是个怪人，不过他认识小岛上的每一棵树。
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	天黑以后别去东边的墓地。天黑以前也别去。干脆就别去。
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	面包房有新鲜面包，杂货店有工具，铁匠铺有熔炉，你要是有矿石可以去炼。
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	在低语森林里小心狼。还有哥布林。还有大地精。说真的，我从来不离开村子。
@@ -2613,7 +2613,7 @@ Quest started: Cold Fire.	任务开始：冷火。
 Three shrines, out on the Ashwold, where the Hand used to sing. Mind the ash.	三座神龛，在 Ashwold 上，灰烬之手以前唱歌的地方。小心灰。
 Blue, all three? And tracks to the Hand's camp. Get close enough to hear what's said there. Quietly, mind: they'll not talk in front of you.	三座都是蓝的？还有通往灰烬之手营地的足迹。走得够近，听听那里在说什么。安静点，注意：当着你的面他们不会说的。
 I'll go quietly.	我会悄悄去的。
-Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.	穿灰衣的陌生人，付钱让灰烬之手喂龙？“弥合它”……我不喜欢这个词。\今年路上有些穿灰衣的人：好心的人，送汤送毯子。没人会白白对你那么好。一个赶车的告诉我，他们在 Ashford 有一座安静的房子。给，辛苦你了，睁大眼睛。
+Strangers in grey, paying the Hand to feed the dragon? "Mend it"... I don't like that word.\There's been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A carter told me they keep a quiet house in Puddleford. Here, for your trouble, and keep your eyes open.	穿灰衣的陌生人，付钱让灰烬之手喂龙？“弥合它”……我不喜欢这个词。\今年路上有些穿灰衣的人：好心的人，送汤送毯子。没人会白白对你那么好。一个赶车的告诉我，他们在 Puddleford 有一座安静的房子。给，辛苦你了，睁大眼睛。
 Quest complete: Cold Fire!	任务完成：冷火！
 Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it seasoning.	Emberwatch：余烬之地前的最后一座堡垒。风里有烟，面包上有灰。我们管那叫调味。
 You? Into the Cinder Fort? The Ashen Hand would have you singing to the dragon by supper.\Whatever Bert wants with that ring, it'll keep. Come back with a few more fights behind you.	你？进余烬堡垒？灰烬之手不到晚饭时间就会让你对着龙唱歌了。\不管 Bert 要那枚戒指做什么，它都等得起。多打几仗再回来吧。
@@ -2638,18 +2638,18 @@ There's one more thing, and I'm sorry for it. Corvane kept the Shard's guardian 
 Quest started: The Fallen Shard.	任务开始：坠落碎片。
 West, through the Watch Gallery. The light will show you the way. It always does.	往西，穿过守望长廊。光会给你指路的。它总是这样。
 Warm hands, warm feet. You don't belong down here. Go carefully.	温暖的手，温暖的脚。你不属于这下面。小心走。
-Welcome to the bank of Wardhaven. Your valuables are safe with us.	欢迎来到 Wardhaven 银行。你的贵重物品在我们这里很安全。
+Welcome to the bank of Sulkhaven. Your valuables are safe with us.	欢迎来到 Sulkhaven 银行。你的贵重物品在我们这里很安全。
 Welcome to The Sleeping Giant! What'll it be?	欢迎来到沉睡巨人酒馆！要点什么？
-This is Wardhaven's Town Hall. Births, weddings and deeds are written here.	这里是 Wardhaven 镇公所。出生、婚礼和地契都在这里登记。
-Amos keeps his voice down. "Since the dragon died, folk have come back to Wardhaven, and I'm glad of every one. But those two Sisters in grey..."\"They pray with the rest, kind as you like. And at night they go down under my chapel floor. There's a stair there I never knew of, and singing under it, and I've been priest here thirty years."\"Would you go down and see? I'm too old, and I'm afraid."	Amos 压低了声音。“龙死了以后，人们回到了 Wardhaven，每回来一个我都高兴。可是那两个穿灰衣的修女……”\“她们和其他人一起祈祷，要多和善有多和善。可到了晚上，她们就下到我礼拜堂的地板底下去。那里有一道我从来不知道的楼梯，楼梯底下有歌声，而我在这里当了三十年的神父。”\“你能下去看看吗？我太老了，而且我害怕。”
+This is Sulkhaven's Town Hall. Births, weddings and deeds are written here.	这里是 Sulkhaven 镇公所。出生、婚礼和地契都在这里登记。
+Amos keeps his voice down. "Since the dragon died, folk have come back to Sulkhaven, and I'm glad of every one. But those two Sisters in grey..."\"They pray with the rest, kind as you like. And at night they go down under my chapel floor. There's a stair there I never knew of, and singing under it, and I've been priest here thirty years."\"Would you go down and see? I'm too old, and I'm afraid."	Amos 压低了声音。“龙死了以后，人们回到了 Sulkhaven，每回来一个我都高兴。可是那两个穿灰衣的修女……”\“她们和其他人一起祈祷，要多和善有多和善。可到了晚上，她们就下到我礼拜堂的地板底下去。那里有一道我从来不知道的楼梯，楼梯底下有歌声，而我在这里当了三十年的神父。”\“你能下去看看吗？我太老了，而且我害怕。”
 I'll go down.	我会下去。
 Quest started: The Eldest of the Mending.	任务开始：弥合会的长老。
-Welcome to Wardhaven's church. All are welcome here.\Amos looks over at the two Sisters in grey, and doesn't say any more.	欢迎来到 Wardhaven 的教堂。这里欢迎所有人。\Amos 看了一眼那两个穿灰衣的修女，就不再说什么了。
+Welcome to Sulkhaven's church. All are welcome here.\Amos looks over at the two Sisters in grey, and doesn't say any more.	欢迎来到 Sulkhaven 的教堂。这里欢迎所有人。\Amos 看了一眼那两个穿灰衣的修女，就不再说什么了。
 The stair's by the wall, where the floor's lifted. Mind yourself down there.	楼梯在墙边，地板掀起来的地方。在下面小心点。
 It's quiet under the floor now, and I sleep. One of the Sisters came to me yesterday and asked if she could just pray, the ordinary way. I said she could.	现在地板底下安静了，我也睡得着了。昨天有个修女来找我，问她能不能就用普通的方式祈祷。我说可以。
 It's quiet under the floor now. Mostly. Some nights I'd swear there's still singing.	现在地板底下安静了。大体上。有些晚上我敢发誓，还能听到歌声。
-Welcome to Wardhaven's church. All are welcome here.	欢迎来到 Wardhaven 的教堂。这里欢迎所有人。
-Have you tried the bakery? Best bread in Wardhaven.	你试过那家面包房吗？Wardhaven 最好的面包。
+Welcome to Sulkhaven's church. All are welcome here.	欢迎来到 Sulkhaven 的教堂。这里欢迎所有人。
+Have you tried the bakery? Best bread in Sulkhaven.	你试过那家面包房吗？Sulkhaven 最好的面包。
 You're the one who took the cove with our lads. The watch looks after its own: what do you need?	你就是和我们的小伙子们一起拿下小海湾的那个人。守卫照顾自己人：你需要什么？
 The watch's stores. Not for sale, not to you.	守卫的库存。不卖，至少不卖给你。
 You've been up at the spring. Don't look like that: I saw you on the dunes.\Here's how it is. Leave the stones be, say the spring's dried up, and there's 100 gold in it for you. Water's a business, friend.	你去过泉水那边了。别那副表情：我在沙丘上看到你了。\事情是这样的。别管那些石头，就说泉水干了，这里有 100 金币给你。水是门生意，朋友。
@@ -2670,7 +2670,7 @@ Use the calming draught on him (Use, then click him).	对他使用镇静药（�
 Lost it already? Here's another. Down his throat, mind, not on the ground.	已经弄丢了？再给你一剂。灌进他喉咙里，注意，别洒在地上。
 Heh. A stranger in the bog. Elder Pike is sick with marsh fever, and only my brew will cure him.\Fetch me four sprigs of bog myrtle from the marsh. You'll need a little Alchemy to pick it.	嘿。沼泽里来了个陌生人。Pike 长老得了沼泽热，只有我的药能治好他。\从沼泽里给我采四枝沼泽香桃木来。你得懂一点炼金术才能采。
 I'll gather some.	我去采一些。
-Bog myrtle grows in the fens round Saltmarsh (Alchemy 3 to pick it).	沼泽香桃木长在 Saltmarsh 周围的沼泽里（需要炼金术 3 级才能采）。
+Bog myrtle grows in the fens round Brinebottom (Alchemy 3 to pick it).	沼泽香桃木长在 Brinebottom 周围的沼泽里（需要炼金术 3 级才能采）。
 Bring Morwen 4 bog myrtle.	给 Morwen 带 4 枝沼泽香桃木。
 Quest started: Bog Lights.	任务开始：沼泽鬼火。
 Good, good. Into the pot... there. Take this to Elder Pike, and don't you dare sip it.	好，好。放进锅里……好了。把这个带给 Pike 长老，你可别偷喝。
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	她是个好女人，你母亲。对我们每个人都很好，从来不提自己。\十六年来每个星期天打牌都赢我。我一直没弄明白她是怎么做到的。
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	我很难过。Mary 是我们这里每个人的朋友。\来吧：我陪你走回家。她给你留了东西，只能交给你一个人。那是她的嘱咐。下面画了两道线。
 Lead the way.	带路吧。
-You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	你们一起穿过小岛走回家。Edwin 不时想说点法律上的话，又改了主意。
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	你们一起穿过小岛走回家。Edwin 不时想说点法律上的话，又改了主意。
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	你母亲把她的遗嘱托付给了我。她告诉我永远不要打开这封信，还说你不应该把它读给任何人听。这是她留给你的最后的话，只给你一个人。\当了三十年律师，我从没这么想读一封信。我没读。请记录在案。
 He lays a letter on the table, sealed with your mother's wax.	他把一封信放在桌上，信用你母亲的蜡封着。
 Thank you. If you don't mind, I would like to be left alone to read the letter.	谢谢你。如果你不介意的话，我想一个人读这封信。
@@ -2853,10 +2853,10 @@ The barrier is broken.	屏障已经破了。
 You lay your hand on the plinth. The light in the socket rises to meet it, and the marks on the eight stones flare white. Something answers out of the rock.	你把手放在基座上。凹槽里的光升起来迎接它，八块石头上的记号闪出白光。岩石里有什么东西回应了。
 The plinth is cold. The circle's still resting from the last time you woke it.	基座是冷的。石圈还在从你上次唤醒它之后休息。
 The circle's marks dim, satisfied. What was holding them up runs out of the stones and into you.	石圈的记号暗了下去，很满足。撑着它们的东西从石头里流出来，流进了你的身体。
-The dragon of Galaith is dead! Welcome to Wardhaven. The gates are open, and they're staying open.	Galaith 之龙死了！欢迎来到 Wardhaven。城门开着，而且会一直开着。
-Halt! Wardhaven's gates have been barred since the dragon came down on Galaith, and they stay barred while it lives.\Until then: off you go.	站住！自从龙降临 Galaith，Wardhaven 的城门就一直闩着，只要它还活着，城门就会一直闩着。\在那之前：走吧。
-The spider nest is in the deep woods west of Oakhollow.	蜘蛛巢在 Oakhollow 西边的密林里。
-The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Oakhollow. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.	最后一块守望石！上面的苔藓被撕破了，到处都是蛛网，一直延伸到 Oakhollow 西边的密林里。蜘蛛在那里筑了巢：在回去找游侠 Ash 之前，把它们清掉，至少五只。
+The dragon of Galaith is dead! Welcome to Sulkhaven. The gates are open, and they're staying open.	Galaith 之龙死了！欢迎来到 Sulkhaven。城门开着，而且会一直开着。
+Halt! Sulkhaven's gates have been barred since the dragon came down on Galaith, and they stay barred while it lives.\Until then: off you go.	站住！自从龙降临 Galaith，Sulkhaven 的城门就一直闩着，只要它还活着，城门就会一直闩着。\在那之前：走吧。
+The spider nest is in the deep woods west of Acornby.	蜘蛛巢在 Acornby 西边的密林里。
+The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Acornby. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.	最后一块守望石！上面的苔藓被撕破了，到处都是蛛网，一直延伸到 Acornby 西边的密林里。蜘蛛在那里筑了巢：在回去找游侠 Ash 之前，把它们清掉，至少五只。
 You touch the old watch stone. Watch stones visited: $Variable.3 of 3.	你摸了摸古老的守望石。已查看的守望石：$Variable.3 / 3。
 Watchman: "What's in the cask? Brandy, and no duty paid. That's the watch's now. Out you go."	守卫：“桶里是什么？白兰地，没交税。现在归守卫了。出去吧。”
 The watch took the cask. Red Meg might spare another.	守卫把桶拿走了。红发梅格也许还能再给一桶。
@@ -2879,63 +2879,63 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	你现在听到它了。每个碰过它的人都会听到。\守望归你了，温暖的人。如果可以，我想休息了。有一件事我一直没做完，可我想不起来是什么。
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	北边农场的挤奶女工 Bess 应该知道怎么渡海去大陆。
-Wim won't ferry anyone off the Isle without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	没有文件，Wim 不会载任何人离开小岛。Bess 的父亲 Tobias 写好了文件，但大地精把他抓走了。他在村里的房子锁着，钥匙在大地精手里。
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	没有文件，Wim 不会载任何人离开小岛。Bess 的父亲 Tobias 写好了文件，但大地精把他抓走了。他在村里的房子锁着，钥匙在大地精手里。
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	Bess 的父亲 Tobias 被锁在大地精巢穴的笼子里。撬开笼锁救他出来。他的房门钥匙一定在巢穴某处。
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	Tobias 把他的房子交给了你。用他的钥匙打开房门，找到他藏在地板下的东西。
-Show your papers to Wim the ferryman, on the Isle's pier.	把你的文件给小岛码头的船夫 Wim 看。
-Ask the Herbalist in her cottage on the Ashford farmlands if she needs a hand.	去问问 Ashford 农田小屋里的草药师是否需要帮忙。
+Show your papers to Wim the ferryman, on Muddlesey's pier.	把你的文件给小岛码头的船夫 Wim 看。
+Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	去问问 Puddleford 农田小屋里的草药师是否需要帮忙。
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	给草药师带去 3 个洞穴蘑菇（在旧铁矿里采摘）和 2 份蜘蛛丝（矿井深处的巨型蜘蛛会掉落）。
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	在深谷（穿过大地精洞窟里的活板门）找到矮人 Brokk，问问他是否需要帮助。
 Smash four skeletons ($SkeletonsSlain of 4) and slay the cave troll ($TrollSlain of 1) in the Deep Hollow, then return to Brokk.	在深谷击碎四具骷髅（$SkeletonsSlain / 4）并杀死洞穴巨魔（$TrollSlain / 1），然后回到 Brokk 那里。
-Speak to Ranger Ash in Oakhollow, in the Wildwood south of King Rupert's Keep.	与 Oakhollow 的游侠 Ash 交谈，那里位于鲁珀特王堡以南的 Wildwood。
+Speak to Ranger Ash in Acornby, in the Wildwood south of King Rupert's Keep.	与 Acornby 的游侠 Ash 交谈，那里位于鲁珀特王堡以南的 Wildwood。
 Visit the three old watch stones of the Wildwood ($WatchStones of 3): one by the north road, one in the western woods and one by the river.	拜访 Wildwood 的三块古老守望石（$WatchStones / 3）：一块在北路旁，一块在西边的树林里，一块在河边。
-Clear the spider nest in the deep woods west of Oakhollow: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash.	清除 Oakhollow 以西深林中的蜘蛛巢：杀死五只巨型蜘蛛（$WildSpidersSlain / 5），然后回到游侠 Ash 那里。
-Ranger Ash and a timber merchant in Oakhollow are at odds over the old oaks south-east of the village.	游侠 Ash 和 Oakhollow 的一位木材商为村子东南边的古橡树起了争执。
-Master Bramble wants the old oaks south-east of Oakhollow felled for timber; Ranger Ash wants them kept. Side with one of them.	Bramble 老板想砍掉 Oakhollow 东南边的古橡树做木材；游侠 Ash 想保留它们。站到其中一方。
-Cut Bramble's mark into the great oak in the old grove, south-east of Oakhollow. His men will do the rest.	在 Oakhollow 东南边古林中的大橡树上刻下 Bramble 的记号。剩下的交给他的人。
+Clear the spider nest in the deep woods west of Acornby: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash.	清除 Acornby 以西深林中的蜘蛛巢：杀死五只巨型蜘蛛（$WildSpidersSlain / 5），然后回到游侠 Ash 那里。
+Ranger Ash and a timber merchant in Acornby are at odds over the old oaks south-east of the village.	游侠 Ash 和 Acornby 的一位木材商为村子东南边的古橡树起了争执。
+Master Bramble wants the old oaks south-east of Acornby felled for timber; Ranger Ash wants them kept. Side with one of them.	Bramble 老板想砍掉 Acornby 东南边的古橡树做木材；游侠 Ash 想保留它们。站到其中一方。
+Cut Bramble's mark into the great oak in the old grove, south-east of Acornby. His men will do the rest.	在 Acornby 东南边古林中的大橡树上刻下 Bramble 的记号。剩下的交给他的人。
 Bramble's woodcutters are in the old grove already. Drive them off ($GroveCutters of 2).	Bramble 的伐木工已经在古林里了。把他们赶走（$GroveCutters / 2）。
 The old grove is felled. Bramble's sawmill is busy, and half the village has work.	古林被砍光了。Bramble 的锯木厂很忙，村里一半的人有了活干。
 The old grove stands. The rangers keep a lodge there, and half the village is still poor.	古林保住了。游侠们在那里守着一座小屋，村里一半的人仍然很穷。
-Speak to the shepherd in Greyford, on the Greyflats.	与 Greyflats 上 Greyford 的牧羊人交谈。
+Speak to the shepherd in Dullford, on the Greyflats.	与 Greyflats 上 Dullford 的牧羊人交谈。
 Thin out the Greyflats' wolves: slay six wolves ($WolvesSlain of 6), then tell the shepherd.	减少 Greyflats 的狼群：杀死六只狼（$WolvesSlain / 6），然后告诉牧羊人。
 Find the wolf den out east on the flats and slay the great Alpha Wolf.	找到平原东边的狼窝，杀死巨大的头狼。
-Return to the shepherd in Greyford.	回到 Greyford 的牧羊人那里。
-Speak to Old Morwen the witch in Saltmarsh, in the fens.	与沼泽地 Saltmarsh 的老女巫 Morwen 交谈。
+Return to the shepherd in Dullford.	回到 Dullford 的牧羊人那里。
+Speak to Old Morwen the witch in Brinebottom, in the fens.	与沼泽地 Brinebottom 的老女巫 Morwen 交谈。
 Gather 4 bog myrtle in the fens (Alchemy 3) and bring them to Morwen.	在沼泽地采集 4 株沼泽香桃木（炼金 3 级），带给 Morwen。
-Take Morwen's brew to Elder Pike in Saltmarsh.	把 Morwen 的药汤带给 Saltmarsh 的 Pike 长老。
+Take Morwen's brew to Elder Pike in Brinebottom.	把 Morwen 的药汤带给 Brinebottom 的 Pike 长老。
 Tell Morwen that the Elder has drunk her brew.	告诉 Morwen 长老已经喝下了她的药汤。
-Speak to Captain Hale in Frosthold, on the Redrock road.	与 Redrock 路上 Frosthold 的 Hale 队长交谈。
+Speak to Captain Hale in Chillingham, on the Redrock road.	与 Redrock 路上 Chillingham 的 Hale 队长交谈。
 Slay five bandits ($BanditsSlain of 5) on the roads and hills, then report to Captain Hale.	在道路和山丘上杀死五名强盗（$BanditsSlain / 5），然后向 Hale 队长报告。
 Find the bandits' camp in the eastern hills and take back the stolen goods from their strongbox.	找到东部山丘中的强盗营地，从他们的保险箱里拿回被盗的货物。
-Bring the stolen goods to Captain Hale in Frosthold.	把被盗的货物带给 Frosthold 的 Hale 队长。
+Bring the stolen goods to Captain Hale in Chillingham.	把被盗的货物带给 Chillingham 的 Hale 队长。
 You brought the stolen goods back to Captain Hale.	你把被盗的货物还给了 Hale 队长。
-You sold the stolen goods to Red Meg. Frosthold's carts went without.	你把被盗的货物卖给了红发梅格。Frosthold 的货车落了空。
+You sold the stolen goods to Red Meg. Chillingham's carts went without.	你把被盗的货物卖给了红发梅格。Chillingham 的货车落了空。
 Speak to Qadir the merchant in Dunerest, on the edge of the Sunscar Desert.	与 Sunscar 沙漠边缘 Dunerest 的商人 Qadir 交谈。
 Search the desert west of Dunerest for Qadir's lost caravan.	在 Dunerest 以西的沙漠中搜寻 Qadir 失踪的商队。
 Slay the scorpions at the wreck ($ScorpionsSlain of 4), find the caravan's ledger and bring it to Qadir.	杀死残骸处的蝎子（$ScorpionsSlain / 4），找到商队的账本并带给 Qadir。
-Speak to Brann the forgemaster in Frosthold, under Frostpeak.	与 Frostpeak 山下 Frosthold 的锻造大师 Brann 交谈。
+Speak to Brann the forgemaster in Chillingham, under Frostpeak.	与 Frostpeak 山下 Chillingham 的锻造大师 Brann 交谈。
 Bring Brann 5 coal to light his forge.	给 Brann 带 5 块煤来点燃他的熔炉。
-Slay the Frost Troll on the frozen lake east of Frosthold, which smashed Brann's waterwheel.	杀死 Frosthold 东边冰湖上砸坏 Brann 水车的冰霜巨魔。
+Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	杀死 Chillingham 东边冰湖上砸坏 Brann 水车的冰霜巨魔。
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	给 Brann 带 2 根秘银锭（在熔炉里冶炼秘银矿石）。
-Find the hermit at his camp in the Isle's western woods.	在小岛西边树林的营地里找到隐士。
+Find the hermit at his camp in Muddlesey's western woods.	在小岛西边树林的营地里找到隐士。
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	给隐士带 5 根橡木原木（砍伐橡树：伐木 5 级）。
-Speak to the Druid in Thornwick, in the Elderwood over the old bridge east of the Greyflats.	与 Thornwick 的德鲁伊交谈，那里位于 Greyflats 以东、过了老桥的 Elderwood。
-Find the Heartwood, the old heart stone of the Elderwood, north-east of Thornwick, and touch it.	找到心木石，Elderwood 古老的心之石，在 Thornwick 东北边，触摸它。
+Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	与 Nettlewick 的德鲁伊交谈，那里位于 Greyflats 以东、过了老桥的 Elderwood。
+Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	找到心木石，Elderwood 古老的心之石，在 Nettlewick 东北边，触摸它。
 The blight has maddened the bears: slay four of them ($BlightBears of 4), then return to the Druid.	枯萎病让熊发了狂：杀死四只（$BlightBears / 4），然后回到德鲁伊那里。
-Return to the Druid in Thornwick.	回到 Thornwick 的德鲁伊那里。
+Return to the Druid in Nettlewick.	回到 Nettlewick 的德鲁伊那里。
 Speak to the Gravekeeper at King Rupert's Keep, on the Barrowdowns.	与 Barrowdowns 上鲁珀特王堡的守墓人交谈。
 Find the old king's barrow, out on the downs west of King Rupert's Keep.	找到古王的坟冢，就在鲁珀特王堡以西的丘陵上。
 Lay the Barrow King to rest.	让古冢之王安息。
 Return to the Gravekeeper at King Rupert's Keep.	回到鲁珀特王堡的守墓人那里。
-Old Hob of Oakhollow went missing, and his house is boarded up. One of its shutters hangs loose...	Oakhollow 的老 Hob 失踪了，他的房子被木板封了起来。其中一扇百叶窗松了...
-Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Saltmarsh for a cure.	老 Hob 的日记：一只巨型蜘蛛咬了他，他觉得自己正在变得疯狂。去问 Saltmarsh 的女巫 Morwen 有没有治疗的办法。
+Old Hob of Acornby went missing, and his house is boarded up. One of its shutters hangs loose...	Acornby 的老 Hob 失踪了，他的房子被木板封了起来。其中一扇百叶窗松了...
+Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Brinebottom for a cure.	老 Hob 的日记：一只巨型蜘蛛咬了他，他觉得自己正在变得疯狂。去问 Brinebottom 的女巫 Morwen 有没有治疗的办法。
 Find the wild man in the western woods of the Wildwood and use Morwen's calming draught on him.	在 Wildwood 西边的树林里找到野人，对他使用 Morwen 的镇静药剂。
 Hob is himself again! Talk to him.	Hob 恢复正常了！和他谈谈。
 Hob is himself again, and his door is open to you.	Hob 恢复正常了，他的家门向你敞开。
 You kept Hob's savings, and the madness took him again.	你私吞了 Hob 的积蓄，疯病又找上了他。
 Speak to the Scout in Emberwatch: her patrol went out on the Ashwold and didn't come back.	与 Emberwatch 的斥候交谈：她的巡逻队去了 Ashwold，再也没有回来。
 Recover three Scout's Tags from the ember hounds on the Ashwold and bring them to the Scout.	从 Ashwold 的余烬猎犬身上夺回三块斥候铭牌，带给斥候。
-Speak to the settler by the shardstone in Ashford.	与 Ashford 碎片石旁的定居者交谈。
+Speak to the settler by the shardstone in Puddleford.	与 Puddleford 碎片石旁的定居者交谈。
 Bring the settler 10 planks and 4 stone blocks. Make them at her carpenter's bench: planks from logs, blocks from stone you mine from rocks with a pickaxe.	给定居者带 10 块木板和 4 块石块。在她的木工台上制作：木板用原木做，石块用你拿镐从岩石上采的石头做。
 Sergeant Holt, at the King's castle's south gate, wants to know how smuggled goods get into town.	在国王城堡南门的 Holt 中士想知道走私货物是怎么进城的。
 The fishermen talk of an old barrel on the lake path, south-west of the castle, that nobody ever moves. Search it.	渔夫们说，城堡西南边的湖边小路上有个旧木桶，从来没人挪动过。搜查它。
@@ -2953,31 +2953,31 @@ The Warden in Emberwatch has had word from the Ashwold.	Emberwatch 的守望者�
 The Warden says the Ashen Hand's burnt shrines on the Ashwold are lit again, and the fire's blue. There are three of them. Go and see.	守望者说，灰烬之手在 Ashwold 上被烧毁的神龛又亮了起来，而且火是蓝色的。一共有三座。去看看。
 All three shrines burn cold and blue, and the Hand never lit a fire like that. Footprints lead from them to the Hand's camp on the Ashwold. Get near enough to hear what's said there, without being seen.	三座神龛都燃着冰冷的蓝火，灰烬之手从来没点过那样的火。脚印从那里通向 Ashwold 上灰烬之手的营地。靠近到能听见那里说话的地方，别被发现。
 Strangers in grey are paying the Hand in Shards, to push them through the wall "for the one beyond the wall". Tell the Warden.	穿灰衣的陌生人正用碎片收买灰烬之手，要他们把碎片推过墙去，“为了墙那边的那位”。告诉守望者。
-Tam, the cooper in Ashford, is worried about his mother.	Ashford 的箍桶匠 Tam 很担心他的母亲。
-Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Ashford, where she says her late husband talks to her. Go and see her.	Tam 的母亲 Annis 每天都去 Ashford 中 Rufus 院子后面的一座安静房子，她说她过世的丈夫在那里和她说话。去看看她。
+Tam, the cooper in Puddleford, is worried about his mother.	Puddleford 的箍桶匠 Tam 很担心他的母亲。
+Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Puddleford, where she says her late husband talks to her. Go and see her.	Tam 的母亲 Annis 每天都去 Puddleford 中 Rufus 院子后面的一座安静房子，她说她过世的丈夫在那里和她说话。去看看她。
 Annis won't hear a word against the Shard from you. Cael, the penitent at the Cinder Chapel on the Ashwold, was fooled by strangers in grey once: he might find the words.	Annis 听不进你说碎片的任何坏话。Ashwold 上余烬礼拜堂的忏悔者 Cael 曾被穿灰衣的陌生人骗过：他也许能找到合适的话。
-Cael wrote a few lines for Annis. Take them to her, at the quiet house in Ashford.	Cael 为 Annis 写了几行字。把它们带给在 Ashford 那座安静房子里的她。
+Cael wrote a few lines for Annis. Take them to her, at the quiet house in Puddleford.	Cael 为 Annis 写了几行字。把它们带给在 Puddleford 那座安静房子里的她。
 You read Annis what Cael wrote, and walked her home to Tam.	你给 Annis 读了 Cael 写的话，然后陪她走回 Tam 的家。
 You left Annis with her Shard. She's gone to the Mending's hall.	你让 Annis 留着她的碎片。她去了弥合会的会堂。
 The watch brought Annis home when they shut the Mending's house.	巡防队查封弥合会的房子时，把 Annis 送回了家。
-Sister Linnet of the Mending keeps a quiet house in Ashford.	弥合会的 Linnet 修女在 Ashford 守着一座安静的房子。
+Sister Linnet of the Mending keeps a quiet house in Puddleford.	弥合会的 Linnet 修女在 Puddleford 守着一座安静的房子。
 Sister Linnet won't tell an outsider where the Mending gathers. In one of their grey robes, she might take you for one of them.	Linnet 修女不会告诉外人弥合会在哪里聚会。穿上他们的灰袍，她也许会把你当成自己人。
 Sister Linnet took you for one of the Mending. They gather under Shardglass Field, through a slab of glass at its east end. Keep the robe on, and they'll take you for one of their own.	Linnet 修女把你当成了弥合会的一员。他们在碎片玻璃原野下聚会，入口是原野东端的一块玻璃板。穿着长袍，他们就会把你当成自己人。
 Cantor Ivo of the Mending says the great Shard waits in the sanctum, past the Font, for the faithful. Listen to it.	弥合会的领唱 Ivo 说，伟大的碎片在圣所里等待着信徒，就在圣泉池后面。去聆听它。
-The great Shard spoke to you in your mother's voice, and now you know what the Mending wants: the King's Seam opened, under Galaith. Tell Sheriff Flo in Ashford, or tell Sister Linnet you'll keep their secret.	伟大的碎片用你母亲的声音对你说话，现在你知道弥合会想要什么了：打开 Galaith 地下的王之缝隙。告诉 Ashford 的治安官 Flo，或者告诉 Linnet 修女你会保守他们的秘密。
-You told Sheriff Flo. The Mending's house in Ashford is shut, and Galaith's watch knows of the hall.	你告诉了治安官 Flo。弥合会在 Ashford 的房子被查封了，Galaith 的巡防队也知道了那座会堂。
+The great Shard spoke to you in your mother's voice, and now you know what the Mending wants: the King's Seam opened, under Galaith. Tell Sheriff Flo in Puddleford, or tell Sister Linnet you'll keep their secret.	伟大的碎片用你母亲的声音对你说话，现在你知道弥合会想要什么了：打开 Galaith 地下的王之缝隙。告诉 Puddleford 的治安官 Flo，或者告诉 Linnet 修女你会保守他们的秘密。
+You told Sheriff Flo. The Mending's house in Puddleford is shut, and Galaith's watch knows of the hall.	你告诉了治安官 Flo。弥合会在 Puddleford 的房子被查封了，Galaith 的巡防队也知道了那座会堂。
 You kept the Mending's secret. Their house is open to you, in grey.	你保守了弥合会的秘密。只要你穿着灰袍，他们的房子就向你敞开。
 An iron gate shuts the Mending's sanctum, and it opens to those who pour their Shards into the Font. A lock can be picked, too, and the Font's keeper is a big one.	一道铁门封住了弥合会的圣所，只为把碎片倒进圣泉池的人打开。锁也可以撬，而圣泉池的看守是个大家伙。
 You poured your Shards into the Font, and the gate opened for one of the faithful.	你把碎片倒进了圣泉池，大门为一位信徒打开了。
 You picked the sanctum's lock.	你撬开了圣所的锁。
 You broke the Font's keeper, and went through by force.	你击溃了圣泉池的看守，强行闯了过去。
-Amos, the priest of Wardhaven, doesn't sleep well since the Sisters came.	自从修女们来了以后，Wardhaven 的神父 Amos 就一直睡不好。
+Amos, the priest of Sulkhaven, doesn't sleep well since the Sisters came.	自从修女们来了以后，Sulkhaven 的神父 Amos 就一直睡不好。
 Amos says the two Sisters in grey in his chapel go down under its floor at night, where there's a stair he never knew of, and singing. Go down and see.	Amos 说，他礼拜堂里那两位穿灰衣的修女晚上会走到地板下面去，那里有一道他从来不知道的楼梯，还有歌声。下去看看。
 The Eldest of the Mending is dead. The great Shard is still singing.	弥合会的长者死了。伟大的碎片仍在歌唱。
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	你打碎了伟大的碎片。弥合会四散了，其中一些人回家了。
 You kept a splinter of the great Shard: Mary's Whisper.	你留下了伟大碎片的一块碎屑：Mary 的低语。
 Read the letter your mother left you, on the table in your cottage.	阅读你母亲留给你的信，就在你小屋的桌上。
-Edwin the lawyer asked you to dinner. He and his wife Maren, the Isle's doctor, live in the brick house in the Isle's north-west, by the sea.	律师 Edwin 请你去吃晚饭。他和他的妻子、小岛的医生 Maren 住在小岛西北边海边的砖房里。
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	律师 Edwin 请你去吃晚饭。他和他的妻子、小岛的医生 Maren 住在小岛西北边海边的砖房里。
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	用 Maren 借给你的斧头为她的炉灶劈 3 根原木（砍树），带给她。
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	从北边 Bess 农场的鸡舍里拿一个蛋，在他们家楼上 Maren 的炉灶上煎熟（对炉灶使用鸡蛋）。
 Give the fried egg to Edwin, at his house.	把煎蛋送给在家里的 Edwin。
@@ -2987,12 +2987,12 @@ Make a wooden sword and a wooden shield at Frank's workbench, then show them to 
 Wield your sword and shield, and train until your Attack and Defence are level 2. Then ask Brother Aldous, at the chapel, about the trapdoor in its cellar.	手持你的剑和盾，训练到攻击和防御都达到 2 级。然后去问礼拜堂的 Aldous 修士关于地窖里那扇活板门的事。
 Something of your mother's lies in the caves under the chapel.	你母亲的某样东西就在礼拜堂下面的洞穴里。
 Something gold glints behind iron bars, out of reach of any hand.	铁栏后面有金色的东西在闪光，任何手都够不着。
-Speak to the city guard at Northport's port.	与 Northport 港口的城市守卫交谈。
-Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	前往 Northport 的市政厅，在 Galaith 重新开放之前，Brambleton 的议会就设在那里。
-Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.	把议会的信带给 Ashford 镇公所的 Ashford 镇长。
-Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.	哥布林袭击了 Ashford 东边的农场。把它们赶走：在农场的十字路口等它们。
+Speak to the city guard at Drizzleport's port.	与 Drizzleport 港口的城市守卫交谈。
+Go to Drizzleport's City Hall, where Brambleton's Parliament sits until Galaith opens again.	前往 Drizzleport 的市政厅，在 Galaith 重新开放之前，Brambleton 的议会就设在那里。
+Take the Parliament's letter to the Mayor of Puddleford, in Puddleford's Town Hall.	把议会的信带给 Puddleford 镇公所的 Puddleford 镇长。
+Goblins raid the farms east of Puddleford. Drive them off: wait for them at the farm's crossroads.	哥布林袭击了 Puddleford 东边的农场。把它们赶走：在农场的十字路口等它们。
 Tell the Mayor the goblins are beaten.	告诉镇长哥布林已经被打败了。
-Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.	把镇长的通行证给 Ashford 以南鲁珀特王堡的国王总管看。
+Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Puddleford.	把镇长的通行证给 Puddleford 以南鲁珀特王堡的国王总管看。
 Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then return to the Steward.	在旧铁矿、矿井深处或洞窟里杀死五只大地精（$HobgoblinsSlain / 5），然后回到总管那里。
 Find Bert, the great wizard, at the top of the Wizards' Court's tower.	在巫师庭塔顶找到伟大的巫师 Bert。
 Bring Bert the Staff of Brambleton, the Grimoire of Unbinding and the Ember Ring.	给 Bert 带去 Brambleton 之杖、解缚魔典和余烬戒指。
@@ -3053,16 +3053,16 @@ The Archivist believes the Chancellor hoarded the city's grain while Galaith sta
 You have the Chancellor's ledger. Captain Hart, at the palace door, answers to the King, not to the Chancellor.	你拿到了大法官的账本。宫殿门口的 Hart 队长只听命于国王，而不是大法官。
 You sold the Chancellor his ledger back. He's richer, you're richer, and the Archivist won't speak to you.	你把账本卖回给了大法官。他更富了，你也更富了，而档案官不会再和你说话。
 You gave the ledger to Captain Hart. The Chancellor is in a cell, and the Archivist sits in his chair.	你把账本交给了 Hart 队长。大法官进了牢房，档案官坐上了他的位子。
-An old woman at Northport's landing looks lost.	Northport 码头上的一位老妇人看起来迷路了。
-Walk Granny Wren to her daughter Percy's door in Ashford, east along the road. Go slowly: she can't keep up with you. (Lose her, and she'll be back at the landing.)	送 Wren 奶奶沿着大路向东走到 Ashford 她女儿 Percy 的家门口。慢慢走：她跟不上你。（把她弄丢了，她就会回到码头。）
-A painter at an easel in Ashford's market square looks fed up.	Ashford 集市广场上一位站在画架前的画家看起来很烦。
-Get Mo, the black-and-white cat in Ashford's market square, to keep still for Ottilie's painting: stroke Mo while Mo is sitting down.	让 Ashford 集市广场上的黑白猫 Mo 为 Ottilie 的画保持不动：在 Mo 坐着的时候抚摸它。
+An old woman at Drizzleport's landing looks lost.	Drizzleport 码头上的一位老妇人看起来迷路了。
+Walk Granny Wren to her daughter Percy's door in Puddleford, east along the road. Go slowly: she can't keep up with you. (Lose her, and she'll be back at the landing.)	送 Wren 奶奶沿着大路向东走到 Puddleford 她女儿 Percy 的家门口。慢慢走：她跟不上你。（把她弄丢了，她就会回到码头。）
+A painter at an easel in Puddleford's market square looks fed up.	Puddleford 集市广场上一位站在画架前的画家看起来很烦。
+Get Mo, the black-and-white cat in Puddleford's market square, to keep still for Ottilie's painting: stroke Mo while Mo is sitting down.	让 Puddleford 集市广场上的黑白猫 Mo 为 Ottilie 的画保持不动：在 Mo 坐着的时候抚摸它。
 Mo is sitting still at last. Tell Ottilie.	Mo 终于坐着不动了。告诉 Ottilie。
-Speak to Mayor Hollis in Ashford's Town Hall.	与 Ashford 镇公所的 Hollis 镇长交谈。
-Goblins hold the bridge to Wardhaven, south-east of Ashford, below its peninsula, and its guards have fled. Clear the goblins off the bridge ($BridgeGoblins of 4).	哥布林占据了通往 Wardhaven 的桥，就在 Ashford 东南边、半岛下方，桥上的守卫都逃走了。把哥布林从桥上清除（$BridgeGoblins / 4）。
+Speak to Mayor Hollis in Puddleford's Town Hall.	与 Puddleford 镇公所的 Hollis 镇长交谈。
+Goblins hold the bridge to Sulkhaven, south-east of Puddleford, below its peninsula, and its guards have fled. Clear the goblins off the bridge ($BridgeGoblins of 4).	哥布林占据了通往 Sulkhaven 的桥，就在 Puddleford 东南边、半岛下方，桥上的守卫都逃走了。把哥布林从桥上清除（$BridgeGoblins / 4）。
 Tell Mayor Hollis the bridge is clear.	告诉 Hollis 镇长桥已经清理干净了。
-Speak to the Wyrmsmith in Wardhaven.	与 Wardhaven 的龙铁匠交谈。
-Bring the Wyrmsmith of Wardhaven three scales of Galaith's dragon.	给 Wardhaven 的龙铁匠带三片 Galaith 那条龙的鳞片。
+Speak to the Wyrmsmith in Sulkhaven.	与 Sulkhaven 的龙铁匠交谈。
+Bring the Wyrmsmith of Sulkhaven three scales of Galaith's dragon.	给 Sulkhaven 的龙铁匠带三片 Galaith 那条龙的鳞片。
 Magister Quill, in the Wizards' Court's great hall, studies the Shards.	巫师庭大厅里的 Quill 大学士在研究碎片。
 Bring Magister Quill fifteen Shards for the Court's study (talk to him to give them).	给 Quill 大学士带十五枚碎片供巫师庭研究（和他交谈来交给他）。
 Magister Quill wonders how a Shard holds the shape of a spell.	Quill 大学士想知道一枚碎片是怎样保持一个法术的形状的。
@@ -3070,22 +3070,22 @@ Bring Magister Quill the core of a Shard Remnant. They rise, now and then, from 
 Pick up twenty more Shards where beasts fall, then tell Magister Quill how it felt.	在野兽倒下的地方再捡起二十枚碎片，然后告诉 Quill 大学士那是什么感觉。
 Someone in the Wizards' Court's great hall keeps saying hello. There's no one there.	巫师庭大厅里有人不停地打招呼。可那里没有人。
 Bring Pip what he needs to be seen again: an egg, a feather and two cave mushrooms.	给 Pip 带来他重新被看见所需的东西：一个蛋、一根羽毛和两个洞穴蘑菇。
-A lady on Goose Green, east of Northport, is shouting at some geese.	Northport 东边 Goose Green 上的一位夫人正在冲一群鹅大喊。
+A lady on Goose Green, east of Drizzleport, is shouting at some geese.	Drizzleport 东边 Goose Green 上的一位夫人正在冲一群鹅大喊。
 Get Lady Pettigrew's hat back from the geese's nest on Goose Green. They are not reasonable geese: go unseen, or go as a goose.	从 Goose Green 的鹅窝里拿回 Pettigrew 夫人的帽子。它们不是讲道理的鹅：要么悄悄去，要么变成鹅去。
-An old woman on Thornwick's green is looking for someone to practise a hex on.	Thornwick 草地上的一位老妇人正在找人练习下咒。
-Granny Bramble has hexed you weak as a kitten. Clear the rats round Thornwick's green anyway ($HexRats of 4): your sword arm's no use. A spell, a potion, or someone else's body.	Bramble 奶奶给你下了咒，让你弱得像只小猫。不管怎样，还是要清除 Thornwick 草地周围的老鼠（$HexRats / 4）：你握剑的手臂没用了。用法术、药水，或者别人的身体。
-A scarecrow outside Oakhollow is deep in thought. Out loud.	Oakhollow 外的一个稻草人正在沉思。还说出声来了。
-Find the philosophical scarecrow outside Oakhollow a hat. Any hat. He's not fussy. He says he's not fussy.	给 Oakhollow 外那个爱思考的稻草人找一顶帽子。什么帽子都行。他不挑剔。他说他不挑剔。
-A cow outside Ashford has something to say. Literally.	Ashford 外的一头牛有话要说。字面意义上的。
+An old woman on Nettlewick's green is looking for someone to practise a hex on.	Nettlewick 草地上的一位老妇人正在找人练习下咒。
+Granny Bramble has hexed you weak as a kitten. Clear the rats round Nettlewick's green anyway ($HexRats of 4): your sword arm's no use. A spell, a potion, or someone else's body.	Bramble 奶奶给你下了咒，让你弱得像只小猫。不管怎样，还是要清除 Nettlewick 草地周围的老鼠（$HexRats / 4）：你握剑的手臂没用了。用法术、药水，或者别人的身体。
+A scarecrow outside Acornby is deep in thought. Out loud.	Acornby 外的一个稻草人正在沉思。还说出声来了。
+Find the philosophical scarecrow outside Acornby a hat. Any hat. He's not fussy. He says he's not fussy.	给 Acornby 外那个爱思考的稻草人找一顶帽子。什么帽子都行。他不挑剔。他说他不挑剔。
+A cow outside Puddleford has something to say. Literally.	Puddleford 外的一头牛有话要说。字面意义上的。
 Bring Duchess the cow three bunches of herbs: 'the good grass'. She has standards.	给奶牛 Duchess 带三束草药：“好草”。她是有标准的。
-Constable Dobbs, in Ashford's square, has a case. A very embarrassing case.	Ashford 广场上的警员 Dobbs 接了个案子。一个非常尴尬的案子。
-The Mayor's trousers are gone. Look round Ashford's square for three clues, then tell Constable Dobbs who did it.	镇长的裤子不见了。在 Ashford 广场周围找三条线索，然后告诉警员 Dobbs 是谁干的。
+Constable Dobbs, in Puddleford's square, has a case. A very embarrassing case.	Puddleford 广场上的警员 Dobbs 接了个案子。一个非常尴尬的案子。
+The Mayor's trousers are gone. Look round Puddleford's square for three clues, then tell Constable Dobbs who did it.	镇长的裤子不见了。在 Puddleford 广场周围找三条线索，然后告诉警员 Dobbs 是谁干的。
 You've found the clues. Tell Constable Dobbs who took the Mayor's trousers.	你找到了线索。告诉警员 Dobbs 是谁拿走了镇长的裤子。
 An old man in a faded livery waits on the road by Redrock Manor's gate.	一位穿着褪色制服的老人在 Redrock 庄园大门旁的路上等着。
 Bring Ambrose, the last steward of Redrock Manor, the family's signet from the manor's vault. The old lord built the house so that no thief could find his way about it.	从庄园的金库里把家族印章带给 Redrock 庄园最后的管家 Ambrose。老领主把房子建得让任何小偷都摸不清方向。
 You sold the Redrock signet to Spleen. The bandits keep the manor, and you're welcome in it.	你把 Redrock 印章卖给了 Spleen。强盗们占着庄园，而你在那里受欢迎。
 You gave the signet back to Ambrose. The manor is his again.	你把印章还给了 Ambrose。庄园又是他的了。
-Osric, in Wardhaven, is standing outside his own front door, looking at it.	Wardhaven 的 Osric 站在他自家的前门外，盯着门看。
+Osric, in Sulkhaven, is standing outside his own front door, looking at it.	Sulkhaven 的 Osric 站在他自家的前门外，盯着门看。
 Osric has bolted himself out of his house. Old Hilde next door says she knows a way in.	Osric 把自己闩在了房子外面。隔壁的老 Hilde 说她知道一条进去的路。
 Hilde has opened the hatch in her floor, and says her gran's cellar never did stop at her wall.	Hilde 打开了她地板上的活板门，说她外婆的地窖从来就没在她家墙边停下。
 You've drawn the bolts on Osric's door. Tell him.	你拉开了 Osric 门上的门闩。告诉他。
@@ -3115,8 +3115,8 @@ Delver Maud wants 2 Cave Horror dead.	掘洞人 Maud 想要 2 只洞穴恐魔的
 Done. Go back to Delver Maud.	完成了。回到掘洞人 Maud 那里。
 Your mother's hand has turned up somewhere you didn't expect.	你母亲的笔迹出现在了你没想到的地方。
 Your mother left notes, wherever she went. There must be more of them.	你母亲无论走到哪里都会留下笔记。一定还有更多。
-Seven notes, and laid edge to edge they make a map. It ends on the Isle, at something still.	七张笔记，边对边拼在一起就是一张地图。它的终点在小岛上，在某个静止的东西那里。
-A fisherwoman at Gull Point, the tip of Ashford's peninsula, has been pulling glass out of the sea. It glows.	Gull Point（Ashford 半岛的尖端）的一位渔妇一直从海里捞出玻璃。它会发光。
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	七张笔记，边对边拼在一起就是一张地图。它的终点在小岛上，在某个静止的东西那里。
+A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	Gull Point（Puddleford 半岛的尖端）的一位渔妇一直从海里捞出玻璃。它会发光。
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	Nell Tarrow 的渔网捞上来满满的发光玻璃。查明它从哪里来。
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	Gull Point 下面有一扇封住的黑玻璃门，中间有一个小小的圆形凹槽。告诉 Nell。
 Nell says her grandmother Bryony remembers the old stories. Ask her.	Nell 说她的祖母 Bryony 记得那些古老的故事。去问她。
@@ -3177,7 +3177,7 @@ You paid Pip's way south on a carter's cart. The Keep is a deserter short, and B
 Elder Sabra of Dunerest is worried about the town's water.	Dunerest 的 Sabra 长老在担心镇上的水。
 The spring that feeds Dunerest's well has failed, and Corvin sells water by the cup. Elder Sabra wants to know why. The spring is north of the town.	供应 Dunerest 水井的泉水干了，而 Corvin 按杯卖水。Sabra 长老想知道为什么。泉水在镇子北边。
 You took Corvin's gold to leave his dam be. Dunerest still buys its water by the cup.	你收了 Corvin 的金币，没去碰他的水坝。Dunerest 仍然按杯买水。
-Wenna, an eel-catcher in Saltmarsh, has trouble with her traps.	Saltmarsh 的捕鳗人 Wenna 的捕鳗笼出了问题。
+Wenna, an eel-catcher in Brinebottom, has trouble with her traps.	Brinebottom 的捕鳗人 Wenna 的捕鳗笼出了问题。
 Someone's been cutting Wenna's eel traps in the night. Find out who: the reeds east of the village are the place to look.	有人在夜里割坏了 Wenna 的捕鳗笼。查明是谁：该去村子东边的芦苇丛里找找。
 You told Wenna it was Tobin. His mother's sent him to an uncle inland.	你告诉 Wenna 是 Tobin 干的。他母亲把他送到了内陆的叔叔那里。
 You mended Wenna's traps, and she shares her catch with Tobin's father now.	你修好了 Wenna 的捕鳗笼，现在她会把渔获分给 Tobin 的父亲。
@@ -3373,7 +3373,7 @@ Is there such a thing?	有这种事吗？
 Ask my purse.	问问我的钱包。
 Not today, thank you.	今天不用了，谢谢。
 We've got soup.	我们有汤。
-Shut the grey house in Ashford.	把 Ashford 那座灰房子查封了。
+Shut the grey house in Puddleford.	把 Puddleford 那座灰房子查封了。
 Any trouble?	有麻烦吗？
 They offered us soup.	他们请我们喝汤。
 Saw one of them in grey crying in the road.	看见一个穿灰衣的在路上哭。
@@ -3472,7 +3472,7 @@ Water	水
 A rock	一块岩石
 A sapling	一棵树苗
 A Shard Bloom	一朵碎片花
-Northport	Northport
+Drizzleport	Drizzleport
 the City Hall	市政厅
 the market	集市
 the port	港口
@@ -3482,9 +3482,9 @@ the hovels	棚屋区
 the fountain	喷泉
 the palace	宫殿
 The strait ferry	海峡渡船
-The ferryman shakes his head. "Papers first, friend. Since the raids, Northport sends back anyone off the Isle without them. Wim on the pier will look them over."	船夫摇了摇头。“先给我看文件，朋友。自从那些袭击以后，Northport 会把没带文件离开小岛的人都送回来。码头上的 Wim 会检查它们。”
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	船夫摇了摇头。“先给我看文件，朋友。自从那些袭击以后，Drizzleport 会把没带文件离开小岛的人都送回来。码头上的 Wim 会检查它们。”
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	船夫举起一只手。“你还嫩得很，看样子你手里从来没拿过野兽留下的东西。去找 Aldous 修士，到 3 级再回来。”
-the Isle	小岛
+Muddlesey	Muddlesey
 Malaria	疟疾
 Fever comes back until it's cured: only a Fever Tonic will do it	发烧会反复发作，直到治好为止：只有退烧补药才管用
 That bite itches worse than the rest. You feel it in your blood.	那一口比别的更痒。你能感觉到它在你的血液里。
@@ -3520,7 +3520,7 @@ On a hook, for fish	挂在钩子上钓鱼
 Fishing	钓鱼
 Baker	面包师
 Talk to	交谈
-The Ashford baker, dusted in flour.	Ashford 的面包师，满身面粉。
+The Puddleford baker, dusted in flour.	Puddleford 的面包师，满身面粉。
 Sells bread, pies and flour	出售面包、馅饼和面粉
 Banker	银行家
 Bank	银行
@@ -3598,7 +3598,7 @@ Iron Bar	铁锭
 A bar of solid iron. A smith could use this.	一根实心铁锭。铁匠用得上它。
 Smithing	锻造
 Beggar's House Key	乞丐的房门钥匙
-An old iron key: the beggar in Ashford lost the key to his house on the Isle. This must be it.	一把旧铁钥匙：Ashford 的乞丐丢了他在小岛上房子的钥匙。一定就是这把。
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	一把旧铁钥匙：Puddleford 的乞丐丢了他在小岛上房子的钥匙。一定就是这把。
 A key	一把钥匙
 The beggar's	乞丐的
 Chef's Hat	厨师帽
@@ -3638,7 +3638,7 @@ A beautiful red gem.	一颗美丽的红色宝石。
 Gem	宝石
 Jewellery	珠宝
 Shopkeeper	店主
-He runs the Ashford General Store.	他经营着 Ashford 杂货店。
+He runs the Puddleford General Store.	他经营着 Puddleford 杂货店。
 Sells a bit of everything	什么都卖一点
 Tinderbox	火绒盒
 Lights a fire from logs	用原木生火
@@ -3768,7 +3768,7 @@ Villager	村民
 A local, going about their business.	一个当地人，正忙着自己的事。
 A local	一个当地人
 Milkmaid	挤奶女工
-The milkmaid, who looks after the Isle's cows and sheep.	挤奶女工，照料小岛的牛和羊。
+The milkmaid, who looks after Muddlesey's cows and sheep.	挤奶女工，照料小岛的牛和羊。
 Bess, the milkmaid	挤奶女工 Bess
 Fisherman	渔夫
 An old fisherman in a yellow oilskin. He smells of the sea.	一个穿着黄色油布雨衣的老渔夫。他身上有大海的味道。
@@ -3997,8 +3997,8 @@ Witch	女巫
 Old Morwen, the bog witch. Her cottage smells of smoke and herbs.	老 Morwen，沼泽女巫。她的小屋里有烟和草药的味道。
 Morwen, the bog witch	沼泽女巫 Morwen
 Elder	长老
-Elder Pike of Saltmarsh. He looks pale and tired.	Saltmarsh 的 Pike 长老。他看起来苍白而疲惫。
-Elder Pike of Saltmarsh	Saltmarsh 的 Pike 长老
+Elder Pike of Brinebottom. He looks pale and tired.	Brinebottom 的 Pike 长老。他看起来苍白而疲惫。
+Elder Pike of Brinebottom	Brinebottom 的 Pike 长老
 Captain	队长
 Captain Hale of the Redrock road, in battered armour.	Redrock 路的 Hale 队长，穿着破旧的盔甲。
 Captain Hale of the Redrock road	Redrock 路的 Hale 队长
@@ -4030,7 +4030,7 @@ Strongbox	保险箱
 The bandits' iron strongbox.	强盗们的铁保险箱。
 A strongbox	一个保险箱
 Ferry Ticket	渡船票
-A ticket for the Northport ferry, stamped by the milkmaid. Good for one crossing.	一张去 Northport 的渡船票，盖着挤奶女工的章。可以渡海一次。
+A ticket for the Drizzleport ferry, stamped by the milkmaid. Good for one crossing.	一张去 Drizzleport 的渡船票，盖着挤奶女工的章。可以渡海一次。
 One crossing on the ferry	渡船一次
 Dragon	龙
 Ignaroth, the dragon of Ashpeak: red scales, burning eyes and a hoard to match.	Ignaroth，Ashpeak 之龙：红色的鳞片，燃烧的眼睛，还有与之相称的宝藏。
@@ -4059,8 +4059,8 @@ Glass	玻璃
 A slab of clear glass, ready to be blown into vials at a workbench.	一块透明的玻璃，可以在工作台上吹成药瓶。
 Make vials of it at a workbench	在工作台上做成药瓶
 Druid	德鲁伊
-The Druid of Thornwick, in robes the colour of moss.	Thornwick 的德鲁伊，穿着苔藓色的长袍。
-The Druid of Thornwick	Thornwick 的德鲁伊
+The Druid of Nettlewick, in robes the colour of moss.	Nettlewick 的德鲁伊，穿着苔藓色的长袍。
+The Druid of Nettlewick	Nettlewick 的德鲁伊
 Gravekeeper	守墓人
 The Gravekeeper of the Barrowdowns. He smells faintly of earth.	Barrowdowns 的守墓人。他身上隐约有泥土的味道。
 Keeps the Barrowdowns	看守 Barrowdowns
@@ -4147,7 +4147,7 @@ A scout of Emberwatch, ash in her hair and a bow on her back.	一名 Emberwatch 
 A scout of Emberwatch	Emberwatch 的一名斥候
 Wyrmsmith	龙铁匠
 Forge	锻造
-The Wyrmsmith of Wardhaven: she keeps a forge hot enough to work dragon scale.	Wardhaven 的龙铁匠：她的熔炉热到足以加工龙鳞。
+The Wyrmsmith of Sulkhaven: she keeps a forge hot enough to work dragon scale.	Sulkhaven 的龙铁匠：她的熔炉热到足以加工龙鳞。
 Works dragon scale	加工龙鳞
 Ashen Cultist	灰烬教徒
 A cultist of the Ashen Hand. The ash on his hands is still warm.	一名灰烬之手的教徒。他手上的灰烬还是热的。
@@ -4360,14 +4360,14 @@ Chimney Smoke	烟囱的烟
 Smoke from the forge. It smells of hot iron and somebody's lunch.	铁匠铺的烟。闻起来像热铁和某人的午饭。
 Smoke	烟
 Edwin	Edwin
-Edwin, the Isle's lawyer. His wife Maren is its doctor.	Edwin，小岛的律师。他的妻子 Maren 是小岛的医生。
-Edwin, the Isle's lawyer	小岛的律师 Edwin
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	Edwin，小岛的律师。他的妻子 Maren 是小岛的医生。
+Edwin, Muddlesey's lawyer	小岛的律师 Edwin
 Maren	Maren
-Maren, the Isle's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren，小岛的医生，Edwin 的妻子。她的姐姐是挤奶女工 Bess。
-Maren, the Isle's doctor	小岛的医生 Maren
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren，小岛的医生，Edwin 的妻子。她的姐姐是挤奶女工 Bess。
+Maren, Muddlesey's doctor	小岛的医生 Maren
 Frank	Frank
-Frank, the Isle's blacksmith: arms like hams, and soot to the elbows.	Frank，小岛的铁匠：胳膊粗得像火腿，煤灰一直沾到手肘。
-Frank, the Isle's blacksmith	小岛的铁匠 Frank
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	Frank，小岛的铁匠：胳膊粗得像火腿，煤灰一直沾到手肘。
+Frank, Muddlesey's blacksmith	小岛的铁匠 Frank
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	Tobias，Bess 和 Maren 的父亲。大地精把他关在笼子里。
 Tobias, Bess and Maren's father	Tobias，Bess 和 Maren 的父亲
 Ferryman	船夫
@@ -4377,8 +4377,8 @@ Mourner	送葬者
 A mourner in black.	一位穿黑衣的送葬者。
 A mourner	一位送葬者
 Port Guard	港口守卫
-One of Northport's city guard, in the city's blue.	Northport 的城市守卫之一，穿着城市的蓝色。
-Northport's guard	Northport 的守卫
+One of Drizzleport's city guard, in the city's blue.	Drizzleport 的城市守卫之一，穿着城市的蓝色。
+Drizzleport's guard	Drizzleport 的守卫
 Speaker	议长
 The Speaker of Brambleton's Parliament, in its crimson robes.	Brambleton 议会的议长，穿着深红色的长袍。
 The Speaker of Parliament	议会议长
@@ -4479,10 +4479,10 @@ Barrier Light	屏障之光
 The dragon's barrier: a wall of violet light across the pass.	龙的屏障：一道横跨山口的紫光之墙。
 A wall of violet light	一道紫光之墙
 Parliament Letter	议会的信
-The Parliament's letter, sealed in crimson, for the Mayor of Ashford.	议会的信，用深红色的蜡封着，给 Ashford 镇长的。
+The Parliament's letter, sealed in crimson, for the Mayor of Puddleford.	议会的信，用深红色的蜡封着，给 Puddleford 镇长的。
 A letter, sealed in crimson	一封深红色蜡封的信
 Mayor's Pass	镇长的通行证
-The Mayor of Ashford's pass, sealed in blue: the road east is yours.	Ashford 镇长的通行证，用蓝色的蜡封着：东边的路向你敞开。
+The Mayor of Puddleford's pass, sealed in blue: the road east is yours.	Puddleford 镇长的通行证，用蓝色的蜡封着：东边的路向你敞开。
 A pass, sealed in blue	一张蓝色蜡封的通行证
 Archivist's Attestation	档案官的证言
 The Royal Archivist's word, in green wax: the amulet is the true seal of succession.	皇家档案官的证言，用绿色的蜡封着：这枚护身符是真正的继承印章。
@@ -4536,10 +4536,10 @@ Painter	画家
 A painter with paint on everything but the canvas.	一位画家，除了画布，身上到处都是颜料。
 A painter	一位画家
 Easel	画架
-Ashford's market, painted in quick strokes. There's a cat-shaped gap in the middle.	Ashford 的集市，用快速的笔触画成。中间有一块猫形状的空白。
+Puddleford's market, painted in quick strokes. There's a cat-shaped gap in the middle.	Puddleford 的集市，用快速的笔触画成。中间有一块猫形状的空白。
 A painting of the market	一幅集市的画
 Portrait of Mo	Mo 的肖像
-A little oil painting of Mo, sitting like a loaf in Ashford's market.	一幅 Mo 的小油画，它像一块面包一样坐在 Ashford 的集市里。
+A little oil painting of Mo, sitting like a loaf in Puddleford's market.	一幅 Mo 的小油画，它像一块面包一样坐在 Puddleford 的集市里。
 A little painting of a cat	一幅猫的小画
 Otter	水獭
 An otter, sleek and wet, never still for long.	一只水獭，光滑湿润，从来不会安静太久。
@@ -5230,7 +5230,7 @@ One of the Mending	弥合会的一员
 A traveller in a plain grey robe, a sliver of glass at the collar, smiling at you as if you'd met before.	一个穿着朴素灰袍的旅人，领口有一片玻璃，对你微笑，好像你们以前见过。
 A traveller of the Mending	一位弥合会的旅人
 Cael's Lines	Cael 的几行字
-A few lines in Cael's hand, for Annis of Ashford.	Cael 亲笔写的几行字，给 Ashford 的 Annis。
+A few lines in Cael's hand, for Annis of Puddleford.	Cael 亲笔写的几行字，给 Puddleford 的 Annis。
 A few lines, for Annis	几行字，给 Annis
 Mending House Shard	弥合会之家的碎片
 A Shard the size of a loaf, on a cloth on the table. It's warm, and there's a hum in it, like someone about to speak.	一块面包那么大的碎片，放在桌上的布上。它是温热的，里面有一种嗡鸣，像有人正要开口。
@@ -5518,36 +5518,36 @@ Today's bounty	今天的悬赏
 Records Board	纪录板
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	纪录大厅，用浅色石头雕成并镀了金：在 Brambleton 做得最多的那些名字。
 The names that have done the most	做得最多的那些名字
-Trees all over the Isle and the Southlands	小岛和南方大地到处都有树
+Trees all over Muddlesey and the Southlands	小岛和南方大地到处都有树
 Fallen logs lying in the meadows and woods	倒在草地和树林里的原木
-Oaks in the Isle's woods, around Northport and Ashford and in the Whispering Woods	小岛的树林里、Northport 和 Ashford 周围以及低语森林里的橡树
-Willows grow by the water: the Isle's woods, the shores of the Southlands	柳树长在水边：小岛的树林里、南方大地的岸边
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	小岛的树林里、Drizzleport 和 Puddleford 周围以及低语森林里的橡树
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	柳树长在水边：小岛的树林里、南方大地的岸边
 A few ancient yews deep in the Whispering Woods and the eastern woods	低语森林和东部树林深处的几棵古老紫杉
 Any shore or cave pool	任何岸边或洞穴水池
-The old iron mine, the mine depths, the grotto under the Isle and the warren	旧铁矿、矿井深处、小岛下的洞穴和大地精洞窟
-The cellar grotto under the Isle and the old iron mine	小岛下的地窖洞穴和旧铁矿
-The cellar grotto under the Isle and the old iron mine. Smelt it with copper ore for bronze	小岛下的地窖洞穴和旧铁矿。和铜矿石一起冶炼成青铜
-The cellar grotto under the Isle, the mine depths and the guild's deep seam	小岛下的地窖洞穴、矿井深处和公会的深层矿脉
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	旧铁矿、矿井深处、小岛下的洞穴和大地精洞窟
+The cellar grotto under Muddlesey and the old iron mine	小岛下的地窖洞穴和旧铁矿
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	小岛下的地窖洞穴和旧铁矿。和铜矿石一起冶炼成青铜
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	小岛下的地窖洞穴、矿井深处和公会的深层矿脉
 The mine depths, the guild's deep seam and the hobgoblin warren	矿井深处、公会的深层矿脉和大地精洞窟
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	大地精洞窟下方深谷里的水晶洞，以及矿井深处公会的深层矿脉（采矿 5 级才能进入）
 The crystal cavern in the Deep Hollow, and Brokk's vault	深谷里的水晶洞，以及 Brokk 的宝库
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	深谷里洞穴巨魔的巢穴和 Brokk 的宝库。只有钢镐或秘银镐才能敲开它
 Damp corners of every cave and mine	每个洞穴和矿井的潮湿角落
-Herb patches in the grass on the Isle and in the Southlands	小岛和南方大地草丛中的草药地
+Herb patches in the grass on Muddlesey and in the Southlands	小岛和南方大地草丛中的草药地
 Loose herbs lying about in the Southlands (they grow back after a while)	南方大地上散落的草药（过一阵子会重新长出来）
-Berry bushes on the Isle, around Northport and in the Whispering Woods	小岛上、Northport 周围和低语森林里的浆果丛
-The wheat field on the Ashford farmlands	Ashford 农田里的麦田
-The cabbage rows on the Ashford farmlands	Ashford 农田里的卷心菜地
-Hens' nests on the Isle's farm and by the Ashford farmhouse	小岛农场和 Ashford 农舍旁的母鸡窝
-The cows on the Isle's farm and the Ashford farmlands	小岛农场和 Ashford 农田里的牛
-The sheep on the Isle and the Ashford farmlands	小岛和 Ashford 农田里的羊
-Bog myrtle bushes in the Saltmarsh	Saltmarsh 的沼泽香桃木丛
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	小岛上、Drizzleport 周围和低语森林里的浆果丛
+The wheat field on the Puddleford farmlands	Puddleford 农田里的麦田
+The cabbage rows on the Puddleford farmlands	Puddleford 农田里的卷心菜地
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	小岛农场和 Puddleford 农舍旁的母鸡窝
+The cows on Muddlesey's farm and the Puddleford farmlands	小岛农场和 Puddleford 农田里的牛
+The sheep on Muddlesey and the Puddleford farmlands	小岛和 Puddleford 农田里的羊
+Bog myrtle bushes in the Brinebottom	Brinebottom 的沼泽香桃木丛
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	任何沙滩或沙漠（右键点击沙地）。在熔炉里把它熔成玻璃，再在工作台上做成空药瓶
 Sage clumps on the moors, the hills and the downs	荒原、丘陵和高地上的鼠尾草丛
 Marigolds in the meadows of the Southlands	南方大地草地上的金盏花
 Nightshade in the deep woods of the Wildwood and the Elderwood	Wildwood 和 Elderwood 深林里的颠茄
 Emberroot in the ash of the Ashwold	Ashwold 灰烬中的余烬根
-Sow the seeds in tilled soil: the farmer's furrows by Ashford, or your homestead	把种子播在翻过的土里：Ashford 旁农夫的田垄，或者你的家园
+Sow the seeds in tilled soil: the farmer's furrows by Puddleford, or your homestead	把种子播在翻过的土里：Puddleford 旁农夫的田垄，或者你的家园
 I heard $Player.Name was killed by a goose. An actual goose. I'd not have mentioned it, only everyone else has.	我听说 $Player.Name 被一只鹅杀了。一只真正的鹅。要不是别人都提了，我也不会说。
 They say $Player.Name was seen off by a rat. A single rat. It's got a name now, that rat.	听说 $Player.Name 被一只老鼠赶跑了。就一只老鼠。那只老鼠现在都有名字了。
 Goblins have a song about $Player.Name, you know. It's mostly about running.	你知道吗，哥布林们有一首关于 $Player.Name 的歌。大部分是关于逃跑的。
@@ -5558,41 +5558,41 @@ It was $Player.Name who killed the dragon, or so they tell me. Thought they'd be
 I had a coin on $Player.Name at the arena. Paid for the roof, that did.	我在竞技场押了一个金币在 $Player.Name 身上。屋顶就是靠那个修的。
 That business with the Mayor's trousers. Everyone knows it was $Player.Name who cracked it. A goose, was it?	镇长裤子那件事。人人都知道是 $Player.Name 破的案。是一只鹅，对吧？
 Something's after $Player.Name, I hear. Big, scarred, and it knows their name.	我听说有东西在追 $Player.Name。个头大，满身伤疤，还知道他们的名字。
-Northport's harbour	Northport 的港口
+Drizzleport's harbour	Drizzleport 的港口
 Galaith's market	Galaith 的集市
 Mirefold's boardwalks	Mirefold 的木板路
 Passage to the Mainland	前往大陆的航路
 The Herbalist's Remedy	草药师的药方
-The herbalist out on Ashford's farmlands could do with a hand, I hear.	据说 Ashford 农田那边的草药师需要人帮把手。
+The herbalist out on Puddleford's farmlands could do with a hand, I hear.	据说 Puddleford 农田那边的草药师需要人帮把手。
 The Dwarf's Grudge	矮人的积怨
 Miners swear there's a dwarf deep under the hobgoblin warren, nursing a grudge as old as the hills.	矿工们发誓说，大地精洞窟深处有个矮人，怀着一份和山一样古老的积怨。
 The Wildwood Watch	Wildwood 的守望
-Ranger Ash in Oakhollow is short of eyes in the Wildwood. Strange goings on, they say.	Oakhollow 的游侠 Ash 在 Wildwood 缺人手。听说那里有怪事。
+Ranger Ash in Acornby is short of eyes in the Wildwood. Strange goings on, they say.	Acornby 的游侠 Ash 在 Wildwood 缺人手。听说那里有怪事。
 The Old Grove	古林
-There's talk of felling the old oaks by Oakhollow. Ranger Ash won't hear of it.	有人在说要砍掉 Oakhollow 旁的老橡树。游侠 Ash 根本不愿听。
+There's talk of felling the old oaks by Acornby. Ranger Ash won't hear of it.	有人在说要砍掉 Acornby 旁的老橡树。游侠 Ash 根本不愿听。
 Wolves of the Greyflats	Greyflats 的狼
-The shepherd in Greyford is losing sheep to the wolves on the Greyflats.	Greyford 的牧羊人在 Greyflats 上被狼叼走了好多羊。
-Wolves on the Greyflats again. The Greyford shepherd's at his wits' end.	Greyflats 上又有狼了。Greyford 的牧羊人已经束手无策了。
+The shepherd in Dullford is losing sheep to the wolves on the Greyflats.	Dullford 的牧羊人在 Greyflats 上被狼叼走了好多羊。
+Wolves on the Greyflats again. The Dullford shepherd's at his wits' end.	Greyflats 上又有狼了。Dullford 的牧羊人已经束手无策了。
 Bog Lights	沼泽之光
-Old Morwen the witch in Saltmarsh wants bog myrtle, and someone daft enough to fetch it.	Saltmarsh 的老女巫 Morwen 想要沼泽香桃木，还要一个傻到愿意去采的人。
+Old Morwen the witch in Brinebottom wants bog myrtle, and someone daft enough to fetch it.	Brinebottom 的老女巫 Morwen 想要沼泽香桃木，还要一个傻到愿意去采的人。
 Bandits on the Road	路上的强盗
-Captain Hale in Frosthold wants the bandits off the Redrock road, and he's paying.	Frosthold 的 Hale 队长想把强盗赶出 Redrock 路，而且他给钱。
+Captain Hale in Chillingham wants the bandits off the Redrock road, and he's paying.	Chillingham 的 Hale 队长想把强盗赶出 Redrock 路，而且他给钱。
 The Lost Caravan	失踪的商队
 Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole one!	Dunerest 的商人 Qadir 在 Sunscar 丢了一整支商队。一整支！
 The Frozen Forge	冰封的熔炉
-Brann the forgemaster in Frosthold can't keep his forge lit, and he's not taking it well.	Frosthold 的锻造大师 Brann 点不着他的熔炉，他可不太好受。
+Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	Chillingham 的锻造大师 Brann 点不着他的熔炉，他可不太好受。
 The Hermit's Fire	隐士的火
-The hermit in the Isle's western woods could do with good wood for his fire.	小岛西边树林里的隐士需要好木头来烧火。
+The hermit in Muddlesey's western woods could do with good wood for his fire.	小岛西边树林里的隐士需要好木头来烧火。
 The Withering Wood	枯萎的森林
-The druid in Thornwick says the Elderwood is dying, and nobody listens.	Thornwick 的德鲁伊说 Elderwood 正在死去，却没人听。
+The druid in Nettlewick says the Elderwood is dying, and nobody listens.	Nettlewick 的德鲁伊说 Elderwood 正在死去，却没人听。
 The Barrow King	古冢之王
 The gravekeeper at King Rupert's Keep won't go near the barrows on the downs any more. Says they've woken.	鲁珀特王堡的守墓人再也不肯靠近高地上的古冢了。说它们醒了。
 Old Hob	老 Hob
-Old Hob of Oakhollow's gone missing, and his house is boarded up tight. Odd, that.	Oakhollow 的老 Hob 失踪了，他的房子被木板封得严严实实。怪事。
+Old Hob of Acornby's gone missing, and his house is boarded up tight. Odd, that.	Acornby 的老 Hob 失踪了，他的房子被木板封得严严实实。怪事。
 The Lost Patrol	失踪的巡逻队
 The scout in Emberwatch is waiting on a patrol that never came back from the Ashwold.	Emberwatch 的斥候在等一支从 Ashwold 一去不回的巡逻队。
 A Place of Your Own	属于你的地方
-There's a settler by Ashford's shardstone talking about a place of your own. Land you can't walk to, whatever that means.	Ashford 碎片石旁有个定居者在说属于你自己的地方。一片走路到不了的土地，不管那是什么意思。
+There's a settler by Puddleford's shardstone talking about a place of your own. Land you can't walk to, whatever that means.	Puddleford 碎片石旁有个定居者在说属于你自己的地方。一片走路到不了的土地，不管那是什么意思。
 The Smugglers' Run	走私者的航线
 Sergeant Holt at the castle's south gate is tearing his hair out. Goods turn up in town that never came through his gate.	城堡南门的 Holt 中士快急疯了。镇上出现的货物从来没经过他的门。
 The Tide Turns	潮汐逆转
@@ -5600,16 +5600,16 @@ Under the Tide	潮汐之下
 Cold Fire	冰冷之火
 A shepherd on the Ashwold swears the Hand's old shrines are lit again, and the fire's the wrong colour.	Ashwold 上的一个牧羊人发誓说，灰烬之手的旧神龛又亮了，而且火的颜色不对。
 The Kind Stranger	好心的陌生人
-Tam the cooper's been asking all over Ashford after his mother. She's taken up with them in grey.	箍桶匠 Tam 在 Ashford 到处打听他母亲的下落。她跟那些穿灰衣的混在一起了。
+Tam the cooper's been asking all over Puddleford after his mother. She's taken up with them in grey.	箍桶匠 Tam 在 Puddleford 到处打听他母亲的下落。她跟那些穿灰衣的混在一起了。
 In Grey	灰衣之中
 The Tithe	什一税
 The Eldest of the Mending	弥合会长老
-Old Amos in Wardhaven says there's singing under his chapel at night.	Wardhaven 的老 Amos 说，夜里他的礼拜堂下面有人在唱歌。
+Old Amos in Sulkhaven says there's singing under his chapel at night.	Sulkhaven 的老 Amos 说，夜里他的礼拜堂下面有人在唱歌。
 The Last Will	遗嘱
 Dinner at Edwin's	Edwin 家的晚餐
 The Amulet of Succession	继承护身符
 The Temporary Capital	临时首都
-The Ashford Road	Ashford 之路
+The Puddleford Road	Puddleford 之路
 The Steward's Hunt	总管的狩猎
 Bert's Three Treasures	Bert 的三件宝物
 The Staff of Brambleton	Brambleton 之杖
@@ -5630,13 +5630,13 @@ The True Heir	真正的继承人
 The Chancellor's Grain	大法官的粮食
 They say the Chancellor's cellars are full, and the city's bakers can't get flour.	听说大法官的地窖都满了，而城里的面包师却买不到面粉。
 Granny Wren's Walk	Wren 奶奶的散步
-There's an old dear down at Northport's landing who looks like she's lost her way. Somebody ought to see her home.	Northport 码头那边有位老人家，看起来像是迷路了。总得有人送她回家。
+There's an old dear down at Drizzleport's landing who looks like she's lost her way. Somebody ought to see her home.	Drizzleport 码头那边有位老人家，看起来像是迷路了。总得有人送她回家。
 A Portrait of Mo	Mo 的肖像
-That painter in Ashford's market square can't get his sitter to sit still. Mo, the sitter's called. I won't say more.	Ashford 集市广场上的那个画家没法让他的模特坐着别动。模特叫 Mo。我就不多说了。
-The Wardhaven Bridge	Wardhaven 桥
-Mayor Hollis in Ashford is after help with the Wardhaven bridge. Hands are short, I hear.	Ashford 的 Hollis 镇长在为 Wardhaven 的桥找帮手。听说人手不够。
+That painter in Puddleford's market square can't get his sitter to sit still. Mo, the sitter's called. I won't say more.	Puddleford 集市广场上的那个画家没法让他的模特坐着别动。模特叫 Mo。我就不多说了。
+The Sulkhaven Bridge	Sulkhaven 桥
+Mayor Hollis in Puddleford is after help with the Sulkhaven bridge. Hands are short, I hear.	Puddleford 的 Hollis 镇长在为 Sulkhaven 的桥找帮手。听说人手不够。
 The Dragonforge	龙炉
-The Wyrmsmith over in Wardhaven wants someone brave. Something about a forge hot enough for dragon scale.	Wardhaven 那边的龙铁匠想找个勇敢的人。好像跟一座热到能加工龙鳞的熔炉有关。
+The Wyrmsmith over in Sulkhaven wants someone brave. Something about a forge hot enough for dragon scale.	Sulkhaven 那边的龙铁匠想找个勇敢的人。好像跟一座热到能加工龙鳞的熔炉有关。
 The Shard Scholar	碎片学者
 Magister Quill at the Wizards' Court talks about nothing but Shards. He's always wanting something fetched.	巫师庭的 Quill 导师除了碎片什么都不谈。他总是想让人去取点什么。
 The Spellwright	法术书写者
@@ -5644,20 +5644,20 @@ They say Magister Quill can teach a body to write a spell of their own, if you h
 The Invisible Apprentice	隐形的学徒
 Folk at the Wizards' Court say there's a voice in the great hall with nobody attached to it.	巫师庭的人说，大厅里有一个声音，却没有人发出它。
 Lady Pettigrew's Hat	Pettigrew 夫人的帽子
-There's a lady out on Goose Green, east of Northport, losing a war with some geese.	Northport 东边的 Goose Green 上有位夫人，正在和一群鹅打一场必输的仗。
+There's a lady out on Goose Green, east of Drizzleport, losing a war with some geese.	Drizzleport 东边的 Goose Green 上有位夫人，正在和一群鹅打一场必输的仗。
 Lady Pettigrew's been shouting at geese all morning. The geese are winning.	Pettigrew 夫人对着鹅喊了一上午。鹅占了上风。
 Granny Bramble's Practice Hex	Bramble 奶奶的练习咒语
-Granny Bramble on Thornwick's green wants someone to practise a hex on. Don't stand still near her.	Thornwick 草坪上的 Bramble 奶奶想找个人练习咒语。别在她附近站着不动。
+Granny Bramble on Nettlewick's green wants someone to practise a hex on. Don't stand still near her.	Nettlewick 草坪上的 Bramble 奶奶想找个人练习咒语。别在她附近站着不动。
 The Scarecrow's Hat	稻草人的帽子
-The scarecrow outside Oakhollow has been talking again. Big questions, apparently. Very big.	Oakhollow 外面的稻草人又开始说话了。显然是些大问题。非常大。
+The scarecrow outside Acornby has been talking again. Big questions, apparently. Very big.	Acornby 外面的稻草人又开始说话了。显然是些大问题。非常大。
 Duchess Has Opinions	Duchess 有主见
-There's a cow outside Ashford with opinions, and she says them out loud.	Ashford 外面有头牛很有主见，而且她会大声说出来。
+There's a cow outside Puddleford with opinions, and she says them out loud.	Puddleford 外面有头牛很有主见，而且她会大声说出来。
 The Mayor's Missing Trousers	镇长失踪的裤子
-Constable Dobbs in Ashford has a case he won't talk about. Something to do with the Mayor. And trousers.	Ashford 的 Dobbs 巡警有一桩他不肯谈的案子。跟镇长有关。还有裤子。
+Constable Dobbs in Puddleford has a case he won't talk about. Something to do with the Mayor. And trousers.	Puddleford 的 Dobbs 巡警有一桩他不肯谈的案子。跟镇长有关。还有裤子。
 The Redrock Signet	Redrock 图章戒指
 An old steward sits by the road at Redrock Manor's gate, waiting for someone brave enough to go in.	一位老管家坐在 Redrock 庄园大门旁的路边，等着一个敢进去的勇敢的人。
 Locked Out	被锁在门外
-There's a man in Wardhaven who's spent all week looking at his own front door. Nobody likes to ask.	Wardhaven 有个男人整整一周都盯着自家的前门看。没人好意思问。
+There's a man in Sulkhaven who's spent all week looking at his own front door. Nobody likes to ask.	Sulkhaven 有个男人整整一周都盯着自家的前门看。没人好意思问。
 Rats of Unusual Size	体型异常的老鼠
 Scavenger Season	拾荒季节
 What Went Wrong at the Reach	河湾出了什么事
@@ -5668,7 +5668,7 @@ The Thing in the Sand	沙中之物
 What Lives in the Stoneways	Stoneways 里住着什么
 There was a woman asked questions in every library from here to the sea, years back. Left her notes in the oddest places.	几年前，有个女人在从这里到海边的每一座图书馆都问过问题。她把笔记留在了最古怪的地方。
 Glass in the Nets	网中的玻璃
-They say the nets come up glowing off Gull Point, north of Ashford.	听说 Ashford 北边 Gull Point 附近，网拉上来时会发光。
+They say the nets come up glowing off Gull Point, north of Puddleford.	听说 Puddleford 北边 Gull Point 附近，网拉上来时会发光。
 There's a fisherwoman out on Gull Point selling sea glass that shines in the dark. Won't say where she gets it.	Gull Point 有个渔妇在卖会在黑暗中发光的海玻璃。她不肯说是从哪儿弄来的。
 Charting the Deep	绘制深渊
 A cartographer went down under Gull Point with a lantern and a great deal of paper. She's still down there, they say, drawing.	一位制图师提着灯笼、带着一大堆纸下到了 Gull Point 下面。听说她还在下面画着。
@@ -5705,24 +5705,24 @@ They say a boy ran from the Keep's levy, and the sergeant's out for him.	听说�
 The Dry Spring	干涸的泉水
 Dunerest's well is low, they say, and Corvin the water-seller has never been richer.	听说 Dunerest 的井水位很低，而卖水的 Corvin 从来没这么富过。
 The Eel Traps	鳗鱼笼
-Somebody's cutting the eel traps at Saltmarsh, they say.	听说有人在 Saltmarsh 割断鳗鱼笼。
+Somebody's cutting the eel traps at Brinebottom, they say.	听说有人在 Brinebottom 割断鳗鱼笼。
 Marsh Fever	沼泽热
 There's a doctor in Mirefold with a cure for the fever. Bryony the healer doesn't think much of it.	Mirefold 有个医生有治发烧的药。治疗师 Bryony 可不太看得上它。
 What Jimmy Kept	Jimmy 留下的东西
 Brother Aldous at the chapel was asking after you. Something of your mother's, he said.	礼拜堂的 Aldous 修士在打听你。他说有样你母亲的东西。
 Old Tobias is safe at Edwin's, they say, but them hobgoblins had every penny he owned.	听说老 Tobias 在 Edwin 家很安全，可那些大地精把他的每一个铜板都抢走了。
-Ashford	Ashford
-Wardhaven	Wardhaven
-Oakhollow	Oakhollow
+Puddleford	Puddleford
+Sulkhaven	Sulkhaven
+Acornby	Acornby
 Wildwood	Wildwood
-Greyford	Greyford
+Dullford	Dullford
 Dunerest	Dunerest
-Saltmarsh	Saltmarsh
+Brinebottom	Brinebottom
 Wizards' Court	巫师庭
 Emberwatch	Emberwatch
-Thornwick	Thornwick
+Nettlewick	Nettlewick
 King Rupert's Keep	鲁珀特王堡
-Frosthold	Frosthold
+Chillingham	Chillingham
 The Arena	竞技场
 Mirefold	Mirefold
 The Shardfall Deep	碎片坠落深渊
@@ -5739,7 +5739,7 @@ Fish with a rod and bait where the water ripples (each catch takes a bait). Bett
 Mine rocks with a pickaxe, in the mines and caves. Digging with a spade teaches you a little too.	在矿井和洞穴里用镐开采岩石。用铁锹挖掘也能学到一点。
 Chop trees with an axe.	用斧头砍树。
 Pick herbs, berries and mushrooms, and brew draughts and potions from them at an alchemy table.	采摘草药、浆果和蘑菇，并在炼金台上用它们酿造药剂和药水。
-Build on your homestead, and sow and harvest crops: in your own soil, or the farmer's furrows by Ashford.	在你的家园上建造，播种和收获作物：在你自己的土地上，或者 Ashford 旁农夫的田垄里。
+Build on your homestead, and sow and harvest crops: in your own soil, or the farmer's furrows by Puddleford.	在你的家园上建造，播种和收获作物：在你自己的土地上，或者 Puddleford 旁农夫的田垄里。
 Stealth	潜行
 Go unseen and light-fingered: sneak past those watching, strike before you're seen, pick pockets and locks, lift wares from shelves and valuables from houses, and spot traps and secrets (and disarm the traps).	不被看见，手脚灵巧：从监视者身边溜过，在被发现前出手，扒窃和撬锁，从货架上顺走商品、从房子里拿走贵重物品，还能发现陷阱和秘密（并拆除陷阱）。
 Fire Bolt	火焰弹
@@ -5793,7 +5793,7 @@ Quicker on foot, and out of a fight sooner (you start to heal sooner after one).
 "You walk like a landsman, matey," Rook says. "Light on the feet: a deck pitches, and so does a fight. Step back, breathe, and it's behind you."	“你走路像个旱鸭子，伙计，”Rook 说。“脚步要轻：甲板会颠簸，战斗也会。退一步，喘口气，它就过去了。”
 Riposte	反击
 "You held off those bandits better than my own lads," Hale says. "Here's one more thing: when you turn a blow, don't wait. Answer it, while they're still open."	“你挡住那些强盗挡得比我自己的手下还好，”Hale 说。“再教你一件事：挡开一击之后，别等。趁他们还露着破绽，立刻还手。”
-Folk say there's a man on Northport's docks after dark who doesn't ask questions.	人们说，天黑以后 Northport 的码头上有个不问问题的人。
+Folk say there's a man on Drizzleport's docks after dark who doesn't ask questions.	人们说，天黑以后 Drizzleport 的码头上有个不问问题的人。
 Try the docks after dark, if you must. Not here.	非要的话，天黑后去码头试试吧。别在这儿。
 Old Sully, in the tavern's corner, if you must. Not here.	非要的话，去找酒馆角落里的老 Sully。别在这儿。
 Black	黑色
@@ -6787,33 +6787,33 @@ Toadstool	毒蕈
 Toadstools, red and spotted white, in a ring that's too round.	红色带白点的毒蕈，围成一个圆得过分的圈。
 Cult Shrine Cold	冰冷的邪教神龛
 An altar of the Ashen Hand, lit again: its candles burn blue, and give no warmth.	灰烬之手的祭坛，又被点燃了：它的蜡烛燃着蓝色的火焰，一点也不暖。
-Ashford Raid	Ashford 袭击
-Goblin raid on Ashford	哥布林袭击 Ashford
-A horn sounds from the woods: goblins are attacking Ashford! Defend the market square!	树林里传来号角声：哥布林正在袭击 Ashford！保卫集市广场！
-The goblins flee into the trees. Ashford is safe - thanks to its defenders!	哥布林逃进了树林。Ashford 安全了——多亏了它的守卫者！
+Puddleford Raid	Puddleford 袭击
+Goblin raid on Puddleford	哥布林袭击 Puddleford
+A horn sounds from the woods: goblins are attacking Puddleford! Defend the market square!	树林里传来号角声：哥布林正在袭击 Puddleford！保卫集市广场！
+The goblins flee into the trees. Puddleford is safe - thanks to its defenders!	哥布林逃进了树林。Puddleford 安全了——多亏了它的守卫者！
 The goblins loot what they can and slip away into the woods.	哥布林抢走了能抢的东西，溜回了树林。
 Farm Raid	农场袭击
 Goblins at the farm	农场里的哥布林
 Here they come - goblins, out of the hedges! Keep them off the hen house!	它们来了——哥布林从树篱里冲出来了！别让它们靠近鸡舍！
 The last goblin bolts for its camp. The farmer's eggs are safe!	最后一只哥布林逃回了营地。农夫的鸡蛋保住了！
 The goblins make off with a sack of eggs.	哥布林抢走了一袋鸡蛋。
-Northport Raid	Northport 袭击
-Sea raid on Northport	海上袭击 Northport
-A horn sounds: raiders off the sea are attacking Northport! Defend the square!	号角响起：海上来的袭击者正在攻击 Northport！保卫广场！
-The raiders flee. Northport is safe - thanks to its defenders!	袭击者逃走了。Northport 安全了——多亏了它的守卫者！
+Drizzleport Raid	Drizzleport 袭击
+Sea raid on Drizzleport	海上袭击 Drizzleport
+A horn sounds: raiders off the sea are attacking Drizzleport! Defend the square!	号角响起：海上来的袭击者正在攻击 Drizzleport！保卫广场！
+The raiders flee. Drizzleport is safe - thanks to its defenders!	袭击者逃走了。Drizzleport 安全了——多亏了它的守卫者！
 The raiders take what they can and are gone.	袭击者抢走了能抢的东西，走了。
-Oakhollow Raid	Oakhollow 袭击
-Wolf raid on Oakhollow	狼群袭击 Oakhollow
-A horn sounds: wolves are attacking Oakhollow! Defend the square!	号角响起：狼群正在袭击 Oakhollow！保卫广场！
-The raiders flee. Oakhollow is safe - thanks to its defenders!	袭击者逃走了。Oakhollow 安全了——多亏了它的守卫者！
-Greyford Raid	Greyford 袭击
-Goblin raid on Greyford	哥布林袭击 Greyford
-A horn sounds: goblins are attacking Greyford! Defend the square!	号角响起：哥布林正在袭击 Greyford！保卫广场！
-The raiders flee. Greyford is safe - thanks to its defenders!	袭击者逃走了。Greyford 安全了——多亏了它的守卫者！
-Frosthold Raid	Frosthold 袭击
-Snow wolf raid on Frosthold	雪狼袭击 Frosthold
-A horn sounds: snow wolves are attacking Frosthold! Defend the square!	号角响起：雪狼正在袭击 Frosthold！保卫广场！
-The raiders flee. Frosthold is safe - thanks to its defenders!	袭击者逃走了。Frosthold 安全了——多亏了它的守卫者！
+Acornby Raid	Acornby 袭击
+Wolf raid on Acornby	狼群袭击 Acornby
+A horn sounds: wolves are attacking Acornby! Defend the square!	号角响起：狼群正在袭击 Acornby！保卫广场！
+The raiders flee. Acornby is safe - thanks to its defenders!	袭击者逃走了。Acornby 安全了——多亏了它的守卫者！
+Dullford Raid	Dullford 袭击
+Goblin raid on Dullford	哥布林袭击 Dullford
+A horn sounds: goblins are attacking Dullford! Defend the square!	号角响起：哥布林正在袭击 Dullford！保卫广场！
+The raiders flee. Dullford is safe - thanks to its defenders!	袭击者逃走了。Dullford 安全了——多亏了它的守卫者！
+Chillingham Raid	Chillingham 袭击
+Snow wolf raid on Chillingham	雪狼袭击 Chillingham
+A horn sounds: snow wolves are attacking Chillingham! Defend the square!	号角响起：雪狼正在袭击 Chillingham！保卫广场！
+The raiders flee. Chillingham is safe - thanks to its defenders!	袭击者逃走了。Chillingham 安全了——多亏了它的守卫者！
 Dunerest Raid	Dunerest 袭击
 Scorpion raid on Dunerest	蝎子袭击 Dunerest
 A horn sounds: scorpions are attacking Dunerest! Defend the square!	号角响起：蝎子正在袭击 Dunerest！保卫广场！
@@ -6822,10 +6822,10 @@ Emberwatch Raid	Emberwatch 袭击
 Ember hound raid on Emberwatch	余烬猎犬袭击 Emberwatch
 A horn sounds: ember hounds are attacking Emberwatch! Defend the square!	号角响起：余烬猎犬正在袭击 Emberwatch！保卫广场！
 The raiders flee. Emberwatch is safe - thanks to its defenders!	袭击者逃走了。Emberwatch 安全了——多亏了它的守卫者！
-Thornwick Raid	Thornwick 袭击
-Wolf raid on Thornwick	狼群袭击 Thornwick
-A horn sounds: wolves are attacking Thornwick! Defend the square!	号角响起：狼群正在袭击 Thornwick！保卫广场！
-The raiders flee. Thornwick is safe - thanks to its defenders!	袭击者逃走了。Thornwick 安全了——多亏了它的守卫者！
+Nettlewick Raid	Nettlewick 袭击
+Wolf raid on Nettlewick	狼群袭击 Nettlewick
+A horn sounds: wolves are attacking Nettlewick! Defend the square!	号角响起：狼群正在袭击 Nettlewick！保卫广场！
+The raiders flee. Nettlewick is safe - thanks to its defenders!	袭击者逃走了。Nettlewick 安全了——多亏了它的守卫者！
 Court Raid	巫师庭袭击
 Goblin raid on Wizards' Court	哥布林袭击巫师庭
 A horn sounds: goblins are attacking Wizards' Court! Defend the square!	号角响起：哥布林正在袭击巫师庭！保卫广场！
@@ -6838,14 +6838,14 @@ Wildwood Raid	Wildwood 袭击
 Wolf raid on Wildwood	狼群袭击 Wildwood
 A horn sounds: wolves are attacking Wildwood! Defend the square!	号角响起：狼群正在袭击 Wildwood！保卫广场！
 The raiders flee. Wildwood is safe - thanks to its defenders!	袭击者逃走了。Wildwood 安全了——多亏了它的守卫者！
-Saltmarsh Raid	Saltmarsh 袭击
-Bog raid on Saltmarsh	沼泽怪袭击 Saltmarsh
-A horn sounds: things out of the bog are attacking Saltmarsh! Defend the square!	号角响起：沼泽里的东西正在袭击 Saltmarsh！保卫广场！
-The raiders flee. Saltmarsh is safe - thanks to its defenders!	袭击者逃走了。Saltmarsh 安全了——多亏了它的守卫者！
-Wardhaven Raid	Wardhaven 袭击
-Goblin raid on Wardhaven	哥布林袭击 Wardhaven
-A horn sounds: goblins are attacking Wardhaven! Defend the square!	号角响起：哥布林正在袭击 Wardhaven！保卫广场！
-The raiders flee. Wardhaven is safe - thanks to its defenders!	袭击者逃走了。Wardhaven 安全了——多亏了它的守卫者！
+Brinebottom Raid	Brinebottom 袭击
+Bog raid on Brinebottom	沼泽怪袭击 Brinebottom
+A horn sounds: things out of the bog are attacking Brinebottom! Defend the square!	号角响起：沼泽里的东西正在袭击 Brinebottom！保卫广场！
+The raiders flee. Brinebottom is safe - thanks to its defenders!	袭击者逃走了。Brinebottom 安全了——多亏了它的守卫者！
+Sulkhaven Raid	Sulkhaven 袭击
+Goblin raid on Sulkhaven	哥布林袭击 Sulkhaven
+A horn sounds: goblins are attacking Sulkhaven! Defend the square!	号角响起：哥布林正在袭击 Sulkhaven！保卫广场！
+The raiders flee. Sulkhaven is safe - thanks to its defenders!	袭击者逃走了。Sulkhaven 安全了——多亏了它的守卫者！
 Ward Circle Trial	守护之环的试炼
 The Ward-Circle wakes	守护之环苏醒了
 The Ward-Circle wakes: what it was set to keep out is coming in. Hold the circle!	守护之环苏醒了：它要挡在外面的东西正在进来。守住这个环！
@@ -6879,9 +6879,9 @@ The Ashfall	Ashfall
 The Rime	Rime
 The Shattered Reach	破碎河湾
 The Sallow Waste	Sallow 荒原
-The Isle	小岛
+Muddlesey	Muddlesey
 Sunscar Desert	Sunscar 沙漠
-Saltmarsh Fens	Saltmarsh 沼泽地
+Brinebottom Fens	Brinebottom 沼泽地
 Cinder Peaks	Cinder Peaks
 Frostpeak	Frostpeak
 The Pass of Galaith	Galaith 山口
@@ -7105,12 +7105,12 @@ Frailty	虚弱
 The floor gives way! You fall, and land hard a floor below.	地面塌陷了！你掉了下去，重重地摔在下一层。
 That's as far as the demo goes: the full game goes on from here.	试玩版就到这里了：完整版游戏将从这里继续。
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	试玩版就到这里了：%d 级。从现在起你学到的东西都会为完整版游戏保留。
-The Isle's story is told, as far as the demo goes: the crossing to Northport is the full game's.	小岛的故事已经讲完，试玩版就到这里：渡海前往 Northport 属于完整版游戏。
-Why would hobgoblins raid the Isle for your mother's papers?	为什么大地精要袭击小岛，抢你母亲的文件？
-Across the strait: Northport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	海峡对岸：Northport、大陆的城镇和道路、巫师庭，以及故事的其余部分。
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	小岛的故事已经讲完，试玩版就到这里：渡海前往 Drizzleport 属于完整版游戏。
+Why would hobgoblins raid Muddlesey for your mother's papers?	为什么大地精要袭击小岛，抢你母亲的文件？
+Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	海峡对岸：Drizzleport、大陆的城镇和道路、巫师庭，以及故事的其余部分。
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	好友通行证：这里有人拥有完整版游戏，所以只要对方在游戏中，它也属于你。
-Nobody here has the full game now: back to the Isle in %d seconds.	现在这里没有人拥有完整版游戏：%d 秒后返回小岛。
-Nobody here has the full game now: you're back in the demo, the Isle and level %d.	现在这里没有人拥有完整版游戏：你回到了试玩版，小岛，%d 级。
+Nobody here has the full game now: back to Muddlesey in %d seconds.	现在这里没有人拥有完整版游戏：%d 秒后返回小岛。
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	现在这里没有人拥有完整版游戏：你回到了试玩版，小岛，%d 级。
 Your mother's papers, under a crowned seal	你母亲的文件，盖着王冠封印
 An order for her papers and her child's name, signed with a hand pressed in ash	一份索要她的文件和她孩子名字的命令，签名是用一只按在灰烬里的手印
 A miniature from where only a cat could go: a crowned man, a baby in his arms	一幅只有猫才能去到的地方的小画像：一个戴王冠的男人，怀里抱着一个婴儿
@@ -8438,7 +8438,7 @@ Shop signs	商店招牌
 Every shop has a sign by its door with a picture of what it sells.	每家商店门边都有一块招牌，上面画着它卖的东西。
 Dropping things	丢弃物品
 Your homestead	你的家园
-The settler by Ashford's homestone gives you an Access Crystal for a little building work. Touch a homestone (by every shardstone) to go home, or to visit a friend's. At home its homestone says who may visit: only you, friends, or anyone.	Ashford 家园石旁的定居者会在你完成一点建造工作后给你一颗通行水晶。触摸家园石（每块碎片石旁都有）即可回家，或拜访好友的家园。在家时，家园石决定谁可以来访：只有你、好友，或任何人。
+The settler by Puddleford's homestone gives you an Access Crystal for a little building work. Touch a homestone (by every shardstone) to go home, or to visit a friend's. At home its homestone says who may visit: only you, friends, or anyone.	Puddleford 家园石旁的定居者会在你完成一点建造工作后给你一颗通行水晶。触摸家园石（每块碎片石旁都有）即可回家，或拜访好友的家园。在家时，家园石决定谁可以来访：只有你、好友，或任何人。
 Arrows or W A S D	方向键或 W A S D
 Walk (two at once walks diagonally).	行走（同时按两个则斜向行走）。
 Talk to the other players (the chat).	与其他玩家交谈（聊天）。
@@ -8582,7 +8582,7 @@ not begun	未开始
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	完整版游戏只需在开始界面为你的 Hallisium 账号购买一次：之后在应用和浏览器中
 in the app and in a browser too, and your character keeps everything they've done.	都属于你，你的角色也会保留他们做过的一切。
 The demo	试玩版
-That's as far as the demo goes: the full game goes on from here, past the Isle to the	试玩版就到这里为止：完整版游戏将从这里继续，越过小岛前往
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	试玩版就到这里为止：完整版游戏将从这里继续，越过小岛前往
 mainland, its towns and the rest of the story.	大陆、它的城镇，以及故事的其余部分。
 That's level {1}, as far as the demo goes. What you learn from here is kept,	这是 {1} 级，试玩版的上限。从现在起你学到的东西都会被保留，
 and counts as soon as you have the full game.	一旦你拥有完整版游戏就会生效。
@@ -8614,7 +8614,7 @@ Bring a character from a file	从文件带入角色
 Signed in as {1}	已登录为 {1}
 Playing without a Hallisium account: your characters here are this device's.	不使用 Hallisium 账号游玩：你在这里的角色属于此设备。
 Play as {1}	以 {1} 游玩
-Level {1} · Demo: the Isle, level {2}	{1} 级 · 试玩版：小岛，{2} 级
+Level {1} · Demo: Muddlesey, level {2}	{1} 级 · 试玩版：小岛，{2} 级
 Level {1}	{1} 级
 Copy to device	复制到设备
 Copy {1} to your own device. The copy can't come back to this server.	把 {1} 复制到你自己的设备上。副本无法回到此服务器。
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	你的{1}等级现在是 {2}！
 Online {1}/{2}: {3}	在线 {1}/{2}：{3}
 PvP here	此处可 PvP
 Safe here	此处安全
-Demo: the Isle, level {1}	试玩版：小岛，{1} 级
-Friend Pass: back to the Isle in {1}s	好友通行证：{1} 秒后返回小岛
+Demo: Muddlesey, level {1}	试玩版：小岛，{1} 级
+Friend Pass: back to Muddlesey in {1}s	好友通行证：{1} 秒后返回小岛
 Friend Pass: {1}'s game	好友通行证：{1} 的游戏
 Friend Pass	好友通行证
 ARENA - other players can fight you here	竞技场 - 其他玩家可以在这里与你战斗
@@ -8945,8 +8945,8 @@ no fog (see everything round you)	没有迷雾（能看到你周围的一切）
 Save skills	保存技能
 Rewards	奖励
 The end of the demo	试玩版的结尾
-Wim looks your papers over and nods you aboard. Across the strait, Northport's roofs catch the light.	Wim 看了看你的文件，点头让你上船。海峡对岸，Northport 的屋顶映着阳光。
-What the Isle gave you	小岛给了你什么
+Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	Wim 看了看你的文件，点头让你上船。海峡对岸，Drizzleport 的屋顶映着阳光。
+What Muddlesey gave you	小岛给了你什么
 What's left to ask	还剩下什么要问
 Until then	在那之前
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	请先勾选同�
 The browser wouldn't go full screen.	浏览器无法进入全屏。
 What every game you join starts with. A game's own Options change them there.	你加入的每个游戏都以此为初始设置。各游戏自己的选项可以在游戏中更改它们。
 The full game: yours ({1}).	完整版游戏：已属于你（{1}）。
-The demo: the Isle, up to level {1}.	试玩版：小岛，最高 {1} 级。
+The demo: Muddlesey, up to level {1}.	试玩版：小岛，最高 {1} 级。
 Waiting for you to confirm {1}: the link's in that inbox.	等待你确认 {1}：链接在那个收件箱里。
 Until then a code goes to {1}.	在此之前，验证码会发送到 {1}。
 You can join games once it's confirmed.	确认之后你就可以加入游戏了。
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	正在询问 Steam...
 Shards of Ashen is bought once,	《Shards of Ashen》只需购买一次，
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	可在 Steam、itch.io 或 Epic 购买，并从那里游玩：请从 Steam 启动，并登录购买它的账号。
-The demo: the Isle, up to level {1}. The full game goes on to the mainland and the rest of the story.	试玩版：小岛，最高 {1} 级。完整版游戏将继续前往大陆，以及故事的其余部分。
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	试玩版：小岛，最高 {1} 级。完整版游戏将继续前往大陆，以及故事的其余部分。
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	只需为你的 Hallisium 账号购买一次：之后在任何地方都属于你，包括安卓应用。
 Buy it with your account's email, then come back here.	请用你账号的邮箱购买，然后回到这里。
 Log in first, to have it on your account.	请先登录，才能将其绑定到你的账号。

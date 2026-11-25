@@ -1,16 +1,16 @@
-"""Town life: the market boards, the vendors at Ashford's stalls, the tavern (its games), digging, and monster waves.
+"""Town life: the market boards, the vendors at Puddleford's stalls, the tavern (its games), digging, and monster waves.
 Run it again after rebuilding the world: it makes what's missing and leaves the rest as it is.
 
   python -I "dev\\migrate\\build_town_life.py"
 
   * Market boards (Market_Board, dsengine/market.py): the global marketplace. Anyone lists things from their pack at
-    their own price, and everyone sees everyone's listings at any board: in Ashford's market and by every shardstone.
-  * The stalls by Ashford's south road are the vendors' now (decoration): a trader behind each, with a shop.
-  * The Green Dragon, Ashford's beer garden (behind the houses, north): the innkeeper (Id=Innkeeper: Three Cups, High
+    their own price, and everyone sees everyone's listings at any board: in Puddleford's market and by every shardstone.
+  * The stalls by Puddleford's south road are the vendors' now (decoration): a trader behind each, with a shop.
+  * The Green Dragon, Puddleford's beer garden (behind the houses, north): the innkeeper (Id=Innkeeper: Three Cups, High
     or Low, ale) and dice tables (Dice_Table: a round of Dragon Dice for everyone at the table). dsengine/tavern.py.
   * Digging (dsengine/digging.py, data\\Digging.ini): a spade digs anywhere on open ground, with a small chance of
     finding something. It leaves a hole that grasses over.
-  * Monster waves (dsengine/waves.py, data\\Waves.ini): attacks of several waves at once. A goblin raid on Ashford
+  * Monster waves (dsengine/waves.py, data\\Waves.ini): attacks of several waves at once. A goblin raid on Puddleford
     now and then (when enough players are about), and the farmer's goblins (a quest-style one, started by a script:
     Start.Wave Farm_Raid).
 """
@@ -35,9 +35,9 @@ DATA = os.path.join(ROOT, "data")
 ENTS = os.path.join(ROOT, "sprites", "Entities")
 TILES = os.path.join(ROOT, "sprites", "Tiles")
 XT, YT = 25, 21
-ASHFORD = "2,3,0"
-TOWNS = {"2,3,0": "Ashford", "4,8,0": "Highwatch", "1,10,0": "Dunerest", "7,6,0": "Thornwick", "7,4,0": "Emberwatch"}
-TAVERN_ROW = 5                                  # Ashford: the open strip behind the houses
+PUDDLEFORD = "2,3,0"
+TOWNS = {"2,3,0": "Puddleford", "4,8,0": "Squintwatch", "1,10,0": "Dunerest", "7,6,0": "Nettlewick", "7,4,0": "Emberwatch"}
+TAVERN_ROW = 5                                  # Puddleford: the open strip behind the houses
 VENDORS = [   # (NPC sprite, shop, name, what they say, [(item, stock)])
     ("Villager", "SHOP-Market_Greengrocer", "Greengrocer", "Fresh from the farms! Cabbages, potatoes, onions, berries.",
      [("Cabbage", 20), ("Potato", 20), ("Onion", 20), ("Carrot", 15), ("Berries", 15)]),
@@ -198,10 +198,10 @@ def write_data():
         write_section(racks, rack, items)
     write_section(racks, "SHOP-Tavern", {"Type": "Shop", "Buy.Rate": "1.0", "Sell.Rate": "0.5", "Specific": "1",
                                          "Item1": "Ale,30", "Item2": "Bread,10", "Item3": "Meat_Pie,6"})
-    shop = dict(ini.section("SHOP-Ashford", racks))
+    shop = dict(ini.section("SHOP-Puddleford", racks))
     if not any(v.split(",")[0] == "Spade" for k, v in shop.items() if k.startswith("Item")):
         n = sum(1 for k in shop if k.startswith("Item")) + 1
-        ini.write("SHOP-Ashford", "Item%d" % n, "Spade,5", racks)
+        ini.write("SHOP-Puddleford", "Item%d" % n, "Spade,5", racks)
     dig = os.path.join(DATA, "Digging.ini")
     if not os.path.exists(dig):
         finds = [("Gold_Coin(s)", "1-8", 40), ("Stone", "1", 14), ("Bones", "1", 10), ("Iron_Ore", "1", 7),
@@ -230,12 +230,12 @@ def write_data():
             "; Gold.Per.Kill: for each raider killed, to whoever killed it. Reward.Gold / Reward.Items: for everyone who",
             ";   held out to the end (Items: \"Super_Potion 1 Ale 2\"). Reward.XP: Attack and Defence experience.",
             "; On.Win.Script / On.Lose.Script: a script run for each defender at the end (a quest's next step).",
-            "", "[Ashford_Raid]", "Name=Goblin raid on Ashford", "Map=2,3,0", "Centre=Ashford_Market",
+            "", "[Puddleford_Raid]", "Name=Goblin raid on Puddleford", "Map=2,3,0", "Centre=Puddleford_Market",
             "Waves=Goblin*3;Goblin*4,Goblin_Archer*1;Hobgoblin*2,Goblin*3,Goblin_Shaman*1", "Gap=12", "Minutes=8",
             "Random.Every=120", "Random.Players=2", "Gold.Per.Kill=4", "Reward.Gold=60", "Reward.Items=Super_Potion 1",
             "Reward.XP=1",
-            "Start.Message=A horn sounds from the woods: goblins are attacking Ashford! Defend the market square!",
-            "Win.Message=The goblins flee into the trees. Ashford is safe - thanks to its defenders!",
+            "Start.Message=A horn sounds from the woods: goblins are attacking Puddleford! Defend the market square!",
+            "Win.Message=The goblins flee into the trees. Puddleford is safe - thanks to its defenders!",
             "Lose.Message=The goblins loot what they can and slip away into the woods.", "",
             "[Farm_Raid]", "Name=Goblins at the farm", "Map=3,3,0", "Centre=Farmlands_Crossroads",
             "Waves=Goblin*2;Goblin*3;Goblin*2,Goblin_Archer*2", "Gap=10", "Minutes=6", "Random.Every=0",
@@ -261,7 +261,7 @@ def write_scripts():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import story_kit as K
     if K.new_mainland():
-        return                                         # (Northport's old vendors: the new markets have their own)
+        return                                         # (Drizzleport's old vendors: the new markets have their own)
     for n, (sprite, rack, name, words, stock) in enumerate(VENDORS, 1):
         write_script("Talk to Market_Vendor_%d" % n, [
             "01\tDisplay.Conversation\t%s\t%s\\Want to sell your own things? Use the market board: everyone's goods, "
@@ -333,9 +333,9 @@ def taken_spots(lines):
 
 
 def stalls_to_vendors():
-    lines = map_lines(ASHFORD)
+    lines = map_lines(PUDDLEFORD)
     if any("Id=Market_Vendor_" in ln for ln in lines[YT:]):
-        print("Ashford's stalls have their vendors already")
+        print("Puddleford's stalls have their vendors already")
         return
     out, n = lines[:YT], 0
     for ln in lines[YT:]:
@@ -349,8 +349,8 @@ def stalls_to_vendors():
                            (sprite, int(float(p[2])), int(float(p[3])) + 4, n))
             continue
         out.append(ln)
-    write_map(ASHFORD, out)
-    print("Ashford's stalls: %d vendors behind them" % n)
+    write_map(PUDDLEFORD, out)
+    print("Puddleford's stalls: %d vendors behind them" % n)
 
 
 def place_near(lines, px, py, avoid, rings=4, row=None):
@@ -373,7 +373,7 @@ def place_boards():
         if any(ln.split("\t")[:2] == ["StaticObject", "Market_Board"] for ln in lines[YT:]):
             continue
         anchor = next((ln.split("\t") for ln in lines[YT:] if ln.split("\t")[:2] == ["StaticObject", "Shardstone"]), None)
-        if name == ASHFORD:                                     # (Ashford's: at the market, by its sign)
+        if name == PUDDLEFORD:                                     # (Puddleford's: at the market, by its sign)
             anchor = next((ln.split("\t") for ln in lines[YT:] if ln.split("\t")[:2] == ["StaticObject", "Sign_Market"]),
                           anchor)
         if anchor is None:
@@ -389,14 +389,14 @@ def place_boards():
 
 
 def place_tavern():
-    lines = map_lines(ASHFORD)
+    lines = map_lines(PUDDLEFORD)
     if any("Id=Innkeeper" in ln for ln in lines[YT:]):
-        print("Ashford has its tavern already")
+        print("Puddleford has its tavern already")
         return
     taken = taken_spots(lines)
     row = [x for x in range(3, XT - 1) if clear(lines, x, TAVERN_ROW, taken) and clear(lines, x, TAVERN_ROW + 1, taken)]
     if len(row) < 8:
-        print("WARNING - no room for the tavern in Ashford")
+        print("WARNING - no room for the tavern in Puddleford")
         return
     mid = row[len(row) // 2]
     keeper = min(row, key=lambda x: abs(x - mid))
@@ -416,8 +416,8 @@ def place_tavern():
     if sign is not None:
         lines.append("StaticObject\tSign_Tavern\t%d\t%d" % ((sign - 1) * 32, (TAVERN_ROW - 1) * 32 - 16))
     lines.append("Id\tThe_Green_Dragon\t%d\t%d" % (keeper, TAVERN_ROW + 1))
-    write_map(ASHFORD, lines)
-    print("Ashford: the Green Dragon (innkeeper at %d, dice tables at %s)" % (keeper, tables))
+    write_map(PUDDLEFORD, lines)
+    print("Puddleford: the Green Dragon (innkeeper at %d, dice tables at %s)" % (keeper, tables))
 
 
 def make_tavern_sign():

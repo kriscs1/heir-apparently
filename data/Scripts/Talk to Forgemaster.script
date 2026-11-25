@@ -13,7 +13,7 @@
 12	Take.Item	Coal	5
 13	Update.Attribute	ForgeQuest	=2
 14	Quest.Note.Done	ForgeQuest	Bring Brann 5 coal (mine coal rocks, Mining 5, or buy some).
-15	Quest.Note	ForgeQuest	The Frost Troll is on the frozen lake east of Frosthold.
+15	Quest.Note	ForgeQuest	The Frost Troll is on the frozen lake east of Chillingham.
 16	Display.Conversation	Forgemaster	Coal! Now, the trouble: a Frost Troll smashed my waterwheel and lairs on the frozen lake east of town. Slay it.	I'll slay it.	38
 17	End
 18	Display.Conversation	Forgemaster	Five coal. Mine it in the hills, or buy it from the trader.	I'll get it.	38

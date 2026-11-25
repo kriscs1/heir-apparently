@@ -11,7 +11,7 @@ zone's level band, so a player goes on from one to the next as they grow.
 
 Each has its own monsters (the base's pictures, recoloured), the high-level rocks (Mithril and Gem, which don't lie anywhere
 else above ground now), ruins or a camp to explore, a chest, and quests. Out in the open mainland: camps to train at by how far
-from Northport they are, farms, mines, fishing places and old keeps. Run once (a second run finds it done and stops).
+from Drizzleport they are, farms, mines, fishing places and old keeps. Run once (a second run finds it done and stops).
 
   python -I "dev\\migrate\\build_zones.py"    (then build_minimaps.py, export_web_assets.py, validate.py)
 """
@@ -556,7 +556,7 @@ def gates(world, taken):
 
 
 # ----- what fills the open mainland
-BANDS = [   # (how far from Northport, in maps: what's camped there)
+BANDS = [   # (how far from Drizzleport, in maps: what's camped there)
     (8, ["Goblin", "Goblin_Archer", "Hobgoblin"]),
     (14, ["Wolf", "Hobgoblin", "Goblin_Shaman", "Skeleton_Archer"]),
     (20, ["Bandit", "Skeleton", "Bear", "Smuggler"]),

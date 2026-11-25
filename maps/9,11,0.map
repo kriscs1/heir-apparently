@@ -20,11 +20,11 @@ Gravel001:Gravel001:Grass001+Decor(Wood_Fence001):Grass001+Decor(Wood_Fence001):
 Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001:Grass001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Grass001+Decor(Tree001):Forest001
 Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Grass001+Decor(Tree002):Grass001+Decor(Tree002)
 StaticObject	Dice_Table	256	128	Id=Dice_Table_9_11_0_01
-NPC	Barkeep	160	88	Attitude=Good Stand=1 Face=S Id=Oakhollow_Barkeep_319 Name=Rosie
-NPC	Barmaid	224	152	Attitude=Good Zone=4,6,9,6 Pause=3-9 Id=Oakhollow_Barmaid_320 Name=Alice
-StaticObject	Notice	384	450	Id=Oakhollow_Notice_307
+NPC	Barkeep	160	88	Attitude=Good Stand=1 Face=S Id=Acornby_Barkeep_319 Name=Rosie
+NPC	Barmaid	224	152	Attitude=Good Zone=4,6,9,6 Pause=3-9 Id=Acornby_Barmaid_320 Name=Alice
+StaticObject	Notice	384	450	Id=Acornby_Notice_307
 StaticObject	Sign_Pub	128	208
 StaticObject	Valuables	192	56
 NPC	Settler	0	285	Attitude=Good Zone=1,8,4,12 Pause=4-12
-Lock	4	15	$Standing.Oakhollow>=45	The old forester's door. Oakhollow keeps it for those it trusts.
-StaticObject	Chest	160	384	Lock=0 Id=Trusted_Chest_Oakhollow
+Lock	4	15	$Standing.Acornby>=45	The old forester's door. Acornby keeps it for those it trusts.
+StaticObject	Chest	160	384	Lock=0 Id=Trusted_Chest_Acornby

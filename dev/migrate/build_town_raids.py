@@ -1,7 +1,7 @@
-"""A surprise raid for every town, not only Ashford (the owner's wish): data\\Waves.ini gets a [<Town>_Raid] for each
+"""A surprise raid for every town, not only Puddleford (the owner's wish): data\\Waves.ini gets a [<Town>_Raid] for each
 of the world map's towns that has none, its raiders fitting its land - goblins in the meadows, wolves and spiders in
-the woods, scorpions in the desert, snow wolves round Frosthold, ember hounds and cultists at Emberwatch,
-hobgoblins at the Keep, bandits and smugglers off the sea at Northport. Like Ashford's, each comes now and then
+the woods, scorpions in the desert, snow wolves round Chillingham, ember hounds and cultists at Emberwatch,
+hobgoblins at the Keep, bandits and smugglers off the sea at Drizzleport. Like Puddleford's, each comes now and then
 (Random.Every) while someone's there to meet it (dsengine/waves.py).
 
 Safe to run again (a raid that's there is kept as it is: edit the numbers in Waves.ini).
@@ -19,7 +19,7 @@ import world_edit as W                                   # noqa: E402
 ROOT = W.ROOT
 WAVES = os.path.join(ROOT, "data", "Waves.ini")
 WORLDMAP = os.path.join(ROOT, "data", "WorldMap.ini")
-SKIP = ("Ashford", "Galaith", "Isle Village")            # (Ashford has its own; Galaith's the dragon's; the Isle's
+SKIP = ("Puddleford", "Galaith", "Isle Village")            # (Puddleford has its own; Galaith's the dragon's; Muddlesey's
                                                          # where you learn)
 RAIDERS = {   # land: (who, the raid's name, the waves)
     "meadow": ("Goblins", "Goblin", "Goblin*3;Goblin*4,Goblin_Archer*1;Hobgoblin*2,Goblin*3,Goblin_Shaman*1"),
@@ -31,8 +31,8 @@ RAIDERS = {   # land: (who, the raid's name, the waves)
     "keep": ("Hobgoblins", "Hobgoblin", "Hobgoblin*3;Hobgoblin*4,Goblin_Archer*2;Hobgoblin*4,Goblin_Shaman*2"),
     "sea": ("Raiders off the sea", "Sea", "Bandit*3;Bandit*3,Smuggler*2;Bandit*4,Smuggler*2"),
 }
-OWN = {"King Rupert's Keep": "keep", "Northport": "sea", "Oakhollow": "wood", "Wildwood": "wood",
-       "Thornwick": "wood"}
+OWN = {"King Rupert's Keep": "keep", "Drizzleport": "sea", "Acornby": "wood", "Wildwood": "wood",
+       "Nettlewick": "wood"}
 
 
 def towns():

@@ -6,7 +6,7 @@ missing and leaves the rest as it is.
 
   * Homestones: obelisks like the shardstones, one beside each town's shardstone and one on every home. Touch one to go
     home (with an Access Crystal), to visit other players' homes they've opened, or (at home) to say who may visit.
-  * The quest "A Place of Your Own": the settler by Ashford's homestone (Id=Homestead_Settler) wants planks and stone
+  * The quest "A Place of Your Own": the settler by Puddleford's homestone (Id=Homestead_Settler) wants planks and stone
     blocks, and gives you the Access Crystal. After it she sells Homestead Scrolls (Magic 12: home from anywhere) and
     her carpenter's bench (CRAFT-Construction) is free to use.
   * The Homesteading skill (Config [Skills]), its materials (Plank, Nails, Stone, Stone_Block: rocks can be mined for
@@ -31,7 +31,7 @@ from ashen import ini  # noqa: E402
 DATA = os.path.join(ROOT, "data")
 ENTS = os.path.join(ROOT, "sprites", "Entities")
 XT, YT = 25, 21
-TOWNS = {"2,3,0": "Ashford", "4,8,0": "Highwatch", "1,10,0": "Dunerest", "7,6,0": "Thornwick", "7,4,0": "Emberwatch"}
+TOWNS = {"2,3,0": "Puddleford", "4,8,0": "Squintwatch", "1,10,0": "Dunerest", "7,6,0": "Nettlewick", "7,4,0": "Emberwatch"}
 SETTLER_TOWN = "2,3,0"
 ARRIVAL = (13, 18)              # home: the tile you arrive on, and (next to it) the homestone and a carpenter's bench
 HOME_STONE = (12, 18)
@@ -508,7 +508,7 @@ def write_quest():
     path = os.path.join(DATA, "Quests.ini")
     if write_section(path, "A Place of Your Own", {
             "Giver": "Settler", "Attribute": "HomeQuest",
-            "Stage0": "Speak to the settler by the homestone in Ashford.",
+            "Stage0": "Speak to the settler by the homestone in Puddleford.",
             "Stage1": "Bring the settler 10 planks and 4 stone blocks. Make them at her carpenter's bench: planks from "
                       "logs, blocks from stone you mine from rocks with a pickaxe.",
             "Done": "2", "Marker1": "Homestead_Yard", "Requires.Quests": "Passage to the Mainland"}):

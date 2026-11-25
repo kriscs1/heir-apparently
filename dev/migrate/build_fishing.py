@@ -2,7 +2,7 @@
 water where the fish gather (Entities.ini Anim.Frames: the game cycles <Name>1-4). Each spot is one kind of fish,
 and the better fish are in harder places:
 
-  * Fish_Spot       ripples                  Raw_Herring       Fishing 1    the sea round the Isle and the Southlands
+  * Fish_Spot       ripples                  Raw_Herring       Fishing 1    the sea round Muddlesey and the Southlands
   * Trout_Spot      ripples and a flick      Raw_Trout      Fishing 10   the Southlands' rivers and ponds, some in the Wildlands
   * Salmon_Spot     a salmon leaping         Raw_Salmon     Fishing 20   rivers and lakes of the Wildlands and the far lands
   * Swordfish_Spot  a fin cutting the water  Raw_Swordfish  Fishing 35   the sea off the far south and the Eastreach
@@ -205,7 +205,7 @@ def data():
     for spot, (fish, level, _, examine, _) in SPOTS.items():
         C.ENTITIES[spot] = [("Type", "StaticObject"), ("Use.Words", "Fish"), ("Examine.Info", examine),
                             ("Solid", "0"), ("Anim.Frames", str(FRAMES)), ("Anim.Speed", "220")]
-    wheres = {"Raw_Herring": "Fish spots (ripples) in the sea round the Isle and the Southlands",
+    wheres = {"Raw_Herring": "Fish spots (ripples) in the sea round Muddlesey and the Southlands",
               "Raw_Trout": "Trout spots on the Southlands' rivers and ponds, and some in the Wildlands",
               "Raw_Salmon": "Salmon spots on the rivers and lakes of the Wildlands and the far lands",
               "Raw_Swordfish": "Swordfish spots in the sea off the far south and the Eastreach",
@@ -228,7 +228,7 @@ ROADS = {"Dirt001", "Paving001", "Plank001"}
 def tier(name):
     x, y, z = (int(v) for v in name.split(","))
     if x <= 3 and y <= 4:
-        return 1                                     # the Isle and the Southlands
+        return 1                                     # Muddlesey and the Southlands
     if R is not None and R.MX0 <= x <= R.MX1 and R.MY0 <= y <= R.MY1:
         return 2 if y <= 7 else 3                    # the Wildlands: the north, then the far south
     if x >= 6:

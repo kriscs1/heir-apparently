@@ -1,4 +1,4 @@
-"""The Isle's sheep and their shepherd (Id=Isle_Shepherd) leave the dairy's yard (2,0,0) for the meadow at the west
+"""Muddlesey's sheep and their shepherd (Id=Isle_Shepherd) leave the dairy's yard (2,0,0) for the meadow at the west
 of the village (1,1,0), left of the store. A second run does nothing.
 
   python -I "dev\\migrate\\move_isle_flock.py"

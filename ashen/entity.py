@@ -142,7 +142,7 @@ class Entity:
         self.hostile = False
         self.once = False  # a one-time item (Once=1): picked up, it never comes back
         self.npc_id = ""  # Id= on its map line (an NPC, item or object): scripts "<Verb> <Id>" come first (Read
-        #                   Ashford, Pickup CellarKey, Kill OldHob); for an NPC it's also who Set.NPC.Attitude means
+        #                   Puddleford, Pickup CellarKey, Kill OldHob); for an NPC it's also who Set.NPC.Attitude means
 
     def __repr__(self):
         return "<%s %s %d>" % (TYPE_NAMES.get(self.type, "?"), self.name, self.uid)

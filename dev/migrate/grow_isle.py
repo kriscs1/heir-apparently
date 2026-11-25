@@ -1,4 +1,4 @@
-"""The Isle twice as big, grown north (the owner's wish): its north coast just as it was, three maps further north, and
+"""Muddlesey twice as big, grown north (the owner's wish): its north coast just as it was, three maps further north, and
 new land filling the middle; the hobgoblins' camp moved to its north-west corner and the ring of standing stones to its
 south-east; new places in the new land.
 
@@ -8,16 +8,16 @@ south-east; new places in the new land.
     wood; nothing built on it moves, so no story's coordinates change.
   * The new land: Hollow Wood in the west (wolves, mushrooms, a hollow stump to Search), meadow in the middle with
     Mirror Tarn (fish, ducks, frogs, reeds), the Tin Braes in the east (hills with copper and tin to mine), and the Old
-    Beacon, a ruined beacon on the north headland (its hearth to Search). Paths join them to the Isle's roads.
+    Beacon, a ruined beacon on the north headland (its hearth to Search). Paths join them to Muddlesey's roads.
   * The hobgoblins' camp (palisade, tents, fire, chest, its two hobgoblins) is lifted whole to the north-west corner.
     Their bolt-hole tent stays where it was, over their lair (2,2,-2): the hidden ladder still comes up in it, as
     ladders line up with what's over them. The camp's chest is Hob_Camp_Chest (its own script, the same attribute).
     (move_lawyers_house.py put the camp back, and Edwin and Maren's house in the corner instead.)
   * The standing stones and their chest (Stone_Circle_Chest, the same attribute) to the south-east shore; the Hermit and
     the villager who talk of them say where.
-  * The new maps on the Isle's lists: easy locks (Locks.ini), music and ambience, the world map's labels.
+  * The new maps on Muddlesey's lists: easy locks (Locks.ini), music and ambience, the world map's labels.
 
-Run it once (a second run finds the Isle grown and stops).
+Run it once (a second run finds Muddlesey grown and stops).
 
   python -I "dev\\migrate\\grow_isle.py"
 """
@@ -39,7 +39,7 @@ DONE = os.path.join(HERE, ".isle_grown")
 MAKER = "grow_isle.py"
 SHIFT = 56                                              # (the north coast moves this many cells north)
 CAP = 17                                                # (the old rows above this are the north coast's shape)
-GX1, GX2 = 0, 124                                       # (the Isle's maps, 0..4)
+GX1, GX2 = 0, 124                                       # (Muddlesey's maps, 0..4)
 NEW = (0, -3, 4, -1)                                    # (the new maps)
 TOP = -3 * YT
 CAMP = (56, 43, 68, 54)                                 # (the camp, its gate's path too)
@@ -307,7 +307,7 @@ def move_stones(w, made):
 
 
 def paths(w, ends):
-    """Paths from each new place to the Isle's roads."""
+    """Paths from each new place to Muddlesey's roads."""
     net = {(gx, gy) for gx in range(GX1, GX2 + 1) for gy in range(0, 3 * YT)
            if w.cell(gx, gy) is not None and W.is_road(w.cell(gx, gy))}
     return W.join_roads(w, ends, network=net)
@@ -380,7 +380,7 @@ def lists(w):
         W.write(path, s)
     path = os.path.join(DATA, "WorldMap.ini")
     s = W.read(path)
-    s = s.replace("The Isle=2,1,0 3 4\r\n", "The Isle=2,-1,0 13 12\r\n")
+    s = s.replace("Muddlesey=2,1,0 3 4\r\n", "Muddlesey=2,-1,0 13 12\r\n")
     W.write(path, s)
     for label, pid in (("Mirror Tarn", "Mirror_Tarn"), ("Hollow Wood", "Hollow_Wood"), ("The Tin Braes", "Tin_Braes"),
                        ("The Old Beacon", "Old_Beacon"), ("The Standing Stones", "Standing_Stones")):
@@ -389,7 +389,7 @@ def lists(w):
 
 def main():
     if os.path.exists(DONE):
-        print("The Isle's grown already (delete %s to do it again)." % DONE)
+        print("Muddlesey's grown already (delete %s to do it again)." % DONE)
         return
     w = W.World(0)
     made = grow(w)
@@ -402,7 +402,7 @@ def main():
     changed = w.save()
     scripts()
     lists(w)
-    print("The Isle: %d cells of new land, the camp to %s, the stones to %s, %d paths, %d maps changed" %
+    print("Muddlesey: %d cells of new land, the camp to %s, the stones to %s, %d paths, %d maps changed" %
           (len(made), camp, stones, n, changed))
     open(DONE, "w").write("grown\n")
 

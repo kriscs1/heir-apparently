@@ -39,8 +39,8 @@ MAKER = "build_shards.py"
 
 SHARDS = [   # Shards.ini [Shards]
     ("Start", "12"), ("Old.Save.Grant", "20"), ("Cast.Gap", "0.8"),
-    ("Shardstone", "5"), ("Shardstone.Wardhaven", "10"), ("Shardstone.Emberwatch", "10"), ("Shardstone.Frosthold", "10"),
-    ("Shardstone.Dunerest", "10"), ("Shardstone.Saltmarsh", "10"), ("Shardstone.Galaith", "20"), ("Shardstone.Travel", "2"),
+    ("Shardstone", "5"), ("Shardstone.Sulkhaven", "10"), ("Shardstone.Emberwatch", "10"), ("Shardstone.Chillingham", "10"),
+    ("Shardstone.Dunerest", "10"), ("Shardstone.Brinebottom", "10"), ("Shardstone.Galaith", "20"), ("Shardstone.Travel", "2"),
     ("Chest.Chance", "40"), ("Chest", "3-15"),
 ]
 SHARDS_NOTE = ["; Start: a new character's Shards. Old.Save.Grant: given once to a character from before Shards.",
@@ -99,13 +99,13 @@ QUEST_XP = {   # Quests.ini Reward.XP: skill xp for finishing (as a script's Upd
     # scripts give none of their own
     "Dinner at Edwin's": "Cooking 2 Woodcutting 1", "The Amulet of Succession": "Attack 2 Defence 2 Crafting 1",
     "Passage to the Mainland": "Attack 2 Defence 2", "The Temporary Capital": "Channeling 1",
-    "The Ashford Road": "Attack 3 Defence 3", "The Staff of Brambleton": "Channeling 3",
+    "The Puddleford Road": "Attack 3 Defence 3", "The Staff of Brambleton": "Channeling 3",
     "The Sunken Grimoire": "Channeling 4", "The Ember Ring": "Channeling 4 Defence 3", "Bert's Three Treasures": "Channeling 6",
     "A Ship for Dragon Island": "Woodcutting 2 Crafting 2", "The Island of Dragons": "Attack 5 Defence 5",
     "The Sword of Valour": "Attack 6", "The Dragon of Galaith": "Attack 8 Defence 8 Channeling 4",
     "The Royal Guard": "Defence 4", "The True Heir": "Attack 5 Defence 5 Channeling 5",
     "Wolves of the Greyflats": "Attack 3", "Bandits on the Road": "Attack 3 Defence 2",
-    "The Lost Caravan": "Defence 3", "The Wardhaven Bridge": "Homesteading 3", "Granny Wren's Walk": "Defence 1",
+    "The Lost Caravan": "Defence 3", "The Sulkhaven Bridge": "Homesteading 3", "Granny Wren's Walk": "Defence 1",
     "The Shard Scholar": "Channeling 2",
 }
 RARER = "Scrolls.Rarer"          # (Shards.ini [Shards]: set once they've been made rarer, so a second run doesn't again)
@@ -122,7 +122,7 @@ DIG_NOTE = ["; Shards, besides, in a hole dug: Shards.Chance in 100 of Shards=lo
 
 REWARDS = {  # Quests.ini Reward.Shards
     "Dinner at Edwin's": 5, "The Amulet of Succession": 10, "Passage to the Mainland": 15,
-    "The Temporary Capital": 10, "The Ashford Road": 15, "The Steward's Hunt": 20, "Bert's Three Treasures": 40,
+    "The Temporary Capital": 10, "The Puddleford Road": 15, "The Steward's Hunt": 20, "Bert's Three Treasures": 40,
     "The Staff of Brambleton": 15, "The Sunken Grimoire": 20, "The Ember Ring": 25, "A Ship for Dragon Island": 15,
     "The Island of Dragons": 25, "The Sword of Valour": 30, "The Dragon of Galaith": 40, "The Royal Guard": 15,
     "The True Heir": 40,
@@ -130,7 +130,7 @@ REWARDS = {  # Quests.ini Reward.Shards
     "Bog Lights": 15, "Bandits on the Road": 10, "The Lost Caravan": 12, "The Frozen Forge": 12,
     "The Hermit's Fire": 5, "The Withering Wood": 12, "The Barrow King": 25, "Old Hob": 10, "The Lost Patrol": 10,
     "A Place of Your Own": 8, "The Smugglers' Run": 12, "Granny Wren's Walk": 5, "A Portrait of Mo": 5,
-    "The Wardhaven Bridge": 15, "The Dragonforge": 15,
+    "The Sulkhaven Bridge": 15, "The Dragonforge": 15,
 }
 
 QUILL = "Magister_Quill"

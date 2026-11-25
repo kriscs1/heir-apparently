@@ -13,24 +13,24 @@ now on; its Id stays `Galaith_Dragon`) takes the king's firstborn heir, or it ke
 Galaith, the capital, shut behind a magical barrier: the city that holds the only land route across the world, with
 the gold and Shard mines in the mountains behind it. Your mother, **Queen Mary**, ran from Galaith with you as a baby
 to save you and to break the curse. The city has been sealed since your birth; King **Rupert**, your father, is shut
-in it. You grew up poor on the Isle, in the **cottage on its east** (map 4,0,0), with **Jimmy**, a deep orange
+in it. You grew up poor on Muddlesey, in the **cottage on its east** (map 4,0,0), with **Jimmy**, a deep orange
 ginger tabby with a creamy chin (Noops, by Edwin and Maren's house, is a big grey tabby: both drawn from the
 owner's own cats' photos). New characters start with no sword.
 
-The main quest line (`Type=Main` in `data/Quests.ini`, in chapters; the Isle's are built by
+The main quest line (`Type=Main` in `data/Quests.ini`, in chapters; Muddlesey's are built by
 `dev/migrate/build_heir_isle.py`):
 
 1. **The Last Will** (`LastWill`). A new character stands at Mary's fresh grave at the chapel graveyard's east end, by the
    sea (4,1,0's entry script runs `The Funeral`). The mourners walk off, in at the chapel's door (`Walk.Away`); **Edwin** the lawyer walks you home and leaves her letter on the
    table. The cottage door stays locked (a Lock) until you've read it: the letter (`Last_Will`, Read) tells you who
-   you are, and little else: that she hid something, that the Isle kept her secrets, that your father waits in
+   you are, and little else: that she hid something, that Muddlesey kept her secrets, that your father waits in
    Galaith. **The main quest is discovered, not laid out**: no letter or stage text says where a thing is hidden or
    who has a boat; people and places reveal it as you go (the Amulet of Succession's stages say "something of your
    mother's", not "the amulet at the back of the caves").
-2. **Dinner at Edwin's** (`DinnerQuest`). Edwin the lawyer and **Maren**, the Isle's doctor, live in the brick house
-   in the Isle's north-west corner, by the sea (0,-2,0, two storeys; it was the bank, by the chapel, and its place Id
+2. **Dinner at Edwin's** (`DinnerQuest`). Edwin the lawyer and **Maren**, Muddlesey's doctor, live in the brick house
+   in Muddlesey's north-west corner, by the sea (0,-2,0, two storeys; it was the bank, by the chapel, and its place Id
    is still `Isle_Bank`): her surgery and his desk downstairs by day, their rooms upstairs (0,-2,1), going up at
-   night. There's no bank on the Isle. Three logs for her range (with the axe she
+   night. There's no bank on Muddlesey. Three logs for her range (with the axe she
    lends you), an egg from Bess's coop fried on her range, the egg to Edwin. Maren gives the chapel trapdoor's key
    and makes you promise not to go down without a sword and shield.
 3. **The Amulet of Succession** (`AmuletQuest`). **Bess** the milkmaid sends you to Frank before the hobgoblins; her
@@ -39,52 +39,52 @@ The main quest line (`Type=Main` in `data/Quests.ini`, in chapters; the Isle's a
    level 2. The amulet lies behind bars at the back of the caves (1,1,-2); Aldous follows you down with a scroll of
    Grasp, and gives you the key of the hobgoblins' lair door.
 4. **Passage to the Mainland** (`Passage`, done at 5). The ferries run from the start, for everyone, but **Wim**
-   won't carry you without papers: since the raids, Northport turns back anyone off the Isle without them, and Bess's
-   father **Tobias**, who kept the Isle's roll and wrote its papers, is missing; his house (the old brick
+   won't carry you without papers: since the raids, Drizzleport turns back anyone off Muddlesey without them, and Bess's
+   father **Tobias**, who kept Muddlesey's roll and wrote its papers, is missing; his house (the old brick
    house, 1,1,0, "Maren & Bess's Father's Home") is locked. The hobgoblins' lair (2,2,-2) is behind an iron door in the
    caves: four hobgoblins (killed ones come back when someone next comes in), the house key in the corner barrel,
    Tobias in a cage you pick the lock of (he gives you his house and moves in with Maren). A hidden ladder climbs into
    a tent in their palisaded camp (2,2,0): only a tent until you've climbed it from below. In his house a floorboard
    squeaks: stand on it, then Search it: the papers Mary left with him for you, under a crowned seal (what the
-   hobgoblins were after; `Marys_Papers`, `PapersFound`). Wim reads them (and tells you of Northport's shardstone),
+   hobgoblins were after; `Marys_Papers`, `PapersFound`). Wim reads them (and tells you of Drizzleport's shardstone),
    and **the ferries** carry you (`dev/migrate/build_ferry.py`, the owner's wish): two boats, one from each pier, casting off together on the
    bell and passing halfway, turning to the way they go (`Ferry_Boat`, sixteen headings: a route in Carts.ini with its
-   own vehicle, `carts.py`), both tying up at one berth on either side (the Isle's by its pier's stem, Northport's on
+   own vehicle, `carts.py`), both tying up at one berth on either side (Muddlesey's by its pier's stem, Drizzleport's on
    the harbour pier), so the boat you watched go comes back to where it left, and no boat lies moored that never sails; you step aboard, pay a coin,
-   and ride it across. Northport's port guard reads your papers and sends you to the Speaker (The Temporary Capital).
+   and ride it across. Drizzleport's port guard reads your papers and sends you to the Speaker (The Temporary Capital).
 
-**The Isle's secrets** (`dev/migrate/build_isle_secrets.py`; the Isle is the demo, so it shows off the game's tricks
+**Muddlesey's secrets** (`dev/migrate/build_isle_secrets.py`; Muddlesey is the demo, so it shows off the game's tricks
 and ends on a question): the lair barrel also holds **the order in ash** (who wants Mary's papers and her child's
 name; the Ashen Priest's ledger answers it in chapter 11). The camp (2,2,0) has two standing **lookouts** facing
 the gate (`Stand=1 Face=N Turn=`, one `Group=Hob_Camp`): a walker is seen, a sneaker on the east side isn't, and
-**Tobias's Tin** sends you there after Tobias teaches sneaking. **What Jimmy Kept** is the Isle's body swap: Mary's
+**Tobias's Tin** sends you there after Tobias teaches sneaking. **What Jimmy Kept** is Muddlesey's body swap: Mary's
 charm turns you into a cat (`Turn.Into Cat 120`) to talk to Jimmy and squeeze through the gap behind the cottage
-(`Cat_Gap`, 4,0,0). The Grasp at the amulet niche is the Isle's telekinesis.
+(`Cat_Gap`, 4,0,0). The Grasp at the amulet niche is Muddlesey's telekinesis.
 
-**The Isle** is maps 0..4 by -3..2: `dev/migrate/grow_isle.py` grew it north to twice its size (its old north coast's
+**Muddlesey** is maps 0..4 by -3..2: `dev/migrate/grow_isle.py` grew it north to twice its size (its old north coast's
 shape three maps further north, new land between), with Hollow Wood, Mirror Tarn, the Tin Braes and the Old Beacon in
 the new land, and the ring of standing stones by its south-east shore. `move_lawyers_house.py` then put the
 hobgoblins' camp back over their lair and moved Edwin and Maren's house to the north-west corner by whole maps (2,1 to
-0,-2: every tile of it, upstairs and down, where it was on its map). `cut_isle_corner.py` cut away the Isle's
-north-east corner: the coast comes down on the slant from the bay on the north coast to above the cottage, so the Isle
+0,-2: every tile of it, upstairs and down, where it was on its map). `cut_isle_corner.py` cut away Muddlesey's
+north-east corner: the coast comes down on the slant from the bay on the north coast to above the cottage, so Muddlesey
 isn't a box, and the tin that was out there lies nearer the Tin Braes.
 
-**The Isle teaches the game through play**, in what people say and give you, never in signs: Edwin hands over Mary's
+**Muddlesey teaches the game through play**, in what people say and give you, never in signs: Edwin hands over Mary's
 jar of Shards (the bar under your health), Maren gives healing draughts (herbs mend you; Shards can't), Frank gives his
-old dagger to break down for a Shard (Dismantle) and tells how to pick or force a lock (the Isle's chests have the
+old dagger to break down for a Shard (Dismantle) and tells how to pick or force a lock (Muddlesey's chests have the
 easiest), Brother Aldous shows you the Shards a dead beast left (picked up) and the Grasp scroll (learnt for good, cast
-for Shards), and Wim points out Northport's shardstone. Anything new a player
-must learn early is taught the same way, on the Isle.
+for Shards), and Wim points out Drizzleport's shardstone. Anything new a player
+must learn early is taught the same way, on Muddlesey.
 
 On the mainland (built by `dev/migrate/build_estforlan.py`; the quests' scripts by `build_heir_mainland.py`):
-5. **The Temporary Capital** (`ParliamentQuest`): the guard at Northport's port; the **Speaker** in Northport's City
+5. **The Temporary Capital** (`ParliamentQuest`): the guard at Drizzleport's port; the **Speaker** in Drizzleport's City
    Hall, which is Brambleton's Parliament while Galaith is lost. Only **Bert**, the great wizard of the **Wizards'
    Court** (the old King's Castle, 21,5,0; Bert at the top of its tower, 21,5,1), can break the barrier.
-   **Northport is shut** (`dev/migrate/build_northport_blockade.py`, the owner's wish, to keep the start directed): it has only
+   **Drizzleport is shut** (`dev/migrate/build_northport_blockade.py`, the owner's wish, to keep the start directed): it has only
    two roads out, the river bridge east (8,6,0) and the forest road south (2,10,0), each shut by oak gates (`City_Gate001`, a
-   `Lock` on each gate tile, open once `ParliamentQuest>=2`) with a gate guard who says why (`Talk to Northport_<Way>_Gate_Guard`).
+   `Lock` on each gate tile, open once `ParliamentQuest>=2`) with a gate guard who says why (`Talk to Drizzleport_<Way>_Gate_Guard`).
    Visible gates only, never invisible locks. Leaving only: nothing inside changes.
-6. **The Ashford Road** (`AshfordQuest`): the **Mayor** in Ashford's Town Hall; the goblins' raid on the farms.
+6. **The Puddleford Road** (`PuddlefordQuest`): the **Mayor** in Puddleford's Town Hall; the goblins' raid on the farms.
 7. **The Steward's Hunt** (`HobgoblinQuest`): the **King's Steward** at **King Rupert's Keep** (the old Tyron's Keep;
    King Tyron is gone from the game), five hobgoblins in the old iron mine.
 8. **Bert's Three Treasures** (`BertQuest`): 9. **The Staff of Brambleton** (the King's solar, 26,18,1, up a locked
@@ -131,7 +131,7 @@ On the mainland (built by `dev/migrate/build_estforlan.py`; the quests' scripts 
    Parliament), the Royal Archivist (its City Hall) with the amulet, back to the Chancellor, the warrant to the
    captain.
 24. **The True Heir** (`KingQuest`): King Rupert on his throne; the amulet, the will, the crown. Open play after;
-   **Jimmy** sleeps on the throne and in your house on the Isle, and the mine behind Galaith opens: at its far wall
+   **Jimmy** sleeps on the throne and in your house on Muddlesey, and the mine behind Galaith opens: at its far wall
    the **King's Shard Seam** gives the Crown Shards once a (real) day (`dev/migrate/build_kings_seam.py`).
 
 **The secret under it all: the Cutting** (the owner's choice; replaces the Heart of Ashen; `dev/Story and Quests.md`
@@ -159,12 +159,12 @@ Shards to feed the dragon through the wall. Its people believed what the Shards 
 wound and want the scraps whole again, and their aim is the first cut, the King's Seam. Always "the Mending" and "of
 the Mending" (an Acolyte of the Mending), never a one-word name for its people; townsfolk say "the Mending folk" or
 "them in grey". No joining it: the robe is a disguise only, and the Tithe the temptation. Its hall is under
-Shardglass Field, its end in Wardhaven. The great Shard speaks to the heir as Mary: a lie, and the player knows it.
+Shardglass Field, its end in Sulkhaven. The great Shard speaks to the heir as Mary: a lie, and the player knows it.
 Kept gentle, like the Glass Wardens. Five quests (Cold Fire, The Kind Stranger, In Grey, The Tithe, The Eldest of the
 Mending, all made by `dev/migrate/build_mending.py`), with three choices that each player keeps (Annis home or left,
 the secret told or kept, the great Shard broken or a splinter kept). Round them: one of the Mending on the road, the
 townsfolk's talk, a raid on the mine behind Galaith after The True Heir (till the Seam's unmade), the hall emptier
-after Unmake, and penitents in Wardhaven's chapel once the great Shard's broken. One of the Mending calls the player
+after Unmake, and penitents in Sulkhaven's chapel once the great Shard's broken. One of the Mending calls the player
 `$Player.Brother` (Sister for a woman).
 
 The old chapters (The Ashen Hand, The Ashen Omens, The Dragon of Ashpeak and its lair 0,0,-9) and the side quest
@@ -192,7 +192,7 @@ that isn't in the game.
 - **Chests are per player**: everyone finds a chest's loot, once each. A chest script tracks its loot with an
   attribute, never with shared state.
 - The world keeps running while everyone is logged out.
-- **The demo's border is each player's own** (`dsengine/demo.py`): a demo player is held at the Isle's edge (a step
+- **The demo's border is each player's own** (`dsengine/demo.py`): a demo player is held at Muddlesey's edge (a step
   back, the ferry refusing them, a scroll or portal bringing them back) while one who owns the full game, in the same
   game, goes on. Nothing shared changes for it: the ferry still sails for the others.
 
@@ -218,16 +218,16 @@ that isn't in the game.
   change undoing both accepts. The journal's tabs: Crafting, Gathering, Quests, Spells, Records, Friends, Skills, Controls.
 - **Gifts**: use an item on a player; they take it or not. **Town projects** (`data/Projects.ini`): anyone gives to
   the foreman; finished, what has `Project=<Key>` on its map line appears and the perk holds, for everyone. The town
-  crier tells the news; in Northport the bounty board sets a hunt a day and the hall of records keeps the records
+  crier tells the news; in Drizzleport the bounty board sets a hunt a day and the hall of records keeps the records
   (`/records`), each read beside its clerk, who has words of their own; the
   Pocket Anchor has a guestbook and a gift box, and a day away ends with what happened while you were gone.
 - **Companions**: Jimmy follows the crowned heir (he finds secrets), a sellsword can be hired; they step aside when a
   real player in your party is near. Townsfolk greet the crowned heir (a speech bubble, now and then: never the
-  chat log). The arena: talk to the Arena Master (in Ashford) once and the arena's shardstone knows you.
+  chat log). The arena: talk to the Arena Master (in Puddleford) once and the arena's shardstone knows you.
 - **Open PvP is a server's setting, the owner's rule** (`DS_PVP=1`, or `/pvp on|off` by an admin or the host, kept
   with the world; `dsengine/pvp.py`, Config `[PvP] Open.*`; README-Server.md "The arena"; while it's on, a badge
   under the Online line says "PvP here" or "Safe here", never shown in the arena, whose banner says it). Never in a town
-  (Towns.ini's maps, the Isle's too), a homestead or the Shardrealm; never a party; never more than `Open.Level.Gap`
+  (Towns.ini's maps, Muddlesey's too), a homestead or the Shardrealm; never a party; never more than `Open.Level.Gap`
   levels apart. **Who strikes an unmarked player first is marked** for 5 minutes, each blow while marked starting it
   again: a red name, every town's guards after them, no shardstone, home or teleport, and it doesn't fade where
   nobody can reach them (the arena, the Shardrealm, a homestead) nor while they're away. **Die marked and you lose
@@ -312,7 +312,7 @@ that isn't in the game.
 - **Malaria** (`dsengine/disease.py`, `data/Diseases.ini`, `dev/migrate/build_malaria.py`): a mosquito's bite may give it
   (`On.Hit=Malaria 5`; armour's no help). A disease has no end of its own: it stays through death and logging off, comes
   on as a bout of Fever now and again (Attack down, health down, the player shaking; a fever never kills by itself),
-  and goes only for what says `Cures=Malaria` (the Fever Tonic: not the Antidote, nothing else). Morwen, in Saltmarsh,
+  and goes only for what says `Cures=Malaria` (the Fever Tonic: not the Antidote, nothing else). Morwen, in Brinebottom,
   tells what it is and gives the first tonic; it's brewed of bog myrtle and mangrove bark (`dev/migrate/build_mangroves.py`: mangroves stand in the mud where marshland meets the sea; Strip Bark).
 - **What doesn't keep** (Entities.ini `Shelf.Minutes`, `Spoils.To`; `player_items.py` shelf_*): real time, wherever it is;
   an item's `wear` is the second it was made, so it goes with it through the bank, the ground, the market, a trade and
@@ -348,9 +348,9 @@ that isn't in the game.
   (`Death.Keep.Items`); the grave's time starts once you're up again, not on the death screen. **Each death leaves its
   own grave** (`player_items.py` graves: up to `GRAVES_MOST`, 5, the oldest crumbling for a sixth), each with its own
   time and things.
-- **The Isle's hard fights stay as they are** (the owner's choice): the Skeleton walking the chapel graveyard (3,1,0)
+- **Muddlesey's hard fights stay as they are** (the owner's choice): the Skeleton walking the chapel graveyard (3,1,0)
   and the hobgoblins' lair's four. Don't take them out or soften them to make the start easier. They're hard by their
-  level alone (the Skeleton 4, the lair's four 2), never by a flag or a setting of the Isle's own.
+  level alone (the Skeleton 4, the lair's four 2), never by a flag or a setting of Muddlesey's own.
 - **A monster's level is how hard it is, and level 1 is gentle** (the owner's wish: no Isle-only easing): at level 1
   its blows are `Monster.Ease.Blows` (0.5) as hard and its health `Monster.Ease.Health` (0.7) of its kind's, easing
   less each level to the whole at `Monster.Ease.Until` (5) (Config.ini [Gameplay]; `set_npc_level`). A fresh
@@ -400,21 +400,21 @@ that isn't in the game.
   refused at its shops and hunted by its watch till they pay its captain's fine. A rank change says a line and a
   sound; points alone say nothing. A theft nobody sees costs nothing. Never a main-quest door or NPC that asks for
   standing, and Galaith's guards wait for The True Heir. A town's gates are barred to its Outlaws at night
-  (`$Standing.<Town>>=-60 or $World.Dark=0`, with its own words for them: the Court's and Wardhaven's, the walled
+  (`$Standing.<Town>>=-60 or $World.Dark=0`, with its own words for them: the Court's and Sulkhaven's, the walled
   towns). Every town has a door that opens at Trusted (`build_town_choices.py`), and behind it, out of reach any
   other way (the validator checks), a chest left for the town's friends: unlocked, once each. Every town has a
-  quest whose ways move its standing (the Isle's houses are the tutorial's, so it has none).
+  quest whose ways move its standing (Muddlesey's houses are the tutorial's, so it has none).
 - **Thieving** (`dsengine/thieving.py`, `data/Thieving.ini`): pockets by trade, shops' shelves, houses' Valuables
   (about half the houses: `build_stealth.py`); caught, a guard comes (levels above you), seen by everyone but after you
   alone, and that shopkeeper won't serve you a while. What's taken (never the gold) is **marked stolen** for good,
   like wear, wherever it goes (pack, bank, ground, worn, a trade or gift, a grave, the save), never stacks with
   honest goods and shows a red tag; no shop buys it and the market won't list it, only a **fence** (a shop rack with
-  `Fence=1`: Wick on Northport's docks by night, Old Sully in Galaith, Red Meg), for `[Fence] Rate` of the price (its
+  `Fence=1`: Wick on Drizzleport's docks by night, Old Sully in Galaith, Red Meg), for `[Fence] Rate` of the price (its
   own `[Fence.<rack>]`; Meg's `Side.Rate` to those on the smugglers' side); a fence serves an Outlaw (`build_fences.py`). Where they are is
   passed on, never signed: the honest shopkeeper who won't buy it says (`[Fence] Hint.<Town>`), and townsfolk in a
   fence's town tell those who've stolen (`Banter.ini` `When=Thief`, `Town=`). **Locks** (`dsengine/locks.py`, `data/Locks.ini`): chests have a
-  lock by place (the easiest on the Isle, to learn on; never on a chest a quest needs); key, Pick Lock (Stealth) or
-  Break Open (Attack), but an iron-bound chest (`Sturdy`: the high locks and a share of the rest, never the Isle's)
+  lock by place (the easiest on Muddlesey, to learn on; never on a chest a quest needs); key, Pick Lock (Stealth) or
+  Break Open (Attack), but an iron-bound chest (`Sturdy`: the high locks and a share of the rest, never Muddlesey's)
   is only picked or keyed; unlocked is yours, saved. Secrets (51, by every settlement) and traps (every monster-held
   level under the world, and the wild camps) are scattered by `build_whimsy.py`. **A thief's eye**
   (`dsengine/senses.py`): hidden traps and secrets noticed as you come near; a seen trap is marked, can be disarmed,
@@ -433,7 +433,7 @@ that isn't in the game.
   Trigger says so once). A chest each inside, by what lives there. A thief's eye may catch the draught first
   (`senses.py`). More can be drawn by hand from those two tiles.
 - **The Shifting Deep** (`dsengine/deep.py`, `data/Deep.ini`, `dev/migrate/build_deep.py`): an old Shard mine south
-  of Greyford whose floors (40,40,-11 and down) are made in memory, never files, and made again every
+  of Dullford whose floors (40,40,-11 and down) are made in memory, never files, and made again every
   `Shift.Minutes` once nobody's inside: rooms and tunnels, monsters by depth, chests (once each a shift; now and then
   a mimic), hidden traps, a secret room behind a cracked wall, and the Deep's Heart at the bottom. Its things are the
   engine's (`deep_do`), not scripts.
@@ -443,16 +443,16 @@ that isn't in the game.
   items, chosen as he arrives, the same for everyone; what's bought is gone till his next visit), the **jester** (jokes;
   riddles that pay once each; a trick every ten minutes, from a coin behind your ear to a chicken), the **Shard
   Abomination** (`Where=Wild`, `Min.Level=`: as strong as the player it found, `Boss=1`, plenty of remnants). A kind's
-  `Requires=` keeps them off the Isle's first days. People walk in and walk off once their time's up; a monster nobody's
+  `Requires=` keeps them off Muddlesey's first days. People walk in and walk off once their time's up; a monster nobody's
   fighting comes apart. Never saved. A script or the admin panel can send one: `Start.Encounter`. A new one is a
   section of Encounters.ini.
 - **The seasons** (`dsengine/seasons.py`, `data/Seasons.ini`): a year of `Year.Days` real days, from the clock. Longer days in summer, longer nights in winter; winter's snow instead of rain, rivers and lakes frozen over (bodies of water under `River.Most`) to **thin, cracked ice you can't walk on** (`Thin_Ice001`, a big seamless texture of long cracks: `dev/migrate/build_thin_ice.py`; the Rime's thick `Ice001` is the one that carries you), `Season.Absent=Winter` kinds gone; the catch swaps (`[Swap.<Season>]`, on every script's Give.Item), crops grow by `Crop.Growth`. What's only seen is the page's (`ground.js` seasonal, snowPatches: worked out once for each picture, never a canvas filter). `$World.Season` for a script.
 - **What happens on its own** (`dsengine/wonders.py`, `data/Wonders.ini`, `dev/migrate/build_wonders.py`): shard storms; ghost ships on foggy nights, gone by morning; the Wandering Inn (a different `Inn_Spot_<n>` each day); mimics (a misspelt name, a glint, `Glint=1`; accuse one and it stops pretending); grudges (what killed you or got away hurt comes back scarred and stronger, attributes `Grudge.*`); the Tax Collector, polite and unkillable, walking after anyone over `Tax.Gold`; the year's Champion (arena wins in winter, crowned in spring, a statue on the boulevard); letters by carrier (`/letter Name [+Item] text`, friends only, a courier finds them). Your own legend (`data/Legend.ini`) is told with the rumours (`legend_due`); a line's condition is any script condition.
-- **Zones by level** (`dev/migrate/build_zones.py` ZONES, MOBS: the one table of what's how hard): the Sallow Waste (it was the Dustlands, round Greyford, which was Moorcross, and the Greyflats, which were Greymoor: `rename_sallowcross.py`, `rename_greyford.py`) 6-9, the Mire and Emberwatch gates 10-12, the Shattered Reach 10-14 (only magic things), the Rime 12-16, the Ashfall 14-18, the Scar 16-20, the Stoneways 18-23. Mithril and gem rocks, yews and swordfish lie above ground only in these
+- **Zones by level** (`dev/migrate/build_zones.py` ZONES, MOBS: the one table of what's how hard): the Sallow Waste (it was the Dustlands, round Dullford, which was Moorcross, and the Greyflats, which were Greymoor: `rename_sallowcross.py`, `rename_greyford.py`) 6-9, the Mire and Emberwatch gates 10-12, the Shattered Reach 10-14 (only magic things), the Rime 12-16, the Ashfall 14-18, the Scar 16-20, the Stoneways 18-23. Mithril and gem rocks, yews and swordfish lie above ground only in these
   (`build_zone_sites.py --rare`). Each zone has places of its own (`dev/migrate/build_zone_sites.py` SITES: their own
   ground, real buildings, landmarks, monsters; the quest givers live in a few, with company, and no monster on their
   doorstep); never a ruin's outline: a few ruins, each its own shape (a corner, a tower's stump, a hall's wall,
-  a wall with an arch, a foundation: `--ruins`), rubble round them and the odd thing to pick up.  You leave the Isle at level 3 (Wim won't take you before).
+  a wall with an arch, a foundation: `--ruins`), rubble round them and the odd thing to pick up.  You leave Muddlesey at level 3 (Wim won't take you before).
 - **The zones' points of interest** (`dev/migrate/build_middle_quests.py`, beside the main quest's places there): bosses
   of their own (`Boss=1`, a trophy each: the Scavenger King on Bonebreak Mesa, Old Whitefang by Yeti Hollow, the Slag
   Wyrm in the Lava Fields, the Sand-Mother at the Drakes' Bones), side quests (Cael the penitent at the Cinder Chapel
@@ -479,7 +479,7 @@ that isn't in the game.
   dungeons (a map `Trigger Trap_<Kind>`: `deep.py` world_trap), animals that talk to you in an animal's body
   (`tricks.py` ANIMAL_TALK); `dev/migrate/build_whimsy.py` places them. Keep adding them, in what things and people
   say and do; a sign still never hints.
-- **The Shardfall Deep** (`dev/migrate/build_shardfall.py`, art `shardfall_art.py`): the level 20+ zone under the sea north of Ashford, round 8,-13,-1 (maps 4..12 by -17..-5 on level -1), where a great Shard fell into the sea. The way in is Gull Point's sea cave (12,-5,0) and the Wardens' Seal (a Lock: `ShardfallGate>=5`, the signet woken with Shards and Shardcraft 15). Its areas each have their own ground (textures), walls (each wall terrain its own rock tile, so the editor never mixes their faces), decor and monsters: the Drowned Stair, the Glimmering Galleries (a secret grotto, the Singing Geode), the Brinewater (glowfin, Fishing 22; the Brine Mother), the Lantern Wood (the delvers' camp and a shardstone, nothing hostile near it), Leviathan's Rest, the Wardens' Hold (dressed stone rooms, traps; the Hollow Marshal) and the Shardfall (Shard pools; the Shardborn; the Fallen Shard, Shards once a real day). **It's dim at every hour** (Config.ini `[Darkness] Maps`, `sky.js` dimHere): lit only by what has a `Light=` in it. Its maps are laid out once (`--maps` lays them out again, over edits to them).
+- **The Shardfall Deep** (`dev/migrate/build_shardfall.py`, art `shardfall_art.py`): the level 20+ zone under the sea north of Puddleford, round 8,-13,-1 (maps 4..12 by -17..-5 on level -1), where a great Shard fell into the sea. The way in is Gull Point's sea cave (12,-5,0) and the Wardens' Seal (a Lock: `ShardfallGate>=5`, the signet woken with Shards and Shardcraft 15). Its areas each have their own ground (textures), walls (each wall terrain its own rock tile, so the editor never mixes their faces), decor and monsters: the Drowned Stair, the Glimmering Galleries (a secret grotto, the Singing Geode), the Brinewater (glowfin, Fishing 22; the Brine Mother), the Lantern Wood (the delvers' camp and a shardstone, nothing hostile near it), Leviathan's Rest, the Wardens' Hold (dressed stone rooms, traps; the Hollow Marshal) and the Shardfall (Shard pools; the Shardborn; the Fallen Shard, Shards once a real day). **It's dim at every hour** (Config.ini `[Darkness] Maps`, `sky.js` dimHere): lit only by what has a `Light=` in it. Its maps are laid out once (`--maps` lays them out again, over edits to them).
 - **The cold** (`dsengine/cold.py`, `data/Cold.ini`): out on snow or ice and not warm, health drops a little at a time
   after a grace (Cold by your health). Warm is a roof, a fire near, something worn with `Warm=1` (Fur Cap, Wool Hood,
   Wool Mittens: `build_cold.py`), or a Warming Draught lately (herbs: a potion).
@@ -507,7 +507,7 @@ that isn't in the game.
 - **Every NPC has a level** (its kind's, a little above or below; a map line's `Level=`: `world.py` set_npc_level), and
   a creature you can fight shows it on hover, its name coloured by how it stands to yours (grey far below, green, yellow
   about yours, orange, red far above: `tips.js` difficulty).
-  **The Isle's creatures** are a level under their kind's (two from level 4), the same each time
+  **Muddlesey's creatures** are a level under their kind's (two from level 4), the same each time
   (`dev/migrate/isle_levels.py` puts `Level=` on their map lines: run it again after placing one there); a creature
   a level down never has under half its kind's health.
 - Every hostile monster has a `Level=` (1-25, from its stats: `dev/migrate/build_remnants.py`). **A kill gives no
@@ -621,7 +621,7 @@ that isn't in the game.
 - **All tools wear** (`Durability`, no `Slot`): a use each go, and a broken one doesn't count until it's mended.
 
 ### Places and furniture
-- The maps: `X,Y,Z.map`: 25x21 tiles of 32 px. Z<0 underground, Z>0 upstairs. Levels of their own (nothing joins them): the arena 0,0,10, the Shardrealm 21,4,-10, the Shifting Deep 40,40,-11 and down (in memory), homesteads 0,0,1000+n (in memory). The Shardfall Deep is on -1 under the sea north of Ashford (4..12, -17..-5)
+- The maps: `X,Y,Z.map`: 25x21 tiles of 32 px. Z<0 underground, Z>0 upstairs. Levels of their own (nothing joins them): the arena 0,0,10, the Shardrealm 21,4,-10, the Shifting Deep 40,40,-11 and down (in memory), homesteads 0,0,1000+n (in memory). The Shardfall Deep is on -1 under the sea north of Puddleford (4..12, -17..-5)
 - Inside walls are `*_Thin_Plank*` floor tiles with the wall drawn along their edge (001-008 round a rectangle, 009-018
   the inner corners, passages and dead ends: `house_tiles.THIN_EDGES`, `dev/migrate/thin_wall_pieces.py`; a set's
   pieces after a gap row are put down by hand, the nine before it stretched). Beds, bookshelves, chests,
@@ -643,7 +643,7 @@ that isn't in the game.
   has an empty Condition and words that settle it ("Locked. Whoever lives here likes it that way."), never anything that
   reads as a puzzle; boarded ones wear `Door_Boards001`. A door that can be picked (`Pick=` on its Lock line) keeps the
   pickable message and has `Once=` loot behind it worth its level. Never lock a door of a room someone lives in
-  (`Home=`), and never lock for good one with a ladder or hatch (a picked one can have one, to an empty floor). Northport's and Ashford's fenced yards (railings, an `Iron_Gate001`
+  (`Home=`), and never lock for good one with a ladder or hatch (a picked one can have one, to an empty floor). Drizzleport's and Puddleford's fenced yards (railings, an `Iron_Gate001`
   chained at Pick=24) are for Grasp through the railings or a master thief.
 - Ladders and hatches line up exactly with the ladder on the floor above or below.
 - **The floors over and under the world are roofed dark** (`dev/migrate/build_level_roofs.py`, the owner's wish): on
@@ -654,7 +654,7 @@ that isn't in the game.
   the world's frame and scale (`ui.js` worldFrame), so a cellar lies just under its house; only the levels of their
   own fill the map.
 - **The mainland** (`dev/World Plan.md`) is built by `dev/migrate/build_estforlan.py` (its parts in
-  `dev/migrate/estforlan`): change the plan there and run it again, never the maps by hand. The Isle is left alone.
+  `dev/migrate/estforlan`): change the plan there and run it again, never the maps by hand. Muddlesey is left alone.
   Galaith is a huge walled city on the sea west of the West Range (which runs down the whole west coast), on maps
   with columns below 0: the sea on its west and south (a harbour gate, a quay and a pier), its own mountains north
   (the mine in them, its level -7,11,-1) and east; the dragon guards its scorched field before the east gate, and the
@@ -669,20 +669,20 @@ that isn't in the game.
   lifted whole, Ids and all, and set down in its quarter; what names the palace's or the mine's coordinates moved
   with them), `build_mirefen.py` (the west finished: the Mirefen swamp and Mirefold, its hut hamlet; the sea south of
   Galaith), and the owner's redrawing (`world_edit.py` holds what they share: the world as one grid of cells, what's
-  natural and what's built, rewilding, roads joined again): `remove_towns.py` (Fenwick, Highwatch and Ravensgate gone,
-  their quests moved: Morwen and Elder Pike to Saltmarsh, Granny Bramble to Thornwick, Captain Hale to Frosthold;
-  Fenwick's cathedral kept), `move_keep.py` (King Rupert's Keep five maps south, onto Ravensgate's ground: maps
-  renamed, so its solar is 26,18,1; Ravensgate's graves in a graveyard west of it; its old iron mine stays in the
+  natural and what's built, rewilding, roads joined again): `remove_towns.py` (Fenwick, Squintwatch and Crowgate gone,
+  their quests moved: Morwen and Elder Pike to Brinebottom, Granny Bramble to Nettlewick, Captain Hale to Chillingham;
+  Fenwick's cathedral kept), `move_keep.py` (King Rupert's Keep five maps south, onto Crowgate's ground: maps
+  renamed, so its solar is 26,18,1; Crowgate's graves in a graveyard west of it; its old iron mine stays in the
   hills), `reshape_west.py` (the coast, the mountains' edges and the Mire Tunnel as the owner drew them: the Mirefen is
   reached **only** through the tunnel under the West Range, and the dragon's field opens on Galaith's valley only at
-  the east gate), `move_ashford.py` (Ashford seven maps north, onto a peninsula grown for it: maps up to row -6),
-  `build_manors.py` (Fenmoor Hall and Redrock Manor, bandit manors where Fenwick and Highwatch stood, and the Drowned
+  the east gate), `move_ashford.py` (Puddleford seven maps north, onto a peninsula grown for it: maps up to row -6),
+  `build_manors.py` (Fenmoor Hall and Redrock Manor, bandit manors where Fenwick and Squintwatch stood, and the Drowned
   Abbey; Redrock Manor a maze on three floors - its rooms shut off from each other, reached only by ladders and stairs
   up and down, the vault last: GAPS and LINKS say which, and a test holds that the way through is the long one; its
   rooms each floor's own sizes and each furnished for what it is, LAYOUT and FURNITURE, laid out again by
   `refurnish_redrock.py`). **Running `build_estforlan.py` again would undo all of them and the owner's edits**: don't, unless they're
   run again after it.
-- **The marshes** (the Mirefen and the marsh round Saltmarsh): their water is **marsh water** (`Bog001`, a greeny brown, `build_marsh.py`; painted with the Bog terrain), the sea's `Water001` only out at the sea itself (`marsh_water.py`, once on the maps). A long boardwalk wanders, a single line of planks (`wind_boardwalks.py` ROUTES); a street near a settlement's middle stays straight. Places out in them (`build_marsh_places.py`): the Sunken Barge, the Peat Cuttings and the Wisp Ring in the Mirefen, the Eel-Catcher's Hut and the Drowned Bell by Saltmarsh, none needed by a quest.
+- **The marshes** (the Mirefen and the marsh round Brinebottom): their water is **marsh water** (`Bog001`, a greeny brown, `build_marsh.py`; painted with the Bog terrain), the sea's `Water001` only out at the sea itself (`marsh_water.py`, once on the maps). A long boardwalk wanders, a single line of planks (`wind_boardwalks.py` ROUTES); a street near a settlement's middle stays straight. Places out in them (`build_marsh_places.py`): the Sunken Barge, the Peat Cuttings and the Wisp Ring in the Mirefen, the Eel-Catcher's Hut and the Drowned Bell by Brinebottom, none needed by a quest.
 - **The wide empty places and dead ends have something in them** (`build_wilds.py`, the owner's wish): each its own
   thing (an odd person, a tiny quest, an event, a minigame: the Ringing Rocks' CHIMES), a footpath to it from the
   nearest road, on the world map unless it's a secret (the fairy rings). A shared event (the Fen Horn, the Smugglers'
@@ -701,10 +701,10 @@ that isn't in the game.
   fountain, the orchard, then lawns, hedges, walks and a pond down to the south wall). The hovels stand about at random. A thing can be heard only near it: Entities.ini `Sound.Loop`, `Sound.Reach`
   (`audio.js` nearLoopTick: the fountain, louder as you come, nothing past its reach or under a roof): use it, not a whole
   map's Ambient.ini, for something that's in one spot.
-- Settlements have a size, and what each size has (`estforlan/settlements.py` SIZES): Galaith a huge city; Northport a
+- Settlements have a size, and what each size has (`estforlan/settlements.py` SIZES): Galaith a huge city; Drizzleport a
   large city (its City Hall is the Parliament for now); King Rupert's Keep and the Wizards' Court medium cities;
-  Ashford a small city; Frosthold and Wardhaven towns; Oakhollow, Thornwick and Emberwatch
-  villages; Greyford, Dunerest, Wildwood, Saltmarsh and Mirefold (in the Mirefen, its huts on boardwalks) hamlets.
+  Puddleford a small city; Chillingham and Sulkhaven towns; Acornby, Nettlewick and Emberwatch
+  villages; Dullford, Dunerest, Wildwood, Brinebottom and Mirefold (in the Mirefen, its huts on boardwalks) hamlets.
 - **At most two merchants of a trade in a settlement** (a trade is what's sold: a market stall's meat and a butcher's
   shop are both the butcher's; taverns too). SIZES keeps to it; `dev/migrate/cap_merchants.py` shut the shops past two
   that were built before (their keepers stay and say so; a tavern past two is an inn, rooms only), and a test holds it.
@@ -747,19 +747,21 @@ that isn't in the game.
 
 ### Names
 
-- The world is a **planet**, and the map is only a small part of it: the kingdom of Brambleton and the Isle. The
+- The world is a **planet**, and the map is only a small part of it: the kingdom of Brambleton and Muddlesey. The
   planet is **never named** anywhere in the game.
 - The game is **Shards of Ashen** (the page, the app, the docs), the kingdom **Brambleton** (it was Galmere, Ashen and Estforlan before that; `rename_brambleton.py`), and the
-  port city **Northport** (it was Southport, then Northport). Everything else is named for it too
+  port city **Drizzleport** (it was Southport, then Northport). The towns' names are a little funny, never too
+  obviously, and a few are plain (`rename_towns.py` has the old names); the Isle is **Muddlesey** in what's said (its
+  Ids still say Isle). Everything else is named for the game too
   (`dev/migrate/rename_shards_of_ashen.py`): the GitHub repository `kriscs1/shardsofashen`, the Docker image
   `ghcr.io/kriscs1/shardsofashen`,
   the Python package `ashen/`, the database `ashen.db` (an old `dragonsword.db` beside it is moved over as the server
   starts), the Android app `io.github.kriscs1.shardsofashen`, and "Shards of Ashen Editor.py". Not the weapon (the
   Dragon Sword, `Dragon_Sword`) or `dsengine/`, `dsedit/` and the `DS_` settings. The builders keep `estforlan` in their
-  file names. Northport's Ids, scripts, shardstone and builders' town key are Northport too (`Northport_Square`,
-  `Waystone.Northport`: `dev/migrate/rename_northport.py`; a save's `Waystone.Southport` is read as Northport's,
-  `renames.py` RENAMED_WORDS). Its landing and its port are one place, `Northport_Port`; the ferry's pier is
-  `Northport_Pier`.
+  file names. Drizzleport's Ids, scripts, shardstone and builders' town key are Drizzleport too (`Drizzleport_Square`,
+  `Waystone.Drizzleport`: `dev/migrate/rename_northport.py`; a save's `Waystone.Southport` is read as Drizzleport's,
+  `renames.py` RENAMED_WORDS). Its landing and its port are one place, `Drizzleport_Port`; the ferry's pier is
+  `Drizzleport_Pier`.
 - A character is a man or a woman (`look.body`: `f` is a woman, the `PlayerF` sprites, long hair and a skirt, drawn by
   `build_player.py`); the look's colours recolour either. Anything drawn on a player works on both.
 
@@ -971,11 +973,11 @@ that isn't in the game.
   word, and one purchase is one account's; a browser follows the account, and its Buy (`DS_BUY_URL`) is itch.io's,
   claimed by the account's confirmed email (never one the player types). Prices are set in the stores, not the game.
 - **The demo** (once the central server has `DS_DEMO=1`; till then everyone has the full game): an account without
-  the full game plays the Isle (`data/Config.ini` `[Demo]`: its maps, upstairs and caves), its skills held at level 5,
+  the full game plays Muddlesey (`data/Config.ini` `[Demo]`: its maps, upstairs and caves), its skills held at level 5,
   the XP still counted (it counts once it's owned). The border and the level each say so once a time in; a demo
-  character found outside (its Friend Pass over) comes back to the Isle's pier. At the ferry with Mary's papers
+  character found outside (its Friend Pass over) comes back to Muddlesey's pier. At the ferry with Mary's papers
   (`PapersFound`) the demo ends: a line with its own sound, not Denied, and once a time in the end card (`demo_end`):
-  what the Isle gave you (the papers, the order in ash, Jimmy's miniature, each only if found), what's left to ask
+  what Muddlesey gave you (the papers, the order in ash, Jimmy's miniature, each only if found), what's left to ask
   (only questions the player has the clue for), what's across the strait, and how to buy it. An app's own game knows from the device
   (`demo`, `full` in the join link); a game server from the ticket.
 - **The Friend Pass**: a demo player has the full game in a game while someone who owns it is there: the host's own

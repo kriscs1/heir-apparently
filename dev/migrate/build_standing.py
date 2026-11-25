@@ -68,26 +68,26 @@ Welcome=20 0.95 1.05
 Trusted=45 0.9 1.1
 Honoured=75 0.85 1.15
 
-; A town: Name (as said: "Ashford thinks better of you"), Maps (x1,y1,x2,y2 boxes of map numbers, any number),
+; A town: Name (as said: "Puddleford thinks better of you"), Maps (x1,y1,x2,y2 boxes of map numbers, any number),
 ; Captain (an Id, or a kind on the town's maps), Guards.If (a condition before its guards turn on an Outlaw).
 """
 
 # key, name, maps, captain, guards.if
 TOWN_LIST = (
-    ("Isle", "the Isle", "0,-3,4,2", "Chapel_Verger", ""),
-    ("Northport", "Northport", "2,4,7,7", "Northport_Constable_347", ""),
-    ("Ashford", "Ashford", "10,-4,13,-1", "Ashford_Sheriff_325", ""),
-    ("Oakhollow", "Oakhollow", "8,9,9,12", "Oakhollow_Sheriff_314", ""),
-    ("Greyford", "Greyford", "12,8,15,9", "Greyford_Priest_303", ""),
+    ("Isle", "Muddlesey", "0,-3,4,2", "Chapel_Verger", ""),
+    ("Drizzleport", "Drizzleport", "2,4,7,7", "Drizzleport_Constable_347", ""),
+    ("Puddleford", "Puddleford", "10,-4,13,-1", "Puddleford_Sheriff_325", ""),
+    ("Acornby", "Acornby", "8,9,9,12", "Acornby_Sheriff_314", ""),
+    ("Dullford", "Dullford", "12,8,15,9", "Dullford_Priest_303", ""),
     ("Wildwood", "Wildwood", "1,8,3,9", "Wildwood_Priest_303", ""),
-    ("Thornwick", "Thornwick", "19,12,21,14", "Thornwick_Sheriff_313", ""),
+    ("Nettlewick", "Nettlewick", "19,12,21,14", "Nettlewick_Sheriff_313", ""),
     ("Court", "Wizards' Court", "18,4,21,7", "Court_Sheriff_331", ""),
     ("Emberwatch", "Emberwatch", "25,4,27,7", "Emberwatch_Sheriff_312", ""),
-    ("Wardhaven", "Wardhaven", "15,1,17,2", "Wardhaven_Sheriff_320", ""),
+    ("Sulkhaven", "Sulkhaven", "15,1,17,2", "Sulkhaven_Sheriff_320", ""),
     ("Keep", "King Rupert's Keep", "24,16,27,20", "Keep_Sheriff_337", ""),
-    ("Frosthold", "Frosthold", "16,19,18,21", "Frosthold_Sheriff_326", ""),
+    ("Chillingham", "Chillingham", "16,19,18,21", "Chillingham_Sheriff_326", ""),
     ("Dunerest", "Dunerest", "2,21,4,21", "Dunerest_Priest_303", ""),
-    ("Saltmarsh", "Saltmarsh", "10,23,12,23", "Saltmarsh_Priest_303", ""),
+    ("Brinebottom", "Brinebottom", "10,23,12,23", "Brinebottom_Priest_303", ""),
     ("Mirefold", "Mirefold", "-7,4,-5,5", "Foreman_Mirefold_Boardwalks", ""),
     ("Galaith", "Galaith", "-11,12,-4,17", "Galaith_Constable_372", "$Attr.KingQuest>=1"),
 )

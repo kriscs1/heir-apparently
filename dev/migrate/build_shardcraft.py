@@ -70,7 +70,7 @@ SHARDS = [   # (section, key, value, what it means)
     ("Enchant", "XP", "0.8", ""),
 ]
 SKILL_TEXT = {
-    "Crafting": "Crafting: smelt ore and forge tools at a furnace or anvil (the Ashford smithy, Brokk's hall); shear "
+    "Crafting": "Crafting: smelt ore and forge tools at a furnace or anvil (the Puddleford smithy, Brokk's hall); shear "
                 "sheep, then tan, spin and make jewellery at a workbench.",
     "Alchemy": "Alchemy: pick herbs, berries and mushrooms, and brew potions at an alchemy table.",
     "Channeling": "Channeling: cast spells. The better you are, the harder they hit and the fewer Shards each "

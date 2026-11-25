@@ -100,7 +100,7 @@ def cave_maps():
     npc, item, obj = W.npc, W.item, W.obj
     M = {}
 
-    # 1,1,-1  The beggar's cellar (under his house on the Isle). Its south-west wall has fallen into a grotto
+    # 1,1,-1  The beggar's cellar (under his house on Muddlesey). Its south-west wall has fallen into a grotto
     # with rats, mushrooms, copper and coal. East to 2,1,-1. Ladder up at 21,4 to the house (1,1,0).
     M["1,1,-1"] = dict(
         rows=[
@@ -424,12 +424,12 @@ def surface_changes():
     """New things on the Southlands maps that build_world.py already defines (tiles and entities)."""
     npc, item, obj = W.npc, W.item, W.obj
     M = W.MAPS
-    # Northport: the fisherman in his hut, a villager, berry bushes and herb patches by the woods.
+    # Drizzleport: the fisherman in his hut, a villager, berry bushes and herb patches by the woods.
     m = M["1,3,0"]
     m["rows"] = set_cells(m["rows"], [(19, 18, "B"), (22, 20, "B"), (10, 19, "E"), (3, 11, "B")])
     m["entities"] += [npc("GoodNPC", "Fisherman", 5, 14), npc("GoodNPC", "Villager", 16, 13), npc("GoodNPC", "Dog", 9, 12),
                       npc("GoodNPC", "Man", 17, 9)]
-    # Ashford: a range in the bakery, anvil and furnace in the smithy, a guard and villagers on the high street.
+    # Puddleford: a range in the bakery, anvil and furnace in the smithy, a guard and villagers on the high street.
     m = M["2,3,0"]
     m["entities"] += [obj("Range", 4, 8), obj("Anvil", 20, 17), obj("Furnace", 22, 17),
                       npc("GoodNPC", "Guard", 13, 13), npc("GoodNPC", "Villager", 7, 13), npc("GoodNPC", "Villager", 21, 20),
@@ -484,7 +484,7 @@ def patches():
                       # the beggar's house: the door (20,7) is a Lock instead of the old Door1 trigger hack; walking
                       # in with the key (the trigger just inside) completes the Beggar's Lost Key quest
                       ("Lock", 20, 7, "$Attr.Door1Open>=1 or $Item.Beggars_House_Key>=1",
-                       "The door is locked. They say the beggar in Ashford lost the key to this house."),
+                       "The door is locked. They say the beggar in Puddleford lost the key to this house."),
                       ("Trigger", "Beggar House", 20, 6),
                       ("StaticObject", "Notice", hx, hy)],
             remove=["Trigger\tDoor1 1,1,0\t20\t7"]),
@@ -519,7 +519,7 @@ def patches():
             tiles=[(21, 5, "Grass001", "Berry_Bush001")],
             entities=[]),
     }
-    for name, tiles in ISLE_TREES.items():                  # oaks and willows among the Isle's trees
+    for name, tiles in ISLE_TREES.items():                  # oaks and willows among Muddlesey's trees
         out.setdefault(name, dict(tiles=[], entities=[]))["tiles"] += tiles
     import build_scenery                                    # scenery, landmarks, wildlife (build_scenery.py)
     for name, spec in build_scenery.isle_patches().items():
@@ -532,11 +532,11 @@ def patches():
     import build_fishing                                    # fishing spots on the original Isle maps
     for m, ents in build_fishing.protected_spots(W, sys.modules[__name__]).items():
         out.setdefault(m, dict(tiles=[], entities=[]))["entities"] += ents
-    import build_boats                                      # the ferry's boat at the Isle's pier
+    import build_boats                                      # the ferry's boat at Muddlesey's pier
     for m, ents in build_boats.protected_places(W).items():
         out.setdefault(m, dict(tiles=[], entities=[]))["entities"] += ents
     ids = getattr(W, "NOTICE_IDS", {})                      # the notices' Id= (notice_ids)
-    m, x, y, _ = ISLE_NOTICE                                # the Isle's own notice: its line again, with its Id
+    m, x, y, _ = ISLE_NOTICE                                # Muddlesey's own notice: its line again, with its Id
     if (m, x, y) in ids:
         spec = out.setdefault(m, dict(tiles=[], entities=[]))
         spec.setdefault("remove", []).append("StaticObject\tNotice\t%d\t%d" % (x, y))
@@ -548,7 +548,7 @@ def patches():
     return out
 
 
-HOUSE_NOTICE = (22, 8)      # the notice by the beggar's house on the Isle (1,1,0)
+HOUSE_NOTICE = (22, 8)      # the notice by the beggar's house on Muddlesey (1,1,0)
 PATCH_LOG = p("dev", "migrate", "content_patches.txt")
 
 
@@ -907,7 +907,7 @@ def climb_script(verb, dz, msg):
 
 def scripts():
     S = {}
-    # ----- ladders: no special cases any more (the house ladder on the Isle is now a hatch down to its cellar)
+    # ----- ladders: no special cases any more (the house ladder on Muddlesey is now a hatch down to its cellar)
     for name, verb, dz, msg in (("Climb Up Ladder001", "up", "+1", "You climb up the ladder."),
                                 ("Climb Down Ladder002", "down", "-1", "You climb down the ladder."),
                                 ("Climb Up Ladder008", "up", "+1", "You climb up the ladder into the loft."),
@@ -918,7 +918,7 @@ def scripts():
 
     # ----- map entry
     S["1,1,-1"] = [("Display.Message", "Cyan", "A damp cellar. The far wall has fallen in, and something squeaks in the dark."), ("End",)]
-    S["2,1,-1"] = [("Display.Message", "Cyan", "The grotto under the Isle. Water drips into a black pool."), ("End",)]
+    S["2,1,-1"] = [("Display.Message", "Cyan", "The grotto under Muddlesey. Water drips into a black pool."), ("End",)]
     S["2,4,-3"] = [("Display.Message", "DarkRed", "The Deep Hollow. Torchlight flickers ahead... and bones rattle in the dark."), ("End",)]
 
     # ----- gathering
@@ -1106,7 +1106,7 @@ def scripts():
         ("Display.Conversation", "Miner", "Click a rock with ore in it and swing. Better pickaxes strike more often.\\Smelt the ore at a furnace.\\At Mining 10 the guild's deep seam opens: coal, silver and gold!", "Thanks!", "@bye"),
         ("End",),
         "nopick:",
-        ("Display.Conversation", "Miner", "You'll need a pickaxe. I dropped my spare by the ladder when I ran.\\The Ashford blacksmith sells them too.", "Thanks!", "@bye"),
+        ("Display.Conversation", "Miner", "You'll need a pickaxe. I dropped my spare by the ladder when I ran.\\The Puddleford blacksmith sells them too.", "Thanks!", "@bye"),
         ("End",),
         "hob:",
         ("Display.Conversation", "Miner", "There's a hatch in the tunnels to the east that goes down to their warren.\\I saw them carry off all sorts down there. Keys, coins, gems...", "I'll take a look.", "@bye"),
@@ -1134,7 +1134,7 @@ def scripts():
         ("Display.Item.Rack", "GENERAL", "Wizard", "CRAFT-Scrolls", "@bye"),
         ("End",),
         "tele:",
-        ("Display.Conversation", "Wizard", "Where to?", "To the Isle.", "@isle", "To Northport.", "@south", "Nowhere, thanks.", "@bye"),
+        ("Display.Conversation", "Wizard", "Where to?", "To Muddlesey.", "@isle", "To Drizzleport.", "@south", "Nowhere, thanks.", "@bye"),
         "isle:",
         ("Play.Sound", "Teleporter"),
         ("Display.Message", "Yellow", "The wizard waves his hands and the world spins..."),
@@ -1143,7 +1143,7 @@ def scripts():
         "south:",
         ("Play.Sound", "Teleporter"),
         ("Display.Message", "Yellow", "The wizard waves his hands and the world spins..."),
-        ("Teleport", PL.feet("Northport_Port", "1,3,0", 352, 320), "-"),
+        ("Teleport", PL.feet("Drizzleport_Port", "1,3,0", 352, 320), "-"),
         ("End",),
         "bye:",
         ("End",)]
@@ -1173,7 +1173,7 @@ def scripts():
 
     # ----- clicking a skill in the stat box: where to train it (Cooking Skill opens the cooking list, as before)
     for skill, text in (
-            ("Crafting", "Crafting: smelt ore and forge tools at a furnace or anvil (the Ashford smithy, Brokk's hall); "
+            ("Crafting", "Crafting: smelt ore and forge tools at a furnace or anvil (the Puddleford smithy, Brokk's hall); "
                          "shear sheep, then tan, spin and make jewellery at a workbench."),
             ("Mining", "Mining: use a pickaxe on rocks in the mines. Copper, tin and iron at level 1, coal 3, silver 6, gold 8, gems 10, and mithril at 13 (with a steel pickaxe or better)."),
             ("Fishing", "Fishing: use a rod on water, with bait in your pack (one per catch). Trout need level 10, cave eels level 15."),
@@ -1231,8 +1231,8 @@ def scripts():
 def npc_scripts():
     S = {}
     S["Talk to Guard"] = [
-        (">On.Map", "5,3,0", "@notwardhaven"),                # the guard outside Wardhaven's gate: build_walled.py
-        ("Goto.Script", "Wardhaven Guard"),
+        (">On.Map", "5,3,0", "@notwardhaven"),                # the guard outside Sulkhaven's gate: build_walled.py
+        ("Goto.Script", "Sulkhaven Guard"),
         ("End",),
         "notwardhaven:",
         (">On.Map", "1,4,0", "@notmine"),
@@ -1245,7 +1245,7 @@ def npc_scripts():
         ("End",),
         "notmine:",
         (">On.Map", "2,3,0", "@keep"),
-        ("Display.Conversation", "Guard", "Keep the peace in Ashford, citizen.\\If you're looking for work, the King pays well for hobgoblin ears.\\His palace is on the Royal Isle: south to his keep, east along the goblin camp road, then over the causeway.",
+        ("Display.Conversation", "Guard", "Keep the peace in Puddleford, citizen.\\If you're looking for work, the King pays well for hobgoblin ears.\\His palace is on the Royal Isle: south to his keep, east along the goblin camp road, then over the causeway.",
          "Any other news?", "@news", "Goodbye.", "@bye"),
         ("End",),
         "keep:",
@@ -1267,20 +1267,20 @@ def npc_scripts():
         ("Display.Item.Rack", "SPECIFIC", "Quartermaster", "SHOP-Keep", "@bye"),
         "bye:",
         ("End",)]
-    # The townsman in Northport (the original game's "Talk to Man" opened a shop and the bank: it was for testing)
+    # The townsman in Drizzleport (the original game's "Talk to Man" opened a shop and the bank: it was for testing)
     S["Talk to Man"] = [
         (">Random", "50", "@two"),
-        ("Display.Conversation", "Man", "Northport's a quiet place, mostly. The ferry brings folk over from the Isle, and the fish come in at dawn.", "Thanks.", "@bye"),
+        ("Display.Conversation", "Man", "Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.", "Thanks.", "@bye"),
         ("End",),
         "two:",
-        ("Display.Conversation", "Man", "Heading inland? Ashford's east of here. Mind the woods to the south: wolves, and worse past the old mine.", "Thanks.", "@bye"),
+        ("Display.Conversation", "Man", "Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.", "Thanks.", "@bye"),
         ("End",),
         "bye:",
         ("End",)]
     S["Talk to Villager"] = [
         (">Conditional", "$Map.Y<3", "@south"),
         (">Random", "50", "@isle2"),
-        ("Display.Conversation", "Villager", "Lovely day on the Isle! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.", "Thanks.", "@bye"),
+        ("Display.Conversation", "Villager", "Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.", "Thanks.", "@bye"),
         ("End",),
         "isle2:",
         ("Display.Conversation", "Villager", "The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\\The ferry to the mainland leaves from the pier in the south.", "Thanks.", "@bye"),
@@ -1471,7 +1471,7 @@ def quest_scripts():
     S["Talk to Beggar"] = [
         ("Get.Value", "ATTRIBUTE", "BeggarQuest", "Variable.1$"),
         (">Conditional", "$Variable.1=2", "@normal"),
-        ("Display.Conversation", "Beggar", "You found my old key? Then the house on the Isle is yours, friend.\\Mind the cellar. The back wall fell in years ago, and there are rats down there the size of dogs.",
+        ("Display.Conversation", "Beggar", "You found my old key? Then the house on Muddlesey is yours, friend.\\Mind the cellar. The back wall fell in years ago, and there are rats down there the size of dogs.",
          "Thanks!", "@bye"),
         ("End",),
         "normal:",
@@ -1479,7 +1479,7 @@ def quest_scripts():
         "give:",
         (">Got.Item", "Gold_Coin(s)", "1", "@broke"),
         ("Take.Item", "Gold_Coin(s)", "1"),
-        ("Display.Conversation", "Beggar", "Bless you! I wasn't always like this, you know.\\I had a fine brick house on the Isle, but I lost the key in the old iron mine when the hobgoblins chased me out. They took it down to their warren.\\If you ever find it, the house is yours. I'll never go back.",
+        ("Display.Conversation", "Beggar", "Bless you! I wasn't always like this, you know.\\I had a fine brick house on Muddlesey, but I lost the key in the old iron mine when the hobgoblins chased me out. They took it down to their warren.\\If you ever find it, the house is yours. I'll never go back.",
          "I'll look for it.", "@story"),
         "story:",
         (">Conditional", "$Variable.1=0", "@bye"),
@@ -1490,7 +1490,7 @@ def quest_scripts():
         ("Display.Message", "DarkRed", "You don't have any gold!"),
         "bye:",
         ("End",)]
-    # The house door on the Isle (1,1,0 tile 20,7) is a Lock: open while Door1Open>=1 or the player carries the Key.
+    # The house door on Muddlesey (1,1,0 tile 20,7) is a Lock: open while Door1Open>=1 or the player carries the Key.
     # Unlocking it (the Unlock verb, using the key on it, or walking in with the key: the Beggar House trigger)
     # sets Door1Open and completes the quest.
     S["Unlock Door001"] = [
@@ -1506,7 +1506,7 @@ def quest_scripts():
         ("Get.Value", "ATTRIBUTE", "BeggarQuest", "Variable.1$"),
         (">Conditional", "$Variable.1<2", "@end"),
         ("Update.Attribute", "BeggarQuest", "=2"),
-        ("Display.Message", "Yellow", "Quest complete: the beggar's house on the Isle is yours!"),
+        ("Display.Message", "Yellow", "Quest complete: the beggar's house on Muddlesey is yours!"),
         "end:",
         ("End",),
         "open:",
@@ -1605,7 +1605,7 @@ TILES = {
     "Stairs002": ("1" * 49, "1", "Climb Down", "Stairs going down.", "1", "255 0 0"),
     "Ladder008": ("1" * 49, "1", "Climb Up", "A ladder up to the loft.", "1", "255 0 0"),
     "Ladder009": ("1" * 49, "1", "Climb Down", "A trapdoor with a ladder going down.", "1", "255 0 0"),
-    # the walls of Wardhaven (build_walled.py); the gate opens (Unlocked.Tile, TILE_EXTRA) when its Lock does
+    # the walls of Sulkhaven (build_walled.py); the gate opens (Unlocked.Tile, TILE_EXTRA) when its Lock does
     "City_Wall001": ("0" * 49, "1", "", "The town wall: dressed stone, battlements and arrow slits.", "0", "128 124 116"),
     "City_Wall002": ("0" * 49, "1", "", "The town wall: dressed stone, battlements and arrow slits.", "0", "128 124 116"),
     "City_Wall004": ("0" * 49, "1", "", "The town wall: dressed stone, battlements and arrow slits.", "0", "128 124 116"),
@@ -1741,7 +1741,7 @@ ENTITIES = {
     "Defence_Potion": item(45, "An amber potion: +4 Defence for two minutes. Drink it before a fight.", 1, use="Drink") + [("Spell", "Defence_Potion")],
     "Combat_Potion": item(70, "A purple potion: +3 Attack and +3 Defence for two minutes.", 1, use="Drink") + [("Spell", "Combat_Potion")],
     "Magic_Potion": item(90, "A violet potion: your spells do 5 more damage for two minutes.", 1, use="Drink") + [("Spell", "Magic_Potion")],
-    "Ferry_Ticket": item(0, "A ticket for the Northport ferry, stamped by the milkmaid. Good for one crossing.", 1, droppable=0),
+    "Ferry_Ticket": item(0, "A ticket for the Drizzleport ferry, stamped by the milkmaid. Good for one crossing.", 1, droppable=0),
     "Owl_Potion": item(40, "A smoky blue potion that smells of the night: you see far further through the fog for three minutes.", 1, use="Drink") + [("Spell", "Owl_Potion")],
     "Mega_Potion": item(120, "A brilliant green potion that heals almost any wound (45-55 hitpoints).", 1, use="Drink") + [("Spell", "Mega_Potion")],
     "Bronze_Pickaxe": item(8, "A bronze pickaxe. It'll do, for soft rock.", 1),
@@ -1787,7 +1787,7 @@ ENTITIES = {
     "Guard": good("A guard of King Tyron, spear in hand."),
     "Quartermaster": good("The keep's quartermaster. He counts everything twice."),
     "Villager": good("A local, going about their business.", speed="1"),
-    "Milkmaid": good("The milkmaid, who looks after the Isle's cows and sheep."),
+    "Milkmaid": good("The milkmaid, who looks after Muddlesey's cows and sheep."),
     "Fisherman": good("An old fisherman in a yellow oilskin. He smells of the sea."),
     "Dwarf": good("Brokk Stonebeard, a dwarf miner. His beard reaches his belt."),
     "Dog": good("A friendly brown dog.", use="Pet,Talk to", speed="2"),
@@ -1963,7 +1963,7 @@ MOVEMENT = {
 # patrol waypoints are walkable tiles reachable from each other (validate.py checks all of it).
 CAMP_CHASE = "Chase=2,7,23,17"        # the goblin camp below the ridge: they give up once you're through the gap
 NPC_OPTIONS = {
-    # Ashford: shopkeepers and the banker stay put, the guard walks the high street, villagers wander
+    # Puddleford: shopkeepers and the banker stay put, the guard walks the high street, villagers wander
     "2,3,0": {
         ("Baker", 5, 9): "Zone=5,9,7,10 Pause=4-10",
         ("Shopkeeper", 19, 9): "Stand=1",
@@ -2013,7 +2013,7 @@ NPC_OPTIONS = {
         ("Hobgoblin", 14, 14): "Zone=10,12,19,15 " + CAMP_CHASE,
         ("Wolf", 6, 17): "Zone=4,15,12,19 Chase=3,14,14,20",
     },
-    # Northport
+    # Drizzleport
     "1,3,0": {
         ("Woman", 15, 4): "Stand=1",
         ("Fisherman", 5, 14): "Zone=4,14,6,15 Pause=4-10",
@@ -2022,7 +2022,7 @@ NPC_OPTIONS = {
         ("Man", 17, 9): "Zone=14,7,24,9",
     },
     "2,4,1": {("Wizard", 16, 12): "Zone=16,12,19,13 Pause=5-12"},
-    # the Isle (lines added to the original maps)
+    # Muddlesey (lines added to the original maps)
     "1,1,0": {("Villager", 11, 10): "Zone=8,8,15,13", ("Dog", 14, 12): "Zone=10,9,18,15"},
     "2,1,0": {("Villager", 8, 13): "Zone=5,11,12,16"},
     "3,1,0": {("Villager", 12, 8): "Zone=9,5,15,10",
@@ -2223,7 +2223,7 @@ SPELLS = [
                      Sound="SpellHeal", XP="0.3", Info="heals your wounds")),
     ("Teleport_Home", dict(Cost="10", Cooldown="60", Scroll="Teleport_Scroll", Effect="Teleport", Level="5", Map="", X="", Y="",
                            Impact="Teleport_Glow", Sound="Teleporter", XP="0.4",
-                           Info="takes you home to the Isle, wherever you are")),
+                           Info="takes you home to Muddlesey, wherever you are")),
     ("Ice_Bolt", dict(Cost="6", Cooldown="4", Scroll="Ice_Bolt_Scroll", Effect="Bolt", Level="10", Damage="2-6", Range="256", Slow="50,8",
                       Missile="Ice_Bolt_Missile", Impact="Ice_Burst", Sound="SpellIce", XP="0.4",
                       Info="a shard of ice that hurts a foe and slows it to half speed for 8 seconds")),
@@ -2297,7 +2297,7 @@ NEW_SHOPS = {
                                   "Mithril_Sword,0"]),
 }
 SHOP_ADD = {      # appended to existing shops when missing
-    # (SHOP-General went with the original game's test man, who opened it: the general store is SHOP-Ashford)
+    # (SHOP-General went with the original game's test man, who opened it: the general store is SHOP-Puddleford)
     "SHOP-Smith": ["Iron_Sword,2", "Iron_Shield,2", "Shears,3", "Copper_Bar,5", "Steel_Bar,0", "Coal,0", "Copper_Ore,0",
                    "Copper_Dagger,3", "Iron_Helm,2", "Iron_Platelegs,1", "Iron_Platebody,0", "Tin_Ore,0",
                    "Bronze_Bar,5", "Bronze_Pickaxe,2", "Bronze_Axe,2", "Bronze_Sword,2", "Bronze_Helm,2",
@@ -2310,11 +2310,11 @@ SHOP_ADD = {      # appended to existing shops when missing
 # ----- Gathering.ini (read by the in-game Help screen). Keys: Gives, Source, Verb, Tool, Skill, Level, XP, Where
 GATHERING = [
     ("Logs from trees", dict(Gives="Logs", Source="Tree001 Tree002", Verb="Chop", Tool="Bronze_Axe/Axe/Steel_Axe/Mithril_Axe", Skill="Woodcutting",
-                             Level="1", XP="0.1", Where="Trees all over the Isle and the Southlands")),
+                             Level="1", XP="0.1", Where="Trees all over Muddlesey and the Southlands")),
     ("Oak logs", dict(Gives="Oak_Logs", Source="Oak_Tree001", Verb="Chop", Tool="Bronze_Axe/Axe/Steel_Axe/Mithril_Axe", Skill="Woodcutting",
-                      Level="10", XP="0.25", Where="Oaks in the Isle's woods, around Northport and Ashford and in the Whispering Woods")),
+                      Level="10", XP="0.25", Where="Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods")),
     ("Willow logs", dict(Gives="Willow_Logs", Source="Willow_Tree001", Verb="Chop", Tool="Bronze_Axe/Axe/Steel_Axe/Mithril_Axe", Skill="Woodcutting",
-                         Level="20", XP="0.4", Where="Willows grow by the water: the Isle's woods, the shores of the Southlands")),
+                         Level="20", XP="0.4", Where="Willows grow by the water: Muddlesey's woods, the shores of the Southlands")),
     ("Yew logs", dict(Gives="Yew_Logs", Source="Yew_Tree001", Verb="Chop", Tool="Bronze_Axe/Axe/Steel_Axe/Mithril_Axe", Skill="Woodcutting",
                       Level="35", XP="0.9", Where="A few ancient yews deep in the Whispering Woods and the eastern woods")),
     ("Fish from the sea", dict(Gives="Raw_Herring", Source="Water001 Water002 Water003 Water004 Water005 Water006 Water007 Water008 Water009",
@@ -2330,17 +2330,17 @@ GATHERING = [
                        Verb="Use", Tool="Fishing_Rod", Skill="Fishing", Level="35", XP="0.6",
                        Where="Any shore, with Bait in your pack (each swordfish uses one)")),
     ("Cave eels", dict(Gives="Raw_Cave_Eel", Source="Cave_Pool001", Verb="Use", Tool="Fishing_Rod", Skill="Fishing",
-                       Level="15", XP="0.3", Where="The black pools in the grotto under the Isle and in the Deep Hollow, with Bait")),
+                       Level="15", XP="0.3", Where="The black pools in the grotto under Muddlesey and in the Deep Hollow, with Bait")),
     ("Water", dict(Gives="Bucket_of_Water", Source="Water001 Water002 Water003 Water004 Water005 Water006 Water007 Water008 Water009 Cave_Pool001",
                    Verb="Use", Tool="Bucket", Skill="", Level="0", XP="0", Where="Any shore or cave pool")),
     ("Iron ore", dict(Gives="Iron_Ore", Source="Ore_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining", Level="1",
-                      XP="0.1", Where="The old iron mine, the mine depths, the grotto under the Isle and the warren")),
+                      XP="0.1", Where="The old iron mine, the mine depths, the grotto under Muddlesey and the warren")),
     ("Copper ore", dict(Gives="Copper_Ore", Source="Copper_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining",
-                        Level="1", XP="0.08", Where="The cellar grotto under the Isle and the old iron mine")),
+                        Level="1", XP="0.08", Where="The cellar grotto under Muddlesey and the old iron mine")),
     ("Tin ore", dict(Gives="Tin_Ore", Source="Tin_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining",
-                     Level="1", XP="0.08", Where="The cellar grotto under the Isle and the old iron mine. Smelt it with copper ore for bronze")),
+                     Level="1", XP="0.08", Where="The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze")),
     ("Coal", dict(Gives="Coal", Source="Coal_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining", Level="5",
-                  XP="0.15", Where="The cellar grotto under the Isle, the mine depths and the guild's deep seam")),
+                  XP="0.15", Where="The cellar grotto under Muddlesey, the mine depths and the guild's deep seam")),
     ("Silver ore", dict(Gives="Silver_Ore", Source="Silver_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining",
                         Level="12", XP="0.25", Where="The mine depths, the guild's deep seam and the hobgoblin warren")),
     ("Gold ore", dict(Gives="Gold_Ore", Source="Gold_Rock001", Verb="Mine", Tool="Bronze_Pickaxe/Pickaxe/Steel_Pickaxe/Mithril_Pickaxe", Skill="Mining", Level="15",
@@ -2353,40 +2353,40 @@ GATHERING = [
     ("Cave mushrooms", dict(Gives="Cave_Mushroom", Source="Mushroom_Patch001", Verb="Pick", Tool="", Skill="Alchemy",
                             Level="1", XP="0.1", Where="Damp corners of every cave and mine")),
     ("Herbs", dict(Gives="Herb", Source="Herb_Patch001", Verb="Pick", Tool="", Skill="Alchemy", Level="1", XP="0.1",
-                   Where="Herb patches in the grass on the Isle and in the Southlands")),
+                   Where="Herb patches in the grass on Muddlesey and in the Southlands")),
     ("Wild herbs", dict(Gives="Herb", Source="Herb", Verb="Pickup", Tool="", Skill="", Level="0", XP="0",
                         Where="Loose herbs lying about in the Southlands (they grow back after a while)")),
     ("Berries", dict(Gives="Berries", Source="Berry_Bush001", Verb="Pick", Tool="", Skill="Alchemy", Level="1",
-                     XP="0.05", Where="Berry bushes on the Isle, around Northport and in the Whispering Woods")),
+                     XP="0.05", Where="Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods")),
     ("Wheat", dict(Gives="Wheat", Source="Ripe_Wheat001 Ripe_Wheat002 Ripe_Wheat003", Verb="Harvest", Tool="", Skill="", Level="0", XP="0",
-                   Where="The wheat field on the Ashford farmlands")),
+                   Where="The wheat field on the Puddleford farmlands")),
     ("Cabbages", dict(Gives="Cabbage", Source="Cabbage", Verb="Pickup", Tool="", Skill="", Level="0", XP="0",
-                      Where="The cabbage rows on the Ashford farmlands")),
+                      Where="The cabbage rows on the Puddleford farmlands")),
     ("Eggs", dict(Gives="Egg", Source="Nest001", Verb="Collect", Tool="", Skill="", Level="0", XP="0",
-                  Where="Hens' nests on the Isle's farm and by the Ashford farmhouse")),
+                  Where="Hens' nests on Muddlesey's farm and by the Puddleford farmhouse")),
     ("Milk", dict(Gives="Bucket_of_Milk", Source="Cow", Verb="Use", Tool="Bucket", Skill="", Level="0", XP="0",
-                  Where="The cows on the Isle's farm and the Ashford farmlands")),
+                  Where="The cows on Muddlesey's farm and the Puddleford farmlands")),
     ("Wool", dict(Gives="Wool", Source="Sheep", Verb="Use", Tool="Shears", Skill="Crafting", Level="1", XP="0.05",
-                  Where="The sheep on the Isle and the Ashford farmlands")),
+                  Where="The sheep on Muddlesey and the Puddleford farmlands")),
 ]
 
 # ----- Quests.ini (read by the in-game Help screen)
 QUESTS = [
     ("Passage to the Mainland", [
         ("Giver", "Woman"), ("Attribute", "FerryQuest"),
-        ("Stage0", "Speak to the ferrywoman at the end of the pier in the south of the Isle."),
-        ("Stage1", "The first crossing needs a ticket. Ask the milkmaid, the ferrywoman's sister, on the farm in the north of the Isle."),
+        ("Stage0", "Speak to the ferrywoman at the end of the pier in the south of Muddlesey."),
+        ("Stage1", "The first crossing needs a ticket. Ask the milkmaid, the ferrywoman's sister, on the farm in the north of Muddlesey."),
         ("Stage2", "Bring the milkmaid 3 eggs from the hens' nests on her farm."),
-        ("Stage3", "Show your ferry ticket to the ferrywoman on the pier and sail to Northport."),
+        ("Stage3", "Show your ferry ticket to the ferrywoman on the pier and sail to Drizzleport."),
         ("Done", "4")]),
     ("King's Hobgoblin Hunt", [
         ("Giver", "King_Tyron"), ("Attribute", "HobgoblinQuest"),
-        ("Stage0", "Speak to King Tyron in his keep, south of Ashford."),
+        ("Stage0", "Speak to King Tyron in his keep, south of Puddleford."),
         ("Stage1", "Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths, the warren or the goblin camp, then return to King Tyron."),
         ("Done", "2")]),
     ("The Herbalist's Remedy", [
         ("Giver", "Herbalist"), ("Attribute", "RemedyQuest"),
-        ("Stage0", "Ask the Herbalist in her cottage on the Ashford farmlands if she needs a hand."),
+        ("Stage0", "Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand."),
         ("Stage1", "Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths)."),
         ("Done", "2")]),
     ("The Dwarf's Grudge", [
@@ -2396,8 +2396,8 @@ QUESTS = [
         ("Done", "2")]),
     ("The Beggar's Lost Key", [
         ("Giver", "Beggar"), ("Attribute", "BeggarQuest"),
-        ("Stage0", "Give the beggar in Ashford a coin and listen to his story."),
-        ("Stage1", "Find the beggar's lost key (the hobgoblins took it down to their warren, below the old iron mine) and unlock his house on the Isle with it."),
+        ("Stage0", "Give the beggar in Puddleford a coin and listen to his story."),
+        ("Stage1", "Find the beggar's lost key (the hobgoblins took it down to their warren, below the old iron mine) and unlock his house on Muddlesey with it."),
         ("Done", "2")]),
 ]
 
@@ -2693,12 +2693,12 @@ def NPC_MOVERS():
 # Notices next to the Locks (map, tile x, tile y): text
 LOCK_NOTICES = {
     ("1,1,0", HOUSE_NOTICE[0], HOUSE_NOTICE[1]):
-        "THE OLD BRICK HOUSE\\Locked up since the owner went to the mainland.\\They say he begs in Ashford now, and lost his key\\to the hobgoblins.",
+        "THE OLD BRICK HOUSE\\Locked up since the owner went to the mainland.\\They say he begs in Puddleford now, and lost his key\\to the hobgoblins.",
     ("2,4,0", 14, 13): "ROYAL TREASURY\\By order of King Tyron this door stays locked,\\save for the hero who drives the hobgoblins\\from the mine.",
-    ("2,4,-1", 6, 9): "THE DEEP SEAM\\Ashford Mining Guild: members only.\\Coal, iron and gold within.",
+    ("2,4,-1", 6, 9): "THE DEEP SEAM\\Puddleford Mining Guild: members only.\\Coal, iron and gold within.",
 }
 # Scripts an earlier version used that are gone now (deleted from data\Scripts if still there)
-OBSOLETE_SCRIPTS = ["Door1 1,1,0",     # the old door hack on the Isle: replaced by the Lock line and Beggar House
+OBSOLETE_SCRIPTS = ["Door1 1,1,0",     # the old door hack on Muddlesey: replaced by the Lock line and Beggar House
                     "2,4,1",           # the wizard's study moved to the palace tower on the Royal Isle (4,4,1)
                     "Wizard Quests", "Wizard Omens", "Wizard Main",  # Talk to Wizard split up (scripts were 99 lines at most)
                     "Use Key With Door001", "Use Key With Door",     # the Key is the Beggars_House_Key now
@@ -2781,7 +2781,7 @@ def door_facing(cells):
 
 
 def hearths(regions):
-    """Ashford's bakery and smithy had a campfire burning on the floor: a hearth in the wall instead (it cooks like a
+    """Puddleford's bakery and smithy had a campfire burning on the floor: a hearth in the wall instead (it cooks like a
     fire): red brick (Fireplace003), in each one's back (north) wall."""
     chars = regions.legend_chars({"Fireplace003"})
     m = W.MAPS["2,3,0"]
@@ -2795,7 +2795,7 @@ def hearths(regions):
 
 
 def furnish_old_houses(regions):
-    """The hand-drawn houses (Northport, Ashford, the farm, the Keep) get what the villages' houses have: a table and
+    """The hand-drawn houses (Drizzleport, Puddleford, the farm, the Keep) get what the villages' houses have: a table and
     chairs, a bookshelf against a wall, a potted plant and a rug, kept clear of the doors, the people and the work
     stations, with every bit of floor still reachable. A room that already has furniture is left as it is."""
     import random
@@ -2873,10 +2873,10 @@ NOTICE_SCRIPT = re.compile(r"Read Notice(-?\d+,-?\d+,-?\d+)-(\d+),(\d+)$")
 
 
 # Notices whose title doesn't make a good Id: (how its text starts, the Id)
-NOTICE_NAMES = [("EAST: the bridge to Wardhaven", "Wardhaven_Bridge"), ("GO AWAY HOOMANS", "Goblin_Camp_Sign"),
-                ("WEST: Ashford\\SOUTH", "Farmlands_Crossroads"), ("WARDHAVEN\\East: the walled town", "Wardhaven_Road"),
+NOTICE_NAMES = [("EAST: the bridge to Sulkhaven", "Sulkhaven_Bridge"), ("GO AWAY HOOMANS", "Goblin_Camp_Sign"),
+                ("WEST: Puddleford\\SOUTH", "Farmlands_Crossroads"), ("SULKHAVEN\\East: the walled town", "Sulkhaven_Road"),
                 ("KEEP OUT OF THE WATER", "Keep_Out_Of_The_Water")]
-# The Isle's own notice (an original map, so its line is replaced through patches()): map, x, y, text
+# Muddlesey's own notice (an original map, so its line is replaced through patches()): map, x, y, text
 ISLE_NOTICE = ("1,1,0", 212, 594, "KEEP OUT OF THE WATER!")
 
 
@@ -2919,7 +2919,7 @@ def notice_ids():
         if spec is not None:
             spec["entities"] = [tuple(e[:4]) + ("Id=" + nid,) if tuple(e[:4]) == ("StaticObject", "Notice", x, y)
                                 else e for e in spec["entities"]]
-    for sname, steps in W.S.items():                 # notices a map-entry script adds (the Isle's pier)
+    for sname, steps in W.S.items():                 # notices a map-entry script adds (Muddlesey's pier)
         for i, st in enumerate(steps):
             if isinstance(st, tuple) and st[0] == "Add.Entity" and st[2] == "Notice":
                 if st[1] in PL.PLACES:                      # a place: the notice stands on its tile (as the game
@@ -3054,7 +3054,7 @@ def thin_walls(cells):
 
 
 def restyle_old_houses(regions):
-    """The Southlands' hand-drawn brick houses (Northport, Ashford, the farm) get the villages' look: a shingle roof with
+    """The Southlands' hand-drawn brick houses (Drizzleport, Puddleford, the farm) get the villages' look: a shingle roof with
     eaves, a ridge and a chimney, and where the front wall with the door is just below the roof, an upper storey under
     the eaves and windows either side of the door. Houses facing north (the roof below the wall) get the roof, and
     windows upside down (Brick_Window003, the sill at the top) either side of the door in the wall above it;
@@ -3160,7 +3160,7 @@ def extend(world):
     build_regions.extend(W, sys.modules[__name__])
     import build_eastreach                                  # the Eastreach: 16 maps over the old bridge, 2 quests
     build_eastreach.extend(W, sys.modules[__name__], build_regions)
-    import build_walled                                     # Wardhaven: a walled town, shut until the dragon is dead
+    import build_walled                                     # Sulkhaven: a walled town, shut until the dragon is dead
     build_walled.extend(W, sys.modules[__name__], build_regions)
     import build_palace                                     # King Tyron's palace on the Royal Isle (4,4,0)
     build_palace.extend(W, sys.modules[__name__], build_regions)
@@ -3196,8 +3196,8 @@ def extend(world):
     W.LADDER_DIR.update({"Ladder004": 1, "Ladder005": -1, "Ladder006": -1, "Ladder007": -1,
                          "Ladder008": 1, "Ladder009": -1, "Stairs001": 1, "Stairs002": -1})
     W.LADDER_SPECIAL.clear()
-    # the notice by the grotto hole on the Isle (2,1,0 is an original map: the notice itself is a patch)
-    text = "THE GROTTO\\A ladder goes down into the caves under the Isle.\\Rats and bats below. Bring a lantern... and a sword."
+    # the notice by the grotto hole on Muddlesey (2,1,0 is an original map: the notice itself is a patch)
+    text = "THE GROTTO\\A ladder goes down into the caves under Muddlesey.\\Rats and bats below. Bring a lantern... and a sword."
     W.S[W.notice_script_name("2,1,0", 22, 11)] = [("Display.Conversation", "Notice", text, "Okay", "@end"), "end:", ("End",)]
     # notices that hint at the Locks
     for (mname, tx, ty), text in LOCK_NOTICES.items():

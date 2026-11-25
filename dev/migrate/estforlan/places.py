@@ -15,14 +15,14 @@ import towns as OLD
 OPEN_GROUND = ("Grass001", "Sand001", "Snow001", "Marsh001", "Ash001", "Cinder001", "Dirt001")
 
 # The old towns' maps: which settlement each was (their people go to it)
-OLD_TOWN = {"0,3,0": "Northport", "1,3,0": "Northport", "0,6,0": "Wildwood", "0,8,0": "Saltmarsh", "1,8,0": "Fenwick",
-            "1,10,0": "Dunerest", "1,9,0": "Dunerest", "1,6,0": "Oakhollow", "1,7,0": "Oakhollow",
-            "2,3,0": "Ashford", "3,4,0": "Ashford", "2,4,0": "Keep", "2,5,0": "Keep", "2,8,0": "Fenwick",
-            "3,8,0": "Fenwick", "3,6,0": "Greyford", "4,8,0": "Highwatch", "4,9,0": "Frosthold",
-            "4,10,0": "Frosthold", "5,4,0": "Court", "7,4,0": "Emberwatch", "8,4,0": "Emberwatch", "7,6,0": "Thornwick",
-            "8,7,0": "Ravensgate", "8,8,0": "Ravensgate", "12,6,0": "Galaith", "13,6,0": "Galaith",
-            "5,2,0": "Wardhaven", "5,3,0": "Wardhaven", "4,2,0": "Wardhaven", "4,3,0": "Wardhaven",
-            "3,3,0": "Wardhaven"}
+OLD_TOWN = {"0,3,0": "Drizzleport", "1,3,0": "Drizzleport", "0,6,0": "Wildwood", "0,8,0": "Brinebottom", "1,8,0": "Fenwick",
+            "1,10,0": "Dunerest", "1,9,0": "Dunerest", "1,6,0": "Acornby", "1,7,0": "Acornby",
+            "2,3,0": "Puddleford", "3,4,0": "Puddleford", "2,4,0": "Keep", "2,5,0": "Keep", "2,8,0": "Fenwick",
+            "3,8,0": "Fenwick", "3,6,0": "Dullford", "4,8,0": "Squintwatch", "4,9,0": "Chillingham",
+            "4,10,0": "Chillingham", "5,4,0": "Court", "7,4,0": "Emberwatch", "8,4,0": "Emberwatch", "7,6,0": "Nettlewick",
+            "8,7,0": "Crowgate", "8,8,0": "Crowgate", "12,6,0": "Galaith", "13,6,0": "Galaith",
+            "5,2,0": "Sulkhaven", "5,3,0": "Sulkhaven", "4,2,0": "Sulkhaven", "4,3,0": "Sulkhaven",
+            "3,3,0": "Sulkhaven"}
 # who isn't moved: each new town has its own (bankers, sheriffs, constables, its stalls, a smithy's anvil), or they
 # belonged to chapters that are gone
 DROPPED = {"Banker", "Sheriff", "Constable", "Anvil", "Furnace", "Notice", "Ashen_Acolyte"}
@@ -30,12 +30,12 @@ DROPPED_IDS = re.compile(r"Id=Market_Vendor_\d")
 # the quest people who work in a town's building (settlements.Plan.adopt puts them at its desk): settlement ->
 # [(the building's name, its kind, their map line)]
 STAFF = {
-    "Northport": [("City Hall", "parliament", "NPC\tSpeaker\t0\t0\tAttitude=Good Stand=1 Face=S Id=Northport_Speaker_20")],
+    "Drizzleport": [("City Hall", "parliament", "NPC\tSpeaker\t0\t0\tAttitude=Good Stand=1 Face=S Id=Drizzleport_Speaker_20")],
     "Galaith": [("Parliament", "parliament", "NPC\tChancellor\t0\t0\tAttitude=Good Stand=1 Face=S "
                                              "Id=Galaith_Speaker_70 Name=Lord_Chancellor_Vane"),
                 ("City Hall", "hall", "NPC\tArchivist\t0\t0\tAttitude=Good Stand=1 Face=S Id=Galaith_Clerk_73 "
                                       "Name=Archivist_Sefton")],
-    "Ashford": [("Town Hall", "hall", "NPC\tMayor\t0\t0\tAttitude=Good Stand=1 Face=S Id=Ashford_Clerk_13 "
+    "Puddleford": [("Town Hall", "hall", "NPC\tMayor\t0\t0\tAttitude=Good Stand=1 Face=S Id=Puddleford_Clerk_13 "
                                       "Name=Mayor_Hollis")],
 }
 # lifted lines that don't come along (the old cart network: the new city has its own)

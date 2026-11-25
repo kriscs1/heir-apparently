@@ -121,7 +121,7 @@ function placeChat() {
   box.style.bottom = "auto";
 }
 
-// ----- the login screen's film of Northport: playing while it's there; the still picture for less motion
+// ----- the login screen's film of Drizzleport: playing while it's there; the still picture for less motion
 const loginVideo = $("login-video");
 const stillPlease = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : { matches: false };
 function loginFilm() {
@@ -749,7 +749,7 @@ function showDemo(m) {
   if (m.why === "end") { showDemoEnd(m); return; }
   if (m.why === "border") {
     releaseKeys();
-    showMessage("The demo", "That's as far as the demo goes: the full game goes on from here, past the Isle to the " +
+    showMessage("The demo", "That's as far as the demo goes: the full game goes on from here, past Muddlesey to the " +
       "mainland, its towns and the rest of the story. " + BUY_WORDS);
   } else if (m.why === "level") {
     releaseKeys();
@@ -758,7 +758,7 @@ function showDemo(m) {
   }
 }
 
-// the ferry, papers in hand (demo.py demo_end): the Isle's story done, as far as the demo goes
+// the ferry, papers in hand (demo.py demo_end): Muddlesey's story done, as far as the demo goes
 function showDemoEnd(m) {
   const fill = (id, rows) => {
     const list = $(id);
@@ -1056,7 +1056,7 @@ function showCharacters(m) {
     const name = document.createElement("b");
     name.textContent = ch.name;
     const level = document.createElement("small");
-    level.textContent = m.demo ? `Level ${Math.min(ch.level || 1, m.demo)} · Demo: the Isle, level ${m.demo}` :
+    level.textContent = m.demo ? `Level ${Math.min(ch.level || 1, m.demo)} · Demo: Muddlesey, level ${m.demo}` :
       `Level ${ch.level || 1}`;
     words.append(name, level);
     b.append(portrait(ch.look || DEFAULT_LOOK), words);

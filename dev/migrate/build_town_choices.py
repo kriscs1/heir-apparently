@@ -3,15 +3,15 @@ town that opens to those it trusts, and a choice in the towns that had none.
 
   * Mirefold's huts open: each had a thin wall along its bottom row as well as its front wall below, so its door led
     nowhere (build_mirefen.py draws them right now).
-  * The Court's gate and Wardhaven's are barred to an Outlaw of the town after dark ($World.Dark), and say why.
-  * A house in each mainland town (not the Isle: every house there is the first quests') is locked to all but those
+  * The Court's gate and Sulkhaven's are barred to an Outlaw of the town after dark ($World.Dark), and say why.
+  * A house in each mainland town (not Muddlesey: every house there is the first quests') is locked to all but those
     the town trusts ($Standing.<Town>>=45), with a chest of the town's thanks inside, once each.
   * The Deserter (the Keep): Sergeant Brask wants the boy who ran from the levy. Tell him where Pip hides (the Keep
-    +15), or pay Pip's way south on a carter's cart (the Keep -10; Pip turns up in Saltmarsh). (DeserterWay: 1, 2.)
+    +15), or pay Pip's way south on a carter's cart (the Keep -10; Pip turns up in Brinebottom). (DeserterWay: 1, 2.)
   * The Dry Spring (Dunerest): Elder Sabra's spring has failed; Corvin the water-seller dammed it. Pull the dam down
     (Dunerest +15) or take Corvin's 100 gold to leave it (Dunerest -10). (WellWay: 1 the bribe, 2 the dam down.)
-  * The Eel Traps (Saltmarsh): someone cuts Wenna's traps. It's Tobin, whose father's sick. Tell her (Saltmarsh +5,
-    and her gold), or keep his secret, mend the traps and talk her into sharing her catch (Saltmarsh +15).
+  * The Eel Traps (Brinebottom): someone cuts Wenna's traps. It's Tobin, whose father's sick. Tell her (Brinebottom +5,
+    and her gold), or keep his secret, mend the traps and talk her into sharing her catch (Brinebottom +15).
     (EelWay: 1 told, 2 kept.)
   * Marsh Fever (Mirefold): Bryony the healer wants to know what's in Doctor Pallister's cure. Swamp water. Take his
     cut to keep quiet (Mirefold -15), or run him out of the marsh (Mirefold +15; Bryony sells her fever tonic).
@@ -31,7 +31,7 @@ import story_kit as K                           # noqa: E402
 MAKER = "build_town_choices.py"
 KEEP, KEEP_WOODS = "26,19,0", "25,20,0"
 DUNEREST, SPRING = "3,21,0", "3,20,0"
-SALTMARSH, SALT_EDGE = "11,23,0", "12,23,0"
+BRINEBOTTOM, SALT_EDGE = "11,23,0", "12,23,0"
 MIREFOLD, MIRE_WALK = "-6,4,0", "-6,5,0"
 
 
@@ -56,8 +56,8 @@ GATES = {   # map: [(x, y, the closed tile, its condition, its message)]
     "21,5,0": [(12, 16, "City_Gate003", "$Standing.Court>=-60 or $World.Dark=0", NIGHT),
                (12, 17, "City_Gate001", "$Standing.Court>=-60 or $World.Dark=0", NIGHT)],
     "16,3,0": [(x, 3, "City_Gate001",
-                "$Attr.WardhavenQuest>=3 and $Standing.Wardhaven>=-60 or $Attr.WardhavenQuest>=3 and $World.Dark=0",
-                "The gates of Wardhaven are barred. Nobody answers from the wall. [if $Attr.WardhavenQuest<3] | " +
+                "$Attr.SulkhavenQuest>=3 and $Standing.Sulkhaven>=-60 or $Attr.SulkhavenQuest>=3 and $World.Dark=0",
+                "The gates of Sulkhaven are barred. Nobody answers from the wall. [if $Attr.SulkhavenQuest<3] | " +
                 NIGHT) for x in (13, 14)],
 }
 
@@ -65,23 +65,23 @@ GATES = {   # map: [(x, y, the closed tile, its condition, its message)]
 # ================================================================== the Trusted doors
 TRUSTED = [  # (town, map, the door, the chest (its map if not the door's: a cellar), what the lock says, what the chest
              #  gives, what's said). The chest stands where it can't be reached through a wall (validate.py).
-    ("Northport", "2,7,0", (12, 7), (13, 5), "The harbour pilots' house. They open it to friends of Northport, and "
+    ("Drizzleport", "2,7,0", (12, 7), (13, 5), "The harbour pilots' house. They open it to friends of Drizzleport, and "
      "nobody else.", [("Mega_Potion", 2), ("Wardbound_Sealskin_Boots", 1), ("Gold_Coin(s)", 150)],
      "The pilots' chest, and a note on top: \"For a friend of the harbour.\""),
-    ("Ashford", "11,-1,0", (10, 7), (11, 5), "Locked. Whoever lives here likes it that way, and only opens it to "
+    ("Puddleford", "11,-1,0", (10, 7), (11, 5), "Locked. Whoever lives here likes it that way, and only opens it to "
      "friends of the town.", [("Major_Healing_Draught", 2), ("Emerald_Ring", 1), ("Gold_Coin(s)", 120)],
-     "A chest, and a note in a careful hand: \"Ashford doesn't forget a friend.\""),
-    ("Oakhollow", "9,11,0", (4, 15), (6, 13), "The old forester's door. Oakhollow keeps it for those it trusts.",
+     "A chest, and a note in a careful hand: \"Puddleford doesn't forget a friend.\""),
+    ("Acornby", "9,11,0", (4, 15), (6, 13), "The old forester's door. Acornby keeps it for those it trusts.",
      [("Quiet_Draught", 3), ("Magic_Potion", 2), ("Gold_Coin(s)", 100)],
      "The forester's chest. The village has left you something in it."),
-    ("Greyford", "13,8,0", (9, 17), (7, 14), "The miners' strongroom. Greyford opens it to friends, and keeps the key "
+    ("Dullford", "13,8,0", (9, 17), (7, 14), "The miners' strongroom. Dullford opens it to friends, and keeps the key "
      "close.", [("Mithril_Bar", 2), ("Gold_Coin(s)", 150)],
-     "The miners' chest: two bars of mithril, put by for a friend of Greyford."),
+     "The miners' chest: two bars of mithril, put by for a friend of Dullford."),
     ("Wildwood", "2,9,0", (18, 18), (19, 15), "Shut. The woodsfolk here open their doors to friends, and you're not "
      "one yet.", [("Major_Healing_Draught", 1), ("Quiet_Draught", 2), ("Gold_Coin(s)", 100)],
      "A chest under the bed, and a sprig of oak tied to its lid: Wildwood's thanks."),
-    ("Thornwick", "20,14,0", (15, 8), (17, 5), "Locked. Thornwick's elders meet here, and only with friends.",
-     [("Ruby_Ring", 1), ("Gold_Coin(s)", 150)], "The elders' chest. A ruby ring, and a word: \"With Thornwick's "
+    ("Nettlewick", "20,14,0", (15, 8), (17, 5), "Locked. Nettlewick's elders meet here, and only with friends.",
+     [("Ruby_Ring", 1), ("Gold_Coin(s)", 150)], "The elders' chest. A ruby ring, and a word: \"With Nettlewick's "
                                                 "thanks.\""),
     ("Court", "19,4,0", (23, 20), (20, 17), "A wizard's door. The Court lets in those it trusts, and nobody else.",
      [("Shard_Ward_Scroll", 2), ("Magic_Potion", 2), ("Gold_Coin(s)", 150)],
@@ -89,17 +89,17 @@ TRUSTED = [  # (town, map, the door, the chest (its map if not the door's: a cel
     ("Emberwatch", "26,5,0", (10, 14), (8, 11), "The watch's house. Emberwatch opens it to friends of the wall.",
      [("Ember_Tonic", 3), ("Wardbound_Steel_Helm", 1)], "The watch's chest: a helm and tonics, for a friend of the "
                                                          "wall."),
-    ("Wardhaven", "17,2,0", (3, 15), (3, 13), "Barred. The folk of Wardhaven open their doors to friends, and you're "
+    ("Sulkhaven", "17,2,0", (3, 15), (3, 13), "Barred. The folk of Sulkhaven open their doors to friends, and you're "
      "not one yet.",
      [("Wardbound_Gold_Ring", 1), ("Gold_Coin(s)", 100)], "A Warden's chest, and a gold ring with their seal."),
     ("Keep", "25,20,0", (19, 7), ("25,20,-1", 15, 4), "The King's men's house. They open it to friends of the Keep.",
      [("Steel_Shield", 1), ("Gold_Coin(s)", 200)], "The garrison's chest: a steel shield, and the Keep's thanks."),
-    ("Frosthold", "17,21,0", (13, 6), ("17,21,-1", 13, 3), "Locked. Frosthold's door is open to friends, and shut to the rest.",
+    ("Chillingham", "17,21,0", (13, 6), ("17,21,-1", 13, 3), "Locked. Chillingham's door is open to friends, and shut to the rest.",
      [("Mithril_Gauntlets", 1), ("Gold_Coin(s)", 100)], "A chest, and a pair of mithril gauntlets wrapped in fur."),
     ("Dunerest", "4,21,0", (3, 18), ("4,21,-1", 3, 16), "A merchant's house. Dunerest opens it to those it trusts.",
      [("Sapphire_Ring", 1), ("Gold_Coin(s)", 120)], "The merchant's chest, and a sapphire ring for a friend of "
                                                     "Dunerest."),
-    ("Saltmarsh", "11,23,0", (17, 19), (18, 17), "The fishers' house. Saltmarsh opens it to friends.",
+    ("Brinebottom", "11,23,0", (17, 19), (18, 17), "The fishers' house. Brinebottom opens it to friends.",
      [("Mega_Potion", 2), ("Gold_Coin(s)", 120)], "The fishers' chest. They've put by something for you."),
     ("Mirefold", "-6,4,0", (2, 15), (2, 13), "Shut. Mirefold's folk open their doors to friends of the marsh.",
      [("Fever_Tonic", 3), ("Major_Healing_Draught", 2), ("Gold_Coin(s)", 100)],
@@ -181,19 +181,19 @@ WELL = ["Giver=Elder", "Attribute=WellQuest",
         "Rumour=Dunerest's well is low, they say, and Corvin the water-seller has never been richer."]
 
 EELS = ["Giver=Woman", "Attribute=EelQuest",
-        "Stage0=Wenna, an eel-catcher in Saltmarsh, has trouble with her traps.",
+        "Stage0=Wenna, an eel-catcher in Brinebottom, has trouble with her traps.",
         "Stage1=Someone's been cutting Wenna's eel traps in the night. Find out who: the reeds east of the "
         "village are the place to look.",
         "Stage2=It's Tobin cutting Wenna's traps: his father's sick, and she took his trapping place. Tell Wenna.",
         "Stage3=You'll keep Tobin's secret. Bring Wenna 3 planks to mend her traps, and talk to her about Tobin's "
         "father.",
-        "Done=4", "Marker0=Eel_Catcher_Wenna", "Marker1=Saltmarsh_Tobin", "Marker2=Eel_Catcher_Wenna",
+        "Done=4", "Marker0=Eel_Catcher_Wenna", "Marker1=Brinebottom_Tobin", "Marker2=Eel_Catcher_Wenna",
         "Marker3=Eel_Catcher_Wenna", "Type=Side", "Requires.Quests=" + MAINLAND, "Reward.Shards=8",
         "Ending=EelWay",
         "Ending1=You told Wenna it was Tobin. His mother's sent him to an uncle inland.",
         "Ending2=You mended Wenna's traps, and she shares her catch with Tobin's father now.",
-        "Reward.Standing1=Saltmarsh 5", "Reward.Standing2=Saltmarsh 15",
-        "Rumour=Somebody's cutting the eel traps at Saltmarsh, they say."]
+        "Reward.Standing1=Brinebottom 5", "Reward.Standing2=Brinebottom 15",
+        "Rumour=Somebody's cutting the eel traps at Brinebottom, they say."]
 
 FEVER = ["Giver=Woman", "Attribute=FeverQuest",
          "Stage0=Bryony, Mirefold's healer, has her doubts about a doctor.",
@@ -231,9 +231,9 @@ PLACES = {   # map: [(Id, the line)]
     KEEP: [npc("Constable", 14, 9, "Keep_Sergeant_Brask", "Sergeant_Brask")],
     KEEP_WOODS: [npc("Villager", 13, 11, "Deserter_Pip", "Pip", "Here.After=DeserterQuest:1 "
                                                                  "Gone.After=DeserterQuest:3")],
-    SALTMARSH: [npc("Woman", 16, 11, "Eel_Catcher_Wenna", "Wenna", face="W"),
-                npc("Villager", 4, 12, "Saltmarsh_Pip", "Pip", "Here.After=DeserterWay:2")],
-    SALT_EDGE: [npc("Villager", 5, 12, "Saltmarsh_Tobin", "Tobin", "Here.After=EelQuest:1 Gone.After=EelWay:1")],
+    BRINEBOTTOM: [npc("Woman", 16, 11, "Eel_Catcher_Wenna", "Wenna", face="W"),
+                npc("Villager", 4, 12, "Brinebottom_Pip", "Pip", "Here.After=DeserterWay:2")],
+    SALT_EDGE: [npc("Villager", 5, 12, "Brinebottom_Tobin", "Tobin", "Here.After=EelQuest:1 Gone.After=EelWay:1")],
     DUNEREST: [npc("Elder", 9, 12, "Dunerest_Elder_Sabra", "Elder_Sabra"),
                npc("Merchant", 17, 12, "Water_Seller_Corvin", "Corvin")],
     SPRING: [("Dunerest_Dam", obj_line("StaticObject", "Spring_Dam", 12, 8, "Id=Dunerest_Dam Here.After=WellQuest:1 "
@@ -281,7 +281,7 @@ def chest_at(t):
 
 def place():
     names = set(PLACES) | set(PLACE_IDS) | set(GATES) | {t[1] for t in TRUSTED} | {chest_at(t)[0] for t in TRUSTED}
-    names |= {"-6,5,0", "17,2,0"}                                   # (where Mirefold's and Wardhaven's were first)
+    names |= {"-6,5,0", "17,2,0"}                                   # (where Mirefold's and Sulkhaven's were first)
     for name in sorted(names):
         m = Map(name)
         before = (list(m.ents), [list(r) for r in m.rows])
@@ -477,7 +477,7 @@ def wenna():
             ("Not now.", "@end")), ("End",),
         ("@start",), ("Update.Attribute", "EelQuest", "=1"),
         ("Quest.Note", "EelQuest", "Someone's been cutting Wenna's eel traps in the night. The reeds east of "
-                                   "Saltmarsh are the place to look."),
+                                   "Brinebottom are the place to look."),
         msg("Quest started: The Eel Traps."), ("End",),
         ("@begun",), (">Conditional", "$Variable.1<=3", "@done"),
         (">Conditional", "$Variable.1>=2", "@looking"),
@@ -608,12 +608,12 @@ def scripts():
         K.write_script("Open " + trusted_id(town), trusted_chest(town, gives, words), MAKER)
     K.write_script("Talk to Keep_Sergeant_Brask", brask(), MAKER)
     K.write_script("Talk to Deserter_Pip", pip(), MAKER)
-    K.write_script("Talk to Saltmarsh_Pip", pip_saltmarsh(), MAKER)
+    K.write_script("Talk to Brinebottom_Pip", pip_saltmarsh(), MAKER)
     K.write_script("Talk to Dunerest_Elder_Sabra", sabra(), MAKER)
     K.write_script("Talk to Water_Seller_Corvin", corvin(), MAKER)
     K.write_script("Break Dunerest_Dam", dam(), MAKER)
     K.write_script("Talk to Eel_Catcher_Wenna", wenna(), MAKER)
-    K.write_script("Talk to Saltmarsh_Tobin", tobin(), MAKER)
+    K.write_script("Talk to Brinebottom_Tobin", tobin(), MAKER)
     K.write_script("Talk to Mirefold_Healer_Bryony", bryony(), MAKER)
     K.write_script("Talk to Doctor_Pallister", pallister(), MAKER)
 

@@ -5,14 +5,14 @@
 04	>Conditional	$Variable.2=1	37
 05	Get.Value	ATTRIBUTE	BanditQuest	Variable.4$
 06	>Conditional	$Variable.4=3 and $Item.Stolen_Goods>=1	16
-07	Display.Conversation	Captain	What's that you're carrying? Frosthold's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Frosthold need ever know where they went.	Sell them to Meg.	09	They're going back to Hale.	54
+07	Display.Conversation	Captain	What's that you're carrying? Chillingham's goods, off the Redrock road, unless I miss my guess.\Hale will give you a pat on the back for them. I'll give you 300 gold, and nobody in Chillingham need ever know where they went.	Sell them to Meg.	09	They're going back to Hale.	54
 08	End
 09	Take.Item	Stolen_Goods	1
 10	Give.Item	Gold_Coin(s)	300
 11	Update.Attribute	BanditWay	=2
 12	Update.Attribute	BanditQuest	=4
 13	Quest.Note.Done	BanditQuest	*
-14	Display.Message	Yellow	Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Frosthold won't thank you.
+14	Display.Message	Yellow	Quest complete: Bandits on the Road... sold to Red Meg, for 300 gold. Chillingham won't thank you.
 15	End
 16	Get.Value	ATTRIBUTE	UnderTideQuest	Variable.3$
 17	>Conditional	$Variable.3=0	24

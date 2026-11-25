@@ -172,7 +172,7 @@ class Wonders:
 
     def ship_comes(self, n):
         w = self.w
-        ports = [trim(v) for v in self.setting("Ghost_Ship", "Ports", "Northport_Port").split(",") if trim(v)]
+        ports = [trim(v) for v in self.setting("Ghost_Ship", "Ports", "Drizzleport_Port").split(",") if trim(v)]
         self.rng.shuffle(ports)
         for name in ports:
             pl = w.data.place(name)

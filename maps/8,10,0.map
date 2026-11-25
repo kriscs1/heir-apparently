@@ -20,12 +20,12 @@ Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Grass001:Grass001:Gr
 Grass001:Grass001:Grass001+Decor(Wood_Fence002):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001+Decor(Lamp_Post001):Gravel001
 Grass001:Grass001:Grass001+Decor(Wood_Fence002):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001
 NPC	Dog	704	504	Attitude=Good Zone=18,13,24,20 Pause=4-12
-NPC	Clerk	544	248	Attitude=Good Stand=1 Face=S Id=Oakhollow_Clerk_310
-NPC	Doctor	256	440	Attitude=Good Stand=1 Face=S Id=Oakhollow_Doctor_316 Name=Ned
+NPC	Clerk	544	248	Attitude=Good Stand=1 Face=S Id=Acornby_Clerk_310
+NPC	Doctor	256	440	Attitude=Good Stand=1 Face=S Id=Acornby_Doctor_316 Name=Ned
 StaticObject	Shardstone	704	576
-StaticObject	Notice	672	578	Id=Oakhollow_Notice_308
-StaticObject	Notice	736	386	Id=Oakhollow_Notice_311
-StaticObject	Notice	384	514	Id=Oakhollow_Notice_317
-Id	Waystone_Oakhollow	23	20
-Id	Oakhollow_Village_Hall	22	14
+StaticObject	Notice	672	578	Id=Acornby_Notice_308
+StaticObject	Notice	736	386	Id=Acornby_Notice_311
+StaticObject	Notice	384	514	Id=Acornby_Notice_317
+Id	Waystone_Acornby	23	20
+Id	Acornby_Village_Hall	22	14
 StaticObject	Valuables	320	376

@@ -106,7 +106,7 @@ def inside_coast(gx, gy):
 
 
 def in_zone(gx, gy):
-    """Where the coast may change: the west of the world (never the Isle, never east of the range's spine)."""
+    """Where the coast may change: the west of the world (never Muddlesey, never east of the range's spine)."""
     return gx <= 7 and 42 <= gy <= 470
 
 

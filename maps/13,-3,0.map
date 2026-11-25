@@ -65,7 +65,7 @@ NPC	Blue_Butterfly	32	448	Attitude=Good
 NPC	Duck	480	320	Attitude=Passive
 StaticObject	Sign_Farm	352	400
 StaticObject	Sign_Herbalist	704	528
-NPC	Barkeep	224	376	Attitude=Good Stand=1 Face=S Id=Ashford_Barkeep_16 Name=Albert
-NPC	Barmaid	256	440	Attitude=Good Zone=7,15,10,15 Pause=3-9 Id=Ashford_Barmaid_17 Name=Sybil
+NPC	Barkeep	224	376	Attitude=Good Stand=1 Face=S Id=Puddleford_Barkeep_16 Name=Albert
+NPC	Barmaid	256	440	Attitude=Good Zone=7,15,10,15 Pause=3-9 Id=Puddleford_Barmaid_17 Name=Sybil
 StaticObject	Sign_Pub	288	496
-StaticObject	Notice	192	514	Id=Ashford_Notice_18
+StaticObject	Notice	192	514	Id=Puddleford_Notice_18

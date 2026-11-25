@@ -1,9 +1,9 @@
-"""Old Hob: a quest about an NPC who changes sides (Set.NPC.Attitude), round the locked house in Oakhollow.
+"""Old Hob: a quest about an NPC who changes sides (Set.NPC.Attitude), round the locked house in Acornby.
 
 Not run on its own: build_content.extend() calls extend() here after build_dragon (so the dragon quest doesn't wait for
 it: it is a side quest) and before the quest notes and markers, so `python -I "dev\\migrate\\build_world.py"` builds it.
 
-  * Old Hob's house in Oakhollow is boarded up (build_regions.locked_house); you climb in through the loose window.
+  * Old Hob's house in Acornby is boarded up (build_regions.locked_house); you climb in through the loose window.
     His diary (Hobs_Diary, Read) starts the quest: a giant spider bit him and he feels himself going wild.
   * Morwen the witch in Fenwick brews a Calming_Draught (a branch at the top of Talk to Witch).
   * Hob is a wild man in the western woods: an NPC whose map line says Attitude=Bad Id=OldHob, so he attacks on sight.
@@ -17,8 +17,8 @@ W = C = R = None        # build_world, build_content, build_regions
 
 QUEST = ("Old Hob", [
     ("Giver", "Hob"), ("Attribute", "HobQuest"),
-    ("Stage0", "Old Hob of Oakhollow went missing, and his house is boarded up. One of its shutters hangs loose..."),
-    ("Stage1", "Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Saltmarsh for a cure."),
+    ("Stage0", "Old Hob of Acornby went missing, and his house is boarded up. One of its shutters hangs loose..."),
+    ("Stage1", "Old Hob's diary: a giant spider bit him and he feels himself going wild. Ask Morwen the witch in Brinebottom for a cure."),
     ("Stage2", "Find the wild man in the western woods of the Wildwood and use Morwen's calming draught on him."),
     ("Stage3", "Hob is himself again! Talk to him."),
     ("Done", "4"),
@@ -74,7 +74,7 @@ def scripts():
         ("Display.Conversation", "Hobs_Diary",
          "...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and "
          "won't heal.\\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get "
-         "out at night.\\If I go wild, someone fetch Morwen in Saltmarsh. She'll know a cure.  - Hob",
+         "out at night.\\If I go wild, someone fetch Morwen in Brinebottom. She'll know a cure.  - Hob",
          "Close the diary.", "@read"),
         "read:",
         ("Get.Value", "ATTRIBUTE", "HobQuest", "Variable.1$"),
@@ -161,7 +161,7 @@ def scripts():
         "kept:",
         ("Update.Attribute", "HobQuest", "=4"),
         ("Update.Attribute", "HobsDoorOpen", "=1"),
-        ("Quest.Note", "HobQuest", "Hob says the savings in his chest are yours. His house is in Oakhollow, and the door's open now."),
+        ("Quest.Note", "HobQuest", "Hob says the savings in his chest are yours. His house is in Acornby, and the door's open now."),
         conv("You brought me back. I remember the spider, the woods, the hunger. And you.\\Thank you, friend. My door "
              "is open now, and what's in my chest is yours: you've earned it.", ("Thank you, Hob.", "@thanked")),
         "thanked:",

@@ -1,4 +1,4 @@
-"""Rumours: townsfolk mention a quest you could start and haven't (the owner's wish: "I heard such and such in Ashford is
+"""Rumours: townsfolk mention a quest you could start and haven't (the owner's wish: "I heard such and such in Puddleford is
 looking for help"). Each quest says what's said of it (Quests.ini Rumour=, and Rumour.2=, Rumour.3= for other ways of
 putting it); the kinds who gossip say so (Entities.ini Gossip=1: build_rumours.py); how often is Config.ini [Rumours].
 

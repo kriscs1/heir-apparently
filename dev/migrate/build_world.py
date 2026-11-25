@@ -11,10 +11,10 @@ New tile sprites come from build_tiles.py (run it first).
 
 How the Southlands connect to the original island (whose edges are all sea, so nothing can be walked to):
   * A ferry. "1,2,0.script" (the entry script of the island's pier map) puts the ferrywoman (Woman) at the
-    end of the pier and a notice by it; talking to her sails to the Northport pier (1,3,0) and back.
+    end of the pier and a notice by it; talking to her sails to the Drizzleport pier (1,3,0) and back.
   * The Wizard in the palace tower on the Royal Isle (4,4,1) can also send you back to the island.
 Ladders: Ladder001/Ladder004 = Climb Up (Z+1), Ladder002/005/006/007 = Climb Down (Z-1), always to the
-same X,Y. (The house on the Isle, 1,1,0, used to have a ladder UP to 1,1,-1; build_content.py turned it into a
+same X,Y. (The house on Muddlesey, 1,1,0, used to have a ladder UP to 1,1,-1; build_content.py turned it into a
 hatch down to what is now its cellar, so there are no special cases any more.)
 
 After building, the checks at the bottom print every problem found:
@@ -150,7 +150,7 @@ def notice_script_name(map_name, tx, ty):
 # ------------------------------------------------------------------------------------------- maps
 MAPS = {}
 
-# 1,3,0  Northport: the ferry pier, a beach and a fisher's hut. Road east to Ashford, south to the woods.
+# 1,3,0  Drizzleport: the ferry pier, a beach and a fisher's hut. Road east to Puddleford, south to the woods.
 MAPS["1,3,0"] = dict(
     rows=[
         "~~~~~~~~~~~~~~~~~~~~~~~~~",
@@ -187,7 +187,7 @@ MAPS["1,3,0"] = dict(
     ],
 )
 
-# 2,3,0  Ashford: the village. Bakery and general store north of the high street, bank and smithy south of it (their
+# 2,3,0  Puddleford: the village. Bakery and general store north of the high street, bank and smithy south of it (their
 # doors on their south sides, like every house: a path from each joins the road down the middle).
 MAPS["2,3,0"] = dict(
     rows=[
@@ -410,11 +410,11 @@ NEW_MAPS = list(MAPS)
 
 # ------------------------------------------------------------------------------------------- notices
 NOTICES = {
-    ("1,2,0", 23, 10): "FERRY TO NORTHPORT\\Sailings every day from the end of the pier.",
-    ("1,3,0", 14, 9): "NORTHPORT\\North: the ferry to the Isle\\East: Ashford village\\South: Whispering Woods and the old iron mine",
-    ("2,3,0", 14, 10): "ASHFORD\\West: Northport docks\\East: the farmlands\\South: Tyron's Keep",
-    ("3,3,0", 14, 13): "WEST: Ashford\\SOUTH: GOBLIN CAMP\\Travellers beware!",
-    ("1,4,0", 11, 10): "ASHFORD IRON MINE\\Closed by order of King Tyron. Hobgoblins below!\\The guard lets no one through the gate without\\body armour, unless they are on the King's business.",
+    ("1,2,0", 23, 10): "FERRY TO DRIZZLEPORT\\Sailings every day from the end of the pier.",
+    ("1,3,0", 14, 9): "DRIZZLEPORT\\North: the ferry to Muddlesey\\East: Puddleford village\\South: Whispering Woods and the old iron mine",
+    ("2,3,0", 14, 10): "PUDDLEFORD\\West: Drizzleport docks\\East: the farmlands\\South: Tyron's Keep",
+    ("3,3,0", 14, 13): "WEST: Puddleford\\SOUTH: GOBLIN CAMP\\Travellers beware!",
+    ("1,4,0", 11, 10): "PUDDLEFORD IRON MINE\\Closed by order of King Tyron. Hobgoblins below!\\The guard lets no one through the gate without\\body armour, unless they are on the King's business.",
     ("2,4,0", 7, 12): "TYRON'S KEEP\\The gate is open to all honest folk.\\East: the goblin camp road",
     ("3,4,0", 14, 4): "GO AWAY HOOMANS!\\This is GOBLIN land now.\\- the Goblins",
 }
@@ -474,52 +474,52 @@ S["1,2,0"] = [
     ("End",),
 ]
 
-# The first crossing (from the Isle) needs a Ferry_Ticket, from the quest Passage to the Mainland (FerryQuest, Done=4:
+# The first crossing (from Muddlesey) needs a Ferry_Ticket, from the quest Passage to the Mainland (FerryQuest, Done=4:
 # build_content.py QUESTS and Talk to Milkmaid); after that each crossing costs 1 gold.
 S["Talk to Woman"] = [
     ("Get.Value", "ATTRIBUTE", "FerryQuest", "Variable.1$"),
     (">On.Map", "1,2,0", "@south"),
     (">Conditional", "$Variable.1>=4", "@first"),
-    ("Display.Conversation", "Woman", "Ahoy again! Northport, is it? The fare is 1 gold coin.",
-     "Yes, take me to Northport (1 gold).", "@go", "Not today.", "@bye"),
+    ("Display.Conversation", "Woman", "Ahoy again! Drizzleport, is it? The fare is 1 gold coin.",
+     "Yes, take me to Drizzleport (1 gold).", "@go", "Not today.", "@bye"),
     "go:",
     (">Got.Item", "Gold_Coin(s)", "1", "@broke"),
     ("Take.Item", "Gold_Coin(s)", "1"),
-    ("Goto.Script", "Ferry to Northport"),
+    ("Goto.Script", "Ferry to Drizzleport"),
     ("End",),
     "first:",
     (">Got.Item", "Ferry_Ticket", "1", "@noticket"),
     ("Display.Conversation", "Woman", "A ticket, stamped by my sister! Hop aboard. After this it's a gold coin a crossing.",
-     "Take me to Northport.", "@sail", "Not yet.", "@bye"),
+     "Take me to Drizzleport.", "@sail", "Not yet.", "@bye"),
     "sail:",
     ("Take.Item", "Ferry_Ticket", "1"),
     ("Update.Attribute", "FerryQuest", "=4"),
     ("Display.Message", "Yellow", "Quest complete: Passage to the Mainland! The ferry is yours for 1 gold a crossing."),
-    ("Goto.Script", "Ferry to Northport"),
+    ("Goto.Script", "Ferry to Drizzleport"),
     ("End",),
     "noticket:",
     (">Conditional", "$Variable.1=0", "@remind"),
-    ("Display.Conversation", "Woman", "Ahoy there! I sail across the strait to Northport, on the southern mainland.\\First crossing is by ticket only. My sister the milkmaid keeps the ticket book, on the farm up north.",
+    ("Display.Conversation", "Woman", "Ahoy there! I sail across the strait to Drizzleport, on the southern mainland.\\First crossing is by ticket only. My sister the milkmaid keeps the ticket book, on the farm up north.",
      "I'll get a ticket.", "@start", "Not today.", "@bye"),
     "start:",
     ("Update.Attribute", "FerryQuest", "=1"),
     ("Display.Message", "Yellow", "Quest started: Passage to the Mainland."),
     ("End",),
     "remind:",
-    ("Display.Conversation", "Woman", "No ticket, no crossing, I'm afraid. My sister the milkmaid has the ticket book, on the farm in the north of the Isle.",
+    ("Display.Conversation", "Woman", "No ticket, no crossing, I'm afraid. My sister the milkmaid has the ticket book, on the farm in the north of Muddlesey.",
      "I'll get one.", "@bye"),
     ("End",),
     "south:",
     (">On.Map", "1,3,0", "@other"),
-    ("Display.Conversation", "Woman", "Back to the Isle, is it? That's 1 gold coin, then climb aboard.",
-     "Yes, back to the Isle (1 gold).", "@back", "Not yet.", "@bye"),
+    ("Display.Conversation", "Woman", "Back to Muddlesey, is it? That's 1 gold coin, then climb aboard.",
+     "Yes, back to Muddlesey (1 gold).", "@back", "Not yet.", "@bye"),
     "back:",
     (">Got.Item", "Gold_Coin(s)", "1", "@broke"),
     ("Take.Item", "Gold_Coin(s)", "1"),
     (">Conditional", "$Variable.1<4", "@sailback"),
     ("Update.Attribute", "FerryQuest", "=4"),       # a save from before the ticket: you've crossed already
     "sailback:",
-    ("Goto.Script", "Ferry to the Isle"),
+    ("Goto.Script", "Ferry to Muddlesey"),
     ("End",),
     "broke:",
     ("Display.Message", "DarkRed", "You need 1 gold coin for the ferry fare."),
@@ -530,7 +530,7 @@ S["Talk to Woman"] = [
     ("End",),
 ]
 
-S["Ferry to Northport"] = [
+S["Ferry to Drizzleport"] = [
     (">Conditional", "$Attr.RemnantsAbsorbed<1", "@sail"),       # (not till you know what Shard Remnants are)
     ("Display.Conversation", "Ferryman", "Hold up, friend. Bess says you've never had a beast's leavings in your hands, and the mainland's thick with them. See Brother Aldous first. Here's your coin back.", "Fair enough.", "@back"),
     "back:",
@@ -542,26 +542,26 @@ S["Ferry to Northport"] = [
     ("Toggle.User.Input", "OFF"),
     ("Wait", "2"),
     ("Toggle.User.Input", "ON"),
-    ("Teleport", PL.tile("Northport_Pier", "1,3,0", 12, 5), "-"),
-    ("Display.Message", "Yellow", "...and tie up at the Northport pier."),
+    ("Teleport", PL.tile("Drizzleport_Pier", "1,3,0", 12, 5), "-"),
+    ("Display.Message", "Yellow", "...and tie up at the Drizzleport pier."),
     ("End",),
 ]
 
-S["Ferry to the Isle"] = [
+S["Ferry to Muddlesey"] = [
     ("Display.Message", "Cyan", "You climb aboard the ferry and cast off..."),
     ("Play.Sound", "Boat"),
     ("Toggle.User.Input", "OFF"),
     ("Wait", "2"),
     ("Toggle.User.Input", "ON"),
     ("Teleport", PL.tile("Isle_Pier", "1,2,0", 21, 12), "-"),
-    ("Display.Message", "Yellow", "...and arrive back at the Isle."),
+    ("Display.Message", "Yellow", "...and arrive back at Muddlesey."),
     ("End",),
 ]
 
 # --- map entry flavour
-S["1,3,0"] = [("Display.Message", "Cyan", "Northport. Gulls wheel over the harbour."), ("End",)]
-S["2,3,0"] = [("Display.Message", "Cyan", "Ashford village. You smell fresh bread."), ("End",)]
-S["3,3,0"] = [("Display.Message", "Cyan", "The farmlands of Ashford."), ("End",)]
+S["1,3,0"] = [("Display.Message", "Cyan", "Drizzleport. Gulls wheel over the harbour."), ("End",)]
+S["2,3,0"] = [("Display.Message", "Cyan", "Puddleford village. You smell fresh bread."), ("End",)]
+S["3,3,0"] = [("Display.Message", "Cyan", "The farmlands of Puddleford."), ("End",)]
 S["1,4,0"] = [("Display.Message", "Cyan", "The Whispering Woods. The trees creak in the wind."), ("End",)]
 S["2,4,0"] = [("Display.Message", "Cyan", "Tyron's Keep."), ("End",)]
 S["3,4,0"] = [("Display.Message", "DarkRed", "Smoke and the stink of goblins... this is their camp!"), ("End",)]
@@ -581,16 +581,16 @@ S["Talk to Baker"] = [
 ]
 
 S["Talk to Shopkeeper"] = [
-    ("Display.Conversation", "Shopkeeper", "Welcome to the Ashford General Store!\\Tools, buckets, fishing gear: if you need it, I've got it.",
+    ("Display.Conversation", "Shopkeeper", "Welcome to the Puddleford General Store!\\Tools, buckets, fishing gear: if you need it, I've got it.",
      "Show me your wares.", "@shop", "Goodbye.", "@bye"),
     "shop:",
-    ("Display.Item.Rack", "GENERAL", "Shopkeeper", "SHOP-Ashford", "@bye"),
+    ("Display.Item.Rack", "GENERAL", "Shopkeeper", "SHOP-Puddleford", "@bye"),
     "bye:",
     ("End",),
 ]
 
 S["Talk to Banker"] = [
-    ("Display.Conversation", "Banker", "Good day. Your valuables are safe with the Bank of Ashford.",
+    ("Display.Conversation", "Banker", "Good day. Your valuables are safe with the Bank of Puddleford.",
      "I'd like to use my bank.", "@bank", "No thanks.", "@bye"),
     "bank:",
     ("Display.Item.Rack", "BANK", "Banker", "-", "@bye"),
@@ -608,7 +608,7 @@ S["Talk to Blacksmith"] = [
     ("Display.Item.Rack", "SPECIFIC", "Blacksmith", "SHOP-Smith", "@bye"),
     ("End",),
     "mine:",
-    ("Display.Conversation", "Blacksmith", "In the Whispering Woods, south-west of Northport. There's a hatch in the rocks.\\You'll want a pickaxe, and some armour: the King's guard won't let you through the gate without it.",
+    ("Display.Conversation", "Blacksmith", "In the Whispering Woods, south-west of Drizzleport. There's a hatch in the rocks.\\You'll want a pickaxe, and some armour: the King's guard won't let you through the gate without it.",
      "Thanks.", "@bye"),
     "bye:",
     ("End",),
@@ -657,10 +657,10 @@ S["Talk to Miner"] = [
      "How do I mine?", "@how", "Where did the hobgoblins come from?", "@hob", "Goodbye.", "@bye"),
     "how:",
     (">Got.Item", "Pickaxe", "1", "@nopick"),
-    ("Display.Conversation", "Miner", "Click on a rock with orange ore in it and swing that pickaxe of yours.\\Take the ore to the Ashford blacksmith to smelt it.\\Once you can mine at level 10, the guild's deep seam in the depths is open to you. Coal and gold in there!", "Thanks!", "@bye"),
+    ("Display.Conversation", "Miner", "Click on a rock with orange ore in it and swing that pickaxe of yours.\\Take the ore to the Puddleford blacksmith to smelt it.\\Once you can mine at level 10, the guild's deep seam in the depths is open to you. Coal and gold in there!", "Thanks!", "@bye"),
     ("End",),
     "nopick:",
-    ("Display.Conversation", "Miner", "You'll need a pickaxe. I dropped my spare by the ladder when I ran.\\The Ashford blacksmith sells them too.", "Thanks!", "@bye"),
+    ("Display.Conversation", "Miner", "You'll need a pickaxe. I dropped my spare by the ladder when I ran.\\The Puddleford blacksmith sells them too.", "Thanks!", "@bye"),
     ("End",),
     "hob:",
     ("Display.Conversation", "Miner", "There's a hatch in the tunnels to the east that goes down to their warren.\\I saw them carry off all sorts down there. Keys, coins, gems...", "I'll take a look.", "@bye"),
@@ -673,7 +673,7 @@ S["Talk to Beggar"] = [
     "give:",
     (">Got.Item", "Gold_Coin(s)", "1", "@broke"),
     ("Take.Item", "Gold_Coin(s)", "1"),
-    ("Display.Conversation", "Beggar", "Bless you! I wasn't always like this, you know.\\I had a fine brick house on the Isle, but I lost the key in the old iron mine when the hobgoblins chased me out. They took it down to their warren.\\If you ever find it, the house is yours. I'll never go back.",
+    ("Display.Conversation", "Beggar", "Bless you! I wasn't always like this, you know.\\I had a fine brick house on Muddlesey, but I lost the key in the old iron mine when the hobgoblins chased me out. They took it down to their warren.\\If you ever find it, the house is yours. I'll never go back.",
      "I'll look for it.", "@bye"),
     ("End",),
     "broke:",
@@ -684,7 +684,7 @@ S["Talk to Beggar"] = [
 
 S["Talk to Wizard"] = [
     ("Display.Conversation", "Wizard", "Hmm? Ah, a visitor. I study the arcane arts up here, far from the noise of the court.\\I can send you anywhere I have been. Where to?",
-     "To the Isle.", "@isle", "To Northport.", "@port", "Nowhere, thanks.", "@bye"),
+     "To Muddlesey.", "@isle", "To Drizzleport.", "@port", "Nowhere, thanks.", "@bye"),
     "isle:",
     ("Play.Sound", "Teleporter"),
     ("Display.Message", "Yellow", "The wizard waves his hands and the world spins..."),
@@ -693,7 +693,7 @@ S["Talk to Wizard"] = [
     "port:",
     ("Play.Sound", "Teleporter"),
     ("Display.Message", "Yellow", "The wizard waves his hands and the world spins..."),
-    ("Teleport", PL.tile("Northport_Port", "1,3,0", 12, 11), "-"),
+    ("Teleport", PL.tile("Drizzleport_Port", "1,3,0", 12, 11), "-"),
     ("End",),
     "bye:",
     ("End",),
@@ -858,8 +858,8 @@ MINIMAP_COLOURS = {
 # Keys to set in Entities.ini (existing sections are updated, values overwritten)
 ENTITY_KEYS = {
     "Woman": [("Use.Words", "Talk to"), ("Examine.Info", "The ferrywoman. She smells of salt and tar.")],
-    "Baker": [("Use.Words", "Talk to"), ("Examine.Info", "The Ashford baker, dusted in flour.")],
-    "Shopkeeper": [("Use.Words", "Talk to"), ("Examine.Info", "He runs the Ashford General Store.")],
+    "Baker": [("Use.Words", "Talk to"), ("Examine.Info", "The Puddleford baker, dusted in flour.")],
+    "Shopkeeper": [("Use.Words", "Talk to"), ("Examine.Info", "He runs the Puddleford General Store.")],
     "Banker": [("Use.Words", "Talk to,Bank"), ("Examine.Info", "A very serious man with a very large ledger.")],
     "Blacksmith": [("Use.Words", "Talk to"), ("Examine.Info", "Arms like tree trunks. She works the forge.")],
     "Herbalist": [("Use.Words", "Talk to"), ("Examine.Info", "She knows every herb in the Southlands.")],
@@ -891,15 +891,15 @@ ENTITY_KEYS = {
     "Cabbage": [("Value", "1")],
     "Meat_Sandwich": [("Value", "8")],
     "Ruby": [("Examine.Info", "A beautiful red gem."), ("Value", "50")],
-    "Beggars_House_Key": [("Examine.Info", "An old iron key: the beggar in Ashford lost the key to his house on "
-                                           "the Isle. This must be it.")],
+    "Beggars_House_Key": [("Examine.Info", "An old iron key: the beggar in Puddleford lost the key to his house on "
+                                           "Muddlesey. This must be it.")],
     "Raw_Meat": [("Examine.Info", "Raw meat. Cook it on a fire."), ("Value", "2")],
 }
 
 ITEM_RACKS = {
     "SHOP-Baker": [("Type", "Shop"), ("Buy.Rate", "1.2"), ("Sell.Rate", "0.6"), ("Specific", "1"),
                    ("Item1", "Bread,10"), ("Item2", "Meat_Sandwich,4"), ("Item3", "Cooked_Poultry,4"), ("Item4", "Egg,6")],
-    "SHOP-Ashford": [("Type", "Shop"), ("Buy.Rate", "1.25"), ("Sell.Rate", "0.75"),
+    "SHOP-Puddleford": [("Type", "Shop"), ("Buy.Rate", "1.25"), ("Sell.Rate", "0.75"),
                      ("Item1", "Tinderbox,5"), ("Item2", "Bucket,5"), ("Item3", "Axe,2"), ("Item4", "Fishing_Rod,3"),
                      ("Item5", "Bait,50"), ("Item6", "Empty_Vial,10")],
     "SHOP-Smith": [("Type", "Shop"), ("Buy.Rate", "1.3"), ("Sell.Rate", "0.7"), ("Specific", "1"),

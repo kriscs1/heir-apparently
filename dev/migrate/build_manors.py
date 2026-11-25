@@ -1,7 +1,7 @@
 """Two bandit manors where towns stood, and Fenwick's cathedral made the Drowned Abbey (the owner's wish: the towns'
 interesting buildings kept, something new for the ground they left).
 
-  * Fenmoor Hall (in the fens where Fenwick was) and Redrock Manor (on the red hills where Highwatch was): a big stone
+  * Fenmoor Hall (in the fens where Fenwick was) and Redrock Manor (on the red hills where Squintwatch was): a big stone
     house each, its inside walled into rooms - an entrance hall, a dining hall, a kitchen, a bunk room, the chief's
     study and, behind an iron-bound door, the vault. Bandits hold it (Group: one that sees you raises the house), a
     pair watching the door; traps in the halls; a locked chest in the kitchen and the bunk room, the vault's key in the

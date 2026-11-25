@@ -6,7 +6,7 @@
     Home= (they'd be shut out of their own bed).
   * Some doors can be picked (the Lock line's Pick=<Stealth level>: dsengine/locks.py): their message is the
     pickable one ("The lock looks as if you could pick it."), and what's left lying inside is yours once (Once=1).
-  * Two yards behind wrought-iron railings, Northport's bonded yard and Ashford's pound: a gate chained shut (Pick=24:
+  * Two yards behind wrought-iron railings, Drizzleport's bonded yard and Puddleford's pound: a gate chained shut (Pick=24:
     very high Stealth), and a few things lying in the yard that Grasp reaches through the railings (it needs only to
     see them, and they lie within its reach of the railings).
   * Iron_Gate001/002: a gate in the iron railings, shut and open (drawn with fence_tiles.py's iron).

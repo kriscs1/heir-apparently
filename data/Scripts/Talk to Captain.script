@@ -12,7 +12,7 @@
 11	Get.Value	ATTRIBUTE	BanditsSlain	Variable.2$
 12	>Conditional	$Variable.2>=5	19
 13	Update.Attribute	BanditQuest	=2
-14	Quest.Note.Done	BanditQuest	Report to Captain Hale in Frosthold.
+14	Quest.Note.Done	BanditQuest	Report to Captain Hale in Chillingham.
 15	Quest.Note	BanditQuest	The bandits' camp is somewhere in the eastern hills.
 16	Quest.Note	BanditQuest	Break open their strongbox and take back the stolen goods.
 17	Display.Conversation	Captain	Five! Now for their camp: somewhere in the eastern hills. They keep what they steal in an iron strongbox. Bring the goods back.	I'll find it.	45
@@ -40,7 +40,7 @@
 39	>Conditional	$Variable.3=2	42
 40	Display.Conversation	Captain	The bandits are gone, and so are the town's goods. Word is they turned up on the coast, sold to smugglers. Funny, that.	Goodbye.	45
 41	End
-42	Display.Conversation	Captain	The road is safe again. Frosthold salutes you.	Goodbye.	45
+42	Display.Conversation	Captain	The road is safe again. Chillingham salutes you.	Goodbye.	45
 43	End
 44	Display.Conversation	Captain	The road's no place for civilians while it's crawling with bandits. When you can swing a sword like you mean it, report back to me.	Yes, Captain.	45
 45	End

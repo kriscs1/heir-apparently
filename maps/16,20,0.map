@@ -19,17 +19,17 @@ Snow001:Snow001:Snow001:Timber001:Timber001:Timber001+Decor(Timber_Window001):Ti
 Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Snow001:Snow001:Stone_Wall001:Stone_Wall001:Door002:Stone_Wall001:Stone_Wall001:Flagstone001:Stone_Wall001:Stone_Wall001+Decor(Stone_Wall_Window001):Stone_Wall001:Door002:Stone_Wall001:Flagstone001:Flagstone001:Flagstone001:Flagstone001
 Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001:Flagstone001+Decor(Lamp_Post001):Flagstone001:Flagstone001:Flagstone001
 Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Flagstone001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001:Snow001
-NPC	Greengrocer	736	376	Attitude=Good Stand=1 Face=S Id=Frosthold_Stall_301 Name=Ned
-NPC	Butcher	736	504	Attitude=Good Stand=1 Face=S Id=Frosthold_Stall_303 Name=Edgar
+NPC	Greengrocer	736	376	Attitude=Good Stand=1 Face=S Id=Chillingham_Stall_301 Name=Ned
+NPC	Butcher	736	504	Attitude=Good Stand=1 Face=S Id=Chillingham_Stall_303 Name=Edgar
 NPC	Black_Cat	736	312	Attitude=Good Zone=19,7,24,15 Pause=4-12
-NPC	Clerk	480	184	Attitude=Good Stand=1 Face=S Id=Frosthold_Clerk_312
-NPC	Baker	576	472	Attitude=Good Stand=1 Face=S Id=Frosthold_Baker_316 Name=Mabel
-NPC	Fishmonger	384	472	Attitude=Good Stand=1 Face=S Id=Frosthold_Fishmonger_318 Name=Toby
-NPC	Doctor	160	472	Attitude=Good Stand=1 Face=S Id=Frosthold_Doctor_329 Name=Jane
+NPC	Clerk	480	184	Attitude=Good Stand=1 Face=S Id=Chillingham_Clerk_312
+NPC	Baker	576	472	Attitude=Good Stand=1 Face=S Id=Chillingham_Baker_316 Name=Mabel
+NPC	Fishmonger	384	472	Attitude=Good Stand=1 Face=S Id=Chillingham_Fishmonger_318 Name=Toby
+NPC	Doctor	160	472	Attitude=Good Stand=1 Face=S Id=Chillingham_Doctor_329 Name=Jane
 StaticObject	Market_Stall_Open	736	416
 StaticObject	Market_Stall_Open	736	544
-StaticObject	Notice	640	386	Id=Frosthold_Notice_310
-StaticObject	Notice	672	322	Id=Frosthold_Notice_313
-StaticObject	Notice	288	546	Id=Frosthold_Notice_330
-StaticObject	Notice	288	578	Id=Frosthold_Notice_342
-Id	Frosthold_Town_Hall	20	12
+StaticObject	Notice	640	386	Id=Chillingham_Notice_310
+StaticObject	Notice	672	322	Id=Chillingham_Notice_313
+StaticObject	Notice	288	546	Id=Chillingham_Notice_330
+StaticObject	Notice	288	578	Id=Chillingham_Notice_342
+Id	Chillingham_Town_Hall	20	12

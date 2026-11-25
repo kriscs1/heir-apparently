@@ -1,7 +1,7 @@
 """Galaith, in its valley in the West Range (dev\\World Plan.md): its walls (white stone, burnt black on the side that
 faces the dragon) with a barred gate onto the dragon's field, a back gate to the mine's mouth in the mountains behind
 it, the scorched field and the dragon, and the pass (a gap in the peaks) where the barrier stands; the city inside the
-walls is grown by settlements.py. And Wardhaven: a walled town on its island, its bridge from the mainland."""
+walls is grown by settlements.py. And Sulkhaven: a walled town on its island, its bridge from the mainland."""
 from atlas import XT, YT, TW, h01, fbm
 import land as LAND
 import layout as L
@@ -160,7 +160,7 @@ def barrier_rows():
     return [(BARRIER_X, GATE % YT + 1 + k) for k in (-1, 0, 1)]
 
 
-# ------------------------------------------------------------------ Wardhaven
+# ------------------------------------------------------------------ Sulkhaven
 BRIDGE_X = L.tx(13) * XT + 12                         # (the bridge's west column: tile 13 of the island's middle map)
 
 
@@ -171,10 +171,10 @@ def is_land(c):
 
 def wardhaven(atlas):
     """Before the town's grown: the bridge from the mainland to the island's south shore, a wall across the island's
-    south end with the gatehouse (barred till the goblins on the bridge are gone: quests.py, The Wardhaven Bridge; the
+    south end with the gatehouse (barred till the goblins on the bridge are gone: quests.py, The Sulkhaven Bridge; the
     sea round the rest). Returns (which cells the town may use, the gate's map, the bridge's mainland end, the bridge:
     {"gate": (x, y) outside the gate, "bridge": its planks, "shore": the way from it to the gate})."""
-    x1, y1, x2, y2 = L.SETTLEMENTS["Wardhaven"]["maps"]
+    x1, y1, x2, y2 = L.SETTLEMENTS["Sulkhaven"]["maps"]
     cy = (y1 + y2 + 1) * YT // 2
     xs = (BRIDGE_X, BRIDGE_X + 1)
     y = cy
@@ -207,12 +207,12 @@ def wardhaven(atlas):
             atlas.roads.add((x, gy))
             atlas.taken.add((x, gy))
         m, lx, ly = atlas.at(x, wall + 1)
-        m.ents.append("Lock\t%d\t%d\t$Attr.WardhavenQuest>=3\tThe gates of Wardhaven are barred. Nobody answers "
+        m.ents.append("Lock\t%d\t%d\t$Attr.SulkhavenQuest>=3\tThe gates of Sulkhaven are barred. Nobody answers "
                       "from the wall." % (lx, ly))
     gm = atlas.at(xs[0], wall + 2)[0]
-    atlas.place_id(xs[0], wall + 2, "Wardhaven_Gate")
+    atlas.place_id(xs[0], wall + 2, "Sulkhaven_Gate")
     if planks:
-        atlas.place_id(*planks[len(planks) // 2], "Wardhaven_Bridge_Span")
+        atlas.place_id(*planks[len(planks) // 2], "Sulkhaven_Bridge_Span")
     shore_cells = [(x, gy) for x in xs for gy in range(wall + 2, shore + 1)]
     return (lambda c: c[1] < wall), gm.name, (xs[0], yb), {"gate": (xs[0], wall + 2), "bridge": planks,
                                                            "shore": shore_cells}

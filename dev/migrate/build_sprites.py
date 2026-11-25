@@ -1823,7 +1823,7 @@ SPRITES["Frost_Troll"] = lambda: gm("Cave_Troll", [(0.0, (16, 24, 40)), (0.3, (8
 SPRITES["Witch_Brew"] = lambda: potion(0.45)
 @sprite("Ferry_Ticket")
 def ferry_ticket():
-    """The ferry ticket (the Isle's starter quest): a slanted cream card with a red band, print and a punched hole."""
+    """The ferry ticket (Muddlesey's starter quest): a slanted cream card with a red band, print and a punched hole."""
     img = K.new()
     for y in range(9, 24):
         for x in range(4, 28):

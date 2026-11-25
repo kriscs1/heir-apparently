@@ -5,7 +5,7 @@
   * The Invisible Apprentice (PipQuest 0-2): Pip, in the Wizards' Court's great hall, drank his own potion and can't
     be seen; only his hat and spectacles. An egg, a feather and two cave mushrooms for the cure. He gives you
     invisibility potions and the Swap scroll ("I spent last Tuesday as a cat"), and the potion's recipe is brewed.
-  * Lady Pettigrew's Hat (HatQuest 0-2): the geese of Goose Green, east of Northport (5,5,0), have her hat on their
+  * Lady Pettigrew's Hat (HatQuest 0-2): the geese of Goose Green, east of Drizzleport (5,5,0), have her hat on their
     nest, and they are not reasonable geese. Go unseen, or swap with her own tame goose, and fetch it.
   * Granny Bramble's Practice Hex (HexQuest 0-2): a hedge witch at Fenwick's market practises a hex on you (your
     Attack drained to nothing: Boost.Skill) and then wants the rats round the market cleared. Your sword's no use:
@@ -540,13 +540,13 @@ def spectacles_quest():
 
 def lady():
     quest("Lady Pettigrew's Hat", "Woman", "HatQuest", {
-        0: "A lady on Goose Green, east of Northport, is shouting at some geese.",
+        0: "A lady on Goose Green, east of Drizzleport, is shouting at some geese.",
         1: "Get Lady Pettigrew's hat back from the geese's nest on Goose Green. They are not reasonable geese: go "
            "unseen, or go as a goose."}, 2,
         markers={0: "Goose_Green", 1: "Goose_Green"}, kind="Side", requires="The Invisible Apprentice")
     section(p("data", "Quests.ini"), "Lady Pettigrew's Hat",
                [("Reward.Items", "Gold_Coin(s) 60"), ("Reward.Shards", "12"), ("Reward.XP", "Defence 1 Channeling 1"),
-                ("Reward.Standing", "Northport 10")])
+                ("Reward.Standing", "Drizzleport 10")])
     SK.write_script("Talk to Lady_Pettigrew", [
         ("Get.Value", "ATTRIBUTE", "HatQuest", "Variable.1$"),
         (">Conditional", "$Variable.1=0", "@s1"),
@@ -581,13 +581,13 @@ def lady():
 
 def granny():
     quest("Granny Bramble's Practice Hex", "Old_Woman", "HexQuest", {
-        0: "An old woman on Thornwick's green is looking for someone to practise a hex on.",
-        1: "Granny Bramble has hexed you weak as a kitten. Clear the rats round Thornwick's green anyway ($HexRats of "
+        0: "An old woman on Nettlewick's green is looking for someone to practise a hex on.",
+        1: "Granny Bramble has hexed you weak as a kitten. Clear the rats round Nettlewick's green anyway ($HexRats of "
            "4): your sword arm's no use. A spell, a potion, or someone else's body."}, 2,
         markers={0: "Granny_Bramble", 1: "Granny_Bramble"}, kind="Side", requires="The Invisible Apprentice")
     section(p("data", "Quests.ini"), "Granny Bramble's Practice Hex",
                [("Reward.Items", "Antidote 2"), ("Reward.Shards", "15"), ("Reward.XP", "Channeling 3"),
-                ("Reward.Standing", "Thornwick 10")])
+                ("Reward.Standing", "Nettlewick 10")])
     rats = [("Add.Entity", at(xy), "Rat", "NPC", "Attitude=Bad Id=Hex_Rat Name=Market_Rat") for xy in RATS]
     SK.write_script("Talk to Granny_Bramble", [
         ("Get.Value", "ATTRIBUTE", "HexQuest", "Variable.1$"),

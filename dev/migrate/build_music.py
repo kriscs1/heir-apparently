@@ -371,7 +371,7 @@ def main():
 # The owner's tracks (sounds\music): a theme of one or more, taking turns
 OWN = {
     "Isle": ["isle.mp3"],
-    "Northport": ["northport.mp3"],
+    "Drizzleport": ["northport.mp3"],
     "Galaith": ["galaith.mp3"],
     "Emberwatch": ["emberwatch.mp3"],
     "Keep": ["rupertskeep.mp3"],
@@ -381,7 +381,7 @@ OWN = {
     "Combat": ["combat.mp3"],
 }
 # A town's tune by its key in data\Towns.ini; any other town plays Town
-TOWN_TUNES = {"ISLE": "Isle", "NORTHPORT": "Northport", "GALAITH": "Galaith", "EMBERWATCH": "Emberwatch",
+TOWN_TUNES = {"ISLE": "Isle", "DRIZZLEPORT": "Drizzleport", "GALAITH": "Galaith", "EMBERWATCH": "Emberwatch",
               "KEEP": "Keep", "DUNEREST": "Dunerest"}
 DANGER_LEVEL = 10          # a map out of town whose strongest foe is this level or more sounds dangerous
 DREAD_WORDS = ("Skeleton", "Wraith", "Mummy", "Ghost", "Spider", "Barrow", "Shade", "Horror", "Ghoul", "Zombie",

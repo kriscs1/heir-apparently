@@ -67,7 +67,7 @@ def is_land_char(c):
 
 
 def island(gx, gy, maps, rx, ry, up=0):
-    """Wardhaven's island: an oval in its maps (up: tiles north of their middle), its edge wandering."""
+    """Sulkhaven's island: an oval in its maps (up: tiles north of their middle), its edge wandering."""
     x1, y1, x2, y2 = maps
     cx, cy = (x1 + x2 + 1) * XT / 2.0, (y1 + y2 + 1) * YT / 2.0 - up
     d = math.hypot((gx - cx) / rx, (gy - cy) / ry)
@@ -82,7 +82,7 @@ def land_here(gx, gy):
         return m != "~"                               # (Galaith's mountains: right to the world's edge)
     if m == "I":
         return False
-    if m == "v" and island(gx, gy, L.SETTLEMENTS["Wardhaven"]["maps"], 34, 20, up=6):
+    if m == "v" and island(gx, gy, L.SETTLEMENTS["Sulkhaven"]["maps"], 34, 20, up=6):
         return True  # (over two maps' rows; a bridge to the coast)
     if m == "D":
         return False                                  # (Dragon Island is lifted whole)

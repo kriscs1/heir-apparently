@@ -1,4 +1,4 @@
-"""The pictures for the Cinderlands, the banks and Wardhaven's Dragonforge (build_cinder.py uses them).
+"""The pictures for the Cinderlands, the banks and Sulkhaven's Dragonforge (build_cinder.py uses them).
 
 Tiles (sprites\\Tiles), drawn here pixel by pixel like the other tile builders:
   * ground (opaque): Ash001 (grey ash with char and the odd ember), Cinder001 (cracked basalt), Lava001 (molten rock under

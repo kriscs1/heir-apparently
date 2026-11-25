@@ -1,4 +1,4 @@
-"""Horse-drawn carts, and the Isle's ferries (data/Carts.ini): each route has a vehicle that keeps to its points, stop to
+"""Horse-drawn carts, and Muddlesey's ferries (data/Carts.ini): each route has a vehicle that keeps to its points, stop to
 stop (to its end and back again, or round and round with Loop=1), waiting Wait seconds at each stop. A route's points are
 its NodeN= taken in its Order= (1,2,3,2,4: a node can come up more than once), or its PointN= one after another. Hail a
 cart as it goes by and it pulls up for you; Get In, pick a stop and pay the fare, and it takes you there along its way,
@@ -415,7 +415,7 @@ class Carts:
             m = w.map_at(c.z, *c.pts[j])
             if m is None or not s.demo_map(m.name):
                 if val(s.get_attribute("PapersFound")) >= 1:
-                    s.demo_end()            # (the Isle done: its end card, not a refusal)
+                    s.demo_end()            # (Muddlesey done: its end card, not a refusal)
                 else:
                     s.demo_say("border")
                 return

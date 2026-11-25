@@ -1,6 +1,6 @@
 """King Tyron's palace on the Royal Isle (4,4,0), and the wizard's study at the top of its tower (4,4,1).
 
-Not run on its own: build_content.extend() calls extend() here after the Wildlands, Eastreach and Wardhaven (it needs
+Not run on its own: build_content.extend() calls extend() here after the Wildlands, Eastreach and Sulkhaven (it needs
 build_regions.legend_chars) and before the waystones and the scenery pass.
 
   * The isle lies in the sea east of the goblin camp (3,4,0). The camp's north road, along the top of that map above its

@@ -4,10 +4,10 @@ writes the same again. Run build_towns.py and build_galaith.py first (their buil
 
   python -I "dev\\migrate\\build_heir_mainland.py"
 
-  5  The Temporary Capital (ParliamentQuest 0-2). Northport's port guard: Galaith is shut, Northport is the capital for
+  5  The Temporary Capital (ParliamentQuest 0-2). Drizzleport's port guard: Galaith is shut, Drizzleport is the capital for
      now, and its City Hall is the Parliament. The Speaker: only Bert, the great wizard at the Wizards' Court, can break
-     the barrier; take the Parliament's letter east, to the Mayor of Ashford, who keeps the road.
-  6  The Ashford Road (AshfordQuest 0-3). The Mayor, in Ashford's Town Hall: goblins raid the farms; drive them off (the
+     the barrier; take the Parliament's letter east, to the Mayor of Puddleford, who keeps the road.
+  6  The Puddleford Road (PuddlefordQuest 0-3). The Mayor, in Puddleford's Town Hall: goblins raid the farms; drive them off (the
      Farm_Raid wave) and the road east is open: the Mayor's pass, for the King's Steward.
   7  The Steward's Hunt (HobgoblinQuest 0-2, the old King's Hobgoblin Hunt). The Steward at King Rupert's Keep: five
      hobgoblins from the old iron mine, and the causeway to the Wizards' Court is yours.
@@ -20,7 +20,7 @@ writes the same again. Run build_towns.py and build_galaith.py first (their buil
  10  The Sunken Grimoire (GrimoireQuest 0-3): the scholar in Dunerest; a sand-buried library in the desert north of
      it (dig it out: a spade), its guardians; the Grimoire of Unbinding on its lectern (1,9,-1).
  11  The Ember Ring (RingQuest 0-2): the Warden in Emberwatch; the Ashen Priest, in the Cinder Fort, wears it.
- 12  A Ship for Dragon Island (ShipQuest 0-2): Captain Rook, on the shore by Ravensgate: planks and nails for his hull.
+ 12  A Ship for Dragon Island (ShipQuest 0-2): Captain Rook, on the shore by Crowgate: planks and nails for his hull.
  13  The Island of Dragons (DragonIsleQuest 0-2): the island (8,10,0); three Valour Seals from its drakes open the
      Temple of Valour.
  14  The Sword of Valour (ValourQuest 0-3): the temple's guardian tests you (a fight); the sword in the stone.
@@ -28,7 +28,7 @@ writes the same again. Run build_towns.py and build_galaith.py first (their buil
  16  The Royal Guard (GuardQuest 0-5): the palace's captain; the Lord Chancellor in Parliament; the Royal Archivist in
      the City Hall, who knows the amulet's seal; the Chancellor's warrant; the captain lets you in.
  17  The True Heir (KingQuest 0-1): King Rupert. The amulet, the will. He makes you king. Jimmy sleeps on the throne;
-     Wardhaven's gates and Galaith's mine open.
+     Sulkhaven's gates and Galaith's mine open.
 """
 import os
 import random
@@ -243,8 +243,8 @@ def data():
     E = K.ENTS
     K.people_sections()
     items = [
-        ("Parliament_Letter", "The Parliament's letter, sealed in crimson, for the Mayor of Ashford.", ""),
-        ("Mayors_Pass", "The Mayor of Ashford's pass, sealed in blue: the road east is yours.", ""),
+        ("Parliament_Letter", "The Parliament's letter, sealed in crimson, for the Mayor of Puddleford.", ""),
+        ("Mayors_Pass", "The Mayor of Puddleford's pass, sealed in blue: the road east is yours.", ""),
         ("Archivists_Attestation", "The Royal Archivist's word, in green wax: the amulet is the true seal of "
          "succession.", ""),
         ("Chancellors_Warrant", "The Lord Chancellor's warrant, in gold wax: let the bearer see the King.", ""),
@@ -387,7 +387,7 @@ def rooks_pier():
                         -8)]
     K.place_id(m, "Rooks_Pier", 12, 10)
     m.save()
-    print("9,8,0: Captain Rook's pier, on the shore east of Ravensgate")
+    print("9,8,0: Captain Rook's pier, on the shore east of Crowgate")
 
 
 def dragon_island():
@@ -470,26 +470,26 @@ def court():
 
 def southport_guard():
     m = Map("1,3,0")
-    if K.has_id(m, "Northport_Port"):
+    if K.has_id(m, "Drizzleport_Port"):
         return
-    pl = find_place("Northport_Pier")
+    pl = find_place("Drizzleport_Pier")
     x, y = pl[1] + 2, pl[2] + 3
-    m.ents.append(obj_line("NPC", "Port_Guard", x, y, "Attitude=Good Stand=1 Face=W Id=Northport_Port_Guard "
+    m.ents.append(obj_line("NPC", "Port_Guard", x, y, "Attitude=Good Stand=1 Face=W Id=Drizzleport_Port_Guard "
                                                       "Name=Sergeant_Brand", -8))
-    K.place_id(m, "Northport_Port", x, y + 1)
+    K.place_id(m, "Drizzleport_Port", x, y + 1)
     m.save()
 
 
 def southport_hall():
-    """Northport's City Hall, where the Speaker sits, is Brambleton's Parliament while Galaith is lost."""
-    name, _, f = find_npc("Northport_Speaker", "Speaker")
+    """Drizzleport's City Hall, where the Speaker sits, is Brambleton's Parliament while Galaith is lost."""
+    name, _, f = find_npc("Drizzleport_Speaker", "Speaker")
     x, y = npc_tile(f)
     m = Map(name)
-    if not K.has_id(m, "Northport_City_Hall"):
-        K.place_id(m, "Northport_City_Hall", x, y)
+    if not K.has_id(m, "Drizzleport_City_Hall"):
+        K.place_id(m, "Drizzleport_City_Hall", x, y)
         m.save()
     for f in os.listdir(K.SCRIPTS):
-        if f.startswith("Read Northport_Notice_"):
+        if f.startswith("Read Drizzleport_Notice_"):
             path = os.path.join(K.SCRIPTS, f)
             text = open(path, "rb").read()
             new = text.replace(b"CITY HALL\\The seat of the city's council.",
@@ -582,14 +582,14 @@ def places():
     southport_hall()
     steward()
     dunerest_scholar()
-    if not find_npc("Ashford_Clerk", "Mayor"):
-        open_hall("Ashford", "Town Hall", "Mayor", "Ashford_Town_Hall", "Name=Mayor_Hollis")
+    if not find_npc("Puddleford_Clerk", "Mayor"):
+        open_hall("Puddleford", "Town Hall", "Mayor", "Puddleford_Town_Hall", "Name=Mayor_Hollis")
     solar()
     library()
     rooks_pier()
     dragon_island()
     galaith_people()
-    w5 = Map("5,3,0")                                            # Wardhaven opens when the dragon is dead
+    w5 = Map("5,3,0")                                            # Sulkhaven opens when the dragon is dead
     w5.ents = [ln.replace("$Attr.DragonQuest>=4", "$Attr.GalaithQuest>=2") for ln in w5.ents]
     w5.save()
 
@@ -604,21 +604,21 @@ def quests():
     open(Q, "wb").write(text.encode("cp1252"))
     ini.forget(Q)
     K.quest("The Temporary Capital", "Port_Guard", "ParliamentQuest", {
-        0: "Speak to the city guard at Northport's port.",
-        1: "Go to Northport's City Hall, where Brambleton's Parliament sits until Galaith opens again.",
-    }, 2, markers={0: "Northport_Port", 1: "Northport_City_Hall"}, chapter=5, requires="Passage to the Mainland",
-        marker0="Northport_Port")
-    K.quest("The Ashford Road", "Mayor", "AshfordQuest", {
-        0: "Take the Parliament's letter to the Mayor of Ashford, in Ashford's Town Hall.",
-        1: "Goblins raid the farms east of Ashford. Drive them off: wait for them at the farm's crossroads.",
+        0: "Speak to the city guard at Drizzleport's port.",
+        1: "Go to Drizzleport's City Hall, where Brambleton's Parliament sits until Galaith opens again.",
+    }, 2, markers={0: "Drizzleport_Port", 1: "Drizzleport_City_Hall"}, chapter=5, requires="Passage to the Mainland",
+        marker0="Drizzleport_Port")
+    K.quest("The Puddleford Road", "Mayor", "PuddlefordQuest", {
+        0: "Take the Parliament's letter to the Mayor of Puddleford, in Puddleford's Town Hall.",
+        1: "Goblins raid the farms east of Puddleford. Drive them off: wait for them at the farm's crossroads.",
         2: "Tell the Mayor the goblins are beaten.",
-    }, 3, markers={0: "Ashford_Town_Hall", 1: "Farmlands_Crossroads", 2: "Ashford_Town_Hall"}, chapter=6,
-        requires="The Temporary Capital", marker0="Ashford_Town_Hall")
+    }, 3, markers={0: "Puddleford_Town_Hall", 1: "Farmlands_Crossroads", 2: "Puddleford_Town_Hall"}, chapter=6,
+        requires="The Temporary Capital", marker0="Puddleford_Town_Hall")
     K.quest("The Steward's Hunt", "Steward", "HobgoblinQuest", {
-        0: "Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Ashford.",
+        0: "Show the Mayor's pass to the King's Steward, at King Rupert's Keep, south of Puddleford.",
         1: "Slay five hobgoblins ($HobgoblinsSlain of 5) in the old iron mine, the mine depths or the warren, then "
            "return to the Steward.",
-    }, 2, markers={0: "Keep_Steward_Post", 1: "Iron_Mine_Entrance"}, chapter=7, requires="The Ashford Road",
+    }, 2, markers={0: "Keep_Steward_Post", 1: "Iron_Mine_Entrance"}, chapter=7, requires="The Puddleford Road",
         marker0="Keep_Steward_Post")
     K.quest("Bert's Three Treasures", "Bert", "BertQuest", {
         0: "Find Bert, the great wizard, at the top of the Wizards' Court's tower.",
@@ -728,19 +728,19 @@ def npc_id(prefix, sprite):
 
 
 def southport_and_ashford():
-    w("Talk to Northport_Port_Guard", [
+    w("Talk to Drizzleport_Port_Guard", [
         ("Get.Value", "ATTRIBUTE", "ParliamentQuest", V1),
         (">Conditional", "$Variable.1=0", "@chat"),
         (">Quest.Can.Start", "ParliamentQuest", "@end"),
         (">Conditional", "$Item.Marys_Papers>=1", "@old"),            # (a save from before the papers: as it was)
-        say("Port_Guard", "Off the Isle ferry? Papers, then.\\He unfolds them, and goes still at the seal.\\That's the "
+        say("Port_Guard", "Off Muddlesey ferry? Papers, then.\\He unfolds them, and goes still at the seal.\\That's the "
                           "old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year "
-                          "Galaith was shut, a wall of light across the pass and a dragon behind it. Northport's City "
+                          "Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City "
                           "Hall is Brambleton's Parliament now, till the barrier falls.\\This is no business for a sergeant on "
                           "a pier. Take them to the Speaker, at the City Hall, and keep them close.",
             ("I'll go to the City Hall.", "@start")),
         ("@old",),
-        say("Port_Guard", "Welcome to Northport, the capital of Brambleton. For now, anyway.\\Galaith's been shut these "
+        say("Port_Guard", "Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\\Galaith's been shut these "
                           "eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall "
                           "here is the Parliament, till the barrier falls.\\Business in Galaith, you say? Then the City "
                           "Hall's where you ask. They say it was sealed the very year the Queen vanished.",
@@ -750,11 +750,11 @@ def southport_and_ashford():
         ("Display.Message", "Yellow", "Quest started: The Temporary Capital.", "Quest"),
         ("End",),
         ("@chat",),
-        say("Port_Guard", "Keep your purse close in the market, and your sword in its scabbard. Northport's a good "
+        say("Port_Guard", "Keep your purse close in the market, and your sword in its scabbard. Drizzleport's a good "
                           "city, mostly.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ])
-    speaker = npc_id("Northport_Speaker", "Speaker")
+    speaker = npc_id("Drizzleport_Speaker", "Speaker")
     w("Talk to " + speaker, [
         ("Get.Value", "ATTRIBUTE", "ParliamentQuest", V1),
         (">Conditional", "$Variable.1=1", "@chat"),
@@ -769,34 +769,34 @@ def southport_and_ashford():
                        "the Wizards' Court, far to the east.",
             ("How do I get to him?", "@road")),
         ("@road",),
-        say("Speaker", "Through Ashford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of "
-                       "Ashford can vouch for you to the King's Steward, and the Steward to Bert.\\Take the Parliament's letter to the Mayor: "
+        say("Speaker", "Through Puddleford and King Rupert's Keep. Bert sees nobody the crown hasn't vouched for: the Mayor of "
+                       "Puddleford can vouch for you to the King's Steward, and the Steward to Bert.\\Take the Parliament's letter to the Mayor: "
                        "it asks every friend of the crown to help you on your way.",
             ("Thank you, Madam Speaker.", "@letter")),
         ("@letter",),
         ("Give.Item", "Parliament_Letter", "1"),
         ("Update.Attribute", "ParliamentQuest", "=2"),
         ("Display.Message", "Yellow", "Quest complete: The Temporary Capital! The Speaker gave you the Parliament's "
-                                      "letter for the Mayor of Ashford.", "Quest"),
+                                      "letter for the Mayor of Puddleford.", "Quest"),
         ("End",),
         ("@chat",),
         say("Speaker", "Order, order! Oh, it's you. The Parliament sits from dawn till the members fall asleep.",
             ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ])
-    mayor = npc_id("Ashford_Clerk", "Mayor")
+    mayor = npc_id("Puddleford_Clerk", "Mayor")
     w("Talk to " + mayor, [
-        ("Get.Value", "ATTRIBUTE", "AshfordQuest", V1),
+        ("Get.Value", "ATTRIBUTE", "PuddlefordQuest", V1),
         (">Conditional", "$Variable.1=0 and $Item.Parliament_Letter>=1", "@s1"),
-        (">Quest.Can.Start", "AshfordQuest", "@end"),
+        (">Quest.Can.Start", "PuddlefordQuest", "@end"),
         say("Mayor", "A letter from the Parliament? \"Every friend of the crown...\" Well, I'm a friend of the crown, "
                      "and I'd be a better one if the goblins would leave my farms alone.\\They come out of the hedges "
                      "east of town and carry off the hens. Drive them off for me, at the farm crossroads, and I'll give "
                      "you my pass for the Steward.", ("I'll deal with the goblins.", "@start")),
         ("@start",),                                              # (taken only once it's read: closed, it's kept)
         ("Take.Item", "Parliament_Letter", "1"),
-        ("Update.Attribute", "AshfordQuest", "=1"),
-        ("Display.Message", "Yellow", "Quest started: The Ashford Road.", "Quest"),
+        ("Update.Attribute", "PuddlefordQuest", "=1"),
+        ("Display.Message", "Yellow", "Quest started: The Puddleford Road.", "Quest"),
         ("Start.Wave", "Farm_Raid"),
         ("End",),
         ("@s1",), (">Conditional", "$Variable.1=1", "@s2"),
@@ -805,23 +805,23 @@ def southport_and_ashford():
         ("@wave",), ("Start.Wave", "Farm_Raid"),
         ("End",),
         ("@s2",), (">Conditional", "$Variable.1=2", "@chat"),
-        ("Update.Attribute", "AshfordQuest", "=3"),
+        ("Update.Attribute", "PuddlefordQuest", "=3"),
         ("Give.Item", "Mayors_Pass", "1"),
         say("Mayor", "Beaten them, have you? Then here's my pass. The Steward at King Rupert's Keep, south of here, "
                      "will see you right.", ("Thank you, Mayor.", "@done")),
-        ("@done",), ("Display.Message", "Yellow", "Quest complete: The Ashford Road!", "Quest"),
+        ("@done",), ("Display.Message", "Yellow", "Quest complete: The Puddleford Road!", "Quest"),
         ("End",),
         ("@chat",),
-        say("Mayor", "Ashford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.", ("Goodbye.", "@end")),
+        say("Mayor", "Puddleford's Town Hall: births, weddings, deeds and goblins. Mostly goblins.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ])
     w("Farm Raid Won", [
         ("Update.Attribute", "FarmRaidsBeaten", "+1"),
         ("Display.Message", "Yellow", "The farmer waves his hat at you: \"Come back any time those goblins do!\""),
-        ("Get.Value", "ATTRIBUTE", "AshfordQuest", V1),
+        ("Get.Value", "ATTRIBUTE", "PuddlefordQuest", V1),
         (">Conditional", "$Variable.1=1", "@end"),
-        ("Update.Attribute", "AshfordQuest", "=2"),
-        ("Display.Message", "Yellow", "The Ashford Road: tell the Mayor the goblins are beaten.", "-"),
+        ("Update.Attribute", "PuddlefordQuest", "=2"),
+        ("Display.Message", "Yellow", "The Puddleford Road: tell the Mayor the goblins are beaten.", "-"),
         ("@end",), ("End",),
     ])
 
@@ -965,14 +965,14 @@ def bert():
         ("@craft",), ("Display.Item.Rack", "GENERAL", "Bert", "CRAFT-Scrolls", "@end"),
         ("End",),
         ("@away",),
-        say("Bert", "Where to?", ("To the Isle.", "@isle"), ("To Northport.", "@southport"), ("Nowhere, thanks.", "@end")),
+        say("Bert", "Where to?", ("To Muddlesey.", "@isle"), ("To Drizzleport.", "@southport"), ("Nowhere, thanks.", "@end")),
         ("@isle",), ("Play.Sound", "Teleporter"), ("Display.Message", "Yellow", "Bert waves his hands, and the world "
                                                                                "spins..."),
         ("Teleport", "Isle_Landing", "-"),
         ("End",),
         ("@southport",), ("Play.Sound", "Teleporter"), ("Display.Message", "Yellow", "Bert waves his hands, and the "
                                                                                     "world spins..."),
-        ("Teleport", "Northport_Port", "-"),
+        ("Teleport", "Drizzleport_Port", "-"),
         ("End",),
         ("@heirs",),                                # (the others the Shards know: only when one's near)
         say("Bert", "Has one? Then the blood has been busy. When the first king cut the dragon down, it took royal blood to hold the cut, and that blood has run in more veins than one since. The dragon only ever counted one of you; the Shards count you all. Between us, it's the only good news I've had in years.", ("Fancy that.", "@end")),
@@ -1377,7 +1377,7 @@ def galaith():
                           "is my warrant: show it to the captain of the guard.", ("Thank you, Chancellor.", "@end")),
         ("End",),
         ("@chat",),
-        say("Chancellor", "The Parliament of Brambleton will return from Northport, now the road is open. There is much "
+        say("Chancellor", "The Parliament of Brambleton will return from Drizzleport, now the road is open. There is much "
                           "to do.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ])
@@ -1392,7 +1392,7 @@ def galaith():
         say("King_Rupert", "That amulet... where did you get that? I gave it to my wife, the night before... the night "
                            "she ran.", ("Tell him of Mary's will.", "@will")),
         ("@will",),
-        say("Player", "My mother, Mary, died on the Isle, where she raised me. Her last will told me who I am. She asked "
+        say("Player", "My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked "
                       "me to come home to you and tell you of her death.\\And to tell you she never stopped loving you.",
             ("...", "@weep")),
         ("@weep",),
@@ -1501,7 +1501,7 @@ def cut_lines(name, first, last):
 REWORDS = {   # (file under Data: the old King Tyron's words, as they read now)
     "Scripts\\2,4,0.script": [("Tyron's Keep, the King's garrison.", "King Rupert's Keep, held by his Steward.")],
     "Scripts\\4,4,0.script": [("The Royal Isle: King Tyron's palace.", "The Royal Isle: the Wizards' Court.")],
-    "Scripts\\Read Ashford_Iron_Mine.script": [("Closed by order of King Tyron. Hobgoblins below!",
+    "Scripts\\Read Puddleford_Iron_Mine.script": [("Closed by order of King Tyron. Hobgoblins below!",
                                              "Closed by order of the King's Steward.")],
     "Scripts\\Read Royal_Treasury.script": [("By order of King Tyron this door stays locked.",
                                           "The Wizards' Court's strongroom.")],
@@ -1523,7 +1523,7 @@ REWORDS = {   # (file under Data: the old King Tyron's words, as they read now)
         ("The King holds court in the great hall.", "The Steward holds the hall while the King is away.")],
     "Entities.ini": [("A guard of King Tyron, spear in hand.", "A guard of the King's, spear in hand.")],
 }
-KEEP_NAMED = ("Scripts\\Read Ashford.script", "Scripts\\Read Oakhollow.script", "Scripts\\Talk to Ranger.script",
+KEEP_NAMED = ("Scripts\\Read Puddleford.script", "Scripts\\Read Acornby.script", "Scripts\\Talk to Ranger.script",
               "Scripts\\Watch Stone 1.script", "Quests.ini")   # (where "Tyron's Keep" is only the place's old name)
 
 
@@ -1558,7 +1558,7 @@ def scripts():
     sword()
     galaith()
     retired()
-    print("Scripts: Northport, Ashford, the Keep, Bert, the grimoire, the ring, Dragon Island, Galaith, the throne")
+    print("Scripts: Drizzleport, Puddleford, the Keep, Bert, the grimoire, the ring, Dragon Island, Galaith, the throne")
 
 
 def main():

@@ -652,7 +652,7 @@ $("chip").onclick = async () => {
   let email = "", pending = "", me = {};
   try { me = await api("/api/account", { token }); ({ email = "", pending = "" } = me); } catch (e) { /* */ }
   const own = me.bought ? `The full game: yours (${esc(BOUGHT_AT[me.bought] || me.bought)}).` :
-    me.demo ? `The demo: the Isle, up to level ${demoLevel() || 5}.` : "";
+    me.demo ? `The demo: Muddlesey, up to level ${demoLevel() || 5}.` : "";
   const standing = pending ? `Waiting for you to confirm ${esc(pending)}: the link's in that inbox.` +
     (email ? ` Until then a code goes to ${esc(email)}.` : " You can join games once it's confirmed.") : email ? "Confirmed." :
     "Your account needs an email: it's the only way back in if you forget your password.";
@@ -704,7 +704,7 @@ window.onBought = (what) => {                             // (Google Play's answ
   else toast("Google Play couldn't take the payment just now. Try again in a moment.");
 };
 // ----- owning the game (dev/Roadmap-7.md): once the central server has a demo, an account without the full game plays
-// the Isle, up to its level. It's bought once, in the Android app through Google Play (or on PC), for the account, and
+// Muddlesey, up to its level. It's bought once, in the Android app through Google Play (or on PC), for the account, and
 // the phone has it for Single player too. There are no ads, anywhere.
 // The PC build has no demo: it's bought up front, and played once its store says so (desktop/owning.py).
 let owning = {};
@@ -757,7 +757,7 @@ function showOwning() {
   const web = !app && hello.buy && hello.buy.url ? hello.buy : null;    // (a browser: bought on itch.io, for the account)
   const price = app && app.fullPrice ? app.fullPrice() : web ? web.price || "" : "";
   $("owning-words").textContent =
-    `The demo: the Isle, up to level ${level}. The full game goes on to the mainland and the rest of the story.` +
+    `The demo: Muddlesey, up to level ${level}. The full game goes on to the mainland and the rest of the story.` +
     (app ? "" : web ? " It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too." +
       (myName ? " Buy it with your account's email, then come back here." : " Log in first, to have it on your account.") :
       " It's bought once, in the Android app or on PC, for your Hallisium account: then it's yours here too.");

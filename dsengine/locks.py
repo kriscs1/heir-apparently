@@ -1,5 +1,5 @@
 """Locks on chests (data\\Locks.ini). Each chest has a lock of a level (0: none): a map line's Lock= (and Key=: the
-item that opens it), else its kind's (Entities.ini Lock=), else by where it is: the easiest on the Isle (where you
+item that opens it), else its kind's (Entities.ini Lock=), else by where it is: the easiest on Muddlesey (where you
 learn to pick one), low on the mainland, harder underground, a little different chest to chest. A chest a quest needs
 (its script gives a quest's own item or says quest news) is never locked.
 
@@ -44,14 +44,14 @@ class LockMixin:
         if m is None or e.map in self.lock_text("Unlocked.Maps", "").split():
             return 0, key
         if e.map in self.lock_text("Isle.Maps", "").split():
-            return int(self.lock_num("Isle.Level", 1)), key       # (the Isle's: easy, to learn on)
+            return int(self.lock_num("Isle.Level", 1)), key       # (Muddlesey's: easy, to learn on)
         base = self.lock_num("Dungeon.Level", 8) if m.mz < 0 else self.lock_num("Level", 3)
         spread = int(self.lock_num("Variance", 3))
         return int(base + zlib.crc32(self.chest_key(e).encode()) % (spread + 1)), key
 
     def chest_sturdy(self, e):
         """Iron-bound: it can't be broken open (a map line's or its kind's Sturdy=, else the high locks and, chest to
-        chest, Sturdy.Chance in 100 of the rest; never on the Isle, where you learn both ways in)."""
+        chest, Sturdy.Chance in 100 of the rest; never on Muddlesey, where you learn both ways in)."""
         own = getattr(e, "sturdy", "") or trim(self.data.entity_ini(e.name, "Sturdy", ""))
         if own != "":
             return val(own) > 0

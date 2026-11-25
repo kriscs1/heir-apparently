@@ -5,7 +5,7 @@ missing and leaves the rest as it is.
 
   * The Homesteading skill (Config [Skills]) and data\\Crops.ini: what grows from which seed, at which level, how long it
     takes, and what it gives.
-  * Tilled soil (Soil001): sow seeds in it (use the seed on the soil). It's on the farm by Ashford (the farmer's
+  * Tilled soil (Soil001): sow seeds in it (use the seed on the soil). It's on the farm by Puddleford (the farmer's
     furrows, free for anyone: whoever sows a plot harvests it), and you can lay it on your homestead (Build: Garden).
   * Crops grow through three stages (<Crop>_Crop001-003, Tiles.ini); ripe ones can be harvested.
   * Seeds, sold by the farmer (SHOP-Farm); harvests sometimes give a seed back. New food: potatoes, onions, carrots,
@@ -29,7 +29,7 @@ DATA = os.path.join(ROOT, "data")
 TILES = os.path.join(ROOT, "sprites", "Tiles")
 ENTS = os.path.join(ROOT, "sprites", "Entities")
 FARM_MAP = "3,3,0"
-ALLOTMENT_ROWS = (14, 16)               # the farmer's furrows (tile rows) on the farm by Ashford
+ALLOTMENT_ROWS = (14, 16)               # the farmer's furrows (tile rows) on the farm by Puddleford
 ALLOTMENT_X = range(3, 12)
 
 # crop: (seed price, level, minutes to grow, yield, xp, leaf colour, produce colour, kind of plant)
@@ -279,7 +279,7 @@ def write_data():
         write_section(gathering, "%s (farming)" % name, {
             "Gives": name, "Source": "%s_Crop003" % name, "Verb": "Harvest", "Tool": name + "_Seed",
             "Skill": "Homesteading", "Level": str(level), "XP": str(xp),
-            "Where": "Sow the seeds in tilled soil: the farmer's furrows by Ashford, or your homestead"})
+            "Where": "Sow the seeds in tilled soil: the farmer's furrows by Puddleford, or your homestead"})
     build = os.path.join(DATA, "Buildables.ini")
     if os.path.exists(build) and not ini.section("Soil001", build):
         for k, v in (("Kind", "Tile"), ("Category", "Garden"), ("Name", "Tilled soil (sow seeds here)"),
@@ -293,7 +293,7 @@ def write_farm():
     path = os.path.join(ROOT, "maps", FARM_MAP + ".map")
     lines = ini.read_text(path).replace("\r", "").split("\n")
     if "Soil001" in "\n".join(lines[:21]):
-        print("The farm by Ashford has its allotment already")
+        print("The farm by Puddleford has its allotment already")
         return
     for ty in ALLOTMENT_ROWS:
         row = lines[ty - 1].split(":")

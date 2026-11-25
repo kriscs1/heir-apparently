@@ -123,7 +123,7 @@ THIEVING = [   # data\Thieving.ini (thieving.py): (section, key, value, what it 
 ISLE = "0,0,0 0,1,0 1,0,0 1,1,0 1,2,0 2,0,0 2,1,0 2,2,0 3,0,0 3,1,0 3,2,0 4,0,0 4,1,0 1,1,-1 1,1,-2 2,2,-2 2,1,1"
 LOCKS = [   # data\Locks.ini (locks.py)
     ("Locks", "Level", "3", "A chest's lock (Stealth to pick it): on the mainland, underground, and up to Variance more,"),
-    ("Locks", "Dungeon.Level", "8", "chest to chest; Isle.Level on these maps (the Isle: where you learn). A map line's"),
+    ("Locks", "Dungeon.Level", "8", "chest to chest; Isle.Level on these maps (Muddlesey: where you learn). A map line's"),
     ("Locks", "Variance", "3", "Lock= and Key=, or a kind's Entities.ini Lock=, say otherwise. Never on a chest a quest needs."),
     ("Locks", "Isle.Maps", ISLE, None),
     ("Locks", "Isle.Level", "1", None),
@@ -131,7 +131,7 @@ LOCKS = [   # data\Locks.ini (locks.py)
     ("Locks", "Pick.XP", "0.2", None),
     ("Locks", "Break.Chance", "40", None),
     ("Locks", "Sturdy.Level", "9", "Iron-bound (never broken open, only picked or keyed): a lock this high, and this many"),
-    ("Locks", "Sturdy.Chance", "25", "in 100 of the rest, chest to chest (never on the Isle). A map line's Sturdy= says."),
+    ("Locks", "Sturdy.Chance", "25", "in 100 of the rest, chest to chest (never on Muddlesey). A map line's Sturdy= says."),
 ]
 
 

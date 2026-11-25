@@ -32,4 +32,4 @@ Lock	19	6	$Item.Solar_Key>=1 or $Attr.StaffQuest>=2	The stair door to the King's
 NPC	Cat	64	568	Attitude=Good Zone=2,15,8,20 Pause=4-12
 NPC	Guard	224	288	Attitude=Good Patrol=8,10/8,4/22,4/22,18/8,18 Pause=2-4
 StaticObject	Valuables	352	408
-StaticObject	Hollow_Stump	128	32	Id=Secret_Ravensgate_2
+StaticObject	Hollow_Stump	128	32	Id=Secret_Crowgate_2

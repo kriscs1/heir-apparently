@@ -25,4 +25,4 @@ NPC	Rabbit	416	344	Attitude=Passive Zone=9,8,19,16
 NPC	Blue_Butterfly	608	536	Attitude=Good Zone=15,14,24,20
 Lock	18	2	$Attr.ParliamentQuest>=2	The gates are shut.
 Lock	18	3	$Attr.ParliamentQuest>=2	The gates are shut.
-NPC	Port_Guard	512	64	Attitude=Good Stand=1 Face=E Id=Northport_Bridge_Gate_Guard Name=Sergeant_Wick
+NPC	Port_Guard	512	64	Attitude=Good Stand=1 Face=E Id=Drizzleport_Bridge_Gate_Guard Name=Sergeant_Wick

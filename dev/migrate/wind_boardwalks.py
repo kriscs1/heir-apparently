@@ -1,6 +1,6 @@
 """The boardwalks wander a little (the owner's wish), not ruler lines across the marsh: Mirefold's way out to the Mire
 Tunnel and its long spur to the hut on the east, and in the marsh round Fenmoor Hall the old road west and east of it
-and the way up to the Drowned Abbey, each a single line of planks. Mirefold's square, its short spurs and Saltmarsh's
+and the way up to the Drowned Abbey, each a single line of planks. Mirefold's square, its short spurs and Brinebottom's
 streets stay straight (a street near the middle is).
 
 Each route is laid again between the same two ends, along a line that bends by a few tiles either way and goes round

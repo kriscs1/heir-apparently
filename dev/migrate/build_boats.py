@@ -1,8 +1,8 @@
-"""The ferry's boats, tied up at the two piers (the Isle's, 3,2,0, and Northport's, 1,3,0): a little sailing boat with
+"""The ferry's boats, tied up at the two piers (Muddlesey's, 3,2,0, and Drizzleport's, 1,3,0): a little sailing boat with
 a planked hull, two thwarts and a mast with its sail furled, bobbing on the water (Anim.Frames: <Name>1 and 2).
 
-  * Boat001: lying east-west (64 x 48: the hull in the bottom 32, the mast above), along Northport's pier.
-  * Boat002: lying north-south (32 x 80), along the stem of the Isle's pier.
+  * Boat001: lying east-west (64 x 48: the hull in the bottom 32, the mast above), along Drizzleport's pier.
+  * Boat002: lying north-south (32 x 80), along the stem of Muddlesey's pier.
 
 Run:  python -I "dev\\migrate\\build_boats.py"   (draws the sprites; build_content puts them on the maps)
 """
@@ -100,7 +100,7 @@ def draw_sprites():
 
 
 def extend(world, content):
-    """Entities.ini, the boats on 1,3,0 (a built map); the Isle's (protected) goes in through patches()."""
+    """Entities.ini, the boats on 1,3,0 (a built map); Muddlesey's (protected) goes in through patches()."""
     for name in SPRITES:
         content.ENTITIES[name] = [("Type", "StaticObject"), ("Use.Words", "Examine"), ("Examine.Info", EXAMINE),
                                   ("Solid", "0"), ("Anim.Frames", "2"), ("Anim.Speed", "900")]

@@ -130,7 +130,7 @@ def wizard_steps(quests):
         ("Quest.Note", "DragonQuest", "You chose a share of the hoard: 1500 gold. (The king remembers your oath to the Ashen Hand.)"),
         ("Display.Message", "Yellow", "Quest complete: The Dragon of Ashpeak! You receive 1500 gold and Attack and Defence experience."),
         "dqdone:",
-        ("Display.Message", "Cyan", "Word travels fast: the gates of Wardhaven, over the bridge east of Ashford's farms, are open to you at last."),
+        ("Display.Message", "Cyan", "Word travels fast: the gates of Sulkhaven, over the bridge east of Puddleford's farms, are open to you at last."),
         ("End",),
     ]
     return steps

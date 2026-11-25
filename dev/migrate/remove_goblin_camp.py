@@ -1,4 +1,4 @@
-"""The goblin camp the first world had at 3,4,0 is gone: Ashford grew over it (its market square is there now), and
+"""The goblin camp the first world had at 3,4,0 is gone: Puddleford grew over it (its market square is there now), and
 no quest needs it. Takes away its goblins, its fires, the bones and scraps round them and its notice ("GO AWAY
 HOOMANS!"); the map's arrival line names the square instead, and its music is the town's. A second run does nothing.
 
@@ -40,9 +40,9 @@ def main():
         n += 1
     n += rewrite(os.path.join(DATA, "Scripts", "3,4,0.script"),
                  "01\tDisplay.Message\tDarkRed\tSmoke and the stink of goblins... this is their camp!\t-",
-                 "01\tDisplay.Message\tCyan\tAshford's market square. Stallholders cry their wares.\t-")
+                 "01\tDisplay.Message\tCyan\tPuddleford's market square. Stallholders cry their wares.\t-")
     n += rewrite(os.path.join(DATA, "Music.ini"), "3,4,0=Danger", "3,4,0=Town")
-    print("The goblin camp is gone from Ashford's market square (%d changes)" % n if n else "The goblin camp is gone already")
+    print("The goblin camp is gone from Puddleford's market square (%d changes)" % n if n else "The goblin camp is gone already")
 
 
 if __name__ == "__main__":

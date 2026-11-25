@@ -1,4 +1,4 @@
-"""Northport is shut till its Parliament has spoken: the two roads out (the river bridge east of the city, 8,6,0, and the
+"""Drizzleport is shut till its Parliament has spoken: the two roads out (the river bridge east of the city, 8,6,0, and the
 forest road south of it, 2,10,0) each have oak gates across them and a gate guard who says why. The gates open (a Lock on
 each gate tile, drawn open by Tiles.ini Unlocked.Tile) once The Temporary Capital is done (ParliamentQuest>=2: the Speaker
 has given her letter). Only the way out is shut: nothing inside the city changes. Run it again: it writes the same again.
@@ -27,7 +27,7 @@ WAYS = {
 def main():
     w = W.World(0)
     for way, ((mx, my), gate, guard, face, name) in WAYS.items():
-        gid = "Northport_%s_Gate_Guard" % way
+        gid = "Drizzleport_%s_Gate_Guard" % way
         m = w.maps[(mx, my)]
         for (x, y) in gate:
             w.put(mx * XT + x - 1, my * YT + y - 1, "City_Gate001")
@@ -44,7 +44,7 @@ def main():
             (">Conditional", "$Variable.1<2", "@open"),
             ("Display.Conversation", "Port_Guard",
              "Halt. The gates are shut by order of the Parliament: raiders have been seen on the roads, and nobody leaves "
-             "Northport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing "
+             "Drizzleport till it says so.\Go and see the Speaker in the City Hall; the Parliament's word is the only thing "
              "that opens these gates.", "Understood.", "@end"),
             ("End",),
             ("@open",),

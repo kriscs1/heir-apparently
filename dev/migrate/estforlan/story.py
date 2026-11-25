@@ -111,7 +111,7 @@ ENTRY = {   # old entry script -> its new name (None: it goes), and lines change
     "2,4,1": "22,11,1", "3,3,0": "11,4,0", "3,4,0": None, "4,4,0": "18,5,0", "4,4,1": "18,5,1", "8,10,0": "22,20,0",
     "8,2,0": "23,4,0", "12,5,0": "-9,12,0", "10,6,0": None, "7,4,0": None,
 }
-ENTRY_WORDS = {"Ashford village. You smell fresh bread.": "Ashford. You smell fresh bread.",
+ENTRY_WORDS = {"Puddleford village. You smell fresh bread.": "Puddleford. You smell fresh bread.",
                "The Royal Isle: the Wizards' Court.": "The Wizards' Court."}
 
 
@@ -148,17 +148,17 @@ def entry_scripts(plans, first, extra=None):
 
 
 ARRIVE = {"Galaith": "Galaith, the royal city. Its white towers shine over the rooftops.",
-          "Northport": "Northport. Gulls wheel over the harbour.",
+          "Drizzleport": "Drizzleport. Gulls wheel over the harbour.",
           "Keep": "King Rupert's Keep. The sea booms against the rocks below the walls.",
           "Court": "The Wizards' Court. The air tingles with magic.",
           "Fenwick": "Fenwick, on its boardwalks over the marsh.",
-          "Ravensgate": "Ravensgate. Ravens croak from the rooftops.",
-          "Highwatch": "Highwatch, high in the red hills.",
-          "Frosthold": "Frosthold. Your breath steams in the cold.",
-          "Wardhaven": "Wardhaven, on its island.",
+          "Crowgate": "Crowgate. Ravens croak from the rooftops.",
+          "Squintwatch": "Squintwatch, high in the red hills.",
+          "Chillingham": "Chillingham. Your breath steams in the cold.",
+          "Sulkhaven": "Sulkhaven, on its island.",
           "Emberwatch": "Emberwatch, the last town before the Cinder Peaks. Smoke on the wind.",
           "Dunerest": "Dunerest, at the desert's edge.",
-          "Saltmarsh": "Saltmarsh. The tide hisses in the reeds."}
+          "Brinebottom": "Brinebottom. The tide hisses in the reeds."}
 
 
 def isle(name):
@@ -210,21 +210,21 @@ def pass_scripts():
 
 
 def wardhaven_guard():
-    K.write_script("Wardhaven Guard", [
+    K.write_script("Sulkhaven Guard", [
         (">Conditional", "$Attr.GalaithQuest>=2", "@shut"),
-        K.say("Guard", "The dragon of Galaith is dead! Welcome to Wardhaven. The gates are open, and they're staying "
+        K.say("Guard", "The dragon of Galaith is dead! Welcome to Sulkhaven. The gates are open, and they're staying "
                        "open.", ("Thank you.", "@end")),
         ("End",),
         ("@shut",),
-        K.say("Guard", "Halt! Wardhaven's gates have been barred since the dragon came down on Galaith, and they stay "
+        K.say("Guard", "Halt! Sulkhaven's gates have been barred since the dragon came down on Galaith, and they stay "
                        "barred while it lives.\\Until then: off you go.", ("Goodbye.", "@end")),
         ("@end",), ("End",)], MAKER)
 
 
 # ------------------------------------------------------------------ shardstones
-WEST = ["Northport", "Ashford", "Wardhaven", "Oakhollow", "Wildwood", "Greyford", "Galaith", "Fenwick", "Dunerest",
-        "Saltmarsh"]
-EAST = ["Court", "Emberwatch", "Thornwick", "Keep", "Ravensgate", "Highwatch", "Frosthold"]
+WEST = ["Drizzleport", "Puddleford", "Sulkhaven", "Acornby", "Wildwood", "Dullford", "Galaith", "Fenwick", "Dunerest",
+        "Brinebottom"]
+EAST = ["Court", "Emberwatch", "Nettlewick", "Keep", "Crowgate", "Squintwatch", "Chillingham"]
 
 
 def shardstones(atlas, plans):
@@ -357,12 +357,12 @@ def quests(table, rehoused):
 
 def world_map(plans):
     lines = read(K.WORLDMAP)
-    towns = {"Northport": "Northport", "Ashford": "Ashford", "Oakhollow": "Oakhollow", "Fenwick": "Fenwick",
-             "Greyford": "Greyford", "Highwatch": "Highwatch", "Frosthold": "Frosthold", "Dunerest": "Dunerest",
-             "Emberwatch": "Emberwatch", "Thornwick": "Thornwick", "Ravensgate": "Ravensgate",
+    towns = {"Drizzleport": "Drizzleport", "Puddleford": "Puddleford", "Acornby": "Acornby", "Fenwick": "Fenwick",
+             "Dullford": "Dullford", "Squintwatch": "Squintwatch", "Chillingham": "Chillingham", "Dunerest": "Dunerest",
+             "Emberwatch": "Emberwatch", "Nettlewick": "Nettlewick", "Crowgate": "Crowgate",
              "Wizards' Court": "Court", "King Rupert's Keep": "Keep", "Wildwood": "Wildwood",
-             "Saltmarsh": "Saltmarsh", "Galaith": "Galaith", "Wardhaven": "Wardhaven"}
-    regions = {"Sunscar Desert": "1,17,0 12 10", "Saltmarsh Fens": "6,18,0 12 10", "Cinder Peaks": "20,6,0 12 10",
+             "Brinebottom": "Brinebottom", "Galaith": "Galaith", "Sulkhaven": "Sulkhaven"}
+    regions = {"Sunscar Desert": "1,17,0 12 10", "Brinebottom Fens": "6,18,0 12 10", "Cinder Peaks": "20,6,0 12 10",
                "Frostpeak": "13,19,0 12 6", "The Pass of Galaith": "0,12,0 12 4", "The Wildwood": "3,7,0 12 10",
                "The Greyflats": "12,9,0 12 10", "The Redrock Hills": "11,14,0 12 10", "The Elderwood": "17,8,0 12 10",
                "The Ashwold": "22,4,0 6 10", "The Downs": "19,15,0 12 10", "The West Range": "0,9,0 12 10"}
@@ -377,7 +377,7 @@ def world_map(plans):
                 out += ["%s=%s_Square" % (label, key) for label, key in towns.items() if key in plans]
                 out.append("Isle Village=1,1,0 13 15")
             elif section == "Regions":
-                out.append("The Isle=2,1,0 3 4")
+                out.append("Muddlesey=2,1,0 3 4")
                 out += ["%s=%s" % kv for kv in regions.items()]
             continue
         if section in ("Towns", "Regions") and "=" in ln and not ln.startswith(";"):
@@ -395,17 +395,17 @@ def waves(plans):
         m = re.match(r"^\[(\w+)\]$", ln)
         if m:
             section = m.group(1)
-        elif section == "Ashford_Raid" and ln.startswith("Map="):
-            ln = "Map=" + plans["Ashford"].atlas.at(*plans["Ashford"].centre)[0].name
-        elif section == "Ashford_Raid" and ln.startswith("Centre="):
-            ln = "Centre=Ashford_Square"
+        elif section == "Puddleford_Raid" and ln.startswith("Map="):
+            ln = "Map=" + plans["Puddleford"].atlas.at(*plans["Puddleford"].centre)[0].name
+        elif section == "Puddleford_Raid" and ln.startswith("Centre="):
+            ln = "Centre=Puddleford_Square"
         elif section == "Farm_Raid" and ln.startswith("Map="):
             ln = "Map=" + L.tname("11,4,0")
         out.append(ln)
     write(os.path.join(K.DATA, "Waves.ini"), out)
 
 
-DIGGING = {"Saltmarsh": "6-10,16-20,0", "Sunscar_Desert": "1-5,16-19,0", "Cinder_Peaks": "19-23,4-8,0",
+DIGGING = {"Brinebottom": "6-10,16-20,0", "Sunscar_Desert": "1-5,16-19,0", "Cinder_Peaks": "19-23,4-8,0",
            "Frostpeak": "11-15,16-19,0", "Dragon_Island": "22,20,0"}
 
 
@@ -484,9 +484,9 @@ def orphans():
             continue
         if not (TOWN_IDS.match(name) or name.startswith("Read ") or re.match(r"^Talk to Market_Vendor_\d+$", name)):
             continue
-        if "_" not in target and target not in ("Ashford", "Northport", "Oakhollow", "Fenwick", "Greyford",
-                                                "Highwatch", "Frosthold", "Dunerest", "Emberwatch", "Thornwick",
-                                                "Ravensgate", "Wardhaven"):
+        if "_" not in target and target not in ("Puddleford", "Drizzleport", "Acornby", "Fenwick", "Dullford",
+                                                "Squintwatch", "Chillingham", "Dunerest", "Emberwatch", "Nettlewick",
+                                                "Crowgate", "Sulkhaven"):
             continue
         os.remove(os.path.join(K.SCRIPTS, f))
         gone.append(name)

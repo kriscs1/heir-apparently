@@ -6,7 +6,7 @@
   * maps\\0,0,10.map  the arena, on a level of its own (nothing joins it at its edges): stone walls, a paved walk round
     the edge for the crowd, and a sand pit in the middle. Players can only fight on the sand (Config [PvP]), so
     whoever stands on the paving is safe.
-  * The Arena Master (a guard, Id=Arena_Master) in Ashford takes you there; the Arena Keeper (Id=Arena_Keeper) by the
+  * The Arena Master (a guard, Id=Arena_Master) in Puddleford takes you there; the Arena Keeper (Id=Arena_Keeper) by the
     arena's gate brings you back. data\\Scripts\\Talk to Arena_Master.script, Talk to Arena_Keeper.script, and 0,0,10.script (the
     arena's rules, said as you arrive).
   * Config [PvP]: Maps, Ground, and where you wake when you're beaten (nothing is lost: no gold, no grave).
@@ -22,7 +22,7 @@ sys.path.insert(0, ROOT)
 from ashen import ini  # noqa: E402
 
 ARENA = "0,0,10"
-TOWN = "11,4,0"                        # (Ashford, on the mainland)
+TOWN = "11,4,0"                        # (Puddleford, on the mainland)
 XT, YT = 25, 21
 SPAWN = (12, 18)                       # tile (1-based) the beaten wake on, and arrivals land on: by the gate
 KEEPER = (10, 19)
@@ -111,9 +111,9 @@ def master_position():
 
 
 def place_master():
-    """The Arena Master in Ashford, on the clear spot nearest the middle of the village."""
+    """The Arena Master in Puddleford, on the clear spot nearest the middle of the village."""
     if master_position() is not None:
-        print("The Arena Master is in Ashford already")
+        print("The Arena Master is in Puddleford already")
         return master_position()
     lines = map_lines(TOWN)
     tiles = os.path.join(ROOT, "data", "Tiles.ini")
@@ -144,7 +144,7 @@ def place_master():
                 if best is None or d < best[0]:
                     best = (d, px, py)
     if best is None:
-        print("ERROR - no clear spot in Ashford for the Arena Master")
+        print("ERROR - no clear spot in Puddleford for the Arena Master")
         return None
     _, px, py = best
     while lines and lines[-1] == "":
@@ -152,7 +152,7 @@ def place_master():
     lines.append("NPC\tGuard\t%d\t%d\tAttitude=Good Stand=1 Id=Arena_Master" % (px, py - 8))
     with open(os.path.join(ROOT, "maps", TOWN + ".map"), "w", encoding="cp1252", newline="\r\n") as f:
         f.write("\n".join(lines) + "\n")
-    print("The Arena Master stands in Ashford at %d,%d" % (px, py))
+    print("The Arena Master stands in Puddleford at %d,%d" % (px, py))
     return master_position()
 
 
@@ -212,7 +212,7 @@ def main():
         "04\tEnd",
     ])
     write_script("Talk to Arena_Keeper", [
-        "01\tDisplay.Conversation\tGuard\tHad enough? I can take you back to Ashford.\tBack to Ashford, please.\t02\t"
+        "01\tDisplay.Conversation\tGuard\tHad enough? I can take you back to Puddleford.\tBack to Puddleford, please.\t02\t"
         "I'll stay a while.\t05",
         "02\tPlay.Sound\tDoor",
         "03\tEdit.View.Distance\t%d" % view,

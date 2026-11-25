@@ -88,5 +88,5 @@ On the VM, in `/opt/shards-of-ashen-central`:
 ## 7. Turn the demo on: last
 
 `DS_DEMO=1` puts **every account that hasn't bought it** in the demo, the players you have already among them (their
-characters outside the Isle go back to its pier). So first, on the admin page (`/admin` > Accounts), **Give the full
+characters outside Muddlesey go back to its pier). So first, on the admin page (`/admin` > Accounts), **Give the full
 game** to everyone who should keep it. Then `DS_DEMO=1` in `.env`, and `docker compose up -d`.

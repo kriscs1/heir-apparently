@@ -1,14 +1,14 @@
-"""The starting island (the Isle), done up. Run it once (again: it sees what's done and leaves it).
+"""The starting island (Muddlesey), done up. Run it once (again: it sees what's done and leaves it).
 
   python -I "dev\\migrate\\build_isle.py"
 
-  * The village (1,1,0): its houses are timber with thatched roofs; the old bank is the Isle's general store now (a
-    storekeeper, Id=Isle_Storekeeper: starter tools and food). There's no bank on the Isle.
+  * The village (1,1,0): its houses are timber with thatched roofs; the old bank is Muddlesey's general store now (a
+    storekeeper, Id=Isle_Storekeeper: starter tools and food). There's no bank on Muddlesey.
   * The dairy (2,0,0): the dairymaid's hut, a barn with hay, a fenced pasture for the cows, a hen coop with the nests
     in it (Id=Hen_Nests), a wheat field with a scarecrow, and a shepherd with the sheep (Id=Isle_Shepherd: since
     moved to the meadow west of the village by move_isle_flock.py).
   * The chapel (3,1,0) by the graveyard: pews, an altar, and stairs down to its cellar (3,1,-1), where a hole in the
-    floor goes down into the grotto (the caves under the Isle). The grotto's old hole on 2,1,0 is gone; its ladder
+    floor goes down into the grotto (the caves under Muddlesey). The grotto's old hole on 2,1,0 is gone; its ladder
     now climbs up into the chapel cellar.
   * The land: dirt paths from the pier to the village, the dairy and the chapel; a lily pond; woods; an old orchard;
     a rocky outcrop (rocks to mine for stone); a flower meadow; a bench at the lookout over the sea.
@@ -206,7 +206,7 @@ def no_grotto_notice():
 
 
 def thin_isle_walls():
-    """The Isle's timber buildings (built before they had thin walls): each block of timber wall, a house."""
+    """Muddlesey's timber buildings (built before they had thin walls): each block of timber wall, a house."""
     n = 0
     for name in ("1,1,0", "2,0,0", "3,1,0"):
         m = Map(name)
@@ -229,7 +229,7 @@ def thin_isle_walls():
                 if max(xs) - min(xs) >= 2 and max(ys) - min(ys) >= 2:
                     n += thin_walls(m, min(xs), min(ys), max(xs), max(ys))
         m.save()
-    print("The Isle's timber houses: thin walls inside (%d pieces)" % n if n else "The Isle's houses have thin walls")
+    print("Muddlesey's timber houses: thin walls inside (%d pieces)" % n if n else "Muddlesey's houses have thin walls")
 
 
 def fence(m, x1, y1, x2, y2, gates=()):
@@ -290,7 +290,7 @@ def village():
     m.ents.append(obj_line("StaticObject", "Sign_General", 12, 17, dy=-16))
     m.ents.append("Id\tIsle_Store\t11\t17")
     m.save()
-    print("The village: timber and thatch; the bank is the Isle Store")
+    print("The village: timber and thatch; the bank is Muddlesey Store")
     racks = os.path.join(DATA, "ItemRacks.ini")
     if not ini.section("SHOP-Isle", racks):
         stock = [("Bronze_Axe", 3), ("Bronze_Pickaxe", 3), ("Fishing_Rod", 3), ("Bait", 40), ("Bucket", 4),
@@ -305,7 +305,7 @@ def village():
             ini.write("SHOP-Isle", k, v, racks)
         print("ItemRacks.ini [SHOP-Isle]")
     write_script("Talk to Isle_Storekeeper", [
-        "01\tDisplay.Conversation\tMerchant\tWelcome to the Isle Store! There's precious little money on the Isle, so I "
+        "01\tDisplay.Conversation\tMerchant\tWelcome to Muddlesey Store! There's precious little money on Muddlesey, so I "
         "keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.\tLet me see "
         "your goods.\t02\tGoodbye.\t04",
         "02\tDisplay.Item.Rack\tGENERAL\tMerchant\tSHOP-Isle\t04",
@@ -366,7 +366,7 @@ def dairy():
         "01\tDisplay.Conversation\tShepherd\tBaa! Ha, sorry - you talk to sheep all day, you start sounding like one."
         "\\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.\tHow do I "
         "shear a sheep?\t02\tGoodbye.\t03",
-        "02\tDisplay.Conversation\tShepherd\tUse shears on one - the tinker in Ashford sells them, or a shop will. Then "
+        "02\tDisplay.Conversation\tShepherd\tUse shears on one - the tinker in Puddleford sells them, or a shop will. Then "
         "spin the wool at a spinning wheel, or sell it to a weaver.\tThanks.\t03",
         "03\tEnd",
     ])

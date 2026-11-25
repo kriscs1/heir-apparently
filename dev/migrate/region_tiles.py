@@ -232,7 +232,7 @@ TILES = {
     "Desert_Rock001": desert_rock,
     "Portal001": portal,
 }
-for _n in SHORE_PIECES:     # (the Isle's own grass pieces were redrawn the same way; originals in dev\Archive)
+for _n in SHORE_PIECES:     # (Muddlesey's own grass pieces were redrawn the same way; originals in dev\Archive)
     TILES["Water%03d" % _n] = (lambda n=_n: shore(n, "Grass001"))
     TILES["Sand_Water%03d" % _n] = (lambda n=_n: shore(n, "Sand001"))
     TILES["Snow_Water%03d" % _n] = (lambda n=_n: shore(n, "Snow001"))

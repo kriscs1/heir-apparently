@@ -15,19 +15,19 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_isle import Map, XT, YT  # noqa: E402
 
 GRAVES = {
-    "3,1,0": [                                                         # the Isle chapel's yard
+    "3,1,0": [                                                         # Muddlesey chapel's yard
         ("Grave_Tom_Barrow", "'Here lies Old Tom Barrow. He went to sea and the sea kept him.'"),
         ("Grave_Worn_Away", "The name has worn away. The earth in front of it looks... disturbed."),
-        ("Grave_Mary_Croft", "'Mary Croft, beloved mother. She baked the best pies on the Isle.'"),
+        ("Grave_Mary_Croft", "'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'"),
         ("Grave_Ned_Pike", "'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'"),
-        ("Grave_Agnes_Reed", "'Agnes Reed. She mended every net on the Isle and swore at every gull.'"),
+        ("Grave_Agnes_Reed", "'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'"),
         ("Grave_Little_Wren", "'Little Wren, aged six. Gone to chase the butterflies.'"),
         ("Grave_Will_Hollis", "'Will Hollis, shepherd.' A little stone dog is carved at the foot of it."),
         ("Grave_Tam_Thatcher", "'Old Tam, thatcher. He built Rose Cottage the year the great storm took the pier.'"),
         ("Grave_Brother_Edric", "'Brother Edric, who kept this chapel fifty years and rang its bell every dawn.'"),
-        ("Grave_Hester_Bell", "'Hester Bell, midwife. Half the Isle came into the world through her hands.'"),
+        ("Grave_Hester_Bell", "'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'"),
     ],
-    "8,8,0": [                                                         # Ravensgate, the gravekeepers' town
+    "8,8,0": [                                                         # Crowgate, the gravekeepers' town
         ("Grave_Osric_Raven", "'Osric Raven, first gravekeeper of the Barrowdowns. He dug his own, and dug it well.'"),
         ("Grave_Elsa_Moor", "'Elsa Moor. She walked the downs at night with a lantern, so the dead had light.'"),
         ("Grave_Gideon_Sexton", "'Gideon Sexton, bell-ringer. Deaf by forty; ringing still at eighty.'"),
@@ -62,7 +62,7 @@ GRAVES = {
     ],
     "8,7,0": [
         ("Grave_Old_Wat", "'Old Wat, who lived alone and liked it. Leave him be.'"),
-        ("Grave_Raven_Mark", "A raven is carved where a name should be: the mark of Ravensgate, a town long gone."),
+        ("Grave_Raven_Mark", "A crow is carved where a name should be: the mark of Crowgate, a town long gone."),
     ],
     "9,8,0": [
         ("Grave_Bram_Smith", "'Bram, smith. His hammer lies with him, so he may mend things on the other side.'"),

@@ -19,27 +19,27 @@ Gravel001+Decor(Fountain001):Gravel001:Gravel001:Gravel001:Gravel001:Timber_Thin
 Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Timber_Thin_Plank004+Roof(Shingle_Roof013.02):Plank001+Roof(Shingle_Roof014.02):Plank001+Roof(Shingle_Roof014.02):Plank001+Roof(Shingle_Roof014.02):Plank001+Decor(Potted_Plant002)+Roof(Shingle_Roof014.02):Timber_Thin_Plank002+Roof(Shingle_Roof015.02):Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Flowers001):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001
 Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Timber001:Door004:Timber001:Timber001+Decor(Timber_Window001):Timber001:Timber001:Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001+Decor(Tall_Grass001):Grass001+Decor(Tree001):Grass001+Decor(Bush001)
 Gravel001:Gravel001:Gravel001:Gravel001+Decor(Lamp_Post001):Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Gravel001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Sage_Patch001)
-NPC	Fishmonger	32	472	Attitude=Good Stand=1 Face=S Id=Thornwick_Stall_302 Name=Toby
-NPC	Baker	32	536	Attitude=Good Stand=1 Face=S Id=Thornwick_Stall_304 Name=Albert
+NPC	Fishmonger	32	472	Attitude=Good Stand=1 Face=S Id=Nettlewick_Stall_302 Name=Toby
+NPC	Baker	32	536	Attitude=Good Stand=1 Face=S Id=Nettlewick_Stall_304 Name=Albert
 NPC	Black_Cat	32	408	Attitude=Good Zone=2,10,7,18 Pause=4-12
-NPC	Clerk	256	280	Attitude=Good Stand=1 Face=S Id=Thornwick_Clerk_309
-NPC	Doctor	224	536	Attitude=Good Stand=1 Face=S Id=Thornwick_Doctor_315 Name=Hugh
-NPC	Blacksmith	576	312	Attitude=Good Stand=1 Face=S Id=Thornwick_Smith_319 Name=Bertha
+NPC	Clerk	256	280	Attitude=Good Stand=1 Face=S Id=Nettlewick_Clerk_309
+NPC	Doctor	224	536	Attitude=Good Stand=1 Face=S Id=Nettlewick_Doctor_315 Name=Hugh
+NPC	Blacksmith	576	312	Attitude=Good Stand=1 Face=S Id=Nettlewick_Smith_319 Name=Bertha
 StaticObject	Market_Stall_Open	32	512
 StaticObject	Market_Stall_Open	32	576
 StaticObject	Market_Board	0	480
 StaticObject	Furnace	512	288
 StaticObject	Anvil	640	288
-StaticObject	Notice	576	418	Id=Thornwick_Notice_320
-Id	Thornwick_Market_Square	1	19
-Id	Thornwick_Square	1	19
-Id	Thornwick_Village_Hall	6	15
+StaticObject	Notice	576	418	Id=Nettlewick_Notice_320
+Id	Nettlewick_Market_Square	1	19
+Id	Nettlewick_Square	1	19
+Id	Nettlewick_Village_Hall	6	15
 NPC	Druid	64	536	Attitude=Good Zone=2,16,6,20 Pause=4-12
 NPC	Trader	64	408	Attitude=Good Zone=2,12,6,16 Pause=4-12
 NPC	Settler	32	472	Attitude=Good Zone=2,14,5,18 Pause=4-12
-StaticObject	Hollow_Stump	64	352	Id=Secret_Thornwick
+StaticObject	Hollow_Stump	64	352	Id=Secret_Nettlewick
 StaticObject	Valuables	192	248
 StaticObject	Valuables	288	472
-StaticObject	Old_Statue	64	224	Id=Secret_Thornwick_2
-StaticObject	Wishing_Well	96	192	Id=Secret_Thornwick_3
+StaticObject	Old_Statue	64	224	Id=Secret_Nettlewick_2
+StaticObject	Wishing_Well	96	192	Id=Secret_Nettlewick_3
 NPC	Old_Woman	64	504	Attitude=Good Stand=1 Face=E Id=Granny_Bramble Name=Granny_Bramble

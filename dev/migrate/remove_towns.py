@@ -1,13 +1,13 @@
-"""Fenwick, Highwatch and Ravensgate taken off the map (the owner's wish), their quests moved to towns that stay.
+"""Fenwick, Squintwatch and Crowgate taken off the map (the owner's wish), their quests moved to towns that stay.
 
   * Each town's streets, houses, stalls, people, notices and shardstone are gone and the ground they stood on is wild
     again (as the wild round it: marsh in the fens, grass on the hills); the levels over and under its houses go too.
     The roads that ran into it are joined up again across the ground it stood on.
-  * Kept: Fenwick's cathedral (empty now: build_manors.py makes it the Drowned Abbey), Ravensgate's graves and its
-    Gravekeeper (move_keep.py gives them to King Rupert's Keep, which takes Ravensgate's place), the secrets by each
+  * Kept: Fenwick's cathedral (empty now: build_manors.py makes it the Drowned Abbey), Crowgate's graves and its
+    Gravekeeper (move_keep.py gives them to King Rupert's Keep, which takes Crowgate's place), the secrets by each
     square (where they were: in the wild now, so the count of them all still holds), and Captain Rook on his shore.
-  * The quests: Morwen the witch and Elder Pike (Bog Lights, Old Hob) to Saltmarsh, in the same fens; Granny Bramble
-    and her market rats (the Practice Hex) to Thornwick's green; Captain Hale (Bandits on the Road) to Frosthold, on
+  * The quests: Morwen the witch and Elder Pike (Bog Lights, Old Hob) to Brinebottom, in the same fens; Granny Bramble
+    and her market rats (the Practice Hex) to Nettlewick's green; Captain Hale (Bandits on the Road) to Chillingham, on
     the Redrock road; the Barrow King's Gravekeeper to the Keep. Their words, markers and notes say so.
   * Everything that named them: the shardstones (Shardstones.ini), the world map, the traders' wares, the towns' own
     scripts, the signposts (refresh_signposts.py), the tests.
@@ -33,19 +33,19 @@ DONE = os.path.join(HERE, ".towns_removed")
 
 TOWNS = {   # name: the world cells it covered (x1, y1, x2, y2), its buildings kept (by an Id in them)
     "Fenwick": dict(box=(163, 322, 263, 390), keep=("Fenwick_Cathedral",)),
-    "Highwatch": dict(box=(370, 302, 442, 357), keep=()),
-    "Ravensgate": dict(box=(612, 344, 701, 413), keep=()),
+    "Squintwatch": dict(box=(370, 302, 442, 357), keep=()),
+    "Crowgate": dict(box=(612, 344, 701, 413), keep=()),
 }
-KEPT = re.compile(r"^(Grave_|Secret_|Ravensgate_Gravekeeper$|Captain_Rook|Rooks_Pier$|Fenwick_Cathedral$)")
+KEPT = re.compile(r"^(Grave_|Secret_|Crowgate_Gravekeeper$|Captain_Rook|Rooks_Pier$|Fenwick_Cathedral$)")
 MOVED = {   # an NPC (its kind on the map, and the town it was in): to the place it goes, its new Id, its roam
-    ("Witch", "Fenwick"): ("Saltmarsh_Square", None, 3),
-    ("Elder", "Fenwick"): ("Saltmarsh_Square", "Saltmarsh_Elder", 3),
-    ("Old_Woman", "Fenwick"): ("Thornwick_Square", None, 0),
-    ("Captain", "Highwatch"): ("Frosthold_Square", "Frosthold_Captain", 3),
-    ("Gravekeeper", "Ravensgate"): (None, None, 0),               # (stays: move_keep.py)
+    ("Witch", "Fenwick"): ("Brinebottom_Square", None, 3),
+    ("Elder", "Fenwick"): ("Brinebottom_Square", "Brinebottom_Elder", 3),
+    ("Old_Woman", "Fenwick"): ("Nettlewick_Square", None, 0),
+    ("Captain", "Squintwatch"): ("Chillingham_Square", "Chillingham_Captain", 3),
+    ("Gravekeeper", "Crowgate"): (None, None, 0),               # (stays: move_keep.py)
 }
-RENAMED_IDS = {"Fenwick_Elder": "Saltmarsh_Elder", "Highwatch_Captain": "Frosthold_Captain",
-               "Ravensgate_Gravekeeper": "Keep_Gravekeeper"}
+RENAMED_IDS = {"Fenwick_Elder": "Brinebottom_Elder", "Squintwatch_Captain": "Chillingham_Captain",
+               "Crowgate_Gravekeeper": "Keep_Gravekeeper"}
 
 
 # ================================================================== the buildings kept
@@ -98,7 +98,7 @@ def remove(w, town, spec, report):
     for m, ln, c in w.lines(box):
         if KEPT.match(W.line_id(ln)) and ln.startswith("Id\t"):
             kept.add(c)                                        # (a grave's tile)
-    if town == "Ravensgate":                                   # (its port: the Keep's now)
+    if town == "Crowgate":                                   # (its port: the Keep's now)
         kept |= {(x, y) for x in range(690, 702) for y in range(362, 372)
                  if w.tile(x, y) in ("Boardwalk001", "Plank001")}
     gone = {(x, y) for x in range(x1, x2 + 1) for y in range(y1, y2 + 1)
@@ -200,70 +200,70 @@ def granny_rats(w, spot):
 
 # ================================================================== the words
 WORDS = [   # (file, old, new): every line that named them
-    ("Quests.ini", "Speak to Old Morwen the witch in Fenwick, in the Saltmarsh.",
-     "Speak to Old Morwen the witch in Saltmarsh, in the fens."),
-    ("Quests.ini", "Gather 4 bog myrtle in the Saltmarsh", "Gather 4 bog myrtle in the fens"),
-    ("Quests.ini", "Take Morwen's brew to Elder Pike in Fenwick.", "Take Morwen's brew to Elder Pike in Saltmarsh."),
-    ("Quests.ini", "Marker1=Fenwick_Square", "Marker1=Saltmarsh_Square"),
-    ("Quests.ini", "Marker2=Fenwick_Elder", "Marker2=Saltmarsh_Elder"),
-    ("Quests.ini", "Marker3=Fenwick_Square", "Marker3=Saltmarsh_Square"),
-    ("Quests.ini", "Speak to Captain Hale in Highwatch, the hill fort on the Redrock road.",
-     "Speak to Captain Hale in Frosthold, on the Redrock road."),
-    ("Quests.ini", "Bring the stolen goods to Captain Hale in Highwatch.",
-     "Bring the stolen goods to Captain Hale in Frosthold."),
-    ("Quests.ini", "Marker1=Highwatch_Square", "Marker1=Frosthold_Square"),
-    ("Quests.ini", "Marker3=Highwatch_Square", "Marker3=Frosthold_Square"),
-    ("Quests.ini", "Marker0=Highwatch_Captain", "Marker0=Frosthold_Captain"),
-    ("Quests.ini", "Speak to the Gravekeeper in Ravensgate, on the Barrowdowns.",
+    ("Quests.ini", "Speak to Old Morwen the witch in Fenwick, in the Brinebottom.",
+     "Speak to Old Morwen the witch in Brinebottom, in the fens."),
+    ("Quests.ini", "Gather 4 bog myrtle in the Brinebottom", "Gather 4 bog myrtle in the fens"),
+    ("Quests.ini", "Take Morwen's brew to Elder Pike in Fenwick.", "Take Morwen's brew to Elder Pike in Brinebottom."),
+    ("Quests.ini", "Marker1=Fenwick_Square", "Marker1=Brinebottom_Square"),
+    ("Quests.ini", "Marker2=Fenwick_Elder", "Marker2=Brinebottom_Elder"),
+    ("Quests.ini", "Marker3=Fenwick_Square", "Marker3=Brinebottom_Square"),
+    ("Quests.ini", "Speak to Captain Hale in Squintwatch, the hill fort on the Redrock road.",
+     "Speak to Captain Hale in Chillingham, on the Redrock road."),
+    ("Quests.ini", "Bring the stolen goods to Captain Hale in Squintwatch.",
+     "Bring the stolen goods to Captain Hale in Chillingham."),
+    ("Quests.ini", "Marker1=Squintwatch_Square", "Marker1=Chillingham_Square"),
+    ("Quests.ini", "Marker3=Squintwatch_Square", "Marker3=Chillingham_Square"),
+    ("Quests.ini", "Marker0=Squintwatch_Captain", "Marker0=Chillingham_Captain"),
+    ("Quests.ini", "Speak to the Gravekeeper in Crowgate, on the Barrowdowns.",
      "Speak to the Gravekeeper at King Rupert's Keep, on the Barrowdowns."),
-    ("Quests.ini", "Find the old king's barrow, out on the downs east of Ravensgate.",
+    ("Quests.ini", "Find the old king's barrow, out on the downs east of Crowgate.",
      "Find the old king's barrow, out on the downs west of King Rupert's Keep."),
-    ("Quests.ini", "Return to the Gravekeeper in Ravensgate.", "Return to the Gravekeeper at King Rupert's Keep."),
-    ("Quests.ini", "Marker3=Ravensgate_Square", "Marker3=Keep_Square"),
-    ("Quests.ini", "Marker0=Ravensgate_Gravekeeper", "Marker0=Keep_Gravekeeper"),
-    ("Quests.ini", "Ask Morwen the witch in Fenwick for a cure.", "Ask Morwen the witch in Saltmarsh for a cure."),
-    ("Quests.ini", "on the shore east of Ravensgate.", "on the shore below King Rupert's Keep."),
+    ("Quests.ini", "Return to the Gravekeeper in Crowgate.", "Return to the Gravekeeper at King Rupert's Keep."),
+    ("Quests.ini", "Marker3=Crowgate_Square", "Marker3=Keep_Square"),
+    ("Quests.ini", "Marker0=Crowgate_Gravekeeper", "Marker0=Keep_Gravekeeper"),
+    ("Quests.ini", "Ask Morwen the witch in Fenwick for a cure.", "Ask Morwen the witch in Brinebottom for a cure."),
+    ("Quests.ini", "on the shore east of Crowgate.", "on the shore below King Rupert's Keep."),
     ("Quests.ini", "An old woman at Fenwick's market is looking for someone to practise a hex on.",
-     "An old woman on Thornwick's green is looking for someone to practise a hex on."),
-    ("Quests.ini", "Clear the rats round Fenwick's market anyway", "Clear the rats round Thornwick's green anyway"),
-    ("Entities.ini", "Elder Pike of Fenwick.", "Elder Pike of Saltmarsh."),
-    ("Entities.ini", "Captain Hale of Highwatch, in battered armour.", "Captain Hale of the Redrock road, in battered "
+     "An old woman on Nettlewick's green is looking for someone to practise a hex on."),
+    ("Quests.ini", "Clear the rats round Fenwick's market anyway", "Clear the rats round Nettlewick's green anyway"),
+    ("Entities.ini", "Elder Pike of Fenwick.", "Elder Pike of Brinebottom."),
+    ("Entities.ini", "Captain Hale of Squintwatch, in battered armour.", "Captain Hale of the Redrock road, in battered "
                                                                        "armour."),
-    ("Entities.ini", "A sack of goods the bandits stole from Highwatch.", "A sack of goods the bandits stole on the "
+    ("Entities.ini", "A sack of goods the bandits stole from Squintwatch.", "A sack of goods the bandits stole on the "
                                                                           "Redrock road."),
-    ("Entities.ini", "The Gravekeeper of Ravensgate.", "The Gravekeeper of the Barrowdowns."),
-    ("Scripts/Barrow Door.script", "out on the downs east of Ravensgate", "out on the downs west of King Rupert's Keep"),
-    ("Scripts/Talk to Gravekeeper.script", "out on the downs east of Ravensgate", "out on the downs west of King "
+    ("Entities.ini", "The Gravekeeper of Crowgate.", "The Gravekeeper of the Barrowdowns."),
+    ("Scripts/Barrow Door.script", "out on the downs east of Crowgate", "out on the downs west of King Rupert's Keep"),
+    ("Scripts/Talk to Gravekeeper.script", "out on the downs east of Crowgate", "out on the downs west of King "
                                                                                "Rupert's Keep"),
-    ("Scripts/Talk to Gravekeeper.script", "His barrow is out on the downs, east of Ravensgate.",
+    ("Scripts/Talk to Gravekeeper.script", "His barrow is out on the downs, east of Crowgate.",
      "His barrow is out on the downs, west of the Keep."),
     ("Scripts/Talk to Gravekeeper.script", "East, on the open downs.", "West, on the open downs."),
-    ("Scripts/Talk to Gravekeeper.script", "Ravensgate will sleep tonight.", "The Keep will sleep tonight."),
-    ("Scripts/Examine Grave_Osric_Raven.script", "first gravekeeper of Ravensgate", "first gravekeeper of the "
+    ("Scripts/Talk to Gravekeeper.script", "Crowgate will sleep tonight.", "The Keep will sleep tonight."),
+    ("Scripts/Examine Grave_Osric_Raven.script", "first gravekeeper of Crowgate", "first gravekeeper of the "
                                                                                   "Barrowdowns"),
-    ("Scripts/Examine Grave_Raven_Mark.script", "Ravensgate's mark, very old.", "the mark of Ravensgate, a town "
+    ("Scripts/Examine Grave_Raven_Mark.script", "Crowgate's mark, very old.", "the mark of Crowgate, a town "
                                                                              "long gone."),
-    ("Scripts/Kill Bandit.script", "Report to Captain Hale in Highwatch.", "Report to Captain Hale in Frosthold."),
-    ("Scripts/Kill Barrow_King.script", "Return to the Gravekeeper in Ravensgate.", "Return to the Gravekeeper at "
+    ("Scripts/Kill Bandit.script", "Report to Captain Hale in Squintwatch.", "Report to Captain Hale in Chillingham."),
+    ("Scripts/Kill Barrow_King.script", "Return to the Gravekeeper in Crowgate.", "Return to the Gravekeeper at "
                                                                                  "King Rupert's Keep."),
-    ("Scripts/Read Hobs_Diary.script", "fetch Morwen in Fenwick.", "fetch Morwen in Saltmarsh."),
-    ("Scripts/Read Hobs_Diary.script", "Morwen the witch lives in Fenwick, in the Saltmarsh south of Oakhollow.",
-     "Morwen the witch lives in Saltmarsh, in the fens on the south coast."),
-    ("Scripts/Talk to Witch.script", "Morwen the witch lives in Fenwick, in the Saltmarsh south of Oakhollow.",
-     "Morwen the witch lives in Saltmarsh, in the fens on the south coast."),
-    ("Scripts/Talk to Witch.script", "Bog myrtle grows in the Saltmarsh round Fenwick", "Bog myrtle grows in the fens "
-                                                                                     "round Saltmarsh"),
+    ("Scripts/Read Hobs_Diary.script", "fetch Morwen in Fenwick.", "fetch Morwen in Brinebottom."),
+    ("Scripts/Read Hobs_Diary.script", "Morwen the witch lives in Fenwick, in the Brinebottom south of Acornby.",
+     "Morwen the witch lives in Brinebottom, in the fens on the south coast."),
+    ("Scripts/Talk to Witch.script", "Morwen the witch lives in Fenwick, in the Brinebottom south of Acornby.",
+     "Morwen the witch lives in Brinebottom, in the fens on the south coast."),
+    ("Scripts/Talk to Witch.script", "Bog myrtle grows in the Brinebottom round Fenwick", "Bog myrtle grows in the fens "
+                                                                                     "round Brinebottom"),
     ("Scripts/Talk to Witch.script", "The Elder's house is in the south-west of the village.",
      "The Elder's never far from the inn."),
     ("Scripts/Talk to Elder.script", "Welcome to Fenwick, traveller. Keep to the boardwalks.",
-     "Welcome to Saltmarsh, traveller. Keep to the dry ground."),
-    ("Scripts/Talk to Captain.script", "Report to Captain Hale in Highwatch.", "Report to Captain Hale in Frosthold."),
-    ("Scripts/Talk to Captain.script", "You've done Highwatch a great service.", "You've done the Redrock road a great "
+     "Welcome to Brinebottom, traveller. Keep to the dry ground."),
+    ("Scripts/Talk to Captain.script", "Report to Captain Hale in Squintwatch.", "Report to Captain Hale in Chillingham."),
+    ("Scripts/Talk to Captain.script", "You've done Squintwatch a great service.", "You've done the Redrock road a great "
                                                                               "service."),
-    ("Scripts/Talk to Captain.script", "Highwatch salutes you.", "Frosthold salutes you."),
-    ("Scripts/Talk to Captain_Rook_Island.script", "..and you step ashore by Ravensgate.",
+    ("Scripts/Talk to Captain.script", "Squintwatch salutes you.", "Chillingham salutes you."),
+    ("Scripts/Talk to Captain_Rook_Island.script", "..and you step ashore by Crowgate.",
      "..and you step ashore below King Rupert's Keep."),
-    ("Scripts/Bert's Confession.script", "Captain Rook, by Ravensgate,", "Captain Rook, on the shore below the Keep,"),
+    ("Scripts/Bert's Confession.script", "Captain Rook, by Crowgate,", "Captain Rook, on the shore below the Keep,"),
 ]
 BUILDERS = [   # (the builders that wrote those words, so a run again says the same)
     "build_regions.py", "build_tricks.py", "build_hob.py", "build_heir_mainland.py", "name_graves.py",

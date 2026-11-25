@@ -40,7 +40,7 @@ RECIPES = {   # CRAFT-Scrolls: scroll -> ingredients, XP, level
 }
 STOCK = {     # shop -> [(item, stock)] added when missing
     "SHOP-Wizard": [("Frost_Nova_Scroll", "3"), ("Thunderclap_Scroll", "2")],
-    "SHOP-Wardhaven": [("Blizzard_Scroll", "3")],
+    "SHOP-Sulkhaven": [("Blizzard_Scroll", "3")],
     "SHOP-Dairy": [("Feather", "40")],
     "SHOP-Farm": [("Feather", "40")],
 }

@@ -16,7 +16,7 @@ SCRIPTS = os.path.join(ROOT, "data", "Scripts")
 KINDS = ("Man", "Woman", "Villager")
 PLAIN = re.compile(r"_(Resident|Villager|Man|Woman|Townsfolk)_?\d*$")   # (an Id that's only where they live)
 ISLE = {"0,0,0", "0,1,0", "1,0,0", "1,1,0", "1,2,0", "2,0,0", "2,1,0", "2,2,0", "3,0,0", "3,1,0", "3,2,0", "4,0,0",
-        "4,1,0"}                                     # (the Isle is left as it's built)
+        "4,1,0"}                                     # (Muddlesey is left as it's built)
 
 
 def towns():

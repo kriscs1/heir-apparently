@@ -9,9 +9,9 @@
 08	Get.Value	ATTRIBUTE	WatchStones	Variable.3$
 09	>Conditional	$Variable.3>=3	15
 10	Update.Attribute	RangerQuest	=2
-11	Quest.Note	RangerQuest	The spider nest is in the deep woods west of Oakhollow.
+11	Quest.Note	RangerQuest	The spider nest is in the deep woods west of Acornby.
 12	Quest.Note	RangerQuest	Slay five giant spiders there.
-13	Display.Message	Yellow	The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Oakhollow. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.
+13	Display.Message	Yellow	The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods west of Acornby. Spiders have nested there: clear them out, five at least, before you go back to Ranger Ash.
 14	End
 15	Display.Message	Yellow	You touch the old watch stone. Watch stones visited: $Variable.3 of 3.
 16	End

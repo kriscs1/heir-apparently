@@ -1,15 +1,15 @@
-"""The heir's story on the Isle: the first four chapters of the main quest line (it replaces build_isle_quest.py's
+"""The heir's story on Muddlesey: the first four chapters of the main quest line (it replaces build_isle_quest.py's
 Passage to the Mainland, the ticket book and the goblin's cage). Run it again: it draws and writes the same again.
 
   python -I "dev\\migrate\\build_heir_isle.py"
 
 The story: your mother Mary, the Queen of Brambleton in hiding, ran from the capital, Galaith, with you as a baby, to
-save you from the dragon that takes the firstborn heir of every generation. You were raised on the Isle in poverty.
+save you from the dragon that takes the firstborn heir of every generation. You were raised on Muddlesey in poverty.
   1  The Last Will (LastWill 0-2; the letter tells you who you are, and little else: the rest you find). A new
      character stands at her grave in the chapel's graveyard (3,1,0's entry script runs The Funeral): the mourners
      go, Edwin the lawyer walks you home and leaves her letter on the table.
      The cottage door (a Lock) stays shut until it's read: the letter (Last_Will, Read) tells you who you are.
-  2  Dinner at Edwin's (DinnerQuest 0-4). Maren, Edwin's wife and the Isle's doctor, at their brick house in the
+  2  Dinner at Edwin's (DinnerQuest 0-4). Maren, Edwin's wife and Muddlesey's doctor, at their brick house in the
      north-west (0,-2,0: her surgery and his desk downstairs; their rooms upstairs, 0,-2,1; it was the bank): three logs
      for her range (with an axe she lends you), an egg from Bess's coop fried on her range, the egg to Edwin.
      Maren gives you the key to the chapel's trapdoor (Chapel_Cellar_Key).
@@ -18,16 +18,16 @@ save you from the dragon that takes the firstborn heir of every generation. You 
      to you when you're armed and Attack and Defence are level 2. The amulet is at the back of the caves (1,1,-2)
      behind bars; Aldous follows you down with a scroll of Grasp. He gives you the key of the hobgoblins' lair door.
   4  Passage to the Mainland (Passage 0-4, done at 5; a save from before, at 12, has it done too). Wim's ferry takes
-     nobody off the Isle without papers (since the raids, Northport sends them back), and Tobias, Bess's father, who
+     nobody off Muddlesey without papers (since the raids, Drizzleport sends them back), and Tobias, Bess's father, who
      wrote them, is missing. His house (the old brick house, 1,1,0) is locked and the hobgoblins have the key. Their lair
      (2,2,-2), behind a locked door in the caves (2,1,-2): four hobgoblins (the entry script puts back the ones
      killed, when someone comes in again), the key in the corner barrel, Tobias in a cage you pick the lock of. A
      ladder up to their camp (2,2,0), in a tent: only a tent until you've climbed it from below. In the house, a
      floorboard squeaks: stand on it, search it: the papers Mary left with him for you, under a crowned seal (what
-     the hobgoblins were after). Wim reads them and lets you aboard; Northport's port guard sends you to the Speaker.
+     the hobgoblins were after). Wim reads them and lets you aboard; Drizzleport's port guard sends you to the Speaker.
 Characters made before this story keep what they had done (session.heir_story_from_old_save).
 
-The Isle teaches the world as you go, in what people say and give you: Edwin hands over Mary's jar of Shards (the
+Muddlesey teaches the world as you go, in what people say and give you: Edwin hands over Mary's jar of Shards (the
 world's magic: the count under your health); Maren gives healing draughts (herbs mend a body, Shards can't); Frank
 gives his old dagger to break down for its Shard (Dismantle); Brother Aldous, in the caves, shows you a dead beast's
 Shards on the floor (picked up) and the scroll of Grasp (learnt for good, cast for Shards); Wim, at the pier, the shardstone.
@@ -467,8 +467,8 @@ def data():
     }, 2, markers={1: "Cottage"}, chapter=1, marker0="Cottage", after=None)
     K.remove_section(K.QUESTS, "Dinner at the Bank")              # (the house was the bank: renames.py QUEST_NAMES)
     K.quest("Dinner at Edwin's", "Maren", "DinnerQuest", {
-        0: "Edwin the lawyer asked you to dinner. He and his wife Maren, the Isle's doctor, live in the brick house "
-           "in the Isle's north-west, by the sea.",
+        0: "Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house "
+           "in Muddlesey's north-west, by the sea.",
         1: "Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.",
         2: "Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their "
            "house (use the egg on the range).",
@@ -487,21 +487,21 @@ def data():
                    4: "Amulet_Niche", 5: "Amulet_Niche"}, chapter=3, requires="The Last Will")
     K.quest("Passage to the Mainland", "Milkmaid", "Passage", {
         0: "Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.",
-        1: "Wim won't ferry anyone off the Isle without papers. Tobias, Bess's father, wrote them, but the hobgoblins "
+        1: "Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins "
            "took him. His house in the village is locked, and they have its key.",
         2: "Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house "
            "key must be in the lair somewhere.",
         3: "Tobias has given you his house. Unlock it with his key and find what he hid under its floor.",
-        4: "Show your papers to Wim the ferryman, on the Isle's pier.",
+        4: "Show your papers to Wim the ferryman, on Muddlesey's pier.",
     }, 5, markers={0: "Milkmaid_Farm", 1: "Hobgoblin_Lair", 2: "Hobgoblin_Lair", 3: "Fathers_House",
                     4: "Isle_Ferry_Pier"}, chapter=4, requires="The Last Will")
     template()
-    K.drop_label("Places", "The Isle Bank")
+    K.drop_label("Places", "Muddlesey Bank")
     K.place_label("Places", "Edwin & Maren's House", "Isle_Bank")
     K.place_label("Places", "Frank's Smithy", "Franks_Smithy")
     K.place_label("Places", "Maren & Bess's Father's Home", "Fathers_House")
     K.place_label("Places", "Hobgoblin Camp", "Hobgoblin_Camp")
-    print("Data: the Isle's items, people and tiles; its four quests; a new character starts at the graveyard")
+    print("Data: Muddlesey's items, people and tiles; its four quests; a new character starts at the graveyard")
 
 
 # ================================================================== maps
@@ -609,7 +609,7 @@ def home():
     front_room(m)
     m.set(20, 2, tile="Stairs001")
     rug(m, 15, 5, 4, 2, "Rug")
-    for y in range(y2 + 1, y2 + 4):                             # a path down to the Isle's path
+    for y in range(y2 + 1, y2 + 4):                             # a path down to Muddlesey's path
         m.set(HOME_DOOR, y, tile="Dirt001", decor="")
     m.ents += [
         # (by day at her counter and his desk; at night up the stairs to their double bed: npc_stairs.py)
@@ -800,7 +800,7 @@ def niche_and_pier():
         s.ents = [ln.replace("NPC\tWoman\t", "NPC\tFerryman\t").replace("Name=Maren", "Name=Wim")
                   if ln.startswith("NPC\tWoman\t") and "Name=Maren" in ln else ln for ln in s.ents]
         s.save()
-        print("1,3,0: Wim the ferryman on Northport's pier")
+        print("1,3,0: Wim the ferryman on Drizzleport's pier")
     k = Map("2,4,-2") if K.map_exists("2,4,-2") else None              # (gone with the old mainland)
     if k and K.ents_without(k, lambda f: f[:2] == ["MapItem", "Beggars_House_Key"]):
         k.save()
@@ -878,7 +878,7 @@ def opening():
                      "them twice.", ("Lead the way.", "@walk")),
         ("@walk",),
         ("Remove.Entity", at(gx + 1, gy + 1, -8), "Edwin"),
-        ("Display.Message", "Cyan", "You walk home together across the Isle. Edwin starts to say something legal now and "
+        ("Display.Message", "Cyan", "You walk home together across Muddlesey. Edwin starts to say something legal now and "
                                     "then, and thinks better of it.", "-"),
         ("Teleport", at(8, 11, -8), "4,0,0"),
         ("Wait", "1"),
@@ -961,7 +961,7 @@ def opening():
         (">Conditional", "$Variable.1<2", "@end"),
         ("Update.Attribute", "LastWill", "=2"),
         ("Display.Message", "Yellow", "Quest complete: The Last Will.", "Quest"),
-        ("Display.Message", "Cyan", "The door to your house is unlocked now, and the Isle lies before you.", "-"),
+        ("Display.Message", "Cyan", "The door to your house is unlocked now, and Muddlesey lies before you.", "-"),
         ("@end",), ("End",),
     ])
     w("Stroke Sleeping_Jimmy", [
@@ -998,7 +998,7 @@ def home_scripts():
         say("Maren", "An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. "
                      "He'll pretend not to be, but he will.", ("I'll see to it.", "@menu")),
         ("@menu",),
-        say("Maren", "Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for "
+        say("Maren", "Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for "
                      "them. Most of them get better. The rest get Brother Aldous.\\Edwin has his desk by the window: "
                      "wills and deeds and the like. Between the two of us, we've the whole of life covered.",
             ("How is your father? [if $Attr.FatherFreed>=1]", "@father"), ("Goodbye.", "@end")),
@@ -1035,7 +1035,7 @@ def home_scripts():
         say("Edwin", "If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a "
                      "will for a good long while.", ("What was my mother like?", "@mary"), ("Goodbye.", "@end")),
         ("@mary",),
-        say("Edwin", "She came to the Isle with you in her arms and never said from where. Kind, proud, and far cleverer "
+        say("Edwin", "She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer "
                      "than she let on. She once argued me out of my own fee, and I thanked her for it.\\I always "
                      "thought there was more to her than a cottage and a cat.",
             ("Thank you.", "@end")),
@@ -1094,8 +1094,8 @@ def bess_and_frank():
         ("@ask",), (">Conditional", "$Attr.Passage=0", "@hunting"),
         (">Quest.Can.Start", "Passage", "@end"),
         say("Milkmaid", "The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: "
-                        "since the raids, Northport sends back anyone off the Isle who hasn't any.\\Father always "
-                        "wrote the Isle's papers. He's kept its roll since before I was born. But the hobgoblins took "
+                        "since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\\Father always "
+                        "wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took "
                         "him, and nobody's seen him since. His house is the old brick one in the village, locked up, and "
                         "they took his keys too. They've a lair in the caves under the chapel, they say.\\Poor things. "
                         "He'll be telling them all about his knees.",
@@ -1121,7 +1121,7 @@ def bess_and_frank():
             ("Thank you, Bess.", "@end")),
         ("@end",), ("End",),
     ])
-    K.remove_script("Bess Sails to Northport")                 # (Wim takes you over now, once he's seen your papers)
+    K.remove_script("Bess Sails to Drizzleport")                 # (Wim takes you over now, once he's seen your papers)
     w("Talk to Frank", [
         ("Get.Value", "ATTRIBUTE", "AmuletQuest", V1),
         (">Conditional", "$Variable.1=1", "@s2"),
@@ -1159,7 +1159,7 @@ def bess_and_frank():
                      "me, anyway.",
             ("Can you open a locked chest?", "@locks"), ("Goodbye.", "@end")),
         ("End",),
-        ("@locks",),                                    # (the Isle teaches locks: its chests have the easiest)
+        ("@locks",),                                    # (Muddlesey teaches locks: its chests have the easiest)
         say("Frank", "I make the things, so I know their tricks. A lock's a few pins on springs: work each one up "
                      "till it catches, quiet and patient, and the lid's yours (Pick Lock). The better you are at "
                      "keeping out of sight, the steadier your hands.\\Or put your weight on the lid till it splits "
@@ -1226,7 +1226,7 @@ def chapel_and_caves():
         ("Get.Value", "ATTRIBUTE", "AmuletQuest", V1),
         (">Conditional", "$Variable.1>=4", "@wait"),
         ("Play.Sound", "Ladder"),
-        ("Display.Message", "Cyan", "You climb down the ladder, into the caves under the Isle."),
+        ("Display.Message", "Cyan", "You climb down the ladder, into the caves under Muddlesey."),
         ("Wait", "0.4"),
         ("Teleport", "416,280", "3,1,-2"),
         ("End",),
@@ -1316,7 +1316,7 @@ def lair_scripts():
     zones = ("6,6,14,12", "12,11,19,16", "4,10,11,16", "15,5,21,10")
     for (x, y), z in zip(LAIR_HOBS, zones):                       # (the ones killed come back when someone comes in)
         rows.append(("Add.Entity", at(x, y, -8), "Hobgoblin", "NPC", "Attitude=Bad Level=2 Zone=" + z))   # (their kind's level: the
-        # lair is one of the Isle's hard fights, and stays so)
+        # lair is one of Muddlesey's hard fights, and stays so)
     rows += [
         ("Get.Value", "ATTRIBUTE", "FatherFreed", V1),
         (">Conditional", "$Variable.1=0", "@freed"),

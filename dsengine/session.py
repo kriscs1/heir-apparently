@@ -567,12 +567,12 @@ class Session(ItemsMixin, CombatMixin, ActionsMixin, ScriptMixin, QuestMixin, Pv
         self.standing_catch_up()                                        # (quests done before standing was kept)
         self.player_tile = None
 
-    # (the Isle's quests since the heir's story: their attributes and the values that finish them)
+    # (Muddlesey's quests since the heir's story: their attributes and the values that finish them)
     ISLE_DONE = (("LastWill", 2), ("DinnerQuest", 4), ("AmuletQuest", 6), ("Passage", 12))
 
     def heir_story_from_old_save(self):
-        """A character from before the heir's story (Story=2): one who had crossed to the mainland has done the Isle's
-        quests; one still on the Isle starts them again after the funeral (their mother's letter read)."""
+        """A character from before the heir's story (Story=2): one who had crossed to the mainland has done Muddlesey's
+        quests; one still on Muddlesey starts them again after the funeral (their mother's letter read)."""
         if val(self.get_attribute("Passage")) >= 12:
             for attr, done in self.ISLE_DONE:
                 self.update_attribute(attr, "=%d" % done)
@@ -1052,7 +1052,7 @@ class Session(ItemsMixin, CombatMixin, ActionsMixin, ScriptMixin, QuestMixin, Pv
                 p.x, p.y = self.player_prev_x, self.player_prev_y     # (walked to it: a step back)
                 self.demo_say("border")
                 return
-            m = self.demo_dock()                          # (found outside it: on the Isle's pier)
+            m = self.demo_dock()                          # (found outside it: on Muddlesey's pier)
             if m is self.cur_map:
                 return
         arenas = self.pvp_rules()[0]

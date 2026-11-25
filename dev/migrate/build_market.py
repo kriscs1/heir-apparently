@@ -2,7 +2,7 @@
 
   python -I "dev\\migrate\\build_market.py"
 
-  * Market stalls: a row of them by the south road in Ashford, and a Market sign. (build_town_life.py puts a vendor
+  * Market stalls: a row of them by the south road in Puddleford, and a Market sign. (build_town_life.py puts a vendor
     behind each; the players' own selling is at the market boards, dsengine/market.py.) sprites\\Entities\\
     Market_Stall (empty) and Market_Stall_Open (with goods out).
   * Shop signs: every shop gets a signboard on a post outside its door, with a picture of what it sells (the bread
@@ -248,7 +248,7 @@ def place_signs():
 def place_market():
     lines = map_lines(MARKET_MAP)
     if any(l.split("\t")[:2] == ["StaticObject", "Market_Stall"] for l in lines[YT:]):
-        print("Ashford has its market already")
+        print("Puddleford has its market already")
         return
     taken = taken_spots(lines)
     xs = [x for x in range(3, XT - 1) if clear(lines, x, MARKET_ROW, taken)]
@@ -257,15 +257,15 @@ def place_market():
         if all(abs(x - s) >= 2 for s in spots) and len(spots) < STALLS + 1:
             spots.append(x)
     if len(spots) < 3:
-        print("WARNING - no room for a market in Ashford")
+        print("WARNING - no room for a market in Puddleford")
         return
     sign_x, stalls = spots[0], spots[1:]
     lines.append("StaticObject\t%s\t%d\t%d" % (MARKET_SIGN[0], (sign_x - 1) * 32, (MARKET_ROW - 1) * 32 - 16))
     for n, x in enumerate(stalls, 1):
         lines.append("StaticObject\tMarket_Stall\t%d\t%d\tId=Stall_%d" % ((x - 1) * 32, (MARKET_ROW - 1) * 32 - 16, n))
-    lines.append("Id\tAshford_Market\t%d\t%d" % (stalls[len(stalls) // 2], MARKET_ROW - 1))
+    lines.append("Id\tPuddleford_Market\t%d\t%d" % (stalls[len(stalls) // 2], MARKET_ROW - 1))
     write_map(MARKET_MAP, lines)
-    print("Ashford's market: %d stalls on row %d (tiles %s)" % (len(stalls), MARKET_ROW, ", ".join(map(str, stalls))))
+    print("Puddleford's market: %d stalls on row %d (tiles %s)" % (len(stalls), MARKET_ROW, ", ".join(map(str, stalls))))
 
 
 def main():

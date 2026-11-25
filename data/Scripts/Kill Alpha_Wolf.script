@@ -3,5 +3,5 @@
 02	>Conditional	$Variable.1=2	06
 03	Update.Attribute	WolfQuest	=3
 04	Quest.Note.Done	WolfQuest	Slay the Alpha Wolf, the great black brute leading the pack.
-05	Display.Message	Yellow	The Alpha Wolf is dead! Return to the shepherd in Greyford.
+05	Display.Message	Yellow	The Alpha Wolf is dead! Return to the shepherd in Dullford.
 06	End

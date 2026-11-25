@@ -218,7 +218,7 @@ def things():
     D.line(s, (214, 226, 246), (9, 11), (20, 11))
     D.rect(s, (96, 104, 130), (5, 7, 22, 18), 1)
     SK.save("Entities", "Glass_Slab", s)
-    # the stair down under Wardhaven's chapel: a stone hatch lifted, steps, blue light coming up
+    # the stair down under Sulkhaven's chapel: a stone hatch lifted, steps, blue light coming up
     s = SK.surface()
     D.rect(s, (88, 88, 96), (5, 5, 22, 22))
     for k, y in enumerate((8, 12, 16, 20)):
@@ -367,7 +367,7 @@ def data():
     SK.copy_sprite("Entities", "Cael_Confession", "Caels_Lines")
     SK.set_section(SK.ENTS, "Caels_Lines", [
         "Type=MapItem", "Display.Name=Cael's Lines", "Use.Words=Read,Examine", "Stackable=1", "Droppable=0",
-        "Value=0", "Examine.Info=A few lines in Cael's hand, for Annis of Ashford."], after="Penitent")
+        "Value=0", "Examine.Info=A few lines in Cael's hand, for Annis of Puddleford."], after="Penitent")
     SK.copy_sprite("Entities", "Mending_Sister", "Mending_Wayfarer")     # (one of the Mending, met on the road)
     SK.copy_walk("Mending_Sister", "Mending_Wayfarer")
     SK.set_section(SK.ENTS, "Mending_Wayfarer", [

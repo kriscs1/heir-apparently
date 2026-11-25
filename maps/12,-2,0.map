@@ -19,26 +19,26 @@ Grass001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_P
 Grass001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick001:Door001:Brick001:Brick001+Decor(Brick_Window001):Brick001:Grass001+Decor(Pebbles002):Plaster001:Plaster001:Door005:Plaster001:Plaster001:Grass001:Grass001
 Brick_Paving001:Brick_Paving001+Decor(Lamp_Post001):Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001+Decor(Lamp_Post001):Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001
 Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Brick_Paving001:Grass001+Decor(Tree001):Grass001:Grass001+Decor(Tree002):Grass001+Decor(Tree001):Grass001+Decor(Tree002):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tree001):Grass001+Decor(Bush001):Grass001:Grass001
-NPC	Greengrocer	96	376	Attitude=Good Stand=1 Face=S Id=Ashford_Stall_301 Name=Clara
-NPC	Fishmonger	288	376	Attitude=Good Stand=1 Face=S Id=Ashford_Stall_302 Name=Dora
-NPC	Butcher	96	504	Attitude=Good Stand=1 Face=S Id=Ashford_Stall_303 Name=Agnes
-NPC	Baker	288	504	Attitude=Good Stand=1 Face=S Id=Ashford_Stall_304 Name=Albert
+NPC	Greengrocer	96	376	Attitude=Good Stand=1 Face=S Id=Puddleford_Stall_301 Name=Clara
+NPC	Fishmonger	288	376	Attitude=Good Stand=1 Face=S Id=Puddleford_Stall_302 Name=Dora
+NPC	Butcher	96	504	Attitude=Good Stand=1 Face=S Id=Puddleford_Stall_303 Name=Agnes
+NPC	Baker	288	504	Attitude=Good Stand=1 Face=S Id=Puddleford_Stall_304 Name=Albert
 NPC	Black_Cat	64	312	Attitude=Good Zone=2,7,8,15 Pause=4-12
-NPC	Clerk	512	184	Attitude=Good Stand=1 Face=S Id=Ashford_Clerk_308
-NPC	Baker	448	472	Attitude=Good Stand=1 Face=S Id=Ashford_Baker_315 Name=Edith
-NPC	Fishmonger	640	472	Attitude=Good Stand=1 Face=S Id=Ashford_Fishmonger_317 Name=Sid
+NPC	Clerk	512	184	Attitude=Good Stand=1 Face=S Id=Puddleford_Clerk_308
+NPC	Baker	448	472	Attitude=Good Stand=1 Face=S Id=Puddleford_Baker_315 Name=Edith
+NPC	Fishmonger	640	472	Attitude=Good Stand=1 Face=S Id=Puddleford_Fishmonger_317 Name=Sid
 StaticObject	Market_Stall_Open	96	416
 StaticObject	Market_Stall_Open	288	416
 StaticObject	Market_Stall_Open	96	544
 StaticObject	Market_Stall_Open	288	544
 StaticObject	Market_Board	192	384
-StaticObject	Notice	768	578	Id=Ashford_Notice_336
-Id	Ashford_Market_Square	7	17
-Id	Ashford_Square	7	17
-Id	Ashford_City_Hall	14	12
+StaticObject	Notice	768	578	Id=Puddleford_Notice_336
+Id	Puddleford_Market_Square	7	17
+Id	Puddleford_Square	7	17
+Id	Puddleford_City_Hall	14	12
 NPC	Tuxedo_Cat	160	472	Attitude=Good Id=Mo Name=Mo Zone=3,14,9,18 Pause=4-12
-NPC	Painter	192	440	Attitude=Good Stand=1 Face=E Id=Ashford_Painter Name=Ottilie
+NPC	Painter	192	440	Attitude=Good Stand=1 Face=E Id=Puddleford_Painter Name=Ottilie
 StaticObject	Easel	224	448
 NPC	Guard	320	256	Attitude=Good Stand=1 Id=Constable_Dobbs Name=Constable_Dobbs
 StaticObject	Valuables	576	152
-NPC	Villager	256	472	Attitude=Good Stand=1 Face=S Id=Town_Crier_Ashford Name=Town_Crier
+NPC	Villager	256	472	Attitude=Good Stand=1 Face=S Id=Town_Crier_Puddleford Name=Town_Crier

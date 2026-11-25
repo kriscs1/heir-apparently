@@ -22,19 +22,19 @@ Grass001:Grass001:Grass001:Brick_Paving001:Brick_Paving001:Grass001:Grass001:Gra
 StaticObject	Dice_Table	544	384	Id=Dice_Table_4_6_0_05
 StaticObject	Dice_Table	224	384	Id=Dice_Table_4_6_0_04
 NPC	Cat	64	120	Attitude=Good Zone=2,2,8,9 Pause=4-12
-NPC	Greengrocer	224	88	Attitude=Good Stand=1 Face=S Id=Northport_Greengrocer_339 Name=Oswald
-NPC	Greengrocer	416	88	Attitude=Good Stand=1 Face=S Id=Northport_Greengrocer_341 Name=Gilbert
-NPC	Greengrocer	608	88	Attitude=Good Stand=1 Face=S Id=Northport_Greengrocer_343 Name=Fred
-NPC	Barkeep	288	312	Attitude=Good Stand=1 Face=S Id=Northport_Barkeep_353 Name=Agnes
-NPC	Barmaid	352	408	Attitude=Good Zone=7,13,13,14 Pause=3-9 Id=Northport_Barmaid_354 Name=Greta
-NPC	Barkeep	608	312	Attitude=Good Stand=1 Face=S Id=Northport_Barkeep_366 Name=Fred
-NPC	Barmaid	672	408	Attitude=Good Zone=17,13,23,14 Pause=3-9 Id=Northport_Barmaid_367 Name=Clara
+NPC	Greengrocer	224	88	Attitude=Good Stand=1 Face=S Id=Drizzleport_Greengrocer_339 Name=Oswald
+NPC	Greengrocer	416	88	Attitude=Good Stand=1 Face=S Id=Drizzleport_Greengrocer_341 Name=Gilbert
+NPC	Greengrocer	608	88	Attitude=Good Stand=1 Face=S Id=Drizzleport_Greengrocer_343 Name=Fred
+NPC	Barkeep	288	312	Attitude=Good Stand=1 Face=S Id=Drizzleport_Barkeep_353 Name=Agnes
+NPC	Barmaid	352	408	Attitude=Good Zone=7,13,13,14 Pause=3-9 Id=Drizzleport_Barmaid_354 Name=Greta
+NPC	Barkeep	608	312	Attitude=Good Stand=1 Face=S Id=Drizzleport_Barkeep_366 Name=Fred
+NPC	Barmaid	672	408	Attitude=Good Zone=17,13,23,14 Pause=3-9 Id=Drizzleport_Barmaid_367 Name=Clara
 StaticObject	Shardstone	64	32
-StaticObject	Notice	64	98	Id=Northport_Notice_313
+StaticObject	Notice	64	98	Id=Drizzleport_Notice_313
 StaticObject	Sign_Pub	224	464
 StaticObject	Sign_Pub	544	464
-StaticObject	Notice	448	450	Id=Northport_Notice_368
-Id	Waystone_Northport	3	3
+StaticObject	Notice	448	450	Id=Drizzleport_Notice_368
+Id	Waystone_Drizzleport	3	3
 StaticObject	Valuables	320	280
 StaticObject	Valuables	576	280
 StaticObject	Arm_Table	640	384	Id=Arm_Table_1

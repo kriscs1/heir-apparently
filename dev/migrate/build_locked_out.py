@@ -1,4 +1,4 @@
-"""Locked Out: Osric of Wardhaven has bolted himself out of his own house. Old Hilde next door knows her gran's smuggling cellars
+"""Locked Out: Osric of Sulkhaven has bolted himself out of his own house. Old Hilde next door knows her gran's smuggling cellars
 join under the row: her hatch, a cold cellar, a stretch of wall that isn't there (Stone_Wall_Hollow001), a passage under a black
 roof (Hidden_Dark001), Osric's cellar, his ladder, his spare key on its hook. The two houses are maps 17,2,0's empty pair; the
 cellars 17,2,-1. Safe to run again.
@@ -101,7 +101,7 @@ QUEST_TEXT = """[%s]
 Giver=Man
 Requires.Quests=Passage to the Mainland
 Attribute=%s
-Stage0=Osric, in Wardhaven, is standing outside his own front door, looking at it.
+Stage0=Osric, in Sulkhaven, is standing outside his own front door, looking at it.
 Stage1=Osric has bolted himself out of his house. Old Hilde next door says she knows a way in.
 Stage2=Hilde has opened the hatch in her floor, and says her gran's cellar never did stop at her wall.
 Stage3=You've drawn the bolts on Osric's door. Tell him.
@@ -114,7 +114,7 @@ Type=Side
 Reward.Items=Gold_Coin(s) 40
 Reward.Shards=8
 Reward.XP=Stealth 1
-Rumour=There's a man in Wardhaven who's spent all week looking at his own front door. Nobody likes to ask.
+Rumour=There's a man in Sulkhaven who's spent all week looking at his own front door. Nobody likes to ask.
 """ % (QUEST, ATTR)
 
 

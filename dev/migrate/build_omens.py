@@ -11,7 +11,7 @@ quest) and after_dragon() after it (the wizard's lines go into his script beside
               2  she brews ONE of two things (your choice):
                    Dragonsbane (OmenBane=1): Ignaroth starts the fight sick, with 90 fewer hitpoints
                    a Fire_Ward_Charm (a ring, Resists=Burn): its fire can't set you alight, its blows hit a third softer
-              3  the Ashen Hand cult is waking the dragon: one of its acolytes camps in the hills west of Frosthold.
+              3  the Ashen Hand cult is waking the dragon: one of its acolytes camps in the hills west of Chillingham.
                  Three ways to deal with him:
                    threaten him: he fights (Set.NPC.Attitude Ashen_Acolyte Bad); his Ashen_Sigil and notes are yours
                    pay him 200 gold for what he knows
@@ -29,12 +29,12 @@ QUEST = ("The Ashen Omens", [
     ("Giver", "Wizard"), ("Attribute", "OmenQuest"),
     ("Stage0", "When every other quest is done, speak to the court wizard at the top of the palace tower on the Royal Isle. He has seen something in the sky."),
     ("Stage1", "Ash is falling on the Southlands. The wizard says Morwen the bog witch in Fenwick reads such omens: ask her."),
-    ("Stage2", "Morwen needs a frost lily from the frozen lake under Frostpeak, east of Frosthold, where the Frost Troll lives."),
-    ("Stage3", "Find the Ashen Hand acolyte camped in the hills west of Frosthold, and learn what the cult knows of the dragon."),
+    ("Stage2", "Morwen needs a frost lily from the frozen lake under Frostpeak, east of Chillingham, where the Frost Troll lives."),
+    ("Stage3", "Find the Ashen Hand acolyte camped in the hills west of Chillingham, and learn what the cult knows of the dragon."),
     ("Stage4", "Tell the court wizard what you learned from the Ashen Hand."),
     ("Done", "5")])
 ACOLYTE_ID = "AshenAcolyte"
-CAMP_MAP = (3, 9)           # the hills west of Frosthold
+CAMP_MAP = (3, 9)           # the hills west of Chillingham
 BANE_HP = 90                # Dragonsbane: the dragon's hitpoints lost
 SCAR_DEFENCE = 6            # the scar: its Defence lost
 
@@ -96,10 +96,10 @@ def witch_steps():
         (">Conditional", "$Variable.5=1", "@om_w2"),
         w("Red ash in your hair... it smells of sulphur. That's no forest fire, dearie.\\Something under Ashpeak is "
           "breathing in its sleep, and it's waking.\\If you mean to face it, bring me a frost lily, from the frozen "
-          "lake east of Frosthold.",("I'll find one.", "@om_w1"), ("A dragon?!", "@om_w1")),
+          "lake east of Chillingham.",("I'll find one.", "@om_w1"), ("A dragon?!", "@om_w1")),
         "om_w1:",
         ("Update.Attribute", "OmenQuest", "=2"),
-        ("Display.Message", "Yellow", "The Ashen Omens: bring Morwen a frost lily from the frozen lake east of Frosthold."),
+        ("Display.Message", "Yellow", "The Ashen Omens: bring Morwen a frost lily from the frozen lake east of Chillingham."),
         ("End",),
         "om_w2:",
         (">Conditional", "$Variable.5=2", "@om_w9"),
@@ -126,14 +126,14 @@ def witch_steps():
         "om_cult:",
         ("Update.Attribute", "OmenQuest", "=3"),
         w("There. Now, one more thing: dragons don't wake on their own. There's a cult, the Ashen Hand, who worship "
-          "the beast and sing to it in its sleep.\\One of their acolytes is camped in the hills west of Frosthold. "
+          "the beast and sing to it in its sleep.\\One of their acolytes is camped in the hills west of Chillingham. "
           "Find him. They know things about that dragon nobody else does.",
           ("I'll find him.", "@om_cult2")),
         "om_cult2:",
-        ("Display.Message", "Yellow", "The Ashen Omens: find the Ashen Hand acolyte in the hills west of Frosthold."),
+        ("Display.Message", "Yellow", "The Ashen Omens: find the Ashen Hand acolyte in the hills west of Chillingham."),
         ("End",),
         "om_nolily:",
-        w("A frost lily, dearie. They grow only on the frozen lake east of Frosthold. Mind the troll.",
+        w("A frost lily, dearie. They grow only on the frozen lake east of Chillingham. Mind the troll.",
           ("I'll find one.", "@om_end")),
         "om_end:",
         ("End",),
@@ -267,7 +267,7 @@ def wizard_steps():
         ("Goto.Line", "@dq"),
         "om2:",
         (">Conditional", "$Variable.4<5", "@main"),
-        z("The ash still falls. Do as Morwen told you (Fenwick, in the Saltmarsh), and come back to me when you know more.",
+        z("The ash still falls. Do as Morwen told you (Fenwick, in the Brinebottom), and come back to me when you know more.",
           ("Something else.", "@main"), ("On my way.", "@bye")),
         ("End",),
     ]

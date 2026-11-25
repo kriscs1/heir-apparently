@@ -1,9 +1,9 @@
-"""The Shardfall Deep (the owner's wish): a great underground zone under the sea north of Ashford, level 20 and up, round
+"""The Shardfall Deep (the owner's wish): a great underground zone under the sea north of Puddleford, level 20 and up, round
 8,-13,-1. Long ago a great Shard fell burning out of the sky into the sea here, and its magic has worked on the rock and
 everything in it since. The first king set an order to keep watch over it, the Glass Wardens; they built a hold beside it,
 under the sea, and the Shard sang to them till they were hollow.
 
-  * Gull Point (12,-5,0): the rocky tip of Ashford's peninsula, a sea cave in it, and the cottage of Nell Tarrow, a
+  * Gull Point (12,-5,0): the rocky tip of Puddleford's peninsula, a sea cave in it, and the cottage of Nell Tarrow, a
     fisherwoman, and Bryony, her grandmother. Nell's nets come up full of glowing glass (Glass in the Nets, ShardfallGate:
     the way in). The cave goes down to the Drowned Stair, and the Wardens' Seal, a door of black glass that only opens to
     a Warden's signet woken with Shards (Shardcraft 15). Requires level 20.
@@ -1151,7 +1151,7 @@ def write_maps(d):
 
 
 def gull_point():
-    """The tip of Ashford's peninsula: a knoll of rock with the sea cave in it, Nell and Bryony's cottage behind."""
+    """The tip of Puddleford's peninsula: a knoll of rock with the sea cave in it, Nell and Bryony's cottage behind."""
     m = Map(SURFACE)
     if any("Gull_Point_Cave" in ln for ln in m.ents):
         return
@@ -1285,7 +1285,7 @@ CHART_SPOTS = [("Brinewater", "Brinewater_Deep", "the Brinewater"), ("Rest", "Le
 
 def quests():
     SK.quest("Glass in the Nets", "Woman", GATE, {
-        0: "A fisherwoman at Gull Point, the tip of Ashford's peninsula, has been pulling glass out of the sea. It glows.",
+        0: "A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.",
         1: "Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.",
         2: "Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.",
         3: "Nell says her grandmother Bryony remembers the old stories. Ask her.",
@@ -1294,7 +1294,7 @@ def quests():
     }, 5, markers={0: "Nell_Tarrow", 1: "Gull_Point_Cave", 2: "Nell_Tarrow", 3: "Bryony_Tarrow", 4: "Shardfall_Seal"},
         kind="Side", requires="Passage to the Mainland", level=LEVEL)
     SK.section(SK.QUESTS, "Glass in the Nets", [("Reward.Shards", "40"), ("Reward.XP", "Shardcraft 3"),
-                                                ("Rumour", "They say the nets come up glowing off Gull Point, north of Ashford."),
+                                                ("Rumour", "They say the nets come up glowing off Gull Point, north of Puddleford."),
                                                 ("Rumour.2", "There's a fisherwoman out on Gull Point selling sea glass that "
                                                  "shines in the dark. Won't say where she gets it.")])
     SK.quest("Charting the Deep", "Scholar", CHART, {

@@ -7,7 +7,7 @@ both, each the house's own footprint.
   * A cellar (the map below, level -1): stone walls round a plank floor, barrels, crates and sacks; a hatch in the
     ground floor (Hatch001) over a ladder up (Ladder001).
   * Which: a house (no shopkeeper, nothing climbing already, big enough), chosen by its place so it's the same every
-    run: about a third upstairs, a fifth a cellar, a tenth both. Never the Isle (left alone) nor anywhere the floor
+    run: about a third upstairs, a fifth a cellar, a tenth both. Never Muddlesey (left alone) nor anywhere the floor
     above or below is taken.
 
 Run once (a house already with a ladder or hatch is left as it is).

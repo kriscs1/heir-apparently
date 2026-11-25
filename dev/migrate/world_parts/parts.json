@@ -434,7 +434,7 @@
     "NPC\tBanker\t160\t480\tAttitude=Good Stand=1",
     "NPC\tBlacksmith\t544\t480\tAttitude=Good Zone=18,15,20,16 Pause=3-8",
     "NPC\tBeggar\t704\t255\tAttitude=Good Stand=1",
-    "StaticObject\tNotice\t417\t320\tId=Ashford",
+    "StaticObject\tNotice\t417\t320\tId=Puddleford",
     "MapItem\tHerb\t32\t608\t1",
     "MapItem\tEgg\t736\t384\t1",
     "StaticObject\tRange\t77\t206",
@@ -447,7 +447,7 @@
     "StaticObject\tWaystone\t351\t316",
     "StaticObject\tTrout_Spot\t480\t96",
     "NPC\tButterfly\t736\t320\tAttitude=Good",
-    "Id\tWaystone_Ashford\t10\t12",
+    "Id\tWaystone_Puddleford\t10\t12",
     "NPC\tGuard\t384\t216\tAttitude=Good Stand=1 Id=Arena_Master",
     "StaticObject\tHomestone\t349\t541",
     "NPC\tSettler\t334\t510\tAttitude=Good Stand=1 Id=Homestead_Settler Zone=11,16,12,18",
@@ -463,13 +463,13 @@
     "StaticObject\tSign_Tavern\t256\t112",
     "Id\tThe_Green_Dragon\t13\t6",
     "NPC\tCat\t416\t568\tAttitude=Good",
-    "NPC\tWoman\t384\t504\tAttitude=Good Zone=13,15,14,17 Pause=5-15 Id=Ashford_Resident_34 Name=Percy",
-    "StaticObject\tNotice\t352\t578\tId=Ashford_Notice_6",
-    "Id\tAshford_Grown\t13\t11",
+    "NPC\tWoman\t384\t504\tAttitude=Good Zone=13,15,14,17 Pause=5-15 Id=Puddleford_Resident_34 Name=Percy",
+    "StaticObject\tNotice\t352\t578\tId=Puddleford_Notice_6",
+    "Id\tPuddleford_Grown\t13\t11",
     "StaticObject\tShed_Post001\t736\t480",
     "StaticObject\tShed_Post002\t768\t480",
     "StaticObject\tCarpenters_Bench\t768\t384",
-    "Id\tAshford_Carpenters_Shed\t24\t14",
+    "Id\tPuddleford_Carpenters_Shed\t24\t14",
     "Id\tPercys_House\t14\t18",
     "StaticObject\tArm_Table\t576\t128\tId=Arm_Table_1"
    ],
@@ -2811,10 +2811,10 @@
     "NPC\tDuck\t480\t320\tAttitude=Bad",
     "StaticObject\tSign_Farm\t352\t400",
     "StaticObject\tSign_Herbalist\t704\t528",
-    "NPC\tBarkeep\t224\t376\tAttitude=Good Stand=1 Face=S Id=Ashford_Barkeep_16 Name=Albert",
-    "NPC\tBarmaid\t256\t440\tAttitude=Good Zone=7,15,10,15 Pause=3-9 Id=Ashford_Barmaid_17 Name=Sybil",
+    "NPC\tBarkeep\t224\t376\tAttitude=Good Stand=1 Face=S Id=Puddleford_Barkeep_16 Name=Albert",
+    "NPC\tBarmaid\t256\t440\tAttitude=Good Zone=7,15,10,15 Pause=3-9 Id=Puddleford_Barmaid_17 Name=Sybil",
     "StaticObject\tSign_Pub\t288\t496",
-    "StaticObject\tNotice\t192\t514\tId=Ashford_Notice_18",
+    "StaticObject\tNotice\t192\t514\tId=Puddleford_Notice_18",
     "NPC\tOtter\t544\t568\tAttitude=Bad Zone=14,11,21,19"
    ],
    "new": "11,4,0",
@@ -3071,7 +3071,7 @@
    },
    "lines": [
     "Id\tHollow_Barrel\t12\t15",
-    "StaticObject\tNotice\t320\t418\tId=Ashford_Notice_28"
+    "StaticObject\tNotice\t320\t418\tId=Puddleford_Notice_28"
    ],
    "new": "13,4,0",
    "old": "3,5,0",
@@ -3197,7 +3197,7 @@
     "9,9": "Cave_Wall001"
    },
    "lines": [
-    "StaticObject\tNotice\t321\t290\tId=Ashford_Iron_Mine",
+    "StaticObject\tNotice\t321\t290\tId=Puddleford_Iron_Mine",
     "MapItem\tHerb\t96\t352\t1",
     "NPC\tGuard\t224\t320\tAttitude=Good Patrol=5,11/11,11 PatrolMode=PingPong Pause=3-6",
     "StaticObject\tChest\t288\t480",
@@ -3207,7 +3207,7 @@
     "Trigger\tMine Gate\t8\t9",
     "Lock\t7\t10\t$Equipped.Body<>none or $Attr.HobgoblinQuest>=1 or $Attr.MineGatePassed>=1\tThe guard blocks the gate: no one goes down the mine without body armour, unless the King sent them.",
     "Id\tIron_Mine_Entrance\t7\t9",
-    "StaticObject\tNotice\t352\t194\tId=Northport_Notice_35"
+    "StaticObject\tNotice\t352\t194\tId=Drizzleport_Notice_35"
    ],
    "new": "20,10,0",
    "old": "1,4,0",
@@ -4760,13 +4760,13 @@
    },
    "lines": [
     "NPC\tFerryman\t448\t96\tAttitude=Good Stand=1 Name=Wim Schedule=Always",
-    "StaticObject\tNotice\t324\t194\tId=Northport",
+    "StaticObject\tNotice\t324\t194\tId=Drizzleport",
     "NPC\tMan\t512\t256\tAttitude=Good Zone=14,7,24,9",
     "StaticObject\tBoat001\t384\t48",
-    "Id\tNorthport_Port\t12\t8",
-    "Id\tNorthport_Pier\t13\t4",
-    "NPC\tPort_Guard\t448\t184\tAttitude=Good Stand=1 Face=W Id=Northport_Port_Guard Name=Sergeant_Brand",
-    "Id\tNorthport_Port\t15\t8",
+    "Id\tDrizzleport_Port\t12\t8",
+    "Id\tDrizzleport_Pier\t13\t4",
+    "NPC\tPort_Guard\t448\t184\tAttitude=Good Stand=1 Face=W Id=Drizzleport_Port_Guard Name=Sergeant_Brand",
+    "Id\tDrizzleport_Port\t15\t8",
     "NPC\tSeal\t416\t120\tAttitude=Bad Zone=14,2,24,8"
    ],
    "new": "4,4,0",

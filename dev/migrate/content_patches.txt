@@ -304,7 +304,7 @@ TILE	1,1,0	25	17	Grass001	Flowers002
 TILE	1,1,0	25	20	Grass001	Tall_Grass001
 ENTITY	1,1,0	NPC	Villager	320	288	Attitude=Good Zone=8,8,15,13
 ENTITY	1,1,0	NPC	Dog	416	352	Attitude=Good Zone=10,9,18,15
-ENTITY	1,1,0	Lock	20	7	$Attr.Door1Open>=1 or $Item.Beggars_House_Key>=1	The door is locked. They say the beggar in Ashford lost the key to this house.
+ENTITY	1,1,0	Lock	20	7	$Attr.Door1Open>=1 or $Item.Beggars_House_Key>=1	The door is locked. They say the beggar in Puddleford lost the key to this house.
 ENTITY	1,1,0	Trigger	Beggar House	20	6
 ENTITY	1,1,0	StaticObject	Notice	673	226	Id=The_Old_Brick_House
 ENTITY	1,1,0	NPC	Butterfly	352	32	Attitude=Good

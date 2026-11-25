@@ -19,12 +19,12 @@ Brick_Paving001:Plaster_Thin_Plank004+Roof(Slate_Roof013.02):Plank001+Roof(Slate
 Brick_Paving001:Plaster001:Door005:Plaster001:Plaster001+Decor(Plaster_Window001):Plaster001:Plaster001+Decor(Plaster_Window001):Plaster001:Plaster001:Brick_Paving001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Oak_Tree001):Grass001+Decor(Tree002):Grass001+Decor(Tree001):Forest001:Forest001:Forest001
 Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Brick_Paving001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001+Decor(Tall_Grass001):Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001+Decor(Oak_Tree001):Forest001:Grass001:Grass001+Decor(Tree002)
 Grass001:Grass001:Grass001:Grass001:Grass001:Brick_Paving001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001
-NPC	Mayor	160	184	Attitude=Good Stand=1 Face=S Id=Ashford_Clerk_13 Name=Mayor_Hollis
-NPC	Barkeep	128	440	Attitude=Good Stand=1 Face=S Id=Ashford_Barkeep_334 Name=Quentin
-NPC	Barmaid	102	511	Attitude=Good Zone=3,17,8,17 Pause=3-9 Id=Ashford_Barmaid_335 Name=Greta
-StaticObject	Notice	128	354	Id=Ashford_Notice_313
+NPC	Mayor	160	184	Attitude=Good Stand=1 Face=S Id=Puddleford_Clerk_13 Name=Mayor_Hollis
+NPC	Barkeep	128	440	Attitude=Good Stand=1 Face=S Id=Puddleford_Barkeep_334 Name=Quentin
+NPC	Barmaid	102	511	Attitude=Good Zone=3,17,8,17 Pause=3-9 Id=Puddleford_Barmaid_335 Name=Greta
+StaticObject	Notice	128	354	Id=Puddleford_Notice_313
 StaticObject	Sign_Pub	96	592
-Id	Ashford_Town_Hall	3	12
+Id	Puddleford_Town_Hall	3	12
 NPC	Butterfly	288	120	Attitude=Good Zone=5,2,15,5/11,6,15,9 Chase=5,2,15,5/11,6,15,9
 NPC	Blue_Butterfly	672	536	Attitude=Good Zone=17,14,24,20
 StaticObject	Dice_Table	224	544

@@ -3,7 +3,7 @@ travelling salesman with different goods every time, a jester with a joke and a 
 broken magic as strong as whoever it found.
 
   * Each player's turn comes round about every Every.Minutes, while they're up and about under the open sky (not in a
-    scene, a fight or a raid); the Isle's first days are left alone (a kind's Requires=). It's the world's, like a raid:
+    scene, a fight or a raid); Muddlesey's first days are left alone (a kind's Requires=). It's the world's, like a raid:
     whoever's near sees it, talks to it or fights it (a fight counts as any other).
   * Where= Wild keeps a kind off a settlement's maps; Min.Level= from players too new for it; Max= how many in the world.
   * It walks in from just out of sight, or (Forms=1) is drawn together out of Shard essence. It stays Minutes, then says

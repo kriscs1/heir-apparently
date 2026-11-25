@@ -1,5 +1,5 @@
-"""The Isle's creatures a level or two lower (dev/Roadmap-8.md, group 3): it's where you learn to fight. Every
-creature placed on the Isle's maps (Config.ini [Demo] Area: the Isle and its caves), or by a map's own script there
+"""Muddlesey's creatures a level or two lower (dev/Roadmap-8.md, group 3): it's where you learn to fight. Every
+creature placed on Muddlesey's maps (Config.ini [Demo] Area: Muddlesey and its caves), or by a map's own script there
 (the hobgoblins' lair: Add.Entity), that isn't a friend gets `Level=` on its line: its kind's level, one lower (two
 from level 4 up), never under 1, and the same each time it comes back (no little above or below, as one of many has
 elsewhere: world.py set_npc_level). A pass over the built maps (the owner's hand is on them): it only adds the option,
@@ -75,7 +75,7 @@ def main():
                 out.append(line)
             if write_text_lines(path, out):
                 files += 1
-    print("%d creatures given a level, in %d of the Isle's maps and scripts" % (n, files))
+    print("%d creatures given a level, in %d of Muddlesey's maps and scripts" % (n, files))
 
 
 if __name__ == "__main__":

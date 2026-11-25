@@ -65,7 +65,7 @@ CURSORS = {"Paint": "pencil", "Fill": "spraycan", "Rectangle": "tcross", "Erase"
 TOOL_HINTS["Outline"] = ("Draw round a place (hold the button down), let go, and choose what to fill it with: a "
                          "terrain (its ground, decor and creatures, coasts and all) or the palette's pick")
 CURSORS["Outline"] = "pencil"
-OPEN_ON = "4,6,0"                                  # (Northport, by its shardstone: where the editor opens)
+OPEN_ON = "4,6,0"                                  # (Drizzleport, by its shardstone: where the editor opens)
 BRUSH_SIZES = ("1", "2", "3", "5", "9", "15")
 SHAPE_TOOLS = ("Fill", "Rectangle", "Outline")   # (a whole place at once: a group of their own, under the brush tools)
 TOOLS = {"map": ["Select", "Paint", "Fill", "Rectangle", "Outline", "Move", "Area", "Pick"],
@@ -2165,7 +2165,7 @@ class MapPage(Page):
             self.change_route(r, lambda: self.routes.routes.remove(r))
 
     def new_route(self, here):
-        key = ask_text(self, "New cart route", "Its name (one word, e.g. Ravensgate):")
+        key = ask_text(self, "New cart route", "Its name (one word, e.g. Crowgate):")
         key = (key or "").strip().replace(" ", "_")
         if not key:
             return
@@ -4868,7 +4868,7 @@ class MapPage(Page):
         return words[0] if words else "Use"
 
     def id_field(self, f, e):
-        """Id= names this one thing: scripts "<Verb> <Id>" (e.g. Pickup CellarKey, Read Ashford, Talk to OldHob) come
+        """Id= names this one thing: scripts "<Verb> <Id>" (e.g. Pickup CellarKey, Read Puddleford, Talk to OldHob) come
         before "<Verb> <Name>". A link to its script for the left-click verb."""
         oid = e.opt("Id")
         row = ttk.Frame(f, style="Panel.TFrame")

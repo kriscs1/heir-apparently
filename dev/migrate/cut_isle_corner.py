@@ -1,4 +1,4 @@
-"""The Isle's north-east corner cut away (the owner's wish: it looked too much like a box): the coast comes down on the
+"""Muddlesey's north-east corner cut away (the owner's wish: it looked too much like a box): the coast comes down on the
 slant, wandering, from just east of the little bay on the north coast to where the east coast already slants in above
 the cottage, a beach along it, and the sea where the corner was.
 
@@ -73,7 +73,7 @@ def tin_back(w, n):
 def main():
     w = W.World(0)
     if W.watery(w.cell(*CORNER)):
-        print("The Isle's north-east corner is cut already.")
+        print("Muddlesey's north-east corner is cut already.")
         return
     tin = cut(w)
     back = tin_back(w, tin)

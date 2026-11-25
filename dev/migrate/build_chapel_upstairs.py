@@ -132,7 +132,7 @@ def downstairs():
     m.save()
     write_script("Ring Chapel_Bell", [
         "01\tPlay.Sound\tBell",
-        "02\tDisplay.Message\tYellow\tDONNNG... The bell's voice rolls out over the Isle.",
+        "02\tDisplay.Message\tYellow\tDONNNG... The bell's voice rolls out over Muddlesey.",
         "03\tEnd",
     ])
     music = os.path.join(DATA, "Music.ini")

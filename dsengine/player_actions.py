@@ -1110,7 +1110,7 @@ class ActionsMixin:
             self.save_requested = True
             self.emit({"t": "admin_status", "text": "Saved." if not off else "Saved. Off: " + ",".join(off)})
         elif what == "goto":
-            # (a named place: an Id tile or a thing's Id=, e.g. Ashford_Market, Waystone_Highwatch, The_Green_Dragon;
+            # (a named place: an Id tile or a thing's Id=, e.g. Puddleford_Market, Waystone_Squintwatch, The_Green_Dragon;
             # or "map tx ty", as the world map's labels have: 1,1,0 13 15)
             where = str(msg.get("place", "")).strip()
             pl = d.place(where)
@@ -1119,7 +1119,7 @@ class ActionsMixin:
                 mp, tx, ty = where.split()
                 spot = (mp, int(val(tx)), int(val(ty)), mp)
             if spot is None or self.w.map_named(spot[0]) is None:
-                self.emit({"t": "admin_status", "text": "No place called that (an Id on a map: e.g. Ashford_Market)."})
+                self.emit({"t": "admin_status", "text": "No place called that (an Id on a map: e.g. Puddleford_Market)."})
                 return
             self.teleport(spot[0], (spot[1] - 1) * self.tw, spot[2] * self.th - 8)
             self.emit({"t": "admin_status", "text": "Off to %s (%s)." % (spot[3], spot[0])})

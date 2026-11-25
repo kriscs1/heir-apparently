@@ -10,7 +10,7 @@
               the town changes for everyone (what has Project=<Key> on its map line appears; a perk). The plaque names
               who gave most.
   The crier   tells what's going on (raids, projects, the arena's champion); the bounty board sets a hunt a day; the
-              hall of records' board keeps the records (kills, secrets, arena wins), each by its clerk in Northport;
+              hall of records' board keeps the records (kills, secrets, arena wins), each by its clerk in Drizzleport;
               a homestead's Pocket Anchor keeps a guestbook and a gift box; and on a return after a day away, what
               happened while you were gone.
   Friends     Add a player as a friend (right-click them, or /friend Name): the journal's Friends page shows who's

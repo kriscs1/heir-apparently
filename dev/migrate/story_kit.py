@@ -241,13 +241,13 @@ def drop_label(group, label):
 
 # ---------------------------------------------------------------- the story's people (build_people.py draws them)
 PEOPLE = {   # sprite: (what Examine says, its verbs)
-    "Edwin": ("Edwin, the Isle's lawyer. His wife Maren is its doctor.", "Talk to,Examine"),
-    "Maren": ("Maren, the Isle's doctor, married to Edwin. Her sister is Bess the milkmaid.", "Talk to,Examine"),
-    "Frank": ("Frank, the Isle's blacksmith: arms like hams, and soot to the elbows.", "Talk to,Repair,Examine"),
+    "Edwin": ("Edwin, Muddlesey's lawyer. His wife Maren is its doctor.", "Talk to,Examine"),
+    "Maren": ("Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.", "Talk to,Examine"),
+    "Frank": ("Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.", "Talk to,Repair,Examine"),
     "Tobias": ("Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.", "Talk to,Examine"),
     "Ferryman": ("Wim the ferryman. He smells of salt and tar.", "Talk to,Examine"),
     "Mourner": ("A mourner in black.", "Examine"),
-    "Port_Guard": ("One of Northport's city guard, in the city's blue.", "Talk to,Examine"),
+    "Port_Guard": ("One of Drizzleport's city guard, in the city's blue.", "Talk to,Examine"),
     "Speaker": ("The Speaker of Brambleton's Parliament, in its crimson robes.", "Talk to,Examine"),
     "Mayor": ("The mayor, in a velvet cloak and a chain of office.", "Talk to,Examine"),
     "Steward": ("The King's Steward, who keeps King Rupert's Keep while the King is away.", "Talk to,Examine"),

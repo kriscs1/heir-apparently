@@ -1086,7 +1086,7 @@ class ItemsMixin:
     def death_sort(self):
         """Dying: what you can't drop stays with you, and so do your most valuable things (Config [Gameplay]
         Death.Keep.Items, 5: single items, worn or carried; not gold), what's in your hands first (the sword you
-        made on the Isle is worth little, but it's yours). The rest goes in the grave: [(name, qty, wear, stolen)]."""
+        made on Muddlesey is worth little, but it's yours). The rest goes in the grave: [(name, qty, wear, stolen)]."""
         d = self.data
         keep_n = max(0, int(val(d.config_read("Gameplay", "Death.Keep.Items", "5"))))
         units = []                      # (value, order, where, index): one per single item

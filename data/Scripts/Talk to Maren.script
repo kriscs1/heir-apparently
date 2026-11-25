@@ -16,6 +16,6 @@
 15	Display.Conversation	Maren	Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, and not your foot.	I'll keep chopping.	18
 16	>Conditional	$Variable.1>=2 and $Variable.1<=3	18
 17	Display.Conversation	Maren	An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	I'll see to it.	18
-18	Display.Conversation	Maren	Come in, dear. Anyone on the Isle who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	How is your father? [if $Attr.FatherFreed>=1]	19	Goodbye.	20
+18	Display.Conversation	Maren	Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	How is your father? [if $Attr.FatherFreed>=1]	19	Goodbye.	20
 19	Display.Conversation	Maren	Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	I'm glad.	20
 20	End

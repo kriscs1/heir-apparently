@@ -486,7 +486,7 @@ def gate_pair(open_):
     img[ring & (((X2 * 3 + Y2 * 2) // 5) % 3 == 0)] *= 0.82          # the voussoirs
     img[ring & (X2 >= 25)] *= 0.8
     shield = (Y2 >= 18) & (Y2 <= 25) & (np.abs(X2 + 0.5 - cx) <= 4 - np.maximum(0, Y2 - 22) * 0.9)
-    img[shield] = C((150, 36, 36))                                   # Wardhaven's arms over the gate
+    img[shield] = C((150, 36, 36))                                   # Sulkhaven's arms over the gate
     img[shield & (np.abs(X2 + 0.5 - cx) <= 1)] = C((220, 184, 70))
     if open_:
         dirt = np.concatenate([tile_array(p("sprites", "Tiles", "Dirt001.png"))] * 2, axis=0)

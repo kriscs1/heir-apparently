@@ -1,8 +1,8 @@
-"""The Isle's secrets: three things for the Isle (the demo) to leave a player wanting more.
+"""Muddlesey's secrets: three things for Muddlesey (the demo) to leave a player wanting more.
 
   * Who sent the hobgoblins. In the lair's corner barrel, with Tobias's key, an order folded small (Ashen_Order, Read):
     find the woman from Galaith, her papers under a crowned seal, the child's name; signed with a hand pressed in ash.
-    Tobias, shown it, knows why they took him (he writes the Isle's papers) and who signs so (the Ashen Hand, in the
+    Tobias, shown it, knows why they took him (he writes Muddlesey's papers) and who signs so (the Ashen Hand, in the
     north). Chapter 11 pays it off: the Ashen Priest drops his ledger (Ashen_Ledger, Read), the same careful hand.
   * What Jimmy Kept (JimmyQuest, a side quest after the amulet): Brother Aldous gives you Mary's charm (Marys_Charm,
     Read): read aloud, its Shards make you a cat for two minutes (Turn.Into). As a cat, Jimmy tells you what Mary hid
@@ -34,12 +34,12 @@ LOOKOUTS = (((10, 6), "N", 8, 1), ((14, 8), "N", 6, 2))  # (by the chest, and by
 FAR = [("@far",), ("Display.Message", "DarkRed", "You are too far away!", "Denied"), ("End",)]
 
 ORDER = ("A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\\There "
-         "is a woman on the Isle who came from Galaith the year it shut, with a child. She has papers under a crowned "
-         "seal, or the old man who writes the Isle's papers keeps them for her. Bring them, and the child's name, and "
+         "is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned "
+         "seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and "
          "the Shards are yours.\\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught "
          "fire.")
 LEDGER = ("A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles "
-          "(black)'. Two lines are marked with a thumbprint of ash:\\'To the hobgoblins on the Isle, forty Shards, for "
+          "(black)'. Two lines are marked with a thumbprint of ash:\\'To the hobgoblins on Muddlesey, forty Shards, for "
           "the woman's papers and the child's name. They took the old man, and nothing came of it.'\\And newer, the "
           "ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond "
           "the wall is waiting.'\\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'")
@@ -451,7 +451,7 @@ def tobias():
                       "not go back, not with those brutes so near it. Keep it well.", ("I will.", "@end"), told),
         ("End",),
         ("@order",),                                # (who sent them: build_isle_secrets.py)
-        say("Tobias", "Let's see.. 'the old man who writes the Isle's papers'. That's me. So that's why they took me! "
+        say("Tobias", "Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! "
                       "Every night the big one asked me where Mary's papers were. I never told them.\\And a hand in "
                       "ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. "
                       "Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\\What would the likes of them want with your mother? "
@@ -483,7 +483,7 @@ def main():
     aldous()
     jimmy()
     tobias()
-    print("The Isle's secrets: done")
+    print("Muddlesey's secrets: done")
 
 
 if __name__ == "__main__":

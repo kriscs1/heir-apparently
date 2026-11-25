@@ -16,13 +16,13 @@ from common import Ini, p                        # noqa: E402
 RUMOURS = {
     "The Smugglers' Run": ["Sergeant Holt at the castle's south gate is tearing his hair out. Goods turn up in town that "
                            "never came through his gate."],
-    "Granny Wren's Walk": ["There's an old dear down at Northport's landing who looks like she's lost her way. Somebody "
+    "Granny Wren's Walk": ["There's an old dear down at Drizzleport's landing who looks like she's lost her way. Somebody "
                            "ought to see her home."],
-    "A Portrait of Mo": ["That painter in Ashford's market square can't get his sitter to sit still. Mo, the sitter's "
+    "A Portrait of Mo": ["That painter in Puddleford's market square can't get his sitter to sit still. Mo, the sitter's "
                          "called. I won't say more."],
-    "The Wardhaven Bridge": ["Mayor Hollis in Ashford is after help with the Wardhaven bridge. Hands are short, I "
+    "The Sulkhaven Bridge": ["Mayor Hollis in Puddleford is after help with the Sulkhaven bridge. Hands are short, I "
                              "hear. So's the bridge."],
-    "The Dragonforge": ["The Wyrmsmith over in Wardhaven wants someone brave. Something about a forge hot enough for "
+    "The Dragonforge": ["The Wyrmsmith over in Sulkhaven wants someone brave. Something about a forge hot enough for "
                         "dragon scale."],
     "The Shard Scholar": ["Magister Quill at the Wizards' Court talks about nothing but Shards. He's always wanting "
                           "something fetched."],
@@ -30,39 +30,39 @@ RUMOURS = {
                         "first."],
     "The Invisible Apprentice": ["Folk at the Wizards' Court say there's a voice in the great hall with nobody attached "
                                  "to it."],
-    "Lady Pettigrew's Hat": ["There's a lady out on Goose Green, east of Northport, losing a war with some geese.",
+    "Lady Pettigrew's Hat": ["There's a lady out on Goose Green, east of Drizzleport, losing a war with some geese.",
                              "Lady Pettigrew's been shouting at geese all morning. The geese are winning."],
-    "Granny Bramble's Practice Hex": ["Granny Bramble on Thornwick's green wants someone to practise a hex on. Don't "
+    "Granny Bramble's Practice Hex": ["Granny Bramble on Nettlewick's green wants someone to practise a hex on. Don't "
                                       "stand still near her."],
-    "The Scarecrow's Hat": ["The scarecrow outside Oakhollow has been talking again. Big questions, apparently. Very "
+    "The Scarecrow's Hat": ["The scarecrow outside Acornby has been talking again. Big questions, apparently. Very "
                             "big."],
-    "Duchess Has Opinions": ["There's a cow outside Ashford with opinions, and she says them out loud."],
-    "The Mayor's Missing Trousers": ["Constable Dobbs in Ashford has a case he won't talk about. Something to do with "
+    "Duchess Has Opinions": ["There's a cow outside Puddleford with opinions, and she says them out loud."],
+    "The Mayor's Missing Trousers": ["Constable Dobbs in Puddleford has a case he won't talk about. Something to do with "
                                      "the Mayor. And trousers."],
     "The Redrock Signet": ["An old steward sits by the road at Redrock Manor's gate, waiting for someone brave enough to "
                            "go in."],
-    "The Herbalist's Remedy": ["The herbalist out on Ashford's farmlands could do with a hand, I hear. Two, if "
+    "The Herbalist's Remedy": ["The herbalist out on Puddleford's farmlands could do with a hand, I hear. Two, if "
                                "you've got them."],
     "The Dwarf's Grudge": ["Miners swear there's a dwarf deep under the hobgoblin warren, nursing a grudge as old as the "
                            "hills."],
-    "The Wildwood Watch": ["Ranger Ash in Oakhollow is short of eyes in the Wildwood. Strange goings on, they say. "
+    "The Wildwood Watch": ["Ranger Ash in Acornby is short of eyes in the Wildwood. Strange goings on, they say. "
                            "They always say that about woods."],
-    "Wolves of the Greyflats": ["The shepherd in Greyford is losing sheep to the wolves on the Greyflats.",
-                           "Wolves on the Greyflats again. The Greyford shepherd's at his wits' end."],
-    "Bog Lights": ["Old Morwen the witch in Saltmarsh wants bog myrtle, and someone daft enough to fetch it."],
-    "Bandits on the Road": ["Captain Hale in Frosthold wants the bandits off the Redrock road, and he's paying. "
+    "Wolves of the Greyflats": ["The shepherd in Dullford is losing sheep to the wolves on the Greyflats.",
+                           "Wolves on the Greyflats again. The Dullford shepherd's at his wits' end."],
+    "Bog Lights": ["Old Morwen the witch in Brinebottom wants bog myrtle, and someone daft enough to fetch it."],
+    "Bandits on the Road": ["Captain Hale in Chillingham wants the bandits off the Redrock road, and he's paying. "
                             "Which is more than the bandits do."],
     "The Lost Caravan": ["Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole one!"],
-    "The Frozen Forge": ["Brann the forgemaster in Frosthold can't keep his forge lit, and he's not taking it well."],
-    "The Hermit's Fire": ["The hermit in the Isle's western woods could do with good wood for his fire. He's tried "
+    "The Frozen Forge": ["Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well."],
+    "The Hermit's Fire": ["The hermit in Muddlesey's western woods could do with good wood for his fire. He's tried "
                           "bad wood. He's tried his chair."],
-    "The Withering Wood": ["The druid in Thornwick says the Elderwood is dying, and nobody listens."],
+    "The Withering Wood": ["The druid in Nettlewick says the Elderwood is dying, and nobody listens."],
     "The Barrow King": ["The gravekeeper at King Rupert's Keep won't go near the barrows on the downs any more. Says "
                         "they've woken."],
-    "Old Hob": ["Old Hob of Oakhollow's gone missing, and his house is boarded up tight. Odd, that."],
+    "Old Hob": ["Old Hob of Acornby's gone missing, and his house is boarded up tight. Odd, that."],
     "The Lost Patrol": ["The scout in Emberwatch is waiting on a patrol that never came back from the Ashwold. "
                         "Patrols go missing out there like socks."],
-    "A Place of Your Own": ["There's a settler by Ashford's shardstone talking about a place of your own. Land you can't "
+    "A Place of Your Own": ["There's a settler by Puddleford's shardstone talking about a place of your own. Land you can't "
                             "walk to, whatever that means."],
 }
 GOSSIPS = ("Villager", "Man", "Woman", "Farmer", "Barkeep", "Barmaid", "Greengrocer", "Fishmonger", "Butcher", "Baker",

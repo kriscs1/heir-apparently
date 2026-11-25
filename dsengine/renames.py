@@ -42,12 +42,24 @@ RENAMED_QUESTS = {                                   # (build_heir_isle.py: the 
     "Wolves of the Moor": "Wolves of the Greyflats",          # (rename_sallowcross.py)
     "The Staff of Ashen": "The Staff of Brambleton",          # (rename_galmere.py, rename_brambleton.py)
     "The Staff of Galmere": "The Staff of Brambleton",        # (rename_brambleton.py)
+    "The Ashford Road": "The Puddleford Road",                # (rename_towns.py)
+    "The Wardhaven Bridge": "The Sulkhaven Bridge",
 }
 RENAMED_WORDS = {                                    # (rename_northport.py: in an attribute's name, Waystone.Southport)
-    "Southport": "Northport",
-    "Moorcross": "Greyford",                             # (rename_sallowcross.py, rename_greyford.py: Waystone.Moorcross,
-    "Sallowcross": "Greyford",                           # Secret_Moorcross, and what it was called for a day after)
+    "Southport": "Drizzleport",
+    "Moorcross": "Dullford",                              # (rename_sallowcross.py, rename_greyford.py: Waystone.Moorcross,
+    "Sallowcross": "Dullford",                            # Secret_Moorcross, and what it was called for a day after)
     "Dustlands": "Sallow_Waste",                         # (and Zone_Chest_Dustlands)
+    "Northport": "Drizzleport",                        # (rename_towns.py)
+    "Ashford": "Puddleford",
+    "Frosthold": "Chillingham",
+    "Wardhaven": "Sulkhaven",
+    "Oakhollow": "Acornby",
+    "Thornwick": "Nettlewick",
+    "Greyford": "Dullford",
+    "Saltmarsh": "Brinebottom",
+    "Highwatch": "Squintwatch",
+    "Ravensgate": "Crowgate",
 }
 RENAMED_HOME_TILES = {                               # (cliff_decor.py: Stone001 is a stone or two on any ground now,
     "Stone001": "Flagstone001",                      # and a home's Flagstones floor is the flagstones)

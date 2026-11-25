@@ -38,7 +38,7 @@
 37	Display.Conversation	Ranger	Well met. I'm Ash, warden of the Wildwood.\Three old watch stones stand in these woods, and I can't leave the village to check them. Will you visit them for me?	I'll check the stones.	39	Not now.	65
 38	End
 39	Update.Attribute	RangerQuest	=1
-40	Quest.Note	RangerQuest	Watch stone by the north road, between King Rupert's Keep and Oakhollow.
+40	Quest.Note	RangerQuest	Watch stone by the north road, between King Rupert's Keep and Acornby.
 41	Quest.Note	RangerQuest	Watch stone in the western woods.
 42	Quest.Note	RangerQuest	Watch stone east of the river.
 43	Display.Message	Yellow	Quest started: The Wildwood Watch.

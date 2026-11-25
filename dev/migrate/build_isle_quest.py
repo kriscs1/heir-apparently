@@ -1,4 +1,4 @@
-"""The Isle's first quest, Passage to the Mainland, as a beginning: woodcutting, cooking, crafting a sword and a shield,
+"""Muddlesey's first quest, Passage to the Mainland, as a beginning: woodcutting, cooking, crafting a sword and a shield,
 the chapel cellar, the caves, and a spell to reach what you can't. Run it once (again: it writes the same again).
 
   python -I "dev\\migrate\\build_isle_quest.py"
@@ -17,7 +17,7 @@ The story (the attribute Passage, 0-12; FerryQuest>=4 is the old quest's ending,
    8  Brother Aldous gives you a scroll of Grasp (a spell that keeps: it pulls things to you from afar).       -> 9
    9  Grasp at the cage: the book is yours.                                                                    -> 10
   10  The book to Bess: a stamped ticket.                                                                       -> 11
-  11  The ticket to Maren: across to Northport.                                                                -> 12 (done)
+  11  The ticket to Maren: across to Drizzleport.                                                                -> 12 (done)
 
 Also: new characters start with no sword; the wooden sword (Crafting 1, 2 logs) and shield (Crafting 1, 3 logs) at a
 workbench; a fried egg (an egg on a range); the pictures for the new things.
@@ -181,7 +181,7 @@ def quest():
     a = text.index("[Passage to the Mainland]")
     b = text.index(nl + "[", a + 5)
     stages = [
-        ("Speak to Maren, the ferrywoman, at the end of the pier in the south of the Isle.", "Isle_Ferry_Pier"),
+        ("Speak to Maren, the ferrywoman, at the end of the pier in the south of Muddlesey.", "Isle_Ferry_Pier"),
         ("The first crossing needs a ticket. Ask Bess, Maren's sister, the milkmaid on the farm in the north.", "Milkmaid_Farm"),
         ("A goblin stole Bess's ticket book. First, chop 3 logs for her range with the axe she lent you (Chop a tree).", "Milkmaid_Farm"),
         ("Collect an egg from the hen coop and fry it on Bess's range, in her hut (use the egg on the range). Take it to her.", "Hen_Coop"),
@@ -192,7 +192,7 @@ def quest():
         ("The book is in a locked goblin's cage, out of reach. Ask Brother Aldous for help.", "Chapel_Door"),
         ("Cast Grasp at the goblin's cage to pull the ticket book out (Cast the scroll, then click the cage).", "Thief_Cage"),
         ("Take the ticket book back to Bess.", "Milkmaid_Farm"),
-        ("Show your stamped ticket to Maren on the pier and sail to Northport.", "Isle_Ferry_Pier"),
+        ("Show your stamped ticket to Maren on the pier and sail to Drizzleport.", "Isle_Ferry_Pier"),
     ]
     lines = ["[Passage to the Mainland]", "Giver=Woman", "Attribute=Passage"]
     lines += ["Stage%d=%s" % (i, s) for i, (s, _) in enumerate(stages)]
@@ -255,36 +255,36 @@ def scripts():
         ("Get.Value", "ATTRIBUTE", "FerryQuest", "Variable.2$"),
         (">On.Map", "1,2,0", "@back"),
         (">Conditional", "$Variable.1>=%d or $Variable.2>=4" % DONE, "@not_done"),
-        say("Woman", "Ahoy again! Northport, is it? The fare is 1 gold coin.", ("Yes, take me to Northport (1 gold).", "@pay"),
+        say("Woman", "Ahoy again! Drizzleport, is it? The fare is 1 gold coin.", ("Yes, take me to Drizzleport (1 gold).", "@pay"),
             ("Not today.", "@end")),
         ("@pay",), (">Got.Item", "Gold_Coin(s)", "1", "@no_gold"),
         ("Take.Item", "Gold_Coin(s)", "1"),
-        ("Goto.Script", "Ferry to Northport"),
+        ("Goto.Script", "Ferry to Drizzleport"),
         ("End",),
         ("@not_done",), (">Got.Item", "Ferry_Ticket", "1", "@no_ticket"),
         say("Woman", "A ticket, stamped by my sister - and you got her book back from that goblin! Hop aboard. After this "
-            "it's a gold coin a crossing.", ("Take me to Northport.", "@sail"), ("Not yet.", "@end")),
+            "it's a gold coin a crossing.", ("Take me to Drizzleport.", "@sail"), ("Not yet.", "@end")),
         ("@sail",), ("Take.Item", "Ferry_Ticket", "1"),
         ("Update.Attribute", "Passage", "=%d" % DONE),
         ("Display.Message", "Yellow", "Quest complete: Passage to the Mainland! The ferry is yours for 1 gold a crossing."),
-        ("Goto.Script", "Ferry to Northport"),
+        ("Goto.Script", "Ferry to Drizzleport"),
         ("End",),
         ("@no_ticket",), (">Conditional", "$Variable.1=0", "@waiting"),
-        say("Woman", "Ahoy there! I'm Maren: I sail across the strait to Northport, on the southern mainland.\\First "
+        say("Woman", "Ahoy there! I'm Maren: I sail across the strait to Drizzleport, on the southern mainland.\\First "
             "crossing is by ticket only. My sister Bess, the milkmaid, keeps the ticket book, on the farm up north.",
             ("I'll get a ticket.", "@started"), ("Not today.", "@end")),
         ("@started",), ("Update.Attribute", "Passage", "=1"),
         ("Display.Message", "Yellow", "Quest started: Passage to the Mainland. (H: your journal)"),
         ("End",),
         ("@waiting",), say("Woman", "No ticket, no crossing, I'm afraid. Bess has the ticket book, on the farm in the north "
-                           "of the Isle.", ("I'll see her.", "@end")),
+                           "of Muddlesey.", ("I'll see her.", "@end")),
         ("End",),
         ("@back",), (">On.Map", "1,3,0", "@farewell"),
-        say("Woman", "Back to the Isle, is it? That's 1 gold coin, then climb aboard.",
-            ("Yes, back to the Isle (1 gold).", "@pay_back"), ("Not yet.", "@end")),
+        say("Woman", "Back to Muddlesey, is it? That's 1 gold coin, then climb aboard.",
+            ("Yes, back to Muddlesey (1 gold).", "@pay_back"), ("Not yet.", "@end")),
         ("@pay_back",), (">Got.Item", "Gold_Coin(s)", "1", "@no_gold"),
         ("Take.Item", "Gold_Coin(s)", "1"),
-        ("Goto.Script", "Ferry to the Isle"),
+        ("Goto.Script", "Ferry to Muddlesey"),
         ("End",),
         ("@no_gold",), ("Display.Refusal", "You need 1 gold coin for the ferry fare."),
         ("End",),
@@ -367,7 +367,7 @@ def scripts():
             ("What's down in the cellar?", "@lost"), ("Goodbye.", "@end")),
         ("@lost",), ("Update.Attribute", "Passage", "=6"),
         say("Gravekeeper", "A goblin, from my cellar? So that was the scratching in the night! There's a trapdoor down there, "
-            "to the caves under the Isle. Locked - and I've lost the key.\\I had it last down there, sorting the barrels "
+            "to the caves under Muddlesey. Locked - and I've lost the key.\\I had it last down there, sorting the barrels "
             "and crates. Find it, and you can go down. You're armed, I see: good.", ("I'll look for it.", "@end")),
         ("End",),
         ("@s6",), (">Conditional", "$Variable.1=6", "@s7"),
@@ -401,7 +401,7 @@ def scripts():
     write("Climb Down Trapdoor", [
         (">Got.Item", "Chapel_Cellar_Key", "1", "@locked"),
         ("Play.Sound", "Ladder"),
-        ("Display.Message", "Cyan", "You climb down the ladder, into the caves under the Isle."),
+        ("Display.Message", "Cyan", "You climb down the ladder, into the caves under Muddlesey."),
         ("Teleport", "%d,%d" % (13 * TW, 9 * TW - 8), "3,1,-2"),
         ("End",),
         ("@locked",), ("Display.Refusal", "The trapdoor is locked."),
@@ -472,7 +472,7 @@ def scripts():
 
 
 def main():
-    sys.exit("Superseded: build_heir_isle.py (the heir's story) made the Isle's quests again. This one would put the "
+    sys.exit("Superseded: build_heir_isle.py (the heir's story) made Muddlesey's quests again. This one would put the "
              "ticket book and the goblin's cage back.")
 
 

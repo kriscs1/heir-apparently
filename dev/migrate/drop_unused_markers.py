@@ -1,4 +1,4 @@
-"""Takes away the place Ids build_estforlan.py once put by every townsperson it moved (Highwatch_Guard,
+"""Takes away the place Ids build_estforlan.py once put by every townsperson it moved (Squintwatch_Guard,
 Fenwick_Trader...) that nothing names: no quest's marker, no script, the world map, the engine or the page. They only
 cluttered the editor's places (and the Settler or Trader walks off from it anyway). Places named for buildings and
 squares stay. The builder now marks a person only when something points at them (estforlan/places.py wanted).

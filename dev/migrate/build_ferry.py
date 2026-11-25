@@ -1,4 +1,4 @@
-"""The Isle's ferries (the owner's wish): two boats you ride across the strait, one from each pier, casting off together
+"""Muddlesey's ferries (the owner's wish): two boats you ride across the strait, one from each pier, casting off together
 on the bell and passing each other halfway (dsengine/carts.py: a route with its own vehicle, kept to a timetable). The
 boat is drawn from above, turning through sixteen headings as it goes and coming about at the pier
 (sprites\\Walk\\Ferry_Boat_H<nn><frame>: a, tied up; b and c, under way, its wake and the steering oar), with its
@@ -172,14 +172,14 @@ def data():
 
 
 # (the two lanes across the strait, a boat on each, so they pass and never meet: 1-based tiles; both tie up at the one
-# berth by the Isle's pier stem, and at the one on the north of Northport's harbour pier, by Wim: they leave together,
+# berth by Muddlesey's pier stem, and at the one on the north of Drizzleport's harbour pier, by Wim: they leave together,
 # so only one is ever in at either, and the boat you watched go comes back to where it left)
 LANES = {
-    "east": ["3,2,0,14,15,the Isle", "3,2,0,14,21", "4,3,0,2,8", "4,4,0,7,3", "4,4,0,13,3,Northport"],
-    "west": ["3,2,0,14,15,the Isle", "3,2,0,14,21", "3,3,0,23,8", "3,3,0,25,18", "3,4,0,25,3", "4,4,0,13,3,Northport"],
+    "east": ["3,2,0,14,15,Muddlesey", "3,2,0,14,21", "4,3,0,2,8", "4,4,0,7,3", "4,4,0,13,3,Drizzleport"],
+    "west": ["3,2,0,14,15,Muddlesey", "3,2,0,14,21", "3,3,0,23,8", "3,3,0,25,18", "3,4,0,25,3", "4,4,0,13,3,Drizzleport"],
 }
 # (the boats cross for everyone; it's you they won't take: no papers, or too green yet)
-NOT_YET = ("The ferryman shakes his head. \"Papers first, friend. Since the raids, Northport sends back anyone off the "
+NOT_YET = ("The ferryman shakes his head. \"Papers first, friend. Since the raids, Drizzleport sends back anyone off the "
            "Isle without them. Wim on the pier will look them over.\"")      # (not begun with a quote: the ini drops it)
 GREEN = ("The ferryman holds up a hand. \"You're green as grass yet, and you've never had a beast's leavings in your "
          "hands, by the look of you. See Brother Aldous, and come back at level 3.\"")
@@ -187,7 +187,7 @@ GREEN = ("The ferryman holds up a hand. \"You're green as grass yet, and you've 
 
 def route(lane):
     lines = ["Title=The strait ferry", "Vehicle=%s" % NAME, "Fare=1", "Wait=15", "Loop=0", "Timetable=1", "Speed=1.2",
-             "Every=45", "Start=%s" % ("the Isle" if lane == "east" else "Northport"),
+             "Every=45", "Start=%s" % ("Muddlesey" if lane == "east" else "Drizzleport"),
              "Requires=$Attr.Passage>=5", "Refused=%s" % NOT_YET,
              "Requires.2=$Attr.RemnantsAbsorbed>=1 and $Player.Level>=3", "Refused.2=%s" % GREEN,
              "Refused.Script=Talk to Ferryman"]          # (not yet: Wim says why, in a talk, not a chat line)
@@ -209,19 +209,19 @@ def moored_boats_gone():
 
 
 def wim():
-    """Wim on either pier: what the boats are; on the Isle, nobody aboard without papers (Passage to the Mainland: he
+    """Wim on either pier: what the boats are; on Muddlesey, nobody aboard without papers (Passage to the Mainland: he
     reads yours, Mary's, and the quest's done), nor a green hand."""
     K.write_script("Talk to Ferryman", [
         ("Get.Value", "ATTRIBUTE", "Passage", "Variable.1$"),
         (">On.Map", "4,4,0", "@isle"),
-        K.say("Ferryman", "Back to the Isle? The boats cross together, one from each pier, whenever the bell goes. Step "
+        K.say("Ferryman", "Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step "
                           "aboard when one's tied up here, and a coin's the fare.\\They pass each other halfway. "
                           "Wave, if you like. Nobody does.", ("Thanks, Wim.", "@end")),
         ("End",),
         ("@isle",),
         (">Conditional", "$Variable.1>=5", "@papers"),
         (">Conditional", "$Attr.RemnantsAbsorbed>=1 and $Player.Level>=3", "@green"),
-        K.say("Ferryman", "Northport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the "
+        K.say("Ferryman", "Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the "
                           "bell and pass in the strait.\\Nobody's lost a passenger in years. Well. Nobody's lost one "
                           "this year.", ("Thanks, Wim.", "@end")),
         ("End",),
@@ -234,7 +234,7 @@ def wim():
         (">Conditional", "$Variable.1=4 and $Item.Marys_Papers>=1", "@none"),
         K.say("Ferryman", "Papers? Let's have a look, then.\\He unfolds them, and stops at the seal, and looks at you for "
                           "a long while.\\Well. That's not my business, and I'll not make it mine. Those'll get you past "
-                          "any guard in Northport.\\And when you land: there's a shardstone by the market. Feed it a few "
+                          "any guard in Drizzleport.\\And when you land: there's a shardstone by the market. Feed it a few "
                           "Shards and it wakes, and after that it'll carry you to any other shardstone you've woken. Mind "
                           "your Shards.", ("Thank you, Wim.", "@done")),
         ("@done",),
@@ -247,20 +247,20 @@ def wim():
         ("@none",),
         (">Conditional", "$Variable.1=0", "@nopapers"),
         (">Quest.Can.Start", "Passage", "@nopapers"),
-        K.say("Ferryman", "Cross the strait? Papers first, friend. Since the raids, Northport's guards send back anyone "
-                          "off the Isle without papers, and I'm the one who has to bring them home again.\\Old Tobias "
-                          "always wrote them, him keeping the Isle's roll, but nobody's seen him since the hobgoblins "
+        K.say("Ferryman", "Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone "
+                          "off Muddlesey without papers, and I'm the one who has to bring them home again.\\Old Tobias "
+                          "always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins "
                           "came. Ask Bess, up at the farm: she's his daughter.", ("I will.", "@start")),
         ("@start",),
         ("Update.Attribute", "Passage", "=1"),
         ("Display.Message", "Yellow", "Quest started: Passage to the Mainland.", "Quest"),
         ("End",),
         ("@nopapers",),
-        K.say("Ferryman", "Got your papers? No? Then no passage, friend. Northport would only send you back, and I'd "
+        K.say("Ferryman", "Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd "
                           "be the one bringing you. Twice the rowing, and the same fare.", ("I see.", "@end")),
         ("@end",), ("End",),
     ], MAKER)
-    for old in ("Ferry to Northport", "Ferry to the Isle"):
+    for old in ("Ferry to Drizzleport", "Ferry to Muddlesey"):
         K.remove_script(old)
 
 

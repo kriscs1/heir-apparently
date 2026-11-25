@@ -1,5 +1,5 @@
-"""A Portrait of Mo (PortraitQuest, a side quest once you're on the mainland): Ottilie (Painter, Id=Ashford_Painter)
-paints at her easel in Ashford's market square (3,4,0), and the painting wants a cat: Mo, who never keeps still.
+"""A Portrait of Mo (PortraitQuest, a side quest once you're on the mainland): Ottilie (Painter, Id=Puddleford_Painter)
+paints at her easel in Puddleford's market square (3,4,0), and the painting wants a cat: Mo, who never keeps still.
 Stroke Mo while Mo is sitting (>Entity.State CLICKED Sit) and Mo settles (Set.NPC.State: held sitting) for the
 painting; any other time it comes to nothing, each its own way (mid-stretch; showing you its back end; on the move).
 Ottilie paints, Mo is let go, and you get a little painting of Mo (Portrait_of_Mo) and some gold.
@@ -90,31 +90,31 @@ def data():
             ("Painter", (("Type", "NPC"), ("Use.Words", "Talk to"), ("Examine.Info", "A painter with paint on "
                          "everything but the canvas."), ("Roam.Radius", "0"), ("Chase.Radius", "0"),
                          ("Attitude", "Good"), ("Respawn", "300"))),
-            ("Easel", (("Type", "StaticObject"), ("Use.Words", "Examine"), ("Examine.Info", "Ashford's market, "
+            ("Easel", (("Type", "StaticObject"), ("Use.Words", "Examine"), ("Examine.Info", "Puddleford's market, "
                        "painted in quick strokes. There's a cat-shaped gap in the middle."),
                        ("Walkable.Data", "1111111" * 2 + "1100011" * 5))),
             ("Portrait_of_Mo", (("Type", "MapItem"), ("Use.Words", "Examine"), ("Examine.Info", "A little oil "
-                                "painting of Mo, sitting like a loaf in Ashford's market."), ("Value", "40")))):
+                                "painting of Mo, sitting like a loaf in Puddleford's market."), ("Value", "40")))):
         if not ini.section(name, ents):
             for k, v in keys:
                 ini.write(name, k, v, ents)
     quests = os.path.join(DATA, "Quests.ini")
     if not ini.section(QUEST, quests):
         for k, v in (("Giver", "Painter"), ("Attribute", "PortraitQuest"),
-                     ("Stage0", "A painter at an easel in Ashford's market square looks fed up."),
-                     ("Stage1", "Get Mo, the black-and-white cat in Ashford's market square, to keep still for "
+                     ("Stage0", "A painter at an easel in Puddleford's market square looks fed up."),
+                     ("Stage1", "Get Mo, the black-and-white cat in Puddleford's market square, to keep still for "
                                 "Ottilie's painting: stroke Mo while Mo is sitting down."),
                      ("Stage2", "Mo is sitting still at last. Tell Ottilie."),
-                     ("Done", "3"), ("Marker0", "Ashford_Painter"), ("Marker1", "Mo"), ("Marker2", "Ashford_Painter"),
+                     ("Done", "3"), ("Marker0", "Puddleford_Painter"), ("Marker1", "Mo"), ("Marker2", "Puddleford_Painter"),
                      ("Type", "Side"), ("Requires.Quests", "Passage to the Mainland")):
             ini.write(QUEST, k, v, quests)
     m = Map("3,4,0")
-    if not m.has_line("Id=Ashford_Painter"):
+    if not m.has_line("Id=Puddleford_Painter"):
         m.ents.append(obj_line("NPC", "Painter", PAINTER[0], PAINTER[1],
-                               "Attitude=Good Stand=1 Face=E Id=Ashford_Painter Name=Ottilie", -8))
+                               "Attitude=Good Stand=1 Face=E Id=Puddleford_Painter Name=Ottilie", -8))
         m.ents.append(obj_line("StaticObject", "Easel", EASEL[0], EASEL[1]))
         m.save()
-    print("Ottilie and her easel in Ashford's market square; the quest; the painting")
+    print("Ottilie and her easel in Puddleford's market square; the quest; the painting")
 
 
 def write(name, lines):
@@ -123,7 +123,7 @@ def write(name, lines):
 
 
 def scripts():
-    write("Talk to Ashford_Painter", [
+    write("Talk to Puddleford_Painter", [
         "01\tGet.Value\tATTRIBUTE\tPortraitQuest\tVariable.1$",
         "02\t>Conditional\t$Variable.1=0\t08",
         "03\tDisplay.Conversation\tPainter\tI'm painting the market, and it wants a cat: that black one with the white "
@@ -174,7 +174,7 @@ def scripts():
         "20\tEnd",
         "21\tDisplay.Message\tDarkRed\tYou are too far away!\tDenied",
         "22\tEnd"])
-    print("Scripts: Talk to Ashford_Painter, Stroke Mo")
+    print("Scripts: Talk to Puddleford_Painter, Stroke Mo")
 
 
 def main():

@@ -20,9 +20,9 @@ Grass001+Decor(Oak_Tree001):Grass001+Decor(Oak_Tree001):Grass001:Grass001:Grass0
 Grass001+Decor(Tree001):Grass001+Decor(Tall_Grass001):Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Dirt001:Dirt001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Pebbles002):Grass001
 Grass001+Decor(Tree001):Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Flowers002):Grass001:Grass001:Dirt001:Dirt001:Grass001+Decor(Flowers003):Grass001:Grass001:Grass001:Grass001:Grass001:Grass001
 NPC	Dog	160	56	Attitude=Good Zone=2,2,11,7 Pause=4-12 Home=18,2,20,2/23,2,23,2/18,3,23,4
-NPC	Banker	320	88	Attitude=Good Stand=1 Face=S Id=Ashford_Banker_323
-NPC	Farmer	64	152	Attitude=Good Zone=3,4,4,6 Pause=5-15 Id=Ashford_Resident_340 Name=Dora
-StaticObject	Notice	160	34	Id=Ashford_Notice_305
+NPC	Banker	320	88	Attitude=Good Stand=1 Face=S Id=Puddleford_Banker_323
+NPC	Farmer	64	152	Attitude=Good Zone=3,4,4,6 Pause=5-15 Id=Puddleford_Resident_340 Name=Dora
+StaticObject	Notice	160	34	Id=Puddleford_Notice_305
 NPC	Rabbit	160	120	Attitude=Passive Zone=2,2,11,2/6,3,7,6/2,7,11,9 Chase=2,2,11,2/6,3,7,6/2,7,11,9
 NPC	Butterfly	704	248	Attitude=Good Zone=18,5,24,13
 NPC	Butterfly	192	536	Attitude=Good Zone=2,14,12,20
@@ -32,4 +32,4 @@ MapItem	Emerald	352	352	1	Once=1
 MapItem	Gold_Coin(s)	320	320	60	Once=1
 MapItem	Healing_Draught	384	384	2	Once=1
 MapItem	Silver_Ring	288	320	1	Once=1
-StaticObject	Smugglers_Trapdoor	128	544	Id=Meg_Tunnel_Ashford Here.After=SmugglerSide:1
+StaticObject	Smugglers_Trapdoor	128	544	Id=Meg_Tunnel_Puddleford Here.After=SmugglerSide:1

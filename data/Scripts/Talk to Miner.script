@@ -16,7 +16,7 @@
 16	Get.Value	CALCULATION	1	Variable.3$
 17	Display.Conversation	Miner	Click a rock with ore in it and swing. Better pickaxes strike more often.\Smelt the ore at a furnace.\At Mining 5 the guild's deep seam opens: coal, silver and gold!	Thanks!	22
 18	End
-19	Display.Conversation	Miner	You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Ashford blacksmith sells them too.	Thanks!	22
+19	Display.Conversation	Miner	You'll need a pickaxe. I dropped my spare by the ladder when I ran.\The Puddleford blacksmith sells them too.	Thanks!	22
 20	End
 21	Display.Conversation	Miner	There's a hatch in the tunnels to the east that goes down to their warren.\I saw them carry off all sorts down there. Keys, coins, gems...	I'll take a look.	22
 22	End

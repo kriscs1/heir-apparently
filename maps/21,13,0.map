@@ -20,6 +20,6 @@ Gravel001:Grass001+Decor(Palisade001):Grass001+Decor(Palisade001):Grass001+Decor
 Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tall_Grass001):Grass001:Grass001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001
 Gravel001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Bush001):Grass001:Grass001:Grass001+Decor(Flowers002):Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001:Forest001
 StaticObject	Shardstone	32	32
-Id	Waystone_Thornwick	2	3
+Id	Waystone_Nettlewick	2	3
 Lock	3	14			Pick=4
 MapItem	Gold_Coin(s)	96	320	12	Once=1

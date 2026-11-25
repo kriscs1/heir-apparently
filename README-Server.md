@@ -56,7 +56,7 @@ view) goes full screen. Press **Enter** to chat with the other players.
 
 ## The arena (players fighting players)
 
-- **Getting there.** The Arena Master, a guard in the middle of Ashford, takes you there. The Arena Keeper by the gate
+- **Getting there.** The Arena Master, a guard in the middle of Puddleford, takes you there. The Arena Keeper by the gate
   brings you back.
 - **Where you can fight.** Players can only fight each other on the arena's sand: right-click another player, then
   Attack. The paving round it is safe for watching. Swords, bows and attack scrolls all work, and your gear counts.
@@ -71,7 +71,7 @@ view) goes full screen. Press **Enter** to chat with the other players.
 - **Open PvP** (a server's choice: `DS_PVP=1`, or an admin or the host types `/pvp on`; `/pvp off` ends it, and the
   choice is kept with the world; `/pvp` says which it is). While it's on, a badge under the Online line says where
   you stand: red crossed swords, "PvP here", or a grey "Safe here". Players may then fight anywhere but:
-  - a town (the maps in `data/Towns.ini`, the Isle's too), a homestead or the Shardrealm (`Open.Safe.Maps`);
+  - a town (the maps in `data/Towns.ini`, Muddlesey's too), a homestead or the Shardrealm (`Open.Safe.Maps`);
   - each other in a party;
   - more than `Open.Level.Gap` levels apart (5; `0`: any).
 
@@ -95,7 +95,7 @@ view) goes full screen. Press **Enter** to chat with the other players.
 Your homestead is a pocket of the Shardrealm's calm rim, held by an anchor of your own. Settlers call these pockets
 the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
 
-- **Getting one.** The settler by the shardstone in Ashford has the quest *A Place of Your Own*:
+- **Getting one.** The settler by the shardstone in Puddleford has the quest *A Place of Your Own*:
   - Bring her 10 planks and 4 stone blocks. Make them at her carpenter's bench: planks from logs, blocks from stone.
     Rocks can be mined for stone with a pickaxe.
   - She gives you the **Hearth Anchor** (it was the Access Crystal).
@@ -139,7 +139,7 @@ the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
 
 ## Farming
 
-- **Sowing.** Buy seeds from the farmer on the farmlands east of Ashford, and use them on **tilled soil**.
+- **Sowing.** Buy seeds from the farmer on the farmlands east of Puddleford, and use them on **tilled soil**.
   - His furrows by the cabbages are free for anyone to sow.
   - On your homestead, lay tilled soil from the Build panel (Garden: on soil or grass). Only you can sow there.
 - **Growing.** Crops grow through three stages on the server's clock, even while you're logged out or the server is
@@ -153,7 +153,7 @@ the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
 
 ## The market, the shops, the tavern, digging and raids
 
-- **The market.** One market for the whole world, at any **market board**: Ashford's market, and beside every
+- **The market.** One market for the whole world, at any **market board**: Puddleford's market, and beside every
   town's shardstone.
   - **Browsing:** see everything everyone has for sale, cheapest first, with who's selling it.
   - **Selling:** right-click something in your pack, choose *Sell on the market*, and set the price each and how
@@ -161,10 +161,10 @@ the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
   - **Your listings:** *Show only mine* to take things back or change a price. Up to 18 listings each.
   - **Takings:** buyers pay into your purse even while you're logged out; *Collect* it at any board.
   - Things that can't be dropped (quest items, the Hearth Anchor) can't be sold.
-- **Ashford's stalls** are for traders now: a greengrocer, a fishmonger, a weaver, a tinker (spades, buckets...)
+- **Puddleford's stalls** are for traders now: a greengrocer, a fishmonger, a weaver, a tinker (spades, buckets...)
   and a butcher, each behind a stall with a shop of their own.
 - **Shop signs.** Every shop has a signboard by its door with a picture of what it sells.
-- **The Green Dragon** (behind Ashford's houses, north):
+- **The Green Dragon** (behind Puddleford's houses, north):
   - The innkeeper plays **Three Cups** (find the coin: 2.5 times your stake back) and **High or Low** (guess the next
     roll: 1.4 times back), and sells ale and food.
   - At a **dice table**, *Play* to start a round of **Dragon Dice**. Everyone nearby has 20 seconds to match the
@@ -173,7 +173,7 @@ the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
   usually, sometimes stone, bones, ore, seeds, very rarely a gem. It leaves a hole that grasses over in 10 minutes.
   `data/Digging.ini` sets the chance, the ground and the finds. (On sand you get sand too.)
 - **Monster raids.** `data/Waves.ini`: monsters attacking a place in waves.
-  - **Surprise raids:** about every two hours, when 2 or more are playing, goblins raid Ashford.
+  - **Surprise raids:** about every two hours, when 2 or more are playing, goblins raid Puddleford.
   - **Defending:** a horn sounds and a banner shows the wave, how many are left and the time.
   - **Rewards:** whoever kills a raider gets gold, and everyone who held out shares the reward.
   - **Losing:** if time runs out, or everyone leaves, the raiders go.
@@ -182,8 +182,8 @@ the **Stillwater**. A pocket is always safe: nothing hostile can be in one.
     starts `Farm_Raid`.
   - Admins can start one from the Admin panel.
 - **Chat.** A chime plays when another player says something (a softer one for a whisper); Options can turn it off.
-- **Admins** can jump to any named place (Admin > *Go to a place*): `Ashford_Market`, `The_Green_Dragon`,
-  `Waystone_Highwatch`...; set their standing in any town; and set any quest done, not begun or at a stage, and the
+- **Admins** can jump to any named place (Admin > *Go to a place*): `Puddleford_Market`, `The_Green_Dragon`,
+  `Waystone_Squintwatch`...; set their standing in any town; and set any quest done, not begun or at a stage, and the
   values its scripts keep (Admin > *Quest*: ticking it done gives no reward; unticking it clears its rewards and values,
   to play it again).
 - `dev/migrate/build_market.py` (signs) and `dev/migrate/build_town_life.py` (boards, vendors, tavern, digging,
@@ -477,7 +477,7 @@ and it lists the remote game servers (each announces itself to it). There are no
 - **Owning the game** (`central/bought.py`; `dev/Roadmap-7.md`): an account has the full game once a purchase is
   checked with the store it came from, never on an app's word, and one purchase counts for one account (only its hash
   is kept). The admin page's Accounts shows each one's (bought where and when, or Demo), and **Give the full game** /
-  **Take it back** (a refund, a gift). A game server is told with the ticket (`full`). The demo (the Isle, level 5: `data/Config.ini` `[Demo]`) is
+  **Take it back** (a refund, a gift). A game server is told with the ticket (`full`). The demo (Muddlesey, level 5: `data/Config.ini` `[Demo]`) is
   only for accounts without it once `DS_DEMO=1`; till then everyone has the full game. Each store is set up by its
   own settings; one that isn't refuses its purchases:
   - **Google Play**: in the Play Console, Setup > API access, link a Google Cloud project and make a service account

@@ -10,7 +10,7 @@ it can't be seen from outside, reached by walking through a stretch of wall that
     a smugglers' stash, a hermit's bolt-hole, a shrine, a dead adventurer, a miners' store (Bones, Cobweb, Bedroll: drawn
     here).
   * Where: a map under the world with cave walls and rock enough behind them, MOST of them, two of them in the Mire
-    Tunnel; never the Isle's caves or a place the story's in (SKIP).
+    Tunnel; never Muddlesey's caves or a place the story's in (SKIP).
 
 Safe to run again (the pictures and scripts redrawn; once any room is there, no more are dug).
 
@@ -35,7 +35,7 @@ from PIL import Image, ImageDraw                 # noqa: E402
 MOST = 12
 GROUP = "97"                                     # (the roof group: no house on a cave's map to clash with)
 ROOF = "Hidden_Dark001.%s" % GROUP
-SKIP = {"1,1,-1", "1,1,-2", "2,1,-2", "2,2,-2", "3,1,-1", "3,1,-2",   # (the Isle's)
+SKIP = {"1,1,-1", "1,1,-2", "2,1,-2", "2,2,-2", "3,1,-1", "3,1,-2",   # (Muddlesey's)
         "-7,11,-1", "21,4,-10", "3,18,-1"}       # (the King's mine, the Shardrealm, the Sunken Grimoire's library)
 MIRE = {"-6,5,-1", "-7,5,-1", "-1,5,-1", "-1,6,-1", "0,5,-1", "0,6,-1", "1,5,-1", "1,6,-1", "2,6,-1", "2,4,-1"}
 TIERS = [   # (the most a map's monsters' level, what its cache holds)

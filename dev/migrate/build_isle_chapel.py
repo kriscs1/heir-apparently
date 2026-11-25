@@ -1,4 +1,4 @@
-"""The Isle's chapel as a chapel, gates, a square way down. Run it after build_isle_art.py (the pictures); once is
+"""Muddlesey's chapel as a chapel, gates, a square way down. Run it after build_isle_art.py (the pictures); once is
 enough (again: it sees what's done).
 
   python -I "dev\\migrate\\build_isle_chapel.py"
@@ -182,7 +182,7 @@ def cellar_trapdoor():
         "06\tDisplay.Message\tCyan\tYou unlock the trapdoor with the cellar key and heave it open.",
         "07\tPlay.Sound\tDoor",
         "08\tPlay.Sound\tLadder",
-        "09\tDisplay.Message\tCyan\tYou climb down the ladder, into the caves under the Isle.",
+        "09\tDisplay.Message\tCyan\tYou climb down the ladder, into the caves under Muddlesey.",
         "10\tTeleport\t%d,%d\t3,1,-2" % ((hx - 1) * TW, hy * TW - 8),
         "11\tEnd",
         "12\tDisplay.Refusal\tThe trapdoor is locked.",
@@ -209,7 +209,7 @@ def cellar_trapdoor():
         "floor. Bring a lantern, and a sword.\tThank you.\t03"])
     p = os.path.join(DATA, "Scripts", "Read Isle_Chapel.script")
     text = open(p, "rb").read().decode("cp1252")
-    text = re.sub(r"(THE ISLE CHAPEL\\\\Rest in peace, all who sleep in the yard\.)[^\t]*", r"\1", text)   # (no hints)
+    text = re.sub(r"(MUDDLESEY CHAPEL\\\\Rest in peace, all who sleep in the yard\.)[^\t]*", r"\1", text)   # (no hints)
     open(p, "wb").write(text.encode("cp1252"))
     print("The cellar: a locked trapdoor (Brother Aldous has the key)")
 
@@ -319,7 +319,7 @@ def lost_key():
     write_script("Climb Down Trapdoor", [
         "01	>Got.Item	Chapel_Cellar_Key	1	06",
         "02	Play.Sound	Ladder",
-        "03	Display.Message	Cyan	You climb down the ladder, into the caves under the Isle.",
+        "03	Display.Message	Cyan	You climb down the ladder, into the caves under Muddlesey.",
         "04	Teleport	%d,%d	3,1,-2" % ((TRAPDOOR[0] - 1) * TW, TRAPDOOR[1] * TW - 8),
         "05	End",
         "06	Display.Refusal	The trapdoor is locked.",

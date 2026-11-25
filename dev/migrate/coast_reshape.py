@@ -128,7 +128,7 @@ def main(dry=False):
                 seen.add(n)
                 q.append(n)
     sea_cells = seen
-    for g in list(wild):                                # (rivers, lakes; and the Isle's strait stays as it is)
+    for g in list(wild):                                # (rivers, lakes; and Muddlesey's strait stays as it is)
         if (g not in land and g not in sea_cells) or (g[0] < 7 * XT and g[1] < 4 * YT):
             wild.discard(g)
             keep.add(g)

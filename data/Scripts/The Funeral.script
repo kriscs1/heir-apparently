@@ -18,7 +18,7 @@
 17	Wait	0.4
 18	Display.Conversation	Edwin	I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	Lead the way.	19
 19	Remove.Entity	64,152	Edwin
-20	Display.Message	Cyan	You walk home together across the Isle. Edwin starts to say something legal now and then, and thinks better of it.	-
+20	Display.Message	Cyan	You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	-
 21	Teleport	224,312	4,0,0
 22	Wait	1
 23	Add.Entity	288,312	Edwin	NPC	Attitude=Good Stand=1 Face=W

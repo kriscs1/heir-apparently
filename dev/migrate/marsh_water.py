@@ -1,8 +1,8 @@
 """The marsh's water is marsh water (the owner's wish: a greeny brown, not the sea's blue). Both marshes, the Mirefen and
-the one round Saltmarsh, had their pools and streams in the sea's own tile, Water001; build_marsh.py's Bog001 is now
+the one round Brinebottom, had their pools and streams in the sea's own tile, Water001; build_marsh.py's Bog001 is now
 laid where it belongs:
 
-  * a body of water cut off from the sea, whose shore is mostly marsh (the pools, the stream down to Saltmarsh);
+  * a body of water cut off from the sea, whose shore is mostly marsh (the pools, the stream down to Brinebottom);
   * an inlet of the sea (too narrow for the open sea, INLET tiles from one side to the other), its shore mostly marsh.
 
 The sea itself, and any lake or river in other country, stays as it is. Lily pads, reeds and what stands in the water

@@ -20,10 +20,10 @@ Grass001:Grass001+Decor(Flowers001):Grass001:Grass001:Grass001:Grass001:Grass001
 Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Flowers002):Grass001:Grass001+Decor(Tree001):Grass001+Decor(Oak_Tree001):Grass001+Decor(Tree001):Grass001+Decor(Tree002):Grass001+Decor(Tree001):Grass001+Decor(Tree001):Grass001+Decor(Tree002):Grass001:Grass001:Grass001+Decor(Tree001):Grass001:Grass001+Decor(Tree001):Grass001+Decor(Tree002):Grass001:Grass001+Decor(Oak_Tree001):Grass001:Grass001+Decor(Tree001):Grass001+Decor(Oak_Tree001)
 Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001+Decor(Tree001):Grass001+Decor(Oak_Tree001):Grass001+Decor(Tree002):Grass001+Decor(Tree001):Grass001+Decor(Tree001):Grass001+Decor(Tree002):Grass001+Decor(Tree001):Grass001:Grass001+Decor(Tree001):Grass001:Grass001+Decor(Oak_Tree001):Grass001:Grass001+Decor(Tree001):Grass001:Grass001:Grass001:Grass001+Decor(Tree001):Grass001+Decor(Tree002)
 StaticObject	Dice_Table	544	128	Id=Dice_Table_11_n1_0_01
-NPC	Barkeep	608	56	Attitude=Good Stand=1 Face=S Id=Ashford_Barkeep_330 Name=Harold
-NPC	Barmaid	672	152	Attitude=Good Zone=17,5,23,6 Pause=3-9 Id=Ashford_Barmaid_331 Name=Gilbert
+NPC	Barkeep	608	56	Attitude=Good Stand=1 Face=S Id=Puddleford_Barkeep_330 Name=Harold
+NPC	Barmaid	672	152	Attitude=Good Zone=17,5,23,6 Pause=3-9 Id=Puddleford_Barmaid_331 Name=Gilbert
 StaticObject	Sign_Pub	736	208
-StaticObject	Notice	640	226	Id=Ashford_Notice_332
+StaticObject	Notice	640	226	Id=Puddleford_Notice_332
 NPC	Rabbit	384	88	Attitude=Passive Zone=8,2,15,3/8,4,8,6/13,4,15,6/8,7,18,8 Chase=8,2,15,3/8,4,8,6/13,4,15,6/8,7,18,8
-Lock	10	7	$Standing.Ashford>=45	Locked. Whoever lives here likes it that way, and only opens it to friends of the town.
-StaticObject	Chest	320	128	Lock=0 Id=Trusted_Chest_Ashford
+Lock	10	7	$Standing.Puddleford>=45	Locked. Whoever lives here likes it that way, and only opens it to friends of the town.
+StaticObject	Chest	320	128	Lock=0 Id=Trusted_Chest_Puddleford

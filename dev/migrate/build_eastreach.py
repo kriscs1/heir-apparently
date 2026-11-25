@@ -6,11 +6,11 @@ build_travel (so its towns get waystones) and the scenery pass (so its maps get 
 `python -I "dev\\migrate\\build_world.py"` builds it. Deterministic: the same maps every time.
 
   * THE ELDERWOOD (map rows 5-6): ancient forest (the Forest001 canopy), oaks, yews, mushrooms and herbs. Bears, wolves and
-    spiders. THORNWICK, a woodland village, and the HEARTWOOD, the wood's old heart stone (north-east).
+    spiders. NETTLEWICK, a woodland village, and the HEARTWOOD, the wood's old heart stone (north-east).
   * THE BARROWDOWNS (map rows 7-8): open downs of standing stones, graves and ruins; coal and gem rocks. Skeletons and
-    bats. RAVENSGATE, a town of gravekeepers, and the BARROW of the old king (east).
+    bats. CROWGATE, a town of gravekeepers, and the BARROW of the old king (east).
   * The sea all round; THE OLD BRIDGE, planks across the strait from the Wolf Den (5,6,0) to the Elderwood's west shore.
-  * Quests: The Withering Wood (the Druid of Thornwick) and The Barrow King (the Gravekeeper of Ravensgate).
+  * Quests: The Withering Wood (the Druid of Nettlewick) and The Barrow King (the Gravekeeper of Crowgate).
   * New people and a new foe: the Druid, the Gravekeeper and the Barrow King, recoloured from the Witch, the Elder and the
     Skeleton (sprites\\Entities and their walking frames in sprites\\Walk: make_art()).
 """
@@ -26,19 +26,19 @@ GX0, GX1, GY0, GY1 = MX0 * GW, (MX1 + 1) * GW - 1, MY0 * GH, (MY1 + 1) * GH - 1
 
 # Towns: name -> (map x, map y, quest giver, Trader's rack, notice text)
 TOWNS = {
-    "Thornwick": (7, 6, "Druid", "SHOP-Thornwick",
-                  "THORNWICK\\A village of woodsfolk in the Elderwood.\\West: the old bridge to the Greyflats. South: Ravensgate."),
-    "Ravensgate": (8, 8, "Gravekeeper", "SHOP-Ravensgate",
-                   "RAVENSGATE\\The gravekeepers' town on the Barrowdowns.\\North: Thornwick. East: the old king's barrow."),
+    "Nettlewick": (7, 6, "Druid", "SHOP-Nettlewick",
+                  "NETTLEWICK\\A village of woodsfolk in the Elderwood.\\West: the old bridge to the Greyflats. South: Crowgate."),
+    "Crowgate": (8, 8, "Gravekeeper", "SHOP-Crowgate",
+                   "CROWGATE\\The gravekeepers' town on the Barrowdowns.\\North: Nettlewick. East: the old king's barrow."),
 }
-TOWN_TILE = {"Thornwick": (11, 13), "Ravensgate": (16, 7)}     # off the middle of their maps (no grid)
+TOWN_TILE = {"Nettlewick": (11, 13), "Crowgate": (16, 7)}     # off the middle of their maps (no grid)
 VILLAGES = {}               # town -> villages.build()'s layout (its houses and streets), made by build_grid
 WOLF_DEN_BRIDGE_Y = None            # the world row the bridge runs along (set from the Wolf Den by extend)
 SITES = {
     "Heartwood": (8 * GW + 14, 5 * GH + 12),            # the heart of the Elderwood (8,5,0)
     "Barrow": (9 * GW + 8, 7 * GH + 13),                # the old king's barrow (9,7,0)
 }
-ROADS = [("Bridge", "Thornwick"), ("Thornwick", "Ravensgate")]
+ROADS = [("Bridge", "Nettlewick"), ("Nettlewick", "Crowgate")]
 LAND = {"Grass001", "Sand001", "Dirt001", "Plank001", "Tall_Grass001"}
 
 
@@ -295,8 +295,8 @@ def spots(grid, busy, reach, mx, my, n, seed, avoid=()):
 
 MONSTERS = {"elder": [("Wolf", 1), ("Bear", 1), ("Giant_Spider", 1)], "downs": [("Skeleton", 2), ("Bat", 1)]}
 SETTLER_LINES = {
-    "Thornwick": "The Druid says the Heartwood is sickening. Even the bears have gone mad. It's out north-east, deep in the trees.",
-    "Ravensgate": "The old king won't stay in his barrow. The Gravekeeper wants someone brave. The barrow's east, out on the downs.",
+    "Nettlewick": "The Druid says the Heartwood is sickening. Even the bears have gone mad. It's out north-east, deep in the trees.",
+    "Crowgate": "The old king won't stay in his barrow. The Gravekeeper wants someone brave. The barrow's east, out on the downs.",
 }
 CHESTS = {
     "6,6,0": ("ElderwoodChest", [("Yew_Logs", 5), ("Super_Potion", 2), ("Gold_Coin(s)", 90)],
@@ -332,7 +332,7 @@ def populate(maps, grid, busy):
         add(W.obj, "Notice", cx + 2, cy - 2)
         m, x, y = local(cx + 2, cy - 2)
         R.S[W.notice_script_name(m, x, y)] = [("Display.Conversation", "Notice", text, "Okay", "@end"), "end:", ("End",)]
-        if town == "Thornwick":
+        if town == "Nettlewick":
             add(W.obj, "Workbench", *houses[2]["benches"][0])
             add(W.obj, "Alchemy_Table", *houses[2]["benches"][1])
         else:
@@ -346,7 +346,7 @@ def populate(maps, grid, busy):
     add(W.obj, "Notice", lx, ly)
     m, x, y = local(lx, ly)
     R.S[W.notice_script_name(m, x, y)] = [("Display.Conversation", "Notice",
-        "THE EASTREACH\\The Elderwood. Thornwick village is east.\\South of the woods: the Barrowdowns and Ravensgate."
+        "THE EASTREACH\\The Elderwood. Nettlewick village is east.\\South of the woods: the Barrowdowns and Crowgate."
         "\\Bears in the woods. Worse on the downs.", "Okay", "@end"), "end:", ("End",)]
     # the Heartwood: a standing stone in a ring of mushrooms, with yews round it
     sx, sy = SITES["Heartwood"]
@@ -404,10 +404,10 @@ def populate(maps, grid, busy):
 QUESTS = [
     ("The Withering Wood", [
         ("Giver", "Druid"), ("Attribute", "DruidQuest"),
-        ("Stage0", "Speak to the Druid in Thornwick, in the Elderwood over the old bridge east of the Greyflats."),
-        ("Stage1", "Find the Heartwood, the old heart stone of the Elderwood, north-east of Thornwick, and touch it."),
+        ("Stage0", "Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats."),
+        ("Stage1", "Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it."),
         ("Stage2", "The blight has maddened the bears: slay four of them ($BlightBears of 4), then return to the Druid."),
-        ("Stage3", "Return to the Druid in Thornwick."),
+        ("Stage3", "Return to the Druid in Nettlewick."),
         ("Done", "4")]),
     ("The Barrow King", [
         ("Giver", "Gravekeeper"), ("Attribute", "BarrowQuest"),
@@ -421,7 +421,7 @@ QUESTS = [
 
 def data():
     C.ENTITIES.update({
-        "Druid": C.good("The Druid of Thornwick, in robes the colour of moss."),
+        "Druid": C.good("The Druid of Nettlewick, in robes the colour of moss."),
         "Gravekeeper": C.good("The Gravekeeper of the Barrowdowns. He smells faintly of earth."),
         "Barrow_King": C.bad("The old king of the downs, crowned and long dead. He does not want to rest.", 90, 1.4, 8, 8,
                              90, 1.5, 1, 300, "Bones,1-1,100 Gold_Coin(s),30-60,100 Ruby,1-1,40 Silver_Bar,1-2,60"),
@@ -429,9 +429,9 @@ def data():
     C.MOVEMENT.update({"Druid": (1, 0, "0.4", "4-10"), "Gravekeeper": (1, 0, "0.4", "4-10"),
                        "Barrow_King": (2, 3, "0.4", "3-8")})
     C.NEW_SHOPS.update({
-        "SHOP-Thornwick": ("1.2", "0.7", ["Herb,10", "Empty_Vial,8", "Basic_Potion,4", "Bread,8", "Arrows,200",
+        "SHOP-Nettlewick": ("1.2", "0.7", ["Herb,10", "Empty_Vial,8", "Basic_Potion,4", "Bread,8", "Arrows,200",
                                           "Spade,2", "Oak_Logs,0", "Yew_Logs,0", "Super_Potion,0"]),
-        "SHOP-Ravensgate": ("1.2", "0.7", ["Healing_Draught,4", "Blank_Scroll,10", "Basic_Potion,4", "Meat_Pie,4",
+        "SHOP-Crowgate": ("1.2", "0.7", ["Healing_Draught,4", "Blank_Scroll,10", "Basic_Potion,4", "Meat_Pie,4",
                                            "Coal,10", "Iron_Ore,6", "Steel_Helm,0"]),
     })
     C.QUESTS.extend(QUESTS)
@@ -461,7 +461,7 @@ def scripts():
         ("Display.Message", "Yellow", "The heart stone is cold as a grave... and from the trees, a bear roars. Slay four maddened bears."),
         "end:", ("End",)]
     S["Kill Bear"] = kill_count("DruidQuest", 2, "BlightBears", 4, "Maddened bears slain for the Druid",
-                                "Four bears! Return to the Druid in Thornwick.", then=3)
+                                "Four bears! Return to the Druid in Nettlewick.", then=3)
     S["Talk to Gravekeeper"] = talk("Gravekeeper", "BarrowQuest", [
         (0, [conv("Gravekeeper", "Every night the old king walks his barrow, and his dead walk with him.\\Someone must go in and lay him to rest. His barrow is out on the downs, west of the Keep. Will you?",
                   ("I'll find the barrow.", "@g_ok"), ("Not now.", "@bye")),
@@ -495,7 +495,7 @@ def trader_scripts():
     towns = [(t, v[0], v[1], v[3]) for t, v in R.TOWNS.items()] + [(t, v[0], v[1], v[3]) for t, v in TOWNS.items()]
     lines = dict(R.SETTLER_LINES)
     lines.update(SETTLER_LINES)
-    import build_walled                     # Wardhaven: a branch for each map its Trader and Settler stand on
+    import build_walled                     # Sulkhaven: a branch for each map its Trader and Settler stand on
     for m in dict.fromkeys(build_walled.TRADER_MAPS):
         mx, my = (int(v) for v in m.split(",")[:2])
         towns.append((build_walled.TOWN, mx, my, build_walled.TOWNS[build_walled.TOWN][3]))

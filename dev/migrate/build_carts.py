@@ -1,6 +1,6 @@
 """Horses and carts that go round a city (dsengine/carts.py): the cart and its horse drawn as one, going all four ways
 (sprites\\Walk\\Horse_Cart<dir><frame>), the clip-clop of its hooves and the whistle that hails it, its Entities.ini
-section, and data\\Carts.ini's routes. Northport's and Galaith's carts stood at their stops and a carter whisked you to
+section, and data\\Carts.ini's routes. Drizzleport's and Galaith's carts stood at their stops and a carter whisked you to
 another; now each city has one that goes round them all, along its streets, and the carters, carts and horses that
 stood there are gone. A route already in Carts.ini (the owner's, or the map editor's) is left as it is.
 
@@ -23,7 +23,7 @@ W, H = 72, 60                       # (one picture for every way it faces: the h
 CARTS = os.path.join(K.ROOT, "data", "Carts.ini")
 MAPS = os.path.join(K.ROOT, "maps")
 SCRIPTS = os.path.join(K.ROOT, "data", "Scripts")
-TOWNS = {"Northport": "Northport", "Galaith": "Galaith"}     # (the cities whose stops the old carts stood at)
+TOWNS = {"Drizzleport": "Drizzleport", "Galaith": "Galaith"}     # (the cities whose stops the old carts stood at)
 # where a rider stands in it, facing each way: x, their feet, the top of the panel in front of them (Entities.ini
 # Seat.<dir>: the page draws them over the cart above that line, so the box hides their legs)
 SEATS = {1: (36, 52, 44), 2: (18, 46, 34), 4: (36, 25, 17), 8: (54, 46, 34)}

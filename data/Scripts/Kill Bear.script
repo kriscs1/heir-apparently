@@ -10,5 +10,5 @@
 09	End
 10	Update.Attribute	DruidQuest	=3
 11	Quest.Note.Done	DruidQuest	Slay four maddened bears in the Elderwood.
-12	Display.Message	Yellow	Four bears! Return to the Druid in Thornwick.
+12	Display.Message	Yellow	Four bears! Return to the Druid in Nettlewick.
 13	End

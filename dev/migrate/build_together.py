@@ -4,9 +4,9 @@
   * Config.ini [Together]: a party's size, how much tougher a boss grows for each fighter, a sellsword's hire.
   * Entities.ini Boss=1 on the bosses; [Project_Plaque] (and its picture).
   * Set down by each town's square: the foremen (Foreman_<Project>), the town criers (Town_Crier_<Town>), the bounty
-    clerk and the record keeper in Northport, a sellsword; each project's plaque and Mirefold's shardstone, shown once
+    clerk and the record keeper in Drizzleport, a sellsword; each project's plaque and Mirefold's shardstone, shown once
     their project's done (Project=<Key>).
-  * Beside Northport's two clerks, their boards: the bounty board (Read: the day's hunt) and the hall of records (Read:
+  * Beside Drizzleport's two clerks, their boards: the bounty board (Read: the day's hunt) and the hall of records (Read:
     the records), each drawn here; and the clerks' own words (Talk to Bounty_Clerk, Talk to Record_Keeper).
 
 Safe to run again (nothing is set down twice).
@@ -31,9 +31,9 @@ PROJECTS = """; The towns' projects (dsengine/together.py): anyone gives to its 
 ; Maps (x1,y1,x2,y2): FreeTravel (a shardstone there is free to come to), Restock (shops there restock twice as fast).
 ; Written by dev\\migrate\\build_together.py: edit the numbers here.
 
-[Northport_Harbour]
-Title=Northport's harbour
-Town=Northport
+[Drizzleport_Harbour]
+Title=Drizzleport's harbour
+Town=Drizzleport
 Maps=2,4,5,6
 Needs=Logs 200, Iron_Bar 40, Gold_Coin(s) 1500
 Perk=FreeTravel
@@ -58,18 +58,18 @@ BOSSES = ["Galaith_Dragon", "Dragon", "Shard_Warden", "Barrow_King", "Ashen_Prie
           "Frost_Witch", "Alpha_Wolf"]
 # (place by, kind, options, seed): set down near a square
 PEOPLE = [
-    ("Northport_Square", "Settler", "Id=Foreman_Northport_Harbour Name=Foreman_Hale", 1),
+    ("Drizzleport_Square", "Settler", "Id=Foreman_Drizzleport_Harbour Name=Foreman_Hale", 1),
     ("Galaith_Square", "Settler", "Id=Foreman_Galaith_Market Name=Foreman_Brannock", 2),
     ("Mirefold_Square", "Settler", "Id=Foreman_Mirefold_Boardwalks Name=Foreman_Tansy", 3),
-    ("Northport_Square", "Villager", "Id=Town_Crier_Northport Name=Town_Crier", 4),
-    ("Ashford_Square", "Villager", "Id=Town_Crier_Ashford Name=Town_Crier", 5),
+    ("Drizzleport_Square", "Villager", "Id=Town_Crier_Drizzleport Name=Town_Crier", 4),
+    ("Puddleford_Square", "Villager", "Id=Town_Crier_Puddleford Name=Town_Crier", 5),
     ("Galaith_Square", "Villager", "Id=Town_Crier_Galaith Name=Town_Crier", 6),
-    ("Northport_Square", "Clerk", "Id=Bounty_Clerk Name=Bounty_Clerk", 7),
-    ("Northport_Square", "Clerk", "Id=Record_Keeper Name=Keeper_of_Records", 8),
-    ("Northport_Square", "Guard", "Id=Sellsword_Northport Name=Sellsword", 9),
+    ("Drizzleport_Square", "Clerk", "Id=Bounty_Clerk Name=Bounty_Clerk", 7),
+    ("Drizzleport_Square", "Clerk", "Id=Record_Keeper Name=Keeper_of_Records", 8),
+    ("Drizzleport_Square", "Guard", "Id=Sellsword_Drizzleport Name=Sellsword", 9),
 ]
 THINGS = [   # (place by, kind, options, seed): shown once their project's done
-    ("Northport_Square", "Project_Plaque", "Id=Plaque_Northport_Harbour Project=Northport_Harbour", 11),
+    ("Drizzleport_Square", "Project_Plaque", "Id=Plaque_Drizzleport_Harbour Project=Drizzleport_Harbour", 11),
     ("Galaith_Square", "Project_Plaque", "Id=Plaque_Galaith_Market Project=Galaith_Market", 12),
     ("Mirefold_Square", "Project_Plaque", "Id=Plaque_Mirefold_Boardwalks Project=Mirefold_Boardwalks", 13),
 ]
@@ -78,7 +78,7 @@ BOARDS = [("Bounty_Clerk", "Bounty_Board", 1), ("Record_Keeper", "Records_Board"
 BOARD_INFO = {"Bounty_Board": "A bounty board, its frame scored with claw marks. A dagger pins today's notice to it.",
               "Records_Board": "The hall of records, carved in pale stone and gilded: the names that have done the most "
                                "in Brambleton."}
-# (the record keeper, as first set down, stood in the mouth of Northport's north road: across from the bounty clerk
+# (the record keeper, as first set down, stood in the mouth of Drizzleport's north road: across from the bounty clerk
 #  instead, the two boards between them; only if they're still where they were put)
 MOVES = [("4,5,0", "Record_Keeper", (96, 344), (224, 376))]
 WORDS = {
@@ -300,7 +300,7 @@ def boards():
             print("  %s moved to %d,%d on %s" % (pid, now[0], now[1], mname))
     n = 0
     for pid, board, side in BOARDS:
-        bid = "%s_Northport" % board
+        bid = "%s_Drizzleport" % board
         mname = None if BW.placed(bid) else map_of(pid)
         if mname is None:
             continue

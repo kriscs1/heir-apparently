@@ -7,8 +7,8 @@
     shallow pit, an alarm, a bucket of water, a custard pie), resting ten minutes after they spring.
   * Funnier words: what the commonest creatures and things say when examined; what ordinary townsfolk say.
   * Three odd things to find (a rubber duck, a lucky sock, a suspicious key) and three silly quests:
-    The Scarecrow's Hat (Oakhollow), Duchess Has Opinions (a talking cow, outside Ashford), and The Mayor's
-    Missing Trousers (Constable Dobbs, Ashford: three clues and a culprit).
+    The Scarecrow's Hat (Acornby), Duchess Has Opinions (a talking cow, outside Puddleford), and The Mayor's
+    Missing Trousers (Constable Dobbs, Puddleford: three clues and a culprit).
   * (In an animal's body, the animals talk to you: tricks.py ANIMAL_TALK.)
 
 Safe to run again (what's placed is placed once; texts are set again).
@@ -183,28 +183,28 @@ def art():
 
 # ================================================================== secrets
 SECRETS = [   # (town, kind, what's found: [(item, n)], the line)
-    ("Northport", "Odd_Barrel", [("Shard", 8)], "Inside the barrel, under a layer of herring: a little pouch of Shards. "
+    ("Drizzleport", "Odd_Barrel", [("Shard", 8)], "Inside the barrel, under a layer of herring: a little pouch of Shards. "
                                                 "The herring watches you take it."),
-    ("Ashford", "Hollow_Stump", [("Rubber_Duck", 1)], "Something squeaks inside the stump. A rubber duck! It looks at "
+    ("Puddleford", "Hollow_Stump", [("Rubber_Duck", 1)], "Something squeaks inside the stump. A rubber duck! It looks at "
                                                        "you as if you were the strange one."),
-    ("Oakhollow", "Hollow_Stump", [("Gold_Coin(s)", 40)], "Somebody's savings, hidden in the stump. A note: 'NOT FOR "
+    ("Acornby", "Hollow_Stump", [("Gold_Coin(s)", 40)], "Somebody's savings, hidden in the stump. A note: 'NOT FOR "
                                                           "SQUIRRELS.' You're not a squirrel. Probably fine."),
     ("Fenwick", "Wishing_Well", [("Shard", 10)], "You fish about with a bucket and bring up a handful of wishes: coins "
                                                  "gone green, and Shards. Somebody wished very hard."),
-    ("Greyford", "Loose_Cobble", [("Lucky_Sock", 1)], "Under the loose cobble: one sock. It's warm. It feels lucky. "
+    ("Dullford", "Loose_Cobble", [("Lucky_Sock", 1)], "Under the loose cobble: one sock. It's warm. It feels lucky. "
                                                        "It's definitely lucky."),
-    ("Highwatch", "Old_Statue", [("Shard", 12)], "You press the statue's loose eye. Click: a little drawer slides out "
+    ("Squintwatch", "Old_Statue", [("Shard", 12)], "You press the statue's loose eye. Click: a little drawer slides out "
                                                  "of its plinth, full of Shards."),
-    ("Frosthold", "Odd_Barrel", [("Super_Potion", 1)], "The barrel's full of snow, and buried in it, a potion someone "
+    ("Chillingham", "Odd_Barrel", [("Super_Potion", 1)], "The barrel's full of snow, and buried in it, a potion someone "
                                                        "was keeping cold."),
     ("Dunerest", "Loose_Cobble", [("Shard", 9), ("Gold_Coin(s)", 20)], "Under the hot stone, a scorpion. And under the "
                                                                        "scorpion, a purse. The scorpion lets you have "
                                                                        "it. Today."),
     ("Emberwatch", "Old_Statue", [("Suspicious_Key", 1)], "A key, wedged behind the statue's ear. It winks at you. Keys "
                                                           "shouldn't wink."),
-    ("Thornwick", "Hollow_Stump", [("Healing_Draught", 2)], "Two draughts, tucked in the stump with a note: 'In case "
+    ("Nettlewick", "Hollow_Stump", [("Healing_Draught", 2)], "Two draughts, tucked in the stump with a note: 'In case "
                                                             "of hedgehog.'"),
-    ("Ravensgate", "Wishing_Well", [("Shard", 14)], "Deep in the well, a raven's hoard: shiny things, and Shards. A "
+    ("Crowgate", "Wishing_Well", [("Shard", 14)], "Deep in the well, a raven's hoard: shiny things, and Shards. A "
                                                     "raven watches from the roof, taking notes."),
     ("Keep", "Odd_Barrel", [("Gold_Coin(s)", 50)], "The barrel's labelled TURNIPS. It is not full of turnips. It is "
                                                    "full of the Steward's 'turnip money'."),
@@ -212,11 +212,11 @@ SECRETS = [   # (town, kind, what's found: [(item, n)], the line)
                                              "Bert's hand: 'IF FOUND, NO YOU DIDN'T.'"),
     ("Wildwood", "Hollow_Stump", [("Shard", 8), ("Herb", 3)], "An owl lives in this stump. An owl with Shards. It "
                                                               "looks at you, sighs, and hands them over."),
-    ("Saltmarsh", "Wishing_Well", [("Invisibility_Potion", 1)], "You pull up a bottle you can barely see. Somebody "
+    ("Brinebottom", "Wishing_Well", [("Invisibility_Potion", 1)], "You pull up a bottle you can barely see. Somebody "
                                                                 "threw away an Invisibility Potion. Or did they?"),
     ("Galaith", "Old_Statue", [("Shard", 25)], "Behind the statue of a long-dead king, the words 'I hid it here so my "
                                                "son wouldn't find it'. He didn't."),
-    ("Wardhaven", "Loose_Cobble", [("Shard", 10)], "Under the cobble, a guard's secret stash. And a list of everyone "
+    ("Sulkhaven", "Loose_Cobble", [("Shard", 10)], "Under the cobble, a guard's secret stash. And a list of everyone "
                                                    "who owes him a drink. You're on it, somehow."),
 ]
 
@@ -248,7 +248,7 @@ MORE = [
 
 
 GONE = {   # (towns taken off the map, remove_towns.py: their secrets stayed where they were, by these)
-    "Fenwick": "Drowned_Abbey", "Highwatch": "Redrock_Manor", "Ravensgate": "Keep_Gravekeeper"}
+    "Fenwick": "Drowned_Abbey", "Squintwatch": "Redrock_Manor", "Crowgate": "Keep_Gravekeeper"}
 
 
 def all_secrets():
@@ -317,7 +317,7 @@ ROADS = ("Dirt", "Cobble", "Gravel", "Path", "Road", "Bridge", "Boardwalk", "Fla
 
 
 def dungeons():
-    """(level, how many traps) for every level under the world a foe holds (not the Isle's caves, where you learn, nor
+    """(level, how many traps) for every level under the world a foe holds (not Muddlesey's caves, where you learn, nor
     NO_TRAPS), PER_LEVEL each; and the wild camps above it (four foes or more, out of town), PER_CAMP each."""
     import re
     sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "estforlan"))
@@ -336,7 +336,7 @@ def dungeons():
             continue
         mx, my, mz = (int(v) for v in mm.groups())
         if 0 <= mx < 5 and my < 3:
-            continue                                            # (the Isle)
+            continue                                            # (Muddlesey)
         lines = open(p("maps", f), "rb").read().decode("cp1252").split("\r\n")
         n = sum(1 for ln in lines if ln.startswith("NPC\t") and len(ln.split("\t")) > 1 and
                 (ln.split("\t")[1] in foes or "Attitude=Bad" in ln))
@@ -403,8 +403,8 @@ EXAMINES = {
 for kind, (_, _, words) in SECRET_KINDS.items():
     EXAMINES[kind] = words
 
-MAN = ["Northport's a quiet place, mostly. The ferry brings folk over from the Isle, and the fish come in at dawn.",
-       "Heading inland? Ashford's east of here. Mind the woods to the south: wolves, and worse past the old mine.",
+MAN = ["Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.",
+       "Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.",
        "My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.",
        "Don't trust geese. That's all I'll say. Don't trust them.",
        "I once saw a cow look at the moon for a whole night. Changed me, that did.",
@@ -463,13 +463,13 @@ def words():
 # ================================================================== quests
 def scarecrow():
     if not placed("Philosopher_Scarecrow"):
-        mname, at = free_spot("Oakhollow_Square", 7, 12, 3)
+        mname, at = free_spot("Acornby_Square", 7, 12, 3)
         if at:
             put(mname, obj_line("StaticObject", "Talking_Scarecrow", at[0], at[1], "Id=Philosopher_Scarecrow"))
     SK.quest("The Scarecrow's Hat", "Talking_Scarecrow", "ScarecrowQuest", {
-        0: "A scarecrow outside Oakhollow is deep in thought. Out loud.",
-        1: "Find the philosophical scarecrow outside Oakhollow a hat. Any hat. He's not fussy. He says he's not fussy."},
-        2, markers={0: "Oakhollow_Square", 1: "Oakhollow_Square"}, kind="Side", requires="Passage to the Mainland")
+        0: "A scarecrow outside Acornby is deep in thought. Out loud.",
+        1: "Find the philosophical scarecrow outside Acornby a hat. Any hat. He's not fussy. He says he's not fussy."},
+        2, markers={0: "Acornby_Square", 1: "Acornby_Square"}, kind="Side", requires="Passage to the Mainland")
     SK.section(p("data", "Quests.ini"), "The Scarecrow's Hat", [("Reward.Shards", "8"), ("Reward.XP", "Homesteading 2")])
     hats = ["Chefs_Hat", "Fur_Cap", "Leather_Cap", "Bronze_Helm", "Iron_Helm"]
     rows = [("Get.Value", "ATTRIBUTE", "ScarecrowQuest", "Variable.1$"),
@@ -508,11 +508,11 @@ def scarecrow():
 
 def duchess():
     if not placed("Duchess_The_Cow"):
-        mname, at = free_spot("Ashford_Square", 9, 14, 7)
+        mname, at = free_spot("Puddleford_Square", 9, 14, 7)
         if at:
             put(mname, obj_line("NPC", "Duchess", at[0], at[1], "Stand=1 Id=Duchess_The_Cow"))
     SK.quest("Duchess Has Opinions", "Cow", "CowQuest", {
-        0: "A cow outside Ashford has something to say. Literally.",
+        0: "A cow outside Puddleford has something to say. Literally.",
         1: "Bring Duchess the cow three bunches of herbs: 'the good grass'. She has standards."}, 2,
         markers={0: "Duchess_The_Cow", 1: "Duchess_The_Cow"}, kind="Side", requires="Passage to the Mainland")
     SK.section(p("data", "Quests.ini"), "Duchess Has Opinions",
@@ -549,7 +549,7 @@ def trousers():
         if placed(pid):
             continue
         for rmin, rmax, off_road in ((3 + i * 2, 6 + i * 3, True), (3, 12, True), (2, 10, False)):
-            mname, at = free_spot("Ashford_Square", rmin, rmax, 11 + i, off_road)
+            mname, at = free_spot("Puddleford_Square", rmin, rmax, 11 + i, off_road)
             if at:
                 break
         if at is None:
@@ -560,12 +560,12 @@ def trousers():
                       "Clue_Feather": ("Goose_Feather_Clue", "Id=Clue_Feather")}[pid]
         put(mname, obj_line("NPC" if kind == "Guard" else "StaticObject", kind, at[0], at[1], opts))
     SK.quest("The Mayor's Missing Trousers", "Guard", "TrousersQuest", {
-        0: "Constable Dobbs, in Ashford's square, has a case. A very embarrassing case.",
-        1: "The Mayor's trousers are gone. Look round Ashford's square for three clues, then tell "
+        0: "Constable Dobbs, in Puddleford's square, has a case. A very embarrassing case.",
+        1: "The Mayor's trousers are gone. Look round Puddleford's square for three clues, then tell "
            "Constable Dobbs who did it.",
         2: "You've found the clues. Tell Constable Dobbs who took the Mayor's trousers."}, 3,
-        markers={0: "Constable_Dobbs", 1: "Ashford_Square", 2: "Constable_Dobbs"}, kind="Side",
-        requires="The Ashford Road")
+        markers={0: "Constable_Dobbs", 1: "Puddleford_Square", 2: "Constable_Dobbs"}, kind="Side",
+        requires="The Puddleford Road")
     SK.section(p("data", "Quests.ini"), "The Mayor's Missing Trousers",
                [("Reward.Items", "Gold_Coin(s) 50"), ("Reward.Shards", "10"), ("Reward.XP", "Defence 1")])
     SK.write_script("Talk to Constable_Dobbs", [

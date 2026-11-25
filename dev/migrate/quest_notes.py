@@ -13,15 +13,15 @@ stage text doesn't: where things are, who said what, what to bring, and the part
 
 STAGES = {
     "FerryQuest": {
-        1: ["+The milkmaid keeps the ferry's ticket book: her farm is in the north of the Isle."],
-        2: ["-The milkmaid keeps the ferry's ticket book: her farm is in the north of the Isle.",
+        1: ["+The milkmaid keeps the ferry's ticket book: her farm is in the north of Muddlesey."],
+        2: ["-The milkmaid keeps the ferry's ticket book: her farm is in the north of Muddlesey.",
             "+Collect 3 eggs from the hens' nests round the milkmaid's farm (Collect on a nest)."],
         3: ["-Collect 3 eggs from the hens' nests round the milkmaid's farm (Collect on a nest)."],
     },
     "RemedyQuest": {
         1: ["+Pick 3 Cave Mushrooms in the old iron mine.",
             "+Get 2 Spider Silk from the giant spiders in the mine depths.",
-            "+Bring them all to the Herbalist's cottage on the Ashford farmlands."],
+            "+Bring them all to the Herbalist's cottage on the Puddleford farmlands."],
     },
     "DwarfQuest": {
         1: ["+Smash four skeletons in the Deep Hollow.",
@@ -29,27 +29,27 @@ STAGES = {
             "+Then go back to Brokk."],
     },
     "RangerQuest": {
-        1: ["+Watch stone by the north road, between King Rupert's Keep and Oakhollow.",
+        1: ["+Watch stone by the north road, between King Rupert's Keep and Acornby.",
             "+Watch stone in the western woods.",
             "+Watch stone east of the river."],
-        3: ["+The spider nest is in the deep woods west of Oakhollow.",
+        3: ["+The spider nest is in the deep woods west of Acornby.",
             "+Slay five giant spiders there."],
     },
     "WolfQuest": {
         1: ["+Slay six wolves on the Greyflats."],
-        2: ["-Tell the shepherd in Greyford.",
+        2: ["-Tell the shepherd in Dullford.",
             "+The wolf den is out east on the flats.",
             "+Slay the Alpha Wolf, the great black brute leading the pack."],
         3: ["-Slay the Alpha Wolf, the great black brute leading the pack."],
     },
     "BogQuest": {
-        1: ["+Bog myrtle grows in the fens round Saltmarsh (Alchemy 5 to pick it).",
+        1: ["+Bog myrtle grows in the fens round Brinebottom (Alchemy 5 to pick it).",
             "+Bring Morwen 4 bog myrtle."],
         2: ["-Bring Morwen 4 bog myrtle."],
     },
     "BanditQuest": {
         1: ["+Bandits rob travellers on the Redrock road and in the hills: slay five."],
-        2: ["-Report to Captain Hale in Frosthold.",
+        2: ["-Report to Captain Hale in Chillingham.",
             "+The bandits' camp is somewhere in the eastern hills.",
             "+Break open their strongbox and take back the stolen goods."],
         3: ["-Break open their strongbox and take back the stolen goods."],
@@ -64,24 +64,24 @@ STAGES = {
     "ForgeQuest": {
         1: ["+Bring Brann 5 coal (mine coal rocks, Mining 5, or buy some)."],
         2: ["-Bring Brann 5 coal (mine coal rocks, Mining 5, or buy some).",
-            "+The Frost Troll is on the frozen lake east of Frosthold."],
-        3: ["-The Frost Troll is on the frozen lake east of Frosthold.",
+            "+The Frost Troll is on the frozen lake east of Chillingham."],
+        3: ["-The Frost Troll is on the frozen lake east of Chillingham.",
             "+Mithril ore needs Mining 25 and a steel pickaxe or better; smelt it at a furnace."],
     },
     "HermitQuest": {
-        1: ["+His camp is in the Isle's western woods. Oak trees grow all over the Isle."],
+        1: ["+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey."],
     },
     "DruidQuest": {
-        1: ["+The Heartwood is north-east of Thornwick, where the yews are oldest.",
+        1: ["+The Heartwood is north-east of Nettlewick, where the yews are oldest.",
             "+Touch the heart stone, then tell the Druid what you feel."],
-        2: ["-The Heartwood is north-east of Thornwick, where the yews are oldest.",
+        2: ["-The Heartwood is north-east of Nettlewick, where the yews are oldest.",
             "-Touch the heart stone, then tell the Druid what you feel.",
             "+Slay four maddened bears in the Elderwood."],
         3: ["-Slay four maddened bears in the Elderwood."],
     },
     "HobQuest": {
-        1: ["+Morwen the witch lives in Saltmarsh, in the fens on the south coast."],
-        2: ["-Morwen the witch lives in Saltmarsh, in the fens on the south coast.",
+        1: ["+Morwen the witch lives in Brinebottom, in the fens on the south coast."],
+        2: ["-Morwen the witch lives in Brinebottom, in the fens on the south coast.",
             "+The wild man roams the western woods, near the old watch stone. He attacks on sight.",
             "+Use the calming draught on him (Use, then click him)."],
         3: ["-The wild man roams the western woods, near the old watch stone. He attacks on sight.",
@@ -97,14 +97,14 @@ STAGES = {
 EVENTS = [   # (script, the step the notes follow, quest attribute, notes)
     ("Kill Cave_Troll", ("Update.Attribute", "TrollSlain", "=1"), "DwarfQuest", ["-Slay the cave troll in the Deep Hollow."]),
     ("Watch Stone 1", ("Update.Attribute", "Watch1", "=1"), "RangerQuest",
-     ["-Watch stone by the north road, between King Rupert's Keep and Oakhollow."]),
+     ["-Watch stone by the north road, between King Rupert's Keep and Acornby."]),
     ("Watch Stone 2", ("Update.Attribute", "Watch2", "=1"), "RangerQuest", ["-Watch stone in the western woods."]),
     ("Watch Stone 3", ("Update.Attribute", "Watch3", "=1"), "RangerQuest", ["-Watch stone east of the river."]),
     ("Kill Giant_Spider", "enough:", "RangerQuest",
-     ["-Slay five giant spiders there.", "+Return to Ranger Ash in Oakhollow."]),
-    ("Kill Wolf", "enough:", "WolfQuest", ["-Slay six wolves on the Greyflats.", "+Tell the shepherd in Greyford."]),
+     ["-Slay five giant spiders there.", "+Return to Ranger Ash in Acornby."]),
+    ("Kill Wolf", "enough:", "WolfQuest", ["-Slay six wolves on the Greyflats.", "+Tell the shepherd in Dullford."]),
     ("Kill Bandit", "enough:", "BanditQuest",
-     ["-Bandits rob travellers on the Redrock road and in the hills: slay five.", "+Report to Captain Hale in Frosthold."]),
+     ["-Bandits rob travellers on the Redrock road and in the hills: slay five.", "+Report to Captain Hale in Chillingham."]),
     ("Kill Scorpion", "enough:", "CaravanQuest", ["-Slay the scorpions at the wreck."]),
 ]
 

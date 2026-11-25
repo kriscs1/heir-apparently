@@ -1,4 +1,4 @@
-"""Edwin and Maren's house to the Isle's north-west corner, and the hobgoblins' camp back where it was (the owner's
+"""Edwin and Maren's house to Muddlesey's north-west corner, and the hobgoblins' camp back where it was (the owner's
 wish, after grow_isle.py: the corner for the lawyer and the doctor, not the hobgoblins).
 
   * The camp: its ground as it was before grow_isle.py moved it (git: CAMP_FROM), and its things (the fire, the chest -
@@ -8,8 +8,8 @@ wish, after grow_isle.py: the corner for the lawyer and the doctor, not the hobg
     desk, Maren's counter, their beds, the stairs): the ground floor's walls, floor and roof and its brass plate onto
     0,-2,0, and the upstairs map 2,1,1 renamed 0,-2,1 (Maren's range in it). Edwin, Maren and Noops come with it.
     Where it stood (by the chapel) is wild again. The coast west of it pushed out a little, so it isn't on the beach;
-    a path from its door to the camp's old one, which joins the Isle's roads.
-  * What names the house's place: Locks.ini (the Isle's maps), Music.ini and Ambient.ini, Dinner at Edwin's first
+    a path from its door to the camp's old one, which joins Muddlesey's roads.
+  * What names the house's place: Locks.ini (Muddlesey's maps), Music.ini and Ambient.ini, Dinner at Edwin's first
     stage and Edwin's word at the funeral (build_heir_isle.py too).
 
 Run it once (a second run finds the house moved and stops).
@@ -119,7 +119,7 @@ def coast(w):
 
 
 def path(w, door):
-    """A path from the house's door to the Isle's roads (its own step isn't one)."""
+    """A path from the house's door to Muddlesey's roads (its own step isn't one)."""
     net = {(gx, gy) for gx in range(0, 125) for gy in range(-63, 63)
            if w.cell(gx, gy) is not None and W.is_road(w.cell(gx, gy)) and abs(gx - door[0]) + abs(gy - door[1]) > 4}
     return W.join_roads(w, [(door[0], door[1] + 1)], network=net)
@@ -144,12 +144,12 @@ def words():
         t = re.sub(r"(?<![-\d,])%s(?![\d,])" % re.escape(up_old), up_new, s)
         if t != s:
             W.write(path, t)
-    pairs = [("live in the brick house by the chapel.", "live in the brick house in the Isle's north-west, by the sea."),
+    pairs = [("live in the brick house by the chapel.", "live in the brick house in Muddlesey's north-west, by the sea."),
              ("at our house, by the chapel.", "at our house, up in the north-west, by the sea.")]
     W.replace_in_files([os.path.join(DATA, "Quests.ini"), os.path.join(DATA, "Scripts", "The Funeral.script")], pairs)
     path = os.path.join(HERE, "build_heir_isle.py")
     s = open(path, encoding="utf-8").read()
-    t = s.replace('"by the chapel.",', '"in the Isle\'s north-west, by the sea.",').replace(
+    t = s.replace('"by the chapel.",', '"in Muddlesey\'s north-west, by the sea.",').replace(
         "at our house, by the chapel. ", "at our house, up in the north-west, by the sea. ")
     if t != s:
         open(path, "w", encoding="utf-8", newline="").write(t)

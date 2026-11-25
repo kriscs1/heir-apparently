@@ -1,5 +1,5 @@
-"""The signposts' words worked out again from where the towns are now (Fenwick, Highwatch and Ravensgate gone; the
-Keep and Ashford moved): each says which way the nearest four lie (no more), as build_estforlan.py's ways.signposts
+"""The signposts' words worked out again from where the towns are now (Fenwick, Squintwatch and Crowgate gone; the
+Keep and Puddleford moved): each says which way the nearest four lie (no more), as build_estforlan.py's ways.signposts
 first wrote them.
 
 Safe to run again (the words are worked out afresh each time).

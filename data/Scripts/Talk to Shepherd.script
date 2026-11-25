@@ -12,7 +12,7 @@
 11	Get.Value	ATTRIBUTE	WolvesSlain	Variable.2$
 12	>Conditional	$Variable.2>=6	19
 13	Update.Attribute	WolfQuest	=2
-14	Quest.Note.Done	WolfQuest	Tell the shepherd in Greyford.
+14	Quest.Note.Done	WolfQuest	Tell the shepherd in Dullford.
 15	Quest.Note	WolfQuest	The wolf den is out east on the flats.
 16	Quest.Note	WolfQuest	Slay the Alpha Wolf, the great black brute leading the pack.
 17	Display.Conversation	Shepherd	Six! But they'll be back while their leader lives: a great black brute with a den out east on the flats.\Kill the Alpha and the pack will scatter.	I'll find the den.	34

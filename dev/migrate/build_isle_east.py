@@ -1,10 +1,10 @@
-"""The Isle grows east: new land across 3,0,0's sea and new maps 4,0,0 and 4,1,0, and on it the cottage where a new
+"""Muddlesey grows east: new land across 3,0,0's sea and new maps 4,0,0 and 4,1,0, and on it the cottage where a new
 character wakes - a bed, a range to cook on, a table. Run it once (again: it sees it's done).
 
   python -I "dev\\migrate\\build_isle_east.py"
 
   * Land only ever replaces sea (nothing built is touched); the chapel's bench still looks out over open water,
-    and the sea still runs between the Isle and the walled town to the south-east. Its coast is rounded off
+    and the sea still runs between Muddlesey and the walled town to the south-east. Its coast is rounded off
     afterwards (smooth_coasts.py).
   * The cottage (4,0,0): timber and thatch, thin walls inside, a bed (where you wake: Config Start.*, and
     data\\NewCharacter.ini for new characters), a range (Cook), a table, a rug; a name board by its door; a path to the chapel; trees, flowers, rocks, rabbits.

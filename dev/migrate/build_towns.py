@@ -5,20 +5,20 @@ each settlement it has grown (an Id <Key>_Grown on its centre's map) and leaves 
 
   Large city    5 taverns, a bank, a main market square with four lanes off it (bread and pastries; butchers and
                 pies; fish; vegetables), a police station, a hospital, 10 streets of houses, gardens and parks, a
-                City Hall, a Town Hall, carts and horses between its parts. (Northport; its City Hall is Brambleton's
+                City Hall, a Town Hall, carts and horses between its parts. (Drizzleport; its City Hall is Brambleton's
                 Parliament until Galaith opens again.)
   Medium city   5 taverns, a bank, a market square with four small lanes, a sheriff's office and jail, a hospital,
                 10 streets of houses, a City Hall, a Town Hall. (King Rupert's Keep, with its keep and bailey;
-                the Wizards' Court, with its court and tower; Fenwick; Ravensgate.)
+                the Wizards' Court, with its court and tower; Fenwick; Crowgate.)
   Small city    2 taverns, a small bank, a market square with two small lanes (bread, pastries and fish; vegetables,
                 butchers and pies), a sheriff's office and jail, a medical office, 5 streets, a City Hall, a Town
-                Hall. (Ashford.)
+                Hall. (Puddleford.)
   Town          a tavern, a small bank, a market square with the two small lanes, a sheriff's office, a doctor's
-                office in a house, 5 streets, a Town Hall. (Highwatch, Frosthold.)
+                office in a house, 5 streets, a Town Hall. (Squintwatch, Chillingham.)
   Village       a pub, a market square, a sheriff's office, a doctor's office in a house, 5 streets, a village
-                hall. (Oakhollow, Thornwick, Emberwatch.)
-  Hamlet        a pub, 2 streets. (Wildwood and Saltmarsh, new; Greyford on the Greyflats; Dunerest.)
-A bank a town has already isn't built twice. New land: Northport's west (0,3,0 and 0,4,0) and an island east of the
+                hall. (Acornby, Nettlewick, Emberwatch.)
+  Hamlet        a pub, 2 streets. (Wildwood and Brinebottom, new; Dullford on the Greyflats; Dunerest.)
+A bank a town has already isn't built twice. New land: Drizzleport's west (0,3,0 and 0,4,0) and an island east of the
 Royal Isle for the Wizards' Court (5,4,0 and 5,5,0, over a bridge from the palace's south lawn).
 """
 import os
@@ -61,21 +61,21 @@ STYLES = {
 # key, title, its own maps (built round), the maps it grows over (streets laid through them first), its centre
 # (map, tile), size, style, a city (cobbled)?
 SETTLEMENTS = [
-    ("Northport", "Northport", ["1,3,0"], ["0,3,0", "0,4,0", "0,2,0", "1,4,0"], ("1,3,0", 16, 13), LARGE, "brick", True),
-    ("Ashford", "Ashford", ["2,3,0", "3,3,0"], ["3,4,0", "3,5,0"], ("2,3,0", 13, 11), SMALL, "brick", True),
+    ("Drizzleport", "Drizzleport", ["1,3,0"], ["0,3,0", "0,4,0", "0,2,0", "1,4,0"], ("1,3,0", 16, 13), LARGE, "brick", True),
+    ("Puddleford", "Puddleford", ["2,3,0", "3,3,0"], ["3,4,0", "3,5,0"], ("2,3,0", 13, 11), SMALL, "brick", True),
     ("Keep", "King Rupert's Keep", ["2,4,0"], ["2,5,0", "1,5,0", "2,6,0"], ("2,4,0", 13, 18), MEDIUM, "stone", True),
     ("Court", "the Wizards' Court", ["4,4,0", "4,5,0", "5,6,0"], ["5,4,0", "5,5,0"], ("5,4,0", 12, 11), MEDIUM, "wizard", True),
     ("Fenwick", "Fenwick", ["2,8,0"], ["3,8,0", "2,9,0", "1,8,0"], ("2,8,0", 13, 11), MEDIUM, "marsh", True),
-    ("Ravensgate", "Ravensgate", ["8,8,0"], ["7,8,0", "8,7,0", "7,7,0"], ("8,8,0", 13, 11), MEDIUM, "stone", True),
-    ("Highwatch", "Highwatch", ["4,8,0"], ["4,7,0"], ("4,8,0", 13, 11), TOWN, "stone", False),
-    ("Frosthold", "Frosthold", ["4,10,0"], ["4,9,0", "3,9,0"], ("4,10,0", 13, 11), TOWN, "snow", False),
-    ("Oakhollow", "Oakhollow", ["1,6,0"], ["1,7,0"], ("1,6,0", 13, 11), VILLAGE, "wood", False),
-    ("Thornwick", "Thornwick", ["7,6,0"], ["8,6,0"], ("7,6,0", 13, 11), VILLAGE, "wood", False),
+    ("Crowgate", "Crowgate", ["8,8,0"], ["7,8,0", "8,7,0", "7,7,0"], ("8,8,0", 13, 11), MEDIUM, "stone", True),
+    ("Squintwatch", "Squintwatch", ["4,8,0"], ["4,7,0"], ("4,8,0", 13, 11), TOWN, "stone", False),
+    ("Chillingham", "Chillingham", ["4,10,0"], ["4,9,0", "3,9,0"], ("4,10,0", 13, 11), TOWN, "snow", False),
+    ("Acornby", "Acornby", ["1,6,0"], ["1,7,0"], ("1,6,0", 13, 11), VILLAGE, "wood", False),
+    ("Nettlewick", "Nettlewick", ["7,6,0"], ["8,6,0"], ("7,6,0", 13, 11), VILLAGE, "wood", False),
     ("Emberwatch", "Emberwatch", ["7,4,0"], ["8,4,0"], ("7,4,0", 13, 11), VILLAGE, "stone", False),
-    ("Greyford", "Greyford", ["3,6,0"], [], ("3,6,0", 13, 11), HAMLET, "stone", False),
+    ("Dullford", "Dullford", ["3,6,0"], [], ("3,6,0", 13, 11), HAMLET, "stone", False),
     ("Dunerest", "Dunerest", ["1,10,0"], [], ("1,10,0", 13, 11), HAMLET, "desert", False),
     ("Wildwood", "Wildwood", [], ["0,6,0"], ("0,6,0", 13, 11), HAMLET, "wood", False),
-    ("Saltmarsh", "Saltmarsh", [], ["0,8,0"], ("0,8,0", 13, 11), HAMLET, "marsh", False),
+    ("Brinebottom", "Brinebottom", [], ["0,8,0"], ("0,8,0", 13, 11), HAMLET, "marsh", False),
 ]
 
 
@@ -189,7 +189,7 @@ def data():
 
 # ================================================================== new land
 def land_west_of_southport():
-    """0,3,0 and 0,4,0: Northport's west, on the coast (water along the west and the north, as the maps round)."""
+    """0,3,0 and 0,4,0: Drizzleport's west, on the coast (water along the west and the north, as the maps round)."""
     for name in ("0,3,0", "0,4,0"):
         if K.map_exists(name):
             continue
@@ -209,7 +209,7 @@ def land_west_of_southport():
                     t = "Grass001"
                 m.put(x, y, t, {})
         m.save()
-        print("Made maps\\%s.map: Northport's west" % name)
+        print("Made maps\\%s.map: Drizzleport's west" % name)
     if Map("0,2,0").tile(12, 15) == "Water001":                # (and the sea north of them, land now too)
         m = Map("0,2,0")
         for y in range(1, YT + 1):
@@ -224,7 +224,7 @@ def land_west_of_southport():
         n3.save()
     sp = Map("1,3,0")
     changed = False
-    for y in range(9, YT + 1):                               # (Northport's west shore meets the new land)
+    for y in range(9, YT + 1):                               # (Drizzleport's west shore meets the new land)
         for x in range(1, 5):
             t, over = sp.parts(x, y)
             if (t.startswith(("Water", "Sand_Water")) or t == "Sand001") and not over:
@@ -274,9 +274,9 @@ def renames():
     K.drop_label("Places", "King's Castle")
     K.place_label("Towns", "Wizards' Court", "4,4,0 13 3")
     K.place_label("Towns", "King Rupert's Keep", "2,4,0 13 8")
-    K.place_label("Towns", "Ashford", "Waystone_Ashford")
-    K.place_label("Towns", "Northport", "Northport_Market_Square")
-    for key in ("Wildwood", "Saltmarsh"):
+    K.place_label("Towns", "Puddleford", "Waystone_Puddleford")
+    K.place_label("Towns", "Drizzleport", "Drizzleport_Market_Square")
+    for key in ("Wildwood", "Brinebottom"):
         K.place_label("Towns", key, "%s_Grown" % key)
 
 
@@ -314,20 +314,20 @@ def main():
 
 
 def southport_carts():
-    """Northport's carts and horses between its quarters (the city grew before the carts did: added to it as it is)."""
+    """Drizzleport's carts and horses between its quarters (the city grew before the carts did: added to it as it is)."""
     names = ["1,3,0", "0,3,0", "0,4,0", "0,2,0", "1,4,0"]
-    if K.has_id(Map(names[0]), "Northport_Cart_Stop_1"):
+    if K.has_id(Map(names[0]), "Drizzleport_Cart_Stop_1"):
         return
     g = T.Ground(names)
     def cell(name, x, y):
         mx, my = g.mxy(name)
         return mx * XT + x - 1, my * YT + y - 1
-    town = T.Town("Northport", "Northport", g, cell("1,3,0", 16, 13), STYLES["brick"], True, seed=77)
+    town = T.Town("Drizzleport", "Drizzleport", g, cell("1,3,0", 16, 13), STYLES["brick"], True, seed=77)
     stops = T.cart_stops(town, [("the market", cell("1,3,0", 16, 13)), ("the west quarter", cell("0,4,0", 13, 8)),
                                 ("the north quarter", cell("0,2,0", 13, 14))])
     town.write()
     g.save()
-    print("Northport: %d cart stops%s" % (len(stops), ("; no room for: " + ", ".join(town.missed)) if town.missed
+    print("Drizzleport: %d cart stops%s" % (len(stops), ("; no room for: " + ", ".join(town.missed)) if town.missed
                                           else ""))
 
 

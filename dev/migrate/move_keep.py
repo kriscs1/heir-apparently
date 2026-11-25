@@ -1,4 +1,4 @@
-"""King Rupert's Keep moved south to where Ravensgate stood (the owner's wish; remove_towns.py took Ravensgate away
+"""King Rupert's Keep moved south to where Crowgate stood (the owner's wish; remove_towns.py took Crowgate away
 first). Five maps south, exactly: every cell, thing, roof, upstairs and cellar of it keeps its place on its map, and
 only the maps' names change (25,13,0 is 25,18,0 now), so its people's zones, its stair and its scripts hold.
 
@@ -6,9 +6,9 @@ only the maps' names change (25,13,0 is 25,18,0 now), so its people's zones, its
     in it; the wild ground under it is the downs' own. The river it stood above stays where it runs.
   * Stays where it was: the old iron mine in the hills (the Steward's Hunt) and the cinder cache's chest; the road
     north to Emberwatch, joined to the Keep again, over the river's bridge. The ground the Keep stood on is wild again.
-  * Its harbour: Ravensgate's old jetty, which reaches the sea (the Keep's own pier would stand on dry land now): the
+  * Its harbour: Crowgate's old jetty, which reaches the sea (the Keep's own pier would stand on dry land now): the
     harbour master and Keep_Port go there.
-  * Ravensgate's graves and its Gravekeeper (The Barrow King) laid out again in a graveyard of their own, west of the
+  * Crowgate's graves and its Gravekeeper (The Barrow King) laid out again in a graveyard of their own, west of the
     Keep; Captain Rook on his shore below it, as he was.
   * Every name of a moved map, in the scripts, Ambient.ini, the builders and the tests.
 
@@ -124,7 +124,7 @@ def move_levels():
 
 
 def graveyard(w, keep_cells, keeper):
-    """Ravensgate's graves in rows west of the Keep (a gravel path between them), and the Gravekeeper among them."""
+    """Crowgate's graves in rows west of the Keep (a gravel path between them), and the Gravekeeper among them."""
     graves = []
     for pid in GRAVES:
         m, c = w.find_id(pid)
@@ -175,7 +175,7 @@ def graveyard(w, keep_cells, keeper):
 
 
 def harbour(w):
-    """The Keep's harbour master and Keep_Port on Ravensgate's old jetty."""
+    """The Keep's harbour master and Keep_Port on Crowgate's old jetty."""
     planks = [(x, y) for x in range(686, 702) for y in range(360, 374) if w.tile(x, y) in ("Boardwalk001", "Plank001")]
     if not planks:
         print("  !! no jetty")

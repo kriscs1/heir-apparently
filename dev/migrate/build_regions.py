@@ -7,11 +7,11 @@ How the maps are made
   * Every tile comes from functions of its WORLD tile (gx = map x * 25 + tile x, gy = map y * 21 + tile y), so the maps
     join up at every seam. Smooth value noise (fbm) warps the borders between the six lands:
         north  (maps y 5-6):   the Wildwood (x 0-2)       the Greyflats (x 3-5)
-        middle (maps y 7-8):   the Saltmarsh (x 0-2)      the Redrock hills (x 3-5)
+        middle (maps y 7-8):   the Brinebottom (x 0-2)      the Redrock hills (x 3-5)
         south  (maps y 9-10):  the Sunscar Desert (x 0-2) Frostpeak (x 3-5)
   * The sea all round (sand or ice on the shore), except the north edge of maps x 1-3, which meets the Southlands'
     forest (and the road from Tyron's Keep, 2,4,0, opened here).
-  * A river from the Wildwood through the Saltmarsh to the west coast.
+  * A river from the Wildwood through the Brinebottom to the west coast.
   * TOWNS: four houses round a square (walls, plank floors, a door, a roof), a quest giver, a Trader, Settlers, a notice.
   * ROADS between the towns (winding, 4-connected so they can always be walked, bridges over water, cleared verges), and
     footpaths out to the quest SITES.
@@ -31,32 +31,32 @@ GX1, GY0, GY1 = (MX1 + 1) * GW - 1, MY0 * GH, (MY1 + 1) * GH - 1
 
 # Towns: name -> (map x, map y, quest giver, its quest attribute, Trader's rack, notice text)
 TOWNS = {
-    "Oakhollow": (1, 6, "Ranger", "SHOP-Oakhollow",
-                  "OAKHOLLOW\\A woodcutters' village in the Wildwood.\\North: Tyron's Keep. East: Greyford. South: Fenwick."),
-    "Greyford": (3, 6, "Shepherd", "SHOP-Greyford",
-                  "GREYFORD\\Sheep, wind and wolves on the Greyflats.\\West: Oakhollow. South: Highwatch."),
+    "Acornby": (1, 6, "Ranger", "SHOP-Acornby",
+                  "ACORNBY\\A woodcutters' village in the Wildwood.\\North: Tyron's Keep. East: Dullford. South: Fenwick."),
+    "Dullford": (3, 6, "Shepherd", "SHOP-Dullford",
+                  "DULLFORD\\Sheep, wind and wolves on the Greyflats.\\West: Acornby. South: Squintwatch."),
     "Fenwick": (2, 8, "Witch", "SHOP-Fenwick",
-                "FENWICK\\On stilts above the Saltmarsh. Mind the bog lights.\\North: Oakhollow. East: Highwatch. South: Dunerest."),
-    "Highwatch": (4, 8, "Captain", "SHOP-Highwatch",
-                  "HIGHWATCH\\The hill fort on the Redrock road. Bank inside.\\North: Greyford. West: Fenwick. South: Frosthold."),
+                "FENWICK\\On stilts above the Brinebottom. Mind the bog lights.\\North: Acornby. East: Squintwatch. South: Dunerest."),
+    "Squintwatch": (4, 8, "Captain", "SHOP-Squintwatch",
+                  "SQUINTWATCH\\The hill fort on the Redrock road. Bank inside.\\North: Dullford. West: Fenwick. South: Chillingham."),
     "Dunerest": (1, 10, "Merchant", "SHOP-Dunerest",
-                 "DUNEREST\\The last well before the Sunscar Desert.\\North: Fenwick. East: Frosthold."),
-    "Frosthold": (4, 10, "Forgemaster", "SHOP-Frosthold",
-                  "FROSTHOLD\\A forge town under Frostpeak.\\North: Highwatch. West: Dunerest."),
+                 "DUNEREST\\The last well before the Sunscar Desert.\\North: Fenwick. East: Chillingham."),
+    "Chillingham": (4, 10, "Forgemaster", "SHOP-Chillingham",
+                  "CHILLINGHAM\\A forge town under Frostpeak.\\North: Squintwatch. West: Dunerest."),
 }
 TOWN_TILE = (13, 11)        # the square's centre tile in each town's map (1-based), unless TOWN_TILE_AT says
 # Each town somewhere different in its map, so no two line up; the southern towns sit back from the coast
-TOWN_TILE_AT = {"Oakhollow": (10, 12), "Greyford": (16, 9), "Fenwick": (7, 9), "Highwatch": (11, 10),
-                "Dunerest": (12, 6), "Frosthold": (16, 9)}
+TOWN_TILE_AT = {"Acornby": (10, 12), "Dullford": (16, 9), "Fenwick": (7, 9), "Squintwatch": (11, 10),
+                "Dunerest": (12, 6), "Chillingham": (16, 9)}
 VILLAGES = {}               # town -> villages.build()'s layout (its houses and streets), made by build_grid
 HOUSE_GROUND = {"Grass001", "Sand001", "Snow001", "Marsh001", "Weed001", "Tall_Grass001", "Plank001"}   # (Fenwick: on stilts)
 
 
 def town_tile(name):
     return TOWN_TILE_AT.get(name, TOWN_TILE)
-ROADS = [("Keep", "Oakhollow"), ("Keep", "Greyford"), ("Oakhollow", "Greyford"), ("Oakhollow", "Fenwick"),
-         ("Greyford", "Highwatch"), ("Fenwick", "Highwatch"), ("Fenwick", "Dunerest"), ("Highwatch", "Frosthold"),
-         ("Dunerest", "Frosthold")]
+ROADS = [("Keep", "Acornby"), ("Keep", "Dullford"), ("Acornby", "Dullford"), ("Acornby", "Fenwick"),
+         ("Dullford", "Squintwatch"), ("Fenwick", "Squintwatch"), ("Fenwick", "Dunerest"), ("Squintwatch", "Chillingham"),
+         ("Dunerest", "Chillingham")]
 KEEP_GATE = (2 * GW + 12, GY0)          # world tile where the road from Tyron's Keep comes in (column 13 of 2,5,0)
 
 # Quest sites: name -> (world x, world y, the road point its footpath joins)
@@ -350,11 +350,11 @@ def build_grid():
     return grid, roofs, busy
 
 
-# Diagonal shore pieces, as on the Isle: a sea cell in the corner of a step in the coast (land on two sides that meet,
+# Diagonal shore pieces, as on Muddlesey: a sea cell in the corner of a step in the coast (land on two sides that meet,
 # and on the corner between them; sea on the other two) becomes the piece with land in that corner. The grass pieces
 # are Water002-009; region_tiles.py shore() draws them, and the same ones on sand and snow, to join the edge blending.
 SHORE_CORNER = {("N", "E"): 2, ("N", "W"): 5, ("S", "W"): 6, ("S", "E"): 8}
-# The small pieces (land in only a little of the corner) where the coast steps two tiles at once, as the Isle has them:
+# The small pieces (land in only a little of the corner) where the coast steps two tiles at once, as Muddlesey has them:
 # the big piece for a 1:1 slope, the small one at the top of a 2:1 step
 SHORE_SMALL = {("N", "E"): 3, ("N", "W"): 4, ("S", "W"): 7, ("S", "E"): 9}
 SHORE_SET = {"Grass001": "Water%03d", "Sand001": "Sand_Water%03d", "Snow001": "Snow_Water%03d"}
@@ -470,12 +470,12 @@ MONSTERS = {   # land -> list of (BadNPC name, how many per map)
     "snow": [("Snow_Wolf", 2)],
 }
 SETTLER_LINES = {   # gossip in each town: quest hints
-    "Oakhollow": "Ranger Ash keeps the old watch stones. Something's been nesting in the deep woods to the west...",
-    "Greyford": "The wolves have been bold this year. The shepherd says there's a den out east, and a great black brute leading them.",
+    "Acornby": "Ranger Ash keeps the old watch stones. Something's been nesting in the deep woods to the west...",
+    "Dullford": "The wolves have been bold this year. The shepherd says there's a den out east, and a great black brute leading them.",
     "Fenwick": "Old Morwen brews by the bog. Elder Pike's been poorly; maybe she can help.",
-    "Highwatch": "Bandits on the Redrock road again. Captain Hale wants them gone. Their camp's somewhere in the eastern hills.",
+    "Squintwatch": "Bandits on the Redrock road again. Captain Hale wants them gone. Their camp's somewhere in the eastern hills.",
     "Dunerest": "Qadir's caravan never arrived. Lost in the Sunscar, west of here, with the scorpions.",
-    "Frosthold": "Brann's forge has gone cold. Something huge broke the ice on the lake to the east.",
+    "Chillingham": "Brann's forge has gone cold. Something huge broke the ice on the lake to the east.",
 }
 
 
@@ -533,21 +533,21 @@ def populate(maps, grid, busy):
         if town == "Fenwick":
             add_npc("GoodNPC", "Elder", *houses[2]["inside"])
         add_npc("GoodNPC", "Banker", *houses[0]["inside"])              # a bank in every town
-        if town == "Highwatch":                                          # on the south street
+        if town == "Squintwatch":                                          # on the south street
             street = VILLAGES[town]["streets"]["S"]
             gx, gy = street[len(street) // 2]
             _, lx, ly = local(gx, gy)
             add_npc("GoodNPC", "Guard", gx, gy, "Zone=%d,%d,%d,%d" % (lx - 1, ly - 2, lx + 1, ly + 2))
-        if town == "Frosthold":                                          # the smithy
+        if town == "Chillingham":                                          # the smithy
             add(W.obj, "Anvil", *houses[2]["benches"][0])
             add(W.obj, "Furnace", *houses[2]["benches"][1])
-        if town == "Oakhollow":
+        if town == "Acornby":
             add(W.obj, "Fire", cx - 4, cy + 1)
     # the notice where the road from Tyron's Keep comes in
     add(W.obj, "Notice", KEEP_GATE[0] + 2, KEEP_GATE[1] + 4)
     m, x, y = local(KEEP_GATE[0] + 2, KEEP_GATE[1] + 4)
     S[W.notice_script_name(m, x, y)] = [("Display.Conversation", "Notice",
-        "THE WILDLANDS\\Beyond the King's woods: Oakhollow (west) and Greyford (east), and further south the Saltmarsh, "
+        "THE WILDLANDS\\Beyond the King's woods: Acornby (west) and Dullford (east), and further south the Brinebottom, "
         "the Redrock hills, the Sunscar Desert and Frostpeak.\\Travellers, beware: wolves and worse.", "Okay", "@end"),
         "end:", ("End",)]
 
@@ -672,7 +672,7 @@ def data():
         "Ranger": C.good("Ranger Ash, keeper of the Wildwood's watch stones."),
         "Shepherd": C.good("A weather-beaten shepherd. His sheep are fewer than they were."),
         "Witch": C.good("Old Morwen, the bog witch. Her cottage smells of smoke and herbs."),
-        "Elder": C.good("Elder Pike of Saltmarsh. He looks pale and tired."),
+        "Elder": C.good("Elder Pike of Brinebottom. He looks pale and tired."),
         "Captain": C.good("Captain Hale of the Redrock road, in battered armour."),
         "Merchant": C.good("Qadir the merchant. His caravan is late."),
         "Forgemaster": C.good("Brann the forgemaster, staring at his cold forge."),
@@ -693,17 +693,17 @@ def data():
         "Bandit": (3, 5, "0.6", "2-5"),
     })
     C.NEW_SHOPS.update({
-        "SHOP-Oakhollow": ("1.2", "0.7", ["Oak_Bow,3", "Yew_Bow,1", "Arrows,500", "Bronze_Axe,3", "Axe,3", "Steel_Axe,1", "Tinderbox,3", "Fishing_Rod,2", "Bait,40",
+        "SHOP-Acornby": ("1.2", "0.7", ["Oak_Bow,3", "Yew_Bow,1", "Arrows,500", "Bronze_Axe,3", "Axe,3", "Steel_Axe,1", "Tinderbox,3", "Fishing_Rod,2", "Bait,40",
                                           "Bucket,3", "Logs,10", "Oak_Logs,0", "Meat_Pie,4"]),
-        "SHOP-Greyford": ("1.2", "0.7", ["Meat_Pie,5", "Stew,3", "Cooked_Herring,6", "Wool,10", "Leather,5", "Leather_Body,2",
+        "SHOP-Dullford": ("1.2", "0.7", ["Meat_Pie,5", "Stew,3", "Cooked_Herring,6", "Wool,10", "Leather,5", "Leather_Body,2",
                                           "Leather_Boots,2", "Shears,2", "Raw_Meat,0"]),
         "SHOP-Fenwick": ("1.2", "0.7", ["Empty_Vial,10", "Herb,8", "Basic_Potion,5", "Antidote,3", "Owl_Potion,2", "Defence_Potion,1",
                                         "Bog_Myrtle,0", "Fishing_Rod,2", "Bait,40"]),
-        "SHOP-Highwatch": ("1.25", "0.65", ["Steel_Sword,2", "Steel_Shield,2", "Steel_Helm,2", "Steel_Platelegs,1",
+        "SHOP-Squintwatch": ("1.25", "0.65", ["Steel_Sword,2", "Steel_Shield,2", "Steel_Helm,2", "Steel_Platelegs,1",
                                             "Steel_Platebody,1", "Iron_Sword,3", "Leather_Cap,3", "Healing_Draught,5"]),
         "SHOP-Dunerest": ("1.2", "0.7", ["Bucket_of_Water,5", "Healing_Draught,4", "Teleport_Scroll,3", "Fire_Bolt_Scroll,6",
                                          "Sapphire,1", "Ruby,1", "Gold_Bar,0"]),
-        "SHOP-Frosthold": ("1.25", "0.7", ["Coal,20", "Steel_Pickaxe,2", "Mithril_Pickaxe,0", "Mithril_Bar,1", "Mithril_Helm,0",
+        "SHOP-Chillingham": ("1.25", "0.7", ["Coal,20", "Steel_Pickaxe,2", "Mithril_Pickaxe,0", "Mithril_Bar,1", "Mithril_Helm,0",
                                            "Mithril_Shield,0", "Stew,4", "Mithril_Ore,0"]),
     })
     shores = " ".join("%s_Water%03d" % (t, n) for t in ("Sand", "Snow") for n in range(2, 10))
@@ -712,38 +712,38 @@ def data():
             g["Source"] += " " + shores
     C.CAVE_MAPS.append(CAVE)
     C.GATHERING.append(("Bog myrtle", dict(Gives="Bog_Myrtle", Source="Bog_Myrtle001", Verb="Pick", Tool="", Skill="Alchemy",
-                                           Level="5", XP="0.15", Where="Bog myrtle bushes in the Saltmarsh")))
+                                           Level="5", XP="0.15", Where="Bog myrtle bushes in the Brinebottom")))
     C.QUESTS.extend(QUESTS)
 
 
 QUESTS = [
     ("The Wildwood Watch", [
         ("Giver", "Ranger"), ("Attribute", "RangerQuest"),
-        ("Stage0", "Speak to Ranger Ash in Oakhollow, in the Wildwood south of Tyron's Keep."),
+        ("Stage0", "Speak to Ranger Ash in Acornby, in the Wildwood south of Tyron's Keep."),
         ("Stage1", "Visit the three old watch stones of the Wildwood ($WatchStones of 3): one by the north road, one in the western woods and one by the river."),
-        ("Stage2", "Report to Ranger Ash in Oakhollow."),
-        ("Stage3", "Clear the spider nest in the deep woods west of Oakhollow: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash."),
+        ("Stage2", "Report to Ranger Ash in Acornby."),
+        ("Stage3", "Clear the spider nest in the deep woods west of Acornby: slay five giant spiders ($WildSpidersSlain of 5), then return to Ranger Ash."),
         ("Done", "4")]),
     ("Wolves of the Greyflats", [
         ("Giver", "Shepherd"), ("Attribute", "WolfQuest"),
-        ("Stage0", "Speak to the shepherd in Greyford, on the Greyflats."),
+        ("Stage0", "Speak to the shepherd in Dullford, on the Greyflats."),
         ("Stage1", "Thin out the Greyflats' wolves: slay six wolves ($WolvesSlain of 6), then tell the shepherd."),
         ("Stage2", "Find the wolf den out east on the flats and slay the great Alpha Wolf."),
-        ("Stage3", "Return to the shepherd in Greyford."),
+        ("Stage3", "Return to the shepherd in Dullford."),
         ("Done", "4")]),
     ("Bog Lights", [
         ("Giver", "Witch"), ("Attribute", "BogQuest"),
-        ("Stage0", "Speak to Old Morwen the witch in Saltmarsh, in the fens."),
+        ("Stage0", "Speak to Old Morwen the witch in Brinebottom, in the fens."),
         ("Stage1", "Gather 4 bog myrtle in the fens (Alchemy 5) and bring them to Morwen."),
-        ("Stage2", "Take Morwen's brew to Elder Pike in Saltmarsh."),
+        ("Stage2", "Take Morwen's brew to Elder Pike in Brinebottom."),
         ("Stage3", "Tell Morwen that the Elder has drunk her brew."),
         ("Done", "4")]),
     ("Bandits on the Road", [
         ("Giver", "Captain"), ("Attribute", "BanditQuest"),
-        ("Stage0", "Speak to Captain Hale in Frosthold, on the Redrock road."),
+        ("Stage0", "Speak to Captain Hale in Chillingham, on the Redrock road."),
         ("Stage1", "Slay five bandits ($BanditsSlain of 5) on the roads and hills, then report to Captain Hale."),
         ("Stage2", "Find the bandits' camp in the eastern hills and take back the stolen goods from their strongbox."),
-        ("Stage3", "Bring the stolen goods to Captain Hale in Frosthold."),
+        ("Stage3", "Bring the stolen goods to Captain Hale in Chillingham."),
         ("Done", "4")]),
     ("The Lost Caravan", [
         ("Giver", "Merchant"), ("Attribute", "CaravanQuest"),
@@ -753,9 +753,9 @@ QUESTS = [
         ("Done", "3")]),
     ("The Frozen Forge", [
         ("Giver", "Forgemaster"), ("Attribute", "ForgeQuest"),
-        ("Stage0", "Speak to Brann the forgemaster in Frosthold, under Frostpeak."),
+        ("Stage0", "Speak to Brann the forgemaster in Chillingham, under Frostpeak."),
         ("Stage1", "Bring Brann 5 coal to light his forge."),
-        ("Stage2", "Slay the Frost Troll on the frozen lake east of Frosthold, which smashed Brann's waterwheel."),
+        ("Stage2", "Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel."),
         ("Stage3", "Bring Brann 2 mithril bars (smelt mithril ore at a furnace)."),
         ("Done", "4")]),
 ]
@@ -841,7 +841,7 @@ def scripts():
             ("Display.Message", "Yellow", "You touch the old watch stone. Watch stones visited: $Variable.3 of 3."),
             "end:", ("End",)]
     S["Kill Giant_Spider"] = kill_count("RangerQuest", 3, "WildSpidersSlain", 5, "Giant spiders slain for Ranger Ash",
-                                        "Five spiders! Return to Ranger Ash in Oakhollow.")
+                                        "Five spiders! Return to Ranger Ash in Acornby.")
 
     # ----- Wolves of the Greyflats
     S["Talk to Shepherd"] = talk("Shepherd", "WolfQuest", [
@@ -859,12 +859,12 @@ def scripts():
              conv("Shepherd", "The Alpha's dead? Then my flock is safe. Take this shield; it was my father's. And the gold, all I've saved.", ("Thank you!", "@w_done")),
              "w_done:", ("Display.Message", "Yellow", "Quest complete: Wolves of the Greyflats! You receive 150 gold, a steel shield and Defence experience.")]),
     ], "Not a wolf howl in a week. Bless you.")
-    S["Kill Wolf"] = kill_count("WolfQuest", 1, "WolvesSlain", 6, "Wolves slain for the shepherd", "Six wolves! Tell the shepherd in Greyford.")
+    S["Kill Wolf"] = kill_count("WolfQuest", 1, "WolvesSlain", 6, "Wolves slain for the shepherd", "Six wolves! Tell the shepherd in Dullford.")
     S["Kill Alpha_Wolf"] = ["// The Alpha Wolf dies (Wolves of the Greyflats). Generated by build_regions.py",
                             ("Get.Value", "ATTRIBUTE", "WolfQuest", "Variable.1$"),
                             (">Conditional", "$Variable.1=2", "@end"),
                             ("Update.Attribute", "WolfQuest", "=3"),
-                            ("Display.Message", "Yellow", "The Alpha Wolf is dead! Return to the shepherd in Greyford."),
+                            ("Display.Message", "Yellow", "The Alpha Wolf is dead! Return to the shepherd in Dullford."),
                             "end:", ("End",)]
     S["Wolf Den"] = ["// The way into the wolf den. Generated by build_regions.py",
                      ("Get.Value", "ATTRIBUTE", "WolfQuest", "Variable.1$"),
@@ -900,7 +900,7 @@ def scripts():
         ("End",),
         "nobrew:", conv("Elder", "*cough* Morwen said she'd send something... have you got it?", ("Not yet.", "@bye")),
         ("End",),
-        "other:", conv("Elder", "Welcome to Saltmarsh, traveller. Keep to the dry ground.", ("Thanks.", "@bye")),
+        "other:", conv("Elder", "Welcome to Brinebottom, traveller. Keep to the dry ground.", ("Thanks.", "@bye")),
         "bye:", ("End",)]
     S["Pick Bog_Myrtle"] = C.pick_script("bog myrtle", "Bog_Myrtle", "Bog_Myrtle002", 60, "Alchemy", 5, "0.15", 60,
                                          "You pick some bog myrtle...", "...its leaves smell of resin.")
@@ -923,8 +923,8 @@ def scripts():
              conv("Captain", "The town's goods! You've done the Redrock road a great service. Take this armour, and the reward.", ("Thank you!", "@c_done")),
              "c_done:", ("Display.Message", "Yellow", "Quest complete: Bandits on the Road! You receive 200 gold, a steel platebody and Attack experience."),
              ("End",), "c_nogoods:", conv("Captain", "Where are the goods? Did you lose them?", ("I'll get them.", "@bye"))]),
-    ], "The road is safe again. Frosthold salutes you.")
-    S["Kill Bandit"] = kill_count("BanditQuest", 1, "BanditsSlain", 5, "Bandits slain for Captain Hale", "Five bandits! Report to Captain Hale in Frosthold.")
+    ], "The road is safe again. Chillingham salutes you.")
+    S["Kill Bandit"] = kill_count("BanditQuest", 1, "BanditsSlain", 5, "Bandits slain for Captain Hale", "Five bandits! Report to Captain Hale in Chillingham.")
     S["Open Strongbox"] = [
         "// The bandits' strongbox (Bandits on the Road). Generated by build_regions.py",
         (">Distance.From.Clicked.Entity", "48", "@far"),
@@ -1086,12 +1086,12 @@ def upper_maps(houses, gw, gh):
 
 
 GRID, BUSY = {}, set()     # the Wildlands' world grid and its busy cells, once build_grid has made them
-LOCKED_TOWN = "Oakhollow"
+LOCKED_TOWN = "Acornby"
 LOCKED = {}         # the locked house: map, door, window (1-based tiles), the window's tile, the chest (map, x, y)
 
 
 def locked_house(grid):
-    """Old Hob's house in Oakhollow: the door is locked for good, but one window's shutter hangs loose and you can
+    """Old Hob's house in Acornby: the door is locked for good, but one window's shutter hangs loose and you can
     climb in. Inside (upstairs if it has an upper floor): his chest."""
     import villages
     houses = VILLAGES[LOCKED_TOWN]["houses"]

@@ -138,7 +138,7 @@ def main():
             print("The parts are lifted already (dev\\migrate\\world_parts): nothing to do.")
         return
     rows, _ = read_map("1,4,0")
-    if "Ashford_Iron_Mine" not in open(os.path.join(ROOT, "maps", "1,4,0.map"), encoding="cp1252").read():
+    if "Puddleford_Iron_Mine" not in open(os.path.join(ROOT, "maps", "1,4,0.map"), encoding="cp1252").read():
         sys.exit("The old mainland isn't there to lift from (has build_estforlan.py rebuilt it?).")
     os.makedirs(os.path.join(OUT, "levels"), exist_ok=True)
     parts = {}

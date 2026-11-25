@@ -2,7 +2,7 @@
 (Water002-009 for grass, Sand_Water002-009 for sand, as the starting island's shores are drawn) cuts the corner off
 (land sticking out into the water) or fills it in (water reaching into the land). Snow has its own (Snow_Water),
 and so does marsh (Marsh_Water002-009, made here from the grass ones with the marsh's ground). Run it again any
-time: it only changes square corners it finds. It also remakes the Isle's pond as open water with diagonal banks,
+time: it only changes square corners it finds. It also remakes Muddlesey's pond as open water with diagonal banks,
 lilies (Lily_Pads001-004, drawn here) and reeds.
 
   python -I "dev\\migrate\\smooth_coasts.py"
@@ -273,7 +273,7 @@ def draw_lilies():
     print("Drew sprites\\Tiles\\Lily_Pads001-004")
 
 
-# ---------------------------------------------------------------- the Isle's pond, open water now
+# ---------------------------------------------------------------- Muddlesey's pond, open water now
 # W water; the banks' diagonals: a top-left, b top-right, c bottom-left, d bottom-right (no square corner anywhere)
 POND = ["...aWWWb...",
         ".aWWWWWWWb.",
@@ -338,7 +338,7 @@ def pond(w, rng):
     m.ents = [ln for ln in m.ents if not ln.startswith("Id\tIsle_Pond")]
     m.ents.append("Id\tIsle_Pond\t%d\t%d" % (ox + wd // 2, oy - 1))
     w.changed.add(m.name)
-    print("The Isle's pond at 2,1,0 %d,%d: open water, diagonal banks, lilies and reeds" % (ox, oy))
+    print("Muddlesey's pond at 2,1,0 %d,%d: open water, diagonal banks, lilies and reeds" % (ox, oy))
     return water
 
 

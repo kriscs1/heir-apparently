@@ -2,10 +2,10 @@
 of you for it. Takes over the scripts it names from build_hob.py, build_regions.py, build_hush_and_dread.py and
 build_heir_mainland.py (story_kit.TAKES_OVER).
 
-  * Old Hob: give back his savings (or leave them in his chest) and Oakhollow thinks better of you; keep them and it
+  * Old Hob: give back his savings (or leave them in his chest) and Acornby thinks better of you; keep them and it
     thinks worse (Ending=HobAngry, Reward.Standing1).
-  * Bandits on the Road: the goods back to Captain Hale (Frosthold +10), or, for those on Red Meg's side, sold to her
-    for more (Frosthold -10). Meg's half is in build_smugglers_run.py. (BanditWay: 1 Hale's, 2 Meg's.)
+  * Bandits on the Road: the goods back to Captain Hale (Chillingham +10), or, for those on Red Meg's side, sold to her
+    for more (Chillingham -10). Meg's half is in build_smugglers_run.py. (BanditWay: 1 Hale's, 2 Meg's.)
   * The Redrock Signet: to Ambrose (the manor's his again, its bandits gone, a fire to rest by), or sold to Spleen, who
     waits by the manor's door for whoever finds it (Ambrose gone; the bandits there your friends: Side=Redrock_Bandits).
     (RedrockWay: 1 sold, 2 given back.)
@@ -13,7 +13,7 @@ build_heir_mainland.py (story_kit.TAKES_OVER).
     strongbox. To Captain Hart: the Chancellor taken below, the Archivist in his chair, Galaith +20 and its bread
     cheaper (Towns.ini Cheaper.If). To the Chancellor: his gold, his stores' shop, the treasury's key, and the
     Archivist never speaks to you again. (GrainQuest 0-3; GrainWay: 1 the bribe, 2 the captain.)
-  * The Old Grove (new, Oakhollow, after The Wildwood Watch): Master Bramble wants the old oaks south-east of the
+  * The Old Grove (new, Acornby, after The Wildwood Watch): Master Bramble wants the old oaks south-east of the
     village felled; Ranger Ash wants them kept. Felled (you blaze the great oak for his men): the oaks are stumps for you
     and a sawmill sells cheap planks. Kept (you drive off his woodcutters): the rangers' lodge, with rare herbs and a
     cot. The village is split (build_banter.py). (GroveQuest 0-6; GroveWay: 1 felled, 2 kept.)
@@ -113,12 +113,12 @@ RACKS = {
 HOB = [("Ending", "HobAngry"),
        ("Ending0", "Hob is himself again, and his door is open to you."),
        ("Ending1", "You kept Hob's savings, and the madness took him again."),
-       ("Reward.Standing", "Oakhollow 10"), ("Reward.Standing1", "Oakhollow -15")]
+       ("Reward.Standing", "Acornby 10"), ("Reward.Standing1", "Acornby -15")]
 
 BANDITS = [("Ending", "BanditWay"),
            ("Ending1", "You brought the stolen goods back to Captain Hale."),
-           ("Ending2", "You sold the stolen goods to Red Meg. Frosthold's carts went without."),
-           ("Reward.Standing", "Frosthold 10"), ("Reward.Standing2", "Frosthold -10")]
+           ("Ending2", "You sold the stolen goods to Red Meg. Chillingham's carts went without."),
+           ("Reward.Standing", "Chillingham 10"), ("Reward.Standing2", "Chillingham -10")]
 
 SIGNET = [("Ending", "RedrockWay"),
           ("Ending1", "You sold the Redrock signet to Spleen. The bandits keep the manor, and you're welcome in it."),
@@ -140,21 +140,21 @@ GRAIN = ["Giver=Archivist", "Attribute=GrainQuest",
          "Rumour=They say the Chancellor's cellars are full, and the city's bakers can't get flour."]
 
 GROVE_Q = ["Giver=Ranger", "Attribute=GroveQuest",
-           "Stage0=Ranger Ash and a timber merchant in Oakhollow are at odds over the old oaks south-east of the "
+           "Stage0=Ranger Ash and a timber merchant in Acornby are at odds over the old oaks south-east of the "
            "village.",
-           "Stage1=Master Bramble wants the old oaks south-east of Oakhollow felled for timber; Ranger Ash wants them "
+           "Stage1=Master Bramble wants the old oaks south-east of Acornby felled for timber; Ranger Ash wants them "
            "kept. Side with one of them.",
-           "Stage2=Cut Bramble's mark into the great oak in the old grove, south-east of Oakhollow. His men will do "
+           "Stage2=Cut Bramble's mark into the great oak in the old grove, south-east of Acornby. His men will do "
            "the rest.",
            "Stage3=Bramble's woodcutters are in the old grove already. Drive them off ($GroveCutters of 2).",
            "Stage4=The great oak bears Bramble's mark. Go back to him.",
            "Stage5=Bramble's woodcutters are gone. Go back to Ranger Ash.",
-           "Done=6", "Marker0=Oakhollow_Grove_Talk", "Marker1=Oakhollow_Grove_Talk", "Marker2=Old_Grove",
-           "Marker3=Old_Grove", "Marker4=Oakhollow_Grove_Talk", "Marker5=Oakhollow_Grove_Talk", "Type=Side",
-           "Requires.Quests=The Wildwood Watch", "Reward.Shards=10", "Reward.Standing=Oakhollow 5", "Ending=GroveWay",
+           "Done=6", "Marker0=Acornby_Grove_Talk", "Marker1=Acornby_Grove_Talk", "Marker2=Old_Grove",
+           "Marker3=Old_Grove", "Marker4=Acornby_Grove_Talk", "Marker5=Acornby_Grove_Talk", "Type=Side",
+           "Requires.Quests=The Wildwood Watch", "Reward.Shards=10", "Reward.Standing=Acornby 5", "Ending=GroveWay",
            "Ending1=The old grove is felled. Bramble's sawmill is busy, and half the village has work.",
            "Ending2=The old grove stands. The rangers keep a lodge there, and half the village is still poor.",
-           "Rumour=There's talk of felling the old oaks by Oakhollow. Ranger Ash won't hear of it."]
+           "Rumour=There's talk of felling the old oaks by Acornby. Ranger Ash won't hear of it."]
 
 GALAITH_CHEAPER = [("Cheaper.If", "$Attr.GrainWay=2"), ("Cheaper.Racks", "SHOP-Bakery,SHOP-Baker"),
                    ("Cheaper.Rate", "0.7")]
@@ -202,7 +202,7 @@ PLACES = {   # map: [(Id, the line)]
                                        "Id=Chancellor_Sefton Name=Chancellor_Sefton Here.After=GrainWay:2", dy=-8)),
     ],
 }
-PLACE_IDS = {VILLAGE: [("Oakhollow_Grove_Talk", 11, 11)], GROVE: [("Old_Grove", 20, 5)]}
+PLACE_IDS = {VILLAGE: [("Acornby_Grove_Talk", 11, 11)], GROVE: [("Old_Grove", 20, 5)]}
 
 
 def add_option(ln, key, value):
@@ -235,7 +235,7 @@ def place():
             print("%s: placed" % name)
 
 
-# ================================================================== Old Hob (build_hob.py's, with Oakhollow's word)
+# ================================================================== Old Hob (build_hob.py's, with Acornby's word)
 def hob():
     say = lambda text, *a: K.say("Hob", text, *a)
     return [
@@ -259,7 +259,7 @@ def hob():
         say("An honest thief! Here, 40 of it for your trouble, and keep the ring. My door's open to you any time.",
             ("Thank you, Hob.", "@paid")),
         ("@paid",), msg("Quest complete: Old Hob! He's himself again, and you're 40 gold the richer."), ("End",),
-        ("@refuse",), ("Update.Attribute", "HobAngry", "=1"),          # (first: Oakhollow hears which way it went)
+        ("@refuse",), ("Update.Attribute", "HobAngry", "=1"),          # (first: Acornby hears which way it went)
         ("Update.Attribute", "HobQuest", "=4"), ("Quest.Note.Done", "HobQuest", "*"),
         ("Set.NPC.Attitude", "OldHob", "Bad"),
         ("Quest.Note", "HobQuest", "You kept Hob's savings, and the madness took him again. He's wild for good now."),
@@ -268,7 +268,7 @@ def hob():
         ("@kept",), ("Update.Attribute", "HobAngry", "=0"),          # (you left his savings alone: they're yours)
         ("Update.Attribute", "HobQuest", "=4"), ("Quest.Note.Done", "HobQuest", "*"),
         ("Update.Attribute", "HobsDoorOpen", "=1"),
-        ("Quest.Note", "HobQuest", "Hob says the savings in his chest are yours. His house is in Oakhollow, and the "
+        ("Quest.Note", "HobQuest", "Hob says the savings in his chest are yours. His house is in Acornby, and the "
                                    "door's open now."),
         say("You brought me back. I remember the spider, the woods, the hunger. And you.\\Thank you, friend. My door "
             "is open now, and what's in my chest is yours: you've earned it.", ("Thank you, Hob.", "@thanked")),
@@ -295,7 +295,7 @@ def hale():
         ("@begun",), (">Conditional", "$Variable.1=1", "@two"),
         get("BanditsSlain", 2), (">Conditional", "$Variable.2>=5", "@more"),
         ("Update.Attribute", "BanditQuest", "=2"),
-        ("Quest.Note.Done", "BanditQuest", "Report to Captain Hale in Frosthold."),
+        ("Quest.Note.Done", "BanditQuest", "Report to Captain Hale in Chillingham."),
         ("Quest.Note", "BanditQuest", "The bandits' camp is somewhere in the eastern hills."),
         ("Quest.Note", "BanditQuest", "Break open their strongbox and take back the stolen goods."),
         say("Five! Now for their camp: somewhere in the eastern hills. They keep what they steal in an iron "
@@ -319,7 +319,7 @@ def hale():
         ("@done",), get("BanditWay", 3), (">Conditional", "$Variable.3=2", "@salute"),
         say("The bandits are gone, and so are the town's goods. Word is they turned up on the coast, sold to "
             "smugglers. Funny, that.", ("Goodbye.", "@end")), ("End",),
-        ("@salute",), say("The road is safe again. Frosthold salutes you.", ("Goodbye.", "@end")), ("End",),
+        ("@salute",), say("The road is safe again. Chillingham salutes you.", ("Goodbye.", "@end")), ("End",),
         ("@green",), say("The road's no place for civilians while it's crawling with bandits. When you can swing a "
                          "sword like you mean it, report back to me.", ("Yes, Captain.", "@end")),
         ("@end",), ("End",),
@@ -489,7 +489,7 @@ def chancellor():
         ("Update.Attribute", "GuardQuest", "=4"),
         say("The Archivist's seal, in green. Then it is true.\\My $Player.Lord. Forgive an old man his doubts. Here is "
             "my warrant: show it to the captain of the guard.", ("Thank you, Chancellor.", "@end")), ("End",),
-        ("@plain",), say("The Parliament of Brambleton will return from Northport, now the road is open. There is much to "
+        ("@plain",), say("The Parliament of Brambleton will return from Drizzleport, now the road is open. There is much to "
                          "do.", ("Goodbye.", "@end")),
         ("@end",), ("End",),
     ]
@@ -609,7 +609,7 @@ def ash():
             ("Not now.", "@end")),
         ("End",),
         ("@w_start",), ("Update.Attribute", "RangerQuest", "=1"),
-        ("Quest.Note", "RangerQuest", "Watch stone by the north road, between King Rupert's Keep and Oakhollow."),
+        ("Quest.Note", "RangerQuest", "Watch stone by the north road, between King Rupert's Keep and Acornby."),
         ("Quest.Note", "RangerQuest", "Watch stone in the western woods."),
         ("Quest.Note", "RangerQuest", "Watch stone east of the river."),
         msg("Quest started: The Wildwood Watch."), ("End",),
@@ -634,7 +634,7 @@ def ash():
     ]
 
 
-STONE_NOTES = ("Watch stone by the north road, between King Rupert's Keep and Oakhollow.",
+STONE_NOTES = ("Watch stone by the north road, between King Rupert's Keep and Acornby.",
                "Watch stone in the western woods.", "Watch stone east of the river.")
 
 
@@ -649,10 +649,10 @@ def watch_stone(k):
         ("Update.Attribute", "WatchStones", "+1"),
         get("WatchStones", 3), (">Conditional", "$Variable.3>=3", "@more"),
         ("Update.Attribute", "RangerQuest", "=2"),
-        ("Quest.Note", "RangerQuest", "The spider nest is in the deep woods west of Oakhollow."),
+        ("Quest.Note", "RangerQuest", "The spider nest is in the deep woods west of Acornby."),
         ("Quest.Note", "RangerQuest", "Slay five giant spiders there."),
         msg("The last watch stone! Its moss is torn and there are webs everywhere, strung off into the deep woods "
-            "west of Oakhollow. Spiders have nested there: clear them out, five at least, before you go back to "
+            "west of Acornby. Spiders have nested there: clear them out, five at least, before you go back to "
             "Ranger Ash."),
         ("End",),
         ("@more",), msg("You touch the old watch stone. Watch stones visited: $Variable.3 of 3."),
@@ -670,15 +670,15 @@ def kill_spider():
         (">Conditional", "$Variable.2<5", "@five"),
         msg("Giant spiders slain for Ranger Ash: $Variable.2 of 5."), ("End",),
         ("@five",), ("Quest.Note.Done", "RangerQuest", "Slay five giant spiders there."),
-        ("Quest.Note", "RangerQuest", "Return to Ranger Ash in Oakhollow."),
-        msg("Five spiders! Return to Ranger Ash in Oakhollow."),
+        ("Quest.Note", "RangerQuest", "Return to Ranger Ash in Acornby."),
+        msg("Five spiders! Return to Ranger Ash in Acornby."),
         ("@end",), ("End",),
     ]
 
 
 WATCH_Q = [("Stage1", "Visit the three old watch stones of the Wildwood ($WatchStones of 3): one by the north road, "
                       "one in the western woods and one by the river."),
-           ("Stage2", "Clear the spider nest in the deep woods west of Oakhollow: slay five giant spiders "
+           ("Stage2", "Clear the spider nest in the deep woods west of Acornby: slay five giant spiders "
                       "($WildSpidersSlain of 5), then return to Ranger Ash."),
            ("Done", "3"), ("Marker2", "Spider_Nest")]
 

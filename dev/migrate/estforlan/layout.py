@@ -10,9 +10,9 @@ PARTS = os.path.join(HERE, "world_parts")
 
 ISLE = {"0,0,0", "0,1,0", "1,0,0", "1,1,0", "1,2,0", "2,0,0", "2,1,0", "2,2,0", "3,0,0", "3,1,0", "3,2,0", "4,0,0",
         "4,1,0"}
-# I the Isle (left alone) ~ sea  M the West Range  C the Cinder Peaks  N the Frostpeak range  G Galaith  F the dragon's
-# field  P the pass  g fields  w the Wildwood  o the Greyflats  h the Redrock hills  s the Saltmarsh  d the Sunscar Desert
-# n the Frostpeak snowfields  e the Elderwood  a the Ashwold  u the downs  v Wardhaven's island  D Dragon Island
+# I Muddlesey (left alone) ~ sea  M the West Range  C the Cinder Peaks  N the Frostpeak range  G Galaith  F the dragon's
+# field  P the pass  g fields  w the Wildwood  o the Greyflats  h the Redrock hills  s the Brinebottom  d the Sunscar Desert
+# n the Frostpeak snowfields  e the Elderwood  a the Ashwold  u the downs  v Sulkhaven's island  D Dragon Island
 GRID = [
     "IIIII~~~~~~~~~~~~~~~~~~~~",
     "IIIII~~~~~~~vvv~~~~~~~~~~",
@@ -71,7 +71,7 @@ SETTLEMENTS = {
     "Galaith": dict(title="Galaith", size="huge", maps=(-10, 11, -4, 14), street="Marble_Paving001", outer="Cobble001",
                     walls=[("Plaster001", 4), ("Stone_Wall001", 4), ("Brick001", 2)], grand="Stone_Wall001", coast=None,
                     land="meadow"),
-    "Northport": dict(title="Northport", size="large", maps=(2, 4, 5, 6), street="Brick_Paving001", outer="Cobble001",
+    "Drizzleport": dict(title="Drizzleport", size="large", maps=(2, 4, 5, 6), street="Brick_Paving001", outer="Cobble001",
                       walls=[("Brick001", 5), ("Plaster001", 3), ("Timber001", 2)], grand="Stone_Wall001", coast="N",
                       land="meadow"),
     "Keep": dict(title="King Rupert's Keep", size="medium", maps=(21, 10, 23, 12), street="Cobble001",
@@ -83,30 +83,30 @@ SETTLEMENTS = {
     "Fenwick": dict(title="Fenwick", size="medium", maps=(6, 14, 8, 15), street="Boardwalk001", outer="Boardwalk001",
                     walls=[("Timber001", 5), ("Plaster001", 4), ("Brick001", 1)], grand="Plaster001", coast=None,
                     land="marsh"),
-    "Ravensgate": dict(title="Ravensgate", size="medium", maps=(21, 15, 23, 16), street="Slate_Flag001",
+    "Crowgate": dict(title="Crowgate", size="medium", maps=(21, 15, 23, 16), street="Slate_Flag001",
                        outer="Gravel001", walls=[("Stone_Wall001", 5), ("Plaster001", 3), ("Brick001", 2)],
                        grand="Stone_Wall001", coast="E", land="downs"),
-    "Ashford": dict(title="Ashford", size="small", maps=(9, 4, 10, 5), street="Brick_Paving001", outer="Gravel001",
+    "Puddleford": dict(title="Puddleford", size="small", maps=(9, 4, 10, 5), street="Brick_Paving001", outer="Gravel001",
                     walls=[("Brick001", 4), ("Timber001", 3), ("Plaster001", 3)], grand="Brick001", coast="N",
                     land="meadow"),
-    "Highwatch": dict(title="Highwatch", size="town", maps=(12, 13, 13, 14), street="Red_Sandstone001",
+    "Squintwatch": dict(title="Squintwatch", size="town", maps=(12, 13, 13, 14), street="Red_Sandstone001",
                       outer="Dirt001", walls=[("Stone_Wall001", 5), ("Brick001", 3), ("Plaster001", 2)],
                       grand="Stone_Wall001", coast=None, land="hills"),
-    "Frosthold": dict(title="Frosthold", size="town", maps=(13, 17, 14, 18), street="Flagstone001", outer="Dirt001",
+    "Chillingham": dict(title="Chillingham", size="town", maps=(13, 17, 14, 18), street="Flagstone001", outer="Dirt001",
                       walls=[("Stone_Wall001", 5), ("Timber001", 5)], grand="Stone_Wall001", coast=None, land="snow"),
-    "Wardhaven": dict(title="Wardhaven", size="town", maps=(12, 1, 14, 3), street="Cobble001", outer="Cobble001",
+    "Sulkhaven": dict(title="Sulkhaven", size="town", maps=(12, 1, 14, 3), street="Cobble001", outer="Cobble001",
                       walls=[("Stone_Wall001", 5), ("Plaster001", 3), ("Brick001", 2)], grand="Stone_Wall001",
                       coast="N", land="meadow"),
-    "Oakhollow": dict(title="Oakhollow", size="village", maps=(7, 8, 8, 9), street="Gravel001", outer="Dirt001",
+    "Acornby": dict(title="Acornby", size="village", maps=(7, 8, 8, 9), street="Gravel001", outer="Dirt001",
                       walls=[("Timber001", 5), ("Plaster001", 3), ("Brick001", 2)], grand="Timber001", coast=None,
                       land="wood"),
-    "Thornwick": dict(title="Thornwick", size="village", maps=(17, 10, 18, 11), street="Gravel001", outer="Dirt001",
+    "Nettlewick": dict(title="Nettlewick", size="village", maps=(17, 10, 18, 11), street="Gravel001", outer="Dirt001",
                       walls=[("Timber001", 5), ("Plaster001", 3), ("Stone_Wall001", 2)], grand="Timber001",
                       coast=None, land="elder"),
     "Emberwatch": dict(title="Emberwatch", size="village", maps=(22, 5, 23, 6), street="Basalt_Paving001",
                        outer="Dirt001", walls=[("Stone_Wall001", 7), ("Plaster001", 3)], grand="Stone_Wall001",
                        coast="E", land="ash"),
-    "Greyford": dict(title="Greyford", size="hamlet", maps=(12, 8, 12, 8), street="Dirt001", outer="Dirt001",
+    "Dullford": dict(title="Dullford", size="hamlet", maps=(12, 8, 12, 8), street="Dirt001", outer="Dirt001",
                       walls=[("Stone_Wall001", 4), ("Plaster001", 3), ("Brick001", 3)], grand="Stone_Wall001",
                       coast=None, land="moor"),
     "Wildwood": dict(title="Wildwood", size="hamlet", forest=True, maps=(2, 8, 2, 8), street="Dirt001", outer="Dirt001",
@@ -114,7 +114,7 @@ SETTLEMENTS = {
     "Dunerest": dict(title="Dunerest", size="hamlet", maps=(3, 18, 3, 18), street="Sandstone_Paving001",
                      outer="Sand001", walls=[("Sandstone001", 6), ("Plaster001", 4)], grand="Sandstone001", coast=None,
                      land="desert"),
-    "Saltmarsh": dict(title="Saltmarsh", size="hamlet", maps=(9, 20, 9, 20), street="Boardwalk001",
+    "Brinebottom": dict(title="Brinebottom", size="hamlet", maps=(9, 20, 9, 20), street="Boardwalk001",
                       outer="Boardwalk001", walls=[("Timber001", 5), ("Plaster001", 4)], grand="Timber001", coast="S",
                       land="marsh"),
 }
@@ -178,31 +178,31 @@ POIS = {
     "Watch_Stone_2": ((2, 9), (19, 9), "path"),
     "Watch_Stone_3": ((8, 6), (15, 19), "path"),
     "Galaith_Pass": ((0, 12), (24, 11), "road"),
-    "Wardhaven_Bridge": ((12, 4), (13, 8), "road"),
+    "Sulkhaven_Bridge": ((12, 4), (13, 8), "road"),
 }
 
 # The roads: settlement to settlement or place, the main ones first (they're laid first; the rest join them)
 ROADS = [
-    ("Northport", "Ashford"), ("Ashford", "Farm"), ("Farm", "Wardhaven_Bridge"), ("Farm", "Hollow_Barrel"),
-    ("Hollow_Barrel", "Court"), ("Northport", "Oakhollow"), ("Oakhollow", "Wildwood"), ("Oakhollow", "Greyford"),
-    ("Ashford", "Greyford"), ("Greyford", "Galaith_Pass"), ("Greyford", "Thornwick"), ("Thornwick", "Keep"),
-    ("Keep", "Iron_Mine"), ("Court", "Emberwatch"), ("Emberwatch", "Cinder_Fort"), ("Thornwick", "Emberwatch"),
-    ("Greyford", "Highwatch"), ("Highwatch", "Frosthold"), ("Highwatch", "Fenwick"), ("Fenwick", "Saltmarsh"),
-    ("Fenwick", "Dunerest"), ("Highwatch", "Ravensgate"), ("Keep", "Ravensgate"), ("Ravensgate", "Rooks_Pier"),
-    ("Frosthold", "Ravensgate"),
+    ("Drizzleport", "Puddleford"), ("Puddleford", "Farm"), ("Farm", "Sulkhaven_Bridge"), ("Farm", "Hollow_Barrel"),
+    ("Hollow_Barrel", "Court"), ("Drizzleport", "Acornby"), ("Acornby", "Wildwood"), ("Acornby", "Dullford"),
+    ("Puddleford", "Dullford"), ("Dullford", "Galaith_Pass"), ("Dullford", "Nettlewick"), ("Nettlewick", "Keep"),
+    ("Keep", "Iron_Mine"), ("Court", "Emberwatch"), ("Emberwatch", "Cinder_Fort"), ("Nettlewick", "Emberwatch"),
+    ("Dullford", "Squintwatch"), ("Squintwatch", "Chillingham"), ("Squintwatch", "Fenwick"), ("Fenwick", "Brinebottom"),
+    ("Fenwick", "Dunerest"), ("Squintwatch", "Crowgate"), ("Keep", "Crowgate"), ("Crowgate", "Rooks_Pier"),
+    ("Chillingham", "Crowgate"),
     # footpaths out to the quest places
-    ("Oakhollow", "Spider_Nest"), ("Dunerest", "Buried_Library"), ("Dunerest", "Caravan_Wreck"),
-    ("Frosthold", "Frost_Caverns"), ("Greyford", "Wolf_Den"), ("Highwatch", "Bandit_Camp"),
-    ("Frosthold", "Troll_Lair"), ("Emberwatch", "Shrine_1"), ("Emberwatch", "Shrine_3"), ("Emberwatch", "Shrine_2"),
-    ("Thornwick", "Heartwood"), ("Ravensgate", "Barrow"), ("Ravensgate", "Downs_Graves"), ("Ravensgate", "Hill_Graves"),
-    ("Court", "Smugglers_Cove"), ("Farm", "Herbalist"), ("Northport", "Watch_Stone_1"), ("Wildwood", "Watch_Stone_2"),
-    ("Oakhollow", "Watch_Stone_3"),
+    ("Acornby", "Spider_Nest"), ("Dunerest", "Buried_Library"), ("Dunerest", "Caravan_Wreck"),
+    ("Chillingham", "Frost_Caverns"), ("Dullford", "Wolf_Den"), ("Squintwatch", "Bandit_Camp"),
+    ("Chillingham", "Troll_Lair"), ("Emberwatch", "Shrine_1"), ("Emberwatch", "Shrine_3"), ("Emberwatch", "Shrine_2"),
+    ("Nettlewick", "Heartwood"), ("Crowgate", "Barrow"), ("Crowgate", "Downs_Graves"), ("Crowgate", "Hill_Graves"),
+    ("Court", "Smugglers_Cove"), ("Farm", "Herbalist"), ("Drizzleport", "Watch_Stone_1"), ("Wildwood", "Watch_Stone_2"),
+    ("Acornby", "Watch_Stone_3"),
 ]
 
 # Rivers: world tiles (gx, gy) from the hills to the sea
 RIVERS = [
     [(3 * XT + 10, 9 * YT + 15), (5 * XT + 4, 8 * YT + 10), (7 * XT + 6, 7 * YT + 2), (7 * XT + 20, 5 * YT + 10),
-     (8 * XT + 4, 4 * YT + 2)],                                         # the Wildwood's river, out by Northport
+     (8 * XT + 4, 4 * YT + 2)],                                         # the Wildwood's river, out by Drizzleport
     [(13 * XT + 3, 15 * YT + 8), (11 * XT + 6, 16 * YT + 8), (9 * XT + 12, 17 * YT + 14), (8 * XT + 20, 19 * YT + 16),
      (7 * XT + 12, 20 * YT + 18)],                                     # (on through the new fens to the sea)
     [(19 * XT + 2, 9 * YT + 10), (20 * XT + 6, 12 * YT + 19), (21 * XT + 10, 13 * YT + 12), (24 * XT + 2, 14 * YT + 3)],

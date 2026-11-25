@@ -1,4 +1,4 @@
-01	Display.Message	Cyan	Ashford. You smell fresh bread.
+01	Display.Message	Cyan	Puddleford. You smell fresh bread.
 02	Get.Value	ATTRIBUTE	EscortQuest	Variable.8$
 03	>Conditional	$Variable.8>=2	07
 04	>Follower.Near	Granny_Wren	3000	06

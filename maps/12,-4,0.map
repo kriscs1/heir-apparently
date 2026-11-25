@@ -21,8 +21,8 @@ Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001:Grass001
 Grass001:Grass001:Grass001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Dirt001:Grass001:Grass001:Grass001:Sand001:Water001:Water001:Water001:Water001:Water001
 StaticObject	Moored_Boat	513	495
 StaticObject	Salmon_Spot	480	288
-NPC	Fisherman	448	440	Attitude=Good Stand=1 Face=S Id=Ashford_Harbour_Master_306 Name=Ned
-Id	Ashford_Port	16	16
+NPC	Fisherman	448	440	Attitude=Good Stand=1 Face=S Id=Puddleford_Harbour_Master_306 Name=Ned
+Id	Puddleford_Port	16	16
 NPC	Rabbit	64	504	Attitude=Passive Zone=2,13,8,20
 NPC	Rabbit	160	344	Attitude=Passive Zone=4,8,14,16
 NPC	Rabbit	64	536	Attitude=Passive Zone=2,14,8,20

@@ -1,7 +1,7 @@
 """Builds the new mainland of Brambleton (dev\\World Plan.md; dev\\migrate\\estforlan does the work): the land, Galaith
 in its valley in the West Range, every settlement the size it's given, the quest places lifted from the old maps
 (dev\\migrate\\world_parts, made once by lift_world_parts.py) at their old tiles, the roads, the creatures; then the
-scripts and data that name its places. The Isle is left alone.
+scripts and data that name its places. Muddlesey is left alone.
 
   python -I "dev\\migrate\\build_estforlan.py"
 
@@ -33,7 +33,7 @@ OLD_LEVELS_GONE = ("1,10,1", "2,8,1", "4,10,1", "4,3,1", "4,8,1", "5,3,1", "7,4,
 def old_world():
     """Is the old mainland still there (the first run moves its scripts over)?"""
     path = os.path.join(MAPS, "1,4,0.map")
-    return os.path.exists(path) and "Ashford_Iron_Mine" in open(path, encoding="cp1252").read()
+    return os.path.exists(path) and "Puddleford_Iron_Mine" in open(path, encoding="cp1252").read()
 
 
 def main():

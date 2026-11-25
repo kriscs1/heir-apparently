@@ -7,7 +7,7 @@ potion doesn't keep.
     The Fever_Tonic (Cures=Malaria Fever), good for Shelf.Minutes of real time wherever it's kept, then it's a
     Spoiled_Tonic, which you can only pour out for its vial.
   * The tonic is brewed of bog myrtle and mangrove bark (the marsh's own) (Alchemy 4), sold by the herbalist and sometimes the
-    travelling salesman, and Morwen, in Saltmarsh, who knows what's wrong with you when she sees you shaking: one free,
+    travelling salesman, and Morwen, in Brinebottom, who knows what's wrong with you when she sees you shaking: one free,
     then for coin. So nothing in the marsh is out of reach, but it can't just sit in a bank till it's needed.
   * Pictures: a healing draught gone amber; the spoiled one murky.
 

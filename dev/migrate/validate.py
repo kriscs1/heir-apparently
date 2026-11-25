@@ -1303,7 +1303,7 @@ def check_script_reachability(references, triggers):
     verbs |= {"Pickup", "Drop", "Drop 1", "Examine", "Eat", "Talk to", "Attack", "Walk here", "Use", "Kill",
               "Count", "Climb Up", "Climb Down", "Bank", "Grasp"}      # (Grasp: the spell, cast at a thing)
     names = TILES | ENTITIES | {re.sub(r"\d{3}$", "", t) for t in TILES}
-    with_id = set()                      # every Id= on a map line or added by a script ("Verb Id": e.g. Read Ashford)
+    with_id = set()                      # every Id= on a map line or added by a script ("Verb Id": e.g. Read Puddleford)
     spotted = set()                      # every Spotted.Script= (a watchman's: run when it sees you)
     for f in os.listdir(p("maps")):
         if f.endswith(".map"):
@@ -2625,7 +2625,7 @@ def check_quests():
                     err(where, "%s without Ending= (the attribute that says which way it ended)" % k)
                 w = v.split()
                 if not w or len(w) % 2 or not all(is_num(x) for x in w[1::2]):
-                    err(where, "Reward.Standing=%r should be pairs of town and amount, e.g. Ashford 10" % v)
+                    err(where, "Reward.Standing=%r should be pairs of town and amount, e.g. Puddleford 10" % v)
                 for t in w[::2]:
                     if t.upper() not in TOWN_KEYS():
                         err(where, "Reward.Standing: no town %r in data\\Towns.ini" % t)

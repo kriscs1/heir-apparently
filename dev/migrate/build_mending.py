@@ -1,16 +1,16 @@
 """The Mending (dev\\Roadmap-6.md groups 10-12): its places, its five quests and the world round it. Its people and
 things are drawn by build_mending_art.py (run that first). It takes over the Ashen Shrine scripts and the Warden's
 (build_heir_mainland.py), the Cinder Fort's gate (build_cinder.py) and Cael's (build_middle_quests.py:
-story_kit.TAKES_OVER); Amos's and Ashford's sheriff's
+story_kit.TAKES_OVER); Amos's and Puddleford's sheriff's
 were build_estforlan.py's, never run again.
 
 Places:
   * The hall under Shardglass Field (23,7,-1, made once): a slab of glass in the field's east end (two lookouts by it),
     the entry, the sermon hall, the Font, the sanctum behind an iron gate (a Lock: open to those who tithed, or picked)
     with the great Shard, a dormitory.
-  * Their house in Ashford (13,-1,0): Sister Linnet, the house's Shard, Annis, a washing line behind it with a robe on
+  * Their house in Puddleford (13,-1,0): Sister Linnet, the house's Shard, Annis, a washing line behind it with a robe on
     it. Tam the cooper in the yard over the way.
-  * Wardhaven: two Sisters in the chapel once the dragon's dead; a stair under the chapel floor to the Eldest's
+  * Sulkhaven: two Sisters in the chapel once the dragon's dead; a stair under the chapel floor to the Eldest's
     sanctum (17,1,-1, made once) once The Eldest of the Mending is begun.
   * The Ashwold: the three shrines burn blue for whoever's done The Ember Ring; the Hand's camp (25,9,0), where
     strangers in grey pay it, with a ring of triggers round it for listening in.
@@ -34,12 +34,12 @@ import story_kit as K                           # noqa: E402
 
 MAKER = "build_mending.py"
 FIELD, HALL = "23,7,0", "23,7,-1"
-ASHFORD = "13,-1,0"
+PUDDLEFORD = "13,-1,0"
 CHAPEL, UNDERCROFT = "17,1,0", "17,1,-1"
 CAMP = "25,9,0"
 SHRINES = {1: ("25,4,0", 9, 10), 2: ("26,9,0", 14, 8), 3: ("25,8,0", 18, 17)}
 SLAB = (21, 11)                     # (the way down, on the field and the hall's ladder under it)
-STAIR = (8, 16)                     # (in Wardhaven's chapel, and the undercroft's ladder under it)
+STAIR = (8, 16)                     # (in Sulkhaven's chapel, and the undercroft's ladder under it)
 GATE = (15, 4)                      # (the sanctum's iron gate in the hall)
 CAMP_AT = (13, 12)                  # (the Hand's fire)
 
@@ -125,7 +125,7 @@ def camp_tiles(m):
 
 
 def house_tiles(m):
-    """The Mending's house in Ashford: a quiet brick house off the road, a path round to its door, a yard behind."""
+    """The Mending's house in Puddleford: a quiet brick house off the road, a path round to its door, a yard behind."""
     if m.tile(7, 17) != "Grass001":
         return False
     K.building(m, 4, 12, 11, 17, door=7, wall="Brick001", roof="Slate")
@@ -168,7 +168,7 @@ PLACES = {   # map: [(Id, the line)]
                                                "Here.After=StrangerEnd:2 Gone.After=AnnisHome:1,EldestQuest:1")),
         ("Hall_Sleeper", npc("Mending_Sister", 22, 17, "Attitude=Good Zone=18,16,23,19 Id=Hall_Sleeper")),
     ],
-    ASHFORD: [
+    PUDDLEFORD: [
         ("Sister_Linnet", npc("Mending_Sister", 9, 14, "Attitude=Good Stand=1 Face=S Id=Sister_Linnet "
                                                       "Name=Sister_Linnet Gone.After=MendingShut:1")),
         ("House_Shard", thing("Mending_House_Shard", 6, 13, "Id=House_Shard Gone.After=MendingShut:1")),
@@ -182,8 +182,8 @@ PLACES = {   # map: [(Id, the line)]
                                                "Here.After=AnnisHome:1")),
     ],
     CHAPEL: [
-        ("Wardhaven_Undercroft_Stair", thing("Undercroft_Stair", STAIR[0], STAIR[1],
-                                             "Id=Wardhaven_Undercroft_Stair Here.After=EldestQuest:1")),
+        ("Sulkhaven_Undercroft_Stair", thing("Undercroft_Stair", STAIR[0], STAIR[1],
+                                             "Id=Sulkhaven_Undercroft_Stair Here.After=EldestQuest:1")),
         ("Chapel_Sister_1", npc("Mending_Sister", 5, 17, "Attitude=Good Stand=1 Face=N Id=Chapel_Sister_1 "
                                                         "Here.After=GalaithQuest:2 Gone.After=EldestQuest:2")),
         ("Chapel_Sister_2", npc("Mending_Sister", 8, 18, "Attitude=Good Stand=1 Face=N Id=Chapel_Sister_2 "
@@ -224,11 +224,11 @@ for _k, (_m, _x, _y) in SHRINES.items():
 PLACE_IDS = {HALL: [("Mending_Hall", 21, 12), ("Mending_Sermon", 9, 14), ("Mending_Font", 21, 5),
                     ("Mending_Sanctum", 9, 4)],
              FIELD: [("Mending_Field", SLAB[0], SLAB[1] + 1)],
-             ASHFORD: [("Mending_House", 7, 18), ("Tam_Yard", 9, 10)],
+             PUDDLEFORD: [("Mending_House", 7, 18), ("Tam_Yard", 9, 10)],
              UNDERCROFT: [("Eldest_Sanctum", 13, 8)],
-             CHAPEL: [("Wardhaven_Undercroft", STAIR[0], STAIR[1] + 1)],
+             CHAPEL: [("Sulkhaven_Undercroft", STAIR[0], STAIR[1] + 1)],
              CAMP: [("Hand_Camp", CAMP_AT[0], CAMP_AT[1] - 3)]}
-OLD = {FIELD: [("Id", "Mending_Slab")], ASHFORD: [("Id=", "Mending_House_Shard")]}    # (renamed: the lines to go)
+OLD = {FIELD: [("Id", "Mending_Slab")], PUDDLEFORD: [("Id=", "Mending_House_Shard")]}    # (renamed: the lines to go)
 TRIGGERS = {HALL: [("Mending Sermon", 14, 11), ("Mending Sanctum", 13, 4)], UNDERCROFT: [("Eldest Sanctum", 8, 13)]}
 LOCKS = {HALL: [(GATE[0], GATE[1], "$Attr.TitheOpen>=1",
                  "An iron gate, locked. Past it, a cold blue light, and something humming.", "Pick=12")]}
@@ -253,7 +253,7 @@ def place():
             camp_tiles(m)
             K.ents_without(m, lambda f: f[0] == "Trigger" and f[1] == "Hand Camp")
             m.ents += ["Trigger\tHand Camp\t%d\t%d" % xy for xy in camp_ring()]
-        if name == ASHFORD:
+        if name == PUDDLEFORD:
             house_tiles(m)
         for kind, old in OLD.get(name, ()):
             if kind == "Id":
@@ -296,7 +296,7 @@ def climbs():
         ("Display.Message", "Cyan", "The slab tips on a pin, and there are steps under it, cut in the rock. Down "
                                     "below, people are singing.", "-"),
         ("End",)] + far)
-    w("Climb Down Wardhaven_Undercroft_Stair", [
+    w("Climb Down Sulkhaven_Undercroft_Stair", [
         (">Distance.From.Clicked.Entity", "48", "@far"),
         ("Play.Sound", "Ladder"),
         ("Wait", "0.4"),
@@ -307,7 +307,7 @@ def climbs():
 
 
 # ================================================================== the quests' data
-SHERIFF = "12,-3,0 10 18"           # (Flo, Ashford's sheriff, at the jail up the road)
+SHERIFF = "12,-3,0 10 18"           # (Flo, Puddleford's sheriff, at the jail up the road)
 ROBED = "$Equipped.Body=Mending_Robe"
 
 QUESTS = [
@@ -328,23 +328,23 @@ QUESTS = [
         "colour."]),
     ("The Kind Stranger", [
         "Giver=Villager", "Attribute=StrangerQuest",
-        "Stage0=Tam, the cooper in Ashford, is worried about his mother.",
-        "Stage1=Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Ashford, where she says "
+        "Stage0=Tam, the cooper in Puddleford, is worried about his mother.",
+        "Stage1=Tam's mother Annis goes every day to a quiet house behind Rufus's yard in Puddleford, where she says "
         "her late husband talks to her. Go and see her.",
         "Stage2=Annis won't hear a word against the Shard from you. Cael, the penitent at the Cinder Chapel on the "
         "Ashwold, was fooled by strangers in grey once: he might find the words.",
-        "Stage3=Cael wrote a few lines for Annis. Take them to her, at the quiet house in Ashford.",
+        "Stage3=Cael wrote a few lines for Annis. Take them to her, at the quiet house in Puddleford.",
         "Done=4", "Marker0=Tam_Yard", "Marker1=Mending_House", "Marker2=Cinder_Chapel", "Marker3=Mending_House",
         "Type=Side", "Requires.Level=13", "Requires.Quests=Cold Fire", "Reward.Shards=10",
         "Ending=StrangerEnd",
         "Ending1=You read Annis what Cael wrote, and walked her home to Tam.",
         "Ending2=You left Annis with her Shard. She's gone to the Mending's hall.",
         "Ending3=The watch brought Annis home when they shut the Mending's house.",
-        "Reward.Standing1=Ashford 15",
-        "Rumour=Tam the cooper's been asking all over Ashford after his mother. She's taken up with them in grey."]),
+        "Reward.Standing1=Puddleford 15",
+        "Rumour=Tam the cooper's been asking all over Puddleford after his mother. She's taken up with them in grey."]),
     ("In Grey", [
         "Giver=Mending_Sister", "Attribute=GreyQuest",
-        "Stage0=Sister Linnet of the Mending keeps a quiet house in Ashford.",
+        "Stage0=Sister Linnet of the Mending keeps a quiet house in Puddleford.",
         "Stage1=Sister Linnet won't tell an outsider where the Mending gathers. In one of their grey robes, she might "
         "take you for one of them.",
         "Stage2=Sister Linnet took you for one of the Mending. They gather under Shardglass Field, through a slab of "
@@ -352,15 +352,15 @@ QUESTS = [
         "Stage3=Cantor Ivo of the Mending says the great Shard waits in the sanctum, past the Font, for the "
         "faithful. Listen to it.",
         "Stage4=The great Shard spoke to you in your mother's voice, and now you know what the Mending wants: the "
-        "King's Seam opened, under Galaith. Tell Sheriff Flo in Ashford, or tell Sister Linnet you'll keep their "
+        "King's Seam opened, under Galaith. Tell Sheriff Flo in Puddleford, or tell Sister Linnet you'll keep their "
         "secret.",
         "Done=5", "Marker0=Mending_House", "Marker1=Mending_House", "Marker2=Mending_Field",
         "Marker3=Mending_Sanctum", "Marker4=%s;Mending_House" % SHERIFF, "Type=Side", "Requires.Level=15",
         "Requires.Quests=The Shardgate;Cold Fire", "Reward.Shards=15",
         "Ending=GreyEnd",
-        "Ending1=You told Sheriff Flo. The Mending's house in Ashford is shut, and Galaith's watch knows of the hall.",
+        "Ending1=You told Sheriff Flo. The Mending's house in Puddleford is shut, and Galaith's watch knows of the hall.",
         "Ending2=You kept the Mending's secret. Their house is open to you, in grey.",
-        "Reward.Standing1=Ashford 15 Galaith 15"]),
+        "Reward.Standing1=Puddleford 15 Galaith 15"]),
     ("The Tithe", [
         "Giver=Mending_Cantor", "Attribute=TitheQuest", "Stage0=",
         "Stage1=An iron gate shuts the Mending's sanctum, and it opens to those who pour their Shards into the "
@@ -374,17 +374,17 @@ QUESTS = [
         "Ending3=You broke the Font's keeper, and went through by force."]),
     ("The Eldest of the Mending", [
         "Giver=Villager", "Attribute=EldestQuest",
-        "Stage0=Amos, the priest of Wardhaven, doesn't sleep well since the Sisters came.",
+        "Stage0=Amos, the priest of Sulkhaven, doesn't sleep well since the Sisters came.",
         "Stage1=Amos says the two Sisters in grey in his chapel go down under its floor at night, where there's a "
         "stair he never knew of, and singing. Go down and see.",
         "Stage2=The Eldest of the Mending is dead. The great Shard is still singing.",
-        "Done=3", "Marker0=Wardhaven_Church", "Marker1=Wardhaven_Undercroft", "Marker2=Eldest_Sanctum",
+        "Done=3", "Marker0=Sulkhaven_Church", "Marker1=Sulkhaven_Undercroft", "Marker2=Eldest_Sanctum",
         "Type=Side", "Requires.Level=20", "Requires.Quests=The Dragon of Galaith;In Grey", "Reward.Shards=30",
         "Reward.XP=Channeling 4 Defence 4",
         "Ending=EldestEnd",
         "Ending1=You broke the great Shard. The Mending's scattered, and some of them have gone home.",
         "Ending2=You kept a splinter of the great Shard: Mary's Whisper.",
-        "Rumour=Old Amos in Wardhaven says there's singing under his chapel at night."]),
+        "Rumour=Old Amos in Sulkhaven says there's singing under his chapel at night."]),
 ]
 
 SHOP = ["Type=Shop", "Buy.Rate=1.2", "Sell.Rate=0.5", "Specific=0", "Item1=Ward_Shard,2", "Item2=Shard_Ward_Scroll,1",
@@ -484,7 +484,7 @@ def warden():
         ("@cold3",), (">Conditional", "$Variable.2=3", "@usual"),
         say("Strangers in grey, paying the Hand to feed the dragon? \"Mend it\"... I don't like that word.\\There's "
             "been folk in grey on the roads this year: kind folk, soup and blankets. Nobody's that kind for nothing. A "
-            "carter told me they keep a quiet house in Ashford. Here, for your trouble, and keep your eyes open.", ("Thank you.", "@colddone")),
+            "carter told me they keep a quiet house in Puddleford. Here, for your trouble, and keep your eyes open.", ("Thank you.", "@colddone")),
         ("@colddone",), ("Update.Attribute", "ColdFireQuest", "=4"), msg("Quest complete: Cold Fire!"), ("End",),
         ("@usual",),
         say("Emberwatch: the last fort before the Cinderlands. Smoke on the wind, and ash on the bread. We call it "
@@ -718,7 +718,7 @@ def sister():
 
 
 def sheriff():
-    """Talk to Ashford_Sheriff_325 (build_estforlan's one line): and the Mending told on."""
+    """Talk to Puddleford_Sheriff_325 (build_estforlan's one line): and the Mending told on."""
     say = lambda text, *a: K.say("Sheriff", text, *a)               # noqa: E731
     return [
         get("GreyQuest", 1), (">Conditional", "$Variable.1=4", "@usual"),
@@ -822,7 +822,7 @@ def great_shard():
             "It won't hurt.\"\\You know those words. They were in her letter, and the Shard is giving them back to "
             "you, out of order.", ("Step back.", "@back")),
         ("@back",), ("Update.Attribute", "GreyQuest", "=4"),
-        msg("Now you know what the Mending wants. Sheriff Flo in Ashford should hear of it, or Sister Linnet would "
+        msg("Now you know what the Mending wants. Sheriff Flo in Puddleford should hear of it, or Sister Linnet would "
             "be glad of your silence."), ("End",),
         ("@heard",), (">Conditional", "$Attr.HeartChoice=3", "@hum"),
         cyan("It's quiet. Something in it is still listening, but it's got nothing left to say."), ("End",),
@@ -840,13 +840,13 @@ def house_shard():
 
 
 def amos():
-    """Talk to Wardhaven_Priest_309 (build_estforlan's one line): and what goes on under his floor."""
+    """Talk to Sulkhaven_Priest_309 (build_estforlan's one line): and what goes on under his floor."""
     say = lambda text, *a: K.say("Villager", text, *a)              # noqa: E731
     return [
         get("EldestQuest", 1), (">Conditional", "$Variable.1=0", "@asked"),
         (">Conditional", "$Attr.GalaithQuest>=2", "@plain"),
         (">Quest.Can.Start", "EldestQuest", "@uneasy"),
-        say("Amos keeps his voice down. \"Since the dragon died, folk have come back to Wardhaven, and I'm glad of "
+        say("Amos keeps his voice down. \"Since the dragon died, folk have come back to Sulkhaven, and I'm glad of "
             "every one. But those two Sisters in grey...\"\\\"They pray with the rest, kind as you like. And at night "
             "they go down under my chapel floor. There's a stair there I never knew of, and singing under it, and "
             "I've been priest here thirty years.\"\\\"Would you go down and see? I'm too old, and I'm afraid.\"",
@@ -854,7 +854,7 @@ def amos():
         ("@start",), ("Update.Attribute", "EldestQuest", "=1"),
         msg("Quest started: The Eldest of the Mending.", sound="Quest"), ("End",),
         ("@uneasy",),
-        say("Welcome to Wardhaven's church. All are welcome here.\\Amos looks over at the two Sisters in grey, and "
+        say("Welcome to Sulkhaven's church. All are welcome here.\\Amos looks over at the two Sisters in grey, and "
             "doesn't say any more.", ("Thank you.", "@end")),
         ("End",),
         ("@asked",), (">Conditional", "$Variable.1<3", "@after"),
@@ -867,7 +867,7 @@ def amos():
         ("@kept",), say("It's quiet under the floor now. Mostly. Some nights I'd swear there's still singing.",
                         ("Goodbye.", "@end")),
         ("End",),
-        ("@plain",), say("Welcome to Wardhaven's church. All are welcome here.", ("Thank you.", "@end")),
+        ("@plain",), say("Welcome to Sulkhaven's church. All are welcome here.", ("Thank you.", "@end")),
         ("@end",), ("End",),
     ]
 
@@ -971,7 +971,7 @@ def wayfarer():
 
 
 def penitent(n):
-    """Talk to Chapel_Penitent_N: two of the Mending, home in Wardhaven's chapel once the great Shard's broken."""
+    """Talk to Chapel_Penitent_N: two of the Mending, home in Sulkhaven's chapel once the great Shard's broken."""
     say = lambda text, *a: K.say("Mending_Sister", text, *a)        # noqa: E731
     if n == 1:
         return [say("Sister Hesper kneels on the cold floor, a plain wooden bead in her hands where the Shard used to "
@@ -985,7 +985,7 @@ def penitent(n):
 
 
 def caels_lines():
-    return [K.say("Caels_Lines", "In Cael's hand, for Annis of Ashford:\\I heard my mother in the fire, and she told "
+    return [K.say("Caels_Lines", "In Cael's hand, for Annis of Puddleford:\\I heard my mother in the fire, and she told "
                                  "me to feed it. It said what I wanted to hear, because that's all it can do. It "
                                  "doesn't know you. It only knows what you miss.", ("Fold it away.", "@end")),
             ("@end",), ("End",)]
@@ -1006,14 +1006,14 @@ def scripts():
     w("Read Caels_Lines", caels_lines())
     w("Talk to Sister_Linnet", linnet())
     w("Talk to Mending_Sister", sister())
-    w("Talk to Ashford_Sheriff_325", sheriff())
+    w("Talk to Puddleford_Sheriff_325", sheriff())
     w("Mending Sermon", sermon())
     w("Pour Shards Hall_Font", font())
     w("Kill Font_Keeper", font_keeper())
     w("Mending Sanctum", sanctum())
     w("Listen Hall_Great_Shard", great_shard())
     w("Listen House_Shard", house_shard())
-    w("Talk to Wardhaven_Priest_309", amos())
+    w("Talk to Sulkhaven_Priest_309", amos())
     w("Eldest Sanctum", eldest_meets())
     w("Kill The_Eldest", eldest_dies())
     w("Listen Eldest_Great_Shard", eldest_shard())

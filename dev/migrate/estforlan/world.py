@@ -1,5 +1,5 @@
 """The new mainland put together, in order: the land; the lifted quest places set down; Galaith's walls, field and
-pass; Wardhaven's bridge and gate; the settlements, biggest first (each with its port or dock if it's on a coast);
+pass; Sulkhaven's bridge and gate; the settlements, biggest first (each with its port or dock if it's on a coast);
 the roads between them; the old towns' people in their new homes; the wild creatures and the fish."""
 import time
 
@@ -12,8 +12,8 @@ import settlements as S
 import ways as W
 import life
 
-ORDER = ["Galaith", "Northport", "Keep", "Court", "Ravensgate", "Fenwick", "Ashford", "Highwatch", "Frosthold",
-         "Wardhaven", "Oakhollow", "Thornwick", "Emberwatch", "Greyford", "Wildwood", "Dunerest", "Saltmarsh"]
+ORDER = ["Galaith", "Drizzleport", "Keep", "Court", "Crowgate", "Fenwick", "Puddleford", "Squintwatch", "Chillingham",
+         "Sulkhaven", "Acornby", "Nettlewick", "Emberwatch", "Dullford", "Wildwood", "Dunerest", "Brinebottom"]
 CITY = ("huge", "large", "medium", "small")
 
 
@@ -45,7 +45,7 @@ def cart_targets(atlas, key):
         if posh:
             out.append(("the posh end", (posh[0].door, posh[0].y2 + 1)))
         hall = [lt for lt in plan.lots if lt.kind in ("parliament", "hall")]
-        if key == "Northport":
+        if key == "Drizzleport":
             out.append(("the port", (4 * XT + 14, 4 * YT + 8)))
             if hall:
                 out.append(("the City Hall", (hall[0].door, hall[0].y2 + 1)))
@@ -69,7 +69,7 @@ def assemble(log=print):
     G.field(atlas)
     G.pass_(atlas)
     keep_w, gate_map, foot, bridge = G.wardhaven(atlas)
-    L.POIS["Wardhaven_Bridge"] = ((foot[0] // XT, foot[1] // YT), (foot[0] % XT + 1, foot[1] % YT + 1), "road")
+    L.POIS["Sulkhaven_Bridge"] = ((foot[0] // XT, foot[1] // YT), (foot[0] % XT + 1, foot[1] % YT + 1), "road")
     plans = {}
     for key in ORDER:
         spec = L.SETTLEMENTS[key]
@@ -77,7 +77,7 @@ def assemble(log=print):
         if spec.get("coast"):
             big = spec["size"] in CITY
             hooks.append(lambda p, big=big: W.harbour(atlas, p, big) and p.connect(p.harbour[0]))
-        keep = G.inside if key == "Galaith" else keep_w if key == "Wardhaven" else None
+        keep = G.inside if key == "Galaith" else keep_w if key == "Sulkhaven" else None
         plan = S.settle(atlas, key, reserved | (clear if key == "Galaith" else set()), keep=keep,
                         carts=cart_targets(atlas, key), staff=P.STAFF.get(key, ()), hooks=hooks)
         plans[key] = plan
@@ -89,7 +89,7 @@ def assemble(log=print):
         g.cells.add(c)
         g.lay(c)
         g.connect(c)
-    w = plans["Wardhaven"]
+    w = plans["Sulkhaven"]
     gate_in = (G.BRIDGE_X, min(y for (x, y) in atlas.taken if x == G.BRIDGE_X and
                                atlas.tile(x, y).startswith("City_Gate")) - 1)
     w.cells.add(gate_in)
@@ -119,7 +119,7 @@ def assemble(log=print):
     log("signposts: %d; people moved: %d" % (posts, sum(len(v) for v in rehoused.values())))
     parts_maps = {p["new"] for p in L.parts()["parts"].values()}
     log("creatures: %d, by the water: %d" % (life.populate(atlas, plans, parts_maps), life.waters(atlas, plans)))
-    seen = life.reach(atlas, plans["Northport"].centre)
+    seen = life.reach(atlas, plans["Drizzleport"].centre)
     log("out of reach, gone: %d" % life.prune(atlas, None, seen))
     cut = life.cut_off(atlas, seen)
     if cut:

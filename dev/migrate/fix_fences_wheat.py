@@ -6,7 +6,7 @@
     T's and ends where they meet (dsengine/fences.py picks the pieces; homesteads join theirs up the same way). The
     homestead's Fence is a Wood_Fence; the editor's "old wooden fence" set is gone.
   * The wheat-field tile (Wheat001, and its stubble Wheat002) is gone from the game: a field of it is ploughed earth
-    (Field001) with ripe wheat plants standing on it (Ripe_Wheat001-003, harvested one by one), as the Ashford
+    (Field001) with ripe wheat plants standing on it (Ripe_Wheat001-003, harvested one by one), as the Puddleford
     farmlands are.
 """
 import glob
