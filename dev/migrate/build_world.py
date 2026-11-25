@@ -1,4 +1,4 @@
-"""Build the expanded Shards of Ashen world: the Southlands (new maps), their scripts and data.
+"""Build the expanded Heir Apparently world: the Southlands (new maps), their scripts and data.
 
 Run:  python -I "dev\\migrate\\build_world.py"            (then validate.py, build_minimaps.py)
 Re-runnable: every file is rewritten from the definitions below, and only when its content changes.

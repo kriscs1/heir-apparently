@@ -1,4 +1,4 @@
-; Shards of Ashen in Português (Brasil). English, a tab, the same in Português (Brasil): tools/lang.py. Written by it: change lines, not their order.
+; Heir Apparently in Português (Brasil). English, a tab, the same in Português (Brasil): tools/lang.py. Written by it: change lines, not their order.
 [Language]
 Name=Português (Brasil)
 [Scripts]
@@ -7763,7 +7763,7 @@ You spot a trap set in the floor.	Você avista uma armadilha armada no chão.
 You feel a draught on your face. It's coming through the rock.	Você sente uma corrente de ar no rosto. Vem através da rocha.
 Passage	Passagem
 Story	História
-Welcome to Shards of Ashen, {1}!	Boas-vindas a Shards of Ashen, {1}!
+Welcome to Heir Apparently, {1}!	Boas-vindas an Heir Apparently, {1}!
 Press H (or F1) for your journal: what you can make and gather, quests and controls.	Aperte H (ou F1) para o seu diário: o que você pode fazer e coletar, as missões e os controles.
 The trade is off.	A troca foi cancelada.
 Inventory	Inventário
@@ -8153,20 +8153,20 @@ Lasts	Dura
 Looks	Aparência
 Thunder	Trovão
 Stolen	Roubado
-Shards of Ashen multiplayer server	Servidor multijogador de Shards of Ashen
+Heir Apparently multiplayer server	Servidor multijogador de Heir Apparently
 the game folder (Data, Maps...)	a pasta do jogo (Data, Maps...)
 %(asctime)s %(levelname)s %(name)s: %(message)s	%(asctime)s %(levelname)s %(name)s: %(message)s
-Shards of Ashen on	Shards of Ashen em
+Heir Apparently on	Heir Apparently em
 scrypt${1}${2}${3}${4}${5}	scrypt${1}${2}${3}${4}${5}
 Forwarded	Encaminhado
-A Shards of Ashen server	Um servidor de Shards of Ashen
+An Heir Apparently server	Um servidor de Heir Apparently
 Bell	Sino
 The server is down for maintenance{1}. Your game is saved: try again soon.	O servidor está em manutenção{1}. Seu jogo está salvo: tente de novo em breve.
-shards of ashen	shards of ashen
+heir apparently	heir apparently
 This server is out of date: the central server needs version {1} (this is {2}), so nobody can join until it updates.	Este servidor está desatualizado: o servidor central precisa da versão {1} (esta é a {2}), então ninguém pode entrar até ele ser atualizado.
 The maintenance is called off.	A manutenção foi cancelada.
 Origin	Origem
-Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}, Python {2} em {3}
+Heir Apparently {1}, Python {2} on {3}	Heir Apparently {1}, Python {2} em {3}
 Sent by: {1}	Enviado por: {1}
 Playing ({1} of {2}):	Jogando ({1} de {2}):
 Your friend {1} has left Brambleton.	Seu amigo {1} saiu de Brambleton.
@@ -8560,7 +8560,7 @@ Body 1	Corpo 1
 Body 2	Corpo 2
 Any colour	Qualquer cor
 {1}: any colour	{1}: qualquer cor
-Shards of Ashen	Shards of Ashen
+Heir Apparently	Heir Apparently
 Your game is saved. See you soon!	Seu jogo está salvo. Até logo!
 Open to the internet (your friends join by a link)	Aberto para a internet (seus amigos entram por um link)
 Open to the internet: sign in on the start screen first	Aberto para a internet: entre na tela inicial primeiro
@@ -8608,7 +8608,7 @@ Characters here live in your host's game, saved on their device.	Os personagens 
 This character will live on this server only.	Este personagem vai viver só neste servidor.
 Characters here live on this server only.	Os personagens aqui vivem só neste servidor.
 A copy of {1} is on this device: go back to the main menu and open Single player to find it.	Uma cópia de {1} está neste aparelho: volte ao menu principal e abra Um jogador para encontrá-la.
-A copy of {1} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.	Uma cópia de {1} foi baixada. Abra Um jogador no app Shards of Ashen e escolha o arquivo lá.
+A copy of {1} is downloaded. Open Single player in the Heir Apparently app, and choose the file there.	Uma cópia de {1} foi baixada. Abra Um jogador no app Heir Apparently e escolha o arquivo lá.
 Bring {1} here (copied from a public server)	Trazer {1} para cá (copiado de um servidor público)
 Bring a character from a file	Trazer um personagem de um arquivo
 Signed in as {1}	Conectado como {1}
@@ -8626,7 +8626,7 @@ The connection to the server was lost. Your game is saved: come back in to carry
 Can't reach the server. Trying again...	Não foi possível alcançar o servidor. Tentando de novo...
 The game has been updated. It will load again.	O jogo foi atualizado. Ele vai carregar de novo.
 {1} of {2} adventurers online.	{1} de {2} aventureiros online.
-{1} - Shards of Ashen	{1} - Shards of Ashen
+{1} - Heir Apparently	{1} - Heir Apparently
 Version {1}	Versão {1}
 You whisper to {1}: {2}	Você sussurra para {1}: {2}
 [Party] {1}: {2}	[Grupo] {1}: {2}
@@ -9052,7 +9052,7 @@ Google Play	Google Play
 Steam	Steam
 Epic	Epic
 Asking Steam...	Perguntando à Steam...
-Shards of Ashen is bought once,	Shards of Ashen é comprado uma vez,
+Heir Apparently is bought once,	Heir Apparently é comprado uma vez,
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	na Steam, no itch.io ou na Epic, e jogado de lá: inicie pela Steam, conectado à conta que o comprou.
 The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	A demo: Muddlesey, até o nível {1}. O jogo completo segue para o continente e o resto da história.
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	É comprado uma vez, para sua conta Hallisium: depois é seu em todo lugar, no app Android também.
@@ -9114,7 +9114,7 @@ Address	Endereço
 This server can't send email just now.	Este servidor não pode enviar e-mails agora.
 We've sent that address enough for one day: look in its spam folder, or try again tomorrow.	Já enviamos bastante para esse endereço por hoje: olhe na pasta de spam, ou tente de novo amanhã.
 Someone (we hope you) gave this address for the Hallisium account {1}.	Alguém (esperamos que você) informou este endereço para a conta Hallisium {1}.
-A game of Shards of Ashen	Um jogo de Shards of Ashen
+A game of Heir Apparently	Um jogo de Heir Apparently
 Unknown.	Desconhecido.
 That link has run out	Esse link expirou
 It's been used, it's more than {1} days old, or a newer one has been sent. Sign in and open your account to send another.	Ele já foi usado, tem mais de {1} dias, ou um mais novo foi enviado. Entre e abra sua conta para enviar outro.
@@ -9122,7 +9122,7 @@ Confirm your email	Confirme seu e-mail
 Use {1} for the Hallisium account {2}? We only write to it to send a code if you forget your password.	Usar {1} para a conta Hallisium {2}? Só escrevemos para ele para enviar um código se você esquecer a senha.
 Email confirmed	E-mail confirmado
 If {1}'s password is ever forgotten, we'll send a code to {2}.	Se a senha de {1} for esquecida, enviaremos um código para {2}.
-Shards of Ashen central server: accounts, the server list	Servidor central de Shards of Ashen: contas, a lista de servidores
+Heir Apparently central server: accounts, the server list	Servidor central de Heir Apparently: contas, a lista de servidores
 Use a password of at least {1} characters (not your name).	Use uma senha de pelo menos {1} caracteres (que não seja seu nome).
 Too many new accounts from here today: try again tomorrow.	Contas novas demais daqui hoje: tente de novo amanhã.
 That doesn't look like an email address.	Isso não parece um endereço de e-mail.
@@ -9197,7 +9197,7 @@ Look in that inbox for a link to confirm it.	Procure nessa caixa de entrada um l
 Sent. Look in that inbox for the link, and its spam folder.	Enviado. Procure o link nessa caixa de entrada, e na pasta de spam.
 Too many new game servers from here today.	Servidores de jogo novos demais daqui hoje.
 (none sent)	(nenhum enviado)
-Shards of Ashen: a game's log ({1}, {2})	Shards of Ashen: o log de um jogo ({1}, {2})
+Heir Apparently: a game's log ({1}, {2})	Heir Apparently: o log de um jogo ({1}, {2})
 The email didn't go: try again later.	O e-mail não foi: tente mais tarde.
 A version is numbers, like 1.0.523.	Uma versão é feita de números, como 1.0.523.
 No such character.	Personagem não encontrado.
@@ -9214,7 +9214,7 @@ a server of its own	um servidor próprio
 itch.io has no purchase made with your account's email ({1}): paste the link from your purchase's page in Account instead.	O itch.io não tem nenhuma compra feita com o e-mail da sua conta ({1}): cole o link da página da sua compra em Conta.
 itch.io doesn't know that download key.	O itch.io não conhece essa chave de download.
 Which address? python -m central.mail you@example.com	Qual endereço? python -m central.mail you@example.com
-Shards of Ashen: a test email	Shards of Ashen: um e-mail de teste
+Heir Apparently: a test email	Heir Apparently: um e-mail de teste
 The central server can send email.	O servidor central pode enviar e-mails.
 It didn't go: {1}: {2}	Não foi: {1}: {2}
 That key isn't good for this game.	Essa chave não vale para este jogo.

@@ -433,7 +433,7 @@ def load(code):
 def save(code, words, g):
     """The catalogue again: each line under the area it's in now; lines the game no longer says are let go."""
     name = NAMES.get(code, code)
-    out = ["; Shards of Ashen in %s. English, a tab, the same in %s: tools/lang.py. Written by it: change lines, not "
+    out = ["; Heir Apparently in %s. English, a tab, the same in %s: tools/lang.py. Written by it: change lines, not "
            "their order." % (name, name), "[Language]", "Name=" + name]
     area = None
     for a, en in g.all():

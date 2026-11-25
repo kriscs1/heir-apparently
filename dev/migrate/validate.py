@@ -1,4 +1,4 @@
-"""Validate the Shards of Ashen data files against dev\\Data Formats.md, including data\\Gathering.ini and
+"""Validate the Heir Apparently data files against dev\\Data Formats.md, including data\\Gathering.ini and
 data\\Quests.ini (read by the in-game Help screen) and whether every shop/craft list is opened by a script.
 
 Run:  python -I "dev\\migrate\\validate.py"  [--quiet]
@@ -57,7 +57,7 @@ def exists(path):
     return names is not None and os.path.normcase(os.path.basename(path)) in names
 
 
-KEPT_DIR = os.path.join(tempfile.gettempdir(), "ShardsOfAshen-validate")     # (on this PC, not in the game's folder)
+KEPT_DIR = os.path.join(tempfile.gettempdir(), "HeirApparently-validate")     # (on this PC, not in the game's folder)
 
 
 class Kept:

@@ -1,15 +1,15 @@
 #!/bin/sh
 # Sets up the central server (every player's account, friends, the remote games list) on a fresh Ubuntu or
-# Debian VM: Docker, the firewall, the central server, Caddy (HTTPS) and the updater, in /opt/shards-of-ashen-central.
+# Debian VM: Docker, the firewall, the central server, Caddy (HTTPS) and the updater, in /opt/heir-apparently-central.
 # Run it as root (or with sudo), after pointing the domain's DNS at the VM (or with no domain: it offers sslip.io):
 #
-#   curl -fsSL https://raw.githubusercontent.com/kriscs1/shardsofashen/main/deploy/central-setup.sh | sudo sh
+#   curl -fsSL https://raw.githubusercontent.com/kriscs1/heir-apparently/main/deploy/central-setup.sh | sudo sh
 #   (or copy this file to the VM and run: sudo sh central-setup.sh)
 #
 # Running it again is safe: it keeps your .env and the accounts, and brings everything up to date.
 set -e
-IMAGE="${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}"
-DIR="${DS_DIR:-/opt/shards-of-ashen-central}"
+IMAGE="${DS_IMAGE:-ghcr.io/kriscs1/heir-apparently:latest}"
+DIR="${DS_DIR:-/opt/heir-apparently-central}"
 
 if [ "$(id -u)" != "0" ]; then
     echo "Run this as root (sudo sh central-setup.sh)." >&2
@@ -37,13 +37,13 @@ keys=""
 for f in /root/.ssh/authorized_keys /home/*/.ssh/authorized_keys; do
     if [ -s "$f" ]; then keys=1; fi
 done
-conf=/etc/ssh/sshd_config.d/01-shards-of-ashen.conf
+conf=/etc/ssh/sshd_config.d/01-heir-apparently.conf
 if [ -z "$keys" ]; then
     echo "   (left as it was: there's no SSH key on this VM yet, and you'd be locked out. Add yours to"
     echo "   ~/.ssh/authorized_keys and run this again.)"
 elif [ -d /etc/ssh/sshd_config.d ] && grep -qi "^Include /etc/ssh/sshd_config.d" /etc/ssh/sshd_config; then
     # (01-: before the cloud's own 50-cloud-init.conf, since the first setting sshd reads is the one it keeps)
-    printf "%s\n" "# From the Shards of Ashen setup (delete this file to undo): keys only, root only with a key" \
+    printf "%s\n" "# From the Heir Apparently setup (delete this file to undo): keys only, root only with a key" \
         "PasswordAuthentication no" "KbdInteractiveAuthentication no" "PermitRootLogin prohibit-password" > "$conf"
     mkdir -p /run/sshd
     if sshd -t 2>/dev/null; then
@@ -63,7 +63,7 @@ if command -v apt-get >/dev/null 2>&1; then
     then
         # (from the journal: Debian 12 keeps no auth.log for fail2ban to read)
         printf "%s\n" "[sshd]" "enabled = true" "backend = systemd" "maxretry = 5" "bantime = 1h" \
-            > /etc/fail2ban/jail.d/shards-of-ashen.local
+            > /etc/fail2ban/jail.d/heir-apparently.local
         systemctl enable fail2ban >/dev/null 2>&1 || true
         systemctl restart fail2ban || true
         printf "%s\n" 'APT::Periodic::Update-Package-Lists "1";' 'APT::Periodic::Unattended-Upgrade "1";' \
@@ -78,6 +78,23 @@ if [ ! -f /swapfile ] && [ "$(awk '/MemTotal/ {print $2}' /proc/meminfo)" -lt 25
     echo "== A 1 GB swap file"
     fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile >/dev/null && swapon /swapfile
     echo "/swapfile none swap sw 0 0" >> /etc/fstab
+fi
+
+# (a server set up while the game was Shards of Ashen: its folder and its volumes, with everyone's progress, move over)
+old="/opt/shards-of-ashen${DIR#/opt/heir-apparently}"
+if [ -z "${DS_DIR:-}" ] && [ -d "$old" ] && [ ! -e "$DIR" ]; then
+    echo "== Moving $old to $DIR"
+    oldp=$(basename "$old")
+    newp=$(basename "$DIR")
+    (cd "$old" && docker compose down) || true
+    for v in $(docker volume ls -q --filter "label=com.docker.compose.project=$oldp"); do
+        nv="${newp}_${v#"${oldp}"_}"
+        docker volume create "$nv" > /dev/null
+        docker run --rm -v "$v":/from -v "$nv":/to alpine sh -c "cp -a /from/. /to/"
+    done
+    mv "$old" "$DIR"
+    rm -f /etc/ssh/sshd_config.d/01-shards-of-ashen.conf /etc/fail2ban/jail.d/shards-of-ashen.local
+    echo "(The old volumes are kept: docker volume rm them once it all works. Its domain in $DIR/.env is as it was.)"
 fi
 
 echo "== The central server's files in $DIR"

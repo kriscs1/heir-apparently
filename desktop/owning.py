@@ -18,7 +18,7 @@ import struct
 import sys
 import time
 
-IDENTITY = b"shardsofashen"         # (central/bought.py's STEAM_IDENTITY)
+IDENTITY = b"heirapparently"         # (central/bought.py's STEAM_IDENTITY)
 TICKET_ANSWER = 168                 # (GetTicketForWebApiResponse_t: k_iSteamUserCallbacks 100 + 68)
 TICKET_WAIT = 10                    # (seconds Steam has to give the ticket)
 APPS = ("SteamAPI_SteamApps_v008",)

@@ -49,7 +49,7 @@ def test_the_desktop_app_hosts_finds_and_stops(tmp_path, monkeypatch):
         from server import lan
         lan_port = int(os.environ["DS_LAN_PORT"])
         assert not lan.find(1.0, port=lan_port, to=("127.0.0.1",))      # (yours alone, as it starts)
-        assert os.path.exists(os.path.join(str(tmp_path), "ShardsOfAshen", "solo.db"))
+        assert os.path.exists(os.path.join(str(tmp_path), "HeirApparently", "solo.db"))
         out = [a for a in desktop.addresses() if not a.startswith("169.254.")]
 
         def reaches(address):
@@ -124,7 +124,7 @@ def pretend_steam(running=True, owns=True, restart=False, ticket=b"\x01\x02\xab"
         SteamAPI_SteamUser_v023=lambda: 5678,
         SteamAPI_ManualDispatch_Init=lambda: None,
         SteamAPI_GetHSteamPipe=lambda: 1,
-        SteamAPI_ISteamUser_GetAuthTicketForWebApi=lambda user, who: 77 if who.value == b"shardsofashen" else 0,
+        SteamAPI_ISteamUser_GetAuthTicketForWebApi=lambda user, who: 77 if who.value == b"heirapparently" else 0,
         SteamAPI_ManualDispatch_RunFrame=lambda pipe: None,
         SteamAPI_ManualDispatch_GetNextCallback=next_callback,
         SteamAPI_ManualDispatch_FreeLastCallback=lambda pipe: None)

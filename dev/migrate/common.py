@@ -1,4 +1,4 @@
-"""Shared helpers for the Shards of Ashen data migration and validation scripts.
+"""Shared helpers for the Heir Apparently data migration and validation scripts.
 
 Paths are resolved relative to this file, so the scripts can be run from anywhere:
     python -I "dev\\migrate\\migrate.py"

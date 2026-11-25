@@ -1,4 +1,4 @@
-; Shards of Ashen in 日本語. English, a tab, the same in 日本語: tools/lang.py. Written by it: change lines, not their order.
+; Heir Apparently in 日本語. English, a tab, the same in 日本語: tools/lang.py. Written by it: change lines, not their order.
 [Language]
 Name=日本語
 [Scripts]
@@ -7763,7 +7763,7 @@ You spot a trap set in the floor.	床に仕掛けられた罠を見つけた。
 You feel a draught on your face. It's coming through the rock.	顔にすきま風を感じる。岩の向こうから吹いてくる。
 Passage	抜け道
 Story	物語
-Welcome to Shards of Ashen, {1}!	Shards of Ashenへようこそ、{1}！
+Welcome to Heir Apparently, {1}!	Heir Apparentlyへようこそ、{1}！
 Press H (or F1) for your journal: what you can make and gather, quests and controls.	H（または F1）で日誌を開けます。作れる物、採れる物、クエスト、操作方法。
 The trade is off.	取引は中止になった。
 Inventory	持ち物
@@ -8153,20 +8153,20 @@ Lasts	持続
 Looks	見た目
 Thunder	雷
 Stolen	盗品
-Shards of Ashen multiplayer server	Shards of Ashen マルチプレイサーバー
+Heir Apparently multiplayer server	Heir Apparently マルチプレイサーバー
 the game folder (Data, Maps...)	ゲームのフォルダー（Data、Maps...）
 %(asctime)s %(levelname)s %(name)s: %(message)s	%(asctime)s %(levelname)s %(name)s: %(message)s
-Shards of Ashen on	Shards of Ashen：
+Heir Apparently on	Heir Apparently：
 scrypt${1}${2}${3}${4}${5}	scrypt${1}${2}${3}${4}${5}
 Forwarded	転送済み
-A Shards of Ashen server	Shards of Ashen サーバー
+An Heir Apparently server	Heir Apparently サーバー
 Bell	鐘
 The server is down for maintenance{1}. Your game is saved: try again soon.	サーバーはメンテナンス中です{1}。ゲームは保存されています。しばらくしてからもう一度お試しください。
-shards of ashen	shards of ashen
+heir apparently	heir apparently
 This server is out of date: the central server needs version {1} (this is {2}), so nobody can join until it updates.	このサーバーは古くなっています。中央サーバーにはバージョン {1} が必要です（このサーバーは {2}）。更新されるまで誰も参加できません。
 The maintenance is called off.	メンテナンスは中止になりました。
 Origin	送信元
-Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}、Python {2}（{3}）
+Heir Apparently {1}, Python {2} on {3}	Heir Apparently {1}、Python {2}（{3}）
 Sent by: {1}	送信者：{1}
 Playing ({1} of {2}):	プレイ中（{1} / {2}）：
 Your friend {1} has left Brambleton.	友人の{1}がブランブルトンを去りました。
@@ -8560,7 +8560,7 @@ Body 1	体 1
 Body 2	体 2
 Any colour	どの色でも
 {1}: any colour	{1}：どの色でも
-Shards of Ashen	Shards of Ashen
+Heir Apparently	Heir Apparently
 Your game is saved. See you soon!	ゲームは保存されました。またね！
 Open to the internet (your friends join by a link)	インターネットに公開（友人はリンクで参加）
 Open to the internet: sign in on the start screen first	インターネットに公開：先に開始画面でサインインしてください
@@ -8608,7 +8608,7 @@ Characters here live in your host's game, saved on their device.	ここのキャ
 This character will live on this server only.	このキャラクターはこのサーバーだけで生きます。
 Characters here live on this server only.	ここのキャラクターはこのサーバーだけで生きます。
 A copy of {1} is on this device: go back to the main menu and open Single player to find it.	{1}のコピーがこの端末にあります。メインメニューに戻り、シングルプレイを開くと見つかります。
-A copy of {1} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.	{1}のコピーをダウンロードしました。Shards of Ashen アプリでシングルプレイを開き、そこでファイルを選んでください。
+A copy of {1} is downloaded. Open Single player in the Heir Apparently app, and choose the file there.	{1}のコピーをダウンロードしました。Heir Apparently アプリでシングルプレイを開き、そこでファイルを選んでください。
 Bring {1} here (copied from a public server)	{1}をここへ連れてくる（公開サーバーからのコピー）
 Bring a character from a file	ファイルからキャラクターを連れてくる
 Signed in as {1}	{1}としてサインイン中
@@ -8626,7 +8626,7 @@ The connection to the server was lost. Your game is saved: come back in to carry
 Can't reach the server. Trying again...	サーバーにつながりません。再試行しています...
 The game has been updated. It will load again.	ゲームが更新されました。読み込み直します。
 {1} of {2} adventurers online.	{2} 人中 {1} 人の冒険者がオンライン。
-{1} - Shards of Ashen	{1} - Shards of Ashen
+{1} - Heir Apparently	{1} - Heir Apparently
 Version {1}	バージョン {1}
 You whisper to {1}: {2}	{1}にささやく：{2}
 [Party] {1}: {2}	[パーティー] {1}：{2}
@@ -9052,7 +9052,7 @@ Google Play	Google Play
 Steam	Steam
 Epic	Epic
 Asking Steam...	Steam に問い合わせています...
-Shards of Ashen is bought once,	Shards of Ashen は一度買えば、
+Heir Apparently is bought once,	Heir Apparently は一度買えば、
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	Steam、itch.io、Epic で遊べます。購入したアカウントでサインインして Steam から起動してください。
 The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	体験版：マドルジー、レベル {1} まで。製品版では大陸と物語の続きへ進みます。
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Hallisium アカウントで一度買えば、Android アプリを含め、どこでもあなたのものです。
@@ -9114,7 +9114,7 @@ Address	アドレス
 This server can't send email just now.	このサーバーは今メールを送れません。
 We've sent that address enough for one day: look in its spam folder, or try again tomorrow.	このアドレスには今日はもう十分送りました。迷惑メールフォルダーを確認するか、明日もう一度お試しください。
 Someone (we hope you) gave this address for the Hallisium account {1}.	誰か（あなたであることを願います）が、このアドレスを Hallisium アカウント {1} に登録しました。
-A game of Shards of Ashen	Shards of Ashen のゲーム
+A game of Heir Apparently	Heir Apparently のゲーム
 Unknown.	不明。
 That link has run out	そのリンクは期限切れです
 It's been used, it's more than {1} days old, or a newer one has been sent. Sign in and open your account to send another.	使用済みか、{1} 日以上前のものか、新しいリンクが送られています。サインインしてアカウントを開き、もう一度送ってください。
@@ -9122,7 +9122,7 @@ Confirm your email	メールを確認
 Use {1} for the Hallisium account {2}? We only write to it to send a code if you forget your password.	{1}を Hallisium アカウント {2} に使いますか？パスワードを忘れたときにコードを送る以外、このアドレスにメールすることはありません。
 Email confirmed	メールを確認しました
 If {1}'s password is ever forgotten, we'll send a code to {2}.	{1}のパスワードを忘れたときは、{2}にコードを送ります。
-Shards of Ashen central server: accounts, the server list	Shards of Ashen 中央サーバー：アカウント、サーバー一覧
+Heir Apparently central server: accounts, the server list	Heir Apparently 中央サーバー：アカウント、サーバー一覧
 Use a password of at least {1} characters (not your name).	{1} 文字以上のパスワードを使ってください（名前は不可）。
 Too many new accounts from here today: try again tomorrow.	今日はここからの新しいアカウントが多すぎます。明日もう一度お試しください。
 That doesn't look like an email address.	メールアドレスではないようです。
@@ -9197,7 +9197,7 @@ Look in that inbox for a link to confirm it.	その受信箱で確認用のリ�
 Sent. Look in that inbox for the link, and its spam folder.	送信しました。その受信箱と迷惑メールフォルダーでリンクを探してください。
 Too many new game servers from here today.	今日はここからの新しいゲームサーバーが多すぎます。
 (none sent)	（送信なし）
-Shards of Ashen: a game's log ({1}, {2})	Shards of Ashen：ゲームのログ（{1}、{2}）
+Heir Apparently: a game's log ({1}, {2})	Heir Apparently：ゲームのログ（{1}、{2}）
 The email didn't go: try again later.	メールが送れませんでした。あとでもう一度お試しください。
 A version is numbers, like 1.0.523.	バージョンは 1.0.523 のような数字です。
 No such character.	そのようなキャラクターはいません。
@@ -9214,7 +9214,7 @@ a server of its own	独自のサーバー
 itch.io has no purchase made with your account's email ({1}): paste the link from your purchase's page in Account instead.	itch.io に、アカウントのメール（{1}）での購入がありません。代わりにアカウントで購入ページのリンクを貼り付けてください。
 itch.io doesn't know that download key.	itch.io がそのダウンロードキーを知りません。
 Which address? python -m central.mail you@example.com	どのアドレス？ python -m central.mail you@example.com
-Shards of Ashen: a test email	Shards of Ashen：テストメール
+Heir Apparently: a test email	Heir Apparently：テストメール
 The central server can send email.	中央サーバーはメールを送れます。
 It didn't go: {1}: {2}	送れませんでした：{1}：{2}
 That key isn't good for this game.	そのキーはこのゲームには有効ではありません。

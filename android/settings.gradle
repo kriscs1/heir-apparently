@@ -1,4 +1,4 @@
-// Shards of Ashen for Android: the game's own server and page, on the phone (see android/README.md)
+// Heir Apparently for Android: the game's own server and page, on the phone (see android/README.md)
 pluginManagement {
     repositories {
         google()
@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "ShardsOfAshen"
+rootProject.name = "HeirApparently"
 include ":app"

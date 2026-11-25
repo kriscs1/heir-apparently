@@ -1,4 +1,4 @@
-# Shards of Ashen server. Build from the game folder:  docker build -f deploy/Dockerfile -t shards-of-ashen .
+# Heir Apparently server. Build from the game folder:  docker build -f deploy/Dockerfile -t heir-apparently .
 # Stage 1 makes web/assets (pictures, animations, music) from the game's folders; stage 2 is the server alone.
 FROM python:3.11-slim AS assets
 RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg && rm -rf /var/lib/apt/lists/*
@@ -37,7 +37,7 @@ COPY central central
 COPY tools tools
 COPY web web
 # (the server's compose file travels with the game, so a server can be set up from the image alone:
-#  docker run --rm ghcr.io/<you>/shardsofashen cat docker-compose.yml > docker-compose.yml && docker compose up -d)
+#  docker run --rm ghcr.io/<you>/heir-apparently cat docker-compose.yml > docker-compose.yml && docker compose up -d)
 COPY deploy/docker-compose.server.yml docker-compose.yml
 # (and a public cloud server's: deploy/cloud-setup.sh takes these out of the image)
 COPY deploy/docker-compose.cloud.yml cloud/docker-compose.yml
@@ -53,8 +53,8 @@ COPY deploy/docker-compose.central.yml central-deploy/docker-compose.yml
 COPY deploy/Caddyfile.central central-deploy/Caddyfile
 COPY deploy/central.env.example central-deploy/central.env.example
 COPY deploy/central-setup.sh central-deploy/central-setup.sh
-# (and Unraid's template: docker run --rm ghcr.io/<you>/shardsofashen cat unraid.xml > .../templates-user/my-ShardsOfAshen.xml)
-COPY deploy/unraid/shards-of-ashen.xml unraid.xml
+# (and Unraid's template: docker run --rm ghcr.io/<you>/heir-apparently cat unraid.xml > .../templates-user/my-HeirApparently.xml)
+COPY deploy/unraid/heir-apparently.xml unraid.xml
 COPY --from=assets /game/web/assets web/assets
 COPY deploy/entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh && mkdir -p /data && chown -R dragon:dragon /data /game/data

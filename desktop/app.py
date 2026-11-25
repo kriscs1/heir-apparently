@@ -33,7 +33,7 @@ def data_dir():
         base = os.path.expanduser("~/Library/Application Support")
     else:
         base = os.environ.get("XDG_DATA_HOME", os.path.expanduser("~/.local/share"))
-    path = os.path.join(base, "ShardsOfAshen")
+    path = os.path.join(base, "HeirApparently")
     os.makedirs(path, exist_ok=True)
     return path
 
@@ -65,7 +65,7 @@ class Host:
         if self.status not in ("off", "error"):
             return
         self.mode = mode if mode in MODES else "local"
-        self.name = name or "Shards of Ashen on " + platform.node()
+        self.name = name or "Heir Apparently on " + platform.node()
         self.status, self.error = "starting", ""
 
         def run():
@@ -270,7 +270,7 @@ def main():
     if bridge._owning.ask() == "restart":               # (the Steam build, started outside Steam: Steam starts it)
         return
     threading.Thread(target=bridge._owning.ticket_later, name="steam-ticket", daemon=True).start()
-    window = webview.create_window("Shards of Ashen", html=home_page(bridge), js_api=bridge, width=1280, height=800,
+    window = webview.create_window("Heir Apparently", html=home_page(bridge), js_api=bridge, width=1280, height=800,
                                    min_size=(800, 560))
     bridge._window = window
 
@@ -285,7 +285,7 @@ def main():
     if sys.platform == "win32":                         # (the taskbar groups it as itself, with its own icon, not Python's)
         try:
             import ctypes
-            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("Hallisium.ShardsOfAshen")
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("Hallisium.HeirApparently")
         except Exception:
             pass
     webview.start(icon=icon if os.path.exists(icon) else None)

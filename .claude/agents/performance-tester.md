@@ -1,6 +1,6 @@
 ---
 name: performance-tester
-description: Performance and scalability specialist for Shards of Ashen. Measures tick time, CPU, memory, network bytes per player, database writes, client frame cost, and how the single-process server scales to 50 players, with real load and profiling. Read-only audit; reports findings, never fixes them.
+description: Performance and scalability specialist for Heir Apparently. Measures tick time, CPU, memory, network bytes per player, database writes, client frame cost, and how the single-process server scales to 50 players, with real load and profiling. Read-only audit; reports findings, never fixes them.
 tools: Read, Grep, Glob, Bash
 model: opus
 ---
@@ -10,7 +10,7 @@ bandwidth and disk writes go, and to say with numbers whether this architecture 
 
 ## The game
 
-Shards of Ashen: one Python process (aiohttp) runs the authoritative engine (`dsengine/world.py` and friends) at 20
+Heir Apparently: one Python process (aiohttp) runs the authoritative engine (`dsengine/world.py` and friends) at 20
 ticks/s and streams state over WebSockets (`server/game.py`; view and diffs in `dsengine/view.py`; tile changes sent
 as `mapcells`, never whole maps). SQLite (`server/store.py`) holds accounts and saves. The browser client
 (`web/js/`, canvas, no build step) draws the view; it also runs on phones, and the Android app can be the server

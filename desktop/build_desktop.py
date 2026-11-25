@@ -1,4 +1,4 @@
-"""Makes the desktop app a program of its own (PyInstaller): dist/ShardsOfAshen/ShardsOfAshen(.exe), with everything it
+"""Makes the desktop app a program of its own (PyInstaller): dist/HeirApparently/HeirApparently(.exe), with everything it
 needs beside it: the game's data, maps and pictures, the page, the server (to host a game), and the start screen.
 web/assets must be made first (tools/export_web_assets.py).
 
@@ -25,8 +25,8 @@ CARRIED = ["data", "maps", "sprites", "web", "server", "dsengine", "ashen", "VER
 def main():
     if not os.path.isdir(os.path.join(ROOT, "web", "assets")):
         sys.exit("web/assets is missing: run python -I tools/export_web_assets.py first")
-    work = os.path.join(tempfile.gettempdir(), "ShardsOfAshen-build")   # (its half-made exe can't run: kept out of sight)
-    args = [sys.executable, "-m", "PyInstaller", "--noconfirm", "--windowed", "--name", "ShardsOfAshen",
+    work = os.path.join(tempfile.gettempdir(), "HeirApparently-build")   # (its half-made exe can't run: kept out of sight)
+    args = [sys.executable, "-m", "PyInstaller", "--noconfirm", "--windowed", "--name", "HeirApparently",
             "--distpath", os.path.join(ROOT, "dist"), "--workpath", work, "--specpath", work,
             "--collect-all", "aiohttp", "--collect-all", "webview", "--hidden-import", "sqlite3"]
     for item in CARRIED:
@@ -53,7 +53,7 @@ def main():
     args.append(os.path.join(HERE, "app.py"))
     print(" ".join(args[:6]) + " ...")
     subprocess.check_call(args, cwd=ROOT)
-    print("Made dist/ShardsOfAshen/" + (" for " + store if store else ""))
+    print("Made dist/HeirApparently/" + (" for " + store if store else ""))
 
 
 if __name__ == "__main__":

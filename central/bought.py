@@ -26,7 +26,7 @@ PLAY_API = "https://androidpublisher.googleapis.com/androidpublisher/v3"
 PLAY_SCOPE = "https://www.googleapis.com/auth/androidpublisher"
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 STEAM_API = "https://partner.steam-api.com"
-STEAM_IDENTITY = "shardsofashen"    # (what the desktop app's ticket is asked for: GetAuthTicketForWebApi's identity)
+STEAM_IDENTITY = "heirapparently"    # (what the desktop app's ticket is asked for: GetAuthTicketForWebApi's identity)
 ITCH_API = "https://itch.io/api/1"
 STORES = ("play", "steam", "itch")
 _play_token = {}                    # (scope: [a Google API's access token, when it runs out])
@@ -151,7 +151,7 @@ async def play(proof):
     token = str(proof.get("token", ""))[:600]
     if not token or any(not (ch.isascii() and (ch.isalnum() or ch in "._-")) for ch in token):
         raise Refused("That isn't a Google Play purchase.")    # (nothing that would make another address: "../")
-    package = env("DS_PLAY_PACKAGE", "io.github.kriscs1.shardsofashen")
+    package = env("DS_PLAY_PACKAGE", "io.github.kriscs1.heirapparently")
     url = "%s/applications/%s/purchases/products/%s/tokens/%s" % (PLAY_API, package, env("DS_FULL_PRODUCT", "full_game"),
                                                                   token)
     auth = {"Authorization": "Bearer " + await play_token()}
@@ -169,7 +169,7 @@ async def play(proof):
 async def play_voided(since):
     """The purchase tokens Google Play has voided (refunded, charged back, cancelled) since then (seconds), every page
     of them: a refund takes the full game back (app.py recheck_refunds). Refused if Play can't be asked."""
-    package = env("DS_PLAY_PACKAGE", "io.github.kriscs1.shardsofashen")
+    package = env("DS_PLAY_PACKAGE", "io.github.kriscs1.heirapparently")
     url = "%s/applications/%s/purchases/voidedpurchases" % (PLAY_API, package)
     auth = {"Authorization": "Bearer " + await play_token()}
     params, out = {"startTime": str(int(since * 1000)), "maxResults": "1000"}, []

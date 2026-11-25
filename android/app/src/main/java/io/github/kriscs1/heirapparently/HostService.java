@@ -1,4 +1,4 @@
-package io.github.kriscs1.shardsofashen;
+package io.github.kriscs1.heirapparently;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -56,7 +56,7 @@ public class HostService extends Service {
         central = c == null ? "" : c.trim();
         String k = intent != null ? intent.getStringExtra("hostKey") : null;
         hostKey = k == null ? "" : k;
-        name = wanted == null || wanted.trim().isEmpty() ? "Shards of Ashen on " + Build.MODEL : wanted.trim();
+        name = wanted == null || wanted.trim().isEmpty() ? "Heir Apparently on " + Build.MODEL : wanted.trim();
         error = "";
         status = "unpacking";
         foreground("Starting " + name + "...");
@@ -114,13 +114,13 @@ public class HostService extends Service {
     private void hold() {
         // (the phone stays awake and on its Wi-Fi while it hosts, and hears the network's "who's there?")
         PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-        wake = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "shardsofashen:host");
+        wake = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "heirapparently:host");
         wake.acquire();
         WifiManager wm = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         if (wm != null) {
-            wifi = wm.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "shardsofashen:host");
+            wifi = wm.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "heirapparently:host");
             wifi.acquire();
-            multicast = wm.createMulticastLock("shardsofashen:find");
+            multicast = wm.createMulticastLock("heirapparently:find");
             multicast.acquire();
         }
     }
@@ -144,7 +144,7 @@ public class HostService extends Service {
         PendingIntent open = PendingIntent.getActivity(this, 0, new Intent(this, MainActivity.class), im);
         PendingIntent stop = PendingIntent.getService(this, 1, new Intent(this, HostService.class).setAction(STOP), im);
         Notification n = b.setSmallIcon(R.drawable.ic_stat_host)
-            .setContentTitle("Hosting Shards of Ashen")
+            .setContentTitle("Hosting Heir Apparently")
             .setContentText(text)
             .setContentIntent(open)
             .setOngoing(true)

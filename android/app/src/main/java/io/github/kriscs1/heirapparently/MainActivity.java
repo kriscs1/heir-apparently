@@ -1,4 +1,4 @@
-package io.github.kriscs1.shardsofashen;
+package io.github.kriscs1.heirapparently;
 
 import android.Manifest;
 import android.app.Activity;

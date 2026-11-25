@@ -1,15 +1,15 @@
 @echo off
 rem Once: links this folder to your GitHub repository and sends everything there.
-rem First make the repository on github.com: + (top right) > New repository > name it (e.g. shardsofashen) >
+rem First make the repository on github.com: + (top right) > New repository > name it (e.g. heir-apparently) >
 rem Public or Private > Create (no README). Then run this and paste its address.
-title Shards of Ashen: link to GitHub
+title Heir Apparently: link to GitHub
 cd /d "%~dp0"
 git remote get-url origin >nul 2>&1 && (
     echo This folder is already linked to:
     git remote get-url origin
     goto :end
 )
-echo Paste your repository's address (like https://github.com/yourname/shardsofashen.git) and press Enter:
+echo Paste your repository's address (like https://github.com/yourname/heir-apparently.git) and press Enter:
 set /p REPO=
 if "%REPO%"=="" goto :end
 git remote add origin %REPO% || goto :failed

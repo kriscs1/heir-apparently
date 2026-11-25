@@ -40,7 +40,7 @@ TALKING = ("/p ", "/party ", "/r ", "/reply ", "/w ", "/whisper ", "/tell ", "/m
 
 
 BACKLOG = 100           # messages a connection may fall behind (5 s of ticks) before it's let go: a slow one
-UNNAMED = "A Shards of Ashen server"    # (a remote server nobody's named: DS_NAME, or Options)
+UNNAMED = "An Heir Apparently server"    # (a remote server nobody's named: DS_NAME, or Options)
 MOST_CHARACTERS = 5     # (an account's, or a device's, on one server)
 LOG_LINES = 2000        # (the log's last lines kept in memory: Options' Send log)
 LOG_LINE = 4000         # (characters of a line kept: a traceback, whole; a header someone made long, not)
@@ -423,7 +423,7 @@ class GameServer:
             return named
         if self.remote():
             return UNNAMED
-        return "Shards of Ashen on " + socket.gethostname()
+        return "Heir Apparently on " + socket.gethostname()
 
     def pvp_open(self):
         """Open PvP: players may fight outside the arena (dsengine/pvp.py). An admin's /pvp, else DS_PVP (off)."""
@@ -599,7 +599,7 @@ class GameServer:
         return (addr or "") in self.LOCAL or (addr or "").startswith("127.")
 
     RESERVED = {"admin", "administrator", "moderator", "mod", "server", "system", "gm", "staff", "support",
-                "owner", "shards of ashen"}
+                "owner", "heir apparently"}
 
     @staticmethod
     def client_addr(request):
@@ -819,7 +819,7 @@ class GameServer:
         """The game as it is now, at the top of a log sent to support: what it's running, how it's keeping up, who's
         where (a problem's often about a place)."""
         up = int(time.time() - self.up_since)
-        lines = ["Shards of Ashen %s, Python %s on %s" % (self.version.get("version", "?"), platform.python_version(),
+        lines = ["Heir Apparently %s, Python %s on %s" % (self.version.get("version", "?"), platform.python_version(),
                                                            platform.platform(terse=True)),
                  "Kind: %s; up %dh %02dm; a tick takes %.1f ms (of %d); saved %d s ago" % (
                      self.reporter.about()["kind"], up // 3600, up % 3600 // 60, self.tick_ms, TICK * 1000,

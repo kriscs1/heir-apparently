@@ -1,4 +1,4 @@
-# Shards of Ashen: the rules in full
+# Heir Apparently: the rules in full
 
 The owner's rules for the story, the game, its look and sound, and how code and data are written: everything that
 must stay consistent. `CLAUDE.md` holds what applies to every change and says which section here to read for a
@@ -749,14 +749,15 @@ that isn't in the game.
 
 - The world is a **planet**, and the map is only a small part of it: the kingdom of Brambleton and Muddlesey. The
   planet is **never named** anywhere in the game.
-- The game is **Shards of Ashen** (the page, the app, the docs), the kingdom **Brambleton** (it was Galmere, Ashen and Estforlan before that; `rename_brambleton.py`), and the
+- The game is **Heir Apparently** (the page, the app, the docs; it was Shards of Ashen, `rename_heir_apparently.py`), the kingdom **Brambleton** (it was Galmere, Ashen and Estforlan before that; `rename_brambleton.py`), and the
   port city **Drizzleport** (it was Southport, then Northport). The towns' names are a little funny, never too
   obviously, and a few are plain (`rename_towns.py` has the old names); the Isle is **Muddlesey** in what's said (its
   Ids still say Isle). Everything else is named for the game too
-  (`dev/migrate/rename_shards_of_ashen.py`): the GitHub repository `kriscs1/shardsofashen`, the Docker image
-  `ghcr.io/kriscs1/shardsofashen`,
-  the Python package `ashen/`, the database `ashen.db` (an old `dragonsword.db` beside it is moved over as the server
-  starts), the Android app `io.github.kriscs1.shardsofashen`, and "Shards of Ashen Editor.py". Not the weapon (the
+  (`dev/migrate/rename_heir_apparently.py`): the GitHub repository `kriscs1/heir-apparently`, the Docker image
+  `ghcr.io/kriscs1/heir-apparently`, the folders, compose projects and Unraid template `heir-apparently`. The Python
+  package `ashen/` and the database `ashen.db` keep the cult's word (an old `dragonsword.db` beside it is moved over as
+  the server starts). The Android app is `io.github.kriscs1.heirapparently`, the editor "Heir Apparently Editor.py";
+  the central server `https://heir-apparently.hallisium.com`. Not renamed: the weapon (the
   Dragon Sword, `Dragon_Sword`) or `dsengine/`, `dsedit/` and the `DS_` settings. The builders keep `estforlan` in their
   file names. Drizzleport's Ids, scripts, shardstone and builders' town key are Drizzleport too (`Drizzleport_Square`,
   `Waystone.Drizzleport`: `dev/migrate/rename_northport.py`; a save's `Waystone.Southport` is read as Drizzleport's,
@@ -961,7 +962,7 @@ that isn't in the game.
   the Android app's `DSApp.signedIn` for its autofill, and the form taken off the page, never its password emptied
   first, which is how Firefox, Safari and the rest know it worked).
   Joining takes a ticket from the central server made out to that server's id. **The central server is
-  `https://shardsofashen.hallisium.com`** (`web/home/config.js`, a cloud server's `DS_CENTRAL`); `deploy/central-setup.sh`
+  `https://heir-apparently.hallisium.com`** (`web/home/config.js`, a cloud server's `DS_CENTRAL`); `deploy/central-setup.sh`
   sets one up on a VM in one line.
 - **No ads, anywhere** (the owner's decision, 14 November 2026): not on the start screen, in a game, in a browser or
   in either app; no ad SDK in the Android app (no AdMob, no advertising ID), no AdSense, no house ads, nothing paid

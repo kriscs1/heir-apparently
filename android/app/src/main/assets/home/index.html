@@ -11,7 +11,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Shards of Ashen</title>
+<title>Heir Apparently</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <script src="config.js"></script>
 <script src="translate.js"></script>
@@ -166,7 +166,7 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
 
 <!-- ----- 1. your Hallisium account -->
 <section id="welcome" class="fade">
-  <img class="logo" src="logo.png" alt="Shards of Ashen" width="496" height="212">
+  <img class="logo" src="logo.png" alt="Heir Apparently" width="736" height="256">
   <div class="panel signin">
     <div class="row" style="justify-content:center;margin:-2px 0 12px"><span id="central-status" class="status">
       <span class="dot"></span><span id="central-words">Connecting...</span></span></div>
@@ -211,7 +211,7 @@ footer a, footer button.link { color: var(--dim); font-size: 13px; }
 <!-- ----- 2. the menu -->
 <section id="main" hidden>
   <div class="bar">
-    <img class="logo small" src="logo.png" alt="Shards of Ashen" width="496" height="212">
+    <img class="logo small" src="logo.png" alt="Heir Apparently" width="736" height="256">
     <span class="grow"></span>
     <span id="menu-status" class="status"><span class="dot"></span><span id="menu-status-words"></span></span>
     <button id="options-open" class="chip" type="button"><span class="face gear"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M7 1h2v2h1V2h2v2h-1v1h2v2h1v2h-1v2h-2v1h1v2h-2v-1H9v2H7v-2H6v1H4v-2h1v-1H3V9H1V7h2V5h2V4H4V2h2v1h1zM7 6v4h2V6z"/></svg></span>Options</button>
@@ -741,7 +741,7 @@ function showPcOwning() {
     $("owning-words").textContent = "Asking Steam...";
     showOwning.timer = setTimeout(showOwning, 500);
   } else if (has === false) {
-    $("owning-words").textContent = (app.notOwned ? app.notOwned() + " " : "") + "Shards of Ashen is bought once, " +
+    $("owning-words").textContent = (app.notOwned ? app.notOwned() + " " : "") + "Heir Apparently is bought once, " +
       "on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.";
   }
   const was = showOwning.locked;

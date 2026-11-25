@@ -309,7 +309,7 @@ def design(client, kind, k, voices):
     os.makedirs(os.path.join(DIR, kind), exist_ok=True)               # (kind: its key, es/Man for another language's)
     with open(os.path.join(DIR, kind, "_voice_preview.mp3"), "wb") as f:
         f.write(base64.b64decode(pv.audio_base_64))
-    made = client.text_to_voice.create(voice_name="Shards of Ashen - " + kind, voice_description=k["voice"],
+    made = client.text_to_voice.create(voice_name="Heir Apparently - " + kind, voice_description=k["voice"],
                                        generated_voice_id=pv.generated_voice_id)
     voices[kind] = {"voice_id": made.voice_id, "description": k["voice"], "design_model": DESIGN_MODEL, "seed": SEED,
                     "designed": now()}

@@ -1,4 +1,4 @@
-# The desktop app (desktop/): a Windows program (dist/ShardsOfAshen, zipped) from every push to main, the same start
+# The desktop app (desktop/): a Windows program (dist/HeirApparently, zipped) from every push to main, the same start
 # screen and choices as the Android app. It carries the whole game, to host one here.
 name: Build the desktop app
 
@@ -37,5 +37,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: ShardsOfAshen-Windows
-          path: dist/ShardsOfAshen
+          name: HeirApparently-Windows
+          path: dist/HeirApparently

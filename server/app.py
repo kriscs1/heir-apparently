@@ -64,8 +64,8 @@ def make_app(root, db_path, max_players=5, registration="open", invite_code="", 
         # (a start screen asking who this is before it joins by address: its id for the ticket, its name; a remote server
         # is never joined by address, so it says only that)
         if game.remote():
-            return web.json_response({"game": "shardsofashen", "remote": True}, headers={"Access-Control-Allow-Origin": "*"})
-        return web.json_response({"game": "shardsofashen", "id": game.server_id(), "name": game.server_name(),
+            return web.json_response({"game": "heirapparently", "remote": True}, headers={"Access-Control-Allow-Origin": "*"})
+        return web.json_response({"game": "heirapparently", "id": game.server_id(), "name": game.server_name(),
                                   "online": len(game.world.sessions), "max": game.max_players,
                                   "central": bool(game.central_url())},
                                  headers={"Access-Control-Allow-Origin": "*"})
@@ -107,8 +107,8 @@ def make_app(root, db_path, max_players=5, registration="open", invite_code="", 
         # (the answer to "who's there?" on the network: nothing while it's closed to the network)
         if not game.lan_open:
             return None
-        return {"game": "shardsofashen", "id": game.server_id(), "name": game.store.setting("name", "") or name or
-                "Shards of Ashen on " + socket.gethostname(), "port": port,
+        return {"game": "heirapparently", "id": game.server_id(), "name": game.store.setting("name", "") or name or
+                "Heir Apparently on " + socket.gethostname(), "port": port,
                 "online": len(game.world.sessions), "max": game.max_players, "version": game.version["version"]}
 
     async def announcing():
@@ -174,7 +174,7 @@ def make_app(root, db_path, max_players=5, registration="open", invite_code="", 
 
 def main():
     import argparse
-    p = argparse.ArgumentParser(description="Shards of Ashen multiplayer server")
+    p = argparse.ArgumentParser(description="Heir Apparently multiplayer server")
     root_default = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     p.add_argument("--root", default=os.environ.get("DS_ROOT", root_default), help="the game folder (Data, Maps...)")
     p.add_argument("--db", default=os.environ.get("DS_DB", os.path.join(root_default, "server-data", "ashen.db")))
@@ -191,7 +191,7 @@ def main():
     app = make_app(args.root, args.db, args.max_players, args.registration, args.invite, args.admins,
                    name=os.environ.get("DS_NAME", ""), port=args.port)
     settle()
-    log.info("Shards of Ashen %s on http://%s:%d (up to %d players)", app[GAME].version["version"], args.host, args.port,
+    log.info("Heir Apparently %s on http://%s:%d (up to %d players)", app[GAME].version["version"], args.host, args.port,
              args.max_players)
     if app[GAME].remote() and app[GAME].server_name() == UNNAMED:
         log.warning("This server has no name: set DS_NAME (Unraid: \"Server name\"), or name it in Options as an admin")

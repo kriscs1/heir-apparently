@@ -6,11 +6,11 @@
 # .env (from cloud.env.example) in one folder, then "docker compose up -d".
 #
 # Settings go in .env beside this file (see cloud.env.example): DS_DOMAIN is the one you must set.
-name: shards-of-ashen
+name: heir-apparently
 
 services:
   game:
-    image: ${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}
+    image: ${DS_IMAGE:-ghcr.io/kriscs1/heir-apparently:latest}
     restart: unless-stopped
     logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     environment:
@@ -70,7 +70,7 @@ services:
         echo "Checking for updates every $$DS_UPDATE_SECONDS seconds";
         while true; do
           sleep "$$DS_UPDATE_SECONDS";
-          if docker compose -p shards-of-ashen pull -q game; then docker compose -p shards-of-ashen up -d game; fi; docker image prune -f > /dev/null;
+          if docker compose -p heir-apparently pull -q game; then docker compose -p heir-apparently up -d game; fi; docker image prune -f > /dev/null;
         done
 
 volumes:

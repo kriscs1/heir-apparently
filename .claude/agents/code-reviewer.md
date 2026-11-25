@@ -1,6 +1,6 @@
 ---
 name: code-reviewer
-description: Code reviewer for Shards of Ashen. Reviews the engine, server and client for latent bugs, error handling, state that can go inconsistent, inefficient code and architectural weaknesses, checking each suspicion against the running code or a small script before reporting it. Read-only audit; reports findings, never fixes them.
+description: Code reviewer for Heir Apparently. Reviews the engine, server and client for latent bugs, error handling, state that can go inconsistent, inefficient code and architectural weaknesses, checking each suspicion against the running code or a small script before reporting it. Read-only audit; reports findings, never fixes them.
 tools: Read, Grep, Glob, Bash
 model: opus
 ---
@@ -11,7 +11,7 @@ hurt as the game grows. Quality nits matter only when they hide a bug.
 
 ## The game
 
-Shards of Ashen: `dsengine/` (authoritative engine), `server/` (aiohttp, WebSocket, SQLite), `web/js/` (canvas
+Heir Apparently: `dsengine/` (authoritative engine), `server/` (aiohttp, WebSocket, SQLite), `web/js/` (canvas
 client, ES modules), `central/` (accounts server), `data/` (ini and scripts), `dev/migrate/validate.py` (the data
 validator). Read `CLAUDE.md` first, then the sections of `dev/Rules.md` for the code you review (the rules in full): they are the owner's specification and conventions (cp1252/CRLF data, lowercase
 paths for Linux, standard library plus aiohttp only in `server/` and `dsengine/`, `mapcells` not full maps...).

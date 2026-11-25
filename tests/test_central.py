@@ -73,7 +73,7 @@ async def ticket_in(http, url, ticket, name="Wanderer", device="a phone"):
 
 def test_every_self_hosted_template_offers_the_central_server():
     """A setting a template leaves out can't be turned on there (Unraid's had none of them)."""
-    for name in ("unraid/shards-of-ashen.xml", "docker-compose.yml", "docker-compose.server.yml",
+    for name in ("unraid/heir-apparently.xml", "docker-compose.yml", "docker-compose.server.yml",
                  "docker-compose.cloud.yml", "docker-compose.worlds.yml"):
         with open(os.path.join(ROOT, "deploy", name), encoding="utf-8") as f:
             text = f.read()
@@ -575,9 +575,9 @@ def test_a_new_account_with_an_email_is_welcomed(tmp_path, monkeypatch):
         finally:
             await crunner.cleanup()
     asyncio.run(go())
-    monkeypatch.setenv("DS_SMTP_FROM", "Shards of Ashen <shardsofashen@hallisium.com>")
+    monkeypatch.setenv("DS_SMTP_FROM", "Heir Apparently <heir-apparently@hallisium.com>")
     msg = mail.message("you@example.com", "A subject", "Words.\n")
-    assert msg["From"] == "Shards of Ashen <shardsofashen@hallisium.com>" and msg["Date"]
+    assert msg["From"] == "Heir Apparently <heir-apparently@hallisium.com>" and msg["Date"]
     assert msg["Message-ID"].endswith("@hallisium.com>")
 
 
@@ -689,7 +689,7 @@ def test_one_account_for_every_game_and_the_remote_list(tmp_path, monkeypatch, c
                 assert listed and listed[0]["key"] == game.server_id() and listed[0]["name"] == "Kris's World"
                 assert "url" not in listed[0]                            # (a ticket brings it, to those signed in)
                 info = await (await http.get("http://127.0.0.1:%d/api/info" % gport)).json()
-                assert info == {"game": "shardsofashen", "remote": True}  # (never joined by its address)
+                assert info == {"game": "heirapparently", "remote": True}  # (never joined by its address)
 
                 assert (await post(http, central + "/api/me", {"token": token}))["name"] == "Wanderer"
                 here = "https://play.example.com"
@@ -1894,7 +1894,7 @@ def test_an_app_opens_google_in_a_real_browser():
     with open(os.path.join(ROOT, "web", "home", "index.html"), encoding="utf-8") as f:
         page = f.read()
     assert 'id="google"' in page and "app.openLink(url)" in page and "/auth/google?to=app" in page
-    with open(os.path.join(ROOT, "android", "app", "src", "main", "java", "io", "github", "kriscs1", "shardsofashen",
+    with open(os.path.join(ROOT, "android", "app", "src", "main", "java", "io", "github", "kriscs1", "heirapparently",
                            "MainActivity.java"), encoding="utf-8") as f:
         android = f.read()
     assert "public void openLink(String url)" in android and "ACTION_VIEW" in android
@@ -2260,7 +2260,7 @@ def test_the_admin_page_is_told_to_keep_to_itself(tmp_path):
 def test_looking_for_games_survives_a_shut_port(monkeypatch):
     """Windows tells a UDP socket about a port that was shut as an error on its next read: the rest may still answer."""
     from server import lan
-    answers = [ConnectionResetError(10054, "reset"), (json.dumps({"game": "shardsofashen", "name": "Found"}).encode(), ("1.2.3.4", 1))]
+    answers = [ConnectionResetError(10054, "reset"), (json.dumps({"game": "heirapparently", "name": "Found"}).encode(), ("1.2.3.4", 1))]
 
     class Sock:
         def __init__(self, *a):
@@ -2388,7 +2388,7 @@ class PretendStores:
             self.acknowledged.append(token.split(":")[0])
             return web.json_response({})
         assert request.match_info["product"] == "full_game"
-        assert request.match_info["pkg"] == "io.github.kriscs1.shardsofashen"
+        assert request.match_info["pkg"] == "io.github.kriscs1.heirapparently"
         if token not in self.play:
             return web.json_response({"error": {"code": 400}}, status=400)
         return web.json_response(self.play[token])
@@ -2403,7 +2403,7 @@ class PretendStores:
 
     async def steam_who(self, request):
         q = request.query
-        assert q["key"] == "steam-key" and q["appid"] == "480" and q["identity"] == "shardsofashen"
+        assert q["key"] == "steam-key" and q["appid"] == "480" and q["identity"] == "heirapparently"
         if q["ticket"] not in self.steam:
             return web.json_response({"response": {"error": {"errorcode": 101}}})
         me, owner, _ = self.steam[q["ticket"]]

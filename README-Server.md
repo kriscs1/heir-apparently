@@ -1,4 +1,4 @@
-# Shards of Ashen in the browser
+# Heir Apparently in the browser
 
 Up to five players share one world from any modern browser. The game runs on the server, which keeps everything:
 accounts, characters and the shared world (SQLite).
@@ -11,7 +11,7 @@ accounts, characters and the shared world (SQLite).
 | `tools/` | `export_web_assets.py`, `admin.py` (whose characters are, admins, backups), `bot.py` (test players), `browser_check.py` |
 | `deploy/` | Docker, docker-compose with Caddy (HTTPS), a systemd unit |
 | `android/` | The Android app: hosts a game on the phone for the network, or joins one (`android/README.md`) |
-| `dsedit/` | The editor (`Shards of Ashen Editor.py`): F5 plays your changes in the browser, on a local server |
+| `dsedit/` | The editor (`Heir Apparently Editor.py`): F5 plays your changes in the browser, on a local server |
 | `ashen/` | Helpers shared by the server, the editor and the tools (the desktop game itself is retired) |
 
 ## Playing locally
@@ -244,37 +244,38 @@ An admin can give a character to an account: `tools/admin.py owner <Name> <Accou
 
 ## The server: Unraid (or any Linux)
 
-Each **Publish Update** sends your changes to https://github.com/kriscs1/shardsofashen. GitHub tests them and builds
-the server image, `ghcr.io/kriscs1/shardsofashen`; you can watch it in the repository's **Actions** tab. The server
+Each **Publish Update** sends your changes to https://github.com/kriscs1/heir-apparently. GitHub tests them and builds
+the server image, `ghcr.io/kriscs1/heir-apparently`; you can watch it in the repository's **Actions** tab. The server
 downloads the new image and restarts the game with it. Everyone's progress is kept through every update.
 
 Once, before the first install: when the first build is green, check that the image is public, so the server can
-download it without signing in. Go to https://github.com/users/kriscs1/packages/container/shardsofashen/settings: if
+download it without signing in. Go to https://github.com/users/kriscs1/packages/container/heir-apparently/settings: if
 it says Private, **Change visibility** > **Public**. (New images can start out private even when the repository is
 public.)
 
 ### Unraid
 
-**A server from before the rename** (a DragonSword container, `ghcr.io/kriscs1/dragonsword`) gets no more updates.
+**A server from before the rename** (a ShardsOfAshen container, `ghcr.io/kriscs1/shardsofashen`) gets no more updates.
 Make a new container from the template below, and to keep its world, point **Game data** at the old folder
-(`/mnt/user/appdata/dragonsword`), or copy that folder's files into the new one first. The first time the game starts
-it renames `dragonsword.db` there to `ashen.db` by itself. Then remove the old container (its data stays).
+(`/mnt/user/appdata/shards-of-ashen`), or copy that folder's files into the new one first; copy its Admins, Central
+server (now `https://heir-apparently.hallisium.com`) and the rest across too. Stop the old container before you start
+the new one (they want the same port), then remove it (its data stays).
 
 1. **Add the template.** Open Unraid's **Terminal** (the `>_` icon at the top right) and paste:
 
    ```
-   docker run --rm ghcr.io/kriscs1/shardsofashen cat unraid.xml > /boot/config/plugins/dockerMan/templates-user/my-ShardsOfAshen.xml
+   docker run --rm ghcr.io/kriscs1/heir-apparently cat unraid.xml > /boot/config/plugins/dockerMan/templates-user/my-HeirApparently.xml
    ```
 
-   (Its icon comes from GitHub: https://raw.githubusercontent.com/kriscs1/shardsofashen/main/web/img/icon.png.)
+   (Its icon comes from GitHub: https://raw.githubusercontent.com/kriscs1/heir-apparently/main/web/img/icon.png.)
 
-2. **Make the container.** On the **Docker** tab: **Add Container** > **Template** > choose **ShardsOfAshen**, then
+2. **Make the container.** On the **Docker** tab: **Add Container** > **Template** > choose **HeirApparently**, then
    **Apply**. It's filled in already:
    - **Web port** (8484): the port players connect to. Change it if 8484 is taken.
-   - **Game data** (`/mnt/user/appdata/shards-of-ashen`): where accounts, characters, the world and the daily backups
+   - **Game data** (`/mnt/user/appdata/heir-apparently`): where accounts, characters, the world and the daily backups
      are kept. Point it at another share if you like.
    - **Admins**: Hallisium accounts whose characters get the Admin button, comma-separated (e.g. `Kris,Ann`).
-   - **Central server** (`https://shardsofashen.hallisium.com`): players sign in by their Hallisium accounts, and it proves your
+   - **Central server** (`https://heir-apparently.hallisium.com`): players sign in by their Hallisium accounts, and it proves your
      Admins. Blank: no accounts here, only each device's own characters.
      With one, this is a remote server: it's listed for everyone once it's approved on the central server's admin page,
      and everyone needs a Hallisium account, even on your own network. It isn't found on the network.
@@ -289,7 +290,7 @@ it renames `dragonsword.db` there to `ashen.db` by itself. Then remove the old c
 3. **Keep it up to date by itself.** On the **Apps** tab, install **Auto Update Applications**. Then
    **Settings > Auto Update Applications > Docker Auto Update Settings**:
    - Update Check Frequency: **Hourly** (or Custom, e.g. `*/15 * * * *` for every 15 minutes).
-   - Set ShardsOfAshen to update.
+   - Set HeirApparently to update.
 
    (Without this, the Docker tab's **Check for Updates** does it by hand.)
 
@@ -300,9 +301,9 @@ the array and keeps everyone's progress in appdata (your appdata backups cover i
 Accounts (Unraid's Terminal):
 
 ```
-docker exec -u 99:100 ShardsOfAshen python tools/admin.py list
-docker exec -u 99:100 ShardsOfAshen python tools/admin.py owner <Name> <Account>  # give a character to an account
-docker exec -u 99:100 ShardsOfAshen python tools/admin.py admin <Name> on
+docker exec -u 99:100 HeirApparently python tools/admin.py list
+docker exec -u 99:100 HeirApparently python tools/admin.py owner <Name> <Account>  # give a character to an account
+docker exec -u 99:100 HeirApparently python tools/admin.py admin <Name> on
 ```
 
 Characters have no passwords (see "Who's who" above).
@@ -313,7 +314,7 @@ Characters have no passwords (see "Who's who" above).
 2. Set up and start the server, all from GitHub, with this one line:
 
    ```
-   mkdir -p ~/shards-of-ashen && cd ~/shards-of-ashen &&    docker run --rm ghcr.io/kriscs1/shardsofashen cat docker-compose.yml > docker-compose.yml &&    docker compose up -d
+   mkdir -p ~/heir-apparently && cd ~/heir-apparently &&    docker run --rm ghcr.io/kriscs1/heir-apparently cat docker-compose.yml > docker-compose.yml &&    docker compose up -d
    ```
 
 That's all:
@@ -322,17 +323,17 @@ That's all:
 - **Updates:** they arrive by themselves, a few minutes after each **Publish Update**.
 - **Connecting:** players use the Public servers, on the website or in the app, once it's approved. Opening the server's
   address in a browser shows nothing.
-- **Day to day,** in `~/shards-of-ashen`:
+- **Day to day,** in `~/heir-apparently`:
   - `docker compose logs -f` shows what it's doing.
   - `docker compose pull game && docker compose up -d` updates at once.
   - `docker compose stop` stops it.
 
-**Settings.** Make a file called `.env` in `~/shards-of-ashen` (beside `docker-compose.yml`) with any of these, then
+**Settings.** Make a file called `.env` in `~/heir-apparently` (beside `docker-compose.yml`) with any of these, then
 `docker compose up -d` again:
 
 ```
 DS_PORT=8090                 # the port players connect to (8484)
-DS_DATA=/srv/shards-of-ashen     # where the game's data is kept: a folder, or a Docker volume's name (gamedata)
+DS_DATA=/srv/heir-apparently     # where the game's data is kept: a folder, or a Docker volume's name (gamedata)
 DS_ADMINS=Kris,Ann           # Hallisium accounts whose characters get the Admin button
 DS_INVITE_CODE=letmein       # making a character needs this code
 DS_MAX_PLAYERS=5
@@ -374,7 +375,7 @@ docker compose -f deploy/docker-compose.yml exec game python tools/admin.py admi
 - **Data files the game edits.** The admin panel's switched-off skills and god mode, and anything scripts write with
   `Add.Line.To.File`, live in the container's `data/` folder. They reset when the image is rebuilt.
 
-Without Docker, `deploy/shards-of-ashen.service` runs it under systemd behind any HTTPS reverse proxy.
+Without Docker, `deploy/heir-apparently.service` runs it under systemd behind any HTTPS reverse proxy.
 
 ## The central server (accounts, the remote games list)
 
@@ -382,7 +383,7 @@ One central server serves the whole game. Every version's start screen connects 
 desktop app, and a browser, which gets the start screen from it): players have one account there for every game, it
 and it lists the remote game servers (each announces itself to it). There are no ads, anywhere.
 
-- **The game's own** is `https://shardsofashen.hallisium.com`: the apps' start screen (`web/home/config.js`) and a cloud
+- **The game's own** is `https://heir-apparently.hallisium.com`: the apps' start screen (`web/home/config.js`) and a cloud
   server's `.env` (`deploy/cloud.env.example`) point there already.
 - **What it is**: `central/` (standard library and aiohttp, like the game server), run from the same image as
   `python -m central` on port 8490, behind Caddy for HTTPS, with an updater (`deploy/docker-compose.central.yml`). It
@@ -391,13 +392,13 @@ and it lists the remote game servers (each announces itself to it). There are no
   pointing at it, then one line on it:
 
   ```sh
-  curl -fsSL https://raw.githubusercontent.com/kriscs1/shardsofashen/main/deploy/central-setup.sh | sudo sh
+  curl -fsSL https://raw.githubusercontent.com/kriscs1/heir-apparently/main/deploy/central-setup.sh | sudo sh
   ```
 
   It installs Docker, opens only SSH, HTTP and HTTPS, makes SSH take a key and never a password (once the VM has your
   key), shuts out an address that keeps failing at SSH (fail2ban), puts in security updates by itself, asks for the domain (`-` for none: the VM's address as
   `1-2-3-4.sslip.io`, still with a real certificate) and your Hallisium account's name (the admin), and starts it all in
-  `/opt/shards-of-ashen-central`. Run it again to bring it up to date; your `.env` and the accounts are kept. The rest
+  `/opt/heir-apparently-central`. Run it again to bring it up to date; your `.env` and the accounts are kept. The rest
   of its settings are in that `.env` (`deploy/central.env.example`), then `docker compose up -d` in that folder.
 - **Pointing everything at another one**: put its address in `web/home/config.js` (`window.DS_CENTRAL_DEFAULT =
   "https://central.example.com";`), run `python -I tools/sync_home.py`, and build the apps; give each game server
@@ -483,11 +484,11 @@ and it lists the remote game servers (each announces itself to it). There are no
   - **Google Play**: in the Play Console, Setup > API access, link a Google Cloud project and make a service account
     there with a JSON key; give the account "View financial data" and "Manage orders" for the app. Put the key file
     where the central server can read it and set `DS_PLAY_SERVICE_ACCOUNT` to its path (`DS_PLAY_PACKAGE`,
-    `io.github.kriscs1.shardsofashen`, and `DS_FULL_PRODUCT`, `full_game`, unless yours differ). A purchase that
+    `io.github.kriscs1.heirapparently`, and `DS_FULL_PRODUCT`, `full_game`, unless yours differ). A purchase that
     hasn't been acknowledged is acknowledged here, so Google doesn't refund it. Once a day Play's voided purchases are
     read ("View financial data" again), and a refunded one takes the full game back.
   - **Steam**: `DS_STEAM_APP` (the app's id) and `DS_STEAM_KEY` (a publisher Web API key, from Users & Permissions >
-    Manage Groups in Steamworks). The desktop app sends a Web API ticket for the identity `shardsofashen`; a copy lent by
+    Manage Groups in Steamworks). The desktop app sends a Web API ticket for the identity `heirapparently`; a copy lent by
     Family Sharing doesn't count. Steam refunds within 14 days, so for 15 days after it's claimed the purchase's Steam
     id is kept and Steam is asked once a day whether it's still owned (a refund takes the full game back); after, only
     its hash. The Steam build is made with `DS_STORE=steam DS_STEAM_APP=<id>
@@ -506,7 +507,7 @@ and it lists the remote game servers (each announces itself to it). There are no
 - **Backups**: a whole copy of the database once a day (UTC; the first as it starts), the last 14 kept, in `backups`
   beside it (`/data/backups` in the compose file, or wherever `DS_CENTRAL_BACKUPS` says). It's every account, purchase
   and friend, so send them off the VM: `DS_BACKUP_S3` in its `.env` (Backups off the machine), or by hand now and
-  then, `docker compose cp central:/data/backups ./backups` in `/opt/shards-of-ashen-central`, or your provider's VM
+  then, `docker compose cp central:/data/backups ./backups` in `/opt/heir-apparently-central`, or your provider's VM
   snapshots. To go back to one, with the copy in that
   folder (its journal files go too, or SQLite would play the old changes over it):
 
@@ -534,14 +535,14 @@ Debian 12 on it, and a domain name you can add a DNS record to.
 2. **Run the setup on the VM** (it installs Docker, opens only SSH, HTTP and HTTPS, makes SSH take a key and never a
    password (once the VM has your key: otherwise it leaves SSH as it was and says so), shuts out an address that keeps
    failing at SSH (fail2ban), puts in security updates by itself, adds a little swap on a small VM, asks for the domain
-   and your admin character's name, and starts everything in `/opt/shards-of-ashen`):
+   and your admin character's name, and starts everything in `/opt/heir-apparently`):
 
    ```
-   curl -fsSL https://raw.githubusercontent.com/kriscs1/shardsofashen/main/deploy/cloud-setup.sh | sudo sh
+   curl -fsSL https://raw.githubusercontent.com/kriscs1/heir-apparently/main/deploy/cloud-setup.sh | sudo sh
    ```
 
    (If the repository is private, copy `deploy/cloud-setup.sh` to the VM and run `sudo sh cloud-setup.sh`, with
-   `GHCR_USER` and `GHCR_TOKEN` set in `/opt/shards-of-ashen/.env` so the VM can pull the image.)
+   `GHCR_USER` and `GHCR_TOKEN` set in `/opt/heir-apparently/.env` so the VM can pull the image.)
 3. **Admins are Hallisium accounts** (`DS_ADMINS`): their characters get the Admin button, proved by the central
    server's ticket. Without a central server (`DS_CENTRAL`), make someone admin with `tools/admin.py admin <Name> on`.
 4. **Players make characters on the character screen**: one address can make 3 a day (`DS_REGISTER_PER_DAY`), an
@@ -558,7 +559,7 @@ above.
 
 **Running it.**
 
-- Settings: `/opt/shards-of-ashen/.env` (`deploy/cloud.env.example` explains each), then `docker compose up -d` in
+- Settings: `/opt/heir-apparently/.env` (`deploy/cloud.env.example` explains each), then `docker compose up -d` in
   that folder.
 - Moderating, in the game's chat, as an admin: `/kick Name`, `/ban Name why`, `/unban Name`, `/bans`,
   `/mute Name minutes`, `/unmute Name`. A ban is on the character and on whose it is (the account, or the device).
@@ -584,7 +585,7 @@ above.
   provider's VM snapshots.
 - Updating the VM itself: security updates put themselves in; `sudo apt update && sudo apt upgrade` now and then for
   the rest (the game updates itself).
-- Attacks: SSH is a key only (to undo, delete `/etc/ssh/sshd_config.d/01-shards-of-ashen.conf`); safer still, let SSH
+- Attacks: SSH is a key only (to undo, delete `/etc/ssh/sshd_config.d/01-heir-apparently.conf`); safer still, let SSH
   in only from your own address (`ufw delete allow OpenSSH && ufw allow from <your IP> to any port 22`) or over
   Tailscale. The game turns away a flood of connections from one address (`DS_CONNECTIONS_PER_ADDRESS`), but no VM
   outlasts a real DDoS: put the domain behind Cloudflare (its proxy, free; the game's WebSocket goes through it) and
@@ -601,10 +602,10 @@ and several can share a VM, each at a domain of its own: `deploy/docker-compose.
 1. **Point a domain at the VM for each world** (A records: `one.example.com`, `two.example.com`,
    `three.example.com` -> the VM's address).
 2. **Run the setup with `worlds`**: all the same as above, but it asks for each world's domain and sets up in
-   `/opt/shards-of-ashen-worlds`:
+   `/opt/heir-apparently-worlds`:
 
    ```
-   curl -fsSL https://raw.githubusercontent.com/kriscs1/shardsofashen/main/deploy/cloud-setup.sh | sudo sh -s worlds
+   curl -fsSL https://raw.githubusercontent.com/kriscs1/heir-apparently/main/deploy/cloud-setup.sh | sudo sh -s worlds
    ```
 
 3. **Approve each world** on the central server's admin page: each announces itself with its own id and waits there,
@@ -612,7 +613,7 @@ and several can share a VM, each at a domain of its own: `deploy/docker-compose.
 
 - Size: a world takes about 150 MB with nobody in it, and a tick with five players about 1.5 ms of its 50: 2 CPUs and
   4 GB are plenty for three.
-- Settings: `/opt/shards-of-ashen-worlds/.env` (`deploy/worlds.env.example`). Each world's own end in `_1`, `_2`, `_3`
+- Settings: `/opt/heir-apparently-worlds/.env` (`deploy/worlds.env.example`). Each world's own end in `_1`, `_2`, `_3`
   (its domain, name, most players, registration, invite code, PvP, where its data is); the admins, the central server
   and the rest are the same for all.
 - Another world, or one fewer: the top of `docker-compose.yml` says what to copy or take out (the updater finds them
@@ -623,8 +624,8 @@ and several can share a VM, each at a domain of its own: `deploy/docker-compose.
   one-world server's characters into world 1, before running the setup with `worlds`:
 
   ```sh
-  cd /opt/shards-of-ashen && docker compose down     # (its data is kept, in the gamedata volume)
-  docker run --rm -v shards-of-ashen_gamedata:/from -v shards-of-ashen-worlds_world1data:/to alpine cp -a /from/. /to/
+  cd /opt/heir-apparently && docker compose down     # (its data is kept, in the gamedata volume)
+  docker run --rm -v heir-apparently_gamedata:/from -v heir-apparently-worlds_world1data:/to alpine cp -a /from/. /to/
   ```
 
   Its id comes with it, so give world 1 the old domain and the central server has it listed still (a new domain or
@@ -682,7 +683,7 @@ docker compose start game
 | `DS_REGISTRATION` | open | `closed`: only accounts made with `tools/admin.py` |
 | `DS_INVITE_CODE` | (none) | needed to make a character, if set |
 | `DS_ADMINS` | (none) | Hallisium accounts whose characters get the Admin button, comma-separated (besides `tools/admin.py admin <Name> on`): the central server's ticket proves the account, so nobody can take the name. |
-| `DS_NAME` | `Shards of Ashen on <computer>` (a public server: `A Shards of Ashen server`) | what players see the server called: the start screen's Public servers list (40 letters at most), its login screen, the Android app's "Games on this network". Changing it takes a listed server off the list till it's approved again. An admin's name in Options wins over it |
+| `DS_NAME` | `Heir Apparently on <computer>` (a public server: `An Heir Apparently server`) | what players see the server called: the start screen's Public servers list (40 letters at most), its login screen, the Android app's "Games on this network". Changing it takes a listed server off the list till it's approved again. An admin's name in Options wins over it |
 | `DS_TRUST_PROXY` | (off) | `1` behind a reverse proxy (Caddy): each player's own address from `X-Forwarded-For`, for the wrong-password wait, the sign-up limit and the connections limit. Only the last address in it counts (the one the proxy put there), and only from a proxy on this machine or a private network |
 | `DS_ORIGINS` | (none) | other pages allowed to open the game's connection, comma-separated (e.g. `https://play.example.com`). The game's own page always may; any other site's page is turned away |
 | `DS_CENTRAL` | (none) | the central server's address: players come in by its tickets |

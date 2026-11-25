@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS world (
 COLUMNS = [("accounts", "owner", "TEXT NOT NULL DEFAULT ''")]
 
 
-OLD_NAME = "dragonsword.db"   # (the database's name before the game was Shards of Ashen everywhere)
+OLD_NAME = "dragonsword.db"   # (the database's name in the game's first days, as DragonSword)
 
 
 def moved_from_old_name(path):

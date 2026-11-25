@@ -1,6 +1,6 @@
 """The game's logo in its own look: pixel art like everything else, drawn here (no font from anywhere else).
-"SHARDS" in gold over "ASHEN" in ember, "of" between them on a rule, a violet Shard crystal either side, a dark
-outline and a drop shadow, all on the game's 1 px grid and scaled up square (crisp at any size the page shows it).
+"HEIR" in gold over "APPARENTLY" in ember, a small crown sitting a little crooked on the rule between them, a violet
+Shard crystal either side, a dark outline and a drop shadow, all on the game's 1 px grid and scaled up square (crisp at any size the page shows it).
 
 Writes web/img/logo.png (the game's login screen) and web/home/logo.png (the start screen, every version).
 
@@ -23,8 +23,14 @@ BIG = {
     "D": ["#####..", "##..##.", "##...##", "##...##", "##...##", "##...##", "##..##.", "#####.."],
     "E": ["#######", "##.....", "##.....", "#####..", "##.....", "##.....", "##.....", "#######"],
     "N": ["##...##", "###..##", "####.##", "##.####", "##..###", "##...##", "##...##", "##...##"],
+    "I": ["######", "..##..", "..##..", "..##..", "..##..", "..##..", "..##..", "######"],
+    "P": ["######.", "##...##", "##...##", "######.", "##.....", "##.....", "##.....", "##....."],
+    "T": ["######", "..##..", "..##..", "..##..", "..##..", "..##..", "..##..", "..##.."],
+    "L": ["##....", "##....", "##....", "##....", "##....", "##....", "##....", "######"],
+    "Y": ["##...##", "##...##", ".##.##.", "..###..", "..###..", "...#...", "...#...", "...#..."],
 }
-SMALL = {"o": ["....", ".##.", "#..#", "#..#", ".##."], "f": [".##", "#..", "###", "#..", "#.."]}
+# The crown on the rule (G gold, J a violet jewel), a pixel crooked: the heir, apparently
+CROWN = ["..G.....", ".GJG..G.", "..G..GJG", "G..G..G.", "GG.GG.GG", "GGGGGGGG", "GJGGJGGJ", "GGGGGGGG"]
 
 GOLD = [(255, 247, 205), (255, 232, 150), (243, 205, 96), (222, 170, 62), (184, 118, 38), (214, 150, 52),
         (240, 192, 96), (246, 208, 118)]
@@ -83,9 +89,9 @@ def outlined(base):
 
 
 def logo():
-    top, tw, th = word("SHARDS", BIG)
-    bottom, bw, bh = word("ASHEN", BIG)
-    small, sw, sh = word("of", SMALL, gap=1, zoom=1)
+    top, tw, th = word("HEIR", BIG, zoom=3)
+    bottom, bw, bh = word("APPARENTLY", BIG)
+    sw, sh = len(CROWN[0]), len(CROWN)
     width = max(tw, bw) + 2
     rule_y = th + 3
     height = th + 6 + sh + 6 + bh
@@ -96,10 +102,12 @@ def logo():
     oy, ox = th + 6 + sh + 6, (width - bw) // 2
     for x, y, r in bottom:
         base.set_at((ox + x, oy + y), EMBER[min(len(EMBER) - 1, r * len(EMBER) // bh)])
-    # "of" on a gold rule between the words
+    # the crown on a gold rule between the words
     sx, sy = (width - sw) // 2, th + 6 + 1
-    for x, y, r in small:
-        base.set_at((sx + x, sy + y), GOLD[2])
+    for y, row in enumerate(CROWN):
+        for x, c in enumerate(row):
+            if c != ".":
+                base.set_at((sx + x, sy + y), SHARD[1] if c == "J" else GOLD[2 if y < 5 else 3 + (x + y) % 2])
     for x in range(6, width - 6):
         if not (sx - 3 <= x <= sx + sw + 2):
             base.set_at((x, sy + sh // 2), GOLD[3] if x % 4 else GOLD[1])

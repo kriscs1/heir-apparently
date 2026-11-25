@@ -1,4 +1,4 @@
-"""The Shards of Ashen Editor: one window for the whole game. A rail of sections on the left (Maps, Scripts, Tiles,
+"""The Heir Apparently Editor: one window for the whole game. A rail of sections on the left (Maps, Scripts, Tiles,
 Entities, Item Racks, Spells, Quests, Buildables, Crops, Minimaps), the section on the right, and everything linked: a
 trigger opens its script, a placed entity its Entities page, an item in a rack its entity, "Used in" lists jump to the
 place. Ctrl+K: go to anything. Ctrl+S save, Ctrl+Z / Ctrl+Y undo / redo (in the section you're in).
@@ -160,7 +160,7 @@ class App:
             pass
         self.root = tk.Tk()
         self.root.withdraw()
-        self.root.title("Shards of Ashen Editor")
+        self.root.title("Heir Apparently Editor")
         self.root.report_callback_exception = self.callback_failed
         T.setup(self.root)
         self.project = Project(root_dir)
@@ -209,7 +209,7 @@ class App:
         w.configure(bg=T.ACCENT_DARK)
         box = tk.Frame(w, bg=T.RAIL, padx=T.px(28), pady=T.px(20))
         box.pack(padx=2, pady=2)
-        tk.Label(box, text="⚔  Shards of Ashen Editor", bg=T.RAIL, fg="#f2c46d",
+        tk.Label(box, text="⚔  Heir Apparently Editor", bg=T.RAIL, fg="#f2c46d",
                  font=("Segoe UI Semibold", 16)).pack(anchor="w")
         lab = tk.Label(box, text="Loading…", bg=T.RAIL, fg=T.RAIL_TEXT, font=("Segoe UI", 11), anchor="w", width=34)
         lab.pack(anchor="w", pady=(10, 0))
@@ -268,7 +268,7 @@ class App:
         self.rail = tk.Frame(r, bg=T.RAIL, width=T.px(200))
         self.rail.pack(side="left", fill="y")
         self.rail.pack_propagate(False)
-        tk.Label(self.rail, text="⚔  Shards of Ashen", bg=T.RAIL, fg="#f2c46d", font=("Segoe UI Semibold", 14),
+        tk.Label(self.rail, text="⚔  Heir Apparently", bg=T.RAIL, fg="#f2c46d", font=("Segoe UI Semibold", 14),
                  anchor="w", padx=16).pack(fill="x", pady=(18, 0))
         tk.Label(self.rail, text="EDITOR", bg=T.RAIL, fg="#9c8a74", font=("Segoe UI", 8, "bold"), anchor="w",
                  padx=18).pack(fill="x", pady=(0, 16))

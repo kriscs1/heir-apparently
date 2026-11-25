@@ -47,7 +47,7 @@ for f in sorted(glob.glob(os.path.join(root, 'data', 'Scripts', '*.script'))):
 if len(sys.argv) > 2:
     out = []
     w = out.append
-    w('Shards of Ashen - Script Commands')
+    w('Heir Apparently - Script Commands')
     w('=================================')
     w('')
     w('Generated from ashen/script_language.py, which defines the script language.')

@@ -1,4 +1,4 @@
-# Shards of Ashen: rules for every change
+# Heir Apparently: rules for every change
 
 This file is what applies to every task. **The rules in full are in `dev/Rules.md`**: the story, the game's rules, the
 look and sound, the code and the editor, by section. Read the sections your task touches (the table below), not the
@@ -122,7 +122,7 @@ Write long output to a log in the scratchpad, not the conversation, and read onl
    ticket) and check there are no console errors and that it looks right, on a desktop and on a phone (a 915 x 412
    touch viewport with `?app=android`).
 6. Commit to `main` with a message saying what changed for players, then push. Deployment (Docker on Unraid,
-   `ghcr.io/kriscs1/shardsofashen`) builds from GitHub.
+   `ghcr.io/kriscs1/heir-apparently`) builds from GitHub.
 
 A commit of docs only (no code, data, maps or art) needs neither step 1 nor 2.
 

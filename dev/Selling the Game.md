@@ -41,14 +41,14 @@ There's no Greenlight (Valve closed it in 2017): it's **Steam Direct**, open to 
 
        DS_STORE=steam DS_STEAM_APP=<id> DS_STEAM_SDK=<the SDK's folder> python desktop/build_desktop.py
 
-   and upload `dist/ShardsOfAshen/` with Steamworks' SteamPipe.
+   and upload `dist/HeirApparently/` with Steamworks' SteamPipe.
 
 ## 4. itch.io
 
 1. Make the game's page at [itch.io](https://itch.io): $7.99, "Paid" (no free download).
 2. The **game id**: the number in its edit page's address (`itch.io/game/edit/<id>`). An **API key**: itch.io >
    **Settings > API keys** > Generate.
-3. Build and upload: `DS_STORE=itch python desktop/build_desktop.py`, then `dist/ShardsOfAshen/` zipped (or with
+3. Build and upload: `DS_STORE=itch python desktop/build_desktop.py`, then `dist/HeirApparently/` zipped (or with
    itch.io's butler).
 
 itch.io takes the payment and the sales tax. The browser's start screen has a Buy button too (step 5's `DS_BUY_URL`):
@@ -57,8 +57,8 @@ player buys with the same email as their Hallisium account (or pastes the link f
 
 ## 5. The central server's settings
 
-On the VM, in `/opt/shards-of-ashen-central`:
-1. Bring it up to date: `curl -fsSL https://raw.githubusercontent.com/kriscs1/shardsofashen/main/deploy/central-setup.sh | sudo sh`
+On the VM, in `/opt/heir-apparently-central`:
+1. Bring it up to date: `curl -fsSL https://raw.githubusercontent.com/kriscs1/heir-apparently/main/deploy/central-setup.sh | sudo sh`
    (it keeps the `.env` and the accounts).
 2. The key, into its data folder: `docker compose cp ~/play.json central:/data/play.json`
 3. In `.env`:
@@ -80,8 +80,8 @@ On the VM, in `/opt/shards-of-ashen-central`:
 2. Put it on an **internal testing** track, and add yourself under Play Console > Setup > **License testing** (test
    purchases cost nothing).
 3. On your phone, from the track: buy the full game. The admin page's Accounts then shows the account's full game.
-4. Play Console > App content: the **privacy policy** is `https://shardsofashen.hallisium.com/privacy`. **Data
-   safety** > Data deletion: accounts can be deleted in the app and on the web (`https://shardsofashen.hallisium.com`:
+4. Play Console > App content: the **privacy policy** is `https://heir-apparently.hallisium.com/privacy`. **Data
+   safety** > Data deletion: accounts can be deleted in the app and on the web (`https://heir-apparently.hallisium.com`:
    sign in, the account chip, Delete my account); the terms (with refunds) are `/terms`. Steam and itch.io take the same
    two links.
 

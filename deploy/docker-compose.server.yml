@@ -2,16 +2,16 @@
 # every few minutes and restarts the game with it (everyone's progress is kept in the gamedata volume). Both start
 # again on their own whenever Docker starts. This file is inside the game's image, so a server needs nothing else:
 #
-#   docker run --rm ghcr.io/kriscs1/shardsofashen cat docker-compose.yml > docker-compose.yml && docker compose up -d
+#   docker run --rm ghcr.io/kriscs1/heir-apparently cat docker-compose.yml > docker-compose.yml && docker compose up -d
 #
 # Settings: put them in a file called .env beside this one (one per line, e.g. DS_PORT=8090), or change the defaults
 # after ":-" below. Then "docker compose up -d" again.
 #   DS_PORT           the port players connect to: http://<server>:<port> (8484)
 #   DS_DATA           where the game's data is kept: accounts, characters, the world, homes, daily backups. A folder
-#                     on the server (e.g. /srv/shards-of-ashen) or a Docker volume's name (gamedata, the default)
+#                     on the server (e.g. /srv/heir-apparently) or a Docker volume's name (gamedata, the default)
 #   DS_ADMINS         Hallisium accounts whose characters get the Admin button, comma-separated: DS_ADMINS=Kris,Ann
 #                     (the central server proves them, so it needs DS_CENTRAL)
-#   DS_CENTRAL        the central server, for signing in by Hallisium accounts: DS_CENTRAL=https://shardsofashen.hallisium.com
+#   DS_CENTRAL        the central server, for signing in by Hallisium accounts: DS_CENTRAL=https://heir-apparently.hallisium.com
 #   DS_PUBLIC_URL     the address players outside your network use (blank: where it calls the central server from)
 #   DS_TRUST_PROXY    1 if players come through a reverse proxy, so those on your own network still count as on it:
 #                     without it, anyone coming through the proxy needs a Hallisium account
@@ -24,11 +24,11 @@
 #                     with DS_BACKUP_S3_KEY and DS_BACKUP_S3_SECRET: README-Server.md "Backups off the machine". Or a
 #                     folder on another disk or machine: map it to /backup-copy under volumes below
 #   GHCR_USER / GHCR_TOKEN   only if the image is private
-name: shards-of-ashen
+name: heir-apparently
 
 services:
   game:
-    image: ${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}
+    image: ${DS_IMAGE:-ghcr.io/kriscs1/heir-apparently:latest}
     restart: unless-stopped
     logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
     ports:
@@ -75,7 +75,7 @@ services:
         echo "Checking for updates every $$DS_UPDATE_SECONDS seconds";
         while true; do
           sleep "$$DS_UPDATE_SECONDS";
-          if docker compose -p shards-of-ashen pull -q game; then docker compose -p shards-of-ashen up -d game; fi; docker image prune -f > /dev/null;
+          if docker compose -p heir-apparently pull -q game; then docker compose -p heir-apparently up -d game; fi; docker image prune -f > /dev/null;
         done
 
 volumes:

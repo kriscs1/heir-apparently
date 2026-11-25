@@ -2,7 +2,7 @@
 broadcast. Anything on the network sends PROBE to UDP port DS_LAN_PORT (8485) of 255.255.255.255; every server there
 answers, to whoever asked, with what it is:
 
-  {"game": "shardsofashen", "name": "Kris's world", "port": 8484, "online": 2, "max": 5, "version": "1.0.116"}
+  {"game": "heirapparently", "name": "Kris's world", "port": 8484, "online": 2, "max": 5, "version": "1.0.116"}
 
 Only an app's own game answers, once its host has opened it to the network; a server of its own is a remote one."""
 import asyncio
@@ -13,7 +13,7 @@ import socket
 import time
 
 log = logging.getLogger("ashen.lan")
-PROBE = b"SHARDSOFASHEN?"
+PROBE = b"HEIRAPPARENTLY?"
 
 
 class Responder(asyncio.DatagramProtocol):
@@ -76,7 +76,7 @@ def find(seconds=1.5, port=8485, to=("255.255.255.255",)):
                 answer = json.loads(data.decode("utf-8"))
             except ValueError:
                 continue
-            if answer.get("game") == "shardsofashen":
+            if answer.get("game") == "heirapparently":
                 found[(addr[0], answer.get("port"))] = (addr[0], answer)
     finally:
         sock.close()

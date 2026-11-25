@@ -145,7 +145,7 @@ class Central:
         self.google_results = {}        # code -> who came back from Google: {name} or {sub, email}, and when
         self.hello_cache = (0.0, {})    # (when, the start screen's counts)
         self.quests_cache = (None, [])  # (Quests.ini's time, what's in it)
-        self.name = os.environ.get("DS_CENTRAL_NAME", "Shards of Ashen")
+        self.name = os.environ.get("DS_CENTRAL_NAME", "Heir Apparently")
         self.motd = os.environ.get("DS_CENTRAL_MOTD", "")
         # (an admin named in DS_CENTRAL_ADMINS with no account yet: only someone with the code from this log may make
         # it, or whoever signed up first would be the admin; kept, so a restart or an update doesn't change it)
@@ -798,7 +798,7 @@ class Central:
         to = os.environ.get("DS_SUPPORT_EMAIL", "").strip() or SUPPORT
         try:
             await asyncio.get_running_loop().run_in_executor(
-                None, mail.send, to, "Shards of Ashen: a game's log (%s, %s)" % (kind, version or "?"), text)
+                None, mail.send, to, "Heir Apparently: a game's log (%s, %s)" % (kind, version or "?"), text)
         except Exception as e:
             log.warning("A game's log didn't go to %s: %s: %s", to, type(e).__name__, e)
             self.logs_from[key] = []                    # (it didn't go: it can be tried again)
@@ -813,7 +813,7 @@ class Central:
         if len(heard) >= ANNOUNCES:                     # (a game calls once a minute: not hundreds of rows a second)
             return no("Too many calls from here: a minute between them.")
         self.announces[addr] = heard + [now]
-        name = " ".join(str(d.get("name", "")).split())[:40] or "A game of Shards of Ashen"
+        name = " ".join(str(d.get("name", "")).split())[:40] or "A game of Heir Apparently"
         url = str(d.get("url", "")).strip()[:200]
         if not url:                                   # (no address of its own: where it's calling from, its port)
             host = self.addr(request)
@@ -1391,12 +1391,12 @@ def make_central(db_path):
 
 def main():
     import argparse
-    p = argparse.ArgumentParser(description="Shards of Ashen central server: accounts, the server list")
+    p = argparse.ArgumentParser(description="Heir Apparently central server: accounts, the server list")
     p.add_argument("--db", default=os.environ.get("DS_CENTRAL_DB", os.path.join(ROOT, "server-data", "central.db")))
     p.add_argument("--host", default=os.environ.get("DS_HOST", "0.0.0.0"))
     p.add_argument("--port", type=int, default=env_int("DS_CENTRAL_PORT", 8490))
     args = p.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     logging.getLogger("aiohttp.access").setLevel(logging.WARNING)
-    log.info("Shards of Ashen central server on http://%s:%d", args.host, args.port)
+    log.info("Heir Apparently central server on http://%s:%d", args.host, args.port)
     web.run_app(make_central(args.db), host=args.host, port=args.port, print=None)

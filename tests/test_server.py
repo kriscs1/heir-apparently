@@ -609,7 +609,7 @@ def test_a_game_on_the_network_answers_who_is_there(tmp_path, monkeypatch):
         found = await asyncio.get_running_loop().run_in_executor(None, lambda: lan.find(1.0, lan_port, ("127.0.0.1",)))
         assert len(found) == 1
         address, answer = found[0]
-        assert address == "127.0.0.1" and answer["game"] == "shardsofashen" and answer["max"] == 5
+        assert address == "127.0.0.1" and answer["game"] == "heirapparently" and answer["max"] == 5
         async with aiohttp.ClientSession() as http:
             async with http.get(base + "/manifest.webmanifest") as r:
                 assert r.status == 200 and json.loads(await r.text())["display"] == "fullscreen"
@@ -694,7 +694,7 @@ def test_the_host_sends_the_log_they_were_shown(tmp_path, monkeypatch):
                 shown = (await replies(ws, ("log",)))["text"]
                 assert "Something odd at 2,1,0" in shown and "Rabbit.png" not in shown     # (not a line a picture)
                 head = shown.split("\n\n")[0]                       # (the game as it is, at the top)
-                assert head.startswith("Shards of Ashen ") and "Sent by: Hostess" in head
+                assert head.startswith("Heir Apparently ") and "Sent by: Hostess" in head
                 assert "Playing (1 of 5):\n  Hostess at " in head
                 long = server_game.RecentLog()                      # (a long one: its end, from a whole line)
                 long.lines.extend("line %d %s" % (n, "x" * 100) for n in range(server_game.LOG_LINES))
@@ -1181,9 +1181,9 @@ def test_a_servers_name_is_what_its_given_and_never_a_containers_number(monkeypa
                          remote=lambda: bool(remote))
     name = lambda: GameServer.server_name(me)                     # noqa: E731
     monkeypatch.delenv("DS_NAME", raising=False)
-    assert name().startswith("Shards of Ashen on ")               # (at home: this machine's)
+    assert name().startswith("Heir Apparently on ")               # (at home: this machine's)
     remote.append(True)
-    assert name() == "A Shards of Ashen server"                   # (listed: the same whichever container it's in)
+    assert name() == "An Heir Apparently server"                   # (listed: the same whichever container it's in)
     monkeypatch.setenv("DS_NAME", "The Brambleton Inn")
     assert name() == "The Brambleton Inn"                              # (the Unraid template's Server name)
     saved["name"] = "Kris's World"

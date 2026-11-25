@@ -58,7 +58,7 @@ if __name__ == "__main__":
     if not ready():
         sys.exit("No email: DS_SMTP_HOST isn't set.")
     try:
-        send(sys.argv[1], "Shards of Ashen: a test email", "The central server can send email.\n")
+        send(sys.argv[1], "Heir Apparently: a test email", "The central server can send email.\n")
     except Exception as e:
         sys.exit("It didn't go: %s: %s" % (type(e).__name__, e))
     print("Sent to %s. Look in its spam folder too." % sys.argv[1])

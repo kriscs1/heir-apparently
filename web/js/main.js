@@ -1,4 +1,4 @@
-// Shards of Ashen in the browser: logging in, the server's messages, the screen (full screen, any size: the game is laid
+// Heir Apparently in the browser: logging in, the server's messages, the screen (full screen, any size: the game is laid
 // out 768 high and scaled to fit, drawn at the screen's own resolution so text stays sharp; a phone's is laid out
 // lower, so everything's bigger: mobile.js) and the frame loop.
 import { CL, note, clientText } from "./clientlog.js";
@@ -226,7 +226,7 @@ $("quit-logout").onclick = () => {
   if (N.ws) N.ws.close();
   stopMusic();
   $("quit").hidden = true;
-  showMessage("Shards of Ashen", "Your game is saved. See you soon!", () => location.reload());
+  showMessage("Heir Apparently", "Your game is saved. See you soon!", () => location.reload());
 };
 
 // (in an app - Android, or the desktop one, which says so a moment later - out of the game to its start screen)
@@ -990,7 +990,7 @@ function exported(m) {
     setLoginError(`A copy of ${m.name} is on this device: go back to the main menu and open Single player to find it.`, true);
   } else {
     saveFile(m.name, text);
-    setLoginError(`A copy of ${m.name} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.`, true);
+    setLoginError(`A copy of ${m.name} is downloaded. Open Single player in the Heir Apparently app, and choose the file there.`, true);
   }
 }
 function bring(text, fromApp) {
@@ -1125,7 +1125,7 @@ N.onMessage = (m) => {
       if (!pageCode) pageCode = m.code || "";
       if ((A.m && m.assets && A.m.version && m.assets !== A.m.version) ||   // (the server's pictures changed under us)
           (m.code && m.code !== pageCode)) {                                // (or the page's own code did)
-        if (running) showMessage("Shards of Ashen", "The game has been updated. It will load again.", () => location.reload());
+        if (running) showMessage("Heir Apparently", "The game has been updated. It will load again.", () => location.reload());
         else location.reload();
         break;
       }
@@ -1134,7 +1134,7 @@ N.onMessage = (m) => {
       homeRow();
       $("login-online").textContent = `${m.online} of ${m.max} adventurers online.`;
       $("login-server").textContent = m.name || "";            // (the game's name: what its host called it)
-      if (m.name) document.title = `${m.name} - Shards of Ashen`;
+      if (m.name) document.title = `${m.name} - Heir Apparently`;
       if (m.version) {
         const day = m.date ? new Date(m.date + "T12:00:00").toLocaleDateString(undefined,
           { day: "numeric", month: "short", year: "numeric" }) : "";
@@ -1172,7 +1172,7 @@ N.onMessage = (m) => {
       running = false;
       releaseKeys();
       stopMusic();
-      showMessage("Shards of Ashen", m.reason, () => location.reload());
+      showMessage("Heir Apparently", m.reason, () => location.reload());
       break;
     case "mapdata": addMap(m); invalidateMap(m.name); break;
     case "mapcells": mapCells(m); break;

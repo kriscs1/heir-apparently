@@ -1,4 +1,4 @@
-; Shards of Ashen in 한국어. English, a tab, the same in 한국어: tools/lang.py. Written by it: change lines, not their order.
+; Heir Apparently in 한국어. English, a tab, the same in 한국어: tools/lang.py. Written by it: change lines, not their order.
 [Language]
 Name=한국어
 [Scripts]
@@ -7763,7 +7763,7 @@ You spot a trap set in the floor.	바닥에 설치된 함정을 발견한다.
 You feel a draught on your face. It's coming through the rock.	얼굴에 바람이 느껴진다. 바위 사이로 들어오고 있다.
 Passage	통로
 Story	이야기
-Welcome to Shards of Ashen, {1}!	Shards of Ashen에 온 것을 환영한다, {1}!
+Welcome to Heir Apparently, {1}!	Heir Apparently에 온 것을 환영한다, {1}!
 Press H (or F1) for your journal: what you can make and gather, quests and controls.	H (또는 F1)를 눌러 일지를 열어라: 만들고 채집할 수 있는 것, 퀘스트, 조작법.
 The trade is off.	거래가 취소되었다.
 Inventory	소지품
@@ -8153,20 +8153,20 @@ Lasts	지속
 Looks	모습
 Thunder	천둥
 Stolen	훔친 물건
-Shards of Ashen multiplayer server	Shards of Ashen 멀티플레이 서버
+Heir Apparently multiplayer server	Heir Apparently 멀티플레이 서버
 the game folder (Data, Maps...)	게임 폴더 (Data, Maps...)
 %(asctime)s %(levelname)s %(name)s: %(message)s	%(asctime)s %(levelname)s %(name)s: %(message)s
-Shards of Ashen on	Shards of Ashen 위치:
+Heir Apparently on	Heir Apparently 위치:
 scrypt${1}${2}${3}${4}${5}	scrypt${1}${2}${3}${4}${5}
 Forwarded	전달됨
-A Shards of Ashen server	Shards of Ashen 서버
+An Heir Apparently server	Heir Apparently 서버
 Bell	종
 The server is down for maintenance{1}. Your game is saved: try again soon.	서버가 점검 중이다{1}. 게임은 저장되어 있다: 곧 다시 시도해라.
-shards of ashen	shards of ashen
+heir apparently	heir apparently
 This server is out of date: the central server needs version {1} (this is {2}), so nobody can join until it updates.	이 서버는 오래된 버전이다: 중앙 서버는 버전 {1}이 필요한데 (이 서버는 {2}), 업데이트될 때까지 아무도 들어올 수 없다.
 The maintenance is called off.	점검이 취소되었다.
 Origin	출처
-Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}, Python {2}, {3}에서
+Heir Apparently {1}, Python {2} on {3}	Heir Apparently {1}, Python {2}, {3}에서
 Sent by: {1}	보낸 이: {1}
 Playing ({1} of {2}):	플레이 중 ({2} 중 {1}):
 Your friend {1} has left Brambleton.	친구 {1}이(가) 브램블턴을 떠났다.
@@ -8560,7 +8560,7 @@ Body 1	몸 1
 Body 2	몸 2
 Any colour	아무 색
 {1}: any colour	{1}: 아무 색
-Shards of Ashen	Shards of Ashen
+Heir Apparently	Heir Apparently
 Your game is saved. See you soon!	게임이 저장되었다. 곧 또 보자!
 Open to the internet (your friends join by a link)	인터넷에 열기 (친구들은 링크로 참가)
 Open to the internet: sign in on the start screen first	인터넷에 열기: 먼저 시작 화면에서 로그인해라
@@ -8608,7 +8608,7 @@ Characters here live in your host's game, saved on their device.	여기의 캐�
 This character will live on this server only.	이 캐릭터는 이 서버에서만 산다.
 Characters here live on this server only.	여기의 캐릭터는 이 서버에서만 산다.
 A copy of {1} is on this device: go back to the main menu and open Single player to find it.	{1}의 사본이 이 기기에 있다: 메인 메뉴로 돌아가 싱글 플레이를 열면 찾을 수 있다.
-A copy of {1} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.	{1}의 사본을 내려받았다. Shards of Ashen 앱에서 싱글 플레이를 열고, 거기서 파일을 골라라.
+A copy of {1} is downloaded. Open Single player in the Heir Apparently app, and choose the file there.	{1}의 사본을 내려받았다. Heir Apparently 앱에서 싱글 플레이를 열고, 거기서 파일을 골라라.
 Bring {1} here (copied from a public server)	{1}을(를) 여기로 가져오기 (공개 서버에서 복사)
 Bring a character from a file	파일에서 캐릭터 가져오기
 Signed in as {1}	{1}(으)로 로그인됨
@@ -8626,7 +8626,7 @@ The connection to the server was lost. Your game is saved: come back in to carry
 Can't reach the server. Trying again...	서버에 닿을 수 없다. 다시 시도하는 중...
 The game has been updated. It will load again.	게임이 업데이트되었다. 다시 불러온다.
 {1} of {2} adventurers online.	모험가 {2}명 중 {1}명 접속 중.
-{1} - Shards of Ashen	{1} - Shards of Ashen
+{1} - Heir Apparently	{1} - Heir Apparently
 Version {1}	버전 {1}
 You whisper to {1}: {2}	{1}에게 귓속말: {2}
 [Party] {1}: {2}	[일행] {1}: {2}
@@ -9052,7 +9052,7 @@ Google Play	Google Play
 Steam	Steam
 Epic	Epic
 Asking Steam...	Steam에 묻는 중...
-Shards of Ashen is bought once,	Shards of Ashen은 한 번 구매한다,
+Heir Apparently is bought once,	Heir Apparently는 한 번 구매한다,
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	Steam, itch.io 또는 Epic에서, 그리고 거기서 플레이한다: 구매한 계정으로 로그인한 Steam에서 시작해라.
 The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	체험판: 머들지, 레벨 {1}까지. 정식 게임은 본토와 이야기의 나머지로 이어진다.
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Hallisium 계정으로 한 번 구매한다: 그러면 어디서나 당신 것이다, Android 앱에서도.
@@ -9114,7 +9114,7 @@ Address	주소
 This server can't send email just now.	이 서버는 지금 이메일을 보낼 수 없다.
 We've sent that address enough for one day: look in its spam folder, or try again tomorrow.	그 주소로는 오늘 충분히 보냈다: 스팸함을 보거나, 내일 다시 시도해라.
 Someone (we hope you) gave this address for the Hallisium account {1}.	누군가(당신이길 바란다)가 Hallisium 계정 {1}에 이 주소를 입력했다.
-A game of Shards of Ashen	Shards of Ashen 한 판
+A game of Heir Apparently	Heir Apparently 한 판
 Unknown.	알 수 없음.
 That link has run out	그 링크는 만료되었다
 It's been used, it's more than {1} days old, or a newer one has been sent. Sign in and open your account to send another.	이미 쓰였거나, {1}일이 넘었거나, 더 새 링크가 보내졌다. 로그인해서 계정을 열고 다시 보내라.
@@ -9122,7 +9122,7 @@ Confirm your email	이메일을 확인해라
 Use {1} for the Hallisium account {2}? We only write to it to send a code if you forget your password.	Hallisium 계정 {2}에 {1}을(를) 쓸까? 비밀번호를 잊었을 때 코드를 보낼 때만 그리로 쓴다.
 Email confirmed	이메일 확인됨
 If {1}'s password is ever forgotten, we'll send a code to {2}.	{1}의 비밀번호를 잊으면, {2}(으)로 코드를 보낸다.
-Shards of Ashen central server: accounts, the server list	Shards of Ashen 중앙 서버: 계정, 서버 목록
+Heir Apparently central server: accounts, the server list	Heir Apparently 중앙 서버: 계정, 서버 목록
 Use a password of at least {1} characters (not your name).	비밀번호는 {1}자 이상으로 해라 (이름은 안 된다).
 Too many new accounts from here today: try again tomorrow.	오늘 여기서 새 계정이 너무 많이 만들어졌다: 내일 다시 시도해라.
 That doesn't look like an email address.	이메일 주소 같지 않다.
@@ -9197,7 +9197,7 @@ Look in that inbox for a link to confirm it.	그 받은편지함에서 확인 �
 Sent. Look in that inbox for the link, and its spam folder.	보냈다. 그 받은편지함과 스팸함에서 링크를 찾아라.
 Too many new game servers from here today.	오늘 여기서 새 게임 서버가 너무 많다.
 (none sent)	(보낸 것 없음)
-Shards of Ashen: a game's log ({1}, {2})	Shards of Ashen: 게임 로그 ({1}, {2})
+Heir Apparently: a game's log ({1}, {2})	Heir Apparently: 게임 로그 ({1}, {2})
 The email didn't go: try again later.	이메일이 가지 않았다: 나중에 다시 시도해라.
 A version is numbers, like 1.0.523.	버전은 1.0.523 같은 숫자다.
 No such character.	그런 캐릭터는 없다.
@@ -9214,7 +9214,7 @@ a server of its own	독자 서버
 itch.io has no purchase made with your account's email ({1}): paste the link from your purchase's page in Account instead.	itch.io에 당신 계정 이메일({1})로 한 구매가 없다: 대신 계정에 구매 페이지의 링크를 붙여 넣어라.
 itch.io doesn't know that download key.	itch.io가 그 다운로드 키를 모른다.
 Which address? python -m central.mail you@example.com	어느 주소? python -m central.mail you@example.com
-Shards of Ashen: a test email	Shards of Ashen: 테스트 이메일
+Heir Apparently: a test email	Heir Apparently: 테스트 이메일
 The central server can send email.	중앙 서버가 이메일을 보낼 수 있다.
 It didn't go: {1}: {2}	보내지 못했다: {1}: {2}
 That key isn't good for this game.	그 키는 이 게임에 쓸 수 없다.

@@ -1,4 +1,4 @@
-; Shards of Ashen in 简体中文. English, a tab, the same in 简体中文: tools/lang.py. Written by it: change lines, not their order.
+; Heir Apparently in 简体中文. English, a tab, the same in 简体中文: tools/lang.py. Written by it: change lines, not their order.
 [Language]
 Name=简体中文
 [Scripts]
@@ -7763,7 +7763,7 @@ You spot a trap set in the floor.	你发现地板上设着一个陷阱。
 You feel a draught on your face. It's coming through the rock.	你感到脸上有一股气流。它是从岩石里吹出来的。
 Passage	通道
 Story	故事
-Welcome to Shards of Ashen, {1}!	欢迎来到 Shards of Ashen，{1}！
+Welcome to Heir Apparently, {1}!	欢迎来到 Heir Apparently，{1}！
 Press H (or F1) for your journal: what you can make and gather, quests and controls.	按 H（或 F1）打开日志：你能制作和采集的东西、任务和操作。
 The trade is off.	交易取消了。
 Inventory	物品栏
@@ -8153,20 +8153,20 @@ Lasts	持续
 Looks	看起来
 Thunder	雷声
 Stolen	被盗
-Shards of Ashen multiplayer server	Shards of Ashen 多人服务器
+Heir Apparently multiplayer server	Heir Apparently 多人服务器
 the game folder (Data, Maps...)	游戏文件夹（Data、Maps...）
 %(asctime)s %(levelname)s %(name)s: %(message)s	%(asctime)s %(levelname)s %(name)s: %(message)s
-Shards of Ashen on	Shards of Ashen，位于
+Heir Apparently on	Heir Apparently，位于
 scrypt${1}${2}${3}${4}${5}	scrypt${1}${2}${3}${4}${5}
 Forwarded	已转发
-A Shards of Ashen server	一个 Shards of Ashen 服务器
+An Heir Apparently server	一个 Heir Apparently 服务器
 Bell	钟声
 The server is down for maintenance{1}. Your game is saved: try again soon.	服务器正在停机维护{1}。你的游戏已保存：请稍后再试。
-shards of ashen	shards of ashen
+heir apparently	heir apparently
 This server is out of date: the central server needs version {1} (this is {2}), so nobody can join until it updates.	此服务器版本过旧：中央服务器需要 {1} 版本（这里是 {2}），所以在它更新之前没有人能加入。
 The maintenance is called off.	维护已取消。
 Origin	来源
-Shards of Ashen {1}, Python {2} on {3}	Shards of Ashen {1}，Python {2}，运行于 {3}
+Heir Apparently {1}, Python {2} on {3}	Heir Apparently {1}，Python {2}，运行于 {3}
 Sent by: {1}	发送者：{1}
 Playing ({1} of {2}):	正在游玩（{1} / {2}）：
 Your friend {1} has left Brambleton.	你的好友 {1} 离开了 Brambleton。
@@ -8560,7 +8560,7 @@ Body 1	身体 1
 Body 2	身体 2
 Any colour	任意颜色
 {1}: any colour	{1}：任意颜色
-Shards of Ashen	Shards of Ashen
+Heir Apparently	Heir Apparently
 Your game is saved. See you soon!	你的游戏已保存。回头见！
 Open to the internet (your friends join by a link)	向互联网开放（你的好友通过链接加入）
 Open to the internet: sign in on the start screen first	向互联网开放：请先在开始界面登录
@@ -8608,7 +8608,7 @@ Characters here live in your host's game, saved on their device.	这里的角色
 This character will live on this server only.	这个角色只存在于此服务器上。
 Characters here live on this server only.	这里的角色只存在于此服务器上。
 A copy of {1} is on this device: go back to the main menu and open Single player to find it.	{1} 的副本已在此设备上：回到主菜单并打开“单人游戏”即可找到它。
-A copy of {1} is downloaded. Open Single player in the Shards of Ashen app, and choose the file there.	{1} 的副本已下载。在 Shards of Ashen 应用中打开“单人游戏”，并在那里选择该文件。
+A copy of {1} is downloaded. Open Single player in the Heir Apparently app, and choose the file there.	{1} 的副本已下载。在 Heir Apparently 应用中打开“单人游戏”，并在那里选择该文件。
 Bring {1} here (copied from a public server)	把 {1} 带到这里（从公共服务器复制）
 Bring a character from a file	从文件带入角色
 Signed in as {1}	已登录为 {1}
@@ -8626,7 +8626,7 @@ The connection to the server was lost. Your game is saved: come back in to carry
 Can't reach the server. Trying again...	无法连接到服务器。正在重试...
 The game has been updated. It will load again.	游戏已更新。它将重新加载。
 {1} of {2} adventurers online.	{1} / {2} 名冒险者在线。
-{1} - Shards of Ashen	{1} - Shards of Ashen
+{1} - Heir Apparently	{1} - Heir Apparently
 Version {1}	版本 {1}
 You whisper to {1}: {2}	你悄悄对 {1} 说：{2}
 [Party] {1}: {2}	[队伍] {1}：{2}
@@ -9052,7 +9052,7 @@ Google Play	Google Play
 Steam	Steam
 Epic	Epic
 Asking Steam...	正在询问 Steam...
-Shards of Ashen is bought once,	《Shards of Ashen》只需购买一次，
+Heir Apparently is bought once,	《Heir Apparently》只需购买一次，
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	可在 Steam、itch.io 或 Epic 购买，并从那里游玩：请从 Steam 启动，并登录购买它的账号。
 The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	试玩版：Muddlesey，最高 {1} 级。完整版游戏将继续前往大陆，以及故事的其余部分。
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	只需为你的 Hallisium 账号购买一次：之后在任何地方都属于你，包括安卓应用。
@@ -9114,7 +9114,7 @@ Address	地址
 This server can't send email just now.	此服务器现在无法发送邮件。
 We've sent that address enough for one day: look in its spam folder, or try again tomorrow.	今天已经向该地址发送了足够多的邮件：请查看其垃圾邮件文件夹，或明天再试。
 Someone (we hope you) gave this address for the Hallisium account {1}.	有人（希望是你）为 Hallisium 账号 {1} 填写了这个地址。
-A game of Shards of Ashen	一局《Shards of Ashen》
+A game of Heir Apparently	一局《Heir Apparently》
 Unknown.	未知。
 That link has run out	该链接已失效
 It's been used, it's more than {1} days old, or a newer one has been sent. Sign in and open your account to send another.	它已被使用过、超过 {1} 天，或已发送了更新的链接。请登录并打开你的账号以重新发送。
@@ -9122,7 +9122,7 @@ Confirm your email	确认你的邮箱
 Use {1} for the Hallisium account {2}? We only write to it to send a code if you forget your password.	将 {1} 用于 Hallisium 账号 {2}？我们只会在你忘记密码时向它发送验证码。
 Email confirmed	邮箱已确认
 If {1}'s password is ever forgotten, we'll send a code to {2}.	如果 {1} 忘记了密码，我们会把验证码发送到 {2}。
-Shards of Ashen central server: accounts, the server list	Shards of Ashen 中央服务器：账号、服务器列表
+Heir Apparently central server: accounts, the server list	Heir Apparently 中央服务器：账号、服务器列表
 Use a password of at least {1} characters (not your name).	请使用至少 {1} 个字符的密码（不要用你的名字）。
 Too many new accounts from here today: try again tomorrow.	今天从这里创建的新账号太多了：请明天再试。
 That doesn't look like an email address.	这看起来不像一个邮箱地址。
@@ -9197,7 +9197,7 @@ Look in that inbox for a link to confirm it.	请在那个收件箱中查找确�
 Sent. Look in that inbox for the link, and its spam folder.	已发送。请在那个收件箱及其垃圾邮件文件夹中查找链接。
 Too many new game servers from here today.	今天从这里创建的新游戏服务器太多了。
 (none sent)	（未发送）
-Shards of Ashen: a game's log ({1}, {2})	Shards of Ashen：一份游戏日志（{1}，{2}）
+Heir Apparently: a game's log ({1}, {2})	Heir Apparently：一份游戏日志（{1}，{2}）
 The email didn't go: try again later.	邮件没有发出：请稍后再试。
 A version is numbers, like 1.0.523.	版本号由数字组成，如 1.0.523。
 No such character.	没有这个角色。
@@ -9214,7 +9214,7 @@ a server of its own	独立的服务器
 itch.io has no purchase made with your account's email ({1}): paste the link from your purchase's page in Account instead.	itch.io 上没有用你账号邮箱（{1}）购买的记录：请改为在“账号”中粘贴你购买页面上的链接。
 itch.io doesn't know that download key.	itch.io 不认识这个下载密钥。
 Which address? python -m central.mail you@example.com	哪个地址？python -m central.mail you@example.com
-Shards of Ashen: a test email	Shards of Ashen：一封测试邮件
+Heir Apparently: a test email	Heir Apparently：一封测试邮件
 The central server can send email.	中央服务器可以发送邮件。
 It didn't go: {1}: {2}	发送失败：{1}：{2}
 That key isn't good for this game.	该密钥对此游戏无效。

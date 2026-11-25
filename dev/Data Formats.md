@@ -1,7 +1,7 @@
-# Shards of Ashen: data formats and conventions
+# Heir Apparently: data formats and conventions
 
 This is the contract shared by the game (the browser game: the server in `server\` and `dsengine\`, the client in
-`web\`; see README-Server.md), the editor (the Python package `dsedit\`, started by `Shards of Ashen Editor.py`: maps,
+`web\`; see README-Server.md), the editor (the Python package `dsedit\`, started by `Heir Apparently Editor.py`: maps,
 scripts, tiles, entities, item racks, spells, quests, buildables, crops and minimaps in one window) and the builders in
 `dev\migrate`. If you change a format, update this file. (The game and the editor were Liberty BASIC,
 `Dragon Sword.bas` and `Dragon Sword Editor.bas`, until they were ported to Python in October 2026. The desktop
@@ -12,7 +12,7 @@ All paths are relative to `DefaultDir$` (the `New (converted)` folder).
 ## Language and checking
 
 * The game: Python 3 with aiohttp (the server), and pygame and numpy to make its pictures (tools\export_web_assets.py). The editor:
-  Python too (dsedit\, started by `Shards of Ashen Editor.py`).
+  Python too (dsedit\, started by `Heir Apparently Editor.py`).
 
 ## Folder layout
 
@@ -792,9 +792,9 @@ egion_tiles.py, with the same Walkable.Data).
   obstacles on a grid of half tiles, using Tiles.ini Walkable.Data, Lock lines and blocking entities. Config
   `[Gameplay] Pathfinding=1` (0 = walk in straight lines as before).
 
-## The editor (Shards of Ashen Editor.py)
+## The editor (Heir Apparently Editor.py)
 
-`python "Shards of Ashen Editor.py"` (the `dsedit` package) is every editor in one window: a rail of sections on the left
+`python "Heir Apparently Editor.py"` (the `dsedit` package) is every editor in one window: a rail of sections on the left
 (Ctrl+1..8), the section on the right, Ctrl+K to go to anything (maps, scripts, tiles, entities, racks, spells, quests),
 Ctrl+S / Ctrl+Z / Ctrl+Y in the section you're in, F5 to play the game. A dot on the rail = unsaved changes there;
 you're asked before anything unsaved is lost. Everything links: "Used on" / "Placed on" / "Opened by" lists jump to the

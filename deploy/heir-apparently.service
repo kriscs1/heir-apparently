@@ -1,0 +1,20 @@
+# Without Docker: the game folder in /opt/heir-apparently, a Python virtualenv in /opt/heir-apparently/venv
+# (pip install -r requirements.txt; python tools/export_web_assets.py once), and a reverse proxy with HTTPS in front
+# (Caddy: "your.domain { reverse_proxy 127.0.0.1:8484 }").
+#   sudo cp deploy/heir-apparently.service /etc/systemd/system/ && sudo systemctl enable --now heir-apparently
+[Unit]
+Description=Heir Apparently game server
+After=network.target
+
+[Service]
+User=heir-apparently
+WorkingDirectory=/opt/heir-apparently
+Environment=DS_DB=/var/lib/heir-apparently/ashen.db DS_HOST=127.0.0.1 DS_PORT=8484 DS_MAX_PLAYERS=5
+ExecStart=/opt/heir-apparently/venv/bin/python -m server
+Restart=on-failure
+KillSignal=SIGTERM
+TimeoutStopSec=20
+StateDirectory=heir-apparently
+
+[Install]
+WantedBy=multi-user.target

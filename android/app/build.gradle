@@ -11,7 +11,7 @@ def game = file(project.findProperty("dsGame") ?: "../..")   // (the game's fold
 def fullGame = (env.DS_FULL_PRODUCT ?: project.findProperty("dsFullProduct") ?: "full_game").trim()
 
 android {
-    namespace "io.github.kriscs1.shardsofashen"
+    namespace "io.github.kriscs1.heirapparently"
     compileSdk 36
 
     defaultConfig {

@@ -10,10 +10,10 @@
 # Another world: copy game3's block below as game4 (DS_..._4 in it), add a world4data volume at the bottom and
 # DS_DOMAIN_4 to caddy's environment, copy a site in the Caddyfile (game4:8484), and copy the _3 lines in .env as _4.
 # One fewer: take its block, its site and its DS_DOMAIN out of each. The updater finds them by themselves.
-name: shards-of-ashen-worlds
+name: heir-apparently-worlds
 
 x-game: &game
-  image: ${DS_IMAGE:-ghcr.io/kriscs1/shardsofashen:latest}
+  image: ${DS_IMAGE:-ghcr.io/kriscs1/heir-apparently:latest}
   restart: unless-stopped
   logging: {driver: json-file, options: {max-size: "10m", max-file: "3"}}
   stop_grace_period: 30s
@@ -111,8 +111,8 @@ services:
         echo "Checking for updates every $$DS_UPDATE_SECONDS seconds";
         while true; do
           sleep "$$DS_UPDATE_SECONDS";
-          games=$$(docker compose -p shards-of-ashen-worlds config --services | grep '^game');
-          if [ -n "$$games" ] && docker compose -p shards-of-ashen-worlds pull -q $$games; then docker compose -p shards-of-ashen-worlds up -d $$games; fi; docker image prune -f > /dev/null;
+          games=$$(docker compose -p heir-apparently-worlds config --services | grep '^game');
+          if [ -n "$$games" ] && docker compose -p heir-apparently-worlds pull -q $$games; then docker compose -p heir-apparently-worlds up -d $$games; fi; docker image prune -f > /dev/null;
         done
 
 volumes:
