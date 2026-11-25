@@ -14,7 +14,7 @@ Sulkhaven, on its island.	Sulkhaven，在它的岛上。
 Cold air, flagstones, and a smell of old barrels.	冷空气，石板地，还有一股陈年木桶的味道。
 Chillingham. Your breath steams in the cold.	Chillingham。你的呼吸在寒气中冒着白雾。
 Sergeant Holt's men are through the camp's gate.	Holt 中士的人已经冲进了营地的大门。
-The grotto under Muddlesey. Water drips into a black pool.	小岛下的洞穴。水滴进一个漆黑的水池。
+The grotto under Muddlesey. Water drips into a black pool.	Muddlesey 下的洞穴。水滴进一个漆黑的水池。
 Torchlight, bones and the stink of hobgoblin: their lair!	火把的光、骨头，还有大地精的臭味：它们的巢穴！
 Wildwood.	Wildwood。
 The Wizards' Court. The air tingles with magic.	巫师庭。空气中弥漫着魔法的刺痛感。
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	你需要伐木 18 级才能砍�
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	吟唱声，还有燃烧的气味。院子里，一个长袍冒着烟、手指上戴着火焰戒指的祭司，正带领灰烬之手唱一首献给龙的圣歌。似乎没有人知道第二段。
 You lift the hatch and climb down into the dark. Somewhere below, boots.	你掀开舱口，爬下去进入黑暗。下面某处，有靴子的声音。
 The hatch is locked.	舱口锁着。
-You climb down the ladder, into the caves under Muddlesey.	你顺着梯子爬下去，进入小岛下的洞穴。
+You climb down the ladder, into the caves under Muddlesey.	你顺着梯子爬下去，进入 Muddlesey 下的洞穴。
 You go down the steps, into the cellar.	你走下台阶，进入地窖。
 You climb down the ladder.	你顺着梯子爬下去。
 The hatch is shut, and it isn't yours to open.	舱口关着，而且不是你能打开的。
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	你下到矿井里：墙�
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	你钻进隧道。前方某处有水在滴，还有东西在沙沙作响。
 You duck into the tunnel. The fen's damp follows you in.	你钻进隧道。沼泽的湿气跟着你钻了进来。
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	“一个陌生人，在屏障升起的那个冬天被发现倒在屏障脚下。这座城市把他当作自己人安葬了。”
-'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	“Agnes Reed。她补过小岛上的每一张网，骂过每一只海鸥。”
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	“Agnes Reed。她补过 Muddlesey 上的每一张网，骂过每一只海鸥。”
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	“Aldwin，高地的牧羊人。他的羊群比他多活了一个冬天。”
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	“竖琴的 Beatrix。贵族区请她别弹了。她没有停。”
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	“Bram，铁匠。他的锤子和他葬在一起，好让他在另一边也能修东西。”
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	�
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	“行会会长 Pryce。生前他掌管行会的账目；死后，但愿他能管住自己的脾气。”
 Two names in a ring of carved ivy: Hal and Bryony.	一圈雕刻的常春藤里有两个名字：Hal 和 Bryony。
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	“Hal，港口的守门人。他等了二十年，等一艘可以放进来的船。”
-'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	“Hester Bell，接生婆。小岛上一半的人是经她的手来到这个世界的。”
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	“Hester Bell，接生婆。Muddlesey 上一半的人是经她的手来到这个世界的。”
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	“我爱这些山丘。把我葬在能看见它们的地方。”这块石头朝着日出。
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	“Hobb Vintner，他卖了五十年全城最难喝的酒，人们非常怀念他。”
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	“Isolde Ashby 夫人。她把财产留给了小镇，把脾气留给了她儿子。”
@@ -218,7 +218,7 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	上面�
 'Little Wren, aged six. Gone to chase the butterflies.'	“小 Wren，六岁。追蝴蝶去了。”
 'Marta of the Quays. She could gut a herring at forty paces.'	“码头的 Marta。她能在四十步外剖开一条鲱鱼。”
 'Martha Lark, who sang at every burial in this yard but her own.'	“Martha Lark，她在这片墓地的每一场葬礼上都唱过歌，除了她自己的。”
-'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	“Mary Croft，挚爱的母亲。她烤的馅饼是小岛上最好的。”
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	“Mary Croft，挚爱的母亲。她烤的馅饼是 Muddlesey 上最好的。”
 So mossed over you can't read it. A wren has nested on top.	长满了苔藓，读不出来了。一只鹪鹩在上面筑了巢。
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	“Ned Pike，渡船夫。在海峡上来回四十年，从没丢过一位乘客。”
 A bow is carved on it, and one word in the old tongue: 'Steady.'	上面刻着一把弓，还有一个古语单词：“稳住。”
@@ -720,9 +720,9 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	冰霜�
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	你敲碎祭坛碗里的冰，取出了天磁石。它冷得烫手，还轻轻地往北拽。
 A star of ice glitters in the altar's bowl, frozen fast.	祭坛的碗里闪着一颗冰之星，冻得结结实实。
 The altar's bowl is empty.	祭坛的碗是空的。
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出，还有一栏“蜡烛（黑色）”。有两行用一个灰烬指印做了记号：\“给小岛上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”\页脚画了两道下划线：“本季度灰烬指标：未完成。”
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	一本黑色封皮的小账本，字迹工整：碎片收入，碎片支出，还有一栏“蜡烛（黑色）”。有两行用一个灰烬指印做了记号：\“给 Muddlesey 上的大地精，四十枚碎片，换那个女人的文书和那孩子的名字。他们抓走了那个老人，结果什么也没得到。”\还有一行新一些的，墨迹还很深：“那孩子已经渡过海峡了。灰衣人现在付双倍。他们说墙那边的那位正在等着。”\页脚画了两道下划线：“本季度灰烬指标：未完成。”
 Close it.	合上它。
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	一张上好的纸片，折得小小的，字迹工整。顶上写着：“账单，一式三份之第二份。”\小岛上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给小岛写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个按在灰烬里的手印，和一块签名着了火留下的焦痕。
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	一张上好的纸片，折得小小的，字迹工整。顶上写着：“账单，一式三份之第二份。”\Muddlesey 上有个女人，是 Galaith 封城那年带着一个孩子从那里来的。她有盖着王冠印章的文书，或者是给 Muddlesey 写文书的那个老人替她保管着。把文书和那孩子的名字带来，碎片就归你们。\下面没有署名。只有一个按在灰烬里的手印，和一块签名着了火留下的焦痕。
 Fold it away.	把它折起来收好。
 PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	Puddleford\西：Drizzleport 码头\东：农田\南：鲁珀特王堡
 Okay	好的
@@ -827,20 +827,20 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	你的父亲，国王，仍在 Galaith 的城墙后面等待，他不知道我已经走了。去找他吧。从你出生那天起，这座城就关闭了，而原因就是我。总有一天你会明白的。\要小心，告诉你父亲，我从未停止爱他。\Mary
 Fold the letter.	把信折起来。
 Quest complete: The Last Will.	任务完成：遗嘱。
-The door to your house is unlocked now, and Muddlesey lies before you.	你家的门现在开了，小岛就在你面前。
-Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin 给小岛写遗嘱和地契，他一次也没要求看我的。Maren 每次路过都会看看宝宝的呼吸，好像她能看出有什么被许诺了出去。这里没有人向我鞠躬。我可以永远待下去。
+The door to your house is unlocked now, and Muddlesey lies before you.	你家的门现在开了，Muddlesey 就在你面前。
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin 给 Muddlesey 写遗嘱和地契，他一次也没要求看我的。Maren 每次路过都会看看宝宝的呼吸，好像她能看出有什么被许诺了出去。这里没有人向我鞠躬。我可以永远待下去。
 The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	码头上的老人们说，第一位国王在 Puddleford 北边的海底下设了一支守卫：玻璃守卫，让某个东西一直沉睡。一百年来没人见过他们中的任何一个。一位国王需要什么东西被看守得这么紧？
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	我在巫师庭最古老的书里找到了契约，是第一位国王的亲笔：他的血脉每一代献出一个长子，龙就保持安宁。我读了三遍。然后我回了家，抱着我的宝宝直到天亮。
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	太阳祭司们把它当作一场胜利来歌颂：第一位国王把龙砍小到足以缚住。砍小，他们唱道。从来不是死去。那它其余的部分去哪儿了？
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	今晚我拿着契约的印章，拿了我敢拿的那么久。它是一枚戒指，是温暖的，像某个沉睡的东西。你害怕时它知道。
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	他们会来抓我的孩子。所以我要逃，一直逃，我从缝隙里拿走的东西会留在一个国王永远想不到去找的地方：一个小小的、静止的、满是天空的地方。
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	我在这座大厅里加冕，又从厨房门离开了它，你睡在一篮待洗的衣服里。如果你在读这个，那屏障已经倒下，你回家了。原谅我。在小岛上找静止的水，在天空仰望自己的地方。
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	我在这座大厅里加冕，又从厨房门离开了它，你睡在一篮待洗的衣服里。如果你在读这个，那屏障已经倒下，你回家了。原谅我。在 Muddlesey 上找静止的水，在天空仰望自己的地方。
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	你母亲的笔迹，小而急促，写在一张巫师庭的纸片上。墨水泛着蓝光：\天鹅绒爪胡须灵，\借 Jimmy 眼看屋形。\下面写着：给我的小家伙，到时候看。Jimmy 知道在哪儿。
 Read it aloud.	大声读出来。
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	你母亲的笔迹。一共七张，她走到哪里就留到哪里。把它们边对边拼起来，就是一张地图。边缘交汇在小岛北部一个小小的圆形上，她在那里写了一个词：静。
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	你母亲的笔迹。一共七张，她走到哪里就留到哪里。把它们边对边拼起来，就是一张地图。边缘交汇在 Muddlesey 北部一个小小的圆形上，她在那里写了一个词：静。
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	Mary 的笔记\折得小小的，是你母亲的笔迹：\他们在巫师庭告诉我，碎片只是碎裂的魔法。不是的。它们是龙的残片，是第一位国王把它砍小到可以缚住时甩落的。它的大部分在世界之外沉睡，每一块残片都饥饿地想要生长；契约用每一位长子继承人的血让龙保持安静。\我不会用我的孩子来偿还它。如果切口能用别的办法保持闭合，或者龙能被终结，代价就会终结。我去找出办法。\它被切开的地方在城市后面的山下。记住缝隙。
 Fold them away.	把它们收起来。
-DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	Drizzleport\北：去小岛的渡船\东：Puddleford 村\南：低语森林和旧铁矿
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	Drizzleport\北：去 Muddlesey 的渡船\东：Puddleford 村\南：低语森林和旧铁矿
 SALTWAY\Houses of Drizzleport.	盐路\Drizzleport 的住宅。
 CHURCH STREET\Houses of Drizzleport.	教堂街\Drizzleport 的住宅。
 MERCERS' LANE\Houses of Drizzleport.	布商巷\Drizzleport 的住宅。
@@ -910,7 +910,7 @@ SMITHY\The forge of Sulkhaven.	铁匠铺\Sulkhaven 的熔炉。
 SWAN LANE\Houses of Wildwood.	天鹅巷\Wildwood 的住宅。
 SOUTH ROW\Houses of Wildwood.	南排\Wildwood 的住宅。
 WILDWOOD\A hamlet.	Wildwood\一座小村庄。
-DONNNG... The bell's voice rolls out over Muddlesey.	当——嗡……钟声在小岛上空回荡。
+DONNNG... The bell's voice rolls out over Muddlesey.	当——嗡……钟声在 Muddlesey 上空回荡。
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	钟响了一声，低沉而青绿，沼泽里的每一只青蛙都停下来聆听。
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	水里有什么东西回应了，有点走调，被钟声震松的东西从你脚边的泥里冒了出来。
 The frogs start up again, louder, as if they've been told.	青蛙们又叫了起来，更响了，好像它们被告知了什么。
@@ -1164,7 +1164,7 @@ Show me your scrolls.	给我看看你的卷轴。
 Can you teleport me?	你能把我传送过去吗？
 Another heir has come to you, besides me.	除了我，还有另一个继承人来找过你。
 Where to? Keep your arms in.	去哪儿？手脚收好。
-To Muddlesey.	去小岛。
+To Muddlesey.	去 Muddlesey。
 To Drizzleport.	去 Drizzleport。
 Nowhere, thanks.	哪儿都不去，谢谢。
 Bert waves his hands, and the world spins...	Bert 挥了挥手，世界旋转起来...
@@ -1473,7 +1473,7 @@ Thank you, Maren.	谢谢你，Maren。
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	任务完成：在 Edwin 家吃晚饭！Maren 给了你礼拜堂活板门的钥匙和两瓶治疗药剂。
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	如果你需要起草什么东西，遗嘱或地契，找我就对了。不过我希望你要用遗嘱的那天还很远、很远。
 What was my mother like?	我母亲是个什么样的人？
-She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	她抱着你来到小岛，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。有一次她说得我自己免掉了我的费用，我还道了谢。\我总觉得她不只是一间小屋和一只猫那么简单。
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	她抱着你来到 Muddlesey，从来没说过是从哪儿来的。善良，骄傲，比她表现出来的聪明得多。有一次她说得我自己免掉了我的费用，我还道了谢。\我总觉得她不只是一间小屋和一只猫那么简单。
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	慢慢读那封信吧。它只属于你一个人。我不好奇。一点、一点都不好奇。
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	小心第三块木板。还有第五块。说实话，每一块都要小心。
 What do you catch out here?	你在这儿钓什么？
@@ -1520,7 +1520,7 @@ The farmer points at the hedges: "There! Here they come!"	农夫指着树篱：�
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	“蘑菇！洞穴蘑菇，会发光的那种：唯一一种和我一样喜欢黑暗的作物。给，拿几个。我请客。我的家就是个洞。”
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	“诀窍是，你要和它们说话。不要客气。蘑菇不相信客气。”
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	“Maud 说我不能把它们卖给矮人，因为根本没有矮人。我说那正是矮人想让你以为的。”
-Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	回小岛？两条船一起渡海，每个码头一条，钟一响就出发。有船停在这里时就上船，一枚硬币就是船费。\它们在半路上相互交错。你愿意的话就挥挥手。没人挥。
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	回 Muddlesey？两条船一起渡海，每个码头一条，钟一响就出发。有船停在这里时就上船，一枚硬币就是船费。\它们在半路上相互交错。你愿意的话就挥挥手。没人挥。
 Thanks, Wim.	谢谢，Wim。
 Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	去 Drizzleport，是吗？有船靠岸时就上船，付一枚硬币。它们听钟声从两个码头出发，在海峡里交错。\这些年没丢过一位乘客。嗯。今年没丢过。
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	等等，朋友。你还嫩得跟草一样，看样子你手里还从没拿过野兽留下的东西。大陆会把你这样的人吃掉的：先去找 Aldous 修士，到 3 级再回来。
@@ -1528,7 +1528,7 @@ Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and loo
 Thank you, Wim.	谢谢你，Wim。
 Quest complete: Passage to the Mainland!	任务完成：前往大陆！
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	有船靠岸时就上船，一枚硬币就是船费。它们听钟声从两个码头出发。
-Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	渡海峡？先要文书，朋友。自从那几次袭击以后，Drizzleport 的守卫会把任何没有文书的小岛人送回来，而把他们送回家的人是我。\以前一直是老 Tobias 写文书，他管着小岛的名册，可自从大地精来了以后就没人见过他了。去问问农场上的 Bess：她是他女儿。
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	渡海峡？先要文书，朋友。自从那几次袭击以后，Drizzleport 的守卫会把任何没有文书的Muddlesey 人送回来，而把他们送回家的人是我。\以前一直是老 Tobias 写文书，他管着 Muddlesey 的名册，可自从大地精来了以后就没人见过他了。去问问农场上的 Bess：她是他女儿。
 Quest started: Passage to the Mainland.	任务开始：前往大陆。
 Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	有文书了吗？没有？那就不能渡海，朋友。Drizzleport 只会把你送回来，而把你送回来的人是我。划双倍的桨，收一样的船钱。
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	今天鱼咬钩！在钩子上挂条虫子，海里什么都会咬。\等你用钓竿熟练了，鳟鱼会疯了一样咬钩。
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	我会回来的。
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	有客人！除了兔子，没人会来这里。\我的火快灭了，我这把老骨头抡不动斧头了。给我拿五根橡木原木来，我会给你点辛苦费。\这片树林里长着橡树。你需要伐木 5 级。
 I'll fetch them.	我去拿。
-His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	他的营地在小岛西边的树林里。小岛上到处都长着橡树。
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	他的营地在 Muddlesey 西边的树林里。Muddlesey 上到处都长着橡树。
 Quest started: The Hermit's Fire.	任务开始：隐士的火。
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	啊，好橡木。够烧一个星期了。给，拿着我的旧法杖：它会给你的法术添点火力。\还有一个秘密，送给朋友：东南岸边的立石下面藏着的不只是苔藓。
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	任务完成！你获得了一根橡木法杖、25 金币和伐木经验。
@@ -1802,7 +1802,7 @@ Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agre
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	咩！哈，抱歉——你整天跟羊说话，说起话来也像羊了。\注意别吓着它们。如果你想要羊毛，只要你温柔点，它们会让你剪的。
 How do I shear a sheep?	我怎么剪羊毛？
 Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	对一只羊使用大剪刀——Puddleford 的补锅匠有卖，商店也有。然后在纺车上纺羊毛，或者卖给织工。
-Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	欢迎来到小岛商店！小岛上钱少得可怜，所以我只卖大家离不了的东西。工具、鱼饵和吃的：这里的人需要的就是这些。
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	欢迎来到 Muddlesey 商店！Muddlesey 上钱少得可怜，所以我只卖大家离不了的东西。工具、鱼饵和吃的：这里的人需要的就是这些。
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	弄臣需要一个国王，国王需要一个王国，而我需要一份工作。\所以我到处走走。您想要什么，$Player.Lord 还是平民？
 Tell me a joke.	给我讲个笑话。
 A riddle, then.	那出个谜语吧。
@@ -1908,7 +1908,7 @@ Quest started: A Golem's Worth of Trouble.	任务开始：一个魔像的麻烦�
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	按我算还剩 4 个。已经完成 $Attr.GolemQuest_Count 个。
 Quest complete: A Golem's Worth of Trouble.	任务完成：一个魔像的麻烦。
 Splendid! And quite safe, now. Mostly.	太棒了！现在相当安全了。大体上。
-Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	Drizzleport 大体上是个安静的地方。渡船把人们从小岛送过来，鱼在黎明时进港。
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	Drizzleport 大体上是个安静的地方。渡船把人们从 Muddlesey 送过来，鱼在黎明时进港。
 Ha. Thanks.	哈。谢谢。
 Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	要往内陆去？Puddleford 在这里东边。小心南边的树林：有狼，过了旧矿井还有更糟的。
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	我叔叔有一次下到流变深渊里。从另一个洞里上来的。还换了个郡。
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	我继续砍。
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	从 Bess 的鸡舍拿一个鸡蛋，在我楼上的炉灶上煎好，然后给 Edwin。他会很高兴的。他会装作不高兴，但他会很高兴的。
 I'll see to it.	我来办。
-Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	进来吧，亲爱的。小岛上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。大多数都好了。剩下的就交给 Aldous 修士。\Edwin 的书桌在窗边：遗嘱、地契之类的。我们俩加起来，管的是人的一辈子。
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	进来吧，亲爱的。Muddlesey 上谁身体不舒服，最后都会躺到那张床上，我尽我所能帮他们。大多数都好了。剩下的就交给 Aldous 修士。\Edwin 的书桌在窗边：遗嘱、地契之类的。我们俩加起来，管的是人的一辈子。
 How is your father?	你父亲怎么样了？
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	回家了，安全了，还把我们吃得家徒四壁！每天晚上三碗。我怎么感谢你都不够。\所以暂时请别再救别人了。
 I'm glad.	我很高兴。
@@ -1974,7 +1974,7 @@ What's wool for?	羊毛有什么用？
 How do I get to the mainland?	我怎么去大陆？
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	在工作台上把它纺成羊毛球，谷仓里就有一个。牛皮也可以在那里鞣成皮革。还在牛身上用着的那些不行。
 Thanks!	谢谢！
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Drizzleport 会把任何没有文书的小岛人送回来。\以前一直是我父亲写小岛的文书。从我出生前他就管着小岛的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。听说他们在礼拜堂下面的洞穴里有个巢穴。\可怜的家伙们。他现在大概正跟他们讲他的膝盖呢。
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	大陆？Wim 的渡船从码头出发，亲爱的，可没有文书他不会带你：自从那几次袭击以后，Drizzleport 会把任何没有文书的Muddlesey 人送回来。\以前一直是我父亲写 Muddlesey 的文书。从我出生前他就管着 Muddlesey 的名册了。可大地精把他抓走了，从那以后就没人见过他。他的房子是村里那座旧砖房，锁着，他们把他的钥匙也拿走了。听说他们在礼拜堂下面的洞穴里有个巢穴。\可怜的家伙们。他现在大概正跟他们讲他的膝盖呢。
 I'll find him.	我会找到他的。
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	你可别空手去接近大地精！我的 Frank 是铁匠：他的铁匠铺就在我的小屋旁边。他会帮你做一把剑和一面盾。\他话不多。多点点头，他会喜欢的。
 Thank you, Bess.	谢谢你，Bess。
@@ -2059,7 +2059,7 @@ Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll g
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	晚上好。这么晚还来码头、又没东西卖的人可不多。\我不问一样东西去过哪里，我也不记得人脸。只是会让你在价钱上吃点亏，就这样。
 Let's see what you'll give me.	看看你能给我什么。
 Welcome to the port of Drizzleport. Mind the ropes.	欢迎来到 Drizzleport 港。小心绳子。
-Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从小岛的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Drizzleport 的市政厅就是 Brambleton 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	从 Muddlesey 的渡船上下来的？那就出示文书吧。\他把文书展开，看到印章时一动不动了。\这是古老的王室印章。自从十八年前王后失踪以后我就没见过了：那一年 Galaith 被关闭，一道光墙横在山口上，后面是一条龙。在屏障倒下之前，Drizzleport 的市政厅就是 Brambleton 的议会。\这不是码头上一个中士该管的事。把它们拿到市政厅给议长看，收好。
 I'll go to the City Hall.	我去市政厅。
 Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	欢迎来到 Drizzleport，Brambleton 的首都。至少目前是。\Galaith 已经关闭十八年了：一道光墙横在山口上，后面是一条龙。所以在屏障倒下之前，这里的市政厅就是议会。\你说你在 Galaith 有事？那就去市政厅问。据说它就是在王后失踪的那一年被封锁的。
 Quest started: The Temporary Capital.	任务开始：临时首都。
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	给他看护身符。
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	那枚护身符……你是从哪里得来的？那是我送给我妻子的，在那天晚上之前……她逃走的那天晚上。
 Tell him of Mary's will.	告诉他 Mary 的遗嘱。
-My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	我的母亲，Mary，死在了小岛上，她在那里把我养大。她的遗嘱告诉了我我是谁。她让我回到你身边，告诉你她的死讯。\还要告诉你，她从未停止爱你。
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	我的母亲，Mary，死在了 Muddlesey 上，她在那里把我养大。她的遗嘱告诉了我我是谁。她让我回到你身边，告诉你她的死讯。\还要告诉你，她从未停止爱你。
 The King comes down from his throne, and holds you, and weeps.	国王从王座上走下来，抱住你，哭了。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary。我的 Mary。她把你带走，好让龙得不到你，而我任由他们把那叫作背叛。十八年了。\我的 $Player.Son。我的 $Player.Son。
 Father.	父亲。
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	谢谢你，Tobias。
 Quest complete: Tobias's Tin!	任务完成：Tobias 的铁罐！
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	压低，轻手轻脚，别待在它们看着的方向上。箱子在它们的火堆旁，在村子东南边的营地里。
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	我的救命恩人来了！Maren 把我喂得像只仲夏节的鹅。Edwin 已经开始给储藏室上锁了。\那房子归你了，注意：我不回去了，那些畜生离得那么近。好好照看它。
-Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看.. “那个给小岛写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。可怕的人。从来不擦脚。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	我看看..“那个给 Muddlesey 写文书的老头”。那是我。原来这就是他们抓我的原因！每天晚上那个大个子都问我 Mary 的文书在哪儿。我一直没告诉他们。\还有一只灰烬里的手。北方有些人就是这样署名的：他们自称灰烬之手。崇拜火的人，在 Elderwood 再往北。可怕的人。从来不擦脚。\他们这种人想要你母亲做什么？或者想要你做什么？把这个收好，在那边要睁大眼睛。
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	站住！过路费。（他伸出一只透明的手。）路关了，可过路费照收。这些日子我不收硬币：它们会掉下去。那就来个谜语吧。答对三个，我就抬起栏杆。
 I'll go round.	我绕过去。
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	我有脖子没有头，有两条胳膊没有手。我满着出门，空着回家。我是什么？
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	她久久地凝视着火盆里的烟。\“一顶王冠。很沉。戴一个星期你就会讨厌它，人人都这样。”
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	她久久地凝视着火盆里的烟。\“在海底下，有一道会唱歌的光。别回答它。”
 You haven't five gold.	你没有五个金币。
-Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	小岛上天气真好！要是你闷得慌，东边的悬崖底下有个洞。不过当心，下面有蝙蝠。
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	Muddlesey 上天气真好！要是你闷得慌，东边的悬崖底下有个洞。不过当心，下面有蝙蝠。
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	北边的挤奶女工养着牛和羊。你要是想要羊毛，她会卖给你剪刀。\去大陆的渡船从南边的码头出发。
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	东南边的海岸旁有一圈古老的石头。我奶奶说千万别在那儿挖。所以我当然挖了。什么都没找到。大概是挖错地方了。
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	东北边的海边立着一座破败的旧瞭望塔。现在是狼的地盘了。
-A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	西边的树林里住着一个隐士。是个怪人，不过他认识小岛上的每一棵树。
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	西边的树林里住着一个隐士。是个怪人，不过他认识 Muddlesey 上的每一棵树。
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	天黑以后别去东边的墓地。天黑以前也别去。干脆就别去。
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	面包房有新鲜面包，杂货店有工具，铁匠铺有熔炉，你要是有矿石可以去炼。
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	在低语森林里小心狼。还有哥布林。还有大地精。说真的，我从来不离开村子。
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	她是个好女人，你母亲。对我们每个人都很好，从来不提自己。\十六年来每个星期天打牌都赢我。我一直没弄明白她是怎么做到的。
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	我很难过。Mary 是我们这里每个人的朋友。\来吧：我陪你走回家。她给你留了东西，只能交给你一个人。那是她的嘱咐。下面画了两道线。
 Lead the way.	带路吧。
-You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	你们一起穿过小岛走回家。Edwin 不时想说点法律上的话，又改了主意。
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	你们一起穿过 Muddlesey 走回家。Edwin 不时想说点法律上的话，又改了主意。
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	你母亲把她的遗嘱托付给了我。她告诉我永远不要打开这封信，还说你不应该把它读给任何人听。这是她留给你的最后的话，只给你一个人。\当了三十年律师，我从没这么想读一封信。我没读。请记录在案。
 He lays a letter on the table, sealed with your mother's wax.	他把一封信放在桌上，信用你母亲的蜡封着。
 Thank you. If you don't mind, I would like to be left alone to read the letter.	谢谢你。如果你不介意的话，我想一个人读这封信。
@@ -2879,10 +2879,10 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	你现在听到它了。每个碰过它的人都会听到。\守望归你了，温暖的人。如果可以，我想休息了。有一件事我一直没做完，可我想不起来是什么。
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	北边农场的挤奶女工 Bess 应该知道怎么渡海去大陆。
-Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	没有文件，Wim 不会载任何人离开小岛。Bess 的父亲 Tobias 写好了文件，但大地精把他抓走了。他在村里的房子锁着，钥匙在大地精手里。
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	没有文件，Wim 不会载任何人离开 Muddlesey。Bess 的父亲 Tobias 写好了文件，但大地精把他抓走了。他在村里的房子锁着，钥匙在大地精手里。
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	Bess 的父亲 Tobias 被锁在大地精巢穴的笼子里。撬开笼锁救他出来。他的房门钥匙一定在巢穴某处。
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	Tobias 把他的房子交给了你。用他的钥匙打开房门，找到他藏在地板下的东西。
-Show your papers to Wim the ferryman, on Muddlesey's pier.	把你的文件给小岛码头的船夫 Wim 看。
+Show your papers to Wim the ferryman, on Muddlesey's pier.	把你的文件给 Muddlesey 码头的船夫 Wim 看。
 Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	去问问 Puddleford 农田小屋里的草药师是否需要帮忙。
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	给草药师带去 3 个洞穴蘑菇（在旧铁矿里采摘）和 2 份蜘蛛丝（矿井深处的巨型蜘蛛会掉落）。
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	在深谷（穿过大地精洞窟里的活板门）找到矮人 Brokk，问问他是否需要帮助。
@@ -2917,7 +2917,7 @@ Speak to Brann the forgemaster in Chillingham, under Frostpeak.	与 Frostpeak �
 Bring Brann 5 coal to light his forge.	给 Brann 带 5 块煤来点燃他的熔炉。
 Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	杀死 Chillingham 东边冰湖上砸坏 Brann 水车的冰霜巨魔。
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	给 Brann 带 2 根秘银锭（在熔炉里冶炼秘银矿石）。
-Find the hermit at his camp in Muddlesey's western woods.	在小岛西边树林的营地里找到隐士。
+Find the hermit at his camp in Muddlesey's western woods.	在 Muddlesey 西边树林的营地里找到隐士。
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	给隐士带 5 根橡木原木（砍伐橡树：伐木 5 级）。
 Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	与 Nettlewick 的德鲁伊交谈，那里位于 Greyflats 以东、过了老桥的 Elderwood。
 Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	找到心木石，Elderwood 古老的心之石，在 Nettlewick 东北边，触摸它。
@@ -2977,7 +2977,7 @@ The Eldest of the Mending is dead. The great Shard is still singing.	弥合会�
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	你打碎了伟大的碎片。弥合会四散了，其中一些人回家了。
 You kept a splinter of the great Shard: Mary's Whisper.	你留下了伟大碎片的一块碎屑：Mary 的低语。
 Read the letter your mother left you, on the table in your cottage.	阅读你母亲留给你的信，就在你小屋的桌上。
-Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	律师 Edwin 请你去吃晚饭。他和他的妻子、小岛的医生 Maren 住在小岛西北边海边的砖房里。
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	律师 Edwin 请你去吃晚饭。他和他的妻子、Muddlesey 的医生 Maren 住在 Muddlesey 西北边海边的砖房里。
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	用 Maren 借给你的斧头为她的炉灶劈 3 根原木（砍树），带给她。
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	从北边 Bess 农场的鸡舍里拿一个蛋，在他们家楼上 Maren 的炉灶上煎熟（对炉灶使用鸡蛋）。
 Give the fried egg to Edwin, at his house.	把煎蛋送给在家里的 Edwin。
@@ -3115,7 +3115,7 @@ Delver Maud wants 2 Cave Horror dead.	掘洞人 Maud 想要 2 只洞穴恐魔的
 Done. Go back to Delver Maud.	完成了。回到掘洞人 Maud 那里。
 Your mother's hand has turned up somewhere you didn't expect.	你母亲的笔迹出现在了你没想到的地方。
 Your mother left notes, wherever she went. There must be more of them.	你母亲无论走到哪里都会留下笔记。一定还有更多。
-Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	七张笔记，边对边拼在一起就是一张地图。它的终点在小岛上，在某个静止的东西那里。
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	七张笔记，边对边拼在一起就是一张地图。它的终点在 Muddlesey 上，在某个静止的东西那里。
 A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	Gull Point（Puddleford 半岛的尖端）的一位渔妇一直从海里捞出玻璃。它会发光。
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	Nell Tarrow 的渔网捞上来满满的发光玻璃。查明它从哪里来。
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	Gull Point 下面有一扇封住的黑玻璃门，中间有一个小小的圆形凹槽。告诉 Nell。
@@ -3482,7 +3482,7 @@ the hovels	棚屋区
 the fountain	喷泉
 the palace	宫殿
 The strait ferry	海峡渡船
-The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	船夫摇了摇头。“先给我看文件，朋友。自从那些袭击以后，Drizzleport 会把没带文件离开小岛的人都送回来。码头上的 Wim 会检查它们。”
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	船夫摇了摇头。“先给我看文件，朋友。自从那些袭击以后，Drizzleport 会把没带文件离开 Muddlesey 的人都送回来。码头上的 Wim 会检查它们。”
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	船夫举起一只手。“你还嫩得很，看样子你手里从来没拿过野兽留下的东西。去找 Aldous 修士，到 3 级再回来。”
 Muddlesey	Muddlesey
 Malaria	疟疾
@@ -3598,7 +3598,7 @@ Iron Bar	铁锭
 A bar of solid iron. A smith could use this.	一根实心铁锭。铁匠用得上它。
 Smithing	锻造
 Beggar's House Key	乞丐的房门钥匙
-An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	一把旧铁钥匙：Puddleford 的乞丐丢了他在小岛上房子的钥匙。一定就是这把。
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	一把旧铁钥匙：Puddleford 的乞丐丢了他在 Muddlesey 上房子的钥匙。一定就是这把。
 A key	一把钥匙
 The beggar's	乞丐的
 Chef's Hat	厨师帽
@@ -3768,7 +3768,7 @@ Villager	村民
 A local, going about their business.	一个当地人，正忙着自己的事。
 A local	一个当地人
 Milkmaid	挤奶女工
-The milkmaid, who looks after Muddlesey's cows and sheep.	挤奶女工，照料小岛的牛和羊。
+The milkmaid, who looks after Muddlesey's cows and sheep.	挤奶女工，照料 Muddlesey 的牛和羊。
 Bess, the milkmaid	挤奶女工 Bess
 Fisherman	渔夫
 An old fisherman in a yellow oilskin. He smells of the sea.	一个穿着黄色油布雨衣的老渔夫。他身上有大海的味道。
@@ -4360,14 +4360,14 @@ Chimney Smoke	烟囱的烟
 Smoke from the forge. It smells of hot iron and somebody's lunch.	铁匠铺的烟。闻起来像热铁和某人的午饭。
 Smoke	烟
 Edwin	Edwin
-Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	Edwin，小岛的律师。他的妻子 Maren 是小岛的医生。
-Edwin, Muddlesey's lawyer	小岛的律师 Edwin
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	Edwin，Muddlesey 的律师。他的妻子 Maren 是 Muddlesey 的医生。
+Edwin, Muddlesey's lawyer	Muddlesey 的律师 Edwin
 Maren	Maren
-Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren，小岛的医生，Edwin 的妻子。她的姐姐是挤奶女工 Bess。
-Maren, Muddlesey's doctor	小岛的医生 Maren
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren，Muddlesey 的医生，Edwin 的妻子。她的姐姐是挤奶女工 Bess。
+Maren, Muddlesey's doctor	Muddlesey 的医生 Maren
 Frank	Frank
-Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	Frank，小岛的铁匠：胳膊粗得像火腿，煤灰一直沾到手肘。
-Frank, Muddlesey's blacksmith	小岛的铁匠 Frank
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	Frank，Muddlesey 的铁匠：胳膊粗得像火腿，煤灰一直沾到手肘。
+Frank, Muddlesey's blacksmith	Muddlesey 的铁匠 Frank
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	Tobias，Bess 和 Maren 的父亲。大地精把他关在笼子里。
 Tobias, Bess and Maren's father	Tobias，Bess 和 Maren 的父亲
 Ferryman	船夫
@@ -5518,29 +5518,29 @@ Today's bounty	今天的悬赏
 Records Board	纪录板
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	纪录大厅，用浅色石头雕成并镀了金：在 Brambleton 做得最多的那些名字。
 The names that have done the most	做得最多的那些名字
-Trees all over Muddlesey and the Southlands	小岛和南方大地到处都有树
+Trees all over Muddlesey and the Southlands	Muddlesey 和南方大地到处都有树
 Fallen logs lying in the meadows and woods	倒在草地和树林里的原木
-Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	小岛的树林里、Drizzleport 和 Puddleford 周围以及低语森林里的橡树
-Willows grow by the water: Muddlesey's woods, the shores of the Southlands	柳树长在水边：小岛的树林里、南方大地的岸边
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	Muddlesey 的树林里、Drizzleport 和 Puddleford 周围以及低语森林里的橡树
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	柳树长在水边：Muddlesey 的树林里、南方大地的岸边
 A few ancient yews deep in the Whispering Woods and the eastern woods	低语森林和东部树林深处的几棵古老紫杉
 Any shore or cave pool	任何岸边或洞穴水池
-The old iron mine, the mine depths, the grotto under Muddlesey and the warren	旧铁矿、矿井深处、小岛下的洞穴和大地精洞窟
-The cellar grotto under Muddlesey and the old iron mine	小岛下的地窖洞穴和旧铁矿
-The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	小岛下的地窖洞穴和旧铁矿。和铜矿石一起冶炼成青铜
-The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	小岛下的地窖洞穴、矿井深处和公会的深层矿脉
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	旧铁矿、矿井深处、Muddlesey 下的洞穴和大地精洞窟
+The cellar grotto under Muddlesey and the old iron mine	Muddlesey 下的地窖洞穴和旧铁矿
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	Muddlesey 下的地窖洞穴和旧铁矿。和铜矿石一起冶炼成青铜
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	Muddlesey 下的地窖洞穴、矿井深处和公会的深层矿脉
 The mine depths, the guild's deep seam and the hobgoblin warren	矿井深处、公会的深层矿脉和大地精洞窟
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	大地精洞窟下方深谷里的水晶洞，以及矿井深处公会的深层矿脉（采矿 5 级才能进入）
 The crystal cavern in the Deep Hollow, and Brokk's vault	深谷里的水晶洞，以及 Brokk 的宝库
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	深谷里洞穴巨魔的巢穴和 Brokk 的宝库。只有钢镐或秘银镐才能敲开它
 Damp corners of every cave and mine	每个洞穴和矿井的潮湿角落
-Herb patches in the grass on Muddlesey and in the Southlands	小岛和南方大地草丛中的草药地
+Herb patches in the grass on Muddlesey and in the Southlands	Muddlesey 和南方大地草丛中的草药地
 Loose herbs lying about in the Southlands (they grow back after a while)	南方大地上散落的草药（过一阵子会重新长出来）
-Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	小岛上、Drizzleport 周围和低语森林里的浆果丛
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	Muddlesey 上、Drizzleport 周围和低语森林里的浆果丛
 The wheat field on the Puddleford farmlands	Puddleford 农田里的麦田
 The cabbage rows on the Puddleford farmlands	Puddleford 农田里的卷心菜地
-Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	小岛农场和 Puddleford 农舍旁的母鸡窝
-The cows on Muddlesey's farm and the Puddleford farmlands	小岛农场和 Puddleford 农田里的牛
-The sheep on Muddlesey and the Puddleford farmlands	小岛和 Puddleford 农田里的羊
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	Muddlesey 农场和 Puddleford 农舍旁的母鸡窝
+The cows on Muddlesey's farm and the Puddleford farmlands	Muddlesey 农场和 Puddleford 农田里的牛
+The sheep on Muddlesey and the Puddleford farmlands	Muddlesey 和 Puddleford 农田里的羊
 Bog myrtle bushes in the Brinebottom	Brinebottom 的沼泽香桃木丛
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	任何沙滩或沙漠（右键点击沙地）。在熔炉里把它熔成玻璃，再在工作台上做成空药瓶
 Sage clumps on the moors, the hills and the downs	荒原、丘陵和高地上的鼠尾草丛
@@ -5582,7 +5582,7 @@ Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole 
 The Frozen Forge	冰封的熔炉
 Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	Chillingham 的锻造大师 Brann 点不着他的熔炉，他可不太好受。
 The Hermit's Fire	隐士的火
-The hermit in Muddlesey's western woods could do with good wood for his fire.	小岛西边树林里的隐士需要好木头来烧火。
+The hermit in Muddlesey's western woods could do with good wood for his fire.	Muddlesey 西边树林里的隐士需要好木头来烧火。
 The Withering Wood	枯萎的森林
 The druid in Nettlewick says the Elderwood is dying, and nobody listens.	Nettlewick 的德鲁伊说 Elderwood 正在死去，却没人听。
 The Barrow King	古冢之王
@@ -7105,12 +7105,12 @@ Frailty	虚弱
 The floor gives way! You fall, and land hard a floor below.	地面塌陷了！你掉了下去，重重地摔在下一层。
 That's as far as the demo goes: the full game goes on from here.	试玩版就到这里了：完整版游戏将从这里继续。
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	试玩版就到这里了：%d 级。从现在起你学到的东西都会为完整版游戏保留。
-Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	小岛的故事已经讲完，试玩版就到这里：渡海前往 Drizzleport 属于完整版游戏。
-Why would hobgoblins raid Muddlesey for your mother's papers?	为什么大地精要袭击小岛，抢你母亲的文件？
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	Muddlesey 的故事已经讲完，试玩版就到这里：渡海前往 Drizzleport 属于完整版游戏。
+Why would hobgoblins raid Muddlesey for your mother's papers?	为什么大地精要袭击 Muddlesey，抢你母亲的文件？
 Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	海峡对岸：Drizzleport、大陆的城镇和道路、巫师庭，以及故事的其余部分。
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	好友通行证：这里有人拥有完整版游戏，所以只要对方在游戏中，它也属于你。
-Nobody here has the full game now: back to Muddlesey in %d seconds.	现在这里没有人拥有完整版游戏：%d 秒后返回小岛。
-Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	现在这里没有人拥有完整版游戏：你回到了试玩版，小岛，%d 级。
+Nobody here has the full game now: back to Muddlesey in %d seconds.	现在这里没有人拥有完整版游戏：%d 秒后返回 Muddlesey。
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	现在这里没有人拥有完整版游戏：你回到了试玩版，Muddlesey，%d 级。
 Your mother's papers, under a crowned seal	你母亲的文件，盖着王冠封印
 An order for her papers and her child's name, signed with a hand pressed in ash	一份索要她的文件和她孩子名字的命令，签名是用一只按在灰烬里的手印
 A miniature from where only a cat could go: a crowned man, a baby in his arms	一幅只有猫才能去到的地方的小画像：一个戴王冠的男人，怀里抱着一个婴儿
@@ -8582,7 +8582,7 @@ not begun	未开始
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	完整版游戏只需在开始界面为你的 Hallisium 账号购买一次：之后在应用和浏览器中
 in the app and in a browser too, and your character keeps everything they've done.	都属于你，你的角色也会保留他们做过的一切。
 The demo	试玩版
-That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	试玩版就到这里为止：完整版游戏将从这里继续，越过小岛前往
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	试玩版就到这里为止：完整版游戏将从这里继续，越过 Muddlesey 前往
 mainland, its towns and the rest of the story.	大陆、它的城镇，以及故事的其余部分。
 That's level {1}, as far as the demo goes. What you learn from here is kept,	这是 {1} 级，试玩版的上限。从现在起你学到的东西都会被保留，
 and counts as soon as you have the full game.	一旦你拥有完整版游戏就会生效。
@@ -8614,7 +8614,7 @@ Bring a character from a file	从文件带入角色
 Signed in as {1}	已登录为 {1}
 Playing without a Hallisium account: your characters here are this device's.	不使用 Hallisium 账号游玩：你在这里的角色属于此设备。
 Play as {1}	以 {1} 游玩
-Level {1} · Demo: Muddlesey, level {2}	{1} 级 · 试玩版：小岛，{2} 级
+Level {1} · Demo: Muddlesey, level {2}	{1} 级 · 试玩版：Muddlesey，{2} 级
 Level {1}	{1} 级
 Copy to device	复制到设备
 Copy {1} to your own device. The copy can't come back to this server.	把 {1} 复制到你自己的设备上。副本无法回到此服务器。
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	你的{1}等级现在是 {2}！
 Online {1}/{2}: {3}	在线 {1}/{2}：{3}
 PvP here	此处可 PvP
 Safe here	此处安全
-Demo: Muddlesey, level {1}	试玩版：小岛，{1} 级
-Friend Pass: back to Muddlesey in {1}s	好友通行证：{1} 秒后返回小岛
+Demo: Muddlesey, level {1}	试玩版：Muddlesey，{1} 级
+Friend Pass: back to Muddlesey in {1}s	好友通行证：{1} 秒后返回 Muddlesey
 Friend Pass: {1}'s game	好友通行证：{1} 的游戏
 Friend Pass	好友通行证
 ARENA - other players can fight you here	竞技场 - 其他玩家可以在这里与你战斗
@@ -8946,7 +8946,7 @@ Save skills	保存技能
 Rewards	奖励
 The end of the demo	试玩版的结尾
 Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	Wim 看了看你的文件，点头让你上船。海峡对岸，Drizzleport 的屋顶映着阳光。
-What Muddlesey gave you	小岛给了你什么
+What Muddlesey gave you	Muddlesey 给了你什么
 What's left to ask	还剩下什么要问
 Until then	在那之前
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	请先勾选同�
 The browser wouldn't go full screen.	浏览器无法进入全屏。
 What every game you join starts with. A game's own Options change them there.	你加入的每个游戏都以此为初始设置。各游戏自己的选项可以在游戏中更改它们。
 The full game: yours ({1}).	完整版游戏：已属于你（{1}）。
-The demo: Muddlesey, up to level {1}.	试玩版：小岛，最高 {1} 级。
+The demo: Muddlesey, up to level {1}.	试玩版：Muddlesey，最高 {1} 级。
 Waiting for you to confirm {1}: the link's in that inbox.	等待你确认 {1}：链接在那个收件箱里。
 Until then a code goes to {1}.	在此之前，验证码会发送到 {1}。
 You can join games once it's confirmed.	确认之后你就可以加入游戏了。
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	正在询问 Steam...
 Shards of Ashen is bought once,	《Shards of Ashen》只需购买一次，
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	可在 Steam、itch.io 或 Epic 购买，并从那里游玩：请从 Steam 启动，并登录购买它的账号。
-The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	试玩版：小岛，最高 {1} 级。完整版游戏将继续前往大陆，以及故事的其余部分。
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	试玩版：Muddlesey，最高 {1} 级。完整版游戏将继续前往大陆，以及故事的其余部分。
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	只需为你的 Hallisium 账号购买一次：之后在任何地方都属于你，包括安卓应用。
 Buy it with your account's email, then come back here.	请用你账号的邮箱购买，然后回到这里。
 Log in first, to have it on your account.	请先登录，才能将其绑定到你的账号。

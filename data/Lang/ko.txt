@@ -14,7 +14,7 @@ Sulkhaven, on its island.	섬 위의 설크헤이븐.
 Cold air, flagstones, and a smell of old barrels.	차가운 공기, 판석, 그리고 오래된 술통 냄새.
 Chillingham. Your breath steams in the cold.	칠링엄. 추위에 입김이 하얗게 피어오른다.
 Sergeant Holt's men are through the camp's gate.	홀트 하사의 부하들이 야영지 문을 뚫고 들어갔다.
-The grotto under Muddlesey. Water drips into a black pool.	섬 아래의 동굴. 검은 웅덩이로 물이 똑똑 떨어진다.
+The grotto under Muddlesey. Water drips into a black pool.	머들지 아래의 동굴. 검은 웅덩이로 물이 똑똑 떨어진다.
 Torchlight, bones and the stink of hobgoblin: their lair!	횃불, 뼈, 그리고 홉고블린의 악취. 놈들의 소굴이다!
 Wildwood.	와일드우드.
 The Wizards' Court. The air tingles with magic.	마법사 궁정. 공기가 마법으로 찌릿거린다.
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	이 주목을 베려면 벌목 �
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	읊조리는 소리와 타는 냄새. 마당에서는 연기 나는 로브를 입고 손가락에 불의 반지를 낀 사제가 잿빛 손을 이끌며 용에게 바치는 찬가를 부르고 있다. 2절을 아는 사람은 아무도 없는 모양이다.
 You lift the hatch and climb down into the dark. Somewhere below, boots.	해치를 들어 올리고 어둠 속으로 내려간다. 아래 어딘가에서 장화 소리가 난다.
 The hatch is locked.	해치가 잠겨 있다.
-You climb down the ladder, into the caves under Muddlesey.	사다리를 타고 섬 아래의 동굴로 내려간다.
+You climb down the ladder, into the caves under Muddlesey.	사다리를 타고 머들지 아래의 동굴로 내려간다.
 You go down the steps, into the cellar.	계단을 내려가 지하실로 들어간다.
 You climb down the ladder.	사다리를 타고 내려간다.
 The hatch is shut, and it isn't yours to open.	해치가 닫혀 있고, 당신이 열 수 있는 것이 아니다.
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	광산으로 내려간다
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	몸을 숙여 굴로 들어간다. 앞 어딘가에서 물이 떨어지고, 무언가 바스락거린다.
 You duck into the tunnel. The fen's damp follows you in.	몸을 숙여 굴로 들어간다. 습지의 축축함이 따라 들어온다.
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	'장벽이 솟은 겨울, 장벽 발치에서 발견된 이방인. 도시가 제 사람으로 묻었다.'
-'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	'아그네스 리드. 섬의 그물을 모두 기웠고, 갈매기마다 욕을 했다.'
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	'아그네스 리드. 머들지의 그물을 모두 기웠고, 갈매기마다 욕을 했다.'
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	'구릉의 양치기 올드윈. 그의 양 떼는 그보다 한 겨울 더 살았다.'
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	'하프의 베아트릭스. 귀족 구역이 그만두라고 했다. 그녀는 그만두지 않았다.'
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	'대장장이 브람. 망치를 함께 묻었으니, 저편에서도 물건을 고칠 것이다.'
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	�
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	'길드장 프라이스. 살아서는 길드의 장부를 지켰고, 죽어서는 바라건대 성질을 지키기를.'
 Two names in a ring of carved ivy: Hal and Bryony.	조각된 담쟁이 고리 안에 두 이름: 할과 브라이어니.
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	'항구의 문지기 할. 들일 배를 이십 년 동안 기다렸다.'
-'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	'산파 헤스터 벨. 섬 사람 절반이 그녀의 손을 거쳐 세상에 나왔다.'
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	'산파 헤스터 벨. 머들지 사람 절반이 그녀의 손을 거쳐 세상에 나왔다.'
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	'나는 이 언덕들을 사랑했다. 언덕이 보이는 곳에 묻어 다오.' 비석은 해 뜨는 쪽을 향해 있다.
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	'오십 년 동안 도시에서 가장 나쁜 포도주를 팔았고, 몹시 그리운 포도주상 홉 빈트너.'
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	'이솔데 애시비 부인. 재산은 마을에, 성질은 아들에게 남겼다.'
@@ -218,7 +218,7 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	창이 �
 'Little Wren, aged six. Gone to chase the butterflies.'	'여섯 살 꼬마 렌. 나비를 쫓아 떠났다.'
 'Marta of the Quays. She could gut a herring at forty paces.'	'부두의 마르타. 마흔 걸음 밖에서도 청어 배를 갈랐다.'
 'Martha Lark, who sang at every burial in this yard but her own.'	'이 묘지의 모든 장례에서 노래했으나 자기 장례에서만은 못 한 마사 라크.'
-'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	'메리 크로프트, 사랑하는 어머니. 섬에서 제일 맛있는 파이를 구웠다.'
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	'메리 크로프트, 사랑하는 어머니. 머들지에서 제일 맛있는 파이를 구웠다.'
 So mossed over you can't read it. A wren has nested on top.	이끼가 너무 덮여 읽을 수가 없다. 굴뚝새가 꼭대기에 둥지를 틀었다.
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	'뱃사공 네드 파이크. 사십 년 동안 해협을 건넜고, 승객을 한 명도 잃지 않았다.'
 A bow is carved on it, and one word in the old tongue: 'Steady.'	활이 새겨져 있고, 옛말로 한 단어: '침착하게.'
@@ -720,9 +720,9 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	서리 
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	제단의 그릇에서 얼음을 깨고 로드스타를 꺼낸다. 데일 만큼 차갑고, 부드럽게 북쪽으로 당긴다.
 A star of ice glitters in the altar's bowl, frozen fast.	제단의 그릇 속에서 얼음 별 하나가 단단히 얼어붙은 채 반짝인다.
 The altar's bowl is empty.	제단의 그릇이 비어 있다.
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	검은 표지의 작은 장부. 정성스러운 글씨로: 들어온 샤드, 나간 샤드, 그리고 '양초(검은색)' 칸. 두 줄에 재로 찍은 엄지 지문이 표시되어 있다.\'섬의 홉고블린들에게 샤드 마흔 개, 여자의 서류와 아이의 이름 값으로. 놈들은 노인을 잡아갔지만 아무것도 얻지 못했다.'\그리고 더 최근의 것, 잉크가 아직 진하다. '아이가 해협을 건넜다. 회색 무리는 이제 두 배를 낸다. 벽 너머의 그분이 기다리고 있다고 한다.'\페이지 맨 아래, 밑줄 두 번: '분기 재 실적: 목표 미달.'
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	검은 표지의 작은 장부. 정성스러운 글씨로: 들어온 샤드, 나간 샤드, 그리고 '양초(검은색)' 칸. 두 줄에 재로 찍은 엄지 지문이 표시되어 있다.\'머들지의 홉고블린들에게 샤드 마흔 개, 여자의 서류와 아이의 이름 값으로. 놈들은 노인을 잡아갔지만 아무것도 얻지 못했다.'\그리고 더 최근의 것, 잉크가 아직 진하다. '아이가 해협을 건넜다. 회색 무리는 이제 두 배를 낸다. 벽 너머의 그분이 기다리고 있다고 한다.'\페이지 맨 아래, 밑줄 두 번: '분기 재 실적: 목표 미달.'
 Close it.	덮는다.
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	접어 둔 좋은 종이 조각. 정성스러운 글씨로. 맨 위에: '청구서. 3부 중 2부.'\섬에 갈라이스가 닫힌 해에 아이를 데리고 온 여자가 있다. 그 여자는 왕관 봉인이 찍힌 서류를 가지고 있거나, 섬의 서류를 쓰는 노인이 대신 맡고 있다. 그것과 아이의 이름을 가져오면 샤드는 너희 것이다.\아래에 이름은 없다. 재로 찍은 손 하나와, 서명에 불이 붙은 그을음 자국뿐.
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	접어 둔 좋은 종이 조각. 정성스러운 글씨로. 맨 위에: '청구서. 3부 중 2부.'\머들지에 갈라이스가 닫힌 해에 아이를 데리고 온 여자가 있다. 그 여자는 왕관 봉인이 찍힌 서류를 가지고 있거나, 머들지의 서류를 쓰는 노인이 대신 맡고 있다. 그것과 아이의 이름을 가져오면 샤드는 너희 것이다.\아래에 이름은 없다. 재로 찍은 손 하나와, 서명에 불이 붙은 그을음 자국뿐.
 Fold it away.	접어 둔다.
 PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	퍼들퍼드\서쪽: 드리즐포트 부두\동쪽: 농지\남쪽: 루퍼트 왕의 성채
 Okay	확인
@@ -827,20 +827,20 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	네 아버지인 왕은 아직 갈라이스의 성벽 뒤에서 기다리고 계시고, 내가 떠난 줄도 모르셔. 아버지께 가거라. 도시는 네가 태어난 날부터 닫혀 있었고, 그 까닭은 나란다. 언젠가는 이해하게 될 거야.\조심하렴. 그리고 아버지께 내가 한 번도 사랑을 멈춘 적이 없다고 전해 주렴.\메리
 Fold the letter.	편지를 접는다.
 Quest complete: The Last Will.	퀘스트 완료: 유언장.
-The door to your house is unlocked now, and Muddlesey lies before you.	이제 당신 집의 문이 열렸고, 섬이 당신 앞에 펼쳐져 있다.
-Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	에드윈은 섬의 유언장과 증서를 쓰는데, 내 것은 한 번도 보자고 한 적이 없다. 마렌은 지나갈 때마다 아기의 숨을 살핀다. 무언가 약속되어 있다는 걸 알기라도 하는 것처럼. 여기서는 아무도 내게 절하지 않는다. 영원히 머물 수도 있을 것 같다.
+The door to your house is unlocked now, and Muddlesey lies before you.	이제 당신 집의 문이 열렸고, 머들지가 당신 앞에 펼쳐져 있다.
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	에드윈은 머들지의 유언장과 증서를 쓰는데, 내 것은 한 번도 보자고 한 적이 없다. 마렌은 지나갈 때마다 아기의 숨을 살핀다. 무언가 약속되어 있다는 걸 알기라도 하는 것처럼. 여기서는 아무도 내게 절하지 않는다. 영원히 머물 수도 있을 것 같다.
 The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	부두의 노인들 말로는, 첫 왕이 퍼들퍼드 북쪽 바다 밑에 파수를 세웠다고 한다. 무언가를 잠재워 두는 유리 수호자들을. 백 년 동안 그들을 본 사람은 없다. 왕이 그토록 지켜보게 해야 했던 것이 대체 무엇이었을까?
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	궁정의 가장 오래된 책에서, 첫 왕이 직접 쓴 서약을 찾았다. 대마다 그의 혈통에서 맏이 하나, 그러면 용은 평화를 지킨다. 세 번을 읽었다. 그리고 집에 가서 아침까지 아기를 안고 있었다.
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	태양의 사제들은 그것을 승리로 노래했다. 첫 왕이 용을 묶을 수 있을 만큼 작게 베어 쓰러뜨렸다고. 쓰러뜨렸다고 노래한다. 죽였다고는 결코 하지 않는다. 그러면 나머지는 어디로 갔을까?
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	오늘 밤 서약의 인장을 감히 견딜 수 있는 만큼 쥐고 있었다. 반지이고, 잠든 무언가처럼 따뜻하다. 두려워하면 그걸 안다.
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	그들은 내 아이를 데리러 올 것이다. 그러니 나는 달아날 것이고, 계속 달아날 것이다. 그리고 광맥에서 가져온 것은 어떤 왕도 찾아볼 생각을 못 할 곳에 남겨 둘 것이다. 작고, 고요하고, 하늘로 가득한 곳에.
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	나는 이 전당에서 왕관을 썼고, 빨랫감 바구니에 잠든 너를 담아 부엌문으로 떠났단다. 이걸 읽고 있다면 장벽은 무너졌고 너는 집에 돌아온 거겠지. 용서하렴. 섬에서 고요한 물을 찾으렴. 하늘이 저 자신을 올려다보는 곳을.
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	나는 이 전당에서 왕관을 썼고, 빨랫감 바구니에 잠든 너를 담아 부엌문으로 떠났단다. 이걸 읽고 있다면 장벽은 무너졌고 너는 집에 돌아온 거겠지. 용서하렴. 머들지에서 고요한 물을 찾으렴. 하늘이 저 자신을 올려다보는 곳을.
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	작고 빠른 어머니의 글씨, 마법사 궁정의 종이 조각에. 잉크에 푸른빛이 돈다:\벨벳 발에 수염은 영리하니,\지미의 눈으로 그 집을 보아라.\그리고 그 아래: 내 아이에게, 때가 되면. 지미가 그곳을 알아.
 Read it aloud.	소리 내어 읽는다.
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	어머니의 글씨. 어머니가 가는 곳마다 남긴 일곱 장. 가장자리를 맞대어 놓으면 지도가 된다. 가장자리들은 섬 북쪽의 작고 둥근 모양에서 만나고, 어머니는 거기에 한 단어를 적어 두었다: 고요.
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	어머니의 글씨. 어머니가 가는 곳마다 남긴 일곱 장. 가장자리를 맞대어 놓으면 지도가 된다. 가장자리들은 머들지 북쪽의 작고 둥근 모양에서 만나고, 어머니는 거기에 한 단어를 적어 두었다: 고요.
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	메리의 쪽지\작게 접힌, 어머니의 글씨:\궁정에서는 샤드가 그저 쪼개진 마법일 뿐이라고 했다. 그렇지 않다. 그것은 첫 왕이 용을 묶을 수 있을 만큼 베어 냈을 때 떨어져 나간 용의 조각이다. 용의 대부분은 세상 너머에서 잠들어 있고, 조각마다 자라고 싶어 굶주려 있다. 서약은 모든 맏이 후계자의 피로 용을 잠재운다.\나는 내 아이로 그 값을 치르지 않겠다. 베임을 다른 방법으로 닫아 둘 수 있거나, 용을 끝낼 수 있다면, 그 값도 끝날 것이다. 그 방법을 찾으러 간다.\그것이 베인 곳은 도시 뒤의 산 아래에 있다. 광맥을 기억하라.
 Fold them away.	접어 둔다.
-DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	드리즐포트\북쪽: 섬으로 가는 나룻배\동쪽: 퍼들퍼드 마을\남쪽: 속삭이는 숲과 오래된 철광산
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	드리즐포트\북쪽: 머들지로 가는 나룻배\동쪽: 퍼들퍼드 마을\남쪽: 속삭이는 숲과 오래된 철광산
 SALTWAY\Houses of Drizzleport.	소금길\드리즐포트의 집들.
 CHURCH STREET\Houses of Drizzleport.	교회 거리\드리즐포트의 집들.
 MERCERS' LANE\Houses of Drizzleport.	포목상 골목\드리즐포트의 집들.
@@ -910,7 +910,7 @@ SMITHY\The forge of Sulkhaven.	대장간\설크헤이븐의 대장간.
 SWAN LANE\Houses of Wildwood.	백조 골목\와일드우드의 집들.
 SOUTH ROW\Houses of Wildwood.	남쪽 줄\와일드우드의 집들.
 WILDWOOD\A hamlet.	와일드우드\작은 마을.
-DONNNG... The bell's voice rolls out over Muddlesey.	뎅... 종소리가 섬 위로 굴러 퍼진다.
+DONNNG... The bell's voice rolls out over Muddlesey.	뎅... 종소리가 머들지 위로 굴러 퍼진다.
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	종이 낮고 푸르게 한 번 울리고, 습지의 모든 개구리가 멈춰 귀를 기울인다.
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	물 저편에서 무언가가 조금 음이 낮게 대답하고, 종소리에 흔들려 풀려난 것이 진흙에서 당신 발치로 올라온다.
 The frogs start up again, louder, as if they've been told.	개구리들이 들은 게 있다는 듯 더 크게 다시 울기 시작한다.
@@ -1164,7 +1164,7 @@ Show me your scrolls.	두루마리를 보여 주세요.
 Can you teleport me?	순간 이동을 해 주실 수 있어요?
 Another heir has come to you, besides me.	저 말고 다른 후계자가 당신을 찾아왔어요.
 Where to? Keep your arms in.	어디로 가겠나? 팔은 안에 넣고.
-To Muddlesey.	섬으로요.
+To Muddlesey.	머들지로요.
 To Drizzleport.	드리즐포트로요.
 Nowhere, thanks.	괜찮아요.
 Bert waves his hands, and the world spins...	버트가 손을 휘젓자, 세상이 빙글 돈다...
@@ -1473,7 +1473,7 @@ Thank you, Maren.	고마워요, 마렌.
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	퀘스트 완료: 에드윈네 저녁 식사! 마렌이 예배당 뚜껑문 열쇠와 치유의 물약 두 병을 주었다.
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	유언장이든 증서든 작성할 게 있으면 저에게 맡기세요. 하지만 유언장이 필요한 날은 아주, 아주 먼 훗날이었으면 좋겠군요.
 What was my mother like?	어머니는 어떤 분이셨어요?
-She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	그녀는 당신을 품에 안고 섬에 왔고, 어디서 왔는지는 끝내 말하지 않았어요. 다정하고, 자존심 강하고, 내색한 것보다 훨씬 영리한 사람이었지요. 한번은 내 수임료를 나 스스로 포기하게 만들었는데, 나는 고맙다고까지 했어요.\오두막 한 채와 고양이 한 마리가 전부인 사람은 아니라고 늘 생각했지요.
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	그녀는 당신을 품에 안고 머들지에 왔고, 어디서 왔는지는 끝내 말하지 않았어요. 다정하고, 자존심 강하고, 내색한 것보다 훨씬 영리한 사람이었지요. 한번은 내 수임료를 나 스스로 포기하게 만들었는데, 나는 고맙다고까지 했어요.\오두막 한 채와 고양이 한 마리가 전부인 사람은 아니라고 늘 생각했지요.
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	편지는 천천히 읽어요. 당신만의 것이에요. 나는 궁금하지 않아요. 전혀, 전혀 궁금하지 않아요.
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	세 번째 널빤지 조심하시오. 다섯 번째도. 솔직히 말하면 전부 조심하시오.
 What do you catch out here?	여기선 뭘 잡으세요?
@@ -1520,7 +1520,7 @@ The farmer points at the hedges: "There! Here they come!"	농부가 산울타리
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	'버섯! 동굴 버섯, 빛나는 종류. 나만큼 어둠을 좋아하는 유일한 작물이지. 자, 몇 개 가져가. 집에서 대접하는 거야. 집이라 봤자 구멍이지만.'
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	'요령은 말을 거는 거야. 상냥하게는 말고. 버섯은 상냥한 걸 안 믿어.'
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	'모드는 드워프가 없으니까 드워프한테 팔 수 없대. 나는 그게 바로 드워프가 믿게 하고 싶은 거라고 했지.'
-Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	섬으로 돌아가요? 종이 울리면 배들이 부두마다 한 척씩 같이 건너요. 여기 한 척이 묶여 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요.\중간에서 서로 지나쳐요. 원하면 손을 흔들어요. 아무도 안 흔들지만.
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	머들지로 돌아가요? 종이 울리면 배들이 부두마다 한 척씩 같이 건너요. 여기 한 척이 묶여 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요.\중간에서 서로 지나쳐요. 원하면 손을 흔들어요. 아무도 안 흔들지만.
 Thanks, Wim.	고마워요, 윔.
 Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	드리즐포트요? 배가 들어와 있을 때 타고 동전 한 닢 내면 돼요. 종이 울리면 두 부두에서 떠나 해협에서 서로 지나쳐요.\몇 년째 승객을 잃은 적이 없어요. 뭐. 올해는 잃은 적이 없어요.
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	잠깐만요, 친구. 아직 풋내기인 데다, 보아하니 짐승이 남긴 것을 손에 쥐어 본 적도 없군요. 본토는 당신 같은 사람을 잡아먹어요. 먼저 올더스 수사님을 만나고, 레벨 3이 되면 다시 오세요.
@@ -1528,7 +1528,7 @@ Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and loo
 Thank you, Wim.	고마워요, 윔.
 Quest complete: Passage to the Mainland!	퀘스트 완료: 본토로 가는 길!
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	배가 들어와 있을 때 타면 되고, 뱃삯은 동전 한 닢이에요. 종이 울리면 두 부두에서 떠나요.
-Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	해협을 건너요? 서류부터요, 친구. 습격 이후로 드리즐포트 경비병들은 서류 없는 섬 사람을 다 돌려보내고, 그 사람들을 다시 집에 데려오는 게 나예요.\섬의 명부를 맡은 토비아스 영감이 늘 서류를 써 줬는데, 홉고블린이 온 뒤로 아무도 그를 못 봤어요. 농장의 베스에게 물어봐요. 그의 딸이에요.
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	해협을 건너요? 서류부터요, 친구. 습격 이후로 드리즐포트 경비병들은 서류 없는 머들지 사람을 다 돌려보내고, 그 사람들을 다시 집에 데려오는 게 나예요.\머들지의 명부를 맡은 토비아스 영감이 늘 서류를 써 줬는데, 홉고블린이 온 뒤로 아무도 그를 못 봤어요. 농장의 베스에게 물어봐요. 그의 딸이에요.
 Quest started: Passage to the Mainland.	퀘스트 시작: 본토로 가는 길.
 Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	서류 있나? 없어? 그럼 못 건너가, 친구. 드리즐포트에서 돌려보낼 테고, 다시 데려오는 건 내 일이 될 거야. 노는 두 배로 젓고, 뱃삯은 똑같고.
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	오늘 물고기가 잘 물어요! 바늘에 지렁이를 꿰면 바다의 뭐든 물어요.\낚싯대를 좀 다룰 줄 알게 되면 송어가 아주 환장하죠.
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	다시 올게요.
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	손님이라니! 여기엔 토끼들 말고는 아무도 안 오는데.\불이 꺼져 가는데, 내 늙은 뼈로는 도끼를 못 휘두르네. 참나무 통나무 다섯 개만 가져다주면 수고비를 주지.\이 숲엔 참나무가 자라. 벌목 5가 필요할 걸세.
 I'll fetch them.	가져올게요.
-His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	그의 야영지는 섬 서쪽 숲에 있다. 참나무는 섬 곳곳에 자란다.
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	그의 야영지는 머들지 서쪽 숲에 있다. 참나무는 머들지 곳곳에 자란다.
 Quest started: The Hermit's Fire.	퀘스트 시작: 은자의 불.
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	아, 좋은 참나무군. 일주일은 타겠어. 자, 내 낡은 지팡이를 받게. 주문에 불을 좀 붙여 줄 걸세.\그리고 친구에게만 알려 주는 비밀: 남동쪽 해안의 선돌들은 이끼보다 더 많은 걸 숨기고 있다네.
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	퀘스트 완료! 참나무 지팡이, 금화 25개와 벌목 경험치를 받았다.
@@ -1802,7 +1802,7 @@ Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agre
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	메에! 하, 미안 - 종일 양이랑 얘기하다 보면 양처럼 말하게 돼.\놀라게 하지 마. 양털이 필요하면 살살 하면 깎게 해 줄 거야.
 How do I shear a sheep?	양털은 어떻게 깎아요?
 Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	양에게 가위를 써 - 퍼들퍼드의 땜장이가 팔고, 가게에서도 팔아. 그다음 물레에서 양털을 잣거나 직조공에게 팔면 돼.
-Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	섬 상점에 오신 걸 환영해요! 섬엔 돈이 거의 없어서, 사람들이 없으면 못 사는 것만 갖다 놔요. 연장, 미끼, 먹을 것 조금: 여기 사람들한텐 그게 필요하죠.
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	머들지 상점에 오신 걸 환영해요! 머들지엔 돈이 거의 없어서, 사람들이 없으면 못 사는 것만 갖다 놔요. 연장, 미끼, 먹을 것 조금: 여기 사람들한텐 그게 필요하죠.
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	광대에겐 왕이 필요하고, 왕에겐 왕국이 필요하고, 저는 일자리가 필요했죠.\그래서 돌아다닙니다. 뭘로 할까요, $Player.Lord 아니면 평민?
 Tell me a joke.	농담 하나 해 줘.
 A riddle, then.	그럼 수수께끼.
@@ -1908,7 +1908,7 @@ Quest started: A Golem's Worth of Trouble.	퀘스트 시작: 골렘만큼의 골
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	내 셈으론 아직 4개 남았소. $Attr.GolemQuest_Count 개 부쉈군.
 Quest complete: A Golem's Worth of Trouble.	퀘스트 완료: 골렘만큼의 골칫거리.
 Splendid! And quite safe, now. Mostly.	훌륭하오! 이제 꽤 안전하오. 대체로.
-Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	드리즐포트는 대체로 조용한 곳이에요. 배가 섬에서 사람들을 실어 오고, 물고기는 새벽에 들어오죠.
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	드리즐포트는 대체로 조용한 곳이에요. 배가 머들지에서 사람들을 실어 오고, 물고기는 새벽에 들어오죠.
 Ha. Thanks.	하. 고마워요.
 Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	내륙으로 가요? 퍼들퍼드는 여기 동쪽이에요. 남쪽 숲은 조심해요. 늑대들, 그리고 옛 광산을 지나면 더 나쁜 것들도 있어요.
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	우리 삼촌이 한번 꿈틀대는 심연에 내려갔는데, 다른 구멍으로 올라왔대요. 다른 고을이었고요.
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	계속 팰게요.
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	베스네 닭장 달걀을 위층 내 화덕에 부쳐서, 그다음엔 에드윈에게요. 아주 기뻐할 거예요. 안 기쁜 척하겠지만, 기뻐할 거예요.
 I'll see to it.	그렇게 할게요.
-Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	들어와요. 섬에서 아픈 사람은 다 저 침대로 오고, 나는 할 수 있는 걸 해요. 대부분은 나아요. 나머지는 알더스 수사님께 가고요.\에드윈은 창가에 책상을 두고 있어요. 유언장이며 증서며 그런 것들요. 우리 둘이면 인생 전체를 다 맡는 셈이죠.
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	들어와요. 머들지에서 아픈 사람은 다 저 침대로 오고, 나는 할 수 있는 걸 해요. 대부분은 나아요. 나머지는 알더스 수사님께 가고요.\에드윈은 창가에 책상을 두고 있어요. 유언장이며 증서며 그런 것들요. 우리 둘이면 인생 전체를 다 맡는 셈이죠.
 How is your father?	아버지는 어떠세요?
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	집에 돌아와서, 무사하고, 우리 집 먹을 걸 다 먹어 치우고 있어요! 매일 밤 세 그릇씩. 아무리 고마워해도 모자라요.\그러니 당분간은 아무도 구하지 말아 줘요.
 I'm glad.	다행이에요.
@@ -1974,7 +1974,7 @@ What's wool for?	양털은 어디에 써요?
 How do I get to the mainland?	본토엔 어떻게 가요?
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	작업대에서 털실 뭉치로 자아. 헛간에 하나 있어. 소가죽도 거기서 무두질해서 가죽으로 만들 수 있어. 아직 소가 쓰고 있는 가죽은 말고.
 Thanks!	고마워요!
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	본토? 윔의 나룻배가 부두에서 건너가지만, 서류 없이는 안 태워 줘. 습격 이후로 드리즐포트에선 서류 없는 섬사람은 다 돌려보내거든.\섬의 서류는 늘 아버지가 썼어. 내가 태어나기 전부터 명부를 관리했지. 그런데 홉고블린들이 아버지를 잡아갔고, 그 뒤로 아무도 못 봤어. 아버지 집은 마을의 오래된 벽돌집인데, 잠겨 있고, 열쇠도 놈들이 가져갔어. 예배당 아래 동굴에 소굴이 있대.\불쌍한 것들. 아버지가 무릎 얘기를 다 늘어놓고 있을 거야.
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	본토? 윔의 나룻배가 부두에서 건너가지만, 서류 없이는 안 태워 줘. 습격 이후로 드리즐포트에선 서류 없는 머들지 사람은 다 돌려보내거든.\머들지의 서류는 늘 아버지가 썼어. 내가 태어나기 전부터 명부를 관리했지. 그런데 홉고블린들이 아버지를 잡아갔고, 그 뒤로 아무도 못 봤어. 아버지 집은 마을의 오래된 벽돌집인데, 잠겨 있고, 열쇠도 놈들이 가져갔어. 예배당 아래 동굴에 소굴이 있대.\불쌍한 것들. 아버지가 무릎 얘기를 다 늘어놓고 있을 거야.
 I'll find him.	제가 찾을게요.
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	그리고 맨손으로 홉고블린 근처에 가면 안 돼! 우리 프랭크가 대장장이야. 대장간이 내 오두막 바로 옆이야. 검이랑 방패 만드는 걸 도와줄 거야.\말이 별로 없어. 고개를 많이 끄덕여 주면 좋아할 거야.
 Thank you, Bess.	고마워요, 베스.
@@ -2059,7 +2059,7 @@ Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll g
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	안녕하쇼. 이렇게 늦게 팔 것도 없이 부두로 내려오는 사람은 드문데.\난 물건이 어디서 왔는지 묻지 않고, 얼굴도 기억 안 해. 값에서 조금 깎일 뿐이지, 그게 다야.
 Let's see what you'll give me.	뭘 줄 건지 보자고.
 Welcome to the port of Drizzleport. Mind the ropes.	드리즐포트 항구에 오신 것을 환영합니다. 밧줄 조심하세요.
-Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	섬 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 드리즐포트 시청이 지금 브램블턴의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	머들지 배에서 내렸소? 그럼 서류를.\그가 서류를 펼치다 인장에서 굳어 버린다.\옛 왕실 인장이로군. 왕비님이 사라진 열여덟 해 전 이후로 본 적이 없소. 갈라이스가 닫힌 그해였지. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 장벽이 무너질 때까지 드리즐포트 시청이 지금 브램블턴의 의회요.\부두의 하사가 다룰 일이 아니오. 시청의 의장에게 가져가고, 잘 간수하시오.
 I'll go to the City Hall.	시청으로 가겠습니다.
 Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	브램블턴의 수도, 드리즐포트에 오신 것을 환영합니다. 어쨌든 지금은요.\갈라이스는 열여덟 해째 닫혀 있어요. 고개를 가로지른 빛의 벽, 그 뒤엔 용. 그래서 장벽이 무너질 때까지 여기 시청이 의회예요.\갈라이스에 볼일이 있다고요? 그럼 시청에 물어보세요. 왕비님이 사라진 바로 그해에 봉인됐다고들 해요.
 Quest started: The Temporary Capital.	퀘스트 시작: 임시 수도.
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	그에게 부적을 보여 준다.
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	그 부적... 그걸 어디서 얻었나? 내가 아내에게 준 것이네, 그 전날 밤... 그녀가 도망치던 밤.
 Tell him of Mary's will.	메리의 유언을 이야기한다.
-My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	제 어머니 메리는 저를 키운 섬에서 돌아가셨습니다. 마지막 유언이 제가 누구인지 알려 주었어요. 당신께 돌아가 어머니의 죽음을 전해 달라고 하셨습니다.\그리고 당신을 사랑하길 한 번도 멈춘 적 없다고 전해 달라고요.
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	제 어머니 메리는 저를 키운 머들지에서 돌아가셨습니다. 마지막 유언이 제가 누구인지 알려 주었어요. 당신께 돌아가 어머니의 죽음을 전해 달라고 하셨습니다.\그리고 당신을 사랑하길 한 번도 멈춘 적 없다고 전해 달라고요.
 The King comes down from his throne, and holds you, and weeps.	왕이 옥좌에서 내려와 당신을 안고 운다.
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	메리. 나의 메리. 용이 너를 갖지 못하게 너를 데려간 것인데, 나는 사람들이 그걸 배신이라 부르게 두었구나. 열여덟 해를.\나의 $Player.Son. 나의 $Player.Son.
 Father.	아버지.
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	고마워요, 토비아스.
 Quest complete: Tobias's Tin!	퀘스트 완료: 토비아스의 깡통!
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	낮고 조용히, 놈들이 보는 쪽은 피해서. 궤짝은 마을 남동쪽 야영지의 모닥불 옆에 있네.
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	날 구해 준 사람이 왔군! 마렌이 날 한여름 거위처럼 먹여 대고 있네. 에드윈은 식료품 창고를 잠그기 시작했어.\집은 자네 걸세, 알겠지. 나는 돌아가지 않을 거야, 그 짐승 같은 놈들이 그렇게 가까이 있는데. 잘 지켜 주게.
-Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	어디 보자.. '섬의 서류를 쓰는 노인'. 그게 나야. 그래서 날 잡아갔구먼! 밤마다 덩치 큰 놈이 메리의 서류가 어디 있냐고 물었지. 한 번도 말 안 했네.\그리고 재로 찍은 손. 북쪽에 그렇게 서명하는 무리가 있어. 잿빛 손이라고들 하지. 엘더우드 너머의 불 숭배자들이야. 끔찍한 사람들이지. 발도 안 닦아.\그런 무리가 자네 어머니한테, 아니 자네한테 무슨 볼일이 있겠나? 그건 간직하고, 저쪽에선 눈을 크게 뜨고 다니게.
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	어디 보자.. '머들지의 서류를 쓰는 노인'. 그게 나야. 그래서 날 잡아갔구먼! 밤마다 덩치 큰 놈이 메리의 서류가 어디 있냐고 물었지. 한 번도 말 안 했네.\그리고 재로 찍은 손. 북쪽에 그렇게 서명하는 무리가 있어. 잿빛 손이라고들 하지. 엘더우드 너머의 불 숭배자들이야. 끔찍한 사람들이지. 발도 안 닦아.\그런 무리가 자네 어머니한테, 아니 자네한테 무슨 볼일이 있겠나? 그건 간직하고, 저쪽에선 눈을 크게 뜨고 다니게.
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	멈춰라! 통행료다. (그가 투명한 손을 내민다.) 길은 닫혔지만, 통행료는 그대로다. 요즘은 동전을 받지 않아. 다 빠져 버리거든. 그럼 수수께끼다. 셋을 맞히면 차단봉을 올려 주지.
 I'll go round.	돌아서 갈게요.
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	목은 있고 머리는 없고, 팔은 둘인데 손은 없지. 가득 차서 나가고 빈 채로 돌아와. 나는 뭘까?
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	그녀가 화로 연기 속을 한참 들여다본다.\"왕관. 무겁지. 일주일 지나면 싫어질 거야, 다들 그렇듯이."
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	그녀가 화로 연기 속을 한참 들여다본다.\"바다 밑에, 노래하는 빛. 대답하지 마."
 You haven't five gold.	금화 다섯 개가 없다.
-Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	섬은 날씨가 참 좋아요! 심심하면 동쪽 절벽 밑에 구멍이 있어요. 박쥐 조심하고요.
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	머들지는 날씨가 참 좋아요! 심심하면 동쪽 절벽 밑에 구멍이 있어요. 박쥐 조심하고요.
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	북쪽 젖 짜는 아가씨가 소랑 양을 키워요. 양털이 필요하면 가위를 팔 거예요.\본토로 가는 배는 남쪽 부두에서 떠나요.
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	남동쪽 해안에 오래된 선돌 고리가 있어요. 우리 할머니가 거긴 절대 파지 말라고 했죠. 그래서 당연히 팠어요. 아무것도 없었어요. 아마 자리를 잘못 골랐나 봐요.
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	북동쪽 바닷가에 오래된 망루가 폐허로 서 있어요. 이제 늑대들 차지예요.
-A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	서쪽 숲에 은자가 살아요. 괴짜지만, 섬의 나무란 나무는 다 알아요.
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	서쪽 숲에 은자가 살아요. 괴짜지만, 머들지의 나무란 나무는 다 알아요.
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	해 진 뒤엔 동쪽 묘지 근처에 가지 마요. 해 지기 전에도. 그냥 가지 마요.
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	빵집엔 갓 구운 빵, 잡화점엔 연장, 대장간엔 녹일 광석이 있으면 쓸 용광로가 있어요.
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	속삭이는 숲의 늑대 조심해요. 그리고 고블린도. 홉고블린도. 솔직히, 난 마을 밖으로 안 나가요.
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	좋은 사람이었지, 자네 어머니는. 우리 모두에게 다정했고, 자기 얘기는 한마디도 안 했어.\십육 년 동안 일요일마다 카드로 나를 이겼지. 어떻게 했는지 끝내 몰랐네.
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	정말 유감이에요. 메리는 이곳 우리 모두의 친구였어요.\가요. 집까지 바래다줄게요. 당신에게 남긴 게 있어요. 당신 혼자에게만, 직접 전하라고요. 그게 그녀의 지시였어요. 밑줄을 두 번이나 그었지요.
 Lead the way.	앞장서 주세요.
-You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	두 사람은 함께 섬을 가로질러 집으로 걸어간다. 에드윈은 가끔 뭔가 법률적인 말을 하려다가, 다시 생각한다.
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	두 사람은 함께 머들지를 가로질러 집으로 걸어간다. 에드윈은 가끔 뭔가 법률적인 말을 하려다가, 다시 생각한다.
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	당신 어머니가 마지막 유언장을 내게 맡겼어요. 이 편지를 절대 열지 말라고 했고, 당신도 아무에게도 읽어 주지 말라고 했어요. 당신에게, 오직 당신에게만 남긴 마지막 말이에요.\변호사 삼십 년에, 편지를 이렇게 읽고 싶었던 적이 없어요. 읽지 않았어요. 기록에 남겨 주세요.
 He lays a letter on the table, sealed with your mother's wax.	그가 어머니의 밀랍으로 봉인된 편지를 탁자 위에 놓는다.
 Thank you. If you don't mind, I would like to be left alone to read the letter.	고마워요. 괜찮다면, 혼자 편지를 읽고 싶어요.
@@ -2879,10 +2879,10 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	이제 들었군. 그것을 만지는 이는 누구나 듣지.\감시는 이제 당신 것이오, 따뜻한 이여. 할 수 있다면 쉬고 싶소. 끝내지 못한 게 하나 있는데, 그게 뭔지 생각나지 않는군.
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	북쪽 농장의 젖 짜는 아가씨 베스가 본토로 건너가는 법을 알 것이다.
-Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	윔은 서류 없는 사람은 섬 밖으로 태워 주지 않는다. 베스의 아버지 토비아스가 서류를 썼지만, 홉고블린들이 그를 잡아갔다. 마을에 있는 그의 집은 잠겨 있고, 열쇠는 그놈들이 가지고 있다.
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	윔은 서류 없는 사람은 머들지 밖으로 태워 주지 않는다. 베스의 아버지 토비아스가 서류를 썼지만, 홉고블린들이 그를 잡아갔다. 마을에 있는 그의 집은 잠겨 있고, 열쇠는 그놈들이 가지고 있다.
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	베스의 아버지 토비아스는 홉고블린 소굴의 우리에 갇혀 있다. 자물쇠를 따서 그를 풀어 준다. 그의 집 열쇠도 소굴 어딘가에 있을 것이다.
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	토비아스가 집을 당신에게 주었다. 그의 열쇠로 문을 열고 마루 밑에 숨긴 것을 찾는다.
-Show your papers to Wim the ferryman, on Muddlesey's pier.	섬의 부두에서 뱃사공 윔에게 서류를 보여 준다.
+Show your papers to Wim the ferryman, on Muddlesey's pier.	머들지의 부두에서 뱃사공 윔에게 서류를 보여 준다.
 Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	퍼들퍼드 농지 오두막의 약초상에게 일손이 필요한지 묻는다.
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	약초상에게 동굴 버섯 3개(옛 철광산에서 딴다)와 거미줄 2개(광산 깊은 곳의 거대 거미가 떨어뜨린다)를 가져간다.
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	깊은 골짜기(홉고블린 굴의 뚜껑문 너머)에서 난쟁이 브로크를 찾아 도움이 필요한지 묻는다.
@@ -2917,7 +2917,7 @@ Speak to Brann the forgemaster in Chillingham, under Frostpeak.	프로스트봉 
 Bring Brann 5 coal to light his forge.	브란의 용광로에 불을 붙일 석탄 5개를 가져간다.
 Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	브란의 물레방아를 부순, 칠링엄 동쪽 얼어붙은 호수의 서리 트롤을 처치한다.
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	브란에게 미스릴 주괴 2개를 가져간다 (용광로에서 미스릴 광석을 제련한다).
-Find the hermit at his camp in Muddlesey's western woods.	섬 서쪽 숲의 야영지에서 은자를 찾는다.
+Find the hermit at his camp in Muddlesey's western woods.	머들지 서쪽 숲의 야영지에서 은자를 찾는다.
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	은자에게 참나무 통나무 5개를 가져간다 (참나무를 벤다: 벌목 5).
 Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	그레이플랫 동쪽 옛 다리 너머 엘더우드, 네틀윅의 드루이드와 이야기한다.
 Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	네틀윅 북동쪽에서 엘더우드의 오래된 심장석, 심재석을 찾아 만진다.
@@ -2977,7 +2977,7 @@ The Eldest of the Mending is dead. The great Shard is still singing.	수선회�
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	위대한 샤드를 부쉈다. 수선회는 흩어졌고, 그중 몇은 집으로 돌아갔다.
 You kept a splinter of the great Shard: Mary's Whisper.	위대한 샤드의 조각 하나를 간직했다: 메리의 속삭임.
 Read the letter your mother left you, on the table in your cottage.	오두막 탁자 위에 어머니가 남긴 편지를 읽는다.
-Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	변호사 에드윈이 당신을 저녁에 초대했다. 그와 섬의 의사인 아내 마렌은 섬 북서쪽 바닷가의 벽돌집에 산다.
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	변호사 에드윈이 당신을 저녁에 초대했다. 그와 머들지의 의사인 아내 마렌은 머들지 북서쪽 바닷가의 벽돌집에 산다.
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	마렌이 빌려준 도끼로 그녀의 화덕에 쓸 통나무 3개를 패서 (나무를 벤다) 그녀에게 가져간다.
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	북쪽 베스네 농장의 닭장에서 달걀을 하나 가져와, 그들 집 위층의 마렌의 화덕에서 부친다 (달걀을 화덕에 쓴다).
 Give the fried egg to Edwin, at his house.	부친 달걀을 그의 집에 있는 에드윈에게 준다.
@@ -3115,7 +3115,7 @@ Delver Maud wants 2 Cave Horror dead.	굴착꾼 모드가 동굴 공포 2마리�
 Done. Go back to Delver Maud.	완료. 굴착꾼 모드에게 돌아간다.
 Your mother's hand has turned up somewhere you didn't expect.	생각지도 못한 곳에서 어머니의 필체가 나타났다.
 Your mother left notes, wherever she went. There must be more of them.	어머니는 가는 곳마다 쪽지를 남겼다. 더 있을 것이다.
-Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	쪽지 일곱 장, 가장자리를 맞대어 놓으면 지도가 된다. 지도는 섬의, 고요한 무언가에서 끝난다.
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	쪽지 일곱 장, 가장자리를 맞대어 놓으면 지도가 된다. 지도는 머들지의, 고요한 무언가에서 끝난다.
 A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	퍼들퍼드 반도 끝 갈매기 곶의 한 어부 아낙이 바다에서 유리를 건져 올리고 있다. 그것은 빛난다.
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	넬 태로의 그물이 빛나는 유리로 가득 차서 올라온다. 그것이 어디서 오는지 알아낸다.
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	갈매기 곶 아래, 봉인된 검은 유리문, 한가운데 작고 둥근 홈. 넬에게 알린다.
@@ -3482,7 +3482,7 @@ the hovels	오두막촌
 the fountain	분수
 the palace	궁전
 The strait ferry	해협 나룻배
-The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	뱃사공이 고개를 젓는다. "서류부터, 친구. 습격 이후로 드리즐포트는 서류 없는 섬사람은 다 돌려보내. 부두의 윔이 서류를 봐 줄 거야."
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	뱃사공이 고개를 젓는다. "서류부터, 친구. 습격 이후로 드리즐포트는 서류 없는 머들지 사람은 다 돌려보내. 부두의 윔이 서류를 봐 줄 거야."
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	뱃사공이 손을 든다. "아직 풀처럼 풋내 나는데, 보아하니 짐승이 남긴 걸 손에 쥐어 본 적도 없군. 올더스 수사를 만나고, 레벨 3이 되면 다시 와."
 Muddlesey	머들지
 Malaria	말라리아
@@ -3598,7 +3598,7 @@ Iron Bar	철 주괴
 A bar of solid iron. A smith could use this.	단단한 쇠 주괴. 대장장이가 쓸 만하다.
 Smithing	대장일
 Beggar's House Key	거지의 집 열쇠
-An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	낡은 쇠 열쇠. 퍼들퍼드의 거지가 섬에 있는 집 열쇠를 잃어버렸다. 이게 그것일 것이다.
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	낡은 쇠 열쇠. 퍼들퍼드의 거지가 머들지에 있는 집 열쇠를 잃어버렸다. 이게 그것일 것이다.
 A key	열쇠
 The beggar's	거지의 것
 Chef's Hat	요리사 모자
@@ -3768,7 +3768,7 @@ Villager	마을 사람
 A local, going about their business.	제 볼일을 보는 이 동네 사람.
 A local	동네 사람
 Milkmaid	젖 짜는 처녀
-The milkmaid, who looks after Muddlesey's cows and sheep.	섬의 소와 양을 돌보는 젖 짜는 처녀.
+The milkmaid, who looks after Muddlesey's cows and sheep.	머들지의 소와 양을 돌보는 젖 짜는 처녀.
 Bess, the milkmaid	젖 짜는 처녀, 베스
 Fisherman	어부
 An old fisherman in a yellow oilskin. He smells of the sea.	노란 방수복을 입은 늙은 어부. 바다 냄새가 난다.
@@ -4360,14 +4360,14 @@ Chimney Smoke	굴뚝 연기
 Smoke from the forge. It smells of hot iron and somebody's lunch.	대장간의 연기. 뜨거운 쇠와 누군가의 점심 냄새가 난다.
 Smoke	연기
 Edwin	에드윈
-Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	섬의 변호사 에드윈. 그의 아내 마렌은 섬의 의사다.
-Edwin, Muddlesey's lawyer	섬의 변호사, 에드윈
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	머들지의 변호사 에드윈. 그의 아내 마렌은 머들지의 의사다.
+Edwin, Muddlesey's lawyer	머들지의 변호사, 에드윈
 Maren	마렌
-Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	섬의 의사 마렌. 에드윈과 결혼했다. 동생은 젖 짜는 처녀 베스다.
-Maren, Muddlesey's doctor	섬의 의사, 마렌
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	머들지의 의사 마렌. 에드윈과 결혼했다. 동생은 젖 짜는 처녀 베스다.
+Maren, Muddlesey's doctor	머들지의 의사, 마렌
 Frank	프랭크
-Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	섬의 대장장이 프랭크: 햄 같은 팔에, 팔꿈치까지 검댕투성이다.
-Frank, Muddlesey's blacksmith	섬의 대장장이, 프랭크
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	머들지의 대장장이 프랭크: 햄 같은 팔에, 팔꿈치까지 검댕투성이다.
+Frank, Muddlesey's blacksmith	머들지의 대장장이, 프랭크
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	베스와 마렌의 아버지 토비아스. 홉고블린들이 그를 우리에 가둬 두었다.
 Tobias, Bess and Maren's father	베스와 마렌의 아버지, 토비아스
 Ferryman	뱃사공
@@ -5518,29 +5518,29 @@ Today's bounty	오늘의 현상금
 Records Board	기록 게시판
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	옅은 돌에 새기고 금칠한 기록의 전당: 브램블턴에서 가장 많은 일을 해낸 이름들.
 The names that have done the most	가장 많은 일을 해낸 이름들
-Trees all over Muddlesey and the Southlands	섬과 남쪽 땅 곳곳의 나무
+Trees all over Muddlesey and the Southlands	머들지와 남쪽 땅 곳곳의 나무
 Fallen logs lying in the meadows and woods	초원과 숲에 쓰러져 있는 통나무
-Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	섬의 숲, 드리즐포트와 퍼들퍼드 주변, 속삭이는 숲의 참나무
-Willows grow by the water: Muddlesey's woods, the shores of the Southlands	버드나무는 물가에서 자란다: 섬의 숲, 남쪽 땅의 물가
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	머들지의 숲, 드리즐포트와 퍼들퍼드 주변, 속삭이는 숲의 참나무
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	버드나무는 물가에서 자란다: 머들지의 숲, 남쪽 땅의 물가
 A few ancient yews deep in the Whispering Woods and the eastern woods	속삭이는 숲과 동쪽 숲 깊은 곳의 오래된 주목 몇 그루
 Any shore or cave pool	어느 물가든, 동굴 웅덩이든
-The old iron mine, the mine depths, the grotto under Muddlesey and the warren	오래된 철광산, 광산 깊은 곳, 섬 밑의 동굴, 굴
-The cellar grotto under Muddlesey and the old iron mine	섬 밑의 지하실 동굴과 오래된 철광산
-The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	섬 밑의 지하실 동굴과 오래된 철광산. 구리 광석과 함께 제련하면 청동
-The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	섬 밑의 지하실 동굴, 광산 깊은 곳, 조합의 깊은 광맥
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	오래된 철광산, 광산 깊은 곳, 머들지 밑의 동굴, 굴
+The cellar grotto under Muddlesey and the old iron mine	머들지 밑의 지하실 동굴과 오래된 철광산
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	머들지 밑의 지하실 동굴과 오래된 철광산. 구리 광석과 함께 제련하면 청동
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	머들지 밑의 지하실 동굴, 광산 깊은 곳, 조합의 깊은 광맥
 The mine depths, the guild's deep seam and the hobgoblin warren	광산 깊은 곳, 조합의 깊은 광맥, 홉고블린 굴
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	홉고블린 굴 아래 깊은 골짜기의 수정 동굴, 그리고 광산 깊은 곳의 조합 깊은 광맥 (들어가려면 채광 5)
 The crystal cavern in the Deep Hollow, and Brokk's vault	깊은 골짜기의 수정 동굴과 브로크의 금고
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	깊은 골짜기의 동굴 트롤 소굴과 브로크의 금고. 강철이나 미스릴 곡괭이로만 깰 수 있다
 Damp corners of every cave and mine	모든 동굴과 광산의 축축한 구석
-Herb patches in the grass on Muddlesey and in the Southlands	섬과 남쪽 땅 풀밭의 약초밭
+Herb patches in the grass on Muddlesey and in the Southlands	머들지와 남쪽 땅 풀밭의 약초밭
 Loose herbs lying about in the Southlands (they grow back after a while)	남쪽 땅 여기저기 떨어져 있는 약초 (한동안 지나면 다시 자란다)
-Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	섬, 드리즐포트 주변, 속삭이는 숲의 열매 덤불
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	머들지, 드리즐포트 주변, 속삭이는 숲의 열매 덤불
 The wheat field on the Puddleford farmlands	퍼들퍼드 농지의 밀밭
 The cabbage rows on the Puddleford farmlands	퍼들퍼드 농지의 양배추 이랑
-Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	섬의 농장과 퍼들퍼드 농가 옆의 암탉 둥지
-The cows on Muddlesey's farm and the Puddleford farmlands	섬의 농장과 퍼들퍼드 농지의 소
-The sheep on Muddlesey and the Puddleford farmlands	섬과 퍼들퍼드 농지의 양
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	머들지의 농장과 퍼들퍼드 농가 옆의 암탉 둥지
+The cows on Muddlesey's farm and the Puddleford farmlands	머들지의 농장과 퍼들퍼드 농지의 소
+The sheep on Muddlesey and the Puddleford farmlands	머들지와 퍼들퍼드 농지의 양
 Bog myrtle bushes in the Brinebottom	브라인보텀의 늪 도금양 덤불
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	어느 모래 해변이나 사막 (모래를 오른쪽 클릭). 용광로에서 녹여 유리로 만든 뒤, 작업대에서 빈 약병을 만든다
 Sage clumps on the moors, the hills and the downs	황야, 언덕, 구릉의 세이지 덤불
@@ -5582,7 +5582,7 @@ Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole 
 The Frozen Forge	얼어붙은 대장간
 Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	칠링엄의 대장장이 장인 브란이 대장간 불을 계속 지피지 못하고 있어. 잘 받아들이지도 못하고.
 The Hermit's Fire	은둔자의 불
-The hermit in Muddlesey's western woods could do with good wood for his fire.	섬 서쪽 숲의 은둔자가 불 땔 좋은 나무가 필요하대.
+The hermit in Muddlesey's western woods could do with good wood for his fire.	머들지 서쪽 숲의 은둔자가 불 땔 좋은 나무가 필요하대.
 The Withering Wood	시들어 가는 숲
 The druid in Nettlewick says the Elderwood is dying, and nobody listens.	네틀윅의 드루이드가 엘더우드가 죽어 간다는데, 아무도 귀 기울이지 않아.
 The Barrow King	무덤 왕
@@ -7105,12 +7105,12 @@ Frailty	허약
 The floor gives way! You fall, and land hard a floor below.	바닥이 꺼진다! 떨어져서 한 층 아래에 세게 부딪힌다.
 That's as far as the demo goes: the full game goes on from here.	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다.
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	체험판은 여기까지다: 레벨 %d. 지금부터 배우는 것은 정식 게임에 그대로 남는다.
-Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	섬의 이야기는 체험판이 닿는 데까지 다 했다: 드리즐포트로 건너가는 것은 정식 게임의 몫이다.
-Why would hobgoblins raid Muddlesey for your mother's papers?	홉고블린들이 왜 어머니의 서류를 노리고 섬을 습격할까?
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	머들지의 이야기는 체험판이 닿는 데까지 다 했다: 드리즐포트로 건너가는 것은 정식 게임의 몫이다.
+Why would hobgoblins raid Muddlesey for your mother's papers?	홉고블린들이 왜 어머니의 서류를 노리고 머들지를 습격할까?
 Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	해협 건너: 드리즐포트, 본토의 마을과 길, 마법사 궁정, 그리고 이야기의 나머지.
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	친구 패스: 여기 누군가 정식 게임을 갖고 있으니, 그 사람이 게임에 있는 동안 당신 것이기도 하다.
-Nobody here has the full game now: back to Muddlesey in %d seconds.	지금 여기엔 정식 게임을 가진 사람이 없다: %d초 뒤에 섬으로 돌아간다.
-Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	지금 여기엔 정식 게임을 가진 사람이 없다: 다시 체험판, 섬과 레벨 %d로 돌아왔다.
+Nobody here has the full game now: back to Muddlesey in %d seconds.	지금 여기엔 정식 게임을 가진 사람이 없다: %d초 뒤에 머들지로 돌아간다.
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	지금 여기엔 정식 게임을 가진 사람이 없다: 다시 체험판, 머들지와 레벨 %d로 돌아왔다.
 Your mother's papers, under a crowned seal	왕관 봉인 아래의 어머니 서류
 An order for her papers and her child's name, signed with a hand pressed in ash	그녀의 서류와 아이의 이름을 내놓으라는 명령서, 재 묻은 손도장으로 서명됨
 A miniature from where only a cat could go: a crowned man, a baby in his arms	고양이만 갈 수 있는 곳에서 나온 세밀화: 왕관을 쓴 남자, 그 품의 아기
@@ -8582,7 +8582,7 @@ not begun	시작 안 함
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	정식 게임은 시작 화면에서 Hallisium 계정으로 한 번 구매한다: 그러면
 in the app and in a browser too, and your character keeps everything they've done.	앱에서도 브라우저에서도 당신 것이고, 캐릭터는 해 온 모든 것을 간직한다.
 The demo	체험판
-That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다, 섬을 지나
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	체험판은 여기까지다: 정식 게임은 여기서부터 이어진다, 머들지를 지나
 mainland, its towns and the rest of the story.	본토로, 그 마을들과 이야기의 나머지로.
 That's level {1}, as far as the demo goes. What you learn from here is kept,	여기가 레벨 {1}, 체험판이 닿는 데까지다. 지금부터 배우는 것은 간직되고,
 and counts as soon as you have the full game.	정식 게임을 갖는 순간부터 반영된다.
@@ -8614,7 +8614,7 @@ Bring a character from a file	파일에서 캐릭터 가져오기
 Signed in as {1}	{1}(으)로 로그인됨
 Playing without a Hallisium account: your characters here are this device's.	Hallisium 계정 없이 플레이 중: 여기 캐릭터는 이 기기의 것이다.
 Play as {1}	{1}(으)로 플레이
-Level {1} · Demo: Muddlesey, level {2}	레벨 {1} · 체험판: 섬, 레벨 {2}
+Level {1} · Demo: Muddlesey, level {2}	레벨 {1} · 체험판: 머들지, 레벨 {2}
 Level {1}	레벨 {1}
 Copy to device	기기로 복사
 Copy {1} to your own device. The copy can't come back to this server.	{1}을(를) 자기 기기로 복사한다. 복사본은 이 서버로 돌아올 수 없다.
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	{1} 레벨이 이제 {2}이다!
 Online {1}/{2}: {3}	접속 {1}/{2}: {3}
 PvP here	여기는 PvP
 Safe here	여기는 안전
-Demo: Muddlesey, level {1}	체험판: 섬, 레벨 {1}
-Friend Pass: back to Muddlesey in {1}s	친구 패스: {1}초 뒤 섬으로
+Demo: Muddlesey, level {1}	체험판: 머들지, 레벨 {1}
+Friend Pass: back to Muddlesey in {1}s	친구 패스: {1}초 뒤 머들지로
 Friend Pass: {1}'s game	친구 패스: {1}의 게임
 Friend Pass	친구 패스
 ARENA - other players can fight you here	투기장 - 다른 플레이어가 당신과 싸울 수 있다
@@ -8946,7 +8946,7 @@ Save skills	기술 저장
 Rewards	보상
 The end of the demo	체험판의 끝
 Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	윔이 서류를 훑어보고 고개를 끄덕이며 배에 태워 준다. 해협 건너, 드리즐포트의 지붕들이 빛을 받는다.
-What Muddlesey gave you	섬이 당신에게 준 것
+What Muddlesey gave you	머들지가 당신에게 준 것
 What's left to ask	아직 남은 물음
 Until then	그때까지
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	먼저 이용약�
 The browser wouldn't go full screen.	브라우저가 전체 화면으로 바뀌지 않았다.
 What every game you join starts with. A game's own Options change them there.	참가하는 모든 게임의 시작 설정. 게임 안의 옵션에서 그 게임 것을 바꾼다.
 The full game: yours ({1}).	정식 게임: 당신 것 ({1}).
-The demo: Muddlesey, up to level {1}.	체험판: 섬, 레벨 {1}까지.
+The demo: Muddlesey, up to level {1}.	체험판: 머들지, 레벨 {1}까지.
 Waiting for you to confirm {1}: the link's in that inbox.	{1} 확인을 기다리는 중: 링크는 그 받은편지함에 있다.
 Until then a code goes to {1}.	그때까지는 코드가 {1}(으)로 간다.
 You can join games once it's confirmed.	확인되면 게임에 참가할 수 있다.
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	Steam에 묻는 중...
 Shards of Ashen is bought once,	Shards of Ashen은 한 번 구매한다,
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	Steam, itch.io 또는 Epic에서, 그리고 거기서 플레이한다: 구매한 계정으로 로그인한 Steam에서 시작해라.
-The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	체험판: 섬, 레벨 {1}까지. 정식 게임은 본토와 이야기의 나머지로 이어진다.
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	체험판: 머들지, 레벨 {1}까지. 정식 게임은 본토와 이야기의 나머지로 이어진다.
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Hallisium 계정으로 한 번 구매한다: 그러면 어디서나 당신 것이다, Android 앱에서도.
 Buy it with your account's email, then come back here.	계정의 이메일로 구매하고, 여기로 돌아와라.
 Log in first, to have it on your account.	계정에 두려면 먼저 로그인해라.

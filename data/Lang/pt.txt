@@ -14,7 +14,7 @@ Sulkhaven, on its island.	Sulkhaven, na sua ilha.
 Cold air, flagstones, and a smell of old barrels.	Ar frio, lajes, e um cheiro de barris velhos.
 Chillingham. Your breath steams in the cold.	Chillingham. Sua respiração solta vapor no frio.
 Sergeant Holt's men are through the camp's gate.	Os homens do Sargento Holt passaram pelo portão do acampamento.
-The grotto under Muddlesey. Water drips into a black pool.	A gruta sob a Ilha. Água pinga numa poça negra.
+The grotto under Muddlesey. Water drips into a black pool.	A gruta sob Muddlesey. Água pinga numa poça negra.
 Torchlight, bones and the stink of hobgoblin: their lair!	Luz de tochas, ossos e o fedor de hobgoblin: o covil deles!
 Wildwood.	Wildwood.
 The Wizards' Court. The air tingles with magic.	A Corte dos Magos. O ar formiga de magia.
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	Você precisa de nível 18 em Lenh
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	Cantoria, e cheiro de queimado. No pátio, um sacerdote de mantos fumegantes, com um anel de fogo no dedo, conduz a Mão Cinzenta num hino ao dragão. Ninguém parece saber a segunda estrofe.
 You lift the hatch and climb down into the dark. Somewhere below, boots.	Você levanta a escotilha e desce para o escuro. Em algum lugar lá embaixo, botas.
 The hatch is locked.	A escotilha está trancada.
-You climb down the ladder, into the caves under Muddlesey.	Você desce a escada, para as cavernas sob a Ilha.
+You climb down the ladder, into the caves under Muddlesey.	Você desce a escada, para as cavernas sob Muddlesey.
 You go down the steps, into the cellar.	Você desce os degraus, para o porão.
 You climb down the ladder.	Você desce a escada.
 The hatch is shut, and it isn't yours to open.	A escotilha está fechada, e não cabe a você abri-la.
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	Você desce para a mina: o
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	Você se abaixa e entra no túnel. Água pinga em algum lugar adiante, e algo farfalha.
 You duck into the tunnel. The fen's damp follows you in.	Você se abaixa e entra no túnel. A umidade do brejo entra junto.
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	'Um estranho, achado ao pé da barreira no inverno em que ela se ergueu. A cidade o enterrou como um dos seus.'
-'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	'Agnes Reed. Ela consertou cada rede da Ilha e xingou cada gaivota.'
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	'Agnes Reed. Ela consertou cada rede de Muddlesey e xingou cada gaivota.'
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	'Aldwin, pastor das colinas. O rebanho dele sobreviveu a ele por um inverno.'
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	'Beatrix da Harpa. O Bairro dos Nobres pediu que ela parasse. Ela não parou.'
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	'Bram, ferreiro. O martelo dele jaz com ele, para que ele possa consertar coisas do outro lado.'
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	Se
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	'Mestre de Guilda Pryce. Em vida ele cuidou das contas da guilda; na morte, espera-se, do próprio gênio.'
 Two names in a ring of carved ivy: Hal and Bryony.	Dois nomes num anel de hera entalhada: Hal e Bryony.
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	'Hal, porteiro do porto. Vinte anos ele esperou um navio para deixar entrar.'
-'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	'Hester Bell, parteira. Metade da Ilha chegou ao mundo pelas mãos dela.'
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	'Hester Bell, parteira. Metade de Muddlesey chegou ao mundo pelas mãos dela.'
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	'Eu amei estas colinas. Me enterrem onde eu possa vê-las.' A pedra está virada para o nascer do sol.
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	'Hobb Vintner, que vendeu o pior vinho da cidade por cinquenta anos e faz muita falta.'
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	'Lady Isolde Ashby. Ela deixou a fortuna para a cidade e o gênio para o filho.'
@@ -218,7 +218,7 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	Uma lanç
 'Little Wren, aged six. Gone to chase the butterflies.'	'Pequena Wren, seis anos. Foi correr atrás das borboletas.'
 'Marta of the Quays. She could gut a herring at forty paces.'	'Marta do Cais. Ela limpava um arenque a quarenta passos.'
 'Martha Lark, who sang at every burial in this yard but her own.'	'Martha Lark, que cantou em todos os enterros deste cemitério, menos no dela.'
-'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	'Mary Croft, mãe amada. Ela fazia as melhores tortas da Ilha.'
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	'Mary Croft, mãe amada. Ela fazia as melhores tortas de Muddlesey.'
 So mossed over you can't read it. A wren has nested on top.	Tão coberta de musgo que não dá para ler. Uma cambaxirra fez ninho em cima.
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	'Ned Pike, barqueiro. Quarenta anos atravessando o estreito, e nunca perdeu um passageiro.'
 A bow is carved on it, and one word in the old tongue: 'Steady.'	Um arco está entalhado nela, e uma palavra na língua antiga: 'Firme.'
@@ -720,18 +720,18 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	A Senti
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	Você quebra o gelo da bacia do altar e tira a Estrela-Guia. Está fria a ponto de queimar, e puxa, de leve, para o norte.
 A star of ice glitters in the altar's bowl, frozen fast.	Uma estrela de gelo cintila na bacia do altar, congelada.
 The altar's bowl is empty.	A bacia do altar está vazia.
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	Um pequeno livro-caixa encadernado de preto, numa letra caprichada: Fragmentos que entram, Fragmentos que saem, e uma coluna para 'Velas (pretas)'. Duas linhas estão marcadas com uma digital de cinza:\'Aos hobgoblins da Ilha, quarenta Fragmentos, pelos papéis da mulher e o nome da criança. Levaram o velho, e não deu em nada.'\E mais recente, a tinta ainda escura: 'A criança atravessou o estreito. Os cinzentos pagam o dobro agora. Dizem que aquele além da muralha está esperando.'\No pé da página, sublinhado duas vezes: 'Cinza trimestral: abaixo da meta.'
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	Um pequeno livro-caixa encadernado de preto, numa letra caprichada: Fragmentos que entram, Fragmentos que saem, e uma coluna para 'Velas (pretas)'. Duas linhas estão marcadas com uma digital de cinza:\'Aos hobgoblins de Muddlesey, quarenta Fragmentos, pelos papéis da mulher e o nome da criança. Levaram o velho, e não deu em nada.'\E mais recente, a tinta ainda escura: 'A criança atravessou o estreito. Os cinzentos pagam o dobro agora. Dizem que aquele além da muralha está esperando.'\No pé da página, sublinhado duas vezes: 'Cinza trimestral: abaixo da meta.'
 Close it.	Fechá-lo.
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	Um pedaço de papel bom, dobrado pequeno, numa letra caprichada. No topo: 'Requisição. Via dois de três.'\Há uma mulher na Ilha que veio de Galaith no ano em que fechou, com uma criança. Ela tem papéis sob um selo coroado, ou o velho que escreve os papéis da Ilha os guarda para ela. Tragam-nos, e o nome da criança, e os Fragmentos são de vocês.\Nenhum nome embaixo. Só uma mão, prensada em cinza, e uma queimadura onde a assinatura pegou fogo.
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	Um pedaço de papel bom, dobrado pequeno, numa letra caprichada. No topo: 'Requisição. Via dois de três.'\Há uma mulher em Muddlesey que veio de Galaith no ano em que fechou, com uma criança. Ela tem papéis sob um selo coroado, ou o velho que escreve os papéis de Muddlesey os guarda para ela. Tragam-nos, e o nome da criança, e os Fragmentos são de vocês.\Nenhum nome embaixo. Só uma mão, prensada em cinza, e uma queimadura onde a assinatura pegou fogo.
 Fold it away.	Dobrá-lo e guardar.
-PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	ASHFORD\Oeste: docas de Drizzleport\Leste: as fazendas\Sul: Fortaleza do Rei Rupert
+PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	PUDDLEFORD\Oeste: docas de Drizzleport\Leste: as fazendas\Sul: Fortaleza do Rei Rupert
 Okay	Ok
 You can't read that from here!	Você não consegue ler isso daqui!
-PUDDLEFORD IRON MINE\Closed by order of the King's Steward.	MINA DE FERRO DE ASHFORD\Fechada por ordem do Intendente do Rei.
+PUDDLEFORD IRON MINE\Closed by order of the King's Steward.	MINA DE FERRO DE PUDDLEFORD\Fechada por ordem do Intendente do Rei.
 THE BLUE BOAR\A tavern of Puddleford.	O JAVALI AZUL\Uma taverna de Puddleford.
 MEDICAL OFFICE\Of Puddleford.	CONSULTÓRIO MÉDICO\De Puddleford.
-PUDDLEFORD\A small city.	ASHFORD\Uma pequena cidade.
-CHURCH OF PUDDLEFORD\All are welcome.	IGREJA DE ASHFORD\Todos são bem-vindos.
+PUDDLEFORD\A small city.	PUDDLEFORD\Uma pequena cidade.
+CHURCH OF PUDDLEFORD\All are welcome.	IGREJA DE PUDDLEFORD\Todos são bem-vindos.
 TOWN HALL\Births, marriages and deeds recorded.	PREFEITURA\Nascimentos, casamentos e escrituras registrados.
 THE LAMB AND FLAG\A tavern of Puddleford.	O CORDEIRO E A BANDEIRA\Uma taverna de Puddleford.
 THE WAYFARER'S REST\A tavern of Puddleford.	O DESCANSO DO VIAJANTE\Uma taverna de Puddleford.
@@ -770,7 +770,7 @@ QUEEN'S ROW\Houses of Chillingham.	RUA DA RAINHA\Casas de Chillingham.
 CLOTH STREET\Houses of Chillingham.	RUA DO PANO\Casas de Chillingham.
 WEAVERS' WAY\Houses of Chillingham.	CAMINHO DOS TECELÕES\Casas de Chillingham.
 MASON'S ROW\Houses of Chillingham.	RUA DO PEDREIRO\Casas de Chillingham.
-CHILLINGHAM\A town of Brambleton.	FROSTHOLD\Uma cidade de Brambleton.
+CHILLINGHAM\A town of Brambleton.	CHILLINGHAM\Uma cidade de Brambleton.
 SHERIFF'S OFFICE\The watch house of Chillingham.	GABINETE DO XERIFE\O posto da guarda de Chillingham.
 DOCTOR'S HOUSE\Of Chillingham.	CASA DO MÉDICO\De Chillingham.
 THE PLOUGH\A tavern of Chillingham.	O ARADO\Uma taverna de Chillingham.
@@ -802,7 +802,7 @@ ARMOURERS' ROW & BLADE STREET\A lane off the market square.	RUA DOS ARMEIROS E R
 CORDWAINERS' ROW\A lane off the market square.	RUA DOS SAPATEIROS\Uma travessa da praça do mercado.
 SILK STREET\A lane off the market square.	RUA DA SEDA\Uma travessa da praça do mercado.
 FURLONG STREET\Houses of Dullford.	RUA DO FURLONG\Casas de Dullford.
-DULLFORD\A hamlet.	GREYFORD\Um vilarejo.
+DULLFORD\A hamlet.	DULLFORD\Um vilarejo.
 ...out by the old watch stone in the western woods a spider as big as a dog caught my arm. The bite burns and won't heal.\I dream of running on all fours. I hear the trees calling. I've bolted the door so I can't get out at night.\If I go wild, someone fetch Morwen in Brinebottom. She'll know a cure.  - Hob	...lá perto da velha pedra de vigia, na mata do oeste, uma aranha do tamanho de um cachorro pegou o meu braço. A mordida arde e não sara.\Eu sonho que corro de quatro. Ouço as árvores chamando. Tranquei a porta para não conseguir sair à noite.\Se eu ficar selvagem, alguém chame a Morwen em Brinebottom. Ela vai saber a cura.  - Hob
 Close the diary.	Fechar o diário.
 Morwen the witch lives in Brinebottom, in the fens on the south coast.	A bruxa Morwen mora em Brinebottom, nos charcos da costa sul.
@@ -827,20 +827,20 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	Seu pai, o rei, ainda espera atrás das muralhas de Galaith, e não sabe que eu me fui. Vá até ele. A cidade está fechada desde o dia em que você nasceu, e eu sou o motivo. Um dia você vai entender.\Tome cuidado, e diga ao seu pai que eu nunca deixei de amá-lo.\Mary
 Fold the letter.	Dobrar a carta.
 Quest complete: The Last Will.	Missão concluída: O Testamento.
-The door to your house is unlocked now, and Muddlesey lies before you.	A porta da sua casa está destrancada agora, e a Ilha se abre diante de você.
-Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin escreve os testamentos e escrituras da Ilha, e nunca pediu para ver os meus. Maren confere a respiração do bebê sempre que passa, como se pudesse sentir que algo foi prometido. Ninguém aqui se curva para mim. Eu poderia ficar para sempre.
+The door to your house is unlocked now, and Muddlesey lies before you.	A porta da sua casa está destrancada agora, e Muddlesey se abre diante de você.
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	Edwin escreve os testamentos e escrituras de Muddlesey, e nunca pediu para ver os meus. Maren confere a respiração do bebê sempre que passa, como se pudesse sentir que algo foi prometido. Ninguém aqui se curva para mim. Eu poderia ficar para sempre.
 The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	Os velhos do cais dizem que o primeiro rei pôs uma vigia debaixo do mar, ao norte de Puddleford: os Guardiões de Vidro, mantendo algo adormecido. Ninguém vê um deles há cem anos. O que um rei precisava vigiar tanto assim?
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	Encontrei o Pacto no livro mais antigo da Corte, escrito pelo próprio primeiro rei: um primogênito da sua linhagem a cada geração, e o dragão fica em paz. Li três vezes. Depois fui para casa e segurei o meu bebê até de manhã.
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	Os sacerdotes do sol cantavam isso como um triunfo: o primeiro rei cortou o dragão até ficar pequeno o bastante para ser amarrado. Cortado, eles cantam. Nunca morto. Então para onde foi o resto dele?
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	Segurei o selo do Pacto esta noite, por quanto tempo tive coragem. É um anel, e é morno, como algo adormecido. Ele sabe quando você tem medo.
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	Eles vão vir atrás {player:do meu filho/da minha filha}. Então eu vou fugir, e continuar fugindo, e o que eu tirei do Veio vai ficar onde nenhum rei jamais pensa em procurar: num lugar pequeno, e parado, e cheio de céu.
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	Fui coroada neste salão, e saí dele pela porta da cozinha com você dormindo num cesto de roupa. Se você está lendo isto, a muralha caiu e você voltou para casa. Me perdoe. Procure água parada na Ilha, onde o céu olha para si mesmo.
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	Fui coroada neste salão, e saí dele pela porta da cozinha com você dormindo num cesto de roupa. Se você está lendo isto, a muralha caiu e você voltou para casa. Me perdoe. Procure água parada em Muddlesey, onde o céu olha para si mesmo.
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	A letra da sua mãe, pequena e rápida, num pedaço de papel da Corte dos Magos. A tinta tem um brilho azul:\Pata de veludo e bigode sabido,\veja a casa com os olhos do Jimmy, {player:querido/querida}.\E embaixo: Para {player:o meu pequeno/a minha pequena}, quando for a hora. O Jimmy sabe onde.
 Read it aloud.	Ler em voz alta.
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	A letra da sua mãe. Sete delas, aonde quer que ela tenha ido. Junte-as borda com borda e é um mapa. As bordas se encontram numa pequena forma redonda no norte da Ilha, e ela escreveu uma palavra ali: parada.
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	A letra da sua mãe. Sete delas, aonde quer que ela tenha ido. Junte-as borda com borda e é um mapa. As bordas se encontram numa pequena forma redonda no norte de Muddlesey, e ela escreveu uma palavra ali: parada.
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	As Anotações de Mary\Dobradas pequenas, com a letra da sua mãe:\Me disseram na Corte que os Fragmentos são só magia, estilhaçada. Não são. São restos do dragão, soltos quando o primeiro rei o cortou até um tamanho que pudesse amarrar. A maior parte dele dorme além do mundo, e cada pedaço tem fome de crescer; o Pacto mantém o dragão quieto com o sangue de cada primogênito herdeiro.\Não vou pagá-lo com {player:o meu filho/a minha filha}. Se o Corte pudesse ser mantido fechado de outro jeito, ou o dragão acabasse, o preço acabaria. Vou descobrir como.\O lugar onde ele foi cortado fica debaixo da montanha atrás da cidade. Lembre-se do Veio.
 Fold them away.	Guardá-las.
-DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	NORTHPORT\Norte: a balsa para a Ilha\Leste: a vila de Puddleford\Sul: o Bosque dos Sussurros e a velha mina de ferro
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	DRIZZLEPORT\Norte: a balsa para Muddlesey\Leste: a vila de Puddleford\Sul: o Bosque dos Sussurros e a velha mina de ferro
 SALTWAY\Houses of Drizzleport.	CAMINHO DO SAL\Casas de Drizzleport.
 CHURCH STREET\Houses of Drizzleport.	RUA DA IGREJA\Casas de Drizzleport.
 MERCERS' LANE\Houses of Drizzleport.	TRAVESSA DOS MERCADORES\Casas de Drizzleport.
@@ -858,14 +858,14 @@ Ferry to the mainland	Balsa para o continente
 WEST ROW\Houses of Acornby.	RUA OESTE\Casas de Acornby.
 NORTH STREET\Houses of Acornby.	RUA NORTE\Casas de Acornby.
 THATCHERS' ROW\Houses of Acornby.	RUA DOS TELHADORES\Casas de Acornby.
-ACORNBY\A village.	OAKHOLLOW\Uma vila.
+ACORNBY\A village.	ACORNBY\Uma vila.
 DOCTOR'S HOUSE\Of Acornby.	CASA DO MÉDICO\De Acornby.
 SMITHY\The forge of Acornby.	FERRARIA\A forja de Acornby.
 ODILE'S LOG, in an oilskin\Forty years I've cooked for the Wardens. Bread on the first day of the week, fish the rest. The cistern hums. The lake hums louder.\(The writing gets bigger, page by page.) It's warm in the water. I don't need the lamp. I hardly need to breathe.\(The last pages, in letters as tall as your hand.) THEY HEAR IT TOO, THE SAILORS. THEY COME DOWN THROUGH THE ROCK TO IT. I ONLY KEEP THEM FROM GOING TO IT. I'M SORRY. I'M SORRY ABOUT THE BOAT.	O DIÁRIO DE BORDO DE ODILE, num oleado\Quarenta anos cozinhei para os Guardiões. Pão no primeiro dia da semana, peixe no resto. A cisterna zumbe. O lago zumbe mais alto.\(A letra vai ficando maior, página a página.) Está morno na água. Não preciso do lampião. Quase não preciso respirar.\(As últimas páginas, em letras da altura da sua mão.) ELES OUVEM TAMBÉM, OS MARINHEIROS. ELES DESCEM PELA ROCHA ATÉ ELE. EU SÓ OS IMPEÇO DE IR ATÉ ELE. ME DESCULPEM. SINTO MUITO PELO BARCO.
 THE GLASS WARDENS, a true history, by Pell Varrow\The first king set the Wardens to keep the Shard that fell into the sea. Their orders, kept under the chapel's altar, were to keep it asleep, and never let it be joined to the rest of itself.\For four hundred years they listened to it and never answered. Then Marshal Corvane asked it a question. Half the Order followed him; the cook walked into the lake; the last of them, Ysolde, kept the watch alone.\I don't know yet what 'the rest of itself' is. I'm not sure I want to.	OS GUARDIÕES DE VIDRO, uma história verdadeira, por Pell Varrow\O primeiro rei pôs os Guardiões para guardar o Fragmento que caiu no mar. As ordens deles, guardadas debaixo do altar da capela, eram mantê-lo adormecido, e nunca deixar que se juntasse ao resto de si mesmo.\Por quatrocentos anos eles o escutaram e nunca responderam. Então o Marechal Corvane lhe fez uma pergunta. Metade da Ordem o seguiu; a cozinheira entrou no lago; a última deles, Ysolde, manteve a vigia sozinha.\Ainda não sei o que é 'o resto de si mesmo'. Não tenho certeza se quero saber.
 ROYAL TREASURY\The Wizards' Court's strongroom.	TESOURO REAL\A casa-forte da Corte dos Magos.
 STONEGATE\Houses of Brinebottom.	PORTÃO DE PEDRA\Casas de Brinebottom.
-BRINEBOTTOM\A hamlet.	SALTMARSH\Um vilarejo.
+BRINEBOTTOM\A hamlet.	BRINEBOTTOM\Um vilarejo.
 A SHARDGATE, by Bert, greatest wizard of the age.\In the old ring of standing stones on the hill north of the Court: bind the stones with four bars of silver, set two sapphires in the runes, and at the ring's heart lay a Remnant's core.\Then give it $Shards.Shardgate Shards of your own. Anything can slip onto the realm's calm rim; to pierce its core the ring must be steadied, so wake $Shards.Shardgate.Stones of Brambleton's shardstones first, and know your Shardcraft ($Shards.Shardgate.Level at least).\Then step through. Mind the Warden.	UM PORTAL DOS FRAGMENTOS, por Bert, o maior mago da era.\No velho círculo de pedras erguidas, na colina ao norte da Corte: amarre as pedras com quatro barras de prata, engaste duas safiras nas runas, e no coração do círculo ponha o núcleo de um Remanescente.\Depois dê a ele $Shards.Shardgate Fragmentos seus. Qualquer coisa pode escorregar para a borda calma do reino; para atravessar o seu núcleo o círculo precisa estar firme, então desperte primeiro $Shards.Shardgate.Stones das pedras de fragmento de Brambleton, e conheça o seu Ofício dos Fragmentos ($Shards.Shardgate.Level no mínimo).\Depois atravesse. Cuidado com a Sentinela.
 Fold the plans.	Dobrar os planos.
 Dunerest: south-west\Brinebottom: south-east	Dunerest: sudoeste\Brinebottom: sudeste
@@ -888,8 +888,8 @@ THE FROSTPEAK CAVERNS\Old mine workings, frozen solid. Mithril in the walls, the
 THE WIZARDS' COURT\The old King's Castle, and its tower.	A CORTE DOS MAGOS\O Castelo do velho Rei, e a sua torre.
 VINTNER STREET\Houses of Nettlewick.	RUA DOS VINHATEIROS\Casas de Nettlewick.
 HERON STREET\Houses of Nettlewick.	RUA DA GARÇA\Casas de Nettlewick.
-NETTLEWICK\A village.	THORNWICK\Uma vila.
-CHAPEL OF NETTLEWICK\All are welcome.	CAPELA DE THORNWICK\Todos são bem-vindos.
+NETTLEWICK\A village.	NETTLEWICK\Uma vila.
+CHAPEL OF NETTLEWICK\All are welcome.	CAPELA DE NETTLEWICK\Todos são bem-vindos.
 SMITHY\The forge of Nettlewick.	FERRARIA\A forja de Nettlewick.
 KING RUPERT'S KEEP\The King's keep and its bailey, held by his Steward while the King is away.	FORTALEZA DO REI RUPERT\A fortaleza do Rei e o seu pátio, mantidos pelo seu Intendente enquanto o Rei está fora.
 WARDENS' JOURNAL: the hand of Ysolde\Year 211 of the watch. Minutes. Present: all. The Shard is quiet. Marshal Corvane says it sleeps. Brother Hale says it never sleeps, it only waits. Moved that Brother Hale scrub the cistern for saying so: carried.	DIÁRIO DOS GUARDIÕES: a letra de Ysolde\Ano 211 da vigia. Ata. Presentes: todos. O Fragmento está quieto. O Marechal Corvane diz que ele dorme. O Irmão Hale diz que ele nunca dorme, só espera. Proposta de que o Irmão Hale esfregue a cisterna por dizer isso: aprovada.
@@ -903,14 +903,14 @@ WARDENS' JOURNAL: the hand of Ysolde\The Order has split. Half the watch stand w
 WARDENS' JOURNAL: the hand of Odile Brask, cook\I'm going in. Into the lake, I mean. The humming's loudest there, and I want to see what's singing, and I'm too old to be frightened of water.\Whoever finds this: mind the sailors. It calls them too. I can hear it calling them, up through the rock, every night.\There's a stew on. Somebody stir it.	DIÁRIO DOS GUARDIÕES: a letra de Odile Brask, cozinheira\Vou entrar. No lago, quero dizer. O zumbido é mais alto lá, e quero ver o que está cantando, e sou velha demais para ter medo de água.\Quem achar isto: cuidado com os marinheiros. Ele os chama também. Eu o ouço chamando-os, pela rocha acima, toda noite.\Tem um ensopado no fogo. Alguém mexa.
 WARDENS' JOURNAL: the hand of Ysolde, the last\I'm the last who never answered it. (We meant to answer it once, all of us together. We spent forty years on the wording, and by then we knew better.) If you're warm, and reading this, then listen: you can hear it, and you can learn from it, but never answer. Answering is how it gets in.\There's a room under the Reliquary where we listened in turns. The four chimes keep it shut. The singing stone in the galleries remembers their order; it changes with the year, the way the old song does. I've built a cairn here, so somebody would stop.	DIÁRIO DOS GUARDIÕES: a letra de Ysolde, a última\Sou a última que nunca lhe respondeu. (Uma vez quisemos responder, todos juntos. Passamos quarenta anos na redação, e até lá já sabíamos que não.) Se você é quente, e está lendo isto, então escute: você pode ouvi-lo, e pode aprender com ele, mas nunca responda. Responder é como ele entra.\Há uma sala sob o Relicário onde escutávamos em turnos. Os quatro carrilhões a mantêm fechada. A pedra que canta nas galerias lembra a ordem deles; ela muda com o ano, como a velha canção. Fiz um marco de pedras aqui, para que alguém parasse.
 ROPE WALK\Houses of Sulkhaven.	CORDOARIA\Casas de Sulkhaven.
-SULKHAVEN\A town of Brambleton.	WARDHAVEN\Uma cidade de Brambleton.
-CHURCH OF SULKHAVEN\All are welcome.	IGREJA DE WARDHAVEN\Todos são bem-vindos.
+SULKHAVEN\A town of Brambleton.	SULKHAVEN\Uma cidade de Brambleton.
+CHURCH OF SULKHAVEN\All are welcome.	IGREJA DE SULKHAVEN\Todos são bem-vindos.
 SHERIFF'S OFFICE\The watch house of Sulkhaven.	GABINETE DO XERIFE\O posto da guarda de Sulkhaven.
 SMITHY\The forge of Sulkhaven.	FERRARIA\A forja de Sulkhaven.
 SWAN LANE\Houses of Wildwood.	TRAVESSA DO CISNE\Casas do Wildwood.
 SOUTH ROW\Houses of Wildwood.	RUA SUL\Casas do Wildwood.
 WILDWOOD\A hamlet.	WILDWOOD\Um vilarejo.
-DONNNG... The bell's voice rolls out over Muddlesey.	DONNNG... A voz do sino rola sobre a Ilha.
+DONNNG... The bell's voice rolls out over Muddlesey.	DONNNG... A voz do sino rola sobre Muddlesey.
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	O sino fala uma vez, grave e verde, e cada sapo do brejo para para escutar.
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	Lá na água algo responde, um pouco desafinado, e o que a badalada soltou sobe da lama aos seus pés.
 The frogs start up again, louder, as if they've been told.	Os sapos recomeçam, mais alto, como se tivessem recebido ordens.
@@ -1164,7 +1164,7 @@ Show me your scrolls.	Mostre-me os seus pergaminhos.
 Can you teleport me?	Pode me teletransportar?
 Another heir has come to you, besides me.	Outro herdeiro veio até você, além de mim.
 Where to? Keep your arms in.	Para onde? Braços para dentro.
-To Muddlesey.	Para a Ilha.
+To Muddlesey.	Para Muddlesey.
 To Drizzleport.	Para Drizzleport.
 Nowhere, thanks.	Para lugar nenhum, {player:obrigado/obrigada}.
 Bert waves his hands, and the world spins...	Bert agita as mãos, e o mundo gira...
@@ -1473,7 +1473,7 @@ Thank you, Maren.	{player:Obrigado/Obrigada}, Maren.
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	Missão concluída: Jantar na Casa do Edwin! A Maren deu a você a chave do alçapão da capela, e dois elixires de cura.
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	Se precisar redigir alguma coisa, um testamento ou uma escritura, pode contar comigo. Embora eu prefira que você não precise de testamento por muito, muito tempo.
 What was my mother like?	Como era a minha mãe?
-She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	Ela chegou à Ilha com você nos braços e nunca disse de onde. Gentil, orgulhosa, e muito mais esperta do que deixava parecer. Uma vez ela me convenceu a abrir mão dos meus próprios honorários, e eu ainda agradeci.\Sempre achei que havia mais nela do que um chalé e um gato.
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	Ela chegou a Muddlesey com você nos braços e nunca disse de onde. Gentil, orgulhosa, e muito mais esperta do que deixava parecer. Uma vez ela me convenceu a abrir mão dos meus próprios honorários, e eu ainda agradeci.\Sempre achei que havia mais nela do que um chalé e um gato.
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	Leve o tempo que precisar com a carta. Ela é só sua. Não estou curioso. Estou muito, muito não curioso.
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	Cuidado com a terceira tábua. E com a quinta. Para falar a verdade, cuidado com todas.
 What do you catch out here?	O que você pesca aqui?
@@ -1520,7 +1520,7 @@ The farmer points at the hedges: "There! Here they come!"	O fazendeiro aponta pa
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	'Cogumelos! Cogumelos da caverna, dos que brilham: a única plantação que gosta do escuro tanto quanto eu. Tome, leve uns. Por conta da casa. A casa é um buraco.'
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	'O truque é conversar com eles. Não com gentileza. Cogumelo não confia em gentileza.'
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	'A Maud diz que eu não posso vendê-los aos anões porque não existem anões. Eu digo que é exatamente isso que um anão ia querer que você pensasse.'
-Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	De volta à Ilha? Os barcos atravessam juntos, um de cada píer, sempre que o sino toca. Suba a bordo quando houver um amarrado aqui, e a passagem é uma moeda.\Eles se cruzam no meio do caminho. Acene, se quiser. Ninguém acena.
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	De volta a Muddlesey? Os barcos atravessam juntos, um de cada píer, sempre que o sino toca. Suba a bordo quando houver um amarrado aqui, e a passagem é uma moeda.\Eles se cruzam no meio do caminho. Acene, se quiser. Ninguém acena.
 Thanks, Wim.	{player:Obrigado/Obrigada}, Wim.
 Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	Drizzleport, é? Suba a bordo quando houver um barco, e pague uma moeda. Eles saem dos dois píeres ao toque do sino e se cruzam no estreito.\Ninguém perde um passageiro há anos. Bem. Ninguém perdeu um este ano.
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	Calma aí, {player:amigo/amiga}. Você ainda está verde como a grama, e nunca teve os restos de uma fera nas mãos, pelo jeito. O continente devora gente como você: veja o Irmão Aldous primeiro, e volte no nível 3.
@@ -1528,7 +1528,7 @@ Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and loo
 Thank you, Wim.	{player:Obrigado/Obrigada}, Wim.
 Quest complete: Passage to the Mainland!	Missão concluída: Passagem para o Continente!
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	Suba a bordo quando houver um barco, e a passagem é uma moeda. Eles saem dos dois píeres ao toque do sino.
-Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	Atravessar o estreito? Papéis primeiro, {player:amigo/amiga}. Desde os ataques, os guardas de Drizzleport mandam de volta qualquer um da Ilha sem papéis, e sou eu que tenho que trazê-los para casa de novo.\Era sempre o velho Tobias que os escrevia, já que ele mantém o registro da Ilha, mas ninguém o vê desde que os hobgoblins chegaram. Pergunte à Bess, lá na fazenda: ela é filha dele.
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	Atravessar o estreito? Papéis primeiro, {player:amigo/amiga}. Desde os ataques, os guardas de Drizzleport mandam de volta qualquer um de Muddlesey sem papéis, e sou eu que tenho que trazê-los para casa de novo.\Era sempre o velho Tobias que os escrevia, já que ele mantém o registro de Muddlesey, mas ninguém o vê desde que os hobgoblins chegaram. Pergunte à Bess, lá na fazenda: ela é filha dele.
 Quest started: Passage to the Mainland.	Missão iniciada: Passagem para o Continente.
 Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	Tem os seus papéis? Não? Então nada de travessia, {player:amigo/amiga}. Drizzleport só ia mandar você de volta, e seria eu a trazer você. O dobro de remo, pela mesma passagem.
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	Os peixes estão mordendo hoje! Ponha uma minhoca no anzol e qualquer coisa do mar morde.\Quando você pegar jeito com a vara, as trutas ficam loucas por ela.
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	Eu volto.
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	Uma visita! Ninguém vem aqui além dos coelhos.\O meu fogo está morrendo, e os meus ossos velhos não brandem mais um machado. Traga-me cinco toras de carvalho e eu dou algo a você pelo incômodo.\Carvalhos crescem nestas matas. Você vai precisar de Lenhador 5.
 I'll fetch them.	Vou buscá-las.
-His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	O acampamento dele fica na mata do oeste da Ilha. Carvalhos crescem pela Ilha toda.
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	O acampamento dele fica na mata do oeste de Muddlesey. Carvalhos crescem por Muddlesey toda.
 Quest started: The Hermit's Fire.	Missão iniciada: O Fogo do Eremita.
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	Ahh, bom carvalho. Isso queima a semana toda. Tome, fique com o meu velho cajado: ele vai pôr um pouco de fogo nos seus feitiços.\E um segredo, para {player:um amigo/uma amiga}: as pedras erguidas perto da praia sudeste escondem mais do que musgo.
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	Missão concluída! Você recebe um cajado de carvalho, 25 de ouro e experiência de Lenhador.
@@ -1802,7 +1802,7 @@ Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agre
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	Béé! Rá, desculpe - você conversa com ovelhas o dia todo, começa a soar como elas.\Cuidado para não assustá-las. Se quer lã, elas deixam você tosquiá-las se você for {player:delicado/delicada}.
 How do I shear a sheep?	Como tosquio uma ovelha?
 Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	Use uma tesoura de tosquia nela - o funileiro de Puddleford vende, ou alguma loja. Depois fie a lã numa roca, ou venda-a a um tecelão.
-Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	{player:Bem-vindo/Bem-vinda} ao Armazém da Ilha! Há pouquíssimo dinheiro na Ilha, então eu tenho o que o pessoal não pode dispensar. Ferramentas, isca e algo para comer: é disso que o pessoal precisa aqui.
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	{player:Bem-vindo/Bem-vinda} ao Armazém de Muddlesey! Há pouquíssimo dinheiro em Muddlesey, então eu tenho o que o pessoal não pode dispensar. Ferramentas, isca e algo para comer: é disso que o pessoal precisa aqui.
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	Um bobo precisa de um rei, e um rei precisa de um reino, e eu precisava de um emprego.\Então eu ando por aí. O que vai ser, $Player.Lord ou plebeu?
 Tell me a joke.	Conte uma piada.
 A riddle, then.	Uma charada, então.
@@ -1908,7 +1908,7 @@ Quest started: A Golem's Worth of Trouble.	Missão iniciada: Um Golem de Encrenca
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	Ainda faltam 4, pelas minhas contas. $Attr.GolemQuest_Count feitos.
 Quest complete: A Golem's Worth of Trouble.	Missão concluída: Um Golem de Encrenca.
 Splendid! And quite safe, now. Mostly.	Esplêndido! E bem seguro, agora. Quase.
-Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	Drizzleport é um lugar tranquilo, na maior parte. A balsa traz gente da Ilha, e os peixes chegam ao amanhecer.
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	Drizzleport é um lugar tranquilo, na maior parte. A balsa traz gente de Muddlesey, e os peixes chegam ao amanhecer.
 Ha. Thanks.	Rá. Valeu.
 Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	Indo para o interior? Puddleford fica a leste daqui. Cuidado com a mata ao sul: lobos, e coisa pior depois da velha mina.
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	O meu tio desceu a Profundeza Mutante uma vez. Subiu por outro buraco. Noutro condado, também.
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	Vou continuar cortando.
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	Um ovo do galinheiro da Bess, frito no meu fogão lá de cima, e depois é para o Edwin. Ele vai ficar tão contente. Vai fingir que não, mas vai.
 I'll see to it.	Pode deixar.
-Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	Entre, {player:querido/querida}. Todo mundo na Ilha que fica doente acaba naquela cama, e eu faço o que posso por eles. A maioria melhora. O resto vai para o Irmão Aldous.\O Edwin tem a escrivaninha dele perto da janela: testamentos, escrituras e coisas assim. Entre nós dois, a vida inteira está coberta.
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	Entre, {player:querido/querida}. Todo mundo em Muddlesey que fica doente acaba naquela cama, e eu faço o que posso por eles. A maioria melhora. O resto vai para o Irmão Aldous.\O Edwin tem a escrivaninha dele perto da janela: testamentos, escrituras e coisas assim. Entre nós dois, a vida inteira está coberta.
 How is your father?	Como está o seu pai?
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	Em casa, a salvo, e comendo tudo o que temos! Três pratos, toda noite. Nunca vou conseguir te agradecer o bastante.\Só, por favor, não resgate mais ninguém por um tempo.
 I'm glad.	Fico feliz.
@@ -1974,7 +1974,7 @@ What's wool for?	Para que serve a lã?
 How do I get to the mainland?	Como chego ao continente?
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	Fie em novelos de lã numa bancada, tem uma no celeiro. Lá também dá para curtir pele de vaca em couro. Não de uma vaca que ainda está usando, veja bem.
 Thanks!	Valeu!
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	O continente? A balsa do Wim sai do píer, {player:querido/querida}, mas ele não te leva sem papéis: desde os ataques, Drizzleport manda de volta qualquer um da Ilha que não tenha.\O pai sempre escreveu os papéis da Ilha. Ele mantém o registro dela desde antes de eu nascer. Mas os hobgoblins o levaram, e ninguém o viu desde então. A casa dele é a velha de tijolo na vila, trancada, e levaram as chaves dele também. Dizem que eles têm um covil nas cavernas debaixo da capela.\Coitados. Ele deve estar contando tudo sobre os joelhos dele.
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	O continente? A balsa do Wim sai do píer, {player:querido/querida}, mas ele não te leva sem papéis: desde os ataques, Drizzleport manda de volta qualquer um de Muddlesey que não tenha.\O pai sempre escreveu os papéis de Muddlesey. Ele mantém o registro dela desde antes de eu nascer. Mas os hobgoblins o levaram, e ninguém o viu desde então. A casa dele é a velha de tijolo na vila, trancada, e levaram as chaves dele também. Dizem que eles têm um covil nas cavernas debaixo da capela.\Coitados. Ele deve estar contando tudo sobre os joelhos dele.
 I'll find him.	Vou encontrá-lo.
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	E você não vai chegar perto de hobgoblins de mãos vazias! O meu Frank é o ferreiro: a ferraria dele fica bem do lado da minha cabana. Ele vai te ajudar a fazer uma espada e um escudo.\Ele não fala muito. Concorde bastante com a cabeça, e ele vai gostar de você.
 Thank you, Bess.	{player:Obrigado/Obrigada}, Bess.
@@ -2059,7 +2059,7 @@ Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll g
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	Boa noite. Pouca gente desce às docas tão tarde sem nada para vender.\Eu não pergunto por onde uma coisa andou, e não lembro de rostos. Custa um pouco do preço, só isso.
 Let's see what you'll give me.	Vejamos o que você me dá.
 Welcome to the port of Drizzleport. Mind the ropes.	{player:Bem-vindo/Bem-vinda} ao porto de Drizzleport. Cuidado com as cordas.
-Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	Veio na balsa da Ilha? Os papéis, então.\Ele os desdobra, e fica imóvel diante do selo.\Esse é o antigo selo real. Não vejo um desde que a Rainha desapareceu, dezoito anos atrás: o ano em que Galaith foi fechada, uma muralha de luz atravessando o desfiladeiro e um dragão atrás dela. A Prefeitura de Drizzleport é o Parlamento de Brambleton agora, até a barreira cair.\Isto não é assunto para um sargento num píer. Leve-os à Presidente, na Prefeitura, e guarde-os bem.
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	Veio na balsa de Muddlesey? Os papéis, então.\Ele os desdobra, e fica imóvel diante do selo.\Esse é o antigo selo real. Não vejo um desde que a Rainha desapareceu, dezoito anos atrás: o ano em que Galaith foi fechada, uma muralha de luz atravessando o desfiladeiro e um dragão atrás dela. A Prefeitura de Drizzleport é o Parlamento de Brambleton agora, até a barreira cair.\Isto não é assunto para um sargento num píer. Leve-os à Presidente, na Prefeitura, e guarde-os bem.
 I'll go to the City Hall.	Vou à Prefeitura.
 Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	{player:Bem-vindo/Bem-vinda} a Drizzleport, a capital de Brambleton. Por enquanto, pelo menos.\Galaith está fechada há dezoito anos: uma muralha de luz atravessando o desfiladeiro, e um dragão atrás dela. Então a prefeitura daqui é o Parlamento, até a barreira cair.\Negócios em Galaith, você diz? Então é na Prefeitura que se pergunta. Dizem que foi selada no mesmo ano em que a Rainha desapareceu.
 Quest started: The Temporary Capital.	Missão iniciada: A Capital Provisória.
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	Mostrar o amuleto a ele.
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	Esse amuleto... onde você o conseguiu? Eu o dei à minha esposa, na noite antes de... na noite em que ela fugiu.
 Tell him of Mary's will.	Contar a ele do testamento da Mary.
-My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	A minha mãe, Mary, morreu na Ilha, onde me criou. O testamento dela me disse quem eu sou. Ela me pediu para voltar para casa, até você, e contar da morte dela.\E dizer que ela nunca deixou de amar você.
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	A minha mãe, Mary, morreu em Muddlesey, onde me criou. O testamento dela me disse quem eu sou. Ela me pediu para voltar para casa, até você, e contar da morte dela.\E dizer que ela nunca deixou de amar você.
 The King comes down from his throne, and holds you, and weeps.	O Rei desce do trono, e abraça você, e chora.
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	Mary. A minha Mary. Ela levou você para longe para que o dragão não pudesse ter você, e eu deixei que chamassem isso de traição. Dezoito anos.\{player:Meu/Minha} $Player.Son. {player:Meu/Minha} $Player.Son.
 Father.	Pai.
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	{player:Obrigado/Obrigada}, Tobias.
 Quest complete: Tobias's Tin!	Missão concluída: A Lata do Tobias!
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	Baixo e macio, e fora da direção em que estão olhando. O baú fica perto da fogueira deles, no acampamento a sudeste da vila.
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	Aí está {player:o meu salvador/a minha salvadora}! A Maren está me engordando como um ganso de São João. O Edwin deu para trancar a despensa.\A casa é sua, viu: eu não volto, não com aqueles brutos tão perto. Cuide bem dela.
-Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	Vejamos.. 'o velho que escreve os papéis da Ilha'. Sou eu. Então foi por isso que me levaram! Toda noite o grandão me perguntava onde estavam os papéis da Mary. Nunca contei.\E uma mão em cinza. Tem gente no norte que assina assim: a Mão Cinzenta, eles se chamam. Adoradores do fogo, para lá do Elderwood. Gente horrível. Nunca limpam os pés.\O que gente assim ia querer com a sua mãe? Ou com você? Guarde isso, e fique de olhos abertos por lá.
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	Vejamos.. 'o velho que escreve os papéis de Muddlesey'. Sou eu. Então foi por isso que me levaram! Toda noite o grandão me perguntava onde estavam os papéis da Mary. Nunca contei.\E uma mão em cinza. Tem gente no norte que assina assim: a Mão Cinzenta, eles se chamam. Adoradores do fogo, para lá do Elderwood. Gente horrível. Nunca limpam os pés.\O que gente assim ia querer com a sua mãe? Ou com você? Guarde isso, e fique de olhos abertos por lá.
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	Alto! Pedágio. (Ele estende uma mão transparente.) A estrada está fechada, mas o pedágio continua. Não aceito moedas hoje em dia: elas atravessam. Uma charada, então. Responda três, e eu levanto a cancela.
 I'll go round.	Vou dar a volta.
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	Tenho gargalo e não tenho cabeça, dois braços e nenhuma mão. Saio cheia e volto vazia. O que sou eu?
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	Ela fita a fumaça do braseiro por um longo tempo.\'Uma coroa. Pesada. Você vai odiá-la depois de uma semana, como todo mundo.'
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	Ela fita a fumaça do braseiro por um longo tempo.\'Debaixo do mar, uma luz que canta. Não responda a ela.'
 You haven't five gold.	Você não tem cinco de ouro.
-Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	Dia lindo na Ilha! Se estiver {player:entediado/entediada}, tem um buraco debaixo dos penhascos a leste. Morcegos lá embaixo, viu.
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	Dia lindo em Muddlesey! Se estiver {player:entediado/entediada}, tem um buraco debaixo dos penhascos a leste. Morcegos lá embaixo, viu.
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	A leiteira lá no norte cria vacas e ovelhas. Ela vende tesouras de tosquia se você quiser lã.\A balsa para o continente sai do píer no sul.
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	Há um círculo de pedras antigas perto da praia sudeste. A minha avó dizia para nunca cavar lá. Então é claro que cavei. Não achei nada. Lugar errado, provavelmente.
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	Uma velha torre de vigia está em ruínas perto do mar, a nordeste. Os lobos tomaram conta dela agora.
-A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	Um eremita mora na mata oeste. Sujeito esquisito, mas conhece cada árvore da Ilha.
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	Um eremita mora na mata oeste. Sujeito esquisito, mas conhece cada árvore de Muddlesey.
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	Não chegue perto do cemitério a leste depois que escurecer. Nem antes de escurecer. Só não chegue.
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	Pão fresco na padaria, ferramentas no armazém, e a ferraria tem uma fornalha se você tiver minério para fundir.
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	Cuidado com os lobos no Bosque dos Sussurros. E goblins. E hobgoblins. Sinceramente, eu nunca saio da vila.
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	Era uma boa mulher, a sua mãe. Gentil com todos nós, e nunca uma palavra sobre si mesma.\Ganhava de mim nas cartas todo domingo por dezesseis anos. Nunca descobri como.
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	Sinto muito. A Mary era amiga de todos nós aqui.\Venha: eu te acompanho até em casa. Ela deixou uma coisa para você, para ser entregue só a você, pessoalmente. Essas foram as instruções dela. Ela sublinhou duas vezes.
 Lead the way.	Vá na frente.
-You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	Vocês voltam juntos para casa atravessando a Ilha. De vez em quando o Edwin começa a dizer algo jurídico, e pensa melhor.
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	Vocês voltam juntos para casa atravessando Muddlesey. De vez em quando o Edwin começa a dizer algo jurídico, e pensa melhor.
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	A sua mãe me confiou o testamento dela. Ela me disse para nunca abrir esta carta, e disse que você não devia lê-la para ninguém. São as últimas palavras dela para você, e só para você.\Trinta anos de advocacia, e nunca quis tanto ler uma carta. Não li. Que conste dos autos.
 He lays a letter on the table, sealed with your mother's wax.	Ele deixa uma carta na mesa, selada com a cera da sua mãe.
 Thank you. If you don't mind, I would like to be left alone to read the letter.	{player:Obrigado/Obrigada}. Se não se importa, eu gostaria de ficar {player:sozinho/sozinha} para ler a carta.
@@ -2879,10 +2879,10 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	Agora você ouviu. Todo mundo que o toca ouve.\A vigia é sua, alma quente. Eu descansaria, se pudesse. Há algo que nunca terminei, e não consigo pensar no quê.
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	Bess, a leiteira, na fazenda ao norte, saberia como chegar ao continente.
-Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	Wim não leva ninguém para fora da Ilha sem papéis. Tobias, o pai de Bess, os escreveu, mas os hobgoblins o levaram. A casa dele na vila está trancada, e eles estão com a chave.
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	Wim não leva ninguém para fora de Muddlesey sem papéis. Tobias, o pai de Bess, os escreveu, mas os hobgoblins o levaram. A casa dele na vila está trancada, e eles estão com a chave.
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	O pai de Bess, Tobias, está trancado numa jaula no covil dos hobgoblins. Abra a fechadura com uma gazua para libertá-lo. A chave da casa dele deve estar em algum lugar do covil.
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	Tobias deu a casa dele a você. Destranque-a com a chave dele e encontre o que ele escondeu debaixo do assoalho.
-Show your papers to Wim the ferryman, on Muddlesey's pier.	Mostre seus papéis a Wim, o barqueiro, no cais da Ilha.
+Show your papers to Wim the ferryman, on Muddlesey's pier.	Mostre seus papéis a Wim, o barqueiro, no cais de Muddlesey.
 Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	Pergunte à Herbalista, no chalé dela nas terras de cultivo de Puddleford, se ela precisa de ajuda.
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	Leve à Herbalista 3 Cogumelos da Caverna (colha-os na velha mina de ferro) e 2 Sedas de Aranha (deixadas pelas aranhas gigantes nas profundezas da mina).
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	Encontre Brokk, o anão, no Deep Hollow (pelo alçapão na toca dos hobgoblins) e pergunte se ele precisa de ajuda.
@@ -2917,7 +2917,7 @@ Speak to Brann the forgemaster in Chillingham, under Frostpeak.	Fale com Brann, 
 Bring Brann 5 coal to light his forge.	Leve a Brann 5 carvões para acender a forja dele.
 Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	Mate o Troll do Gelo no lago congelado a leste de Chillingham, que destruiu a roda-d'água de Brann.
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	Leve a Brann 2 barras de mithril (funda minério de mithril numa fornalha).
-Find the hermit at his camp in Muddlesey's western woods.	Encontre o eremita no acampamento dele no bosque a oeste da Ilha.
+Find the hermit at his camp in Muddlesey's western woods.	Encontre o eremita no acampamento dele no bosque a oeste de Muddlesey.
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	Leve ao eremita 5 toras de carvalho (corte carvalhos: Lenhador 5).
 Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	Fale com o Druida em Nettlewick, no Elderwood, depois da velha ponte a leste dos Greyflats.
 Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	Encontre o Coração da Mata, a velha pedra do coração do Elderwood, a nordeste de Nettlewick, e toque nela.
@@ -2977,7 +2977,7 @@ The Eldest of the Mending is dead. The great Shard is still singing.	A Mais Velh
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	Você quebrou o grande Fragmento. A Reparação se dispersou, e alguns deles voltaram para casa.
 You kept a splinter of the great Shard: Mary's Whisper.	Você guardou uma lasca do grande Fragmento: o Sussurro de Mary.
 Read the letter your mother left you, on the table in your cottage.	Leia a carta que sua mãe deixou para você, na mesa do seu chalé.
-Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	Edwin, o advogado, convidou você para jantar. Ele e a esposa, Maren, a médica da Ilha, moram na casa de tijolos no noroeste da Ilha, junto ao mar.
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	Edwin, o advogado, convidou você para jantar. Ele e a esposa, Maren, a médica de Muddlesey, moram na casa de tijolos no noroeste de Muddlesey, junto ao mar.
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	Corte 3 toras para o fogão de Maren com o machado que ela emprestou (Cortar uma árvore) e leve-as a ela.
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	Pegue um ovo no galinheiro da fazenda de Bess, no norte, e frite-o no fogão de Maren, no andar de cima da casa deles (use o ovo no fogão).
 Give the fried egg to Edwin, at his house.	Dê o ovo frito a Edwin, na casa dele.
@@ -3115,7 +3115,7 @@ Delver Maud wants 2 Cave Horror dead.	A Escavadora Maud quer 2 Horrores da Caver
 Done. Go back to Delver Maud.	Feito. Volte à Escavadora Maud.
 Your mother's hand has turned up somewhere you didn't expect.	A letra da sua mãe apareceu num lugar onde você não esperava.
 Your mother left notes, wherever she went. There must be more of them.	Sua mãe deixava bilhetes por onde passava. Deve haver mais deles.
-Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	Sete bilhetes, e postos lado a lado eles formam um mapa. Ele termina na Ilha, em algo parado.
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	Sete bilhetes, e postos lado a lado eles formam um mapa. Ele termina em Muddlesey, em algo parado.
 A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	Uma pescadora em Gull Point, a ponta da península de Puddleford, anda tirando vidro do mar. Ele brilha.
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	As redes de Nell Tarrow sobem cheias de vidro que brilha. Descubra de onde ele vem.
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	Debaixo de Gull Point, uma porta de vidro negro, selada, com uma pequena cavidade redonda no meio. Conte a Nell.
@@ -3482,7 +3482,7 @@ the hovels	os casebres
 the fountain	o chafariz
 the palace	o palácio
 The strait ferry	A balsa do estreito
-The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	O barqueiro balança a cabeça. "Papéis primeiro, amigo. Desde os ataques, Drizzleport manda de volta quem chega da Ilha sem eles. Wim, no cais, vai dar uma olhada neles."
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	O barqueiro balança a cabeça. "Papéis primeiro, amigo. Desde os ataques, Drizzleport manda de volta quem chega de Muddlesey sem eles. Wim, no cais, vai dar uma olhada neles."
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	O barqueiro levanta a mão. "Você ainda está verde como a grama, e nunca pegou nos restos de uma fera, pelo jeito. Procure o Irmão Aldous, e volte no nível 3."
 Muddlesey	Muddlesey
 Malaria	Malária
@@ -3598,7 +3598,7 @@ Iron Bar	Barra de Ferro
 A bar of solid iron. A smith could use this.	Uma barra de ferro maciço. Um ferreiro poderia usar isso.
 Smithing	Forja
 Beggar's House Key	Chave da Casa do Mendigo
-An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	Uma velha chave de ferro: o mendigo de Puddleford perdeu a chave da casa dele na Ilha. Deve ser esta.
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	Uma velha chave de ferro: o mendigo de Puddleford perdeu a chave da casa dele em Muddlesey. Deve ser esta.
 A key	Uma chave
 The beggar's	Do mendigo
 Chef's Hat	Chapéu de Cozinheiro
@@ -3768,7 +3768,7 @@ Villager	Aldeão
 A local, going about their business.	Um morador local, cuidando da própria vida.
 A local	Um morador local
 Milkmaid	Leiteira
-The milkmaid, who looks after Muddlesey's cows and sheep.	A leiteira, que cuida das vacas e ovelhas da Ilha.
+The milkmaid, who looks after Muddlesey's cows and sheep.	A leiteira, que cuida das vacas e ovelhas de Muddlesey.
 Bess, the milkmaid	Bess, a leiteira
 Fisherman	Pescador
 An old fisherman in a yellow oilskin. He smells of the sea.	Um velho pescador de capa de oleado amarela. Ele cheira a mar.
@@ -4360,14 +4360,14 @@ Chimney Smoke	Fumaça da Chaminé
 Smoke from the forge. It smells of hot iron and somebody's lunch.	Fumaça da forja. Cheira a ferro quente e ao almoço de alguém.
 Smoke	Fumaça
 Edwin	Edwin
-Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	Edwin, o advogado da Ilha. A esposa dele, Maren, é a médica.
-Edwin, Muddlesey's lawyer	Edwin, o advogado da Ilha
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	Edwin, o advogado de Muddlesey. A esposa dele, Maren, é a médica.
+Edwin, Muddlesey's lawyer	Edwin, o advogado de Muddlesey
 Maren	Maren
-Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren, a médica da Ilha, casada com Edwin. A irmã dela é Bess, a leiteira.
-Maren, Muddlesey's doctor	Maren, a médica da Ilha
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	Maren, a médica de Muddlesey, casada com Edwin. A irmã dela é Bess, a leiteira.
+Maren, Muddlesey's doctor	Maren, a médica de Muddlesey
 Frank	Frank
-Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	Frank, o ferreiro da Ilha: braços como presuntos, e fuligem até os cotovelos.
-Frank, Muddlesey's blacksmith	Frank, o ferreiro da Ilha
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	Frank, o ferreiro de Muddlesey: braços como presuntos, e fuligem até os cotovelos.
+Frank, Muddlesey's blacksmith	Frank, o ferreiro de Muddlesey
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	Tobias, o pai de Bess e Maren. Os hobgoblins o mantinham numa jaula.
 Tobias, Bess and Maren's father	Tobias, o pai de Bess e Maren
 Ferryman	Barqueiro
@@ -5518,29 +5518,29 @@ Today's bounty	A recompensa de hoje
 Records Board	Quadro de Recordes
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	O salão dos registros, entalhado em pedra clara e dourado: os nomes que mais fizeram em Brambleton.
 The names that have done the most	Os nomes que mais fizeram
-Trees all over Muddlesey and the Southlands	Árvores por toda a Ilha e as Southlands
+Trees all over Muddlesey and the Southlands	Árvores por toda Muddlesey e as Southlands
 Fallen logs lying in the meadows and woods	Troncos caídos nos prados e nas matas
-Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	Carvalhos nas matas da Ilha, em volta de Drizzleport e Puddleford e no Whispering Woods
-Willows grow by the water: Muddlesey's woods, the shores of the Southlands	Salgueiros crescem perto da água: as matas da Ilha, as margens das Southlands
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	Carvalhos nas matas de Muddlesey, em volta de Drizzleport e Puddleford e no Whispering Woods
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	Salgueiros crescem perto da água: as matas de Muddlesey, as margens das Southlands
 A few ancient yews deep in the Whispering Woods and the eastern woods	Alguns teixos antigos no fundo do Whispering Woods e das matas do leste
 Any shore or cave pool	Qualquer margem ou poça de caverna
-The old iron mine, the mine depths, the grotto under Muddlesey and the warren	A velha mina de ferro, as profundezas da mina, a gruta sob a Ilha e a toca
-The cellar grotto under Muddlesey and the old iron mine	A gruta do porão sob a Ilha e a velha mina de ferro
-The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	A gruta do porão sob a Ilha e a velha mina de ferro. Funda-o com minério de cobre para fazer bronze
-The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	A gruta do porão sob a Ilha, as profundezas da mina e o veio profundo da guilda
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	A velha mina de ferro, as profundezas da mina, a gruta sob Muddlesey e a toca
+The cellar grotto under Muddlesey and the old iron mine	A gruta do porão sob Muddlesey e a velha mina de ferro
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	A gruta do porão sob Muddlesey e a velha mina de ferro. Funda-o com minério de cobre para fazer bronze
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	A gruta do porão sob Muddlesey, as profundezas da mina e o veio profundo da guilda
 The mine depths, the guild's deep seam and the hobgoblin warren	As profundezas da mina, o veio profundo da guilda e a toca dos hobgoblins
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	A caverna de cristal no Deep Hollow abaixo da toca dos hobgoblins, e o veio profundo da guilda nas profundezas da mina (Mineração 5 para entrar)
 The crystal cavern in the Deep Hollow, and Brokk's vault	A caverna de cristal no Deep Hollow, e o cofre de Brokk
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	O covil do troll das cavernas no Deep Hollow e o cofre de Brokk. Só uma picareta de aço ou de mithril o quebra
 Damp corners of every cave and mine	Cantos úmidos de toda caverna e mina
-Herb patches in the grass on Muddlesey and in the Southlands	Canteiros de ervas na grama da Ilha e das Southlands
+Herb patches in the grass on Muddlesey and in the Southlands	Canteiros de ervas na grama de Muddlesey e das Southlands
 Loose herbs lying about in the Southlands (they grow back after a while)	Ervas soltas pelas Southlands (elas crescem de novo depois de um tempo)
-Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	Arbustos de frutinhas na Ilha, em volta de Drizzleport e no Whispering Woods
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	Arbustos de frutinhas em Muddlesey, em volta de Drizzleport e no Whispering Woods
 The wheat field on the Puddleford farmlands	O campo de trigo nas terras de cultivo de Puddleford
 The cabbage rows on the Puddleford farmlands	As fileiras de repolho nas terras de cultivo de Puddleford
-Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	Ninhos de galinha na fazenda da Ilha e perto da casa da fazenda de Puddleford
-The cows on Muddlesey's farm and the Puddleford farmlands	As vacas na fazenda da Ilha e nas terras de cultivo de Puddleford
-The sheep on Muddlesey and the Puddleford farmlands	As ovelhas na Ilha e nas terras de cultivo de Puddleford
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	Ninhos de galinha na fazenda de Muddlesey e perto da casa da fazenda de Puddleford
+The cows on Muddlesey's farm and the Puddleford farmlands	As vacas na fazenda de Muddlesey e nas terras de cultivo de Puddleford
+The sheep on Muddlesey and the Puddleford farmlands	As ovelhas em Muddlesey e nas terras de cultivo de Puddleford
 Bog myrtle bushes in the Brinebottom	Arbustos de murta-do-brejo em Brinebottom
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	Qualquer praia de areia ou o deserto (clique com o botão direito na areia). Derreta-a em vidro numa fornalha, e depois faça frascos vazios numa bancada
 Sage clumps on the moors, the hills and the downs	Touceiras de sálvia nas charnecas, nas colinas e nos morros
@@ -5582,7 +5582,7 @@ Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole 
 The Frozen Forge	A Forja Congelada
 Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	Brann, o mestre ferreiro de Chillingham, não consegue manter a forja acesa, e não está levando isso bem.
 The Hermit's Fire	O Fogo do Eremita
-The hermit in Muddlesey's western woods could do with good wood for his fire.	O eremita das matas a oeste da Ilha bem que precisava de lenha boa para a fogueira dele.
+The hermit in Muddlesey's western woods could do with good wood for his fire.	O eremita das matas a oeste de Muddlesey bem que precisava de lenha boa para a fogueira dele.
 The Withering Wood	A Mata que Murcha
 The druid in Nettlewick says the Elderwood is dying, and nobody listens.	O druida de Nettlewick diz que o Elderwood está morrendo, e ninguém escuta.
 The Barrow King	O Rei do Túmulo
@@ -7105,12 +7105,12 @@ Frailty	Fragilidade
 The floor gives way! You fall, and land hard a floor below.	O chão cede! Você cai e aterrissa com força um andar abaixo.
 That's as far as the demo goes: the full game goes on from here.	A demo vai até aqui: o jogo completo continua daqui.
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	A demo vai até aqui: nível %d. O que você aprender daqui em diante fica guardado para o jogo completo.
-Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	A história da Ilha está contada, até onde a demo vai: a travessia para Drizzleport é do jogo completo.
-Why would hobgoblins raid Muddlesey for your mother's papers?	Por que hobgoblins atacariam a Ilha atrás dos papéis da sua mãe?
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	A história de Muddlesey está contada, até onde a demo vai: a travessia para Drizzleport é do jogo completo.
+Why would hobgoblins raid Muddlesey for your mother's papers?	Por que hobgoblins atacariam Muddlesey atrás dos papéis da sua mãe?
 Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	Do outro lado do estreito: Drizzleport, as cidades e estradas do continente, a Corte dos Magos e o resto da história.
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	Um Passe de Amigo: alguém aqui tem o jogo completo, então ele é seu também enquanto essa pessoa estiver no jogo.
-Nobody here has the full game now: back to Muddlesey in %d seconds.	Ninguém aqui tem o jogo completo agora: de volta à Ilha em %d segundos.
-Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	Ninguém aqui tem o jogo completo agora: você está de volta à demo, à Ilha e ao nível %d.
+Nobody here has the full game now: back to Muddlesey in %d seconds.	Ninguém aqui tem o jogo completo agora: de volta a Muddlesey em %d segundos.
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	Ninguém aqui tem o jogo completo agora: você está de volta à demo, a Muddlesey e ao nível %d.
 Your mother's papers, under a crowned seal	Os papéis da sua mãe, sob um selo coroado
 An order for her papers and her child's name, signed with a hand pressed in ash	Uma ordem pelos papéis dela e pelo nome do filho dela, assinada com uma mão prensada em cinzas
 A miniature from where only a cat could go: a crowned man, a baby in his arms	Uma miniatura de onde só um gato poderia ir: um homem coroado, um bebê nos braços
@@ -8582,7 +8582,7 @@ not begun	não começado
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	O jogo completo é comprado uma vez, na tela inicial, para sua conta Hallisium: depois é seu
 in the app and in a browser too, and your character keeps everything they've done.	no app e num navegador também, e seu personagem mantém tudo o que já fez.
 The demo	A demo
-That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	A demo vai até aqui: o jogo completo continua daqui, além da Ilha até o
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	A demo vai até aqui: o jogo completo continua daqui, além de Muddlesey até o
 mainland, its towns and the rest of the story.	continente, suas cidades e o resto da história.
 That's level {1}, as far as the demo goes. What you learn from here is kept,	Esse é o nível {1}, até onde a demo vai. O que você aprender daqui em diante fica guardado,
 and counts as soon as you have the full game.	e conta assim que você tiver o jogo completo.
@@ -8614,7 +8614,7 @@ Bring a character from a file	Trazer um personagem de um arquivo
 Signed in as {1}	Conectado como {1}
 Playing without a Hallisium account: your characters here are this device's.	Jogando sem conta Hallisium: seus personagens aqui são deste aparelho.
 Play as {1}	Jogar como {1}
-Level {1} · Demo: Muddlesey, level {2}	Nível {1} · Demo: a Ilha, nível {2}
+Level {1} · Demo: Muddlesey, level {2}	Nível {1} · Demo: Muddlesey, nível {2}
 Level {1}	Nível {1}
 Copy to device	Copiar para o aparelho
 Copy {1} to your own device. The copy can't come back to this server.	Copiar {1} para o seu aparelho. A cópia não pode voltar para este servidor.
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	Seu nível de {1} agora é {2}!
 Online {1}/{2}: {3}	Online {1}/{2}: {3}
 PvP here	PvP aqui
 Safe here	Seguro aqui
-Demo: Muddlesey, level {1}	Demo: a Ilha, nível {1}
-Friend Pass: back to Muddlesey in {1}s	Passe de Amigo: de volta à Ilha em {1}s
+Demo: Muddlesey, level {1}	Demo: Muddlesey, nível {1}
+Friend Pass: back to Muddlesey in {1}s	Passe de Amigo: de volta a Muddlesey em {1}s
 Friend Pass: {1}'s game	Passe de Amigo: jogo de {1}
 Friend Pass	Passe de Amigo
 ARENA - other players can fight you here	ARENA - outros jogadores podem lutar com você aqui
@@ -8946,7 +8946,7 @@ Save skills	Salvar habilidades
 Rewards	Recompensas
 The end of the demo	O fim da demo
 Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	Wim examina seus papéis e faz sinal para você embarcar. Do outro lado do estreito, os telhados de Drizzleport brilham ao sol.
-What Muddlesey gave you	O que a Ilha deu a você
+What Muddlesey gave you	O que Muddlesey deu a você
 What's left to ask	O que falta perguntar
 Until then	Até lá
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	Marque que concor
 The browser wouldn't go full screen.	O navegador não quis ir para tela cheia.
 What every game you join starts with. A game's own Options change them there.	Com o que todo jogo em que você entra começa. As Opções de cada jogo mudam isso lá.
 The full game: yours ({1}).	O jogo completo: seu ({1}).
-The demo: Muddlesey, up to level {1}.	A demo: a Ilha, até o nível {1}.
+The demo: Muddlesey, up to level {1}.	A demo: Muddlesey, até o nível {1}.
 Waiting for you to confirm {1}: the link's in that inbox.	Esperando você confirmar {1}: o link está nessa caixa de entrada.
 Until then a code goes to {1}.	Até lá, um código vai para {1}.
 You can join games once it's confirmed.	Você pode entrar em jogos assim que for confirmado.
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	Perguntando à Steam...
 Shards of Ashen is bought once,	Shards of Ashen é comprado uma vez,
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	na Steam, no itch.io ou na Epic, e jogado de lá: inicie pela Steam, conectado à conta que o comprou.
-The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	A demo: a Ilha, até o nível {1}. O jogo completo segue para o continente e o resto da história.
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	A demo: Muddlesey, até o nível {1}. O jogo completo segue para o continente e o resto da história.
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	É comprado uma vez, para sua conta Hallisium: depois é seu em todo lugar, no app Android também.
 Buy it with your account's email, then come back here.	Compre com o e-mail da sua conta e depois volte aqui.
 Log in first, to have it on your account.	Entre primeiro, para tê-lo na sua conta.

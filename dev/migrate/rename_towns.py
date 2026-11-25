@@ -10,8 +10,8 @@ Kept: Galaith, King Rupert's Keep, the Wizards' Court, Fenwick, Emberwatch, Wild
 Every place Id, thing's Id, script (and its file's name), label, shardstone and word that said a town says the new name
 (the lowercase names in the builders' own workings and the music's file names stay). In every language's catalogue the
 line's English and its translation change together: the Latin-lettered names in each, and in Japanese and Korean the
-names as written there (Korean's particles after a name ending in a consonant put right). The translations keep their
-own word for "the island" in what's said of Muddlesey; a line that's only its name says Muddlesey.
+names as written there (Korean's particles after a name ending in a consonant put right). The translations give Muddlesey its
+name too (Muddlesey, マドルジー, 머들지) where the English says it.
 Characters saved before keep what they had: an attribute named for an old name (Waystone.Northport, Secret_Ashford) is
 read under the new one as they load (dsengine/renames.py RENAMED_WORDS).
 Safe to run again (a second run finds nothing to rename).
@@ -54,6 +54,9 @@ def english(s):
 def said(v, code):
     for old, new in TOWNS.items():
         v = re.sub(r"(?<![A-Za-z])%s(?![a-z])" % old, new, v)
+        v = re.sub(r"(?<![A-Za-z])%s(?![A-Za-z])" % old.upper(), new.upper(), v)     # (the signposts)
+    if code == "fr":                                    # (Ashford's d' before the new names' consonants)
+        v = re.sub(r"d'(%s)" % "|".join(n for n in TOWNS.values() if n != "Acornby"), r"de ", v)
     if code == "ja":
         for old, new in JA.items():
             v = v.replace(old, new)

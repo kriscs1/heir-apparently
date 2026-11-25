@@ -14,7 +14,7 @@ Sulkhaven, on its island.	島の上のサルクヘイヴン。
 Cold air, flagstones, and a smell of old barrels.	冷たい空気、敷石、それに古い樽の匂い。
 Chillingham. Your breath steams in the cold.	チリンガム。寒さで息が白くなる。
 Sergeant Holt's men are through the camp's gate.	ホルト軍曹の部下たちが野営地の門を抜けた。
-The grotto under Muddlesey. Water drips into a black pool.	島の地下の洞窟。黒い池に水がしたたっている。
+The grotto under Muddlesey. Water drips into a black pool.	マドルジーの地下の洞窟。黒い池に水がしたたっている。
 Torchlight, bones and the stink of hobgoblin: their lair!	松明の明かり、骨、そしてホブゴブリンの悪臭：やつらのねぐらだ！
 Wildwood.	ワイルドウッド。
 The Wizards' Court. The air tingles with magic.	魔術師院。空気が魔力でぴりぴりする。
@@ -126,7 +126,7 @@ You need level 18 Woodcutting to chop this yew.	このイチイを切るには�
 Chanting, and the smell of burning. In the yard, a priest in smouldering robes, a ring of fire on his finger, leads the Ashen Hand in a hymn to the dragon. Nobody seems to know the second verse.	詠唱と、何かが燃える匂い。中庭で、くすぶるローブをまとい、指に火の輪をはめた司祭が、灰の手を率いてドラゴンへの賛歌を歌っている。二番を知っている者はいないらしい。
 You lift the hatch and climb down into the dark. Somewhere below, boots.	ハッチを持ち上げ、暗闇へ降りていく。どこか下のほうで、ブーツの音。
 The hatch is locked.	ハッチには鍵がかかっている。
-You climb down the ladder, into the caves under Muddlesey.	はしごを降りて、島の地下の洞窟へ。
+You climb down the ladder, into the caves under Muddlesey.	はしごを降りて、マドルジーの地下の洞窟へ。
 You go down the steps, into the cellar.	階段を降りて、地下室へ。
 You climb down the ladder.	はしごを降りる。
 The hatch is shut, and it isn't yours to open.	ハッチは閉まっていて、あなたが開けていいものではない。
@@ -188,7 +188,7 @@ You go down into the mine: gold glitters in the walls.	鉱山へ降りていく�
 You duck into the tunnel. Water drips somewhere ahead, and something rustles.	身をかがめてトンネルに入る。どこか前のほうで水がしたたり、何かがかさかさと音を立てる。
 You duck into the tunnel. The fen's damp follows you in.	身をかがめてトンネルに入る。沼地の湿気がついてくる。
 'A stranger, found at the barrier's foot the winter it rose. The city buried him as its own.'	『障壁が立ちのぼった冬、その足もとで見つかった見知らぬ人。町は彼を町の者として葬った』
-'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	『アグネス・リード。島じゅうの網を繕い、すべてのカモメに悪態をついた』
+'Agnes Reed. She mended every net on Muddlesey and swore at every gull.'	『アグネス・リード。マドルジーじゅうの網を繕い、すべてのカモメに悪態をついた』
 'Aldwin, shepherd of the downs. His flock outlived him by a winter.'	『丘の羊飼いアルドウィン。彼の群れは彼より一冬長く生きた』
 'Beatrix of the Harp. The Nobles' Quarter asked her to stop. She did not stop.'	『竪琴のベアトリクス。貴族街は彼女にやめるよう頼んだ。彼女はやめなかった』
 'Bram, smith. His hammer lies with him, so he may mend things on the other side.'	『鍛冶屋ブラム。向こう側でも物を直せるよう、ハンマーが彼と共に眠る』
@@ -205,7 +205,7 @@ No name, no date. Fresh flowers lie in front of it, though no one lives near.	�
 'Guildmaster Pryce. In life he kept the guild's accounts; in death, it is hoped, his temper.'	『ギルド長プライス。生前はギルドの帳簿を守った。死後は、願わくは、その癇癪を』
 Two names in a ring of carved ivy: Hal and Bryony.	彫られたツタの輪の中に二つの名前：ハルとブライオニー。
 'Hal, gatekeeper of the harbour. Twenty years he waited for a ship to let in.'	『港の門番ハル。中に入れる船を二十年待ち続けた』
-'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	『産婆ヘスター・ベル。島の半分が彼女の手を通ってこの世に生まれた』
+'Hester Bell, midwife. Half Muddlesey came into the world through her hands.'	『産婆ヘスター・ベル。マドルジーの半分が彼女の手を通ってこの世に生まれた』
 'I loved these hills. Bury me where I can see them.' The stone faces the sunrise.	『私はこの丘を愛した。丘の見える場所に葬ってくれ』墓石は日の出のほうを向いている。
 'Hobb Vintner, who sold the city's worst wine for fifty years and is greatly missed.'	『ワイン商ホブ。五十年にわたり町いちばんのまずいワインを売り、皆に大いに惜しまれている』
 'Lady Isolde Ashby. She left her fortune to the town and her temper to her son.'	『イゾルデ・アシュビー夫人。財産を町に、癇癪を息子に遺した』
@@ -218,7 +218,7 @@ A spear is carved on it. Beneath, in the old letters: 'He did not run.'	槍が�
 'Little Wren, aged six. Gone to chase the butterflies.'	『小さなレン、六歳。蝶を追いかけていった』
 'Marta of the Quays. She could gut a herring at forty paces.'	『波止場のマルタ。四十歩離れてニシンをさばけた』
 'Martha Lark, who sang at every burial in this yard but her own.'	『マーサ・ラーク。この墓地のすべての埋葬で歌った、自分のもの以外は』
-'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	『メアリー・クロフト、最愛の母。島でいちばんのパイを焼いた』
+'Mary Croft, beloved mother. She baked the best pies on Muddlesey.'	『メアリー・クロフト、最愛の母。マドルジーでいちばんのパイを焼いた』
 So mossed over you can't read it. A wren has nested on top.	苔むしていて読めない。てっぺんにミソサザイが巣を作っている。
 'Ned Pike, ferryman. Forty years across the strait, and never lost a passenger.'	『渡し守ネッド・パイク。四十年海峡を渡り、一人の客も失わなかった』
 A bow is carved on it, and one word in the old tongue: 'Steady.'	弓が彫られ、古い言葉で一語：『しっかり』
@@ -720,9 +720,9 @@ The Rime Warden stands over the shrine: it won't let you near the altar.	ライ�
 You break the ice out of the altar's bowl and lift out the Lodestar. It's cold enough to burn, and it tugs, gently, north.	祭壇の鉢から氷を割り、天磁石を取り出す。焼けるほど冷たく、北へとそっと引っぱっている。
 A star of ice glitters in the altar's bowl, frozen fast.	祭壇の鉢の中で氷の星がきらめいている。固く凍りついている。
 The altar's bowl is empty.	祭壇の鉢は空っぽだ。
-A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	黒い表紙の小さな帳簿。丁寧な字で：シャードの入り、シャードの出、それに「ろうそく（黒）」の欄。二行に灰の指紋で印がついている：\『島のホブゴブリンに、シャード四十。女の書類と子供の名前のため。やつらは老人をさらったが、何も得られなかった』\そして新しい行、インクはまだ黒い：『子供は海峡を渡った。灰色の者たちは今は倍払う。壁の向こうのお方が待っているそうだ』\ページの下に、二重線つきで：『四半期の灰：目標未達』
+A little ledger bound in black, in a careful hand: Shards in, Shards out, and a column for 'Candles (black)'. Two lines are marked with a thumbprint of ash:\'To the hobgoblins on Muddlesey, forty Shards, for the woman's papers and the child's name. They took the old man, and nothing came of it.'\And newer, the ink still dark: 'The child has crossed the strait. The grey ones pay double now. They say the one beyond the wall is waiting.'\At the bottom of the page, underlined twice: 'Quarterly ash: below target.'	黒い表紙の小さな帳簿。丁寧な字で：シャードの入り、シャードの出、それに「ろうそく（黒）」の欄。二行に灰の指紋で印がついている：\『マドルジーのホブゴブリンに、シャード四十。女の書類と子供の名前のため。やつらは老人をさらったが、何も得られなかった』\そして新しい行、インクはまだ黒い：『子供は海峡を渡った。灰色の者たちは今は倍払う。壁の向こうのお方が待っているそうだ』\ページの下に、二重線つきで：『四半期の灰：目標未達』
 Close it.	閉じる。
-A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	上等な紙の切れ端。小さく折りたたまれ、丁寧な字で。いちばん上に：『請求書。三枚つづりの二枚目』\島に、閉ざされた年にガライスから子連れで来た女がいる。王冠の封印のついた書類を持っているか、島の書類を書く老人が預かっている。それと子供の名前を持ってくれば、シャードはお前たちのものだ。\下に名前はない。灰で押された手形と、署名が燃え上がった焦げ跡があるだけだ。
+A scrap of good paper, folded small, in a careful hand. At the top: 'Requisition. Copy two of three.'\There is a woman on Muddlesey who came from Galaith the year it shut, with a child. She has papers under a crowned seal, or the old man who writes Muddlesey's papers keeps them for her. Bring them, and the child's name, and the Shards are yours.\No name under it. Only a hand, pressed in ash, and a scorch where the signature caught fire.	上等な紙の切れ端。小さく折りたたまれ、丁寧な字で。いちばん上に：『請求書。三枚つづりの二枚目』\マドルジーに、閉ざされた年にガライスから子連れで来た女がいる。王冠の封印のついた書類を持っているか、マドルジーの書類を書く老人が預かっている。それと子供の名前を持ってくれば、シャードはお前たちのものだ。\下に名前はない。灰で押された手形と、署名が燃え上がった焦げ跡があるだけだ。
 Fold it away.	折りたたんでしまう。
 PUDDLEFORD\West: Drizzleport docks\East: the farmlands\South: King Rupert's Keep	パドルフォード\西：ドリズルポートの波止場\東：農地\南：ルパート王の砦
 Okay	OK
@@ -827,20 +827,20 @@ I could never tell you who we were while I lived: it was safer that you didn't k
 Your father, the king, still waits behind the walls of Galaith, and he doesn't know that I am gone. Go to him. The city has been shut since the day you were born, and I am the reason why. One day you will understand.\Be careful, and tell your father I never stopped loving him.\Mary	あなたの父、王は、今もガライスの城壁の向こうで待っていて、私がいなくなったことを知りません。父のもとへ行きなさい。あなたが生まれた日から都は閉ざされたままで、その原因は私です。いつかあなたにもわかるでしょう。\気をつけて。そして父に、私は彼を愛することを一度もやめなかったと伝えて。\メアリー
 Fold the letter.	手紙をたたむ。
 Quest complete: The Last Will.	クエスト達成：最後の遺言。
-The door to your house is unlocked now, and Muddlesey lies before you.	家の扉の鍵は開いている。島があなたの前に広がっている。
-Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	エドウィンは島の遺言書や証書を書いているけれど、私のものを見せてと言ったことは一度もない。マレンは通りかかるたびに赤ん坊の息を確かめる。何かが約束されていると気づいているかのように。ここでは誰も私に頭を下げない。ずっとここにいられたらいいのに。
+The door to your house is unlocked now, and Muddlesey lies before you.	家の扉の鍵は開いている。マドルジーがあなたの前に広がっている。
+Edwin writes Muddlesey's wills and deeds, and he's never once asked to see mine. Maren checks the baby's breathing whenever she passes, as if she can tell something's been promised. Nobody here bows to me. I could stay for ever.	エドウィンはマドルジーの遺言書や証書を書いているけれど、私のものを見せてと言ったことは一度もない。マレンは通りかかるたびに赤ん坊の息を確かめる。何かが約束されていると気づいているかのように。ここでは誰も私に頭を下げない。ずっとここにいられたらいいのに。
 The old men on the quay say the first king set a watch under the sea north of Puddleford: the Glass Wardens, keeping something asleep. Nobody's seen one in a hundred years. What did a king need watched as badly as that?	波止場の老人たちは言う。最初の王はパドルフォードの北の海の下に見張りを置いたと：ガラスの守り手、何かを眠らせておく者たち。百年、誰も彼らを見ていない。王はいったい何を、それほどまでに見張らせる必要があったのだろう？
 I found the Pact in the Court's oldest book, in the first king's own hand: a firstborn of his line each generation, and the dragon keeps its peace. I read it three times. Then I went home and held my baby till morning.	院でいちばん古い本の中に、最初の王の自筆で盟約を見つけた：代ごとに王家の長子を一人、そうすればドラゴンは平穏を保つ。三度読んだ。それから家に帰り、朝まで赤ん坊を抱いていた。
 The sun priests sang it as a triumph: the first king cut the dragon down to something small enough to bind. Down, they sing. Never dead. So where did the rest of it go?	太陽の司祭たちはそれを勝利として歌った：最初の王はドラゴンを縛れるほど小さなものに切り倒した、と。倒した、と彼らは歌う。死んだとは決して歌わない。では、残りはどこへ行ったのか？
 I held the Pact's seal tonight, for as long as I dared. It's a ring, and it's warm, like something asleep. It knows when you're afraid.	今夜、盟約の印章を、勇気が続くかぎり握っていた。それは指輪で、眠っている何かのように温かい。こちらが怖がっているとわかるのだ。
 They'll come for my child. So I'll run, and I'll keep running, and what I took from the Seam will stay where no king ever thinks to look: somewhere small, and still, and full of sky.	彼らは私の子を取りに来る。だから私は逃げる、逃げ続ける。そして継ぎ目から持ち出したものは、王が決して探そうと思わない場所にとどめておく：小さくて、静かで、空でいっぱいの場所に。
-I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	私はこの広間で戴冠し、洗濯物のかごの中で眠るあなたを連れて、台所の扉から出ていった。これを読んでいるなら、壁は崩れ、あなたは帰ってきたのね。許して。島で静かな水を探して。空が自分自身を見上げているところを。
+I was crowned in this hall, and I left it by the kitchen door with you asleep in a basket of washing. If you're reading this, the wall is down and you came home. Forgive me. Look for still water on Muddlesey, where the sky looks up at itself.	私はこの広間で戴冠し、洗濯物のかごの中で眠るあなたを連れて、台所の扉から出ていった。これを読んでいるなら、壁は崩れ、あなたは帰ってきたのね。許して。マドルジーで静かな水を探して。空が自分自身を見上げているところを。
 Your mother's hand, small and quick, on a scrap of the Wizards' Court's paper. The ink has a blue glint to it:\Velvet paw and whisker-wise,\see the house with Jimmy's eyes.\And under it: For my little one, when it's time. Jimmy knows where.	母の字。小さく、素早い。魔術師院の紙の切れ端に書かれている。インクは青くきらめいている：\ビロードの足 ひげの知恵\ジミーの目で 家を見よ\その下に：私の小さな子へ、時が来たら。ジミーが場所を知っている。
 Read it aloud.	声に出して読む。
-Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	母の字。行く先々に、全部で七枚。端と端を合わせると地図になる。その端は島の北の小さな丸い形のところで合わさり、そこに母はひとこと書いている：静か。
+Your mother's hand. Seven of them, wherever she went. Lay them edge to edge and it's a map. The edges meet at a little round shape in Muddlesey's north, and she's written one word there: still.	母の字。行く先々に、全部で七枚。端と端を合わせると地図になる。その端はマドルジーの北の小さな丸い形のところで合わさり、そこに母はひとこと書いている：静か。
 Mary's Notes\Folded small, in your mother's hand:\They told me at the Court that the Shards are only magic, splintered. They are not. They are scraps of the dragon, thrown off when the first king cut it down to a size he could bind. Most of it lies asleep beyond the world, and every scrap is hungry to grow; the Pact keeps the dragon quiet with the blood of every firstborn heir.\I will not pay it with my child. If the Cut could be kept shut some other way, or the dragon ended, the price would end. I go to find out how.\The place it was cut is under the mountain behind the city. Remember the Seam.	メアリーの覚え書き\小さく折りたたまれている。母の字で：\院では、シャードはただ砕けた魔法にすぎないと聞かされた。違う。それはドラゴンの切れ端で、最初の王がドラゴンを縛れる大きさに切り倒したときに飛び散ったもの。ドラゴンの大部分は世界の向こうで眠っていて、切れ端はどれも大きくなりたくて飢えている。盟約は、跡継ぎとなる長子すべての血で、ドラゴンをおとなしくさせているのだ。\私の子でそれを払うつもりはない。もし切り口をほかの方法で閉じておけるなら、あるいはドラゴンを終わらせられるなら、代償は終わる。その方法を探しに行く。\切られた場所は、都の裏の山の下にある。継ぎ目を忘れないで。
 Fold them away.	しまっておく。
-DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	ドリズルポート\北：島への渡し船\東：パドルフォード村\南：ささやきの森と古い鉄の鉱山
+DRIZZLEPORT\North: the ferry to Muddlesey\East: Puddleford village\South: Whispering Woods and the old iron mine	ドリズルポート\北：マドルジーへの渡し船\東：パドルフォード村\南：ささやきの森と古い鉄の鉱山
 SALTWAY\Houses of Drizzleport.	塩の道\ドリズルポートの家並み。
 CHURCH STREET\Houses of Drizzleport.	教会通り\ドリズルポートの家並み。
 MERCERS' LANE\Houses of Drizzleport.	織物商小路\ドリズルポートの家並み。
@@ -910,7 +910,7 @@ SMITHY\The forge of Sulkhaven.	鍛冶場\サルクヘイヴンの炉。
 SWAN LANE\Houses of Wildwood.	白鳥小路\ワイルドウッドの家並み。
 SOUTH ROW\Houses of Wildwood.	南通り\ワイルドウッドの家並み。
 WILDWOOD\A hamlet.	ワイルドウッド\小さな集落。
-DONNNG... The bell's voice rolls out over Muddlesey.	ゴオォォン……鐘の声が島じゅうに響き渡る。
+DONNNG... The bell's voice rolls out over Muddlesey.	ゴオォォン……鐘の声がマドルジーじゅうに響き渡る。
 The bell speaks once, low and green, and every frog in the marsh stops to listen.	鐘は一度、低く緑色に鳴り、沼じゅうのカエルが鳴くのをやめて聞き入る。
 Out in the water something answers, a little flat, and what the ringing shook loose comes up out of the mud at your feet.	水の向こうで何かが少し調子外れに応え、鐘の音で揺さぶられて外れたものが、足もとの泥の中から浮かび上がってくる。
 The frogs start up again, louder, as if they've been told.	カエルたちがまた鳴き始める。言いつけられたかのように、さっきより大きな声で。
@@ -1164,7 +1164,7 @@ Show me your scrolls.	巻物を見せて。
 Can you teleport me?	テレポートしてもらえますか？
 Another heir has come to you, besides me.	私のほかにも、跡継ぎがあなたのところへ来ました。
 Where to? Keep your arms in.	どこへ？ 腕は中に入れておけ。
-To Muddlesey.	島へ。
+To Muddlesey.	マドルジーへ。
 To Drizzleport.	ドリズルポートへ。
 Nowhere, thanks.	どこにも行きません。
 Bert waves his hands, and the world spins...	バートが両手を振ると、世界がぐるぐる回る...
@@ -1473,7 +1473,7 @@ Thank you, Maren.	ありがとう、マレン。
 Quest complete: Dinner at Edwin's! Maren gave you the key to the chapel's trapdoor, and two healing draughts.	クエスト達成：エドウィンの家の夕食！ マレンから礼拝堂の落とし戸の鍵と、回復薬を二つ受け取った。
 If you need anything drawn up, a will or a deed, I'm your man. Though I'd rather you didn't need a will for a good long while.	遺言書でも証書でも、何か作成が必要なら、私にお任せください。もっとも、遺言書が必要になるのは、ずっとずっと先であってほしいものですが。
 What was my mother like?	母はどんな人でしたか？
-She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	彼女はあなたを腕に抱いて島に来て、どこから来たのかは決して言いませんでした。優しくて、誇り高くて、見せている以上にずっと賢い人でした。一度、私の報酬を私自身に辞退させたことがあって、しかも私は礼を言ったのです。\小さな家と猫だけの人ではないと、いつも思っていました。
+She came to Muddlesey with you in her arms and never said from where. Kind, proud, and far cleverer than she let on. She once argued me out of my own fee, and I thanked her for it.\I always thought there was more to her than a cottage and a cat.	彼女はあなたを腕に抱いてマドルジーに来て、どこから来たのかは決して言いませんでした。優しくて、誇り高くて、見せている以上にずっと賢い人でした。一度、私の報酬を私自身に辞退させたことがあって、しかも私は礼を言ったのです。\小さな家と猫だけの人ではないと、いつも思っていました。
 Take your time with the letter. It's yours alone. I'm not curious. I am very, very not curious.	手紙はゆっくり読んでください。あなただけのものです。私は気になっていません。まったく、まったく気になっていません。
 Mind the third plank. And the fifth. Truth be told, mind all of 'em.	三枚目の板に気をつけな。五枚目もだ。本当のところ、全部に気をつけな。
 What do you catch out here?	ここで何を釣っているのですか？
@@ -1520,7 +1520,7 @@ The farmer points at the hedges: "There! Here they come!"	農夫が生け垣を�
 'Mushrooms! Cave mushrooms, the glowing kind: the only crop that likes the dark as much as I do. Here, have a few. On the house. The house is a hole.'	「キノコだ！ 洞窟キノコ、光るやつ：わしと同じくらい暗がりが好きな、ただ一つの作物さ。ほら、いくつか持っていきな。店のおごりだ。店ってのは穴だがな」
 'The trick is, you talk to them. Not nicely. Mushrooms don't trust nice.'	「こつはな、話しかけることだ。優しくじゃない。キノコは優しさを信用しないんだ」
 'Maud says I can't sell them to the dwarves because there aren't any dwarves. I say that's just what a dwarf would want you to think.'	「モードはドワーフに売っちゃいけないって言う、ドワーフなんていないからって。わしに言わせりゃ、それこそドワーフが思わせたがってることさ」
-Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	島へ戻る？ 鐘が鳴るたびに、それぞれの桟橋から一艘ずつ、二艘そろって渡るんだ。ここに舟がつないであるときに乗り込んで、運賃は硬貨一枚。\途中ですれ違うよ。手を振りたければどうぞ。誰も振らないけどね。
+Back to Muddlesey? The boats cross together, one from each pier, whenever the bell goes. Step aboard when one's tied up here, and a coin's the fare.\They pass each other halfway. Wave, if you like. Nobody does.	マドルジーへ戻る？ 鐘が鳴るたびに、それぞれの桟橋から一艘ずつ、二艘そろって渡るんだ。ここに舟がつないであるときに乗り込んで、運賃は硬貨一枚。\途中ですれ違うよ。手を振りたければどうぞ。誰も振らないけどね。
 Thanks, Wim.	ありがとう、ウィム。
 Drizzleport, is it? Step aboard when a boat's in, and pay a coin. They leave both piers on the bell and pass in the strait.\Nobody's lost a passenger in years. Well. Nobody's lost one this year.	ドリズルポートかい？ 舟が着いているときに乗り込んで、硬貨一枚払って。鐘の合図で両方の桟橋を出て、海峡ですれ違うんだ。\もう何年も乗客をなくしたことはない。まあ。今年はなくしていない。
 Hold up, friend. You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. The mainland eats the likes of you: see Brother Aldous first, and come back at level 3.	ちょっと待った。あんたはまだ青二才だし、見たところ獣の落とし物を手にしたこともなさそうだ。大陸はあんたみたいなのを食っちまう：まずオルダス修道士に会って、レベル 3 になったら戻ってきな。
@@ -1528,7 +1528,7 @@ Papers? Let's have a look, then.\He unfolds them, and stops at the seal, and loo
 Thank you, Wim.	ありがとう、ウィム。
 Quest complete: Passage to the Mainland!	クエスト達成：大陸への渡航！
 Step aboard when a boat's in, and a coin's the fare. They leave both piers on the bell.	舟が着いているときに乗り込んで、運賃は硬貨一枚。鐘の合図で両方の桟橋を出るよ。
-Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	海峡を渡る？ まずは書類だ。襲撃があってから、ドリズルポートの衛兵は書類のない島の者をみんな送り返す。それを連れて帰るのはわしなんだ。\前はトバイアスじいさんがいつも書いてくれた。島の名簿をつけていたからね。でもホブゴブリンが来てから誰も見ていない。農場のベスに聞いてみな：あの人の娘だ。
+Cross the strait? Papers first, friend. Since the raids, Drizzleport's guards send back anyone off Muddlesey without papers, and I'm the one who has to bring them home again.\Old Tobias always wrote them, him keeping Muddlesey's roll, but nobody's seen him since the hobgoblins came. Ask Bess, up at the farm: she's his daughter.	海峡を渡る？ まずは書類だ。襲撃があってから、ドリズルポートの衛兵は書類のないマドルジーの者をみんな送り返す。それを連れて帰るのはわしなんだ。\前はトバイアスじいさんがいつも書いてくれた。マドルジーの名簿をつけていたからね。でもホブゴブリンが来てから誰も見ていない。農場のベスに聞いてみな：あの人の娘だ。
 Quest started: Passage to the Mainland.	クエスト開始：大陸への渡航。
 Got your papers? No? Then no passage, friend. Drizzleport would only send you back, and I'd be the one bringing you. Twice the rowing, and the same fare.	書類はあるか？ ない？ なら渡しは無理だ、友よ。ドリズルポートに送り返されるだけで、連れ戻すのは俺になる。漕ぐのは二倍、運賃は同じだ。
 Fish are biting today! Bait your hook with a worm and anything in the sea will bite.\Once you're handy with a rod, the trout go mad for it.	今日は魚の食いがいい！ 針にミミズをつければ、海のものなら何でも食いつくよ。\竿の扱いに慣れたら、マスが夢中で食いつくぞ。
@@ -1719,7 +1719,7 @@ Mind the jars, dear, mind the jars! A remedy? Oh, it's not a job for someone sti
 I'll come back.	また来ます。
 A visitor! Nobody comes out here but the rabbits.\My fire's dying, and my old bones won't swing an axe. Fetch me five oak logs and I'll give you something for your trouble.\Oaks grow in these woods. You'll need Woodcutting 5.	お客さんだ！ ここまで来るのはウサギくらいなものだ。\火が消えかけているのに、この老骨じゃ斧も振れない。樫の丸太を五本取ってきてくれたら、手間賃に何かあげよう。\樫はこの森に生えている。伐採レベル 5 が必要だ。
 I'll fetch them.	取ってきます。
-His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	彼の野営地は島の西の森にある。樫の木は島じゅうに生えている。
+His camp is in Muddlesey's western woods. Oak trees grow all over Muddlesey.	彼の野営地はマドルジーの西の森にある。樫の木はマドルジーじゅうに生えている。
 Quest started: The Hermit's Fire.	クエスト開始：隠者の火。
 Ahh, good oak. That'll burn all week. Here, take my old staff: it'll put some fire in your spells.\And a secret, for a friend: the standing stones by the south-east shore hide more than moss.	ああ、いい樫だ。これなら一週間燃える。ほら、わしの古い杖を持っていけ：呪文に火がつくぞ。\それと、友への秘密だ：南東の岸辺の立石は、苔以上のものを隠している。
 Quest complete! You receive an oak staff, 25 gold and Woodcutting experience.	クエスト達成！ 樫の杖、金貨 25 枚、伐採の経験を得た。
@@ -1802,7 +1802,7 @@ Drink, friend. The well belongs to whoever is thirsty, and the drakes don't agre
 Baa! Ha, sorry - you talk to sheep all day, you start sounding like one.\Mind you don't spook them. If you're after wool, they'll let you shear them if you're gentle.	メェー！ はは、ごめん――一日じゅう羊に話しかけてると、羊みたいな声になっちゃうんだ。\驚かせないようにね。羊毛がほしいなら、優しくすれば毛を刈らせてくれるよ。
 How do I shear a sheep?	羊の毛はどうやって刈るのですか？
 Use shears on one - the tinker in Puddleford sells them, or a shop will. Then spin the wool at a spinning wheel, or sell it to a weaver.	羊に鋏を使うんだ――パドルフォードの鋳掛け屋が売ってるし、店にもある。それから糸車で羊毛を紡ぐか、織物職人に売るといい。
-Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	島の店へようこそ！ 島にはほとんどお金がないから、みんなが欠かせないものを置いているよ。道具、餌、ちょっとした食べ物：ここで要るのはそれさ。
+Welcome to Muddlesey Store! There's precious little money on Muddlesey, so I keep what folk can't do without. Tools, bait and a bite to eat: that's what folk need here.	マドルジーの店へようこそ！ マドルジーにはほとんどお金がないから、みんなが欠かせないものを置いているよ。道具、餌、ちょっとした食べ物：ここで要るのはそれさ。
 A jester needs a king, and a king needs a kingdom, and I needed a job.\So I walk about. What'll it be, $Player.Lord or commoner?	道化には王が要り、王には王国が要り、わしには仕事が要った。\だからうろついているのさ。何にする、$Player.Lord、それとも平民殿？
 Tell me a joke.	冗談を言って。
 A riddle, then.	じゃあ、なぞなぞを。
@@ -1908,7 +1908,7 @@ Quest started: A Golem's Worth of Trouble.	クエスト開始：ゴーレムひ�
 Still 4 to go, by my count. $Attr.GolemQuest_Count done.	私の数えでは、まだあと 4 よ。$Attr.GolemQuest_Count 片づいたわ。
 Quest complete: A Golem's Worth of Trouble.	クエスト達成：ゴーレムひと山分の厄介事。
 Splendid! And quite safe, now. Mostly.	すばらしい！ これでもう安全よ。まあ、だいたいはね。
-Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	ドリズルポートはおおむね静かなところだよ。渡し船が島から人を運んできて、夜明けには魚が揚がる。
+Drizzleport's a quiet place, mostly. The ferry brings folk over from Muddlesey, and the fish come in at dawn.	ドリズルポートはおおむね静かなところだよ。渡し船がマドルジーから人を運んできて、夜明けには魚が揚がる。
 Ha. Thanks.	はは。ありがとう。
 Heading inland? Puddleford's east of here. Mind the woods to the south: wolves, and worse past the old mine.	内陸へ向かうのかい？ パドルフォードはここの東だ。南の森には気をつけな：オオカミがいるし、古い鉱山の先にはもっとひどいのがいる。
 My uncle went down the Shifting Deep once. Came back up through a different hole. Different county, too.	おじが一度、移ろう深淵に降りていったんだ。違う穴から上がってきた。違う郡にな。
@@ -1926,7 +1926,7 @@ Three logs, dear. Chop a tree with the axe I gave you. Logs, mind: not twigs, an
 I'll keep chopping.	続けて切ります。
 An egg from Bess's coop, fried on my range upstairs, and then it's for Edwin. He'll be so pleased. He'll pretend not to be, but he will.	ベスの小屋の卵を、上の階の私のかまどで焼いて、それからエドウィンに。きっと喜ぶわ。喜んでないふりをするけど、喜ぶの。
 I'll see to it.	やっておきます。
-Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	入って。島で具合の悪い人はみんなあのベッドに来て、私はできることをするの。たいていは良くなる。そうでない人はアルダス修道士のところへ。\エドウィンは窓ぎわに机を置いている：遺言書や証書なんかね。私たち二人で、人生まるごと面倒を見ているの。
+Come in, dear. Anyone on Muddlesey who's poorly ends up on that bed, and I do what I can for them. Most of them get better. The rest get Brother Aldous.\Edwin has his desk by the window: wills and deeds and the like. Between the two of us, we've the whole of life covered.	入って。マドルジーで具合の悪い人はみんなあのベッドに来て、私はできることをするの。たいていは良くなる。そうでない人はアルダス修道士のところへ。\エドウィンは窓ぎわに机を置いている：遺言書や証書なんかね。私たち二人で、人生まるごと面倒を見ているの。
 How is your father?	お父さんの具合はどうですか？
 Home, and safe, and eating us out of house and home! Third helpings, every night. I can't ever thank you enough.\Only please don't rescue anyone else for a while.	家に帰って、無事で、うちの食べ物を食べ尽くしてる！ 毎晩おかわり三杯。どんなに感謝してもしきれないわ。\ただ、しばらくは誰も助けないでちょうだい。
 I'm glad.	よかった。
@@ -1974,7 +1974,7 @@ What's wool for?	羊毛は何に使うのですか？
 How do I get to the mainland?	大陸へはどうやって行くのですか？
 Spin it into balls of wool on a workbench, there's one in the barn. Cowhide can be tanned into leather there too. Not from a cow that's still using it, mind.	作業台で毛糸玉に紡いでね、納屋に一台あるから。牛革もそこでなめして革にできる。まだ牛が使っている革はだめよ。
 Thanks!	ありがとう！
-The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	本土？ ウィムの渡し舟が桟橋から出ているけど、書類がないと乗せてくれないの：襲撃があってから、ドリズルポートは書類のない島の者をみんな送り返すのよ。\島の書類はずっと父さんが書いてきた。私が生まれる前から名簿をつけているの。でもホブゴブリンに連れていかれて、それきり誰も見ていない。父さんの家は村の古いれんが造りので、鍵がかかっていて、鍵もやつらに取られた。礼拝堂の下の洞窟にねぐらがあるって話よ。\かわいそうに。きっとあいつらに膝の話ばかりしてるわ。
+The mainland? Wim's ferry crosses from the pier, love, but he'll not take you without papers: since the raids, Drizzleport sends back anyone off Muddlesey who hasn't any.\Father always wrote Muddlesey's papers. He's kept its roll since before I was born. But the hobgoblins took him, and nobody's seen him since. His house is the old brick one in the village, locked up, and they took his keys too. They've a lair in the caves under the chapel, they say.\Poor things. He'll be telling them all about his knees.	本土？ ウィムの渡し舟が桟橋から出ているけど、書類がないと乗せてくれないの：襲撃があってから、ドリズルポートは書類のないマドルジーの者をみんな送り返すのよ。\マドルジーの書類はずっと父さんが書いてきた。私が生まれる前から名簿をつけているの。でもホブゴブリンに連れていかれて、それきり誰も見ていない。父さんの家は村の古いれんが造りので、鍵がかかっていて、鍵もやつらに取られた。礼拝堂の下の洞窟にねぐらがあるって話よ。\かわいそうに。きっとあいつらに膝の話ばかりしてるわ。
 I'll find him.	見つけます。
 And you'll not go near hobgoblins with your bare hands! My Frank's the blacksmith: his smithy's right by my hut. He'll help you make a sword and a shield.\He doesn't say much. Nod a lot, and he'll like you.	それに素手でホブゴブリンに近づくなんてだめよ！ うちのフランクが鍛冶屋なの：鍛冶場は私の小屋のすぐ隣。剣と盾を作るのを手伝ってくれるわ。\あまりしゃべらない人よ。よくうなずいてあげれば、気に入ってもらえる。
 Thank you, Bess.	ありがとう、ベス。
@@ -2059,7 +2059,7 @@ Drizzleport's watch keeps the peace. Keep your sword in its scabbard and we'll g
 Evening. Not many come down the docks this late with nothing to sell.\I don't ask where a thing's been, and I don't remember faces. It costs you a little off the price, that's all.	こんばんは。売る物もないのに、こんな遅くに波止場へ降りてくる者は多くない。\物がどこから来たかは聞かないし、顔も覚えない。値段が少し下がる、それだけのことさ。
 Let's see what you'll give me.	何をくれるか見せてもらおう。
 Welcome to the port of Drizzleport. Mind the ropes.	ドリズルポートの港へようこそ。綱に気をつけて。
-Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	島の渡し船から来たのか？ では書類を。\彼は書類を広げ、封印のところで動きを止める。\これは古い王家の印だ。王妃が姿を消した十八年前から一度も見ていない：ガライスが閉ざされた年だ。峠に光の壁が立ち、その向こうにドラゴンがいる。障壁が崩れるまで、ドリズルポートの市庁舎が今のブランブルトンの議会なんだ。\桟橋の軍曹が扱うような話じゃない。市庁舎の議長のところへ持っていけ。肌身離さずにな。
+Off Muddlesey ferry? Papers, then.\He unfolds them, and goes still at the seal.\That's the old royal seal. I've not seen one since the Queen vanished, eighteen years back: the year Galaith was shut, a wall of light across the pass and a dragon behind it. Drizzleport's City Hall is Brambleton's Parliament now, till the barrier falls.\This is no business for a sergeant on a pier. Take them to the Speaker, at the City Hall, and keep them close.	マドルジーの渡し船から来たのか？ では書類を。\彼は書類を広げ、封印のところで動きを止める。\これは古い王家の印だ。王妃が姿を消した十八年前から一度も見ていない：ガライスが閉ざされた年だ。峠に光の壁が立ち、その向こうにドラゴンがいる。障壁が崩れるまで、ドリズルポートの市庁舎が今のブランブルトンの議会なんだ。\桟橋の軍曹が扱うような話じゃない。市庁舎の議長のところへ持っていけ。肌身離さずにな。
 I'll go to the City Hall.	市庁舎へ行きます。
 Welcome to Drizzleport, the capital of Brambleton. For now, anyway.\Galaith's been shut these eighteen years: a wall of light across the pass, and a dragon behind it. So the city hall here is the Parliament, till the barrier falls.\Business in Galaith, you say? Then the City Hall's where you ask. They say it was sealed the very year the Queen vanished.	ブランブルトンの都、ドリズルポートへようこそ。とりあえず、今のところはね。\ガライスはこの十八年閉ざされている：峠に光の壁が立ち、その向こうにドラゴンがいる。だから障壁が崩れるまで、ここの市庁舎が議会なんだ。\ガライスに用があるって？ なら尋ねるのは市庁舎だ。王妃が姿を消したまさにその年に封じられたそうだよ。
 Quest started: The Temporary Capital.	クエスト開始：仮の都。
@@ -2304,7 +2304,7 @@ They tell me the dragon is dead, and that the one who killed it asks to see me.\
 Show him the amulet.	彼にアミュレットを見せる。
 That amulet... where did you get that? I gave it to my wife, the night before... the night she ran.	そのアミュレット……どこで手に入れた？ 私が妻に贈ったものだ、あの前の晩に……彼女が逃げた晩の。
 Tell him of Mary's will.	メアリーの遺言書のことを話す。
-My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	母メアリーは、私を育てた島で亡くなりました。最後の遺言が、私が何者なのかを教えてくれました。母はあなたのもとに帰り、自分の死を伝えてほしいと私に頼みました。\そして、決してあなたを愛することをやめなかったと伝えてほしいと。
+My mother, Mary, died on Muddlesey, where she raised me. Her last will told me who I am. She asked me to come home to you and tell you of her death.\And to tell you she never stopped loving you.	母メアリーは、私を育てたマドルジーで亡くなりました。最後の遺言が、私が何者なのかを教えてくれました。母はあなたのもとに帰り、自分の死を伝えてほしいと私に頼みました。\そして、決してあなたを愛することをやめなかったと伝えてほしいと。
 The King comes down from his throne, and holds you, and weeps.	王は玉座から降りてきて、あなたを抱きしめ、涙を流す。
 Mary. My Mary. She took you away so the dragon couldn't have you, and I let them call it a betrayal. Eighteen years.\My $Player.Son. My $Player.Son.	メアリー。私のメアリー。ドラゴンに渡さないためにお前を連れ去ったのに、私はそれを裏切りと呼ばせてしまった。十八年も。\私の $Player.Son。私の $Player.Son。
 Father.	父上。
@@ -2509,7 +2509,7 @@ Thank you, Tobias.	ありがとう、トバイアス。
 Quest complete: Tobias's Tin!	クエスト達成：トバイアスの缶！
 Low and soft, and out of the way they're looking. The chest's by their fire, in the camp south-east of the village.	低く静かに、やつらの見ている方向に入らずに。箱はやつらの火のそば、村の南東の野営地にある。
 There's my rescuer! Maren's feeding me up like a Midsummer goose. Edwin's taken to locking the pantry.\The house is yours, mind: I'll not go back, not with those brutes so near it. Keep it well.	わしの救い主だ！ マレンが夏至祭のガチョウみたいにわしに食べさせているよ。エドウィンは食料庫に鍵をかけるようになった。\家はあんたのものだ、いいな：わしは戻らん、あの乱暴者どもがあんなに近くにいてはな。大事にしてくれ。
-Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	どれどれ.. 「島の書類を書く老人」。わしのことだ。だからわしを連れ去ったのか！ 毎晩、でかいのがメアリーの書類はどこだと聞いてきた。わしは一度も言わなかった。\それに灰の手形。北にはそうやって署名する連中がいる：灰の手と名乗っている。エルダーウッドの向こうの火を崇める者たちだ。ひどい連中だよ。足も拭かん。\そんな連中があんたのお母さんに、あるいはあんたに何の用がある？ それは取っておきなさい。向こうでは目を開けておくことだ。
+Let's see.. 'the old man who writes Muddlesey's papers'. That's me. So that's why they took me! Every night the big one asked me where Mary's papers were. I never told them.\And a hand in ash. There's folk in the north who sign that way: the Ashen Hand, they call themselves. Fire-worshippers, up past the Elderwood. Dreadful people. Never wipe their feet.\What would the likes of them want with your mother? Or with you? Keep that, and keep your eyes open over there.	どれどれ.. 「マドルジーの書類を書く老人」。わしのことだ。だからわしを連れ去ったのか！ 毎晩、でかいのがメアリーの書類はどこだと聞いてきた。わしは一度も言わなかった。\それに灰の手形。北にはそうやって署名する連中がいる：灰の手と名乗っている。エルダーウッドの向こうの火を崇める者たちだ。ひどい連中だよ。足も拭かん。\そんな連中があんたのお母さんに、あるいはあんたに何の用がある？ それは取っておきなさい。向こうでは目を開けておくことだ。
 Halt! Toll. (He holds out a see-through hand.) The road's closed, but the toll stands. I take no coin these days: they fall through. A riddle, then. Answer three, and I'll lift the bar.	止まれ！ 通行料だ。（彼は透けた手を差し出す）道は閉ざされているが、通行料は残っている。近ごろは硬貨は受け取らない：すり抜けて落ちるのでな。では、なぞなぞだ。三つ答えれば、横木を上げよう。
 I'll go round.	回り道をします。
 I have a neck and no head, two arms and no hands. I go out full and come home empty. What am I?	首はあるが頭はない、腕は二本あるが手はない。いっぱいで出かけて、空っぽで帰ってくる。私は何だ？
@@ -2566,11 +2566,11 @@ She peers into the smoke of her brazier for a long time.\'There's a cat in your 
 She peers into the smoke of her brazier for a long time.\'A crown. Heavy. You'll hate it after a week, like everyone does.'	彼女は火鉢の煙を長いあいだのぞき込む。\「王冠。重い。一週間で嫌になる、誰でもそうだけど」
 She peers into the smoke of her brazier for a long time.\'Under the sea, a light that sings. Don't answer it.'	彼女は火鉢の煙を長いあいだのぞき込む。\「海の下に、歌う光。答えてはだめ」
 You haven't five gold.	金貨五枚を持っていない。
-Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	島はいい日だね！ 退屈なら、東の崖の下に穴があるよ。コウモリがいるけど、気をつけて。
+Lovely day on Muddlesey! If you're bored, there's a hole under the cliffs to the east. Bats down there, mind.	マドルジーはいい日だね！ 退屈なら、東の崖の下に穴があるよ。コウモリがいるけど、気をつけて。
 The milkmaid up north keeps cows and sheep. She'll sell you shears if you fancy some wool.\The ferry to the mainland leaves from the pier in the south.	北の乳しぼりの娘が牛と羊を飼っている。羊毛が欲しければ鋏を売ってくれるよ。\大陸への渡し船は南の桟橋から出る。
 There's a ring of old stones by the south-east shore. My granny said never to dig there. So of course I did. Found nothing. Wrong spot, probably.	南東の岸辺に古い石の輪がある。ばあちゃんは決してそこを掘るなと言った。だからもちろん掘った。何も見つからなかった。たぶん場所を間違えたんだ。
 An old watchtower stands in ruins by the sea in the north-east. The wolves have it now.	北東の海辺に古い見張り塔の廃墟がある。今はオオカミのものだ。
-A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	西の森に隠者が住んでいる。変わり者だが、島の木は一本残らず知っている。
+A hermit lives in the western woods. Odd fellow, but he knows every tree on Muddlesey.	西の森に隠者が住んでいる。変わり者だが、マドルジーの木は一本残らず知っている。
 Don't go near the graveyard in the east after dark. Or before dark. Just don't.	暗くなってから東の墓地に近づくな。暗くなる前もだ。とにかく近づくな。
 Fresh bread at the bakery, tools at the general store, and the smithy has a furnace if you've ore to smelt.	パン屋には焼きたてのパン、雑貨店には道具、鍛冶場には製錬する鉱石があるなら炉がある。
 Watch out for wolves in the Whispering Woods. And goblins. And hobgoblins. Honestly, I never leave the village.	ささやきの森のオオカミには気をつけな。それとゴブリン。それとホブゴブリン。正直、私は村から一歩も出ないよ。
@@ -2731,7 +2731,7 @@ The chapel bell tolls for Mary. The last of the mourners lay their flowers on he
 She was a good woman, your mother. Kind to all of us, and never a word about herself.\Beat me at cards every Sunday for sixteen years. I never did find out how.	よい人だったよ、お母さんは。みんなに優しくて、自分のことは一言も話さなかった。\十六年間、毎週日曜にカードでわしを負かした。どうやっていたのか、とうとうわからなかった。
 I'm so sorry. Mary was a friend to all of us here.\Come: I'll walk you home. She left something for you, to be given to you alone, in person. Those were her instructions. She underlined them twice.	本当にお気の毒です。メアリーはここのみんなの友人でした。\さあ：家まで送りましょう。あなたに残したものがあります。あなた一人に、直接渡すようにと。それが彼女の指示でした。二重線まで引いてありました。
 Lead the way.	案内してください。
-You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	二人は島を横切って一緒に家へ帰る。エドウィンはときどき何か法律めいたことを言いかけ、思い直す。
+You walk home together across Muddlesey. Edwin starts to say something legal now and then, and thinks better of it.	二人はマドルジーを横切って一緒に家へ帰る。エドウィンはときどき何か法律めいたことを言いかけ、思い直す。
 Your mother entrusted me with her last will and testament. She told me never to open this letter, and said you should not read it to anyone. It's her last words to you, and only you.\Thirty years a lawyer, and I've never wanted to read a letter more. I didn't. Let the record show.	お母さんは私に最後の遺言書を託されました。この手紙は決して開けないようにと私に言い、あなたも誰かに読み聞かせてはいけないと言いました。これはあなたへの、あなただけへの、最後の言葉です。\弁護士を三十年やってきて、これほど手紙を読みたいと思ったことはありません。読みませんでした。記録に残してください。
 He lays a letter on the table, sealed with your mother's wax.	彼はテーブルに手紙を置く。お母さんの蝋で封がされている。
 Thank you. If you don't mind, I would like to be left alone to read the letter.	ありがとうございます。よろしければ、一人で手紙を読ませてください。
@@ -2879,10 +2879,10 @@ Ysolde is very faint now, hardly there at all. She smiles at you and says nothin
 You've heard it now. Everybody who touches it does.\The watch is yours, warm one. I'd rest, if I could. There's something I never finished, and I can't think what.	これであなたもそれを聞いた。それに触れる者はみな聞くの。\見張りはあなたのものよ、温かい人。できることなら休みたい。やり残したことがあるのに、それが何だか思い出せない。
 [Quests]
 Bess the milkmaid, on the farm in the north, would know how to get across to the mainland.	北の農場の乳しぼりの娘ベスなら、大陸へ渡る方法を知っているだろう。
-Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	ウィムは書類のない者を島から渡さない。ベスの父トバイアスが書類を書いたが、ホブゴブリンに連れ去られた。村の彼の家には鍵がかかっていて、その鍵はやつらが持っている。
+Wim won't ferry anyone off Muddlesey without papers. Tobias, Bess's father, wrote them, but the hobgoblins took him. His house in the village is locked, and they have its key.	ウィムは書類のない者をマドルジーから渡さない。ベスの父トバイアスが書類を書いたが、ホブゴブリンに連れ去られた。村の彼の家には鍵がかかっていて、その鍵はやつらが持っている。
 Bess's father, Tobias, is locked in a cage in the hobgoblins' lair. Pick its lock to free him. His house key must be in the lair somewhere.	ベスの父トバイアスは、ホブゴブリンの巣で檻に閉じ込められている。錠を開けて彼を助け出そう。家の鍵は巣のどこかにあるはずだ。
 Tobias has given you his house. Unlock it with his key and find what he hid under its floor.	トバイアスが家を譲ってくれた。彼の鍵で開けて、床下に隠したものを探そう。
-Show your papers to Wim the ferryman, on Muddlesey's pier.	島の桟橋で、渡し守のウィムに書類を見せよう。
+Show your papers to Wim the ferryman, on Muddlesey's pier.	マドルジーの桟橋で、渡し守のウィムに書類を見せよう。
 Ask the Herbalist in her cottage on the Puddleford farmlands if she needs a hand.	パドルフォードの農地の小屋に住む薬草師に、手伝いが要らないか聞いてみよう。
 Bring the Herbalist 3 Cave Mushrooms (pick them in the old iron mine) and 2 Spider Silk (dropped by the giant spiders in the mine depths).	薬草師に洞窟キノコ 3 個（古い鉄鉱山で摘む）とクモの糸 2 個（鉱山の深層の大グモが落とす）を持っていこう。
 Find Brokk the dwarf in the Deep Hollow (through the hatch in the hobgoblin warren) and ask if he needs help.	深き洞（ホブゴブリンの巣穴の跳ね上げ戸の先）でドワーフのブロックを見つけ、助けが要るか聞いてみよう。
@@ -2917,7 +2917,7 @@ Speak to Brann the forgemaster in Chillingham, under Frostpeak.	フロストピ�
 Bring Brann 5 coal to light his forge.	ブランの炉に火を入れるため、石炭を 5 つ持っていこう。
 Slay the Frost Troll on the frozen lake east of Chillingham, which smashed Brann's waterwheel.	ブランの水車を壊した、チリンガムの東の凍った湖のフロストトロールを倒そう。
 Bring Brann 2 mithril bars (smelt mithril ore at a furnace).	ブランにミスリルの延べ棒を 2 本持っていこう（炉でミスリル鉱石を製錬する）。
-Find the hermit at his camp in Muddlesey's western woods.	島の西の森にある野営地で隠者を見つけよう。
+Find the hermit at his camp in Muddlesey's western woods.	マドルジーの西の森にある野営地で隠者を見つけよう。
 Bring the hermit 5 oak logs (chop oak trees: Woodcutting 5).	隠者に樫の丸太を 5 本持っていこう（樫の木を切る：木こり 5）。
 Speak to the Druid in Nettlewick, in the Elderwood over the old bridge east of the Greyflats.	グレイフラッツの東の古い橋を渡った先、エルダーウッドのネトルウィックにいるドルイドと話そう。
 Find the Heartwood, the old heart stone of the Elderwood, north-east of Nettlewick, and touch it.	ネトルウィックの北東にある、エルダーウッドの古い心臓石、心木の石を見つけて触れよう。
@@ -2977,7 +2977,7 @@ The Eldest of the Mending is dead. The great Shard is still singing.	繕いの�
 You broke the great Shard. The Mending's scattered, and some of them have gone home.	大いなるシャードを壊した。繕いの会は散り散りになり、何人かは家に帰った。
 You kept a splinter of the great Shard: Mary's Whisper.	大いなるシャードのかけらを一つ手元に残した：メアリーのささやきだ。
 Read the letter your mother left you, on the table in your cottage.	小屋のテーブルの上にある、母が残した手紙を読もう。
-Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	弁護士のエドウィンが夕食に誘ってくれた。彼と妻で島の医者のマレンは、島の北西の海辺にあるレンガの家に住んでいる。
+Edwin the lawyer asked you to dinner. He and his wife Maren, Muddlesey's doctor, live in the brick house in Muddlesey's north-west, by the sea.	弁護士のエドウィンが夕食に誘ってくれた。彼と妻でマドルジーの医者のマレンは、マドルジーの北西の海辺にあるレンガの家に住んでいる。
 Chop 3 logs for Maren's range with the axe she lent you (Chop a tree), and bring them to her.	マレンに借りた斧で、彼女のかまど用に丸太を 3 本切り（木を切る）、持っていこう。
 Take an egg from the hen coop on Bess's farm, in the north, and fry it on Maren's range, upstairs in their house (use the egg on the range).	北のベスの農場の鶏小屋から卵を取り、彼らの家の二階にあるマレンのかまどで焼こう（卵をかまどに使う）。
 Give the fried egg to Edwin, at his house.	目玉焼きを家にいるエドウィンに渡そう。
@@ -3115,7 +3115,7 @@ Delver Maud wants 2 Cave Horror dead.	掘り手モードは洞窟の怪物を 2 
 Done. Go back to Delver Maud.	済んだ。掘り手モードのもとへ戻ろう。
 Your mother's hand has turned up somewhere you didn't expect.	思いがけないところで、母の筆跡が見つかった。
 Your mother left notes, wherever she went. There must be more of them.	母は行く先々に覚え書きを残していた。ほかにもまだあるはずだ。
-Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	七枚の覚え書き。端と端を並べると地図になる。それは島の、静かな何かで終わっている。
+Seven notes, and laid edge to edge they make a map. It ends on Muddlesey, at something still.	七枚の覚え書き。端と端を並べると地図になる。それはマドルジーの、静かな何かで終わっている。
 A fisherwoman at Gull Point, the tip of Puddleford's peninsula, has been pulling glass out of the sea. It glows.	パドルフォードの半島の先端、カモメ岬の漁師の女が、海からガラスを引き上げている。それは光っている。
 Nell Tarrow's nets come up full of glass that glows. Find out where it comes from.	ネル・タロウの網には光るガラスがいっぱいかかる。それがどこから来るのか突き止めよう。
 Under Gull Point, a door of black glass, sealed, a small round hollow in its middle. Tell Nell.	カモメ岬の下に、黒いガラスの扉がある。封じられていて、真ん中に小さな丸いくぼみがある。ネルに伝えよう。
@@ -3482,7 +3482,7 @@ the hovels	あばら家
 the fountain	噴水
 the palace	宮殿
 The strait ferry	海峡の渡し船
-The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	渡し守は首を振る。「まず書類だ、友よ。襲撃があってから、ドリズルポートは書類のない島の者を送り返すんだ。桟橋のウィムが目を通してくれる」
+The ferryman shakes his head. "Papers first, friend. Since the raids, Drizzleport sends back anyone off Muddlesey without them. Wim on the pier will look them over."	渡し守は首を振る。「まず書類だ、友よ。襲撃があってから、ドリズルポートは書類のないマドルジーの者を送り返すんだ。桟橋のウィムが目を通してくれる」
 The ferryman holds up a hand. "You're green as grass yet, and you've never had a beast's leavings in your hands, by the look of you. See Brother Aldous, and come back at level 3."	渡し守は手を上げる。「まだ草みたいに青いな。見たところ、獣の落とし物を手にしたこともないだろう。ブラザー・アルダスに会って、レベル 3 になったら戻ってこい」
 Muddlesey	マドルジー
 Malaria	マラリア
@@ -3598,7 +3598,7 @@ Iron Bar	鉄の延べ棒
 A bar of solid iron. A smith could use this.	硬い鉄の延べ棒。鍛冶師なら使えるだろう。
 Smithing	鍛冶
 Beggar's House Key	物乞いの家の鍵
-An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	古い鉄の鍵：パドルフォードの物乞いが、島の家の鍵をなくしていた。これに違いない。
+An old iron key: the beggar in Puddleford lost the key to his house on Muddlesey. This must be it.	古い鉄の鍵：パドルフォードの物乞いが、マドルジーの家の鍵をなくしていた。これに違いない。
 A key	鍵
 The beggar's	物乞いのもの
 Chef's Hat	料理人の帽子
@@ -3768,7 +3768,7 @@ Villager	村人
 A local, going about their business.	用事で忙しい地元の人。
 A local	地元の人
 Milkmaid	乳しぼりの娘
-The milkmaid, who looks after Muddlesey's cows and sheep.	島の牛と羊の世話をしている乳しぼりの娘。
+The milkmaid, who looks after Muddlesey's cows and sheep.	マドルジーの牛と羊の世話をしている乳しぼりの娘。
 Bess, the milkmaid	乳しぼりの娘ベス
 Fisherman	漁師
 An old fisherman in a yellow oilskin. He smells of the sea.	黄色い油布の合羽を着た年老いた漁師。海の匂いがする。
@@ -4360,14 +4360,14 @@ Chimney Smoke	煙突の煙
 Smoke from the forge. It smells of hot iron and somebody's lunch.	炉の煙。熱い鉄と、誰かの昼ごはんの匂いがする。
 Smoke	煙
 Edwin	エドウィン
-Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	島の弁護士エドウィン。妻のマレンは島の医者だ。
-Edwin, Muddlesey's lawyer	島の弁護士エドウィン
+Edwin, Muddlesey's lawyer. His wife Maren is its doctor.	マドルジーの弁護士エドウィン。妻のマレンはマドルジーの医者だ。
+Edwin, Muddlesey's lawyer	マドルジーの弁護士エドウィン
 Maren	マレン
-Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	エドウィンの妻で島の医者のマレン。妹は乳しぼりの娘ベスだ。
-Maren, Muddlesey's doctor	島の医者マレン
+Maren, Muddlesey's doctor, married to Edwin. Her sister is Bess the milkmaid.	エドウィンの妻でマドルジーの医者のマレン。妹は乳しぼりの娘ベスだ。
+Maren, Muddlesey's doctor	マドルジーの医者マレン
 Frank	フランク
-Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	島の鍛冶屋フランク：ハムのような腕に、ひじまですす。
-Frank, Muddlesey's blacksmith	島の鍛冶屋フランク
+Frank, Muddlesey's blacksmith: arms like hams, and soot to the elbows.	マドルジーの鍛冶屋フランク：ハムのような腕に、ひじまですす。
+Frank, Muddlesey's blacksmith	マドルジーの鍛冶屋フランク
 Tobias, Bess and Maren's father. The hobgoblins kept him in a cage.	ベスとマレンの父トバイアス。ホブゴブリンに檻に入れられていた。
 Tobias, Bess and Maren's father	ベスとマレンの父トバイアス
 Ferryman	渡し守
@@ -5518,29 +5518,29 @@ Today's bounty	今日の賞金首
 Records Board	記録の掲示板
 The hall of records, carved in pale stone and gilded: the names that have done the most in Brambleton.	淡い石に刻まれ金箔を施した記録の殿堂：ブランブルトンで最も多くを成し遂げた者たちの名前。
 The names that have done the most	最も多くを成し遂げた者たちの名前
-Trees all over Muddlesey and the Southlands	島とサウスランドのいたるところの木
+Trees all over Muddlesey and the Southlands	マドルジーとサウスランドのいたるところの木
 Fallen logs lying in the meadows and woods	牧草地や森に倒れている丸太
-Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	島の森、ドリズルポートとパドルフォードの周辺、ささやきの森の樫
-Willows grow by the water: Muddlesey's woods, the shores of the Southlands	柳は水辺に育つ：島の森、サウスランドの岸辺
+Oaks in Muddlesey's woods, around Drizzleport and Puddleford and in the Whispering Woods	マドルジーの森、ドリズルポートとパドルフォードの周辺、ささやきの森の樫
+Willows grow by the water: Muddlesey's woods, the shores of the Southlands	柳は水辺に育つ：マドルジーの森、サウスランドの岸辺
 A few ancient yews deep in the Whispering Woods and the eastern woods	ささやきの森の奥と東の森にある数本の古いイチイ
 Any shore or cave pool	どの岸辺や洞窟の池でも
-The old iron mine, the mine depths, the grotto under Muddlesey and the warren	古い鉄鉱山、鉱山の深層、島の下の洞窟、巣穴
-The cellar grotto under Muddlesey and the old iron mine	島の下の地下洞窟と古い鉄鉱山
-The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	島の下の地下洞窟と古い鉄鉱山。銅鉱石と一緒に製錬すると青銅になる
-The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	島の下の地下洞窟、鉱山の深層、組合の深い鉱脈
+The old iron mine, the mine depths, the grotto under Muddlesey and the warren	古い鉄鉱山、鉱山の深層、マドルジーの下の洞窟、巣穴
+The cellar grotto under Muddlesey and the old iron mine	マドルジーの下の地下洞窟と古い鉄鉱山
+The cellar grotto under Muddlesey and the old iron mine. Smelt it with copper ore for bronze	マドルジーの下の地下洞窟と古い鉄鉱山。銅鉱石と一緒に製錬すると青銅になる
+The cellar grotto under Muddlesey, the mine depths and the guild's deep seam	マドルジーの下の地下洞窟、鉱山の深層、組合の深い鉱脈
 The mine depths, the guild's deep seam and the hobgoblin warren	鉱山の深層、組合の深い鉱脈、ホブゴブリンの巣穴
 The crystal cavern in the Deep Hollow below the hobgoblin warren, and the guild's deep seam in the mine depths (Mining 5 to enter)	ホブゴブリンの巣穴の下の深き洞にある水晶の洞窟、鉱山の深層にある組合の深い鉱脈（入るには採掘 5）
 The crystal cavern in the Deep Hollow, and Brokk's vault	深き洞の水晶の洞窟とブロックの金庫室
 The cave troll's lair in the Deep Hollow and Brokk's vault. Only a steel or mithril pickaxe will break it	深き洞の洞窟トロールの巣とブロックの金庫室。鋼かミスリルのつるはしでしか砕けない
 Damp corners of every cave and mine	あらゆる洞窟や鉱山の湿った隅
-Herb patches in the grass on Muddlesey and in the Southlands	島とサウスランドの草の中の薬草の茂み
+Herb patches in the grass on Muddlesey and in the Southlands	マドルジーとサウスランドの草の中の薬草の茂み
 Loose herbs lying about in the Southlands (they grow back after a while)	サウスランドに落ちている薬草（しばらくするとまた生える）
-Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	島、ドリズルポート周辺、ささやきの森のベリーの茂み
+Berry bushes on Muddlesey, around Drizzleport and in the Whispering Woods	マドルジー、ドリズルポート周辺、ささやきの森のベリーの茂み
 The wheat field on the Puddleford farmlands	パドルフォードの農地の小麦畑
 The cabbage rows on the Puddleford farmlands	パドルフォードの農地のキャベツの畝
-Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	島の農場とパドルフォードの農家のそばの鶏の巣
-The cows on Muddlesey's farm and the Puddleford farmlands	島の農場とパドルフォードの農地の牛
-The sheep on Muddlesey and the Puddleford farmlands	島とパドルフォードの農地の羊
+Hens' nests on Muddlesey's farm and by the Puddleford farmhouse	マドルジーの農場とパドルフォードの農家のそばの鶏の巣
+The cows on Muddlesey's farm and the Puddleford farmlands	マドルジーの農場とパドルフォードの農地の牛
+The sheep on Muddlesey and the Puddleford farmlands	マドルジーとパドルフォードの農地の羊
 Bog myrtle bushes in the Brinebottom	ブラインボトムのヤチヤナギの茂み
 Any sandy beach or the desert (right-click the sand). Smelt it into glass at a furnace, then make empty vials at a workbench	どの砂浜や砂漠でも（砂を右クリック）。炉で溶かしてガラスにし、作業台で空の小瓶を作る
 Sage clumps on the moors, the hills and the downs	荒れ野、丘、丘陵のセージの茂み
@@ -5582,7 +5582,7 @@ Qadir the merchant in Dunerest has lost a whole caravan in the Sunscar. A whole 
 The Frozen Forge	凍った炉
 Brann the forgemaster in Chillingham can't keep his forge lit, and he's not taking it well.	チリンガムの鍛冶頭ブランが、炉の火を保てなくて、だいぶ参ってるよ。
 The Hermit's Fire	隠者の火
-The hermit in Muddlesey's western woods could do with good wood for his fire.	島の西の森の隠者が、たき火用のいい薪を欲しがってるよ。
+The hermit in Muddlesey's western woods could do with good wood for his fire.	マドルジーの西の森の隠者が、たき火用のいい薪を欲しがってるよ。
 The Withering Wood	枯れゆく森
 The druid in Nettlewick says the Elderwood is dying, and nobody listens.	ネトルウィックのドルイドは、エルダーウッドが死にかけてると言うのに、誰も耳を貸さない。
 The Barrow King	塚の王
@@ -7105,12 +7105,12 @@ Frailty	虚弱
 The floor gives way! You fall, and land hard a floor below.	床が抜けた！落ちて、下の階に強く叩きつけられる。
 That's as far as the demo goes: the full game goes on from here.	体験版はここまでです。製品版ではこの先が続きます。
 That's as far as the demo goes: level %d. What you learn from here is kept for the full game.	体験版はここまで、レベル %d までです。ここから学んだことは製品版に引き継がれます。
-Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	体験版で語れる島の物語はここまでです。ドリズルポートへの渡航は製品版でどうぞ。
-Why would hobgoblins raid Muddlesey for your mother's papers?	なぜホブゴブリンが母さんの書類を狙って島を襲ったのか？
+Muddlesey's story is told, as far as the demo goes: the crossing to Drizzleport is the full game's.	体験版で語れるマドルジーの物語はここまでです。ドリズルポートへの渡航は製品版でどうぞ。
+Why would hobgoblins raid Muddlesey for your mother's papers?	なぜホブゴブリンが母さんの書類を狙ってマドルジーを襲ったのか？
 Across the strait: Drizzleport, the mainland's towns and roads, the Wizards' Court, and the rest of the story.	海峡の向こうには、ドリズルポート、大陸の町や街道、魔術師院、そして物語の続きがあります。
 A Friend Pass: someone here has the full game, so it's yours too while they're in the game.	フレンドパス：ここにいる誰かが製品版を持っているので、その人がゲームにいる間はあなたも遊べます。
-Nobody here has the full game now: back to Muddlesey in %d seconds.	今ここに製品版を持っている人がいません。%d 秒後に島へ戻ります。
-Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	今ここに製品版を持っている人がいません。体験版に戻りました。島とレベル %d までです。
+Nobody here has the full game now: back to Muddlesey in %d seconds.	今ここに製品版を持っている人がいません。%d 秒後にマドルジーへ戻ります。
+Nobody here has the full game now: you're back in the demo, Muddlesey and level %d.	今ここに製品版を持っている人がいません。体験版に戻りました。マドルジーとレベル %d までです。
 Your mother's papers, under a crowned seal	王冠の封印がされた、母さんの書類
 An order for her papers and her child's name, signed with a hand pressed in ash	母さんの書類と子どもの名を求める命令書。灰に押した手で署名されている
 A miniature from where only a cat could go: a crowned man, a baby in his arms	猫しか行けない場所にあった細密画。冠をかぶった男が赤ん坊を抱いている
@@ -8582,7 +8582,7 @@ not begun	未着手
 The full game is bought once, from the start screen, for your Hallisium account: then it's yours	製品版は開始画面から Hallisium アカウントで一度買えば、あなたのものです。
 in the app and in a browser too, and your character keeps everything they've done.	アプリでもブラウザーでも遊べ、キャラクターはそれまでのすべてを引き継ぎます。
 The demo	体験版
-That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	体験版はここまでです。製品版ではこの先、島を越えて
+That's as far as the demo goes: the full game goes on from here, past Muddlesey to the	体験版はここまでです。製品版ではこの先、マドルジーを越えて
 mainland, its towns and the rest of the story.	大陸へ、その町々と物語の続きへと進みます。
 That's level {1}, as far as the demo goes. What you learn from here is kept,	体験版はここまで、レベル {1} までです。ここから学んだことは保存され、
 and counts as soon as you have the full game.	製品版を手に入れればすぐに反映されます。
@@ -8614,7 +8614,7 @@ Bring a character from a file	ファイルからキャラクターを連れて�
 Signed in as {1}	{1}としてサインイン中
 Playing without a Hallisium account: your characters here are this device's.	Hallisium アカウントなしでプレイ中：ここのキャラクターはこの端末のものです。
 Play as {1}	{1}でプレイ
-Level {1} · Demo: Muddlesey, level {2}	レベル {1} · 体験版：島、レベル {2} まで
+Level {1} · Demo: Muddlesey, level {2}	レベル {1} · 体験版：マドルジー、レベル {2} まで
 Level {1}	レベル {1}
 Copy to device	端末にコピー
 Copy {1} to your own device. The copy can't come back to this server.	{1}を自分の端末にコピーします。コピーはこのサーバーに戻ってこられません。
@@ -8788,8 +8788,8 @@ Your {1} level is now {2}!	{1}のレベルが {2} になった！
 Online {1}/{2}: {3}	オンライン {1}/{2}：{3}
 PvP here	ここは PvP 可
 Safe here	ここは安全
-Demo: Muddlesey, level {1}	体験版：島、レベル {1} まで
-Friend Pass: back to Muddlesey in {1}s	フレンドパス：{1} 秒後に島へ戻る
+Demo: Muddlesey, level {1}	体験版：マドルジー、レベル {1} まで
+Friend Pass: back to Muddlesey in {1}s	フレンドパス：{1} 秒後にマドルジーへ戻る
 Friend Pass: {1}'s game	フレンドパス：{1}のゲーム
 Friend Pass	フレンドパス
 ARENA - other players can fight you here	闘技場 - ここではほかのプレイヤーに襲われることがある
@@ -8946,7 +8946,7 @@ Save skills	スキルを保存
 Rewards	報酬
 The end of the demo	体験版の終わり
 Wim looks your papers over and nods you aboard. Across the strait, Drizzleport's roofs catch the light.	ウィムがあなたの書類に目を通し、うなずいて船に乗せてくれる。海峡の向こうで、ドリズルポートの屋根が光を受けている。
-What Muddlesey gave you	島で手に入れたもの
+What Muddlesey gave you	マドルジーで手に入れたもの
 What's left to ask	まだ問うべきこと
 Until then	それまでは
 [Home]
@@ -9027,7 +9027,7 @@ Tick that you agree to the terms and the privacy policy first.	先に利用規�
 The browser wouldn't go full screen.	ブラウザーが全画面になりませんでした。
 What every game you join starts with. A game's own Options change them there.	参加するすべてのゲームの初期設定です。各ゲームのオプションでそこだけ変えられます。
 The full game: yours ({1}).	製品版：あなたのもの（{1}）。
-The demo: Muddlesey, up to level {1}.	体験版：島、レベル {1} まで。
+The demo: Muddlesey, up to level {1}.	体験版：マドルジー、レベル {1} まで。
 Waiting for you to confirm {1}: the link's in that inbox.	{1}の確認を待っています。リンクはその受信箱にあります。
 Until then a code goes to {1}.	それまではコードが{1}に届きます。
 You can join games once it's confirmed.	確認されるとゲームに参加できます。
@@ -9054,7 +9054,7 @@ Epic	Epic
 Asking Steam...	Steam に問い合わせています...
 Shards of Ashen is bought once,	Shards of Ashen は一度買えば、
 on Steam, itch.io or Epic, and played from there: start it from Steam, signed in to the account that bought it.	Steam、itch.io、Epic で遊べます。購入したアカウントでサインインして Steam から起動してください。
-The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	体験版：島、レベル {1} まで。製品版では大陸と物語の続きへ進みます。
+The demo: Muddlesey, up to level {1}. The full game goes on to the mainland and the rest of the story.	体験版：マドルジー、レベル {1} まで。製品版では大陸と物語の続きへ進みます。
 It's bought once, for your Hallisium account: then it's yours everywhere, the Android app too.	Hallisium アカウントで一度買えば、Android アプリを含め、どこでもあなたのものです。
 Buy it with your account's email, then come back here.	アカウントのメールで購入してから、ここに戻ってきてください。
 Log in first, to have it on your account.	アカウントに付けるため、先にログインしてください。
