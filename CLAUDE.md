@@ -123,10 +123,13 @@ Write long output to a log in the scratchpad, not the conversation, and read onl
    touch viewport with `?app=android`).
 6. Commit to `main` with a message saying what changed for players, then push. Deployment (Docker on Unraid,
    `ghcr.io/kriscs1/heir-apparently`) builds from GitHub.
+7. **Always check the push's builds succeeded** (the server image, the Android and desktop apps): `gh run list -L 3`,
+   then wait on each with `gh run watch <id> --exit-status` (in the background: the image takes about 13 minutes). A
+   failed build is read (`gh run view <id> --log-failed`), fixed and pushed again; the task isn't done till all pass.
 
-A commit of docs only (no code, data, maps or art) needs neither step 1 nor 2.
+A commit of docs only (no code, data, maps or art) needs neither step 1 nor 2 (its builds are still checked).
 
 ## Reporting
 
 End a task with a short report: what changed (for players, and the files), what was tested and how it came out (passed,
-failed, skipped, with any failure's message), anything outstanding, and whether it's committed and pushed. No more.
+failed, skipped, with any failure's message), anything outstanding, and whether it's committed and pushed and its builds passed. No more.
