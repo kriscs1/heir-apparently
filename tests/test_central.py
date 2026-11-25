@@ -575,9 +575,9 @@ def test_a_new_account_with_an_email_is_welcomed(tmp_path, monkeypatch):
         finally:
             await crunner.cleanup()
     asyncio.run(go())
-    monkeypatch.setenv("DS_SMTP_FROM", "Heir Apparently <heir-apparently@hallisium.com>")
+    monkeypatch.setenv("DS_SMTP_FROM", "Heir Apparently <heirapparently@hallisium.com>")
     msg = mail.message("you@example.com", "A subject", "Words.\n")
-    assert msg["From"] == "Heir Apparently <heir-apparently@hallisium.com>" and msg["Date"]
+    assert msg["From"] == "Heir Apparently <heirapparently@hallisium.com>" and msg["Date"]
     assert msg["Message-ID"].endswith("@hallisium.com>")
 
 

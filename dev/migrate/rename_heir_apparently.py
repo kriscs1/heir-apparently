@@ -3,7 +3,7 @@ every language, the docs, and the names in its workings:
 
   * the GitHub repository is kriscs1/heir-apparently (a new one, with the whole history), the Docker image
     ghcr.io/kriscs1/heir-apparently, the compose projects, folders, systemd unit and Unraid template heir-apparently
-    (HeirApparently), the central server https://heir-apparently.hallisium.com;
+    (HeirApparently), the central server https://heirapparently.hallisium.com;
   * the Android app is io.github.kriscs1.heirapparently (a new app), the games on the network answer as
     "heirapparently", and the desktop app's Steam identity is "heirapparently";
   * the editor is "Heir Apparently Editor.py".
@@ -31,7 +31,7 @@ TEXT = (".py", ".md", ".txt", ".script", ".map", ".ini", ".js", ".html", ".css",
         ".gradle", ".properties", ".bat", ".service", ".env", ".json", ".toml", ".cfg", ".sh", ".example",
         ".webmanifest", "Caddyfile", "Dockerfile")
 SUBS = [   # (pattern, replacement), the specific first
-    (r"shardsofashen(\.hallisium\.com|@hallisium\.com)", r"heir-apparently\1"),
+    (r"shardsofashen(\.hallisium\.com|@hallisium\.com)", r"heirapparently\1"),
     (r"(kriscs1|<you>|yourname|\}\}|packages/container|pkgs/container)/shardsofashen", r"\1/heir-apparently"),
     (r"\(e\.g\. shardsofashen\)", "(e.g. heir-apparently)"),
     (r"io\.github\.kriscs1\.shardsofashen", "io.github.kriscs1.heirapparently"),

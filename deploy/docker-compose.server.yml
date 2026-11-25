@@ -11,7 +11,7 @@
 #                     on the server (e.g. /srv/heir-apparently) or a Docker volume's name (gamedata, the default)
 #   DS_ADMINS         Hallisium accounts whose characters get the Admin button, comma-separated: DS_ADMINS=Kris,Ann
 #                     (the central server proves them, so it needs DS_CENTRAL)
-#   DS_CENTRAL        the central server, for signing in by Hallisium accounts: DS_CENTRAL=https://heir-apparently.hallisium.com
+#   DS_CENTRAL        the central server, for signing in by Hallisium accounts: DS_CENTRAL=https://heirapparently.hallisium.com
 #   DS_PUBLIC_URL     the address players outside your network use (blank: where it calls the central server from)
 #   DS_TRUST_PROXY    1 if players come through a reverse proxy, so those on your own network still count as on it:
 #                     without it, anyone coming through the proxy needs a Hallisium account

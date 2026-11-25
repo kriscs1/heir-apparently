@@ -757,7 +757,7 @@ that isn't in the game.
   `ghcr.io/kriscs1/heir-apparently`, the folders, compose projects and Unraid template `heir-apparently`. The Python
   package `ashen/` and the database `ashen.db` keep the cult's word (an old `dragonsword.db` beside it is moved over as
   the server starts). The Android app is `io.github.kriscs1.heirapparently`, the editor "Heir Apparently Editor.py";
-  the central server `https://heir-apparently.hallisium.com`. Not renamed: the weapon (the
+  the central server `https://heirapparently.hallisium.com`. Not renamed: the weapon (the
   Dragon Sword, `Dragon_Sword`) or `dsengine/`, `dsedit/` and the `DS_` settings. The builders keep `estforlan` in their
   file names. Drizzleport's Ids, scripts, shardstone and builders' town key are Drizzleport too (`Drizzleport_Square`,
   `Waystone.Drizzleport`: `dev/migrate/rename_northport.py`; a save's `Waystone.Southport` is read as Drizzleport's,
@@ -962,7 +962,7 @@ that isn't in the game.
   the Android app's `DSApp.signedIn` for its autofill, and the form taken off the page, never its password emptied
   first, which is how Firefox, Safari and the rest know it worked).
   Joining takes a ticket from the central server made out to that server's id. **The central server is
-  `https://heir-apparently.hallisium.com`** (`web/home/config.js`, a cloud server's `DS_CENTRAL`); `deploy/central-setup.sh`
+  `https://heirapparently.hallisium.com`** (`web/home/config.js`, a cloud server's `DS_CENTRAL`); `deploy/central-setup.sh`
   sets one up on a VM in one line.
 - **No ads, anywhere** (the owner's decision, 14 November 2026): not on the start screen, in a game, in a browser or
   in either app; no ad SDK in the Android app (no AdMob, no advertising ID), no AdSense, no house ads, nothing paid

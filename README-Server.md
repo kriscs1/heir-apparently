@@ -258,7 +258,7 @@ public.)
 **A server from before the rename** (a ShardsOfAshen container, `ghcr.io/kriscs1/shardsofashen`) gets no more updates.
 Make a new container from the template below, and to keep its world, point **Game data** at the old folder
 (`/mnt/user/appdata/shards-of-ashen`), or copy that folder's files into the new one first; copy its Admins, Central
-server (now `https://heir-apparently.hallisium.com`) and the rest across too. Stop the old container before you start
+server (now `https://heirapparently.hallisium.com`) and the rest across too. Stop the old container before you start
 the new one (they want the same port), then remove it (its data stays).
 
 1. **Add the template.** Open Unraid's **Terminal** (the `>_` icon at the top right) and paste:
@@ -275,7 +275,7 @@ the new one (they want the same port), then remove it (its data stays).
    - **Game data** (`/mnt/user/appdata/heir-apparently`): where accounts, characters, the world and the daily backups
      are kept. Point it at another share if you like.
    - **Admins**: Hallisium accounts whose characters get the Admin button, comma-separated (e.g. `Kris,Ann`).
-   - **Central server** (`https://heir-apparently.hallisium.com`): players sign in by their Hallisium accounts, and it proves your
+   - **Central server** (`https://heirapparently.hallisium.com`): players sign in by their Hallisium accounts, and it proves your
      Admins. Blank: no accounts here, only each device's own characters.
      With one, this is a remote server: it's listed for everyone once it's approved on the central server's admin page,
      and everyone needs a Hallisium account, even on your own network. It isn't found on the network.
@@ -383,7 +383,7 @@ One central server serves the whole game. Every version's start screen connects 
 desktop app, and a browser, which gets the start screen from it): players have one account there for every game, it
 and it lists the remote game servers (each announces itself to it). There are no ads, anywhere.
 
-- **The game's own** is `https://heir-apparently.hallisium.com`: the apps' start screen (`web/home/config.js`) and a cloud
+- **The game's own** is `https://heirapparently.hallisium.com`: the apps' start screen (`web/home/config.js`) and a cloud
   server's `.env` (`deploy/cloud.env.example`) point there already.
 - **What it is**: `central/` (standard library and aiohttp, like the game server), run from the same image as
   `python -m central` on port 8490, behind Caddy for HTTPS, with an updater (`deploy/docker-compose.central.yml`). It
